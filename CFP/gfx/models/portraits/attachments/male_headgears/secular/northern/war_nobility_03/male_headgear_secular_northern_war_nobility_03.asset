@@ -1,0 +1,23 @@
+pdxmesh = {
+	name = "male_headgear_secular_northern_war_nobility_03_mesh"
+	file = "male_headgear_secular_northern_war_nobility_03.mesh"
+
+	blend_shape = { id = "male_headgear_secular_northern_war_nobility_03_bs_old"		type = "male_headgear_secular_northern_war_nobility_03_bs_old.mesh" }
+
+	meshsettings = {
+		name = "Viking_Helmet_01_Shape"
+		index = 0
+		texture_diffuse = "Viking_Helmet_01_diffuse.dds"
+		texture_normal = "Viking_Helmet_01_normal.dds"
+		texture_specular = "Viking_Helmet_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_northern_war_nobility_03_entity"
+	pdxmesh = "male_headgear_secular_northern_war_nobility_03_mesh"
+
+	attribute = { name = "bs_old_1"								blend_shape = "male_headgear_secular_northern_war_nobility_03_bs_old" }
+}

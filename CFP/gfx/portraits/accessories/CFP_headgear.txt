@@ -1,0 +1,24 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+	#set_tags = "no_hair"
+	#set_tags = "no_beard"
+	#set_tags = "crown"
+	#set_tags = "cap"
+	#set_tags = "hat"
+	#set_tags = "hood_beard"
+	#set_tags = "cap_02"
+	#set_tags = "helmet"
+	#set_tags = "headdress"
+	#set_tags = "cap,cap_02"
+	#set_tags = "aventail"
+
+male_headgear_secular_northern_war_nobility_02 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nobility_02_entity 	 }		
+}
+
+male_headgear_secular_northern_war_nobility_03 = {
+	set_tags = "cap"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nobility_03_entity 	 }		
+}
