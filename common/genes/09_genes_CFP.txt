@@ -1,0 +1,44 @@
+﻿
+special_genes = {
+
+accessory_genes = {
+
+	headgear = {
+
+		northern_war = {
+			index = 32
+			male = {
+				1 = male_headgear_secular_northern_war_nobility_01
+				1 = male_headgear_secular_northern_war_nobility_02
+				1 = male_headgear_secular_northern_war_nobility_03
+			
+				}
+			female = {
+				1 = female_headgear_secular_northern_war_nobility_01
+				1 = female_headgear_secular_northern_war_nobility_02
+				1 = female_headgear_secular_northern_war_nobility_03
+				
+			}
+			boy = male
+            girl = female
+		}
+		
+		northern_common = {
+			index = 33
+			male = {
+				1 = empty
+				1 = male_headgear_secular_northern_common_01
+				
+			}
+			female = {
+				10 = empty
+				2 = female_headgear_secular_northern_common_01
+				
+			}
+		}
+
+	}
+
+}
+
+}
