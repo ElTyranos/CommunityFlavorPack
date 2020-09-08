@@ -1,0 +1,30 @@
+pdxmesh = {
+	name = "male_headgear_secular_northern_war_viking_02_mesh"
+	file = "male_headgear_secular_northern_war_viking_02.mesh"
+
+	blend_shape = { id = "male_headgear_secular_northern_war_viking_02_bs_old"		type = "male_headgear_secular_northern_war_viking_02_bs_old.mesh" }
+
+	meshsettings = {
+		name = "male_headgear_secular_northern_war_viking_02Shape"
+		index = 0
+		texture_diffuse = "Viking_Helmet_02_diffuse.dds"
+		texture_normal = "Viking_Helmet_02_normal.dds"
+		texture_specular = "Viking_Helmet_02_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_northern_war_viking_02_entity"
+	pdxmesh = "male_headgear_secular_northern_war_viking_02_mesh"
+
+	attribute = { name = "bs_old_1"								blend_shape = "male_headgear_secular_northern_war_viking_02_bs_old" }
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/northern/war_nobility_02/male_headgear_secular_northern_war_nobility_02_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "western_common_01"	#A "variation" object in gfx/portraits/accessory_variations/
+}
+}
+}

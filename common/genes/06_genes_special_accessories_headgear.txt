@@ -470,14 +470,14 @@ accessory_genes = {
 				1 = male_headgear_secular_northern_war_nobility_01
 				1 = male_headgear_secular_northern_war_nobility_02
 				1 = male_headgear_secular_northern_war_viking_01
-nobility_03
+				1 = male_headgear_secular_northern_war_viking_02
 			
 				}
 			female = {
 				1 = female_headgear_secular_northern_war_nobility_01
 				1 = female_headgear_secular_northern_war_nobility_02
 				1 = female_headgear_secular_northern_war_viking_01
-nobility_03
+				1 = female_headgear_secular_northern_war_viking_02
 				
 			}
 			boy = male
