@@ -9,10 +9,10 @@ Community Flavor Pack aims to add a lot of historical portrait accessories for y
 ## [Download on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2220098919)
 
 ## Useful links
-[Issue report](https://forum.paradoxplaza.com/forum/threads/mod-community-flavour-pack.1418887/)
-[Paradox Forums](https://forum.paradoxplaza.com/forum/threads/mod-community-flavour-pack.1418887/)
-[CK3 Discord](https://discord.com/invite/ck3), contact `El Tyranos#9119`
-[Support my work on Patreon](https://www.patreon.com/eltyranos)
+* [Issue report](https://forum.paradoxplaza.com/forum/threads/mod-community-flavour-pack.1418887/)
+* [Paradox Forums](https://forum.paradoxplaza.com/forum/threads/mod-community-flavour-pack.1418887/)
+* [CK3 Discord](https://discord.com/invite/ck3), contact `El Tyranos#9119`
+* [Support my work on Patreon](https://www.patreon.com/eltyranos)
 
 ## Licence:
 * No diffusion
