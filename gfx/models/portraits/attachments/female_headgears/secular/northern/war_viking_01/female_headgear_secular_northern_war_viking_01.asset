@@ -1,11 +1,11 @@
 pdxmesh = {
-	name = "female_headgear_secular_northern_war_viking_01_mesh"
-	file = "female_headgear_secular_northern_war_viking_01.mesh"
+	name = "fefemale_headgear_secular_northern_war_viking_01_mesh"
+	file = "fefemale_headgear_secular_northern_war_viking_01.mesh"
 
-	blend_shape = { id = "female_headgear_secular_northern_war_viking_01_bs_old"		type = "female_headgear_secular_northern_war_viking_01_bs_old.mesh" }
+	blend_shape = { id = "fefemale_headgear_secular_northern_war_viking_01_bs_old"		type = "fefemale_headgear_secular_northern_war_viking_01_bs_old.mesh" }
 
 	meshsettings = {
-		name = "female_headgear_secular_northern_war_viking_01Shape"
+		name = "fefemale_headgear_secular_northern_war_viking_01Shape"
 		index = 0
 		texture_diffuse = "Viking_Helmet_01_diffuse.dds"
 		texture_normal = "Viking_Helmet_01_normal.dds"
@@ -16,8 +16,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "female_headgear_secular_northern_war_viking_01_entity"
-	pdxmesh = "female_headgear_secular_northern_war_viking_01_mesh"
+	name = "fefemale_headgear_secular_northern_war_viking_01_entity"
+	pdxmesh = "fefemale_headgear_secular_northern_war_viking_01_mesh"
 
-	attribute = { name = "bs_old_1"								blend_shape = "female_headgear_secular_northern_war_viking_01_bs_old" }
+	attribute = { name = "bs_old_1"								blend_shape = "fefemale_headgear_secular_northern_war_viking_01_bs_old" }
 }
