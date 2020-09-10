@@ -817,10 +817,16 @@ accessory_genes = {
 			index = 55
 			male = {
 				1 = male_headgear_secular_crusades_western_war_nobility_01
+				1 = male_headgear_secular_western_war_sugarloaf_01
+				1 = male_headgear_secular_northern_war_nasal_01
+				1 = male_headgear_secular_western_war_flat_top_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_crusades_western_war_nobility_01
+				1 = female_headgear_secular_western_war_sugarloaf_01
+				1 = female_headgear_secular_northern_war_nasal_01
+				1 = female_headgear_secular_western_war_flat_top_01
 				
 			}
 			boy = male
