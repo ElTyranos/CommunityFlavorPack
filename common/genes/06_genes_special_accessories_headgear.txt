@@ -115,10 +115,24 @@ accessory_genes = {
 			index = 7
 			male = {
 				1 = male_headgear_secular_western_war_nobility_01
+				1 = male_headgear_secular_western_war_bascinet_01
+				1 = male_headgear_secular_western_war_flat_top_01
+				1 = male_headgear_secular_western_war_kettle_hat_01
+				1 = male_headgear_secular_western_war_kettle_hat_02
+				1 = male_headgear_secular_western_war_kettle_hat_03
+				1 = male_headgear_secular_western_war_sugarloaf_01
+				1 = male_headgear_secular_western_war_topf_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_western_war_nobility_01
+				1 = female_headgear_secular_western_war_bascinet_01
+				1 = female_headgear_secular_western_war_flat_top_01
+				1 = female_headgear_secular_western_war_kettle_hat_01
+				1 = female_headgear_secular_western_war_kettle_hat_02
+				1 = female_headgear_secular_western_war_kettle_hat_03
+				1 = female_headgear_secular_western_war_sugarloaf_01
+				1 = female_headgear_secular_western_war_topf_01
 				
 			}
 			boy = male
@@ -471,6 +485,8 @@ accessory_genes = {
 				1 = male_headgear_secular_northern_war_nobility_02
 				1 = male_headgear_secular_northern_war_viking_01
 				1 = male_headgear_secular_northern_war_viking_02
+				1 = male_headgear_secular_northern_war_nasal_01
+				1 = male_headgear_secular_northern_war_nasal_02
 			
 				}
 			female = {
@@ -478,6 +494,8 @@ accessory_genes = {
 				1 = female_headgear_secular_northern_war_nobility_02
 				1 = female_headgear_secular_northern_war_viking_01
 				1 = female_headgear_secular_northern_war_viking_02
+				1 = female_headgear_secular_northern_war_nasal_01
+				1 = female_headgear_secular_northern_war_nasal_02
 				
 			}
 			boy = male
