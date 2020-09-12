@@ -11,7 +11,7 @@ Community Flavor Pack aims to add a lot of historical portrait accessories for y
 ## Useful links
 * [Issue report](https://forum.paradoxplaza.com/forum/threads/mod-community-flavour-pack.1418887/)
 * [Paradox Forums](https://forum.paradoxplaza.com/forum/threads/mod-community-flavour-pack.1418887/)
-* [CK3 Discord](https://discord.com/invite/ck3), contact `El Tyranos#9119`
+* [Discord](https://discord.gg/tmb7cXT)
 
 ## Licence:
 * No diffusion
