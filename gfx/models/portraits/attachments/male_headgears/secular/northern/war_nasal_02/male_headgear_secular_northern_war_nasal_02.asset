@@ -2,8 +2,6 @@ pdxmesh = {
 	name = "male_headgear_secular_northern_war_nasal_02_mesh"
 	file = "male_headgear_secular_northern_war_nasal_02.mesh"
 
-	blend_shape = { id = "male_headgear_secular_northern_war_nasal_02_bs_old"		type = "male_headgear_secular_northern_war_nasal_02_bs_old.mesh" }
-
 	meshsettings = {
 		name = "male_headgear_secular_northern_war_nasal_02Shape"
 		index = 0
@@ -18,6 +16,4 @@ pdxmesh = {
 entity = {
 	name = "male_headgear_secular_northern_war_nasal_02_entity"
 	pdxmesh = "male_headgear_secular_northern_war_nasal_02_mesh"
-
-	attribute = { name = "bs_old_1"								blend_shape = "male_headgear_secular_northern_war_nasal_02_bs_old" }
 }

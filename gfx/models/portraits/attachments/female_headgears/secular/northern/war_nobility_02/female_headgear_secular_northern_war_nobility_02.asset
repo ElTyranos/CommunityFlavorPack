@@ -2,8 +2,6 @@ pdxmesh = {
 	name = "female_headgear_secular_northern_war_nobility_02_mesh"
 	file = "female_headgear_secular_northern_war_nobility_02.mesh"
 
-	blend_shape = { id = "female_headgear_secular_northern_war_nobility_02_bs_old"		type = "female_headgear_secular_northern_war_nobility_02_bs_old.mesh" }
-
 	meshsettings = {
 		name = "female_headgear_secular_northern_war_nobility_02Shape"
 		index = 0
@@ -18,8 +16,6 @@ pdxmesh = {
 entity = {
 	name = "female_headgear_secular_northern_war_nobility_02_entity"
 	pdxmesh = "female_headgear_secular_northern_war_nobility_02_mesh"
-
-	attribute = { name = "bs_old_1"								blend_shape = "female_headgear_secular_northern_war_nobility_02_bs_old" }
 
 	game_data = {
 		portrait_accessory = {

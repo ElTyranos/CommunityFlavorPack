@@ -2,8 +2,6 @@ pdxmesh = {
 	name = "female_headgear_secular_western_war_bascinet_01_mesh"
 	file = "female_headgear_secular_western_war_bascinet_01.mesh"
 
-	blend_shape = { id = "female_headgear_secular_western_war_bascinet_01_bs_old"		type = "female_headgear_secular_western_war_bascinet_01_bs_old.mesh" }
-
 	meshsettings = {
 		name = "female_headgear_secular_western_war_bascinet_01Shape"
 		index = 0
@@ -19,5 +17,4 @@ entity = {
 	name = "female_headgear_secular_western_war_bascinet_01_entity"
 	pdxmesh = "female_headgear_secular_western_war_bascinet_01_mesh"
 
-	attribute = { name = "bs_old_1"								blend_shape = "female_headgear_secular_western_war_bascinet_01_bs_old" }
 }
