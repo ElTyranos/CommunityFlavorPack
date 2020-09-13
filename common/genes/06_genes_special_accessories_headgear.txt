@@ -311,7 +311,7 @@ accessory_genes = {
             girl = female
         }
 
-         catholic_head = {
+        catholic_head = {
             index = 20
             male = {
                 1 = male_headgear_religious_catholic_head_01
@@ -515,7 +515,7 @@ accessory_genes = {
 		}
 
 
-		 byzantine_high_nobility = {
+		byzantine_high_nobility = {
             index = 34
             male = {
                 5 = male_headgear_secular_byzantine_high_nobility_01
@@ -528,7 +528,7 @@ accessory_genes = {
             girl = female
         }	
 
-         byzantine_nobility = {
+        byzantine_nobility = {
             index = 35
             male = {
                 5 = empty
