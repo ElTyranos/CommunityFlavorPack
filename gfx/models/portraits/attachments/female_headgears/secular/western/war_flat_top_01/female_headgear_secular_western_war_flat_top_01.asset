@@ -15,7 +15,7 @@ pdxmesh = {
 	}
 	
 	meshsettings = {
-		name = "female_headgear_secular_western_war_topf_01_MailShape"
+		name = "female_headgear_secular_western_war_flat_top_01_MailShape"
 		index = 0
 		texture_diffuse = "mail_coif_01_padded_diffuse.dds"
 		texture_normal = "mail_coif_01_padded_normal.dds"
