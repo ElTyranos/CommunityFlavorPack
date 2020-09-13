@@ -468,10 +468,12 @@ accessory_genes = {
 			index = 30
 			male = {
 				1 = male_headgear_secular_dde_abbasid_war_nobility_01
+				1 = male_headgear_secular_western_war_mail_coif_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_dde_abbasid_war_nobility_01
+				1 = female_headgear_secular_western_war_mail_coif_01
 				
 			}
 			boy = male
@@ -593,10 +595,12 @@ accessory_genes = {
 			index = 38
 			male = {
 				1 = male_headgear_secular_byzantine_war_nobility_01
+				1 = male_headgear_secular_western_war_mail_coif_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_byzantine_war_nobility_01
+				1 = female_headgear_secular_western_war_mail_coif_01
 				
 			}
 			boy = male
@@ -677,10 +681,12 @@ accessory_genes = {
 			index = 44
 			male = {
 				1 = male_headgear_secular_steppe_war_nobility_01
+				1 = male_headgear_secular_western_war_mail_coif_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_steppe_war_nobility_01
+				1 = female_headgear_secular_western_war_mail_coif_01
 				
 			}
 			boy = male
