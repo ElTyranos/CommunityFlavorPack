@@ -120,7 +120,6 @@ accessory_genes = {
 				10 = male_headgear_secular_western_war_kettle_hat_01
 				10 = male_headgear_secular_western_war_kettle_hat_02
 				10 = male_headgear_secular_western_war_kettle_hat_03
-				8 = male_headgear_secular_western_war_sugarloaf_01
 				8 = male_headgear_secular_western_war_topf_01
 				
 			}
@@ -131,7 +130,6 @@ accessory_genes = {
 				10 = female_headgear_secular_western_war_kettle_hat_01
 				10 = female_headgear_secular_western_war_kettle_hat_02
 				10 = female_headgear_secular_western_war_kettle_hat_03
-				8 = female_headgear_secular_western_war_sugarloaf_01
 				8 = female_headgear_secular_western_war_topf_01
 				
 			}
