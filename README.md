@@ -18,4 +18,5 @@ Community Flavor Pack aims to add a lot of historical portrait accessories for y
 * No Derivative Works
 * No modification
 * Non commercial
+
 [More informations about the licence in the wiki](https://github.com/ElTyranos/CommunityFlavorPack/wiki/Licence)
