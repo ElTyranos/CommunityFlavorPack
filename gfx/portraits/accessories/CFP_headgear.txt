@@ -149,13 +149,34 @@ female_headgear_secular_western_war_topf_01 = {
 
 male_headgear_secular_western_war_mail_coif_01 = {
 	set_tags = "no_hair"
-	set_tags = "aventail"
-	set_tags = "hood_beard"
+	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_mail_coif_01_entity 	 }		
 }
 female_headgear_secular_western_war_mail_coif_01 = {
 	set_tags = "no_hair"
-	set_tags = "aventail"
-	set_tags = "hood_beard"
+	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_mail_coif_01_entity 	 }		
+}
+
+## Byzantine cultural
+male_headgear_secular_byzantine_war_roman_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	set_tags = "aventail"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_war_roman_01_entity 	 }		
+}
+female_headgear_secular_byzantine_war_roman_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	set_tags = "aventail"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_war_roman_01_entity 	 }		
+}
+
+male_headgear_secular_byzantine_war_roman_02 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_war_roman_02_entity 	 }		
+}
+female_headgear_secular_byzantine_war_roman_02 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_war_roman_02_entity 	 }		
 }
