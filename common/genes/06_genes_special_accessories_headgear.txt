@@ -595,11 +595,13 @@ accessory_genes = {
 			index = 38
 			male = {
 				10 = male_headgear_secular_byzantine_war_nobility_01
+				10 = male_headgear_secular_byzantine_war_nobility_02
 				1 = male_headgear_secular_western_war_mail_coif_01
 				
 			}
 			female = {
 				10 = female_headgear_secular_byzantine_war_nobility_01
+				10 = female_headgear_secular_byzantine_war_nobility_02
 				1 = female_headgear_secular_western_war_mail_coif_01
 				
 			}
