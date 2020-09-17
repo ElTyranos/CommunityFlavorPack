@@ -134,7 +134,7 @@ accessory_genes = {
 				10 = female_headgear_secular_western_war_kettle_hat_03
 				8 = female_headgear_secular_western_war_topf_01
 				10 = female_headgear_secular_western_war_mail_coif_01
-				2 = male_headgear_secular_western_war_sugarloaf_01
+				2 = female_headgear_secular_western_war_sugarloaf_01
 				
 			}
 			boy = male
