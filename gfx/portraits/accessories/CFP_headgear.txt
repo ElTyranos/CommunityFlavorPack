@@ -158,6 +158,17 @@ female_headgear_secular_western_war_mail_coif_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_mail_coif_01_entity 	 }		
 }
 
+male_headgear_secular_western_war_padded_hood_01 = {
+	set_tags = "no_hair"
+	set_tags = "headdress"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_padded_hood_01_entity 	 }		
+}
+female_headgear_secular_western_war_padded_hood_01 = {
+	set_tags = "no_hair"
+	set_tags = "headdress"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_padded_hood_01_entity 	 }		
+}
+
 ## Byzantine cultural
 male_headgear_secular_byzantine_war_roman_01 = {
 	set_tags = "no_hair"
