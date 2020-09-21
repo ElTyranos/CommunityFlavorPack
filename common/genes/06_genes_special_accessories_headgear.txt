@@ -122,6 +122,9 @@ accessory_genes = {
 				10 = male_headgear_secular_western_war_kettle_hat_03
 				8 = male_headgear_secular_western_war_topf_01
 				10 = male_headgear_secular_western_war_mail_coif_01
+				10 = male_headgear_secular_western_war_mail_coif_02
+				10 = male_headgear_secular_western_war_mail_coif_03
+				10 = male_headgear_secular_western_war_padded_hood_01
 				2 = male_headgear_secular_western_war_sugarloaf_01
 				
 			}
@@ -134,6 +137,9 @@ accessory_genes = {
 				10 = female_headgear_secular_western_war_kettle_hat_03
 				8 = female_headgear_secular_western_war_topf_01
 				10 = female_headgear_secular_western_war_mail_coif_01
+				10 = female_headgear_secular_western_war_mail_coif_02
+				10 = female_headgear_secular_western_war_mail_coif_03
+				10 = female_headgear_secular_western_war_padded_hood_01
 				2 = female_headgear_secular_western_war_sugarloaf_01
 				
 			}
@@ -395,6 +401,9 @@ accessory_genes = {
 				8 = male_headgear_secular_western_war_sugarloaf_01
 				8 = male_headgear_secular_western_war_topf_01
 				10 = male_headgear_secular_western_war_mail_coif_01
+				10 = male_headgear_secular_western_war_mail_coif_02
+				10 = male_headgear_secular_western_war_mail_coif_03
+				10 = male_headgear_secular_western_war_padded_hood_01
 				
 			}
 			female = {
@@ -407,6 +416,9 @@ accessory_genes = {
 				8 = female_headgear_secular_western_war_sugarloaf_01
 				8 = female_headgear_secular_western_war_topf_01
 				10 = female_headgear_secular_western_war_mail_coif_01
+				10 = female_headgear_secular_western_war_mail_coif_02
+				10 = female_headgear_secular_western_war_mail_coif_03
+				10 = female_headgear_secular_western_war_padded_hood_01
 				
 			}
 			boy = male
@@ -471,11 +483,13 @@ accessory_genes = {
 			male = {
 				10 = male_headgear_secular_dde_abbasid_war_nobility_01
 				1 = male_headgear_secular_western_war_mail_coif_01
+				1 = male_headgear_secular_western_war_mail_coif_03
 				
 			}
 			female = {
 				10 = female_headgear_secular_dde_abbasid_war_nobility_01
 				1 = female_headgear_secular_western_war_mail_coif_01
+				1 = female_headgear_secular_western_war_mail_coif_03
 				
 			}
 			boy = male
@@ -508,6 +522,8 @@ accessory_genes = {
 				1 = male_headgear_secular_northern_war_nasal_01
 				1 = male_headgear_secular_northern_war_nasal_02
 				1 = male_headgear_secular_western_war_mail_coif_01
+				1 = male_headgear_secular_western_war_mail_coif_02
+				1 = male_headgear_secular_western_war_padded_hood_01
 			
 				}
 			female = {
@@ -518,6 +534,8 @@ accessory_genes = {
 				1 = female_headgear_secular_northern_war_nasal_01
 				1 = female_headgear_secular_northern_war_nasal_02
 				1 = female_headgear_secular_western_war_mail_coif_01
+				1 = female_headgear_secular_western_war_mail_coif_02
+				1 = female_headgear_secular_western_war_padded_hood_01
 				
 			}
 			boy = male
@@ -601,6 +619,8 @@ accessory_genes = {
 				10 = male_headgear_secular_byzantine_war_roman_01
 				7 = male_headgear_secular_byzantine_war_roman_02
 				2 = male_headgear_secular_western_war_mail_coif_01
+				2 = male_headgear_secular_western_war_mail_coif_03
+				2 = male_headgear_secular_western_war_padded_hood_01
 				
 			}
 			female = {
@@ -609,6 +629,8 @@ accessory_genes = {
 				10 = female_headgear_secular_byzantine_war_roman_01
 				7 = female_headgear_secular_byzantine_war_roman_02
 				2 = female_headgear_secular_western_war_mail_coif_01
+				2 = female_headgear_secular_western_war_mail_coif_03
+				2 = female_headgear_secular_western_war_padded_hood_01
 				
 			}
 			boy = male
@@ -853,6 +875,9 @@ accessory_genes = {
 				10 = male_headgear_secular_northern_war_nasal_01
 				8 = male_headgear_secular_western_war_flat_top_01
 				10 = male_headgear_secular_western_war_mail_coif_01
+				10 = male_headgear_secular_western_war_mail_coif_02
+				10 = male_headgear_secular_western_war_mail_coif_03
+				10 = male_headgear_secular_western_war_padded_hood_01
 				
 			}
 			female = {
@@ -861,6 +886,9 @@ accessory_genes = {
 				10 = female_headgear_secular_northern_war_nasal_01
 				8 = female_headgear_secular_western_war_flat_top_01
 				10 = female_headgear_secular_western_war_mail_coif_01
+				10 = female_headgear_secular_western_war_mail_coif_02
+				10 = female_headgear_secular_western_war_mail_coif_03
+				10 = female_headgear_secular_western_war_padded_hood_01
 				
 			}
 			boy = male
