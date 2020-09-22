@@ -1093,6 +1093,29 @@ accessory_genes = {
 			boy = male
             girl = female
 		}		
+		
+		## Community Flavor Pack - new groups
+		norse_war = {
+			index = 70
+			male = {
+				10 = male_headgear_secular_northern_war_viking_01
+				10 = male_headgear_secular_northern_war_viking_02
+				7 = male_headgear_secular_northern_war_nasal_02
+				5 = male_headgear_secular_western_war_mail_coif_01
+				5 = male_headgear_secular_western_war_padded_hood_01
+			
+				}
+			female = {
+				10 = female_headgear_secular_northern_war_viking_01
+				10 = female_headgear_secular_northern_war_viking_02
+				7 = female_headgear_secular_northern_war_nasal_02
+				5 = female_headgear_secular_western_war_mail_coif_01
+				5 = female_headgear_secular_western_war_padded_hood_01
+				
+			}
+			boy = male
+            girl = female
+		}
 
 	}
 
