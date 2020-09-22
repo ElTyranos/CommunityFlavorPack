@@ -71,6 +71,15 @@ female_headgear_secular_northern_war_nasal_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nasal_02_entity 	 }		
 }
 
+male_headgear_secular_northern_war_nasal_03 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nasal_03_entity 	 }		
+}
+female_headgear_secular_northern_war_nasal_03 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nasal_03_entity 	 }		
+}
+
 ## Western cultural
 male_headgear_secular_western_war_bascinet_01 = {
 	set_tags = "cap"
