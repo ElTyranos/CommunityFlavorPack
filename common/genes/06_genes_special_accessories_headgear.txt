@@ -1117,6 +1117,19 @@ accessory_genes = {
             girl = female
 		}
 
+		norse_common = {
+			index = 33
+			male = {
+				1 = empty
+				1 = male_headgear_secular_northern_common_01
+				
+			}
+			female = {
+				10 = empty
+				2 = female_headgear_secular_northern_common_01
+				
+			}
+		}
 	}
 
 }
