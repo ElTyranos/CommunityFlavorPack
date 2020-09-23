@@ -80,6 +80,7 @@ female_headgear_secular_northern_war_nasal_03 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nasal_03_entity 	 }		
 }
 
+
 ## Western cultural
 male_headgear_secular_western_war_bascinet_01 = {
 	set_tags = "cap"
@@ -197,6 +198,7 @@ female_headgear_secular_western_war_padded_hood_01 = {
 	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_padded_hood_01_entity 	 }		
 }
+
 
 ## Byzantine cultural
 male_headgear_secular_byzantine_war_roman_01 = {
