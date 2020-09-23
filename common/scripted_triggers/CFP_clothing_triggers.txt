@@ -1,0 +1,15 @@
+﻿portrait_norse_clothing_trigger = {
+	culture = { has_graphical_culture = norse_clothing_gfx }
+}
+
+# Overwritting default class to support Norses clothing
+portrait_western_clothing_trigger = {
+	culture = {
+		has_graphical_culture = western_clothing_gfx
+		NOR = {
+			has_graphical_culture = byzantine_clothing_gfx
+			has_graphical_culture = northern_clothing_gfx
+			has_graphical_culture = norse_clothing_gfx
+		}
+	}
+}
