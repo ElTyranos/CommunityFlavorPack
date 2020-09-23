@@ -1118,7 +1118,7 @@ accessory_genes = {
 		}
 
 		norse_common = {
-			index = 33
+			index = 71
 			male = {
 				1 = empty
 				1 = male_headgear_secular_northern_common_01
