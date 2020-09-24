@@ -64,3 +64,8 @@
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_02:1 "Римский шлем (10 в.)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_roman_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_02$"
+
+## Cloaks
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01:0 "Viking Shield"
+ PORTRAIT_MODIFIER_custom_clothes_female_cloaks_secular_northern_war_viking_shield_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01"
+ 
