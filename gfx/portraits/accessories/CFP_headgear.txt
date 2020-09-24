@@ -62,6 +62,18 @@ female_headgear_secular_northern_war_viking_03 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_03_entity 	 }		
 }
 
+male_headgear_secular_northern_war_viking_04 = {
+	set_tags = "cap"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_04_entity 	 }		
+}
+female_headgear_secular_northern_war_viking_04 = {
+	set_tags = "cap"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_04_entity 	 }		
+}
+
+## Nasals
 male_headgear_secular_northern_war_nasal_01 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nasal_01_entity 	 }		
