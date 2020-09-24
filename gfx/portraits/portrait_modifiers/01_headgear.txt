@@ -449,6 +449,7 @@ headgear = {
 						}
 						NOT = { has_government = mercenary_government } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
+						NOT = { portrait_old_saxon_clothing_trigger = yes }
 						OR = {
 							portrait_western_clothing_trigger = yes
 							portrait_northern_clothing_trigger = yes
@@ -1749,6 +1750,51 @@ headgear = {
 		}
 	}
 
+## Old-Saxons ##
+old_saxon_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = old_saxon_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier >= tier_duchy
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						OR = {
+							portrait_old_saxon_clothing_trigger = yes
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier >= tier_duchy
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							OR = {
+								portrait_old_saxon_clothing_trigger = yes
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 
 ## Sub-Saharan Africans ##
 

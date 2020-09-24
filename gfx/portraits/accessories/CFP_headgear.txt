@@ -81,6 +81,19 @@ female_headgear_secular_northern_war_nasal_03 = {
 }
 
 
+## Anglo-saxon cultural
+male_headgear_secular_northern_royalty_suttonhoo_01 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
+}
+female_headgear_secular_northern_royalty_suttonhoo_01 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
+}
+
+
 ## Western cultural
 male_headgear_secular_western_war_bascinet_01 = {
 	set_tags = "cap"
