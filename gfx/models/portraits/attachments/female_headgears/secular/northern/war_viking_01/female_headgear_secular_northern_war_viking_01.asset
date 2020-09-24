@@ -1,7 +1,6 @@
 pdxmesh = {
 	name = "female_headgear_secular_northern_war_viking_01_mesh"
 	file = "female_headgear_secular_northern_war_viking_01.mesh"
-	
 	meshsettings = {
 		name = "female_headgear_secular_northern_war_viking_01Shape"
 		index = 0
