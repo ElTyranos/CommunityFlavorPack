@@ -22,6 +22,7 @@ cloaks = {
 					portrait_western_clothing_trigger = yes
 					portrait_northern_clothing_trigger = yes
 					portrait_byzantine_clothing_trigger = yes
+					portrait_norse_clothing_trigger = yes
 				}
 			}
 			modifier = {
