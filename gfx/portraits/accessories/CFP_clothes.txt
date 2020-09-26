@@ -1,7 +1,7 @@
 ﻿## Vanilla edits
-# male_clothes_secular_northern_war_viking_01_common = {
-# 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_northern_war_viking_01_common_entity }
-# }
-# female_clothes_secular_northern_war_viking_01 = {
-# 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_northern_war_viking_01_entity}
-# }
+male_clothes_secular_northern_war_gambeson_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_northern_war_gambeson_01_entity }
+}
+female_clothes_secular_northern_war_gambeson_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_northern_war_gambeson_01_entity}
+}
