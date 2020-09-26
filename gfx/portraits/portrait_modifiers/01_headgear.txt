@@ -420,6 +420,7 @@ headgear = {
 								portrait_western_clothing_trigger = yes
 								portrait_northern_clothing_trigger = yes
 								portrait_norse_clothing_trigger = yes
+								portrait_old_saxon_clothing_trigger = yes
 							}
 						}
 					}
@@ -1751,7 +1752,7 @@ headgear = {
 	}
 
 ## Old-Saxons ##
-old_saxon_royalty = {
+	old_saxon_royalty = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -1772,6 +1773,7 @@ old_saxon_royalty = {
 						}
 						NOT = { has_government = mercenary_government } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
+						NOT = { is_independent_ruler = no }
 						OR = {
 							portrait_old_saxon_clothing_trigger = yes
 						}
