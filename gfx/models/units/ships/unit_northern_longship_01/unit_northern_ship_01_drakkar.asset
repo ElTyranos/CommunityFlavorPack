@@ -1,0 +1,57 @@
+pdxmesh = {
+	name = "unit_northern_ship_01_drakkar_mesh"
+	file = "unit_northern_ship_01_drakkar.mesh"
+
+	animation = { id = "idle_animation" type = "unit_northern_ship_01_drakkar_idle.anim" }
+	animation = { id = "moving_animation" type = "unit_northern_ship_01_drakkar_moving.anim" }
+	animation = { id = "start_moving_animation" type = "unit_northern_ship_01_drakkar_start_moving.anim" }
+
+	scale = 0.02
+
+	meshsettings = {
+		name = "unit_northern_ship_01_drakkar_sailsShape"
+		index = 0
+		texture_diffuse = "western_ship_01_cog_sails_diffuse.dds"
+		texture_normal = "western_ship_01_cog_sails_normal.dds"
+		texture_specular = "western_ship_01_cog_sails_properties.dds"
+		shader = "standard_usercolor_coa"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_northern_ship_01_drakkarShape"
+		index = 0
+		texture_diffuse = "drakkar_diffuse.dds"
+		texture_normal = "drakkar_normal.dds"
+		texture_specular = "drakkar_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "unit_northern_ship_01_drakkar_entity"
+	pdxmesh = "unit_northern_ship_01_drakkar_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle_animation"
+		event = { time = 0.0 sound = { soundeffect = "event:/SFX/Animations/Units/Ships/Generic/sfx_anim_ship_generic_idle"} }
+	}
+	state = {
+		name = "move"
+		animation = "start_moving_animation"
+		looping = no
+		next_state = move_loop
+		event = { time = 0.0 sound = { soundeffect = "event:/SFX/Animations/Units/Ships/Generic/sfx_anim_ship_generic_start_move"} }
+	}
+	state = {
+		name = "move_loop"
+		animation = "moving_animation"
+		event = { time = 0 node = "root" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0.0 sound = { soundeffect = "event:/SFX/Animations/Units/Ships/Generic/sfx_anim_ship_generic_move"} }
+	}
+}

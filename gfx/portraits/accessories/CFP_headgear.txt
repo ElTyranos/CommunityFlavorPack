@@ -53,6 +53,27 @@ female_headgear_secular_northern_war_viking_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_02_entity 	 }		
 }
 
+male_headgear_secular_northern_war_viking_03 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_03_entity 	 }		
+}
+female_headgear_secular_northern_war_viking_03 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_03_entity 	 }		
+}
+
+male_headgear_secular_northern_war_viking_04 = {
+	set_tags = "cap"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_04_entity 	 }		
+}
+female_headgear_secular_northern_war_viking_04 = {
+	set_tags = "cap"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_04_entity 	 }		
+}
+
+## Nasals
 male_headgear_secular_northern_war_nasal_01 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nasal_01_entity 	 }		
@@ -70,6 +91,29 @@ female_headgear_secular_northern_war_nasal_02 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nasal_02_entity 	 }		
 }
+
+male_headgear_secular_northern_war_nasal_03 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nasal_03_entity 	 }		
+}
+female_headgear_secular_northern_war_nasal_03 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nasal_03_entity 	 }		
+}
+
+
+## Anglo-saxon cultural
+male_headgear_secular_northern_royalty_suttonhoo_01 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
+}
+female_headgear_secular_northern_royalty_suttonhoo_01 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
+}
+
 
 ## Western cultural
 male_headgear_secular_western_war_bascinet_01 = {
@@ -188,6 +232,7 @@ female_headgear_secular_western_war_padded_hood_01 = {
 	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_padded_hood_01_entity 	 }		
 }
+
 
 ## Byzantine cultural
 male_headgear_secular_byzantine_war_roman_01 = {

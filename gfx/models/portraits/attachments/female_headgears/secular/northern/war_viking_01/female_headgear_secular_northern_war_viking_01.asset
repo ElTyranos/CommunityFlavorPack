@@ -4,9 +4,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "female_headgear_secular_northern_war_viking_01Shape"
 		index = 0
-		texture_diffuse = "Viking_Helmet_01_diffuse.dds"
-		texture_normal = "Viking_Helmet_01_normal.dds"
-		texture_specular = "Viking_Helmet_01_properties.dds"
+		texture_diffuse = "viking_helmet_01_diffuse.dds"
+		texture_normal = "viking_helmet_01_normal.dds"
+		texture_specular = "viking_helmet_01_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}

@@ -1,0 +1,11 @@
+﻿default_fleet = {
+	type = fleet
+	
+	entity = "unit_western_ship_01_cog_entity"
+}
+
+northern_fleet = {
+	type = fleet
+	graphical_cultures = { norse_clothing_gfx norman_coa_gfx anglo_saxon_coa_gfx }
+	entity = "unit_northern_ship_01_drakkar_entity"
+}

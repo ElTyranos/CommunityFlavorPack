@@ -1,0 +1,6 @@
+﻿male_cloaks_secular_northern_war_viking_shield_01 = {
+		entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_northern_war_viking_shield_01_entity }
+}
+female_cloaks_secular_northern_war_viking_shield_01 = {
+		entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_northern_war_viking_shield_01_entity }
+}
