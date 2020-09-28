@@ -645,14 +645,14 @@ accessory_genes = {
 
         byzantine_royalty = {
             index = 39
-            male = {
-                1 = male_headgear_secular_byzantine_royalty_01
-                
-            }
-            female = {
-                5 = empty
-                5 = female_headgear_secular_byzantine_nobility_01
-            }
+			male = {
+				1 = male_headgear_secular_western_royalty_01
+				1 = male_headgear_secular_western_royalty_02
+			}
+			female = {
+				1 = female_headgear_secular_western_royalty_01
+				1 = female_headgear_secular_western_royalty_02
+			}
             boy = male
             girl = female
         }
