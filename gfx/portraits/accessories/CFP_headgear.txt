@@ -31,6 +31,10 @@ female_headgear_secular_byzantine_war_nobility_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_war_nobility_02_entity 	 }		
 }
 
+female_headgear_secular_western_imperial_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_imperial_01_entity 	 }		
+}
 
 ## Viking cultural
 male_headgear_secular_northern_war_viking_01 = {
