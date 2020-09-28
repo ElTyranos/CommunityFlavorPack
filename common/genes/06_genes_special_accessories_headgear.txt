@@ -386,6 +386,7 @@ accessory_genes = {
 				
 			}
 			female = {
+				1 = female_headgear_secular_western_imperial_01
 				1 = female_headgear_secular_dde_hre_royalty_01
 				
 			}
