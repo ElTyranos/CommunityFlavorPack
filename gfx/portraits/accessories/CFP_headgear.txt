@@ -42,6 +42,12 @@ female_headgear_secular_byzantine_royalty_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_royalty_01_entity 	 }		
 }
 
+female_headgear_secular_byzantine_imperial_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_imperial_01_entity 	 }		
+}
+
+
 ## Viking cultural
 male_headgear_secular_northern_war_viking_01 = {
 	set_tags = "cap"
@@ -82,6 +88,7 @@ female_headgear_secular_northern_war_viking_04 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_04_entity 	 }		
 }
+
 
 ## Nasals
 male_headgear_secular_northern_war_nasal_01 = {
