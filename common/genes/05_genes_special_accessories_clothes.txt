@@ -788,13 +788,13 @@ accessory_genes = {
 			index = 42
 
 			male = {
-				# 1 = male_clothes_secular_dde_hre_nobility_01_common
+				1 = male_clothes_secular_dde_hre_nobility_01_common
 				1 = male_clothes_secular_dde_hre_nobility_02_common
 				1 = male_clothes_secular_dde_hre_nobility_03_common
 			}
 
 			female = {
-				# 1 = female_clothes_secular_dde_hre_nobility_01_common
+				1 = female_clothes_secular_dde_hre_nobility_01_common
 				1 = female_clothes_secular_dde_hre_nobility_02_common
 				1 = female_clothes_secular_dde_hre_nobility_03_common
 			}
@@ -807,13 +807,13 @@ accessory_genes = {
 			index = 43
 
 			male = {
-				# 1 = male_clothes_secular_dde_hre_nobility_01_low
+				1 = male_clothes_secular_dde_hre_nobility_01_low
 				1 = male_clothes_secular_dde_hre_nobility_02_low
 				1 = male_clothes_secular_dde_hre_nobility_03_low
 			}
 
 			female = {
-				# 1 = female_clothes_secular_dde_hre_nobility_01_low
+				1 = female_clothes_secular_dde_hre_nobility_01_low
 				1 = female_clothes_secular_dde_hre_nobility_02_low
 				1 = female_clothes_secular_dde_hre_nobility_03_low
 			}
@@ -826,13 +826,13 @@ accessory_genes = {
 			index = 44
 
 			male = {
-				# 1 = male_clothes_secular_dde_hre_nobility_01_high
+				1 = male_clothes_secular_dde_hre_nobility_01_high
 				1 = male_clothes_secular_dde_hre_nobility_02_high
 				1 = male_clothes_secular_dde_hre_nobility_03_high
 			}
 
 			female = {
-				# 1 = female_clothes_secular_dde_hre_nobility_01_high
+				1 = female_clothes_secular_dde_hre_nobility_01_high
 				1 = female_clothes_secular_dde_hre_nobility_02_high
 				1 = female_clothes_secular_dde_hre_nobility_03_high
 			}
@@ -864,13 +864,13 @@ accessory_genes = {
 			index = 46
 
 			male = {
-				# 1 = male_clothes_secular_dde_abbasid_nobility_01_common
+				1 = male_clothes_secular_dde_abbasid_nobility_01_common
 				1 = male_clothes_secular_dde_abbasid_nobility_02_common
 				1 = male_clothes_secular_dde_abbasid_nobility_03_common
 			}
 
 			female = {
-				# 1 = female_clothes_secular_dde_abbasid_nobility_01_common
+				1 = female_clothes_secular_dde_abbasid_nobility_01_common
 				1 = female_clothes_secular_dde_abbasid_nobility_02_common
 				1 = female_clothes_secular_dde_abbasid_nobility_03_common
 			}
@@ -883,13 +883,13 @@ accessory_genes = {
 			index = 47
 
 			male = {
-				# 1 = male_clothes_secular_dde_abbasid_nobility_01_low
+				1 = male_clothes_secular_dde_abbasid_nobility_01_low
 				1 = male_clothes_secular_dde_abbasid_nobility_02_low
 				1 = male_clothes_secular_dde_abbasid_nobility_03_low
 			}
 
 			female = {
-				# 1 = female_clothes_secular_dde_abbasid_nobility_01_low
+				1 = female_clothes_secular_dde_abbasid_nobility_01_low
 				1 = female_clothes_secular_dde_abbasid_nobility_02_low
 				1 = female_clothes_secular_dde_abbasid_nobility_03_low
 			}
@@ -902,13 +902,13 @@ accessory_genes = {
 			index = 48
 
 			male = {
-				# 1 = male_clothes_secular_dde_abbasid_nobility_01_high
+				1 = male_clothes_secular_dde_abbasid_nobility_01_high
 				1 = male_clothes_secular_dde_abbasid_nobility_02_high
 				1 = male_clothes_secular_dde_abbasid_nobility_03_high
 			}
 
 			female = {
-				# 1 = female_clothes_secular_dde_abbasid_nobility_01_high
+				1 = female_clothes_secular_dde_abbasid_nobility_01_high
 				1 = female_clothes_secular_dde_abbasid_nobility_02_high
 				1 = female_clothes_secular_dde_abbasid_nobility_03_high
 			}
