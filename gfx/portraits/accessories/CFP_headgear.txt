@@ -10,7 +10,10 @@
 	#set_tags = "helmet" -- male hairstyle
 	#set_tags = "headdress"  -- female hairstyle
 	#set_tags = "cap,cap_02"
-	#set_tags = "aventail" -- female hairstyleale_headgear_secular_northern_war_nobility_02 = {
+	#set_tags = "aventail" -- female hairstyle
+
+## Vanilla edits
+male_headgear_secular_northern_war_nobility_02 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nobility_02_entity 	 }		
 }
@@ -118,12 +121,10 @@ female_headgear_secular_northern_war_nasal_03 = {
 
 ## Anglo-saxon cultural
 male_headgear_secular_northern_royalty_suttonhoo_01 = {
-	set_tags = "helmet"
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
 }
 female_headgear_secular_northern_royalty_suttonhoo_01 = {
-	set_tags = "helmet"
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
 }
@@ -207,43 +208,39 @@ female_headgear_secular_western_war_topf_01 = {
 
 male_headgear_secular_western_war_mail_coif_01 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
+	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_mail_coif_01_entity 	 }		
 }
 female_headgear_secular_western_war_mail_coif_01 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_mail_coif_01_entity 	 }		
 }
 male_headgear_secular_western_war_mail_coif_02 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
+	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_mail_coif_02_entity 	 }		
 }
 female_headgear_secular_western_war_mail_coif_02 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_mail_coif_02_entity 	 }		
 }
 male_headgear_secular_western_war_mail_coif_03 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
+	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_mail_coif_03_entity 	 }		
 }
 female_headgear_secular_western_war_mail_coif_03 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_mail_coif_03_entity 	 }		
 }
 
 male_headgear_secular_western_war_padded_hood_01 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
+	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_padded_hood_01_entity 	 }		
 }
 female_headgear_secular_western_war_padded_hood_01 = {
 	set_tags = "no_hair"
-	set_tags = "headdress"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_padded_hood_01_entity 	 }		
 }
 
