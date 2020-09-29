@@ -1,27 +1,7 @@
 ﻿custom_headgear = {
 	usage = customization
 	interface_position = 1
-	
-	#########################
-	## Community Flavor Pack
-	add_accessory_modifiers = {
-		gene = headgear
-		template = norse_war
-	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = norse_common
-	}
 
-	add_accessory_modifiers = {
-		gene = headgear
-		template = old_saxon_royalty
-	}
-	
-	
-	#########################
-	## Vanilla
 	add_accessory_modifiers = {
 		gene = headgear
 		template = western_common
@@ -70,7 +50,24 @@
 		gene = headgear
 		template = northern_war
 	}
+	
+	########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norse_war
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norse_common
+	}
 
+	add_accessory_modifiers = {
+		gene = headgear
+		template = old_saxon_royalty
+	}
+	########### /CFP ###########
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_common
