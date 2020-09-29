@@ -311,10 +311,12 @@ accessory_genes = {
             girl = female
 		}
 
-        catholic_high = {
+        catholic_high = { # Duplicate weights to make seed different from religious_catholic_high_clothes clothes gene
             index = 19
             male = {
-                1 = male_headgear_religious_catholic_high_01
+                2 = male_headgear_religious_catholic_high_01
+				1 = male_headgear_religious_dde_catholic_high_01
+				1 = male_headgear_religious_dde_catholic_high_01
             }
             female = {
                 1 = female_headgear_religious_catholic_devoted_01
@@ -646,8 +648,8 @@ accessory_genes = {
                 
             }
             female = {
-               1 = male_headgear_secular_byzantine_imperial_01
-                
+                5 = empty
+                5 = female_headgear_secular_byzantine_nobility_01
             }
             boy = male
             girl = female
@@ -912,24 +914,24 @@ accessory_genes = {
 		}
 
 
-		religious_dde_catholic = {
-			index = 57
-			male = {
-				1 = male_headgear_religious_dde_catholic_high_01
-				
-			}
-			female = {
-			#	1 = female_headgear_religious_dde_catholic_high_01
-				
-			}
-			boy = male
-            girl = female
-		}
+		#religious_dde_catholic = {
+		#	index = 57
+		#	male = {
+		#		1 = male_headgear_religious_dde_catholic_high_01
+		#		
+		#	}
+		#	female = {
+		#	#	1 = female_headgear_religious_dde_catholic_high_01
+		#		
+		#	}
+		#	boy = male
+        #    girl = female
+		#}
 
 		religious_catholic_devoted = {
 			index = 58
 			male = {
-			#	1 = male_headgear_religious_catholic_devoted_01
+				1 = empty
 				
 			}
 			female = {
@@ -1024,7 +1026,7 @@ accessory_genes = {
             girl = female
 		}
 
-		religious_dde_muslim_head = {
+		religious_muslim_head = {
 			index = 65
 			male = {
 				1 = male_headgear_religious_dde_muslim_head_01
@@ -1038,19 +1040,19 @@ accessory_genes = {
             girl = female
 		}
 
-		religious_dde_muslim_high = {
-			index = 66
-			male = {
-				1 = male_headgear_religious_dde_muslim_high_01
-				
-			}
-			female = {
-				1 = female_headgear_secular_mena_royalty_01
-				
-			}
-			boy = male
-            girl = female
-		}
+		#religious_dde_muslim_high = {
+		#	index = 66
+		#	male = {
+		#		1 = male_headgear_religious_dde_muslim_high_01
+		#		
+		#	}
+		#	female = {
+		#		1 = female_headgear_secular_mena_royalty_01
+		#		
+		#	}
+		#	boy = male
+        #    girl = female
+		#}
 
 		religious_african_high = {
 			index = 67

@@ -283,6 +283,11 @@
 		}
 	}
 
+	add_accessory_modifiers = {
+		gene = headgear
+		template = crusades_western_war
+	}
+
 	#add_accessory_modifiers = {
 	#	gene = hairstyles
 	#	template = rtt_hairstyles

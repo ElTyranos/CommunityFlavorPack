@@ -1,4 +1,5 @@
-﻿clothes = {
+﻿
+clothes = {
 
 	usage = game
 	selection_behavior = weighted_random
@@ -17,7 +18,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 100
+                add = 1000
                 should_be_naked_trigger = yes
             }
         }
@@ -52,7 +53,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 200
+				add = 2000
 				this = character:33922
 			}
 		}
@@ -131,10 +132,15 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_dde_hre_clothing_trigger = yes
 			}
+			# ## Exclude characters with the has_scripted_clothes flag, mostly used for developer characters
+   #          modifier = {
+   #              factor = 0
+   #              has_character_flag = has_scripted_clothes
+   #          }
 		}
 	}
 	
@@ -172,13 +178,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_dde_hre_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -187,7 +196,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_dde_hre_clothing_trigger = yes
 						}
@@ -231,14 +240,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_dde_hre_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_duchy
@@ -246,7 +258,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_dde_hre_clothing_trigger = yes
 						}
@@ -328,7 +340,7 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_western_clothing_trigger = yes
 			}
@@ -369,13 +381,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_western_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -384,7 +399,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -428,14 +443,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_western_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_duchy
@@ -443,7 +461,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -487,13 +505,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_western_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_kingdom
 							NOR = {
@@ -501,7 +522,7 @@
 								has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -545,13 +566,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_western_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_empire
 							NOR = {
@@ -559,7 +583,7 @@
 								has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -710,6 +734,80 @@
 	}
 
 
+	western_sickness = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = western_sickness
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				has_short_disease_trigger = yes #affliction that would plausibly leave them bedridden for treatment
+				OR = {
+					portrait_byzantine_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+					portrait_norse_clothing_trigger = yes
+					portrait_western_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+
+	western_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = western_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				has_character_flag = use_stealth_clothes
+				OR = {
+					portrait_byzantine_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+					portrait_norse_clothing_trigger = yes
+					portrait_western_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+
 
 ## Byzantine ##
 
@@ -750,7 +848,7 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_byzantine_clothing_trigger = yes
 			}
@@ -791,13 +889,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_byzantine_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -806,7 +907,7 @@
 								has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_byzantine_clothing_trigger = yes
 						}
@@ -850,14 +951,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_byzantine_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
@@ -865,7 +969,7 @@
 								has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_byzantine_clothing_trigger = yes
 						}
@@ -946,7 +1050,7 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_indian_clothing_trigger = yes
 			}
@@ -987,13 +1091,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_indian_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -1002,7 +1109,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_indian_clothing_trigger = yes
 						}
@@ -1046,14 +1153,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_indian_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
@@ -1061,7 +1171,7 @@
 								has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_indian_clothing_trigger = yes
 						}
@@ -1139,7 +1249,7 @@
 						}
 					}
 					has_government = republic_government
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_dde_abbasid_clothing_trigger = yes
 			}
@@ -1180,13 +1290,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_dde_abbasid_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -1195,7 +1308,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_dde_abbasid_clothing_trigger = yes
 						}
@@ -1239,14 +1352,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_dde_abbasid_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
@@ -1254,7 +1370,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_dde_abbasid_clothing_trigger = yes
 						}
@@ -1332,7 +1448,7 @@
 						}
 					}
 					has_government = republic_government
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_mena_clothing_trigger = yes
 			}
@@ -1405,13 +1521,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_mena_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -1420,7 +1539,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_mena_clothing_trigger = yes
 						}
@@ -1464,14 +1583,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_mena_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
@@ -1479,7 +1601,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_mena_clothing_trigger = yes
 						}
@@ -1557,8 +1679,81 @@
 			}
 		}
 	}
-	
 
+	mena_sickness = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_sickness
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				has_short_disease_trigger = yes #affliction that would plausibly leave them bedridden for treatment
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+
+	mena_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				has_character_flag = use_stealth_clothes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	
+	
 ## Steppe ##
 
 	steppe_commoners = {
@@ -1598,7 +1793,7 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_steppe_clothing_trigger = yes
 			}
@@ -1639,13 +1834,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_steppe_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -1654,7 +1852,7 @@
 								has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_steppe_clothing_trigger = yes
 						}
@@ -1698,14 +1896,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_steppe_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
@@ -1713,7 +1914,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_steppe_clothing_trigger = yes
 						}
@@ -1794,7 +1995,7 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
 			}
@@ -1835,13 +2036,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_northern_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -1850,7 +2054,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_northern_clothing_trigger = yes
 						}
@@ -1894,14 +2098,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_northern_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
@@ -1909,7 +2116,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_northern_clothing_trigger = yes
 						}
@@ -1988,7 +2195,7 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_norse_clothing_trigger = yes
 			}
@@ -2029,13 +2236,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_norse_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -2044,7 +2254,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_norse_clothing_trigger = yes
 						}
@@ -2088,14 +2298,17 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_norse_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
@@ -2103,7 +2316,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_norse_clothing_trigger = yes
 						}
@@ -2146,7 +2359,6 @@
 	}
 
 
-
 ## Sub-Saharan Africans ##
 
 	sub_saharan_commoners = {
@@ -2186,7 +2398,7 @@
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_african_clothing_trigger = yes
 			}
@@ -2227,13 +2439,16 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						portrait_african_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -2242,7 +2457,7 @@
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_african_clothing_trigger = yes
 						}
@@ -2287,23 +2502,25 @@
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_african_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							OR = {
-
 								highest_held_title_tier > tier_county
 								AND = {
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_african_clothing_trigger = yes
 						}
@@ -2376,9 +2593,12 @@
 				add = 100
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				faith = faith:orthodox
+				NOT = {
+					faith.religious_head = this
+				}
 			}
 	    }
 	}
@@ -2408,11 +2628,8 @@
 	        base = 0
 	        modifier = {
 	            add = 110
-				is_ruler = yes
-				primary_title = {
-					exists = controlled_faith
-					controlled_faith = faith:orthodox
-				}
+				faith = faith:orthodox
+				faith.religious_head = this
 	        }
 	    }
 	}	
@@ -2454,6 +2671,9 @@
 				add = 100
 				has_trait = devoted
 				religion = religion:christianity_religion
+				NOT = {
+					faith.religious_head = this
+				}
 			}
 		}
 	}
@@ -2486,9 +2706,16 @@
 				add = 110
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				religion = religion:christianity_religion
+				NAND = {
+					faith = faith:catholic
+					faith.religious_head = this
+				}
+				NOT = {
+					faith = faith:orthodox
+				}
 			}
 	    }
 	}
@@ -2518,11 +2745,42 @@
 	        base = 0
 	        modifier = {
 	            add = 120
+				faith = faith:catholic
+				faith.religious_head = this
+	        }
+	    }
+	}
+
+## Jewish ##
+
+	religious_jewish_head_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_jewish_head_clothes
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 120
 				is_ruler = yes
-				primary_title = {
-					exists = controlled_faith
-					controlled_faith = faith:catholic
-				}
+				faith.religion = religion:judaism_religion
+				faith.religious_head = this
 	        }
 	    }
 	}		
@@ -2587,11 +2845,11 @@
 	    weight = {
 	        base = 0
 	        modifier = {
-				add = 110
+				add = 111
 				
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				religion = religion:islam_religion
@@ -2650,7 +2908,7 @@
 				add = 100
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -2695,7 +2953,7 @@
 				add = 100
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -2770,7 +3028,7 @@
 				add = 110
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -2844,7 +3102,7 @@
 				add = 110
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -2883,7 +3141,7 @@
 				add = 100
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -2927,7 +3185,7 @@
 				add = 110
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -3001,7 +3259,7 @@
 				add = 110
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -3059,7 +3317,7 @@
 				add = 100
 				OR = {
 					is_theocratic_lessee = yes
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -3095,6 +3353,81 @@
 	#         }
 	#     }
 	# }	
+
+	debbie_lane = { # To make sure Debbie gets the nicer looking clothes!
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = northern_low_nobility_clothes
+				value = 0.1 
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = character:easteregg_debbie_lane
+				this = character:easteregg_debbie_lane
+			}
+		}
+	}
+
+	# northern_commoners = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = northern_commoner_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 1.0
+	# 			template = bust_clothes
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_body_shape
+	# 			value = 1.0
+	# 			template = body_shape_average_clothed
+	# 		}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			highest_held_title_tier < tier_county
+	# 			NOR = {
+	# 				AND = {
+	# 					exists = primary_spouse
+	# 					primary_spouse = {
+	# 						highest_held_title_tier > tier_county
+	# 					}
+	# 				}
+	# 				AND = {
+	# 					has_government = republic_government
+	# 					primary_title.tier > 1
+	# 				}
+	# 				AND = { is_ruler = yes has_government = theocracy_government }
+	# 			}
+	# 			portrait_northern_clothing_trigger = yes
+	# 		}
+	# 	}
+	# }
 
 
 }

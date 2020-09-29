@@ -600,6 +600,7 @@
 			"dynn_Aldersparre"
 			"dynn_AdelswA_rd"
 			"dynn_Hlidarendi"
+			"dynn_UI__I_mair"
 			"dynn_O_stman"
 			{ "dynnp_av" "dynn_Rogen" }
 			{ "dynnp_av" "dynn_Bergen" }
@@ -716,6 +717,7 @@
 			"dynn_Aldersparre"
 			"dynn_AdelswA_rd"
 			"dynn_Hlidarendi"
+			"dynn_UI__I_mair"
 			"dynn_O_stman"
 			{ "dynnp_av" "dynn_Rogen" }
 			{ "dynnp_av" "dynn_Bergen" }
