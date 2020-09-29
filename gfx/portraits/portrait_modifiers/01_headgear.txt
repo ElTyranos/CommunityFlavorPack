@@ -2291,7 +2291,7 @@ headgear = {
 							highest_held_title_tier >= tier_duchy
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { AND = { is_ruler = yes AND = { is_ruler = yes has_government = mercenary_government  }  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
 						NOT = { is_independent_ruler = no }
 						OR = {
@@ -2306,8 +2306,9 @@ headgear = {
 								highest_held_title_tier >= tier_duchy
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							NOT = { AND = { is_ruler = yes AND = { is_ruler = yes has_government = mercenary_government  }  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
+							NOT = { is_independent_ruler = no }
 							OR = {
 								portrait_old_saxon_clothing_trigger = yes
 							}
