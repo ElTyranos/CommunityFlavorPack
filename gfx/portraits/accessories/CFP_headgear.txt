@@ -2,18 +2,15 @@
 
 	#set_tags = "no_hair"
 	#set_tags = "no_beard"
-	#set_tags = "crown"
-	#set_tags = "cap"
+	#set_tags = "crown" -- crown shape to the hair
+	#set_tags = "cap" -- bowl shape to the hair
 	#set_tags = "hat"
-	#set_tags = "hood_beard"
+	#set_tags = "hood_beard" -- makes the beard narrower
 	#set_tags = "cap_02"
-	#set_tags = "helmet"
-	#set_tags = "headdress"
+	#set_tags = "helmet" -- male hairstyle
+	#set_tags = "headdress"  -- female hairstyle
 	#set_tags = "cap,cap_02"
-	#set_tags = "aventail"
-
-## Vanilla edits
-male_headgear_secular_northern_war_nobility_02 = {
+	#set_tags = "aventail" -- female hairstyleale_headgear_secular_northern_war_nobility_02 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nobility_02_entity 	 }		
 }
