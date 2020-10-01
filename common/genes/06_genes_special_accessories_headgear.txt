@@ -761,8 +761,8 @@ accessory_genes = {
 		sub_saharan_royalty = {
 			index = 47
 			male = {
-				1 = male_headgear_secular_sub_saharan_royalty_01
-				1 = male_headgear_secular_sub_saharan_royalty_02
+				3 = male_headgear_secular_sub_saharan_royalty_01
+				2 = male_headgear_secular_sub_saharan_royalty_02
 				
 			}
 			female = {
@@ -776,8 +776,8 @@ accessory_genes = {
 		sub_saharan_imperial = {
 			index = 48
 			male = {
-				1 = male_headgear_secular_sub_saharan_imperial_01
-				1 = male_headgear_secular_sub_saharan_imperial_02
+				3 = male_headgear_secular_sub_saharan_imperial_01
+				2 = male_headgear_secular_sub_saharan_imperial_02
 				
 			}
 			female = {
@@ -850,8 +850,8 @@ accessory_genes = {
 		indian_imperial = {
 			index = 53
 			male = {
-				5 = male_headgear_secular_indian_imperial_01
-				5 = male_headgear_secular_indian_imperial_02
+				3 = male_headgear_secular_indian_imperial_01
+				2 = male_headgear_secular_indian_imperial_02
 				
 			}
 			female = {
