@@ -397,7 +397,7 @@ accessory_genes = {
 		dde_hre_war = {
 			index = 25
 			male = {
-				1 = male_headgear_secular_dde_hre_war_nobility_01
+				10 = male_headgear_secular_dde_hre_war_nobility_01
 				10 = male_headgear_secular_western_war_bascinet_01
 				8 = male_headgear_secular_western_war_flat_top_01
 				10 = male_headgear_secular_western_war_kettle_hat_01
@@ -413,7 +413,7 @@ accessory_genes = {
 				
 			}
 			female = {
-				1 = female_headgear_secular_dde_hre_war_nobility_01
+				10 = female_headgear_secular_dde_hre_war_nobility_01
 				10 = female_headgear_secular_western_war_bascinet_01
 				8 = female_headgear_secular_western_war_flat_top_01
 				10 = female_headgear_secular_western_war_kettle_hat_01
