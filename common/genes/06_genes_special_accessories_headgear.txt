@@ -762,6 +762,7 @@ accessory_genes = {
 			index = 47
 			male = {
 				1 = male_headgear_secular_sub_saharan_royalty_01
+				1 = male_headgear_secular_sub_saharan_royalty_02
 				
 			}
 			female = {
