@@ -127,6 +127,7 @@ accessory_genes = {
 				10 = male_headgear_secular_western_war_padded_hood_01
 				2 = male_headgear_secular_western_war_sugarloaf_01
 				10 = male_headgear_secular_northern_war_nasal_02
+				10 = male_headgear_secular_crusades_western_war_nobility_01
 				
 			}
 			female = {
@@ -143,6 +144,7 @@ accessory_genes = {
 				10 = female_headgear_secular_western_war_padded_hood_01
 				2 = female_headgear_secular_western_war_sugarloaf_01
 				10 = female_headgear_secular_northern_war_nasal_02
+				10 = female_headgear_secular_crusades_western_war_nobility_01
 				
 			}
 			boy = male
@@ -410,6 +412,7 @@ accessory_genes = {
 				8 = male_headgear_secular_western_war_mail_coif_03
 				10 = male_headgear_secular_western_war_padded_hood_01
 				10 = male_headgear_secular_northern_war_nasal_01
+				10 = male_headgear_secular_crusades_western_war_nobility_01
 				
 			}
 			female = {
@@ -426,6 +429,7 @@ accessory_genes = {
 				8 = female_headgear_secular_western_war_mail_coif_03
 				10 = female_headgear_secular_western_war_padded_hood_01
 				10 = female_headgear_secular_northern_war_nasal_01
+				10 = female_headgear_secular_crusades_western_war_nobility_01
 				
 			}
 			boy = male
