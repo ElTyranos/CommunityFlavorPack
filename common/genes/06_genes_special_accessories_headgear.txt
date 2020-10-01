@@ -606,12 +606,12 @@ accessory_genes = {
 		byzantine_imperial = {
 			index = 37
 			male = {
-				1 = male_headgear_secular_byzantine_imperial_01
-				0 = male_headgear_secular_byzantine_royalty_01
+				3 = male_headgear_secular_byzantine_imperial_01
+				1 = male_headgear_secular_byzantine_royalty_01
 			}
 			female = {
-				1 = female_headgear_secular_byzantine_royalty_01
-				0 = female_headgear_secular_byzantine_imperial_01 
+				3 = female_headgear_secular_byzantine_royalty_01
+				1 = female_headgear_secular_byzantine_imperial_01 
 			}
 			boy = male
             girl = female
