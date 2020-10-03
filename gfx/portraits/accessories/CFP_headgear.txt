@@ -193,11 +193,12 @@ female_headgear_secular_western_war_kettle_hat_02 = {
 }
 
 male_headgear_secular_western_war_kettle_hat_03 = {
-	set_tags = "cap"
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_kettle_hat_03_entity 	 }		
 }
 female_headgear_secular_western_war_kettle_hat_03 = {
-	set_tags = "cap"
+	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_kettle_hat_03_entity 	 }		
 }
 
