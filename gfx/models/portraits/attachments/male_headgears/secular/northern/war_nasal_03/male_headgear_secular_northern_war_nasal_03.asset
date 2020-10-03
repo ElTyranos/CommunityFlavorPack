@@ -28,7 +28,7 @@ entity = {
 	name = "male_headgear_secular_northern_war_nasal_03_entity"
 	pdxmesh = "male_headgear_secular_northern_war_nasal_03_mesh"
 	
-	attribute = { name = "bs_fat_1"								blend_shape = "male_headgear_secular_northern_war_nasal_03_bs_fat" }
+	attribute = { name = "bs_fat_1" blend_shape = "male_headgear_secular_northern_war_nasal_03_bs_fat" }
 	
 	game_data = {
 		portrait_accessory = {
