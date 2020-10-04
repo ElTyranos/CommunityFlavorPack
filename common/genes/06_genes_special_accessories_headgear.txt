@@ -342,7 +342,7 @@ accessory_genes = {
         dde_hre_high_nobility = {
             index = 21
             male = {
-                # 1 = male_headgear_secular_dde_hre_high_nobility_01
+                1 = male_headgear_secular_dde_hre_high_nobility_01
 				1 = male_headgear_secular_dde_hre_high_nobility_02
             }
             female = {
@@ -1190,7 +1190,6 @@ accessory_genes = {
             girl = female
         }
 	}
-
 }
 
 }
