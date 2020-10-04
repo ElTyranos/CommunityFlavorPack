@@ -77,6 +77,15 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_padded_hood_01:1 "Gambeson coif"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_padded_hood_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_padded_hood_01$"
 
+## War crowns
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "Mail coif Circlet"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "Crowned topf helm"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_02:1 "Nasal Pearl circlet"
+ 
+## Fixing missing vanilla string
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Pearl crown"
+
 ## Byzantine
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "Roman (Xth, Aventail)"
