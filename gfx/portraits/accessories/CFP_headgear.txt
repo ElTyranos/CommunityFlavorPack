@@ -137,7 +137,6 @@ female_headgear_secular_northern_war_nasal_03 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nasal_03_entity 	 }		
 }
 
-
 ## Anglo-saxon cultural
 male_headgear_secular_northern_royalty_suttonhoo_01 = {
 	set_tags = "no_hair"
@@ -266,6 +265,25 @@ female_headgear_secular_western_war_padded_hood_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_padded_hood_01_entity 	 }		
 }
 
+## War Crowns
+
+male_headgear_secular_western_war_high_nobility_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_high_nobility_01_entity 	 }		
+}
+
+male_headgear_secular_dde_hre_war_high_nobility_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_dde_hre_war_high_nobility_01_entity 	 }		
+}
+
+male_headgear_secular_dde_hre_war_high_nobility_02 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_dde_hre_war_high_nobility_02_entity 	 }		
+}
 
 ## Byzantine cultural
 male_headgear_secular_byzantine_war_roman_01 = {
