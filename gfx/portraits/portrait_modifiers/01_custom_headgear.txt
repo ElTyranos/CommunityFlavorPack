@@ -1,27 +1,7 @@
 ﻿custom_headgear = {
 	usage = customization
 	interface_position = 1
-	
-	#########################
-	## Community Flavor Pack
-	add_accessory_modifiers = {
-		gene = headgear
-		template = norse_war
-	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = norse_common
-	}
 
-	add_accessory_modifiers = {
-		gene = headgear
-		template = old_saxon_royalty
-	}
-	
-	
-	#########################
-	## Vanilla
 	add_accessory_modifiers = {
 		gene = headgear
 		template = western_common
@@ -40,6 +20,13 @@
 		template = western_high_nobility
 	}
 
+	### CFP ###
+	add_accessory_modifiers = {
+		gene = headgear
+		template = western_war_high_nobility
+	}
+	### /CFP ###
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		# is_valid_custom = {
@@ -70,7 +57,24 @@
 		gene = headgear
 		template = northern_war
 	}
+	
+	########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norse_war
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norse_common
+	}
 
+	add_accessory_modifiers = {
+		gene = headgear
+		template = old_saxon_royalty
+	}
+	########### /CFP ###########
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_common
@@ -221,7 +225,16 @@
 			has_dlc = "Garments of the Holy Roman Empire"
 		}
 	}
-
+	### CFP ###
+	add_accessory_modifiers = {
+		gene = headgear
+		template = dde_hre_war_high_nobility
+		is_valid_custom = {
+			has_dlc = "Garments of the Holy Roman Empire"
+			}
+	}
+	### /CFP ###
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = dde_hre_royalty

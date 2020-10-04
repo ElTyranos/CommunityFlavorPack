@@ -1,6 +1,8 @@
 pdxmesh = {
 	name = "male_headgear_secular_western_war_kettle_hat_03_mesh"
 	file = "male_headgear_secular_western_war_kettle_hat_03.mesh"
+	
+	blend_shape = { id = "male_headgear_secular_western_war_kettle_hat_03_bs_fat"		type = "male_headgear_secular_western_war_kettle_hat_03_bs_fat.mesh" }
 
 	meshsettings = {
 		name = "male_headgear_secular_western_war_kettle_hat_03Shape"
@@ -11,9 +13,27 @@ pdxmesh = {
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
+	meshsettings = {
+		name = "male_headgear_secular_western_war_padded_hood_01Shape"
+		index = 0
+		texture_diffuse = "gambeson_01_diffuse.dds"
+		texture_normal = "gambeson_01_normal.dds"
+		texture_specular = "gambeson_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
 }
 
 entity = {
 	name = "male_headgear_secular_western_war_kettle_hat_03_entity"
 	pdxmesh = "male_headgear_secular_western_war_kettle_hat_03_mesh"
+
+	attribute = { name = "bs_fat_1" blend_shape = "male_headgear_secular_western_war_kettle_hat_03_bs_fat" }
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/western/war_padded_hood_01/gambeson_01_mask.dds"
+			variation = "western_hat_nobility_low_01"
+		}
+	}
 }

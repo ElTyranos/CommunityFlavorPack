@@ -1,6 +1,6 @@
 pdxmesh = {
 	name = "female_headgear_secular_byzantine_war_roman_02_mesh"
-	file = "female_headgear_secular_byzantine_war_roman_02.mesh"
+	file = "female_headgear_secular_byzantine_war_roman_02.mesh" # blend_shape = { id = "female_headgear_secular_byzantine_war_roman_02_bs_fat"		type = "female_headgear_secular_byzantine_war_roman_02_bs_fat.mesh" }
 
 	meshsettings = {
 		name = "female_headgear_secular_byzantine_war_roman_02Shape"
@@ -11,9 +11,18 @@ pdxmesh = {
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
+	meshsettings = {
+		name = "female_headgear_secular_western_war_mail_coif_01Shape"
+		index = 0
+		texture_diffuse = "mail_coif_01_diffuse.dds"
+		texture_normal = "mail_coif_01_normal.dds"
+		texture_specular = "mail_coif_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
 }
 
 entity = {
 	name = "female_headgear_secular_byzantine_war_roman_02_entity"
-	pdxmesh = "female_headgear_secular_byzantine_war_roman_02_mesh"
+	pdxmesh = "female_headgear_secular_byzantine_war_roman_02_mesh" # attribute = { name = "bs_fat_1" blend_shape = "female_headgear_secular_byzantine_war_roman_02_bs_fat" }
 }

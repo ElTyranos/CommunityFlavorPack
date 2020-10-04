@@ -19,5 +19,5 @@ entity = {
 	name = "male_headgear_secular_western_war_mail_coif_02_entity"
 	pdxmesh = "male_headgear_secular_western_war_mail_coif_02_mesh"
 
-	attribute = { name = "bs_fat_1"								blend_shape = "male_headgear_secular_western_war_mail_coif_02_bs_fat" }
+	attribute = { name = "bs_fat_1" blend_shape = "male_headgear_secular_western_war_mail_coif_02_bs_fat" }
 }

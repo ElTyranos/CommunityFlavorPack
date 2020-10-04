@@ -10,7 +10,7 @@ pdxmesh = {
 		texture_diffuse = "roman_01_diffuse.dds"
 		texture_normal = "roman_01_normal.dds"
 		texture_specular = "roman_01_properties.dds"
-		shader = "portrait_attachment"
+		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 }
@@ -19,5 +19,5 @@ entity = {
 	name = "male_headgear_secular_byzantine_war_roman_01_entity"
 	pdxmesh = "male_headgear_secular_byzantine_war_roman_01_mesh"
 
-	attribute = { name = "bs_fat_1"								blend_shape = "male_headgear_secular_byzantine_war_roman_01_bs_fat" }
+	attribute = { name = "bs_fat_1" blend_shape = "male_headgear_secular_byzantine_war_roman_01_bs_fat" }
 }

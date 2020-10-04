@@ -19,12 +19,12 @@ entity = {
 	name = "male_headgear_secular_western_war_padded_hood_01_entity"
 	pdxmesh = "male_headgear_secular_western_war_padded_hood_01_mesh"
 
-	attribute = { name = "bs_fat_1"								blend_shape = "male_headgear_secular_western_war_padded_hood_01_bs_fat" }
+	attribute = { name = "bs_fat_1" blend_shape = "male_headgear_secular_western_war_padded_hood_01_bs_fat" }
 	
 	game_data = {
 		portrait_accessory = {
 			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/western/war_padded_hood_01/gambeson_01_mask.dds"
-			variation = "western_hat_nobility_low_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			variation = "western_hat_nobility_low_01"
 		}
 	}
 }

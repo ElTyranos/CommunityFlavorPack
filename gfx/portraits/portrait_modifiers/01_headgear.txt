@@ -243,6 +243,57 @@ headgear = {
 			}
 		}
 	}
+	
+	dde_hre_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dde_hre_war_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_dde_hre_clothing_trigger = yes
+						portrait_wear_helmet_high_noble_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_dde_hre_clothing_trigger = yes
+							portrait_wear_helmet_high_noble_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
 
 	dde_hre_royalty = {
 		dna_modifiers = {
@@ -464,6 +515,66 @@ headgear = {
 			modifier = {
 				add = 50
 				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						OR = {
+							portrait_western_clothing_trigger = yes
+							portrait_northern_clothing_trigger = yes
+							portrait_norse_clothing_trigger = yes
+							portrait_old_saxon_clothing_trigger = yes
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							OR = {
+								portrait_western_clothing_trigger = yes
+								portrait_northern_clothing_trigger = yes
+								portrait_norse_clothing_trigger = yes
+								portrait_old_saxon_clothing_trigger = yes
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	western_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_war_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					portrait_wear_helmet_high_noble_trigger = yes
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_duchy
