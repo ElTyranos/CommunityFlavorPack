@@ -280,9 +280,10 @@ female_headgear_secular_byzantine_war_roman_01 = {
 
 male_headgear_secular_byzantine_war_roman_02 = {
 	set_tags = "cap"
+	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_war_roman_02_entity 	 }		
 }
 female_headgear_secular_byzantine_war_roman_02 = {
-	set_tags = "cap"
+	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_war_roman_02_entity 	 }		
 }
