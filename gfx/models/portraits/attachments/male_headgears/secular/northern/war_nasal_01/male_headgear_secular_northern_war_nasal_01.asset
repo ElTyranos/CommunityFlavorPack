@@ -13,7 +13,6 @@ pdxmesh = {
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
-	
 	meshsettings = {
 		name = "male_headgear_secular_western_war_mail_coif_03Shape"
 		index = 0
