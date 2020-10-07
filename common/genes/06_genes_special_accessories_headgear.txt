@@ -650,10 +650,12 @@ accessory_genes = {
         byzantine_royalty = {
             index = 39
 			male = {
+				5 = male_headgear_secular_hungarian_high_nobility_01
 				1 = male_headgear_secular_western_royalty_01
 				1 = male_headgear_secular_western_royalty_02
 			}
 			female = {
+				5 = female_headgear_secular_hungarian_high_nobility_01
 				1 = female_headgear_secular_western_royalty_01
 				1 = female_headgear_secular_western_royalty_02
 			}
