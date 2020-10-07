@@ -243,7 +243,7 @@ headgear = {
 			}
 		}
 	}
-	
+
 	dde_hre_war_high_nobles = {
 		dna_modifiers = {
 			accessory = {
@@ -256,40 +256,47 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_dde_hre_clothing_trigger = yes
-						portrait_wear_helmet_high_noble_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							OR = {
-								highest_held_title_tier = tier_duchy
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 2
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_dde_hre_clothing_trigger = yes
-							portrait_wear_helmet_high_noble_trigger = yes
-						}
-					}
+				add = 101
+				portrait_wear_helmet_high_noble_trigger = yes
+				portrait_dde_hre_clothing_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
 				}
 			}
 		}
@@ -356,7 +363,6 @@ headgear = {
 			}
 		}
 	}
-
 
 	dde_hre_war = {
 		dna_modifiers = {
@@ -572,49 +578,47 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
-				OR = {
-					portrait_wear_helmet_high_noble_trigger = yes
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						OR = {
-							portrait_western_clothing_trigger = yes
-							portrait_northern_clothing_trigger = yes
-							portrait_norse_clothing_trigger = yes
-							portrait_old_saxon_clothing_trigger = yes
-						}
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							OR = {
-								highest_held_title_tier = tier_duchy
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 2
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							OR = {
-								portrait_western_clothing_trigger = yes
-								portrait_northern_clothing_trigger = yes
-								portrait_norse_clothing_trigger = yes
-								portrait_old_saxon_clothing_trigger = yes
-							}
-						}
-					}
+				add = 100
+				portrait_wear_helmet_high_noble_trigger = yes
+				portrait_western_clothing_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
 				}
 			}
 		}
@@ -726,7 +730,6 @@ headgear = {
 		}
 	}
 
-
 	western_war = {
 		dna_modifiers = {
 			accessory = {
@@ -784,7 +787,6 @@ headgear = {
 			}
 		}
 	}
-
 
 	crusades_western_war = {
 		dna_modifiers = {
