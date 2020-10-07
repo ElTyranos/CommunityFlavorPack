@@ -1178,6 +1178,7 @@ accessory_genes = {
 				5 = male_headgear_secular_dde_hre_high_nobility_02
 				1 = male_headgear_secular_dde_hre_war_high_nobility_01
 				5 = male_headgear_secular_dde_hre_war_high_nobility_02
+				5 = male_headgear_secular_western_war_high_nobility_01
             }
             female = {
 				1 = female_headgear_secular_dde_hre_high_nobility_01
