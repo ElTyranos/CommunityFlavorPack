@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "female_headgear_secular_western_war_frankish_01_mesh"
+	file = "female_headgear_secular_western_war_frankish_01.mesh" # blend_shape = { id = "female_headgear_secular_western_war_frankish_01_bs_fat"		type = "female_headgear_secular_western_war_frankish_01_bs_fat.mesh" }
+
+	meshsettings = {
+		name = "female_headgear_secular_western_war_frankish_01Shape"
+		index = 0
+		texture_diffuse = "frankish_01_diffuse.dds"
+		texture_normal = "frankish_01_normal.dds"
+		texture_specular = "frankish_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_western_war_frankish_01_entity"
+	pdxmesh = "female_headgear_secular_western_war_frankish_01_mesh" # attribute = { name = "bs_fat_1" blend_shape = "female_headgear_secular_western_war_frankish_01_bs_fat" }
+}

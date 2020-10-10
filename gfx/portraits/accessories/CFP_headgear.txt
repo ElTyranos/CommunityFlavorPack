@@ -227,6 +227,16 @@ female_headgear_secular_western_war_topf_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_topf_01_entity 	 }		
 }
 
+male_headgear_secular_western_war_frankish_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_frankish_01_entity 	 }
+}
+female_headgear_secular_western_war_frankish_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_frankish_01_entity 	 }
+}
+
 male_headgear_secular_western_war_mail_coif_01 = {
 	set_tags = "no_hair"
 	set_tags = "hood_beard"
