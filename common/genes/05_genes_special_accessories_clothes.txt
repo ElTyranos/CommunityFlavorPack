@@ -708,6 +708,7 @@ accessory_genes = {
 			male = {
 				5 = male_clothes_secular_northern_war_nobility_01_common
 				2 = male_clothes_secular_northern_war_gambeson_01
+				2 = male_clothes_secular_western_war_norman_01
 			}
 
 			female = {
