@@ -260,6 +260,39 @@ headgear = {
 				portrait_wear_helmet_high_noble_trigger = yes
 				portrait_dde_hre_clothing_trigger = yes
 				
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_dde_hre_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_dde_hre_clothing_trigger = yes
+						}
+					}
+				}
+				
 				NOR = {
 				    AND = {
 				        religion = religion:christianity_religion
@@ -581,6 +614,49 @@ headgear = {
 				add = 100
 				portrait_wear_helmet_high_noble_trigger = yes
 				portrait_western_clothing_trigger = yes
+				
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						OR = {
+							portrait_western_clothing_trigger = yes
+							portrait_northern_clothing_trigger = yes
+							portrait_norse_clothing_trigger = yes
+							portrait_old_saxon_clothing_trigger = yes
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							OR = {
+								portrait_western_clothing_trigger = yes
+								portrait_northern_clothing_trigger = yes
+								portrait_norse_clothing_trigger = yes
+								portrait_old_saxon_clothing_trigger = yes
+							}
+						}
+					}
+				}
 				
 				NOR = {
 				    AND = {
