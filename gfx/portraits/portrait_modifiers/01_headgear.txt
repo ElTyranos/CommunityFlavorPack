@@ -243,7 +243,7 @@ headgear = {
 			}
 		}
 	}
-	
+
 	dde_hre_war_high_nobles = {
 		dna_modifiers = {
 			accessory = {
@@ -256,7 +256,10 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 101
+				portrait_wear_helmet_high_noble_trigger = yes
+				portrait_dde_hre_clothing_trigger = yes
+				
 				OR = {
 					AND = {
 						OR = {
@@ -269,7 +272,6 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						portrait_dde_hre_clothing_trigger = yes
-						portrait_wear_helmet_high_noble_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -287,9 +289,47 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_dde_hre_clothing_trigger = yes
-							portrait_wear_helmet_high_noble_trigger = yes
 						}
 					}
+				}
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
 				}
 			}
 		}
@@ -356,7 +396,6 @@ headgear = {
 			}
 		}
 	}
-
 
 	dde_hre_war = {
 		dna_modifiers = {
@@ -572,9 +611,11 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 100
+				portrait_wear_helmet_high_noble_trigger = yes
+				portrait_western_clothing_trigger = yes
+				
 				OR = {
-					portrait_wear_helmet_high_noble_trigger = yes
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_duchy
@@ -615,6 +656,45 @@ headgear = {
 							}
 						}
 					}
+				}
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
 				}
 			}
 		}
@@ -726,7 +806,6 @@ headgear = {
 		}
 	}
 
-
 	western_war = {
 		dna_modifiers = {
 			accessory = {
@@ -784,7 +863,6 @@ headgear = {
 			}
 		}
 	}
-
 
 	crusades_western_war = {
 		dna_modifiers = {
