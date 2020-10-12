@@ -86,6 +86,10 @@
 ## Fixing missing vanilla string
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Couronne de perle"
 
+## Slavic
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_01:1 "Casque Slave"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_slavic_war_helmet_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_01$"
+ 
 ## Byzantine
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "Romain (Xème, aventail)"

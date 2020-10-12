@@ -282,6 +282,17 @@ male_headgear_secular_dde_hre_war_high_nobility_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_dde_hre_war_high_nobility_02_entity 	 }		
 }
 
+## Slavic cultural
+male_headgears_secular_slavic_war_helmet_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_slavic_war_helmet_01_entity 	 }		
+}
+female_headgears_secular_slavic_war_helmet_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_slavic_war_helmet_01_entity 	 }		
+}
+
 ## Byzantine cultural
 male_headgear_secular_byzantine_war_roman_01 = {
 	set_tags = "no_hair"
