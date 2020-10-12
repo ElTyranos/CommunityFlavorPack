@@ -266,19 +266,16 @@ female_headgear_secular_western_war_padded_hood_01 = {
 }
 
 ## War Crowns
-
 male_headgear_secular_western_war_high_nobility_01 = {
 	set_tags = "no_hair"
 	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_high_nobility_01_entity 	 }		
 }
-
 male_headgear_secular_dde_hre_war_high_nobility_01 = {
 	set_tags = "no_hair"
 	set_tags = "no_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_dde_hre_war_high_nobility_01_entity 	 }		
 }
-
 male_headgear_secular_dde_hre_war_high_nobility_02 = {
 	set_tags = "no_hair"
 	set_tags = "hood_beard"
