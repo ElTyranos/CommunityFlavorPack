@@ -2,10 +2,12 @@
 	culture = { has_graphical_culture = norse_clothing_gfx }
 }
 portrait_old_saxon_clothing_trigger = {
-	culture = { 
-		has_graphical_culture = anglo_saxon_coa_gfx
-	}
+	culture = { has_graphical_culture = anglo_saxon_coa_gfx }
 }
+portrait_hungarian_clothing_trigger = {
+	culture = { has_graphical_culture = hungarian_clothing_gfx }
+}
+
 portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
 		AND = {

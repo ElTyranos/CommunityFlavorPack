@@ -73,6 +73,17 @@
 		gene = headgear
 		template = old_saxon_royalty
 	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = hungarian_high_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = hungarian_war
+	}
+	
 	########### /CFP ###########
 	
 	add_accessory_modifiers = {

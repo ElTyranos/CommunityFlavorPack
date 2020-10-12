@@ -566,6 +566,7 @@ accessory_genes = {
 		}
 
 
+
 		byzantine_high_nobility = {
             index = 34
             male = {
@@ -629,7 +630,6 @@ accessory_genes = {
 				4 = male_headgear_secular_western_war_mail_coif_01
 				4 = male_headgear_secular_western_war_mail_coif_03
 				4 = male_headgear_secular_western_war_padded_hood_01
-				4 = male_headgears_secular_slavic_war_helmet_01
 				
 			}
 			female = {
@@ -640,7 +640,6 @@ accessory_genes = {
 				4 = female_headgear_secular_western_war_mail_coif_01
 				4 = female_headgear_secular_western_war_mail_coif_03
 				4 = female_headgear_secular_western_war_padded_hood_01
-				4 = female_headgears_secular_slavic_war_helmet_01
 				
 			}
 			boy = male
@@ -1188,6 +1187,33 @@ accessory_genes = {
             boy = male
             girl = female
         }
+
+		hungarian_high_nobility = {
+			index = 75
+			male = {
+				1 = male_headgear_secular_hungarian_high_nobility_01
+			}
+			female = {
+				1 = female_headgear_secular_hungarian_high_nobility_01
+			}
+			boy = male
+            girl = female
+		}
+
+		hungarian_war = {
+			index = 76
+			male = {
+				1 = male_headgears_secular_slavic_war_helmet_01
+				
+			}
+			female = {
+				1 = female_headgears_secular_slavic_war_helmet_01
+				
+			}
+			boy = male
+            girl = female
+		}
+
 	}
 }
 
