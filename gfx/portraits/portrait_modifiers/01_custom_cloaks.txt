@@ -22,4 +22,12 @@
 		}
 		template = norse_war
 	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			portrait_norman_clothing_trigger = yes
+		}
+		template = norman_war
+	}
 }

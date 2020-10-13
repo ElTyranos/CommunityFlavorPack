@@ -128,6 +128,7 @@ accessory_genes = {
 				2 = male_headgear_secular_western_war_sugarloaf_01
 				10 = male_headgear_secular_northern_war_nasal_02
 				10 = male_headgear_secular_crusades_western_war_nobility_01
+				10 = male_headgear_secular_western_war_frankish_01
 				
 			}
 			female = {
@@ -145,6 +146,7 @@ accessory_genes = {
 				2 = female_headgear_secular_western_war_sugarloaf_01
 				10 = female_headgear_secular_northern_war_nasal_02
 				10 = female_headgear_secular_crusades_western_war_nobility_01
+				10 = female_headgear_secular_western_war_frankish_01
 				
 			}
 			boy = male
@@ -1186,6 +1188,35 @@ accessory_genes = {
             boy = male
             girl = female
         }
+
+		norman_war = {
+			index = 75
+			male = {
+				10 = male_headgear_secular_northern_war_nobility_01
+				10 = male_headgear_secular_northern_war_nobility_02
+				10 = male_headgear_secular_northern_war_nasal_01
+				10 = male_headgear_secular_northern_war_nasal_02
+				4 = male_headgear_secular_northern_war_nasal_03
+				6 = male_headgear_secular_western_war_mail_coif_01
+				6 = male_headgear_secular_western_war_mail_coif_02
+				4 = male_headgear_secular_western_war_padded_hood_01
+			
+				}
+			female = {
+				10 = female_headgear_secular_northern_war_nobility_01
+				10 = female_headgear_secular_northern_war_nobility_02
+				10 = female_headgear_secular_northern_war_nasal_01
+				10 = female_headgear_secular_northern_war_nasal_02
+				4 = female_headgear_secular_northern_war_nasal_03
+				6 = female_headgear_secular_western_war_mail_coif_01
+				6 = female_headgear_secular_western_war_mail_coif_02
+				4 = female_headgear_secular_western_war_padded_hood_01
+				
+			}
+			boy = male
+            girl = female
+		}
+
 	}
 }
 
