@@ -347,10 +347,10 @@ accessory_genes = {
             male = {
                 10 = male_headgear_secular_dde_hre_high_nobility_01
 				10 = male_headgear_secular_dde_hre_high_nobility_02
-				3 = male_headgear_secular_dde_hre_high_nobility_02
+				3 = male_headgear_secular_western_pillbox_low_01_entity
             }
             female = {
-               1 = male_headgear_secular_western_pillbox_low_01
+				1 = female_headgear_secular_dde_hre_high_nobility_01
             }
             boy = male
             girl = female
