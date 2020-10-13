@@ -360,7 +360,7 @@ accessory_genes = {
             index = 22
             male = {
                 20 = empty
-				1 = male_headgear_secular_western_pillbox_common_01
+				2 = male_headgear_secular_western_pillbox_common_01
                 # 1 = male_headgear_secular_dde_hre_nobility_01
 				#1 = male_headgear_secular_dde_hre_nobility_02
             }
