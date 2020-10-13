@@ -41,6 +41,7 @@ accessory_genes = {
     			# 0 = male_headgear_secular_western_nobility_01
 				# 0 = male_headgear_secular_western_nobility_02
 				10 = male_headgear_secular_dde_hre_common_02
+				10 = male_headgear_secular_western_pillbox_common_01
             }
             female = {
                 30 = empty
@@ -57,7 +58,8 @@ accessory_genes = {
 		western_high_nobility = {
 			index = 3
 			male = {
-				1 = male_headgear_secular_western_high_nobility_01
+				10 = male_headgear_secular_western_high_nobility_01
+				2 = male_headgear_secular_western_pillbox_low_01_entity
 			}
 			female = {
 				1 = female_headgear_secular_western_high_nobility_01
@@ -85,6 +87,7 @@ accessory_genes = {
 			male = {
 				1 = male_headgear_secular_western_common_01
 				1 = male_headgear_secular_western_common_02
+				1 = male_headgear_secular_western_pillbox_common_01
 			}
 			female = {
 				35 = empty
@@ -342,11 +345,12 @@ accessory_genes = {
         dde_hre_high_nobility = {
             index = 21
             male = {
-                1 = male_headgear_secular_dde_hre_high_nobility_01
-				1 = male_headgear_secular_dde_hre_high_nobility_02
+                10 = male_headgear_secular_dde_hre_high_nobility_01
+				10 = male_headgear_secular_dde_hre_high_nobility_02
+				3 = male_headgear_secular_dde_hre_high_nobility_02
             }
             female = {
-               1 = female_headgear_secular_dde_hre_high_nobility_01
+               1 = male_headgear_secular_western_pillbox_low_01
             }
             boy = male
             girl = female
@@ -356,6 +360,7 @@ accessory_genes = {
             index = 22
             male = {
                 20 = empty
+				1 = male_headgear_secular_western_pillbox_common_01
                 # 1 = male_headgear_secular_dde_hre_nobility_01
 				#1 = male_headgear_secular_dde_hre_nobility_02
             }
@@ -371,6 +376,7 @@ accessory_genes = {
 			index = 23
 			male = {
 				1 = male_headgear_secular_dde_hre_common_01
+				1 = male_headgear_secular_western_pillbox_common_01
 				# 1 = male_headgear_secular_dde_hre_common_02
 			}
 			female = {
@@ -556,6 +562,7 @@ accessory_genes = {
 			male = {
 				1 = empty
 				1 = male_headgear_secular_northern_common_01
+				1 = male_headgear_secular_western_pillbox_common_01
 				
 			}
 			female = {
@@ -1134,6 +1141,7 @@ accessory_genes = {
 			male = {
 				1 = empty
 				1 = male_headgear_secular_northern_common_01
+				1 = male_headgear_secular_western_pillbox_common_01
 				
 			}
 			female = {
@@ -1191,7 +1199,8 @@ accessory_genes = {
 		hungarian_high_nobility = {
 			index = 75
 			male = {
-				1 = male_headgear_secular_hungarian_high_nobility_01
+				10 = male_headgear_secular_hungarian_high_nobility_01
+				3 = male_headgear_secular_western_pillbox_low_01_entity
 			}
 			female = {
 				1 = female_headgear_secular_hungarian_high_nobility_01
