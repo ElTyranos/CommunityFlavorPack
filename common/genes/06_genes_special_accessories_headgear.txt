@@ -1226,7 +1226,7 @@ accessory_genes = {
         }
 
 		norman_war = {
-			index = 75
+			index = 77
 			male = {
 				10 = male_headgear_secular_northern_war_nobility_01
 				10 = male_headgear_secular_northern_war_nobility_02
