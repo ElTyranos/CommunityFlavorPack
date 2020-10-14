@@ -65,6 +65,32 @@ cloaks = {
 			}			
 		}
 	}
+	norman_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = norman_war
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_norman_clothing_trigger = yes
+					portrait_wear_armor_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+				}
+			}			
+		}
+	}
 #
 #	pope = {
 #	    dna_modifiers = {

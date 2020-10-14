@@ -78,6 +78,11 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
+		template = norman_war_nobility_clothes
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
 		template = norse_commoner_clothes
 	}
 	
