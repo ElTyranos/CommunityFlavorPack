@@ -342,3 +342,12 @@ female_headgear_secular_hungarian_high_nobility_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_hungarian_high_nobility_01_entity 	 }		
 }
+male_headgears_secular_hungarian_war_helmet_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_hungarian_war_helmet_01_entity 	 }		
+}
+female_headgears_secular_hungarian_war_helmet_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_hungarian_war_helmet_01_entity 	 }		
+}

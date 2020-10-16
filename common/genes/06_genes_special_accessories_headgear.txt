@@ -1215,11 +1215,13 @@ accessory_genes = {
 			index = 76
 			male = {
 				1 = male_headgears_secular_slavic_war_helmet_01
-				
+				1 = male_headgears_secular_hungarian_war_helmet_01
+
 			}
 			female = {
 				1 = female_headgears_secular_slavic_war_helmet_01
-				
+				1 = female_headgears_secular_hungarian_war_helmet_01
+
 			}
 			boy = male
             girl = female
