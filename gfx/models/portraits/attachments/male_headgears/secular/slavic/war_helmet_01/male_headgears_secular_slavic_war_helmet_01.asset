@@ -11,9 +11,24 @@ pdxmesh = {
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
+	meshsettings = {
+		name = "male_headgears_secular_slavic_war_helmet_tail_01Shape"
+		index = 0
+		texture_diffuse = "slavic_helmet_diffuse.dds"
+		texture_normal = "slavic_helmet_normal.dds"
+		texture_specular = "slavic_helmet_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
 }
 
 entity = {
 	name = "male_headgears_secular_slavic_war_helmet_01_entity"
 	pdxmesh = "male_headgears_secular_slavic_war_helmet_01_mesh" # attribute = { name = "bs_fat_1" blend_shape = "male_headgears_secular_slavic_war_helmet_01_bs_fat" }
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/slavic/war_helmet_01/slavic_helmet_mask.dds"
+			variation = "western_hat_nobility_low_01"
+		}
+	}
 }
