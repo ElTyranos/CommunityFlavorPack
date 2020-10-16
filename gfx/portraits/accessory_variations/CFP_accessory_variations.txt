@@ -54,3 +54,16 @@ variation = {
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_crusaders_03.dds" }
 }
+
+variation = {
+	name = "painted_metal_01"
+
+	pattern = { 
+		weight = 1
+		r = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
+		g = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
+		b = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
+		a = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_face_mask_common.dds" }	
+}
