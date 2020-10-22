@@ -1,4 +1,11 @@
-﻿variation = {
+﻿pattern_textures = {
+	name = "all_painted_metal_plain_rough_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/CFP/all_painted_metal_plain_rough_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/CFP/all_painted_metal_plain_rough_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/CFP/all_painted_metal_plain_rough_01_properties.dds"
+}
+
+variation = {
 	name = "northern_war_gambeson_01"
 	
 	# patterns are sampled using UV-set 2
@@ -60,10 +67,10 @@ variation = {
 
 	pattern = { 
 		weight = 1
-		r = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
-		g = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
-		b = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
-		a = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
+		r = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
+		g = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
+		b = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
+		a = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_painted_metal_01.dds" }	
 }
