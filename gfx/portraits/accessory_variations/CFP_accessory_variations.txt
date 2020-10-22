@@ -65,5 +65,5 @@ variation = {
 		b = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
 		a = { textures = "all_silver_plain_rough_01" layout = "plain_fabric_layout" }
 	}
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_face_mask_common.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_painted_metal_01.dds" }	
 }
