@@ -1350,7 +1350,24 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+		
+## Turkic ##
 
+		turkic_war_nobility_clothes = {
+			index = 73
+
+			male = {
+				1 = male_clothes_secular_steppe_war_nobility_01_low
+				
+			}
+
+			female = {
+				1 = female_clothes_secular_steppe_war_nobility_01_low
+				
+			}
+			boy = male
+			girl = female
+		}
 
 	}
 	

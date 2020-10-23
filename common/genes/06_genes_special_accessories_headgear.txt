@@ -1216,13 +1216,11 @@ accessory_genes = {
 			male = {
 				1 = male_headgears_secular_slavic_war_helmet_01
 				1 = male_headgears_secular_hungarian_war_helmet_01
-				1 = male_headgears_secular_turkic_war_cuman_01
 
 			}
 			female = {
 				1 = female_headgears_secular_slavic_war_helmet_01
 				1 = female_headgears_secular_hungarian_war_helmet_01
-				1 = female_headgears_secular_turkic_war_cuman_01
 
 			}
 			boy = male
@@ -1251,6 +1249,80 @@ accessory_genes = {
 				6 = female_headgear_secular_western_war_mail_coif_01
 				6 = female_headgear_secular_western_war_mail_coif_02
 				4 = female_headgear_secular_western_war_padded_hood_01
+				
+			}
+			boy = male
+            girl = female
+		}
+
+		turkic_high_nobility = {
+            index = 40
+            male = {
+				5 = male_headgears_secular_turkic_high_cuman_nobility_01
+				
+            }
+            female = {
+                5 = female_headgear_secular_steppe_high_nobility_01
+            }
+            boy = male
+            girl = female
+        }	
+
+        turkic_nobility = {
+            index = 41
+            male = {
+				5 = empty
+				5 = male_headgears_secular_turkic_low_cuman_nobility_01
+            }
+            female = {
+                5 = empty
+                5 = female_headgear_secular_steppe_common_01
+            }
+            boy = male
+            girl = female
+        }	
+
+		turkic_common = {
+			index = 42
+			male = {
+				5 = empty
+				1 = male_headgear_secular_steppe_common_01
+		
+			}
+			female = {
+				5 = empty
+				1 = female_headgear_secular_steppe_common_01
+			}
+			boy = male
+            girl = female
+		}
+
+		turkic_royalty = {
+			index = 43
+			male = {
+				5 = male_headgear_secular_steppe_royalty_01
+				
+			}
+			female = {
+				5 = female_headgear_secular_steppe_high_nobility_01
+				
+			}
+			boy = male
+            girl = female
+		}
+
+		turkic_war = {
+			index = 44
+			male = {
+				10 = male_headgears_secular_turkic_war_cuman_01
+				2 = male_headgear_secular_steppe_war_nobility_01
+				1 = male_headgear_secular_western_war_mail_coif_01
+				
+			}
+			female = {
+				10 = female_headgears_secular_turkic_war_cuman_01
+				2 = female_headgear_secular_steppe_war_nobility_01
+				1 = female_headgear_secular_western_war_mail_coif_01
 				
 			}
 			boy = male
