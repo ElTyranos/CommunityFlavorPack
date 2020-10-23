@@ -1828,8 +1828,10 @@ clothes = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_steppe_clothing_trigger = yes
-				portrait_turkic_clothing_trigger = yes
+				OR = {
+					portrait_steppe_clothing_trigger = yes
+					portrait_turkic_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1870,8 +1872,10 @@ clothes = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_steppe_clothing_trigger = yes
-						portrait_turkic_clothing_trigger = yes
+						OR = {
+							portrait_steppe_clothing_trigger = yes
+							portrait_turkic_clothing_trigger = yes
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -1889,8 +1893,10 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_steppe_clothing_trigger = yes
-							portrait_turkic_clothing_trigger = yes
+							OR = {
+								portrait_steppe_clothing_trigger = yes
+								portrait_turkic_clothing_trigger = yes
+							}
 						}
 					}
 				}
@@ -1935,8 +1941,10 @@ clothes = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_steppe_clothing_trigger = yes
-						portrait_turkic_clothing_trigger = yes
+						OR = {
+							portrait_steppe_clothing_trigger = yes
+							portrait_turkic_clothing_trigger = yes
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -1953,8 +1961,10 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_steppe_clothing_trigger = yes
-							portrait_turkic_clothing_trigger = yes
+							OR = {
+								portrait_steppe_clothing_trigger = yes
+								portrait_turkic_clothing_trigger = yes
+							}
 						}
 					}
 				}
