@@ -175,7 +175,32 @@
 		gene = headgear
 		template = steppe_war
 	}
+########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = turkic_common
+	}
 
+	add_accessory_modifiers = {
+		gene = headgear
+		template = turkic_nobility
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = turkic_high_nobility
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = turkic_royalty
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = turkic_war
+	}
+########### /CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sub_saharan_common

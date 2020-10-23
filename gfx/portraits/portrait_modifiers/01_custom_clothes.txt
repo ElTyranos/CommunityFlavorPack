@@ -160,7 +160,27 @@
 		gene = clothes
 		template = steppe_war_nobility_clothes
 	}
+########### CFP ###########
+	add_accessory_modifiers = {
+		gene = clothes
+		template = turkic_commoner_clothes
+	}
 
+	add_accessory_modifiers = {
+		gene = clothes
+		template = turkic_low_nobility_clothes
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = turkic_high_nobility_clothes
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = turkic_war_nobility_clothes
+	}
+########### /CFP ###########
 	add_accessory_modifiers = {
 		gene = clothes
 		template = indian_commoner_clothes
