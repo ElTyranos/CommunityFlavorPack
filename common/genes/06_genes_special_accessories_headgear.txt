@@ -1256,7 +1256,7 @@ accessory_genes = {
 		}
 
 		turkic_high_nobility = {
-            index = 40
+            index = 78
             male = {
 				5 = male_headgears_secular_turkic_high_cuman_nobility_01
 				
@@ -1269,7 +1269,7 @@ accessory_genes = {
         }	
 
         turkic_nobility = {
-            index = 41
+            index = 79
             male = {
 				5 = empty
 				5 = male_headgears_secular_turkic_low_cuman_nobility_01
@@ -1283,7 +1283,7 @@ accessory_genes = {
         }	
 
 		turkic_common = {
-			index = 42
+			index = 80
 			male = {
 				5 = empty
 				1 = male_headgear_secular_steppe_common_01
@@ -1298,7 +1298,7 @@ accessory_genes = {
 		}
 
 		turkic_royalty = {
-			index = 43
+			index = 81
 			male = {
 				5 = male_headgear_secular_steppe_royalty_01
 				
@@ -1312,7 +1312,7 @@ accessory_genes = {
 		}
 
 		turkic_war = {
-			index = 44
+			index = 82
 			male = {
 				10 = male_headgears_secular_turkic_war_cuman_01
 				2 = male_headgear_secular_steppe_war_nobility_01
