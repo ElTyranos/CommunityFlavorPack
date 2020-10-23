@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "female_headgears_secular_turkic_war_cuman_02_mesh"
+	file = "female_headgears_secular_turkic_war_cuman_02.mesh" # blend_shape = { id = "female_headgears_secular_turkic_war_cuman_02_bs_fat"		type = "female_headgears_secular_turkic_war_cuman_02_bs_fat.mesh" }
+
+	meshsettings = {
+		name = "female_headgears_secular_turkic_war_cuman_02Shape"
+		index = 0
+		texture_diffuse = "cuman_helmet_01_diffuse.dds"
+		texture_normal = "cuman_helmet_01_normal.dds"
+		texture_specular = "cuman_helmet_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgears_secular_turkic_war_cuman_02_entity"
+	pdxmesh = "female_headgears_secular_turkic_war_cuman_02_mesh" # attribute = { name = "bs_fat_1" blend_shape = "female_headgears_secular_turkic_war_cuman_02_bs_fat" }
+}
