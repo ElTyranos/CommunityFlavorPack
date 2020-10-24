@@ -1,7 +1,10 @@
 pdxmesh = {
 	name = "female_headgears_secular_hungarian_war_helmet_01_mesh"
-	file = "female_headgears_secular_hungarian_war_helmet_01.mesh" # blend_shape = { id = "female_headgears_secular_hungarian_war_helmet_01_bs_fat"		type = "female_headgears_secular_hungarian_war_helmet_01_bs_fat.mesh" }
-
+	file = "female_headgears_secular_hungarian_war_helmet_01.mesh"
+	blend_shape = {
+		id = "female_headgears_secular_hungarian_war_helmet_01_bs_fat"
+		type = "female_headgears_secular_hungarian_war_helmet_01_bs_fat.mesh"
+	}
 	meshsettings = {
 		name = "female_headgears_secular_hungarian_war_helmet_01Shape"
 		index = 0
@@ -24,7 +27,11 @@ pdxmesh = {
 
 entity = {
 	name = "female_headgears_secular_hungarian_war_helmet_01_entity"
-	pdxmesh = "female_headgears_secular_hungarian_war_helmet_01_mesh" # attribute = { name = "bs_fat_1" blend_shape = "female_headgears_secular_hungarian_war_helmet_01_bs_fat" }
+	pdxmesh = "female_headgears_secular_hungarian_war_helmet_01_mesh"
+	attribute = {
+		name = "bs_fat_1"
+		blend_shape = "female_headgears_secular_hungarian_war_helmet_01_bs_fat"
+	}
 	game_data = {
 		portrait_accessory = {
 			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/hungarian/war_helmet_01/hungarian_helmet_mask.dds"
