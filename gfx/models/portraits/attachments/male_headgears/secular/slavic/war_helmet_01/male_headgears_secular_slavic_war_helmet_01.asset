@@ -27,7 +27,7 @@ entity = {
 	pdxmesh = "male_headgears_secular_slavic_war_helmet_01_mesh" # attribute = { name = "bs_fat_1" blend_shape = "male_headgears_secular_slavic_war_helmet_01_bs_fat" }
 	game_data = {
 		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/slavic/war_helmet_01/slavic_helmet_mask.dds"
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/slavic/war_helmet_01/slavic_helmet_01_mask.dds"
 			variation = "western_hat_nobility_low_01"
 		}
 	}
