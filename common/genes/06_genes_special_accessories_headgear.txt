@@ -1267,6 +1267,7 @@ accessory_genes = {
             index = 78
             male = {
 				5 = male_headgears_secular_turkic_high_cuman_nobility_01
+				5 = male_headgears_secular_turkic_high_cuman_nobility_02
 				
             }
             female = {
@@ -1279,8 +1280,9 @@ accessory_genes = {
         turkic_nobility = {
             index = 79
             male = {
-				5 = empty
+				3 = empty
 				5 = male_headgears_secular_turkic_low_cuman_nobility_01
+				3 = male_headgears_secular_turkic_low_cuman_nobility_02
             }
             female = {
                 5 = empty
@@ -1294,7 +1296,8 @@ accessory_genes = {
 			index = 80
 			male = {
 				5 = empty
-				5 = male_headgear_secular_northern_common_01
+				5 = male_headgears_secular_turkic_low_cuman_nobility_02
+				3 = male_headgear_secular_northern_common_01
 				1 = male_headgear_secular_steppe_common_01
 		
 			}
