@@ -1,7 +1,10 @@
 pdxmesh = {
 	name = "female_headgears_secular_slavic_war_helmet_02_mesh"
-	file = "female_headgears_secular_slavic_war_helmet_02.mesh"	# blend_shape = { id = "female_headgears_secular_slavic_war_helmet_02_bs_fat"type = "female_headgears_secular_slavic_war_helmet_02_bs_fat.mesh" }
-
+	file = "female_headgears_secular_slavic_war_helmet_02.mesh"
+	blend_shape = {
+		id = "female_headgears_secular_slavic_war_helmet_02_bs_fat"
+		type = "female_headgears_secular_slavic_war_helmet_02_bs_fat.mesh"
+	}
 	meshsettings = {
 		name = "female_headgears_secular_slavic_war_helmet_02Shape"
 		index = 0
@@ -15,6 +18,9 @@ pdxmesh = {
 
 entity = {
 	name = "female_headgears_secular_slavic_war_helmet_02_entity"
-	pdxmesh = "female_headgears_secular_slavic_war_helmet_02_mesh" # attribute = { name = "bs_fat_1" blend_shape = "female_headgears_secular_slavic_war_helmet_02_bs_fat"
+	pdxmesh = "female_headgears_secular_slavic_war_helmet_02_mesh"
+	attribute = {
+		name = "bs_fat_1"
+		blend_shape = "female_headgears_secular_slavic_war_helmet_02_bs_fat"
 	}
 }
