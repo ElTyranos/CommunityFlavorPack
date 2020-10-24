@@ -13,6 +13,9 @@ portrait_hungarian_clothing_trigger = {
 portrait_turkic_clothing_trigger = {
 	culture = { has_graphical_culture = turkic_clothing_gfx }
 }
+portrait_slavic_clothing_trigger = {
+	culture = { has_graphical_culture = slavic_clothing_gfx }
+}
 portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
 		AND = {

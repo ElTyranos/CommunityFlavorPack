@@ -89,6 +89,20 @@
 		template = hungarian_war
 	}
 	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = slavic_high_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = slavic_royalty
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = slavic_war
+	}
 	########### /CFP ###########
 	
 	add_accessory_modifiers = {
