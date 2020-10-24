@@ -311,6 +311,14 @@ female_headgears_secular_slavic_war_helmet_01 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_slavic_war_helmet_01_entity 	 }		
 }
+male_headgears_secular_slavic_war_helmet_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_slavic_war_helmet_02_entity 	 }		
+}
+female_headgears_secular_slavic_war_helmet_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_slavic_war_helmet_02_entity 	 }		
+}
 
 ## Turkic cultural
 male_headgears_secular_turkic_low_cuman_nobility_01 = {
