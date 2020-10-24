@@ -1262,7 +1262,7 @@ accessory_genes = {
 				
             }
             female = {
-                5 = female_headgear_secular_steppe_high_nobility_01
+                5 = female_headgear_secular_byzantine_common_01
             }
             boy = male
             girl = female
@@ -1286,6 +1286,7 @@ accessory_genes = {
 			index = 80
 			male = {
 				5 = empty
+				5 = male_headgear_secular_northern_common_01
 				1 = male_headgear_secular_steppe_common_01
 		
 			}
@@ -1304,7 +1305,7 @@ accessory_genes = {
 				
 			}
 			female = {
-				5 = female_headgear_secular_steppe_high_nobility_01
+				5 = female_headgear_secular_indian_royalty_01
 				
 			}
 			boy = male
