@@ -421,6 +421,8 @@ accessory_genes = {
 				10 = male_headgear_secular_western_war_padded_hood_01
 				10 = male_headgear_secular_northern_war_nasal_01
 				10 = male_headgear_secular_crusades_western_war_nobility_01
+				8 = male_headgears_secular_slavic_war_helmet_01
+				8 = male_headgears_secular_slavic_war_helmet_02
 				
 			}
 			female = {
@@ -438,6 +440,8 @@ accessory_genes = {
 				10 = female_headgear_secular_western_war_padded_hood_01
 				10 = female_headgear_secular_northern_war_nasal_01
 				10 = female_headgear_secular_crusades_western_war_nobility_01
+				8 = female_headgears_secular_slavic_war_helmet_01
+				8 = female_headgears_secular_slavic_war_helmet_02
 				
 			}
 			boy = male
@@ -639,6 +643,7 @@ accessory_genes = {
 				4 = male_headgear_secular_western_war_mail_coif_01
 				4 = male_headgear_secular_western_war_mail_coif_03
 				4 = male_headgear_secular_western_war_padded_hood_01
+				8 = male_headgears_secular_hungarian_war_helmet_01
 				
 			}
 			female = {
@@ -649,6 +654,7 @@ accessory_genes = {
 				4 = female_headgear_secular_western_war_mail_coif_01
 				4 = female_headgear_secular_western_war_mail_coif_03
 				4 = female_headgear_secular_western_war_padded_hood_01
+				8 = female_headgears_secular_hungarian_war_helmet_01
 				
 			}
 			boy = male
@@ -1214,13 +1220,15 @@ accessory_genes = {
 		hungarian_war = {
 			index = 76
 			male = {
-				1 = male_headgears_secular_slavic_war_helmet_01
 				1 = male_headgears_secular_hungarian_war_helmet_01
+				1 = male_headgears_secular_slavic_war_helmet_01
+				1 = male_headgears_secular_slavic_war_helmet_02
 
 			}
 			female = {
-				1 = female_headgears_secular_slavic_war_helmet_01
 				1 = female_headgears_secular_hungarian_war_helmet_01
+				1 = female_headgears_secular_slavic_war_helmet_01
+				1 = female_headgears_secular_slavic_war_helmet_02
 
 			}
 			boy = male
