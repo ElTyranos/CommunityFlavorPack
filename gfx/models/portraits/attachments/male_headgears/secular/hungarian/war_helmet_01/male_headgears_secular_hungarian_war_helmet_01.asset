@@ -1,0 +1,41 @@
+pdxmesh = {
+	name = "male_headgears_secular_hungarian_war_helmet_01_mesh"
+	file = "male_headgears_secular_hungarian_war_helmet_01.mesh"
+	blend_shape = {
+		id = "male_headgears_secular_hungarian_war_helmet_01_bs_fat"
+		type = "male_headgears_secular_hungarian_war_helmet_01_bs_fat.mesh"
+	}
+	meshsettings = {
+		name = "male_headgears_secular_hungarian_war_helmet_01Shape"
+		index = 0
+		texture_diffuse = "hungarian_helmet_diffuse.dds"
+		texture_normal = "hungarian_helmet_normal.dds"
+		texture_specular = "hungarian_helmet_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "male_headgears_secular_hungarian_war_helmet_painted_01Shape"
+		index = 0
+		texture_diffuse = "hungarian_helmet_diffuse.dds"
+		texture_normal = "hungarian_helmet_normal.dds"
+		texture_specular = "hungarian_helmet_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgears_secular_hungarian_war_helmet_01_entity"
+	pdxmesh = "male_headgears_secular_hungarian_war_helmet_01_mesh"
+	attribute = {
+		name = "bs_fat_1"
+		blend_shape = "male_headgears_secular_hungarian_war_helmet_01_bs_fat"
+	}
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/hungarian/war_helmet_01/hungarian_helmet_mask.dds"
+			variation = "painted_metal_01"
+		}
+	}
+}

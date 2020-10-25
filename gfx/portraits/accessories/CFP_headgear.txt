@@ -9,7 +9,7 @@
 	#set_tags = "cap_02"
 	#set_tags = "helmet" -- male hairstyle
 	#set_tags = "headdress"  -- female hairstyle
-	#set_tags = "cap,cap_02"
+	#set_tags = "cap,cap_02" -- narrower than just cap or more hair styles impacted ?
 	#set_tags = "aventail" -- female hairstyle
 
 ## Vanilla edits
@@ -149,6 +149,15 @@ female_headgear_secular_northern_royalty_suttonhoo_01 = {
 
 
 ## Western cultural
+male_headgear_secular_western_pillbox_common_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_common_01_entity 	 }		
+}
+male_headgear_secular_western_pillbox_low_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_low_01_entity 	 }		
+}
+
 male_headgear_secular_western_war_bascinet_01 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_bascinet_01_entity 	 }		
@@ -276,23 +285,91 @@ female_headgear_secular_western_war_padded_hood_01 = {
 }
 
 ## War Crowns
-
 male_headgear_secular_western_war_high_nobility_01 = {
 	set_tags = "no_hair"
 	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_high_nobility_01_entity 	 }		
 }
-
 male_headgear_secular_dde_hre_war_high_nobility_01 = {
 	set_tags = "no_hair"
 	set_tags = "no_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_dde_hre_war_high_nobility_01_entity 	 }		
 }
-
 male_headgear_secular_dde_hre_war_high_nobility_02 = {
 	set_tags = "no_hair"
 	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_dde_hre_war_high_nobility_02_entity 	 }		
+}
+
+## Slavic cultural
+male_headgear_secular_slavic_royalty_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_royalty_01_entity 	 }		
+}
+female_headgear_secular_slavic_royalty_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_royalty_01_entity 	 }		
+}
+male_headgear_secular_slavic_high_nobility_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_high_nobility_01_entity 	 }		
+}
+female_headgear_secular_slavic_high_nobility_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_high_nobility_01_entity 	 }		
+}
+male_headgears_secular_slavic_war_helmet_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_slavic_war_helmet_01_entity 	 }		
+}
+female_headgears_secular_slavic_war_helmet_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_slavic_war_helmet_01_entity 	 }		
+}
+male_headgears_secular_slavic_war_helmet_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_slavic_war_helmet_02_entity 	 }		
+}
+female_headgears_secular_slavic_war_helmet_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_slavic_war_helmet_02_entity 	 }		
+}
+
+## Turkic cultural
+male_headgears_secular_turkic_low_cuman_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_low_cuman_nobility_01_entity 	 }		
+}
+male_headgears_secular_turkic_low_cuman_nobility_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_low_cuman_nobility_02_entity 	 }		
+}
+male_headgears_secular_turkic_high_cuman_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_high_cuman_nobility_01_entity 	 }		
+}
+male_headgears_secular_turkic_high_cuman_nobility_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_high_cuman_nobility_02_entity 	 }		
+}
+male_headgears_secular_turkic_war_cuman_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_war_cuman_01_entity 	 }		
+}
+female_headgears_secular_turkic_war_cuman_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_turkic_war_cuman_01_entity 	 }		
+}
+male_headgears_secular_turkic_war_cuman_02 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_war_cuman_02_entity 	 }		
+}
+female_headgears_secular_turkic_war_cuman_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_turkic_war_cuman_02_entity 	 }		
 }
 
 ## Byzantine cultural
@@ -314,4 +391,23 @@ male_headgear_secular_byzantine_war_roman_02 = {
 female_headgear_secular_byzantine_war_roman_02 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_war_roman_02_entity 	 }		
+}
+
+## Hungarian cultural
+male_headgear_secular_hungarian_high_nobility_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_hungarian_high_nobility_01_entity 	 }		
+}
+female_headgear_secular_hungarian_high_nobility_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_hungarian_high_nobility_01_entity 	 }		
+}
+male_headgears_secular_hungarian_war_helmet_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_hungarian_war_helmet_01_entity 	 }		
+}
+female_headgears_secular_hungarian_war_helmet_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_hungarian_war_helmet_01_entity 	 }		
 }
