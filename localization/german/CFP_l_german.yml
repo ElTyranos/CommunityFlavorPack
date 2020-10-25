@@ -15,7 +15,7 @@
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "Krone ohne Turban"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "Kaiserkrone ohne Kopfwickel"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "Glühend Krone"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "Strahlende Krone"
 
 ## Northern
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_01:1 "Wikinger Helm (Vendel)"
@@ -144,6 +144,6 @@
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_norman_01:1 "Normannische Rüstung"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common:1 "Deutscher "
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common:1 "Deutscher Orden"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_05_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common$"
  
