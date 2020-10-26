@@ -1216,7 +1216,7 @@ accessory_genes = {
 				10 = male_headgear_secular_hungarian_high_nobility_01
 				4 = male_headgear_secular_western_high_nobility_01
 				2 = male_headgear_secular_slavic_high_nobility_01
-				2 = male_headgear_secular_western_pillbox_low_01
+				1 = male_headgear_secular_western_pillbox_low_01
 			}
 			female = {
 				3 = female_headgear_secular_hungarian_high_nobility_01
@@ -1358,7 +1358,7 @@ accessory_genes = {
 			male = {
 				5 = male_headgear_secular_slavic_high_nobility_01
 				2 = male_headgear_secular_western_high_nobility_01
-				2 = male_headgear_secular_western_pillbox_low_01
+				1 = male_headgear_secular_western_pillbox_low_01
 			}
 			female = {
 				5 = female_headgear_secular_slavic_high_nobility_01
