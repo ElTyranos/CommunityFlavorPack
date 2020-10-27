@@ -108,6 +108,8 @@
  
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "жемчужный головной убор Кумана"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "Тюркская корона"
+
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "Боевая маска Кумана"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01$"
  
