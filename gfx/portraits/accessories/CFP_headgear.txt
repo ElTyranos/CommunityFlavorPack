@@ -364,7 +364,7 @@ male_headgears_secular_turkic_high_cuman_nobility_02 = {
 }
 male_headgears_secular_turkic_war_cuman_01 = {
 	set_tags = "no_hair"
-	set_tags = "hood_beard"
+	set_tags = "no_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_war_cuman_01_entity 	 }		
 }
 female_headgears_secular_turkic_war_cuman_01 = {
