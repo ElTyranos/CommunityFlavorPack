@@ -350,6 +350,10 @@ male_headgears_secular_turkic_high_cuman_nobility_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_high_cuman_nobility_01_entity 	 }		
 }
+female_headgears_secular_turkic_high_cuman_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_turkic_high_cuman_nobility_01_entity 	 }		
+}
 male_headgears_secular_turkic_high_cuman_nobility_02 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_high_cuman_nobility_02_entity 	 }		
