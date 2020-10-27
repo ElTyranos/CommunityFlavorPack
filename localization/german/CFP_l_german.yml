@@ -93,6 +93,8 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Perlen-Krone"
 
 ## Byzantine
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "Monomachus Crown"
+
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "Byzantinischer Helm (10. Jahrhundert mit Brünne)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_roman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01$"
 
