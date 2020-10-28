@@ -1324,6 +1324,7 @@ accessory_genes = {
 			index = 81
 			male = {
 				5 = male_headgears_secular_turkic_royalty_01
+				5 = male_headgears_secular_turkic_royalty_02
 				
 			}
 			female = {

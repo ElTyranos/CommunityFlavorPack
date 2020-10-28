@@ -109,6 +109,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "Tocado de perlas cumano"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "Corona turca"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_02:1 "Diadema turca"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "Mascara de guerra cumana"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01$"

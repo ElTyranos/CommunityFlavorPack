@@ -342,6 +342,10 @@ male_headgears_secular_turkic_royalty_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_royalty_01_entity 	 }		
 }
+male_headgears_secular_turkic_royalty_02 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_royalty_02_entity 	 }		
+}
 male_headgears_secular_turkic_low_cuman_nobility_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_low_cuman_nobility_01_entity 	 }		
