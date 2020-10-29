@@ -589,10 +589,10 @@ accessory_genes = {
             male = {
                 5 = male_headgear_secular_byzantine_high_nobility_01
 				2 = male_headgear_secular_hungarian_high_nobility_01
-				
             }
             female = {
                 5 = female_headgear_secular_byzantine_high_nobility_01
+                5 = female_headgear_secular_byzantine_high_propoloma_01
 				2 = female_headgear_secular_hungarian_high_nobility_01
             }
             boy = male
@@ -608,6 +608,7 @@ accessory_genes = {
             female = {
                 5 = empty
                 5 = female_headgear_secular_byzantine_nobility_01
+                5 = female_headgear_secular_byzantine_low_propoloma_01
             }
             boy = male
             girl = female

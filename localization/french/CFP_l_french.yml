@@ -94,6 +94,8 @@
 
 ## Byzantine
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "Couronne Monomaque"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_low_propoloma_01:1 "Propoloma Byzantin"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_high_propoloma_01:1 "Propoloma à bandes de brocart"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "Romain (Xème, aventail)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_roman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01$"

@@ -399,6 +399,15 @@ female_headgear_secular_byzantine_war_roman_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_war_roman_02_entity 	 }		
 }
 
+female_headgear_secular_byzantine_low_propoloma_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_low_propoloma_01_entity 	 }		
+}
+female_headgear_secular_byzantine_high_propoloma_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_high_propoloma_01_entity 	 }		
+}
+
 ## Hungarian cultural
 male_headgear_secular_hungarian_high_nobility_01 = {	
 	set_tags = "crown"
