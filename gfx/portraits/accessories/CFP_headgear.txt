@@ -419,6 +419,10 @@ female_headgear_secular_byzantine_propoloma_high_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_01_entity 	 }		
 }
+female_headgear_secular_byzantine_propoloma_high_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_02_entity 	 }		
+}
 
 ## Hungarian cultural
 male_headgear_secular_hungarian_high_nobility_01 = {	
