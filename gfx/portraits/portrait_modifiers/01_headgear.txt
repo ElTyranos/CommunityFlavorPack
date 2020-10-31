@@ -256,7 +256,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 50
 				portrait_wear_helmet_high_noble_trigger = yes
 				portrait_dde_hre_clothing_trigger = yes
 				
@@ -412,7 +412,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101 # larger than the western war headgear
+				add = 50 # larger than the western war headgear
 				portrait_wear_helmet_trigger = yes
 				portrait_dde_hre_clothing_trigger = yes
 				
@@ -614,7 +614,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 50
 				portrait_wear_helmet_high_noble_trigger = yes
 				portrait_western_clothing_trigger = yes
 				
@@ -822,7 +822,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 50
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
 				
