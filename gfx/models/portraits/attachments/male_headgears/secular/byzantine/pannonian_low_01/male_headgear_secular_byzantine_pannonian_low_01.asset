@@ -1,0 +1,25 @@
+pdxmesh = {
+	name = "male_headgear_secular_byzantine_pannonian_low_01_mesh"
+	file = "male_headgear_secular_byzantine_pannonian_low_01.mesh"
+	
+	meshsettings = {
+		name = "male_headgear_secular_byzantine_pannonian_low_01Shape"
+		index = 0
+		texture_diffuse = "pannonian_diffuse.dds"
+		texture_normal = "pannonian_normal.dds"
+		texture_specular = "pannonian_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_byzantine_pannonian_low_01_entity"
+	pdxmesh = "male_headgear_secular_byzantine_pannonian_low_01_mesh"
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/byzantine/pannonian_low_01/pannonian_low_masks.dds"
+			variation = "byzantine_low_01"
+		}
+	}
+}

@@ -552,6 +552,7 @@ accessory_genes = {
             index = 34
             male = {
                 5 = male_headgear_secular_byzantine_high_nobility_01
+                5 = male_headgear_secular_byzantine_pannonian_high_01
 				2 = male_headgear_secular_hungarian_high_nobility_01
             }
             female = {
@@ -569,6 +570,7 @@ accessory_genes = {
             male = {
                 5 = empty
                 5 = male_headgear_secular_byzantine_nobility_01
+                5 = male_headgear_secular_byzantine_pannonian_low_01
             }
             female = {
                 5 = empty
@@ -584,6 +586,7 @@ accessory_genes = {
 			male = {
 				10 = empty
 				5 = male_headgear_secular_byzantine_common_01
+                5 = male_headgear_secular_byzantine_pannonian_common_01
 			}
 			female = {
 				10 = empty
