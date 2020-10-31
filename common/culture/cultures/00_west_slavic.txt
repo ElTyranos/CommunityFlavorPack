@@ -4,8 +4,8 @@
 		west_slavic_group_coa_gfx
 		western_coa_gfx
 		western_building_gfx
-		western_clothing_gfx
 		slavic_clothing_gfx
+		western_clothing_gfx
 		eastern_unit_gfx
 	}
 
