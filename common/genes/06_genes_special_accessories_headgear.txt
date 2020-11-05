@@ -1371,6 +1371,18 @@ accessory_genes = {
             girl = female
 		}
 
+		rre_imperial = {
+			index = 86
+			male = {
+				1 = male_headgear_secular_rre_laurelwreath_02
+			}
+			female = {
+				1 = female_headgear_secular_rre_laurelwreath_02
+			}
+			boy = male
+            girl = female
+		}
+		
 		trait_laurel = {
 			index = 87
 			male = {

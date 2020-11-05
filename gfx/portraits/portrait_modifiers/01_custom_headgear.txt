@@ -138,6 +138,11 @@
 	########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
+		template = rre_imperial
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = trait_laurel
 	}
 	########### /CFP ###########

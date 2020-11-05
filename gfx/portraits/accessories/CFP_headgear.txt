@@ -461,7 +461,15 @@ male_headgear_secular_rre_laurelwreath_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_rre_laurelwreath_01_entity 	 }		
 }
+male_headgear_secular_rre_laurelwreath_02 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_rre_laurelwreath_02_entity 	 }		
+}
 female_headgear_secular_rre_laurelwreath_01 = {	
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_rre_laurelwreath_01_entity 	 }		
+}
+female_headgear_secular_rre_laurelwreath_02 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_rre_laurelwreath_02_entity 	 }		
 }

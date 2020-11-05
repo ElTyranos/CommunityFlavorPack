@@ -3292,6 +3292,35 @@ headgear = {
 		}
 	}
 
+## Restored Roman Empire ##
+	rre_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = rre_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						has_trait = augustus
+						# OR = {
+							# highest_held_title_tier = tier_empire
+							# AND = { is_ruler = yes has_government = theocracy_government }
+					}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+					}
+				}
+			}
+		}
+	}
+
 ######## Trait #########
 
 	trait_laurel_headgear = {
