@@ -599,8 +599,8 @@ accessory_genes = {
 		byzantine_imperial = {
 			index = 37
 			male = {
-				5 = male_headgear_secular_byzantine_monomachus_01
-				1 = male_headgear_secular_byzantine_imperial_01
+				6 = male_headgear_secular_byzantine_monomachus_01
+				3 = male_headgear_secular_byzantine_imperial_01
 			}
 			female = {
 				1 = female_headgear_secular_byzantine_imperial_01 
