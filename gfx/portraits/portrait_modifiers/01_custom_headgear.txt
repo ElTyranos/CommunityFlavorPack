@@ -135,6 +135,13 @@
 		template = byzantine_war
 	}
 
+	########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = trait_laurel
+	}
+	########### /CFP ###########
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = mena_common

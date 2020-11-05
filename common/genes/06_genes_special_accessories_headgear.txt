@@ -1371,6 +1371,18 @@ accessory_genes = {
             girl = female
 		}
 
+		trait_laurel = {
+			index = 87
+			male = {
+				1 = male_headgear_secular_rre_laurelwreath_01
+			}
+			female = {
+				1 = female_headgear_secular_rre_laurelwreath_01
+			}
+			boy = male
+            girl = female
+		}
+
 	}
 }
 

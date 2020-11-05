@@ -3292,7 +3292,41 @@ headgear = {
 		}
 	}
 
+######## Trait #########
 
+	trait_laurel_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = trait_laurel
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				AND = {
+					OR = {
+						has_trait = scholar
+						has_trait = august
+					}
+					OR = {
+						portrait_dde_hre_clothing_trigger = yes
+						portrait_western_clothing_trigger = yes
+						portrait_byzantine_clothing_trigger = yes
+						portrait_northern_clothing_trigger = yes
+						portrait_norse_clothing_trigger = yes
+						portrait_norman_clothing_trigger = yes
+						portrait_slavic_clothing_trigger = yes
+						portrait_hungarian_clothing_trigger = yes
+						portrait_old_saxon_clothing_trigger = yes
+					}
+				}
+			}
+		}
+	}
 
 
 ######## Religious ##########
