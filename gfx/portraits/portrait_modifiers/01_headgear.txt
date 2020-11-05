@@ -3306,16 +3306,10 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						has_trait = augustus
-						# OR = {
-							# highest_held_title_tier = tier_empire
-							# AND = { is_ruler = yes has_government = theocracy_government }
-					}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
-					}
+				has_trait = augustus
+				AND = {
+					NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+					NOT = { has_government = republic_government }
 				}
 			}
 		}
@@ -3336,11 +3330,11 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				OR = {
+					has_trait = scholar
+					has_trait = august
+				}
 				AND = {
-					OR = {
-						has_trait = scholar
-						has_trait = august
-					}
 					OR = {
 						portrait_dde_hre_clothing_trigger = yes
 						portrait_western_clothing_trigger = yes
