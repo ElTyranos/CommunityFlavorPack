@@ -1,0 +1,34 @@
+pdxmesh = {
+	name = "male_headgear_secular_hungarian_royalty_01_mesh"
+	file = "male_headgear_secular_hungarian_royalty_01.mesh"
+
+	meshsettings = {
+		name = "male_headgear_secular_hungarian_royalty_01Shape"
+		index = 0
+		texture_diffuse = "hungary_crown_diffuse.dds"
+		texture_normal = "hungary_crown_normal.dds"
+		texture_specular = "hungary_crown_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "male_cushionShape"
+		index = 0
+		texture_diffuse = "hungary_cushion_diffuse.dds"
+		texture_normal = "hungary_cushion_normal.dds"
+		texture_specular = "hungary_cushion_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_hungarian_royalty_01_entity"
+	pdxmesh = "male_headgear_secular_hungarian_royalty_01_mesh"
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/hungarian/royalty_01/hungary_cushion_masks.dds"
+			variation = "byzantine_high_01"
+		}
+	}
+}
