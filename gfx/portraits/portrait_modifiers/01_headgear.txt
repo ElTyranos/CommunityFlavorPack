@@ -1037,6 +1037,54 @@ headgear = {
 		}
 	}
 	
+	hungarian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hungarian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = {
+								highest_held_title_tier = tier_empire
+								portrait_northern_clothing_trigger = yes
+							}
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						NOT = { portrait_old_saxon_clothing_trigger = yes }
+						OR = {
+							portrait_hungarian_clothing_trigger = yes
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_hungarian_clothing_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	
 	hungarian_war = {
 		dna_modifiers = {
 			accessory = {

@@ -86,6 +86,11 @@
 	
 	add_accessory_modifiers = {
 		gene = headgear
+		template = hungarian_royalty
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = hungarian_war
 	}
 	
