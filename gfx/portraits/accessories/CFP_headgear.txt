@@ -457,11 +457,11 @@ female_headgear_secular_hungarian_high_nobility_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_hungarian_high_nobility_01_entity 	 }		
 }
 male_headgear_secular_hungarian_royalty_01 = {	
-	set_tags = "cap,cap_02"
+	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_hungarian_royalty_01_entity 	 }		
 }
 female_headgear_secular_hungarian_royalty_01 = {	
-	set_tags = "cap,cap_02"
+	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_hungarian_royalty_01_entity 	 }		
 }
 male_headgears_secular_hungarian_war_helmet_01 = {
