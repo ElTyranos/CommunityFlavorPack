@@ -97,6 +97,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_high_01:1 "Pileus Pannonien en soie brodée"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_low_01:1 "Pileus Pannonien en cotton"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_common_01:1 "Pileus Pannonien en fourrure"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_skiadion_01:1 "Skiadion"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_01:1 "Propoloma Byzantin"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_01:1 "Propoloma à bandes de brocart"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_02:1 "Propoloma à bandes de brocart en V"
@@ -112,7 +113,7 @@
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nasal_01:1 "Nasal de la Garde Varangienne"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nasal_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nasal_01$"
-
+ 
 ## Turkic
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "Chapeau d'osier Couman"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "Chapeau de soie Couman"

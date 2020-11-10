@@ -81,3 +81,15 @@ variation = {
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_painted_metal_01.dds" }	
 }
+
+variation = {
+	name = "byzantine_skiadion_01"
+	pattern = { 
+		weight = 1
+		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "byzantine_linnen_trim_03" 		layout = "small_trim_layout" }
+		b = { textures = "byzantine_linnen_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "byzantine_linnen_trim_02"		layout = "small_trim_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_byzantine_high_01.dds" }	
+}

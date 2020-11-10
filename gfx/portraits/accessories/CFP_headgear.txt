@@ -443,6 +443,11 @@ male_headgear_secular_byzantine_pannonian_common_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_pannonian_common_01_entity 	 }		
 }
 
+male_headgear_secular_byzantine_skiadion_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_skiadion_01_entity 	 }		
+}
+
 female_headgear_secular_byzantine_propoloma_low_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_low_01_entity 	 }		
