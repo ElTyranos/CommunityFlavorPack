@@ -554,13 +554,11 @@ accessory_genes = {
                 5 = male_headgear_secular_byzantine_high_nobility_01
                 5 = male_headgear_secular_byzantine_pannonian_high_01
                 5 = male_headgear_secular_byzantine_skiadion_01
-				2 = male_headgear_secular_hungarian_high_nobility_01
             }
             female = {
                 6 = female_headgear_secular_byzantine_high_nobility_01
                 3 = female_headgear_secular_byzantine_propoloma_high_01
                 3 = female_headgear_secular_byzantine_propoloma_high_02
-				2 = female_headgear_secular_hungarian_high_nobility_01
             }
             boy = male
             girl = female
