@@ -339,7 +339,7 @@ female_headgear_secular_slavic_high_nobility_01 = {
 }
 male_headgears_secular_slavic_war_helmet_01 = {
 	set_tags = "no_hair"
-	set_tags = "hood_beard"
+	set_tags = "no_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_slavic_war_helmet_01_entity 	 }		
 }
 female_headgears_secular_slavic_war_helmet_01 = {
