@@ -18,6 +18,14 @@
 	add_accessory_modifiers = {
 		gene = cloaks
 		is_valid_custom = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		template = byzantine_royalty
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
 			portrait_norse_clothing_trigger = yes
 		}
 		template = norse_war
