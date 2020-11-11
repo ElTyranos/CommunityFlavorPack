@@ -153,36 +153,37 @@ male_headgear_secular_western_headband_common_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_headband_common_01_entity 	 }		
 }
-male_headgear_secular_western_nobility_03 = {
-	set_tags = "crown"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_nobility_03_entity 	 }		
-}
-male_headgear_secular_western_nobility_04 = {
-	set_tags = "crown"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_nobility_04_entity 	 }		
-}
-male_headgear_secular_western_high_nobility_04 = {
-	set_tags = "crown"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_high_nobility_04_entity 	 }		
-}
 female_headgear_secular_western_headband_common_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_headband_common_01_entity 	 }		
+}
+
+male_headgear_secular_western_nobility_03 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_nobility_03_entity 	 }		
 }
 female_headgear_secular_western_nobility_05 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_nobility_05_entity 	 }		
 }
+
+male_headgear_secular_western_nobility_04 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_nobility_04_entity 	 }		
+}
 female_headgear_secular_western_nobility_06 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_nobility_06_entity 	 }		
+}
+
+male_headgear_secular_western_high_nobility_04 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_high_nobility_04_entity 	 }		
 }
 female_headgear_secular_western_high_nobility_04 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_high_nobility_04_entity 	 }		
 }
-
-
 
 male_headgear_secular_western_pillbox_common_01 = {
 	set_tags = "cap,cap_02"
