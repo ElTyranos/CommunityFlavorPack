@@ -63,14 +63,14 @@ accessory_genes = {
 			index = 3
 			male = {
 				10 = male_headgear_secular_western_high_nobility_01
-				5 = male_headgear_secular_western_high_nobility_04
-				5 = male_headgear_secular_slavic_high_nobility_01
+				8 = male_headgear_secular_western_high_nobility_04
+				4 = male_headgear_secular_slavic_high_nobility_01
 				2 = male_headgear_secular_western_pillbox_low_01
 			}
 			female = {
 				10 = female_headgear_secular_western_high_nobility_01
-				5 = female_headgear_secular_slavic_high_nobility_01
-				5 = female_headgear_secular_western_high_nobility_04
+				8 = female_headgear_secular_western_high_nobility_04
+				4 = female_headgear_secular_slavic_high_nobility_01
 			}
 			boy = male
             girl = female
@@ -84,9 +84,9 @@ accessory_genes = {
 				1 = male_headgear_secular_western_high_nobility_04
 			}
 			female = {
-				1 = female_headgear_secular_western_royalty_01
-				1 = female_headgear_secular_western_royalty_02
-				5 = female_headgear_secular_western_high_nobility_04
+				5 = female_headgear_secular_western_royalty_01
+				5 = female_headgear_secular_western_royalty_02
+				1 = female_headgear_secular_western_high_nobility_04
 			}
 			boy = male
             girl = female
@@ -106,7 +106,7 @@ accessory_genes = {
                 5 = female_headgear_secular_western_nobility_01_2
 				5 = female_headgear_secular_western_nobility_02
 				5 = female_headgear_secular_western_nobility_03
-				1 = female_headgear_secular_western_headband_common_01
+				5 = female_headgear_secular_western_headband_common_01
 			}
 			boy = male
             girl = female
