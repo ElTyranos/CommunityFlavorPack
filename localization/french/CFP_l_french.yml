@@ -106,7 +106,10 @@
 
 ## Byzantine
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "Couronne Monomaque"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_02:1 "Couronne Comnène"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_02$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_high_01:1 "Pileus Pannonien en soie brodée"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_low_01:1 "Pileus Pannonien en cotton"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_common_01:1 "Pileus Pannonien en fourrure"

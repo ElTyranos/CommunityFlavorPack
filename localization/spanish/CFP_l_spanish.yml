@@ -106,7 +106,10 @@
 
 ## Byzantine
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "Corona de Monómaco"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_02:1 "Corona de Komnenos"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_02$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_high_01:1 "Pileo panonio bordado de seda"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_low_01:1 "Pileo panonio de algodón"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_common_01:1 "Pileo panonio de piel"
