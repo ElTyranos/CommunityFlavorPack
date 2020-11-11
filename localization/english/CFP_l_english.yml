@@ -44,8 +44,15 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
  
 ## Western
+PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_headband_common_01:1 "Leather Headband"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "Pillbox hat (Noble)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "Pillbox hat (Common)"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_nobility_03:1 "Thin Circlet"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_nobility_04:1 "Thin Pearl Circlet"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_04:1 "Jagged Royal Circlet"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_bascinet_01:1 "Bascinet (Early XIVth)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_bascinet_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_bascinet_01$"
@@ -94,6 +101,7 @@
 
 ## Byzantine
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "Monomachus Crown"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_02:1 "Komnenos Crown"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_high_01:1 "Silken embroidered pannonian pileus"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_low_01:1 "Cotton pannonian pileus"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_common_01:1 "Fur pannonian pileus"

@@ -149,6 +149,25 @@ female_headgear_secular_northern_royalty_suttonhoo_01 = {
 
 
 ## Western cultural
+male_headgear_secular_western_headband_common_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_headband_common_01_entity 	 }		
+}
+male_headgear_secular_western_nobility_03 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_nobility_03_entity 	 }		
+}
+male_headgear_secular_western_nobility_04 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_nobility_04_entity 	 }		
+}
+male_headgear_secular_western_high_nobility_04 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_high_nobility_04_entity 	 }		
+}
+
+
+
 male_headgear_secular_western_pillbox_common_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_common_01_entity 	 }		
@@ -389,6 +408,11 @@ female_headgears_secular_turkic_war_cuman_02 = {
 male_headgear_secular_byzantine_monomachus_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_monomachus_01_entity 	 }		
+}
+
+male_headgear_secular_byzantine_imperial_02 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_imperial_02_entity 	 }		
 }
 
 male_headgear_secular_byzantine_war_kettle_hat_01 = {
