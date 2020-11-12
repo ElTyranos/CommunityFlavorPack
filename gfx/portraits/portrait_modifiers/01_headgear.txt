@@ -256,7 +256,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 50
 				portrait_wear_helmet_high_noble_trigger = yes
 				portrait_dde_hre_clothing_trigger = yes
 				
@@ -412,7 +412,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101 # larger than the western war headgear
+				add = 50 # larger than the western war headgear
 				portrait_wear_helmet_trigger = yes
 				portrait_dde_hre_clothing_trigger = yes
 				
@@ -614,7 +614,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 50
 				portrait_wear_helmet_high_noble_trigger = yes
 				portrait_western_clothing_trigger = yes
 				
@@ -822,7 +822,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 50
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
 				
@@ -1030,6 +1030,54 @@ headgear = {
 							OR = {
 								portrait_hungarian_clothing_trigger = yes
 							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	hungarian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hungarian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = {
+								highest_held_title_tier = tier_empire
+								portrait_northern_clothing_trigger = yes
+							}
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						NOT = { portrait_old_saxon_clothing_trigger = yes }
+						OR = {
+							portrait_hungarian_clothing_trigger = yes
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_hungarian_clothing_trigger = yes
 						}
 					}
 				}
@@ -3292,7 +3340,64 @@ headgear = {
 		}
 	}
 
+## Restored Roman Empire ##
+	rre_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = rre_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				has_trait = augustus
+				AND = {
+					NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+					NOT = { has_government = republic_government }
+				}
+			}
+		}
+	}
 
+######## Trait #########
+
+	trait_laurel_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = trait_laurel
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					has_trait = scholar
+					has_trait = august
+				}
+				AND = {
+					OR = {
+						portrait_dde_hre_clothing_trigger = yes
+						portrait_western_clothing_trigger = yes
+						portrait_byzantine_clothing_trigger = yes
+						portrait_northern_clothing_trigger = yes
+						portrait_norse_clothing_trigger = yes
+						portrait_norman_clothing_trigger = yes
+						portrait_slavic_clothing_trigger = yes
+						portrait_hungarian_clothing_trigger = yes
+						portrait_old_saxon_clothing_trigger = yes
+					}
+				}
+			}
+		}
+	}
 
 
 ######## Religious ##########

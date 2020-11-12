@@ -21,8 +21,39 @@ cloaks = {
 				OR = {
 					portrait_western_clothing_trigger = yes
 					portrait_northern_clothing_trigger = yes
-					portrait_byzantine_clothing_trigger = yes
 					portrait_norse_clothing_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					highest_held_title_tier < tier_kingdom
+					has_government = theocracy_government
+					has_government = republic_government
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+	
+	byzantine_kings = {
+		# outfit_tags = { rank_headgear } 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				
+				gene = cloaks
+				template = byzantine_royalty
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					portrait_byzantine_clothing_trigger = yes
 				}
 			}
 			modifier = {

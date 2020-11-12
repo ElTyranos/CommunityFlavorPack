@@ -81,3 +81,69 @@ variation = {
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_painted_metal_01.dds" }	
 }
+
+variation = {
+	name = "byzantine_skiadion_01"
+	pattern = { 
+		weight = 1
+		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "byzantine_linnen_trim_03" 		layout = "small_trim_layout" }
+		b = { textures = "byzantine_linnen_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "byzantine_linnen_trim_02"		layout = "small_trim_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_byzantine_high_01.dds" }	
+}
+
+variation = {
+	name = "byzantine_cloaks_royalty_01"
+	pattern = { 
+		weight = 1
+		r = { textures = "byzantine_silk_brocade_01" layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "byzantine_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "byzantine_silk_trim_02"		layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		r = { textures = "byzantine_silk_brocade_01" layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "byzantine_silk_trim_02" layout = "small_trim_layout" }
+		a = { textures = "byzantine_silk_trim_04"	layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		r = { textures = "byzantine_silk_brocade_02" layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "byzantine_silk_trim_03" layout = "small_trim_layout" }
+		a = { textures = "byzantine_silk_trim_01"	layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		r = { textures = "byzantine_silk_brocade_03" layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "byzantine_silk_trim_04" layout = "small_trim_layout" }
+		a = { textures = "byzantine_silk_trim_01"	layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		r = { textures = "byzantine_silk_brocade_04" layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "byzantine_silk_trim_04" layout = "small_trim_layout" }
+		a = { textures = "byzantine_silk_trim_01"	layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		r = { textures = "byzantine_silk_brocade_04" layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "byzantine_silk_trim_03" layout = "small_trim_layout" }
+		a = { textures = "byzantine_silk_trim_01"	layout = "small_trim_layout" }
+	}
+	pattern = { 
+		weight = 3
+		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
+		a = { textures = "western_silk_trim_02"	layout = "small_trim_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_byzantine_cloaks_01.dds" }	
+}

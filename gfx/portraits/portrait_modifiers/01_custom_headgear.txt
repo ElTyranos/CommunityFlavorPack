@@ -86,6 +86,11 @@
 	
 	add_accessory_modifiers = {
 		gene = headgear
+		template = hungarian_royalty
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = hungarian_war
 	}
 	
@@ -135,6 +140,18 @@
 		template = byzantine_war
 	}
 
+	########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = rre_imperial
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = trait_laurel
+	}
+	########### /CFP ###########
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = mena_common

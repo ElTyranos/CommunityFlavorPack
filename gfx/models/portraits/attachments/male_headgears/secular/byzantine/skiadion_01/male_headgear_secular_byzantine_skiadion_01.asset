@@ -1,0 +1,25 @@
+pdxmesh = {
+	name = "male_headgear_secular_byzantine_skiadion_01_mesh"
+	file = "male_headgear_secular_byzantine_skiadion_01.mesh"
+	
+	meshsettings = {
+		name = "male_headgear_secular_byzantine_skiadion_01Shape"
+		index = 0
+		texture_diffuse = "skiadion_diffuse.dds"
+		texture_normal = "skiadion_normal.dds"
+		texture_specular = "skiadion_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_byzantine_skiadion_01_entity"
+	pdxmesh = "male_headgear_secular_byzantine_skiadion_01_mesh"
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/byzantine/skiadion_01/skiadion_masks.dds"
+			variation = "byzantine_skiadion_01"
+		}
+	}
+}
