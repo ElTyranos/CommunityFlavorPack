@@ -618,7 +618,7 @@ accessory_genes = {
 			female = {
 				6 = female_headgear_secular_byzantine_imperial_01
 				3 = female_headgear_secular_byzantine_imperial_02
-				3 = male_headgear_secular_byzantine_monomachus_01
+				3 = female_headgear_secular_byzantine_monomachus_01
 			}
 			boy = male
             girl = female
