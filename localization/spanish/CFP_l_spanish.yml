@@ -106,6 +106,7 @@
 
 ## Byzantine
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "Corona de Monómaco"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_monomachus_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_02:1 "Corona de Komnenos"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_02$"
