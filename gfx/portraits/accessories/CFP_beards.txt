@@ -1,0 +1,2 @@
+﻿# required_tags = "no_beard"
+# required_tags = "hood_beard"
