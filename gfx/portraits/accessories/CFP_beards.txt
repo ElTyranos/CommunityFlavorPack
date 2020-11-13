@@ -6,6 +6,10 @@ cfp_male_sideburns_western_01 = {
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head   entity = cfp_male_sideburns_western_01_entity }	
 }
+cfp_male_sideburns_western_02 = {
+	entity = { required_tags = "no_beard"	shared_pose_entity = head }
+	entity = {  shared_pose_entity = head   entity = cfp_male_sideburns_western_02_entity }	
+}
 cfp_male_moustache_western_01 = {
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head   entity = cfp_male_moustache_western_01_entity }	
