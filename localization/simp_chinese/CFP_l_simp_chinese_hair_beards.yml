@@ -1,8 +1,12 @@
 ﻿l_simp_chinese:
 
-## Vanilla Edit
+## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "Mutton chops"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "Mutton chops with goatee"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "Imperial moustache"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "Triple beaded Goatee"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "Beaded Goatee"
+ 
+ ## Hair vanilla edit
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "Steppe wick"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "Bald steppe rider"
