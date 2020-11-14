@@ -3,7 +3,6 @@ pdxmesh = {
 	file = "cfp_male_goatee_northern_02.mesh"
 
 	blend_shape = { id = "cfp_male_goatee_northern_02_bs_fat"		type = "cfp_male_goatee_northern_02_bs_fat.mesh" }
-	blend_shape = { id = "cfp_male_goatee_northern_02_bs_old"		type = "cfp_male_goatee_northern_02_bs_old.mesh" }
 
 	meshsettings = {
 		name = "cfp_male_goatee_northern_02Shape"
@@ -21,5 +20,4 @@ entity = {
 	pdxmesh = "cfp_male_goatee_northern_02_mesh"
 
 	attribute = { name = "bs_fat_1"					blend_shape = "cfp_male_goatee_northern_02_bs_fat" }
-	attribute = { name = "bs_old"					blend_shape = "cfp_male_goatee_northern_02_bs_old" }
 }
