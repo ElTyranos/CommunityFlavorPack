@@ -49,6 +49,7 @@ accessory_genes = {
 				1 = male_hair_northern_03
 				1 = male_hair_steppe_01
 				1 = male_hair_steppe_02
+				1 = cfp_male_hair_steppe_01
 			}
 
 			female = {
@@ -249,6 +250,7 @@ accessory_genes = {
 				#weight = <object in gfx/portrait/accessories/>
 				5 = male_hair_steppe_01
 				5 = male_hair_steppe_02
+				5 = cfp_male_hair_steppe_01
 				
 			}
 

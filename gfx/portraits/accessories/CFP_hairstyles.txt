@@ -6,3 +6,12 @@
 # required_tags = "cap_03"
 # required_tags = "helmet"
 # required_tags = "aventail"
+
+## Steppe Hairs ##
+cfp_male_hair_steppe_01 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_steppe_01_crown_entity"  }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_steppe_01_entity" }
+	
+}
+
