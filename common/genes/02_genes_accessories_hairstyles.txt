@@ -77,6 +77,7 @@ accessory_genes = {
 				1 = female_hair_rtt_02
 				1 = female_hair_rtt_02_milla
 				1 = female_hair_indian_01
+				1 = cfp_female_hair_indian_01
 				1 = female_hair_indian_02
 				1 = female_hair_indian_03
 				1 = female_hair_northern_01
@@ -219,6 +220,7 @@ accessory_genes = {
 
 			female = {
 				1 = female_hair_indian_01
+				1 = cfp_female_hair_indian_01
 				1 = female_hair_indian_02
 				1 = female_hair_indian_03
 				
