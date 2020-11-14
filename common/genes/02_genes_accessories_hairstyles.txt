@@ -87,6 +87,7 @@ accessory_genes = {
 				1 = female_hair_northern_02
 				1 = female_hair_northern_03
 				1 = female_hair_steppe_01
+				1 = cfp_female_hair_steppe_01
 				1 = female_hair_steppe_02
 			}
 			boy = male
@@ -276,6 +277,7 @@ accessory_genes = {
 
 			female = {
 				5 = female_hair_steppe_01
+				2 = cfp_female_hair_steppe_01
 				5 = female_hair_steppe_02
 				
 			}
