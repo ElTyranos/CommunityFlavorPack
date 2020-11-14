@@ -70,6 +70,7 @@ accessory_genes = {
 				1 = cfp_female_hair_mena_02
 				1 = female_hair_byzantine_01
 				1 = female_hair_byzantine_02
+				1 = cfp_female_hair_byzantine_02
 				1 = female_hair_sub_saharan_01
                 1 = female_hair_sub_saharan_02
                 1 = female_hair_sub_saharan_03
@@ -169,8 +170,9 @@ accessory_genes = {
 			}
 			
 			female = {
-				1 = female_hair_byzantine_01
-				1 = female_hair_byzantine_02
+				2 = female_hair_byzantine_01
+				2 = female_hair_byzantine_02
+				1 = cfp_female_hair_byzantine_02
 
 			}
 			boy = male
