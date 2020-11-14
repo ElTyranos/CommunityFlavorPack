@@ -7,21 +7,6 @@
 # required_tags = "helmet"
 # required_tags = "aventail"
 
-## Steppe Hairs ##
-cfp_male_hair_steppe_01 = {
-	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
-	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_steppe_01_crown_entity"  }
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_steppe_01_entity" }
-	
-}
-cfp_male_hair_steppe_02 = {
-	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
-	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_steppe_02_cap_entity"  }
-	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_steppe_02_crown_entity"  }
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_steppe_02_entity" }
-	
-}
-
 ##Mena Hairs##
 cfp_female_hair_mena_01 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
@@ -64,3 +49,15 @@ cfp_female_hair_indian_03 = {
 	
 }
 
+## Steppe Hairs ##
+cfp_male_hair_steppe_01 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_steppe_01_crown_entity"  }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_steppe_01_entity" }
+}
+cfp_male_hair_steppe_02 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_steppe_02_cap_entity"  }
+	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_steppe_02_crown_entity"  }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_steppe_02_entity" }
+}
