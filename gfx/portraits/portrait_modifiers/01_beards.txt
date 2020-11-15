@@ -68,9 +68,18 @@ beards = {
         # }   
         weight = {
             base = 70
-            modifier = { # Muslims should always have a beard
+            modifier = {
                 add = 100
-                religion = religion:islam_religion
+                OR = {
+					religion = religion:islam_religion
+					AND = {
+						OR = {
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						faith = faith:orthodox
+					}
+				}
             }
         }
     }
