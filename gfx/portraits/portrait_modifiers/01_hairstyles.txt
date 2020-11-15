@@ -43,4 +43,30 @@ hairstyles = {
         }
     }
 
+    has_no_hair = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = no_hair
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+					OR = {
+						religion = religion:buddhism_religion
+					}
+					AND ={
+						OR = {
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
+            }
+        }
+    }
+
 }
