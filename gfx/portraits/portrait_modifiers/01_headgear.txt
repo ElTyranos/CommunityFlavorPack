@@ -3388,7 +3388,6 @@ headgear = {
 						portrait_western_clothing_trigger = yes
 						portrait_byzantine_clothing_trigger = yes
 						portrait_northern_clothing_trigger = yes
-						portrait_norse_clothing_trigger = yes
 						portrait_norman_clothing_trigger = yes
 						portrait_slavic_clothing_trigger = yes
 						portrait_hungarian_clothing_trigger = yes
