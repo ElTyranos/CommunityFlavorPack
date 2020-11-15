@@ -77,18 +77,18 @@ portrait_western_clothing_trigger = {
 	}
 }
 portrait_northern_clothing_trigger = {
-	culture = { 
+	culture = {
 		has_graphical_culture = northern_clothing_gfx
-		NOR = {
-			portrait_norse_clothing_trigger = yes
-		}
+	}
+	NOR = {
+		portrait_norse_clothing_trigger = yes
 	}
 }
 portrait_steppe_clothing_trigger = {
-	culture = { 
+	culture = {
 		has_graphical_culture = mongol_clothing_gfx
-		NOR = {
-			portrait_turkic_clothing_trigger = yes
-		}
+	}
+	NOR = {
+		portrait_turkic_clothing_trigger = yes
 	}
 }
