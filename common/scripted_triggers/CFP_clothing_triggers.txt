@@ -2,7 +2,7 @@
 	has_culture_group = culture_group:north_germanic_group
 }
 portrait_old_saxon_clothing_trigger = {
-	has_culture = culture:old_saxon
+	has_culture = culture:anglo_saxon
 }
 portrait_norman_clothing_trigger = {
 	has_culture = culture:norman
