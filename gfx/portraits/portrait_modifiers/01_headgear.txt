@@ -3383,7 +3383,10 @@ headgear = {
 						has_trait = scholar
 						learning >= 20
 					}
-					has_trait = august
+					AND = {
+						has_trait = august
+						diplomacy >= 15
+					}
 				}
 				AND = {
 					OR = {
