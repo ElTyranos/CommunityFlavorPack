@@ -76,6 +76,7 @@ beards = {
 						OR = {
 							is_theocratic_lessee = yes
 							AND = { is_ruler = yes has_government = theocracy_government }
+							has_trait = devoted
 						}
 						faith = faith:orthodox
 					}
