@@ -7,6 +7,13 @@
 # required_tags = "helmet"
 # required_tags = "aventail"
 
+##Norse hairs##
+cfp_male_hair_viking_01 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_viking_01_crown_entity"  }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_viking_01_entity" }
+}
+
 ##Byzantine Hairs##
 cfp_female_hair_byzantine_02 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
