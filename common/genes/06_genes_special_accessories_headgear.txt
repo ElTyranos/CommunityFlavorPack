@@ -1156,16 +1156,12 @@ accessory_genes = {
 			}
 		}
 	
-		old_saxon_royalty = {
+		anglo_saxon_royalty = {
 			index = 72
 			male = {
-				1 = male_headgear_secular_western_royalty_01
-				1 = male_headgear_secular_western_royalty_02
 				1 = male_headgear_secular_northern_royalty_suttonhoo_01
 			}
 			female = {
-				1 = female_headgear_secular_western_royalty_01
-				1 = female_headgear_secular_western_royalty_02
 				1 = female_headgear_secular_northern_royalty_suttonhoo_01
 			}
 			boy = male

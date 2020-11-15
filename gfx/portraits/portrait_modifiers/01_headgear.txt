@@ -571,7 +571,7 @@ headgear = {
 							portrait_western_clothing_trigger = yes
 							portrait_northern_clothing_trigger = yes
 							portrait_norse_clothing_trigger = yes
-							portrait_old_saxon_clothing_trigger = yes
+							portrait_anglo_saxon_clothing_trigger = yes
 						}
 					}
 					AND = {
@@ -593,7 +593,7 @@ headgear = {
 								portrait_western_clothing_trigger = yes
 								portrait_northern_clothing_trigger = yes
 								portrait_norse_clothing_trigger = yes
-								portrait_old_saxon_clothing_trigger = yes
+								portrait_anglo_saxon_clothing_trigger = yes
 							}
 						}
 					}
@@ -633,7 +633,7 @@ headgear = {
 							portrait_western_clothing_trigger = yes
 							portrait_northern_clothing_trigger = yes
 							portrait_norse_clothing_trigger = yes
-							portrait_old_saxon_clothing_trigger = yes
+							portrait_anglo_saxon_clothing_trigger = yes
 						}
 					}
 					AND = {
@@ -655,7 +655,7 @@ headgear = {
 								portrait_western_clothing_trigger = yes
 								portrait_northern_clothing_trigger = yes
 								portrait_norse_clothing_trigger = yes
-								portrait_old_saxon_clothing_trigger = yes
+								portrait_anglo_saxon_clothing_trigger = yes
 							}
 						}
 					}
@@ -729,11 +729,11 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
-						NOT = { portrait_old_saxon_clothing_trigger = yes }
 						OR = {
 							portrait_western_clothing_trigger = yes
 							portrait_northern_clothing_trigger = yes
 							portrait_norse_clothing_trigger = yes
+							portrait_anglo_saxon_clothing_trigger = yes
 						}
 					}
 					AND = {
@@ -757,6 +757,7 @@ headgear = {
 								portrait_western_clothing_trigger = yes
 								portrait_northern_clothing_trigger = yes
 								portrait_norse_clothing_trigger = yes
+								portrait_anglo_saxon_clothing_trigger = yes
 							}
 						}
 					}
@@ -1062,7 +1063,6 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
-						NOT = { portrait_old_saxon_clothing_trigger = yes }
 						OR = {
 							portrait_hungarian_clothing_trigger = yes
 						}
@@ -1219,7 +1219,6 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
-						NOT = { portrait_old_saxon_clothing_trigger = yes }
 						portrait_slavic_clothing_trigger = yes
 					}
 					AND = {
@@ -3080,47 +3079,30 @@ headgear = {
 		}
 	}
 
-## Old-Saxons ##
-	old_saxon_royalty = {
+## Anglo-Saxons ##
+	anglo_saxon_royalty = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = old_saxon_royalty
+				template = anglo_saxon_royalty
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}	
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 10
 				OR = {
 					AND = {
+						portrait_anglo_saxon_clothing_trigger = yes
 						OR = {
 							highest_held_title_tier >= tier_duchy
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
-						NOT = { is_independent_ruler = no }
-						OR = {
-							portrait_old_saxon_clothing_trigger = yes
-						}
-					}
-					AND = {
-						exists = primary_spouse
-						is_ruler = no
-						primary_spouse = {
-							OR = {
-								highest_held_title_tier >= tier_duchy
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
-							NOT = { is_independent_ruler = no }
-							OR = {
-								portrait_old_saxon_clothing_trigger = yes
-							}
+						NOR = { 
+							AND = { is_ruler = yes has_government = mercenary_government  } # Blocked for mercenaries
+							OR = { has_government = republic_government is_independent_ruler = no }
 						}
 					}
 				}
@@ -3397,7 +3379,7 @@ headgear = {
 						portrait_norman_clothing_trigger = yes
 						portrait_slavic_clothing_trigger = yes
 						portrait_hungarian_clothing_trigger = yes
-						portrait_old_saxon_clothing_trigger = yes
+						portrait_anglo_saxon_clothing_trigger = yes
 					}
 				}
 			}
