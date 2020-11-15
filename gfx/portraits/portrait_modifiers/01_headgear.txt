@@ -3379,7 +3379,10 @@ headgear = {
 			modifier = {
 				add = 50
 				OR = {
-					has_trait = scholar
+					AND = {
+						has_trait = scholar
+						learning >= 20
+					}
 					has_trait = august
 				}
 				AND = {
