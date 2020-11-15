@@ -76,7 +76,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = old_saxon_royalty
+		template = anglo_saxon_royalty
 	}
 	
 	add_accessory_modifiers = {
