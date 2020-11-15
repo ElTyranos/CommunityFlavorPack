@@ -81,12 +81,10 @@ accessory_genes = {
 			male = {
 				5 = male_headgear_secular_western_royalty_01
 				5 = male_headgear_secular_western_royalty_02
-				1 = male_headgear_secular_western_high_nobility_04
 			}
 			female = {
 				5 = female_headgear_secular_western_royalty_01
 				5 = female_headgear_secular_western_royalty_02
-				1 = female_headgear_secular_western_high_nobility_04
 			}
 			boy = male
             girl = female

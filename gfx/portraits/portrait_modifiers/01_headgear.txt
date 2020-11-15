@@ -3379,8 +3379,14 @@ headgear = {
 			modifier = {
 				add = 50
 				OR = {
-					has_trait = scholar
-					has_trait = august
+					AND = {
+						has_trait = scholar
+						learning >= 20
+					}
+					AND = {
+						has_trait = august
+						diplomacy >= 15
+					}
 				}
 				AND = {
 					OR = {
@@ -3388,7 +3394,6 @@ headgear = {
 						portrait_western_clothing_trigger = yes
 						portrait_byzantine_clothing_trigger = yes
 						portrait_northern_clothing_trigger = yes
-						portrait_norse_clothing_trigger = yes
 						portrait_norman_clothing_trigger = yes
 						portrait_slavic_clothing_trigger = yes
 						portrait_hungarian_clothing_trigger = yes
