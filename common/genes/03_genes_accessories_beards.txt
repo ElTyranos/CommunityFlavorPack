@@ -56,6 +56,7 @@ accessory_genes = {
 				1 = male_beard_northern_03
 				1 = cfp_male_goatee_northern_01
 				1 = cfp_male_goatee_northern_02
+				1 = cfp_male_moustache_slavic_01
 				1 = male_beard_steppe_01
 				1 = male_beard_steppe_02
 				1 = male_beard_sub_saharan_01
@@ -145,6 +146,7 @@ accessory_genes = {
 				20 = male_beard_northern_03
 				20 = cfp_male_goatee_northern_01
 				20 = cfp_male_goatee_northern_02
+				5 = cfp_male_moustache_slavic_01
 							
 			}
 			female = {
