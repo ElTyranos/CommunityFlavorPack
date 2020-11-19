@@ -12,12 +12,14 @@ cfp_male_hair_slavic_01 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
 	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_slavic_01_crown_entity"  }
 	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_slavic_01_cap_entity"  }
+	entity = { required_tags = "cap_02"				shared_pose_entity = head		entity =  "cfp_male_hair_slavic_01_cap_entity"  }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_slavic_01_entity" }
 }
 cfp_male_hair_slavic_02 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
 	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_slavic_02_crown_entity"  }
 	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_slavic_02_cap_entity"  }
+	entity = { required_tags = "cap_02"				shared_pose_entity = head		entity =  "cfp_male_hair_slavic_02_cap_entity"  }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_slavic_02_entity" }
 }
 
@@ -26,6 +28,7 @@ cfp_male_hair_viking_01 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
 	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_viking_01_crown_entity"  }
 	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_viking_01_cap_entity"  }
+	entity = { required_tags = "cap_02"				shared_pose_entity = head		entity =  "cfp_male_hair_viking_01_cap_entity"  }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_viking_01_entity" }
 }
 
