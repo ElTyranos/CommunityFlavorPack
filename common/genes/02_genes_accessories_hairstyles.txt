@@ -55,6 +55,7 @@ accessory_genes = {
 				1 = cfp_male_hair_steppe_01
 				1 = male_hair_steppe_02
 				1 = cfp_male_hair_steppe_02
+				1 = cfp_male_hair_steppe_03
 			}
 
 			female = {
@@ -280,6 +281,7 @@ accessory_genes = {
 				5 = cfp_male_hair_steppe_01
 				5 = male_hair_steppe_02
 				5 = cfp_male_hair_steppe_02
+				5 = cfp_male_hair_steppe_03
 				5 = male_hair_indian_03
 				5 = cfp_male_hair_turkic_01
 				
