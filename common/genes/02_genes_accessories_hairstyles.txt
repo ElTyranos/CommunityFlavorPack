@@ -48,6 +48,8 @@ accessory_genes = {
 				1 = male_hair_northern_02
 				1 = male_hair_northern_03
 				1 = cfp_male_hair_viking_01
+				1 = cfp_male_hair_slavic_01
+				1 = cfp_male_hair_slavic_02
 				1 = male_hair_steppe_01
 				1 = cfp_male_hair_steppe_01
 				1 = male_hair_steppe_02
@@ -251,6 +253,8 @@ accessory_genes = {
 				10 = male_hair_northern_02
 				10 = male_hair_northern_03
 				10 = cfp_male_hair_viking_01
+				10 = cfp_male_hair_slavic_01
+				10 = cfp_male_hair_slavic_02
 				
 			}
 
