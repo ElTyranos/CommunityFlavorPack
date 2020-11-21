@@ -240,12 +240,12 @@ accessory_genes = {
 			}
 
 			female = {
-				1 = female_hair_indian_01
-				1 = cfp_female_hair_indian_01
-				1 = female_hair_indian_02
-				1 = cfp_female_hair_indian_02
-				1 = female_hair_indian_03
-				1 = cfp_female_hair_indian_03
+				5 = female_hair_indian_01
+				2 = cfp_female_hair_indian_01
+				5 = female_hair_indian_02
+				2 = cfp_female_hair_indian_02
+				5 = female_hair_indian_03
+				2 = cfp_female_hair_indian_03
 				
 			}
 			boy = male
@@ -261,9 +261,9 @@ accessory_genes = {
 				10 = male_hair_northern_01
 				10 = male_hair_northern_02
 				10 = male_hair_northern_03
-				10 = cfp_male_hair_viking_01
-				10 = cfp_male_hair_slavic_01
-				10 = cfp_male_hair_slavic_02
+				5 = cfp_male_hair_viking_01
+				5 = cfp_male_hair_slavic_01
+				5 = cfp_male_hair_slavic_02
 				1 = cfp_male_hair_western_01
 				1 = cfp_male_hair_western_02
 				
