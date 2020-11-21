@@ -56,16 +56,16 @@ hairstyles = {
             base = 0
             modifier = {
                 add = 100
+				OR = {
+					religion = religion:buddhism_religion
+				}
+				AND ={
 					OR = {
-						religion = religion:buddhism_religion
+						is_theocratic_lessee = yes
+						AND = { is_ruler = yes has_government = theocracy_government }
+						has_trait = devoted
 					}
-					AND ={
-						OR = {
-							is_theocratic_lessee = yes
-							AND = { is_ruler = yes has_government = theocracy_government }
-							has_trait = devoted
-						}
-					}
+				}
             }
         }
     }
