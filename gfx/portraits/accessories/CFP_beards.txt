@@ -14,6 +14,11 @@ cfp_male_moustache_western_01 = {
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head   entity = cfp_male_moustache_western_01_entity }	
 }
+cfp_male_frenchfork_western_01 = {
+	entity = { required_tags = "no_beard"	shared_pose_entity = head }
+	entity = { required_tags = "hood_beard"	shared_pose_entity = head 	entity = "cfp_male_frenchfork_western_01_hood_entity" }
+	entity = {  shared_pose_entity = head   entity = cfp_male_frenchfork_western_01_entity }	
+}
 
 ## Northern
 cfp_male_goatee_northern_01 = {
