@@ -30,6 +30,8 @@ accessory_genes = {
 				1 = male_hair_western_08
 				1 = male_hair_western_09
 				1 = male_hair_western_10
+				1 = cfp_male_hair_western_01
+				1 = cfp_male_hair_western_02
 				1 = male_hair_mena_01
 				1 = male_hair_mena_02
 				1 = male_hair_mena_03
@@ -57,8 +59,6 @@ accessory_genes = {
 				1 = cfp_male_hair_steppe_02
 				1 = cfp_male_hair_steppe_03
 				1 = cfp_male_hair_steppe_04
-				1 = cfp_male_hair_western_01
-				1 = cfp_male_hair_western_02
 			}
 
 			female = {
@@ -125,11 +125,11 @@ accessory_genes = {
 				2 = male_hair_western_07
 				2 = male_hair_western_08
 				2 = male_hair_western_09
-				# 2 = male_hair_western_10 # Tonsure 
-				2 = male_hair_mena_01
-				2 = male_hair_mena_02
+				# 2 = male_hair_western_10 # Tonsure
 				1 = cfp_male_hair_western_01
 				1 = cfp_male_hair_western_02
+				2 = male_hair_mena_01
+				2 = male_hair_mena_02
 			}
 			
 			female = {
