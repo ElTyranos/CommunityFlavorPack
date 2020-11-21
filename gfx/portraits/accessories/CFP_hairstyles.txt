@@ -32,6 +32,16 @@ cfp_male_hair_viking_01 = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_viking_01_entity" }
 }
 
+##Western hairs##
+cfp_male_hair_western_01 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_western_01_entity" }
+}
+cfp_male_hair_western_02 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_western_02_entity" }
+}
+
 ##Turkic hairs##
 cfp_male_hair_turkic_01 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
@@ -115,3 +125,4 @@ cfp_female_hair_steppe_02 = {
 	entity = { required_tags = "cap"				shared_pose_entity = head		entity = "cfp_female_hair_steppe_02_cap_entity" }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_female_hair_steppe_02_entity" }
 }
+

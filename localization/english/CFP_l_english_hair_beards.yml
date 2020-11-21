@@ -2,7 +2,9 @@
 
 ## Western
  PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "French fork"
- 
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_western_01:0 "Pulled Slick"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_western_02:0 "Pulled Thinning"
+
 ## Norse
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "Norse saga hero"
  
@@ -34,4 +36,5 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "Crown Curls without earrings"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "Twin Braids with Ribbons and no earrings"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "Rolled Up Braids without earrings"
+
  
