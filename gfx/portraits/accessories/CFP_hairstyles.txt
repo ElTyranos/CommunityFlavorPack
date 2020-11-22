@@ -35,14 +35,20 @@ cfp_male_hair_viking_01 = {
 ##Western hairs##
 cfp_male_hair_bald_western_01 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_bald_western_01_crown_entity"  }
+	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_bald_western_01_cap_entity"  }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_bald_western_01_entity" }
 }
 cfp_male_hair_bald_western_02 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_bald_western_02_crown_entity"  }
+	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_bald_western_02_cap_entity"  }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_bald_western_02_entity" }
 }
 cfp_male_hair_bald_western_03 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "crown"				shared_pose_entity = head		entity =  "cfp_male_hair_bald_western_03_crown_entity"  }
+	entity = { required_tags = "cap"				shared_pose_entity = head		entity =  "cfp_male_hair_bald_western_03_cap_entity"  }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_bald_western_03_entity" }
 }
 

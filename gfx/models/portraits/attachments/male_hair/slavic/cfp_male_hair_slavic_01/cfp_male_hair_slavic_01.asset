@@ -26,7 +26,7 @@ entity = {
 	name = "cfp_male_hair_slavic_01_entity"
 	pdxmesh = "cfp_male_hair_slavic_01_mesh"
 }
-
+	
 pdxmesh = {
 	name = "cfp_male_hair_slavic_01_crown_mesh"
 	file = "cfp_male_hair_slavic_01_crown.mesh"
