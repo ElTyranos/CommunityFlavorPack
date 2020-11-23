@@ -115,13 +115,14 @@ hairstyles = {
                 add = 50
 				AND = {
 					is_male = yes
+					NOT = { has_game_rule = never_cfp_baldtrait }
 					OR = {
 						AND = {
-							age >= 45
+							age >= 40
 							has_two_stress_coping_traits_trigger = yes
 						}
 						AND = {
-							age >= 55
+							age >= 50
 							has_a_stress_coping_trait_trigger = yes
 						}
 					}
