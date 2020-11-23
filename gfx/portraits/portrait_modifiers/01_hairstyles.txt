@@ -69,5 +69,35 @@ hairstyles = {
             }
         }
     }
+	
+    catholic_devoted_hairstyles = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = catholic_devoted_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				OR = {
+					religion = religion:christianity_religion
+				}
+				NOT = {
+					faith.religious_head = this
+				}
+				AND ={
+					OR = {
+						is_theocratic_lessee = yes
+						AND = { is_ruler = yes has_government = theocracy_government }
+						has_trait = devoted
+					}
+				}
+            }
+        }
+    }
 
 }
