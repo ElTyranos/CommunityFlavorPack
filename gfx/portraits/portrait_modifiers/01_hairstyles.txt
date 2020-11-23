@@ -99,5 +99,35 @@ hairstyles = {
             }
         }
     }
+	
+    western_aging_hairstyles = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = western_aging_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+				AND = {
+					is_male = yes
+					age >= 45
+					OR = {
+						has_two_stress_coping_traits_trigger = yes
+						has_learning_lifestyle_trait_trigger = yes
+					}
+					NOR = {
+						portrait_african_clothing_trigger = yes
+						portrait_mena_clothing_trigger = yes
+						portrait_indian_clothing_trigger = yes
+					}
+				}
+            }
+        }
+    }
 
 }
