@@ -115,10 +115,15 @@ hairstyles = {
                 add = 50
 				AND = {
 					is_male = yes
-					age >= 45
 					OR = {
-						has_two_stress_coping_traits_trigger = yes
-						has_learning_lifestyle_trait_trigger = yes
+						AND = {
+							age >= 45
+							has_two_stress_coping_traits_trigger = yes
+						}
+						AND = {
+							age >= 55
+							has_a_stress_coping_trait_trigger = yes
+						}
 					}
 					NOR = {
 						portrait_african_clothing_trigger = yes
