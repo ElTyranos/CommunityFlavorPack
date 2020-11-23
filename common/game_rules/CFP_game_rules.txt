@@ -1,0 +1,5 @@
+﻿cfp_baldtrait = {
+	default = default_cfp_baldtrait
+	default_cfp_baldtrait = {}
+	never_cfp_baldtrait = {}
+}
