@@ -79,12 +79,12 @@ accessory_genes = {
 		western_royalty = {
 			index = 4
 			male = {
-				5 = male_headgear_secular_western_royalty_01
-				5 = male_headgear_secular_western_royalty_02
+				1 = male_headgear_secular_western_royalty_01
+				1 = male_headgear_secular_western_royalty_02
 			}
 			female = {
-				5 = female_headgear_secular_western_royalty_01
-				5 = female_headgear_secular_western_royalty_02
+				1 = female_headgear_secular_western_royalty_01
+				1 = female_headgear_secular_western_royalty_02
 			}
 			boy = male
             girl = female
@@ -1077,7 +1077,7 @@ accessory_genes = {
 				
 			}
 			female = {
-				1 = male_headgear_religious_african_high_01
+				1 = female_headgear_religious_african_high_01
 				
 			}
 			boy = male
@@ -1091,7 +1091,7 @@ accessory_genes = {
 				
 			}
 			female = {
-				1 = male_headgear_religious_steppe_high_01
+				1 = female_headgear_religious_steppe_high_01
 				
 			}
 			boy = male
