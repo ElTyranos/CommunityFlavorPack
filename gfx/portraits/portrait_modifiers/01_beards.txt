@@ -81,7 +81,15 @@ beards = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 							has_trait = devoted
 						}
-						faith = faith:orthodox
+						OR = {
+							faith = faith:orthodox
+							faith = faith:armenian_apostolic
+							faith = faith:coptic
+							faith = faith:messalian
+							faith = faith:bogomilist
+							faith = faith:paulician
+							faith = faith:nestorian
+						}
 					}
 				}
             }
