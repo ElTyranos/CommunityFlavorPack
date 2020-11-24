@@ -1,4 +1,6 @@
-﻿
+﻿@baby_hair_age = 5
+@african_clothing_no_hair_chance = 6.5
+
 hairstyles = {
 
     usage = game
@@ -17,7 +19,7 @@ hairstyles = {
             base = 0
             modifier = {
                 add = 100
-                age < 5
+                age < @baby_hair_age
                 NOT = { portrait_african_clothing_trigger = yes } # Should be replaced with a has_gene trigger when we get that
             }
         }
@@ -37,13 +39,13 @@ hairstyles = {
             base = 0
             modifier = {
                 add = 100
-                age < 5
+                age < @baby_hair_age
                 portrait_african_clothing_trigger = yes # Should be replaced with a has_gene trigger when we get that
             }
         }
     }
 
-    has_no_hair = {
+    no_hair = { # This is to give a random chance of a clean shaven look
         dna_modifiers = {
             accessory = {
                 mode = replace
@@ -54,6 +56,22 @@ hairstyles = {
         }
         weight = {
             base = 0
+            modifier = {
+                add = -100
+                age < @baby_hair_age
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+            # Different likelyhood of a clean shaven look in different cultures
+            modifier = {
+                add = @african_clothing_no_hair_chance
+                portrait_african_clothing_trigger = yes
+            }
             modifier = {
                 add = 100
 				OR = {
@@ -66,6 +84,23 @@ hairstyles = {
 						has_trait = devoted
 					}
 				}
+            }
+        }
+    }
+
+    default_hair = {
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                age >= @baby_hair_age
+            }
+            # This can't be always 100 otherwise it will get insta picked, so we subtract the no hair chance off to weight it properly
+            modifier = {
+                add = {
+                    subtract = @african_clothing_no_hair_chance
+                }
+                portrait_african_clothing_trigger = yes
             }
         }
     }

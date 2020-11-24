@@ -17,7 +17,7 @@
 		gene = hairstyles
 		template = western_hairstyles
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = western_aging_hairstyles
@@ -52,12 +52,12 @@
 		gene = hairstyles
 		template = steppe_hairstyles
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = catholic_devoted_hairstyles
 	}
-	
+
 	#add_accessory_modifiers = {
 	#	gene = hairstyles
 	#	template = rtt_hairstyles
@@ -79,7 +79,13 @@
 
 		is_valid_custom = {
 			monarchs_journey_unlock = 6
-			is_male = yes
+			trigger_if = {
+				limit = { exists = root }
+				is_female = no
+			}
+			trigger_else = {
+				scope:female = no
+			}
 		}
 	}
 
@@ -95,7 +101,13 @@
 
 		is_valid_custom = {
 			monarchs_journey_unlock = 2
-			is_male = yes
+			trigger_if = {
+				limit = { exists = root }
+				is_female = no
+			}
+			trigger_else = {
+				scope:female = no
+			}
 		}
 	}
 	
@@ -111,12 +123,18 @@
 
 		is_valid_custom = {
 			monarchs_journey_unlock = 8
-			is_male = no
+			trigger_if = {
+				limit = { exists = root }
+				is_female = yes
+			}
+			trigger_else = {
+				scope:female = yes
+			}
 		}
 	}
 
 	female_hair_rtt_01 = {
-				dna_modifiers = {
+		dna_modifiers = {
 			accessory = {
 				mode = replace
 				gene = hairstyles
@@ -127,7 +145,13 @@
 
 		is_valid_custom = {
 			monarchs_journey_unlock = 7
-			is_male = no
+			trigger_if = {
+				limit = { exists = root }
+				is_female = yes
+			}
+			trigger_else = {
+				scope:female = yes
+			}
 		}
 	}
 
@@ -143,7 +167,13 @@
 
 		is_valid_custom = {
 			monarchs_journey_unlock = 7
-			is_male = no
+			trigger_if = {
+				limit = { exists = root }
+				is_female = yes
+			}
+			trigger_else = {
+				scope:female = yes
+			}
 		}
 	}
 }
