@@ -1,8 +1,8 @@
 ﻿l_spanish:
 
- rule_cfp_baldtrait:0 "Community Flavor Pack : bald characters"
+ rule_cfp_baldtrait:0 "Community Flavor Pack : personajes calvos"
  setting_default_cfp_baldtrait:0 "Default"
- setting_default_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms in the face of stress will lose their hair as they age."
- setting_never_cfp_baldtrait:1 "#high Never#!"
- setting_never_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms will keep their hair."
+ setting_default_cfp_baldtrait_desc:0 "Personajes que se desarrollaron copiando mecanismos debido por el estrés perderán su pelo a medida que envejecen."
+ setting_never_cfp_baldtrait:1 "#high Nunca#!"
+ setting_never_cfp_baldtrait_desc:0 "Personajes que se desarrollaron copiando mecanismos mantendrán su estilo de peinado."
  
