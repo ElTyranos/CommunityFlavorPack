@@ -24,6 +24,7 @@ headgear = {
 			modifier = {
 				add = 1000
 				AND = {
+					# Deliberately not the "fully naked" one since dropping your crown's intended even if nudity is disabled
 					should_be_naked_trigger = yes
 				}
 			}
@@ -86,7 +87,7 @@ headgear = {
 		weight = {  
 			base = 0
             modifier = {
-                add = 100
+                add = 200
                 has_character_flag = no_headgear
                 highest_held_title_tier < tier_duchy
             }
@@ -158,6 +159,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -208,6 +224,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -351,6 +382,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -397,8 +443,13 @@ headgear = {
 				add = 101 # always pick the HRE crown over the western one
 				has_title = title:e_hre
 			}
+			modifier = {
+				add = -100 # always pick the Byzantine Crown if that's your primary title
+				primary_title = title:e_byzantium
+			}
 		}
 	}
+
 
 	dde_hre_war = {
 		dna_modifiers = {
@@ -473,6 +524,23 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 80
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_western_clothing_trigger = yes
+			}
+			modifier = {
 				add = 20
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -506,6 +574,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -556,6 +639,36 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -601,7 +714,7 @@ headgear = {
 			}
 		}
 	}
-	
+
 	western_war_high_nobles = {
 		dna_modifiers = {
 			accessory = {
@@ -716,7 +829,22 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+			add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -779,6 +907,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -810,6 +953,7 @@ headgear = {
 			}
 		}
 	}
+
 
 	western_war = {
 		dna_modifiers = {
@@ -1319,6 +1463,23 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 80
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_byzantine_clothing_trigger = yes
+			}
+			modifier = {
 				add = 20
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -1352,6 +1513,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -1403,6 +1579,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1453,6 +1644,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1493,6 +1699,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1594,6 +1815,23 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 80
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_indian_clothing_trigger = yes
+			}
+			modifier = {
 				add = 20
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -1627,6 +1865,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -1678,6 +1931,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1728,6 +1996,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1773,6 +2056,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1878,6 +2176,23 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 80
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_mena_clothing_trigger = yes
+			}
+			modifier = {
 				add = 20
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -1928,6 +2243,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -1979,6 +2309,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -2029,6 +2374,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -2074,6 +2434,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				highest_held_title_tier = tier_empire
 				NOR = {
 					AND = { is_ruler = yes has_government = mercenary_government  }
@@ -2187,6 +2562,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -2237,6 +2627,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -2282,6 +2687,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100 # pick over mena
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				highest_held_title_tier = tier_empire
 				NOR = {
 					AND = { is_ruler = yes has_government = mercenary_government  }
@@ -2361,6 +2781,21 @@ headgear = {
 				            }
 				        }
 				    }
+					AND = {
+						has_trait = peasant_leader
+						OR = {
+							is_ruler = no
+							is_leading_faction_type = peasant_faction
+							AND = {
+								is_ruler = yes
+								is_landed = no
+								OR = {
+									has_government = feudal_government
+									has_government = clan_government
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -2380,6 +2815,23 @@ headgear = {
 		}	
 		weight = {
 			base = 0
+			modifier = {
+				add = 80
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_steppe_clothing_trigger = yes
+			}
 			modifier = {
 				add = 20
 				highest_held_title_tier < tier_county
@@ -2414,6 +2866,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -2464,6 +2931,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -2514,6 +2996,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -2856,6 +3353,23 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 70
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_northern_clothing_trigger = yes
+			}
+			modifier = {
 				add = 30
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -2889,6 +3403,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				highest_held_title_tier = tier_county
 				NOR = {
 					# has_dynasty = no
@@ -3125,6 +3654,23 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_african_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
 				highest_held_title_tier < tier_county
 				NOR = {
 					AND = {
@@ -3157,6 +3703,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -3207,6 +3768,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -3252,6 +3828,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				highest_held_title_tier = tier_empire
 				NOR = {
 					AND = { is_ruler = yes has_government = mercenary_government  }
@@ -3410,12 +4001,25 @@ headgear = {
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				faith = faith:orthodox
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
 				NAND = {	
 					is_ruler = yes
 					primary_title = {
 						exists = controlled_faith
 						controlled_faith = faith:orthodox
+					}
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
 					}
 				}
 			}
@@ -3435,10 +4039,15 @@ headgear = {
 	        base = 0
 	        modifier = {
 	            add = 200
-				is_ruler = yes
+				faith = faith:orthodox
+				exists = primary_title
 				primary_title = {
 					exists = controlled_faith
-					controlled_faith = faith:orthodox
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
 				}
 	        }
 	    }
@@ -3461,7 +4070,24 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				OR = {
+					has_trait = devoted
+					AND = {
+						faith = {
+							has_doctrine_parameter = vows_of_poverty_active
+						}
+						OR = {
+							AND = {
+								has_council_position = councillor_court_chaplain
+								faith = {
+									has_doctrine = doctrine_theocracy_lay_clergy
+								}
+							}
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
+				}
 				religion = religion:christianity_religion
 			}
 		}
@@ -3495,14 +4121,17 @@ headgear = {
 			}
 		}	
 		weight = {
-			base = 110
+			base = 0
 			modifier = {
-				factor = 0
-				NAND = {
-					is_ruler = yes
-					primary_title = {
-						exists = controlled_faith
-						controlled_faith = faith:catholic
+				add = 110
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+					controlled_faith = faith:catholic
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
 					}
 				}
 			}
@@ -3537,17 +4166,19 @@ headgear = {
 			}
 		}	
 	    weight = {
-	        base = 120
+	        base = 0
 	        modifier = {
-	            factor = 0
-	            OR = {
-	            	AND = {
-	                	is_theocratic_lessee = no
-	                	NOT = { AND = { is_ruler = yes has_government = theocracy_government } }
-	                	NOT = { faith.religious_head = root }
-	                }
-	                NOT = { faith = { religion_tag = christianity_religion } }
-	            }
+	            add = 120
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
 	        }
 	    }
 	}
@@ -3608,13 +4239,15 @@ headgear = {
 			}
 		}	
 		weight = {
-			base = 140
+			base = 0
 			modifier = {
-				factor = 0
-				NAND = {
-					is_adult = yes
-					religion = religion:christianity_religion
-					faith.religious_head = this
+				add = 140
+				faith = faith:catholic
+				is_adult = yes
+				religion = religion:christianity_religion
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
 				}
 			}
 		}
@@ -3646,8 +4279,8 @@ headgear = {
 	        base = 0
 	        modifier = {
 	            add = 140
-				is_ruler = yes
 				faith.religion = religion:judaism_religion
+				exists = primary_title
 				primary_title = {
 					exists = controlled_faith
 				}
