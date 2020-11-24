@@ -369,7 +369,9 @@ accessory_genes = {
 				1 = cfp_male_hair_bald_western_02
 				1 = cfp_male_hair_bald_western_03
 			}
-			female = male
+			female = {
+				1 = empty
+			}
 			boy = male
 			girl = female
 		}
