@@ -327,7 +327,6 @@ headgear = {
 				}
 				
 				NOR = {
-					AND = { is_leading_faction_type = peasant_faction }
 				    AND = {
 				        religion = religion:christianity_religion
 				        has_government = holy_order_government
@@ -775,7 +774,6 @@ headgear = {
 				}
 				
 				NOR = {
-					AND = { is_leading_faction_type = peasant_faction }
 				    AND = {
 				        religion = religion:christianity_religion
 				        has_government = holy_order_government
