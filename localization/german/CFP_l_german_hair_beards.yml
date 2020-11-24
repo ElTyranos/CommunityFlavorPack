@@ -1,40 +1,41 @@
 ﻿l_german:
 
 ## Western
- PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "French fork"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "Balding Pulled Back"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "Balding Unkempt"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "Bald Messy"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "Französische Gabel"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "Beginnend kahlköpfig nach hinten gerichtet"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "Beginnend Kahlköpfig zu werden unordentlich"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "Kahlköpfig unordentlich"
 
 ## Norse
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "Norse saga hero"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "Held der nordischen Sage"
  
 ## Turkic
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "Bagatur braid"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "Bagatur-Geflecht"
  
 ## Slavic
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "Rus warrior moustache"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "Rus warrior hair strand with earrings"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "Rus warrior hair strand"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "Rus Krieger Schnurrbart"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "Rus Kriegerhaarsträhne mit Ohrringen"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "Rus Kriegerhaarsträhne"
   
 ## Beards vanilla edit
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "Mutton chops"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "Mutton chops with goatee"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "Imperial moustache"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "Triple beaded Goatee"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "Beaded Goatee"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "Hammelkoteletts"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "Hammelkotelett mit Spitzbart"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "Kaiserlicher Schnurrbart"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "Dreifach geperlter Ziegenbart"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "Perlenbesetzter Ziegenbart"
  
  ## Hair vanilla edit
+ PORTRAIT_MODIFIER_custom_hair_bald:0 "Völlig kahl"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "Steppe wick"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "Bald steppe rider"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "Steppe rider without sideburns"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "Young steppe rider"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "Braids"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "Long Curly without jewelry"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "Tight bun"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "Neck Braid without jewelry"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "Wavy Sides without jewelry"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "Crown Curls without earrings"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "Twin Braids with Ribbons and no earrings"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "Rolled Up Braids without earrings"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "Steppendocht"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "Steppenreiter ohne Koteletten"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "Junger Steppenreiter"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "Zöpfe"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "Langer Lockenkopf ohne Schmuck"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "Enges Brötchen"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "Halsgeflecht ohne Schmuck"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "Gewellte Seiten ohne Schmuck"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "Kronenlocken ohne Ohrringe"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "Zwillingsgeflechte mit Bändern und ohne Ohrringe"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "Aufgerollte Zöpfe ohne Ohrringe"
  
