@@ -19,10 +19,99 @@ clothes = {
             base = 0
             modifier = {
                 add = 1000
-                should_be_naked_trigger = yes
+                should_be_fully_naked_portrait_trigger = yes
+            }
+            modifier = {
+            	add = -1000
+            	should_show_nudity = no
             }
         }
     }
+
+    nightgown_western = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = western_sickness
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				should_show_nudity = no
+				should_be_naked_trigger = yes
+			}
+			modifier = {
+            	add = -1000
+            	should_show_nudity = yes
+            }
+            modifier = {
+            	add = -50
+				portrait_byzantine_clothing_trigger = no
+				portrait_northern_clothing_trigger = no
+				portrait_western_clothing_trigger = no
+            }
+		}
+	}
+
+	nightgown_mena = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_sickness
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}	
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				should_show_nudity = no
+				should_be_naked_trigger = yes
+			}
+			modifier = {
+            	add = -1000
+            	should_show_nudity = yes
+            }
+            modifier = {
+            	add = -50
+				portrait_mena_clothing_trigger = no
+				portrait_indian_clothing_trigger = no
+				portrait_steppe_clothing_trigger = no
+				portrait_african_clothing_trigger = no
+            }
+		}
+	}
 
 	default_clothes = {
         dna_modifiers = {
@@ -35,7 +124,37 @@ clothes = {
         }   
         outfit_tags = { no_clothes }
         weight = {
+            base = -100
+        }
+    }
+
+	ruler_designer_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = western_bedchamber
+                range = { 0 1 }
+            }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+        }   
+        weight = {
             base = 0
+            modifier = {
+            	add = 100
+            	exists = scope:ruler_designer
+            }
         }
     }
 
@@ -293,7 +412,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101		# slightly stronger than western war
+				add = 102		# slightly stronger than western war
 				portrait_wear_armor_trigger = yes
 				portrait_dde_hre_clothing_trigger = yes
 			}
@@ -594,6 +713,7 @@ clothes = {
 		}
 	}
 
+
 	western_war = {
 		dna_modifiers = {
 			accessory = {
@@ -618,12 +738,45 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_western_clothing_trigger = yes
 			}
 		}
 	}
+
+
+	norman_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = norman_war_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_norman_clothing_trigger = yes
+			}
+		}
+	}
+
 
 	western_crusades = {
 		dna_modifiers = {
@@ -718,6 +871,30 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 500
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				
+				NOR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_turkic_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+			}
+			modifier = {
 				add = 120
 				is_imprisoned = yes
 				is_in_prison_type = dungeon
@@ -808,36 +985,7 @@ clothes = {
 		}
 	}
 
-	norman_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = norman_war_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 1.0
-				template = body_shape_average_clothed
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				portrait_wear_armor_trigger = yes
-				portrait_norman_clothing_trigger = yes
-			}
-		}
-	}
+
 
 ## Byzantine ##
 
@@ -1034,7 +1182,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_byzantine_clothing_trigger = yes
 			}
@@ -1236,7 +1384,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_indian_clothing_trigger = yes
 			}
@@ -1435,7 +1583,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101 # slightly stronger than mena war
+				add = 102 # slightly stronger than mena war
 				portrait_wear_armor_trigger = yes
 				portrait_dde_abbasid_clothing_trigger = yes
 			}
@@ -1666,7 +1814,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_mena_clothing_trigger = yes
 			}
@@ -1696,6 +1844,30 @@ clothes = {
 		}	
 		weight = {
 			base = 0
+			modifier = {
+				add = 500
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_turkic_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+			}
 			modifier = {
 				add = 110
 				is_imprisoned = yes
@@ -1786,7 +1958,7 @@ clothes = {
 		}
 	}
 	
-	
+
 ## Steppe ##
 
 	steppe_commoners = {
@@ -1997,7 +2169,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_steppe_clothing_trigger = yes
 			}
@@ -2030,7 +2202,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_turkic_clothing_trigger = yes
 			}
@@ -2232,7 +2404,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_northern_clothing_trigger = yes
 			}
@@ -2432,7 +2604,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_norse_clothing_trigger = yes
 			}
@@ -2636,7 +2808,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_african_clothing_trigger = yes
 			}
@@ -2671,14 +2843,27 @@ clothes = {
 	    weight = {
 	        base = 0
 	        modifier = {
-				add = 100
+				add = 120
 				OR = {
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				faith = faith:orthodox
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
 				NOT = {
 					faith.religious_head = this
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
 				}
 			}
 	    }
@@ -2708,9 +2893,25 @@ clothes = {
 	    weight = {
 	        base = 0
 	        modifier = {
-	            add = 110
-				faith = faith:orthodox
-				faith.religious_head = this
+	            add = 150
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
 	        }
 	    }
 	}	
@@ -2750,11 +2951,25 @@ clothes = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
-				religion = religion:christianity_religion
-				NOT = {
-					faith.religious_head = this
+				OR = {
+					has_trait = devoted
+					AND = {
+						faith = {
+							has_doctrine_parameter = vows_of_poverty_active
+						}
+						OR = {
+							AND = {
+								has_council_position = councillor_court_chaplain
+								faith = {
+									has_doctrine = doctrine_theocracy_lay_clergy
+								}
+							}
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
 				}
+				religion = religion:christianity_religion
 			}
 		}
 	}
@@ -2797,6 +3012,11 @@ clothes = {
 				NOT = {
 					faith = faith:orthodox
 				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
 			}
 	    }
 	}
@@ -2827,7 +3047,15 @@ clothes = {
 	        modifier = {
 	            add = 120
 				faith = faith:catholic
-				faith.religious_head = this
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
 	        }
 	    }
 	}
@@ -2861,7 +3089,10 @@ clothes = {
 	            add = 120
 				is_ruler = yes
 				faith.religion = religion:judaism_religion
-				faith.religious_head = this
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
 	        }
 	    }
 	}		

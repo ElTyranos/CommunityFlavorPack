@@ -60,7 +60,7 @@ portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ s
 				is_landed = no
 				primary_title.tier = tier_duchy
 			}
-		}				
+		}
 	}
 }
 
