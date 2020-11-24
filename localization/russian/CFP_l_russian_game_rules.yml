@@ -1,8 +1,8 @@
 ﻿l_russian:
 
- rule_cfp_baldtrait:0 "Community Flavor Pack : bald characters"
- setting_default_cfp_baldtrait:0 "Default"
- setting_default_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms in the face of stress will lose their hair as they age."
- setting_never_cfp_baldtrait:1 "#high Never#!"
- setting_never_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms will keep their hair."
+ rule_cfp_baldtrait:0 "Community Flavor Pack : лысые персонажи"
+ setting_default_cfp_baldtrait:0 "По умолчанию"
+ setting_default_cfp_baldtrait_desc:0 "персонажи, разработавшие механизмы преодоления стресса, с возрастом будут терять волосы."
+ setting_never_cfp_baldtrait:1 "#high Никогда#!"
+ setting_never_cfp_baldtrait_desc:0 "Персонажи, разработавшие механизмы копирования, будут держать свои волосы.."
  
