@@ -1142,6 +1142,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1195,6 +1210,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1301,7 +1331,22 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -1350,7 +1395,22 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -3115,6 +3175,23 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 80
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_steppe_clothing_trigger = yes
+			}
+			modifier = {
 				add = 20
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -3148,6 +3225,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -3198,6 +3290,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -3248,6 +3355,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						OR = {
@@ -3490,7 +3612,6 @@ headgear = {
 		}
 	}
 
-
 	norse_commoners = {
 		dna_modifiers = {
 			accessory = {
@@ -3502,6 +3623,23 @@ headgear = {
 		}	
 		weight = {
 			base = 0
+			modifier = {
+				add = 70
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_norse_clothing_trigger = yes
+			}
 			modifier = {
 				add = 30
 				highest_held_title_tier < tier_county
@@ -3536,6 +3674,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				highest_held_title_tier = tier_county
 				NOR = {
 					# has_dynasty = no
@@ -3622,6 +3775,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 10
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						portrait_anglo_saxon_clothing_trigger = yes
