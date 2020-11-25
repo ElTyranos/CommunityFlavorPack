@@ -1,0 +1,7 @@
+﻿l_french:
+
+ rule_cfp_baldtrait:0 "Community Flavor Pack : personnages dégarnis"
+ setting_default_cfp_baldtrait:0 "Par défaut"
+ setting_default_cfp_baldtrait_desc:0 "Les personnages ayant développé des mécanismes coping face au stress perdront leur cheveux en vieillissant."
+ setting_never_cfp_baldtrait:1 "#high Jamais#!"
+ setting_never_cfp_baldtrait_desc:0 "Les personnages ayant développé des mécanismes coping face au stress gardent leur cheveux."
