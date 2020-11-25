@@ -265,8 +265,6 @@ accessory_genes = {
 				10 = male_hair_northern_02
 				10 = male_hair_northern_03
 				5 = cfp_male_hair_viking_01
-				3 = cfp_male_hair_slavic_01
-				2 = cfp_male_hair_slavic_02
 				1 = cfp_male_hair_bald_western_01
 				1 = cfp_male_hair_bald_western_02
 				1 = cfp_male_hair_bald_western_03
@@ -285,7 +283,7 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
+		
 		steppe_hairstyles = {
 			index = 9
 			male = {
@@ -368,6 +366,27 @@ accessory_genes = {
 				1 = cfp_male_hair_bald_western_01
 				1 = cfp_male_hair_bald_western_02
 				1 = cfp_male_hair_bald_western_03
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		
+		slavic_hairstyles = {
+			index = 14
+			male = {
+				5 = male_hair_western_04
+				5 = male_hair_western_07
+				10 = male_hair_northern_01
+				10 = male_hair_northern_02
+				10 = male_hair_northern_03
+				1 = cfp_male_hair_bald_western_01
+				1 = cfp_male_hair_bald_western_02
+				1 = cfp_male_hair_bald_western_03				
+				6 = cfp_male_hair_slavic_01
+				5 = cfp_male_hair_slavic_02
 			}
 			female = {
 				1 = empty

@@ -47,6 +47,11 @@
 		gene = hairstyles
 		template = northern_hairstyles
 	}
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = slavic_hairstyles
+	}
 
 	add_accessory_modifiers = {
 		gene = hairstyles

@@ -171,4 +171,28 @@ hairstyles = {
         }
     }
 
+    slavic_hairstyles = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = slavic_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 101 # more than default_hair to force it
+				AND = {
+					is_male = yes
+					OR = {
+						portrait_slavic_clothing_trigger = yes
+						portrait_hungarian_clothing_trigger = yes
+					}
+				}
+            }
+        }
+    }
+
 }
