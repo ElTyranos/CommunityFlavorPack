@@ -73,7 +73,7 @@ hairstyles = {
                 portrait_african_clothing_trigger = yes
             }
             modifier = {
-                add = 100
+                add = 101
 				OR = {
 					religion = religion:buddhism_religion
 				}
@@ -117,7 +117,7 @@ hairstyles = {
         weight = {
             base = 0
             modifier = {
-                add = 100
+                add = 101
 				OR = {
 					religion = religion:christianity_religion
 				}
