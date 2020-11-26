@@ -1,8 +1,8 @@
 ﻿l_korean:
 
- rule_cfp_baldtrait:0 "Community Flavor Pack : bald characters"
- setting_default_cfp_baldtrait:0 "Default"
- setting_default_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms in the face of stress will lose their hair as they age."
- setting_never_cfp_baldtrait:1 "#high Never#!"
- setting_never_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms will keep their hair."
+ rule_cfp_baldtrait:0 "Community Flavor Pack : 대머리 인물"
+ setting_default_cfp_baldtrait:0 "기본"
+ setting_default_cfp_baldtrait_desc:0 "인물들은 스트레스를 받았을 때 특정 대처 방식에 따라\n나이가 들수록 머리가 빠집니다."
+ setting_never_cfp_baldtrait:1 "#high 없음#!"
+ setting_never_cfp_baldtrait_desc:0 "인물들은 스트레스를 받았을 때 특정 대처 방식에 따라\n나이가 들수록 머리가 빠지지 않습니다."
  

@@ -1,41 +1,41 @@
 ﻿l_korean:
 
 ## Western
- PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "French fork"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "Balding Pulled Back"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "Balding Unkempt"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "Bald Unkempt"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "프랑스 수염"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "머리빠지는 풀 백"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "머리빠지는 흐트러진 머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "머리빠진 흐트러진 머리"
  
 ## Norse
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "Norse saga hero"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "노르드 사가 영웅"
  
 ## Turkic
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "Bagatur braid"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "바가투르 땋은 머리"
  
 ## Slavic
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "Rus warrior moustache"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "Rus warrior hair strand with earrings"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "Rus warrior hair strand"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "러시아 전사 콧수염"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "귀걸이있는 러시아 전사 한 가닥 머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "러시아 전사 한 가닥 머리"
   
 ## Beards vanilla edit
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "Mutton chops"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "Mutton chops with goatee"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "Imperial moustache"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "Triple beaded Goatee"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "Beaded Goatee"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "구레나룻"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "염소 수염있는 구레나룻"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "제국 콧수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "구레나룻없는 구슬 수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "한 갈래 구슬 수염"
  
  ## Hair vanilla edit
- PORTRAIT_MODIFIER_custom_hair_bald:0 "Completely bald"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "Steppe wick"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "Bald steppe rider"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "Steppe rider without sideburns"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "Young steppe rider"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "Braids"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "Long Curly without jewelry"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "Tight bun"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "Neck Braid without jewelry"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "Wavy Sides without jewelry"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "Crown Curls without earrings"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "Twin Braids with Ribbons and no earrings"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "Rolled Up Braids without earrings"
+ PORTRAIT_MODIFIER_custom_hair_bald:0 "완전한 대머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "초원지대 심지"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "대머리 초원지대 기수"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "구레나룻 없는 초원지대 기수"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "어린 초원지대 기수"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "땋은 머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "보석없는 긴 곱슬머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "보석없는 번"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "보석없는 목 땋은 머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "보석없는 측면 웨이브"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "귀걸이없는 왕관 곱슬머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "귀걸이없는 리본과 양갈래 땋은 머리
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "귀걸이없는 말아올린 양갈래 땋은 머리"
  
