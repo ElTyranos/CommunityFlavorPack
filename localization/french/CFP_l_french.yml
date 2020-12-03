@@ -91,8 +91,11 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_padded_hood_01:1 "Coiffe en gambison"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_padded_hood_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_padded_hood_01$"
 
-## War crowns
+## Latin
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_icol_01:1 "Couronne de fer de Lombardie"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_latin_cfp_icol_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_icol_01$"
 
+## War crowns
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "Camail avec bandeau"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "Grand heaume couronné"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_02:1 "Nasal à bandeau de perles"

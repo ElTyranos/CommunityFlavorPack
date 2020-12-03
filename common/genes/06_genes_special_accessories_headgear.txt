@@ -113,12 +113,16 @@ accessory_genes = {
 		western_imperial = {
 			index = 6
 			male = {
-				1 = male_headgear_secular_dde_hre_imperial_01
+				4 = male_headgear_secular_dde_hre_imperial_01
+				1 = male_headgear_secular_latin_cfp_icol_01
+				# 1 = male_headgear_special_cfp_glasses_01
 				
 			}
 			female = {
-				1 = female_headgear_secular_western_royalty_01
-				1 = female_headgear_secular_western_royalty_02				
+				2 = female_headgear_secular_western_royalty_01
+				2 = female_headgear_secular_western_royalty_02				
+				1 = female_headgear_secular_latin_cfp_icol_01
+				# 1 = female_headgear_special_cfp_glasses_01
 			}
 			boy = male
             girl = female
@@ -1427,6 +1431,30 @@ accessory_genes = {
 			}
 			female = {
 				1 = female_headgear_secular_rre_laurelwreath_01
+			}
+			boy = male
+            girl = female
+		}
+
+		latin_high_nobility = {
+			index = 89
+			male = {
+				1 = male_headgear_secular_latin_cfp_icol_01
+			}
+			female = {
+				1 = female_headgear_secular_latin_cfp_icol_01
+			}
+			boy = male
+            girl = female
+		}
+
+		latin_royalty = {
+			index = 90
+			male = {
+				1 = male_headgear_secular_latin_cfp_icol_01
+			}
+			female = {
+				1 = female_headgear_secular_latin_cfp_icol_01
 			}
 			boy = male
             girl = female

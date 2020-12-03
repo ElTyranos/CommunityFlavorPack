@@ -309,6 +309,16 @@ female_headgear_secular_western_war_padded_hood_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_padded_hood_01_entity 	 }		
 }
 
+## Latin
+male_headgear_secular_latin_cfp_icol_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_latin_cfp_icol_01_entity 	 }
+}
+female_headgear_secular_latin_cfp_icol_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_latin_cfp_icol_01_entity 	 }
+}
+
 ## War Crowns
 male_headgear_secular_western_war_high_nobility_01 = {
 	set_tags = "no_hair"
