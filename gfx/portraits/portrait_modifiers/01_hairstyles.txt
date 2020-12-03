@@ -183,7 +183,13 @@ hairstyles = {
         weight = {
             base = 0
             modifier = {
-                add = 101 # more than default_hair to force it
+                add = {
+                    subtract = 100
+                }
+                age < @baby_hair_age
+            }
+            modifier = {
+                add = 100
 				AND = {
 					is_male = yes
 					OR = {
