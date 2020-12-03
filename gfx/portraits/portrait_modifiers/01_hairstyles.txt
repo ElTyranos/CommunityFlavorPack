@@ -163,8 +163,8 @@ hairstyles = {
 					}
 					NOR = {
 						portrait_african_clothing_trigger = yes
-						portrait_mena_clothing_trigger = yes
 						portrait_indian_clothing_trigger = yes
+						portrait_steppe_clothing_trigger = yes
 					}
 				}
             }
