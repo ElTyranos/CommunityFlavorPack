@@ -160,6 +160,18 @@ hairstyles = {
 							age >= 45
 							has_a_stress_coping_trait_trigger = yes
 						}
+						AND = {
+							age >= 35
+							has_trait = beauty_bad_3
+						}
+						AND = {
+							age >= 40
+							has_trait = beauty_bad_2
+						}
+						AND = {
+							age >= 45
+							has_trait = beauty_bad_1
+						}
 					}
 					NOR = {
 						portrait_african_clothing_trigger = yes
