@@ -550,3 +550,11 @@ female_headgear_secular_rre_laurelwreath_03 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_rre_laurelwreath_03_entity 	 }		
 }
+
+## Special
+male_headgear_special_cfp_glasses_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_01_entity 	 }
+}
+female_headgear_special_cfp_glasses_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_cfp_glasses_01_entity 	 }
+}

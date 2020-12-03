@@ -1,0 +1,39 @@
+﻿eyeglasses = {
+	eyeglasses = {
+		traits = {
+			whole_of_body
+			administrator
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				age >= 40
+				OR = {
+					AND = {
+						learning >= 12
+						has_trait = whole_of_body
+					}
+					AND = {
+						stewardship >= 12
+						has_trait = administrator
+					}
+				}
+				NOR = {
+					portrait_indian_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_norse_clothing_trigger = yes
+					portrait_turkic_clothing_trigger = yes
+				}
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add				
+				gene = special_headgear_eyeglasses
+				template = eyeglasses
+				value = 1
+			}
+		}
+	}
+}
