@@ -193,6 +193,12 @@ hairstyles = {
 				AND = {
 					is_male = yes
 					OR = {
+						has_trait = education_martial_1
+						has_trait = education_martial_2
+						has_trait = education_martial_3
+						has_trait = education_martial_4
+					}
+					OR = {
 						portrait_slavic_clothing_trigger = yes
 						portrait_hungarian_clothing_trigger = yes
 					}
