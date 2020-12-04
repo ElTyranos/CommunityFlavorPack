@@ -147,36 +147,34 @@ hairstyles = {
         weight = {
             base = 0
             modifier = {
-                add = 50
-				AND = {
-					is_male = yes
-					NOT = { has_game_rule = never_cfp_baldtrait }
-					OR = {
-						AND = {
-							age >= 35
-							has_two_stress_coping_traits_trigger = yes
-						}
-						AND = {
-							age >= 45
-							has_a_stress_coping_trait_trigger = yes
-						}
-						AND = {
-							age >= 35
-							has_trait = beauty_bad_3
-						}
-						AND = {
-							age >= 40
-							has_trait = beauty_bad_2
-						}
-						AND = {
-							age >= 45
-							has_trait = beauty_bad_1
-						}
+                add = 101
+				is_male = yes
+				NOT = { has_game_rule = never_cfp_baldtrait }
+				NOR = {
+					portrait_african_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+				}
+				OR = {
+					AND = {
+						age >= 35
+						has_two_stress_coping_traits_trigger = yes
 					}
-					NOR = {
-						portrait_african_clothing_trigger = yes
-						portrait_indian_clothing_trigger = yes
-						portrait_steppe_clothing_trigger = yes
+					AND = {
+						age >= 45
+						has_a_stress_coping_trait_trigger = yes
+					}
+					AND = {
+						age >= 35
+						has_trait = beauty_bad_3
+					}
+					AND = {
+						age >= 40
+						has_trait = beauty_bad_2
+					}
+					AND = {
+						age >= 45
+						has_trait = beauty_bad_1
 					}
 				}
             }
