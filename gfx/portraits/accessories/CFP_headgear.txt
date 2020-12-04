@@ -42,6 +42,10 @@ male_headgear_secular_sub_saharan_imperial_02 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_sub_saharan_imperial_02_entity 	 }		
 }
+female_headgear_secular_sub_saharan_imperial_02 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_sub_saharan_imperial_02_entity 	 }		
+}
 
 male_headgear_secular_sub_saharan_royalty_02 = {
 	set_tags = "crown"

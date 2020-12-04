@@ -11,6 +11,7 @@
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "터번없는 왕관"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "터번없는 제국 머리싸개 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "휘황찬란한 왕관"
 
 ## Northern

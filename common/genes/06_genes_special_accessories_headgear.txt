@@ -796,7 +796,8 @@ accessory_genes = {
 				
 			}
 			female = {
-				1 = female_headgear_secular_mena_royalty_01
+				3 = female_headgear_secular_mena_royalty_01
+				2 = female_headgear_secular_sub_saharan_imperial_02
 				
 			}
 			boy = male

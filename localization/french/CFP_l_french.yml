@@ -11,6 +11,7 @@
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "Couronne sans turban"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "Couronne impériale sans voile"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "Couronne éclatante"
 
 ## Northern
