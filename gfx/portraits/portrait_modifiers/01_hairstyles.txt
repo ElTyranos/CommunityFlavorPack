@@ -153,18 +153,30 @@ hairstyles = {
 					NOT = { has_game_rule = never_cfp_baldtrait }
 					OR = {
 						AND = {
-							age >= 40
+							age >= 35
 							has_two_stress_coping_traits_trigger = yes
 						}
 						AND = {
-							age >= 50
+							age >= 45
 							has_a_stress_coping_trait_trigger = yes
+						}
+						AND = {
+							age >= 35
+							has_trait = beauty_bad_3
+						}
+						AND = {
+							age >= 40
+							has_trait = beauty_bad_2
+						}
+						AND = {
+							age >= 45
+							has_trait = beauty_bad_1
 						}
 					}
 					NOR = {
 						portrait_african_clothing_trigger = yes
-						portrait_mena_clothing_trigger = yes
 						portrait_indian_clothing_trigger = yes
+						portrait_steppe_clothing_trigger = yes
 					}
 				}
             }
@@ -183,9 +195,21 @@ hairstyles = {
         weight = {
             base = 0
             modifier = {
-                add = 101 # more than default_hair to force it
+                add = {
+                    subtract = 100
+                }
+                age < @baby_hair_age
+            }
+            modifier = {
+                add = 100
 				AND = {
 					is_male = yes
+					OR = {
+						has_trait = education_martial_1
+						has_trait = education_martial_2
+						has_trait = education_martial_3
+						has_trait = education_martial_4
+					}
 					OR = {
 						portrait_slavic_clothing_trigger = yes
 						portrait_hungarian_clothing_trigger = yes
