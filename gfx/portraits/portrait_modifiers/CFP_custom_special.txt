@@ -1,0 +1,25 @@
+﻿custom_special = {
+	usage = customization
+	interface_position = 1
+
+	add_accessory_modifiers = {
+		gene = special_headgear_head_bandage
+		template = head_bandage
+	}
+	add_accessory_modifiers = {
+		gene = special_headgear_eye_patch
+		template = eye_patch
+	}
+	add_accessory_modifiers = {
+		gene = special_headgear_face_mask
+		template = face_mask
+	}
+	add_accessory_modifiers = {
+		gene = special_headgear_blindfold
+		template = blindfold
+	}
+	add_accessory_modifiers = {
+		gene = special_headgear_eyeglasses
+		template = eyeglasses
+	}
+}
