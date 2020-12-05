@@ -746,5 +746,21 @@ special_genes = {
 
 		}
 
+		special_headgear_slavic_jewelry = {
+
+			slavic_jewelry = {
+				index = 0
+				male = {
+					100 = male_headgear_special_cfp_slavic_earrings_01
+				}
+				female = {
+					100 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+		}
+
 	}
 }

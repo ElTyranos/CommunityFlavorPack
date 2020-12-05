@@ -22,4 +22,8 @@
 		gene = special_headgear_eyeglasses
 		template = eyeglasses
 	}
+	add_accessory_modifiers = {
+		gene = special_headgear_slavic_jewelry
+		template = slavic_jewelry
+	}
 }
