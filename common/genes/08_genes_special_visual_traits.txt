@@ -733,10 +733,12 @@ special_genes = {
 			eyeglasses = {
 				index = 0
 				male = {
-					100 = male_headgear_special_cfp_glasses_01
+					1 = male_headgear_special_cfp_glasses_01
+					1 = male_headgear_special_cfp_glasses_02
 				}
 				female = {
-					100 = female_headgear_special_cfp_glasses_01
+					1 = female_headgear_special_cfp_glasses_01
+					1 = female_headgear_special_cfp_glasses_02
 				}
 				boy = male
 				girl = female
