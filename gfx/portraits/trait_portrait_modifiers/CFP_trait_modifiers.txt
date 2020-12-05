@@ -1,5 +1,13 @@
 ﻿eyeglasses = {
 	eyeglasses = {
+		dna_modifiers = {
+			accessory = {
+				mode = add				
+				gene = special_headgear_eyeglasses
+				template = eyeglasses
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
 		traits = {
 			whole_of_body
 			administrator
@@ -25,14 +33,6 @@
 					portrait_norse_clothing_trigger = yes
 					portrait_turkic_clothing_trigger = yes
 				}
-			}
-		}
-		dna_modifiers = {
-			accessory = {
-				mode = add				
-				gene = special_headgear_eyeglasses
-				template = eyeglasses
-				value = 1
 			}
 		}
 	}
