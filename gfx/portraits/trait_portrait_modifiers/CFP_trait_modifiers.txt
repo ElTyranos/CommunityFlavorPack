@@ -2,7 +2,7 @@
 	eyeglasses = {
 		dna_modifiers = {
 			accessory = {
-				mode = add				
+				mode = add
 				gene = special_headgear_eyeglasses
 				template = eyeglasses
 				range = { 0 1 } # For the randomness to work correctly
