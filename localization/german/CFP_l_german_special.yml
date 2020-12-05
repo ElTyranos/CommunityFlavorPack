@@ -18,3 +18,9 @@
  ## CFP
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01:1 "Eyeglasses"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01$"
+
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02:1 "Wooden eyeglasses"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02$"
+
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "Slavic earrings"
+ 
