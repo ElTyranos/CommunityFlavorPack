@@ -100,6 +100,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_latin_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_high_nobility_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_phrygian_common_01:0 "Latin Фригийский колпак"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_wicker_common_01:0 "Latin wicker hat"
 
 ## War crowns
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "Цирклёк почтовой кофейни"
