@@ -51,6 +51,10 @@
 	### CFP ###
 	add_accessory_modifiers = {
 		gene = headgear
+		template = latin_common
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = latin_high_nobility
 	}
 	add_accessory_modifiers = {
