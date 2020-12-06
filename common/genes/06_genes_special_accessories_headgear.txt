@@ -1440,6 +1440,7 @@ accessory_genes = {
 			male = {
 				1 = male_headgear_secular_latin_cfp_phrygian_common_01
 				1 = male_headgear_secular_latin_cfp_wicker_common_01
+				1 = male_headgear_secular_byzantine_pannonian_common_01
 			}
 			female = {
 				1 = empty
