@@ -55,6 +55,10 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
+		template = latin_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = latin_high_nobility
 	}
 	add_accessory_modifiers = {

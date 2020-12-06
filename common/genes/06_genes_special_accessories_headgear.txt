@@ -1448,12 +1448,23 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
-		
-		latin_high_nobility = {
+
+		latin_nobility = {
 			index = 90
 			male = {
+				1 = male_headgear_secular_latin_cfp_nobility_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+
+		latin_high_nobility = {
+			index = 91
+			male = {
 				1 = male_headgear_secular_latin_cfp_high_nobility_01
-				1 = male_headgear_secular_latin_cfp_phrygian_common_01
 			}
 			female = {
 				1 = female_headgear_secular_latin_cfp_high_nobility_01
@@ -1463,7 +1474,7 @@ accessory_genes = {
 		}
 
 		latin_royalty = {
-			index = 91
+			index = 92
 			male = {
 				1 = male_headgear_secular_latin_cfp_icol_01
 			}
