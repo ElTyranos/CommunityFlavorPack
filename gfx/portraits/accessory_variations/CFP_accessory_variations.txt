@@ -79,6 +79,19 @@ variation = {
 }
 
 variation = {
+	name = "painted_metal_western_01"
+
+	pattern = { 
+		weight = 1
+		r = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
+		g = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
+		b = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
+		a = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_nobility_high_01.dds" }	
+}
+
+variation = {
 	name = "byzantine_skiadion_01"
 	pattern = { 
 		weight = 1
