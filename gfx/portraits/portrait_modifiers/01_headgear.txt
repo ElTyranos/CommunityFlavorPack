@@ -1360,13 +1360,13 @@ headgear = {
 				template = latin_war
 				range = { 0 1 } # For the randomness to work correctly
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 50
 				portrait_wear_helmet_trigger = yes
-				portrait_latin_clothing_trigger = yes = yes
+				portrait_latin_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
