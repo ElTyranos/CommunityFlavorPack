@@ -65,6 +65,10 @@
 		gene = headgear
 		template = latin_royalty
 	}	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = latin_war
+	}	
 	### /CFP ###
 
 	add_accessory_modifiers = {
