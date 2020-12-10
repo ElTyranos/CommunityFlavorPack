@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "female_headgear_secular_latin_war_norman_02_mesh"
+	file = "female_headgear_secular_latin_war_norman_02.mesh"
+	blend_shape = {
+		id = "female_headgear_secular_latin_war_norman_02_bs_fat"
+		type = "female_headgear_secular_latin_war_norman_02_bs_fat.mesh"
+	}
+	meshsettings = {
+		name = "female_headgear_secular_latin_war_norman_02Shape"
+		index = 0
+		texture_diffuse = "latin_war_curved_01_diffuse.dds"
+		texture_normal = "latin_war_curved_01_normal.dds"
+		texture_specular = "latin_war_curved_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "female_headgear_secular_latin_war_norman_02_maskShape"
+		index = 0
+		texture_diffuse = "latin_war_norman_01_diffuse.dds"
+		texture_normal = "latin_war_norman_01_normal.dds"
+		texture_specular = "latin_war_norman_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "female_headgear_secular_latin_war_norman_02_mailShape"
+		index = 0
+		texture_diffuse = "mail_coif_01_diffuse.dds"
+		texture_normal = "mail_coif_01_normal.dds"
+		texture_specular = "mail_coif_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_latin_war_norman_02_entity"
+	pdxmesh = "female_headgear_secular_latin_war_norman_02_mesh"
+	attribute = {
+		name = "bs_fat_1"
+		blend_shape = "female_headgear_secular_latin_war_norman_02_bs_fat"
+	}
+}

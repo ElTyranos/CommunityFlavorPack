@@ -1284,9 +1284,11 @@ accessory_genes = {
 			index = 79
 			male = {
 				1 = male_headgear_secular_latin_war_norman_01
+				1 = male_headgear_secular_latin_war_norman_02
 			}
 			female = {
 				1 = female_headgear_secular_latin_war_norman_01
+				1 = female_headgear_secular_latin_war_norman_02
 			}
 			boy = male
             girl = female
