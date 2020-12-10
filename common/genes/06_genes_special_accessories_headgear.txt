@@ -1503,11 +1503,13 @@ accessory_genes = {
 				1 = male_headgear_secular_latin_war_flat_top_01
 				1 = male_headgear_secular_latin_war_flat_top_02
 				1 = male_headgear_secular_latin_war_curved_01
+				1 = male_headgear_secular_latin_war_curved_02
 			}
 			female = {
 				1 = female_headgear_secular_latin_war_flat_top_01
 				1 = female_headgear_secular_latin_war_flat_top_02
 				1 = female_headgear_secular_latin_war_curved_01
+				1 = female_headgear_secular_latin_war_curved_02
 			}
 			boy = male
             girl = female
