@@ -85,6 +85,11 @@
 		gene = headgear
 		template = norman_war
 	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = norman_sicily_war
+	}
 	
 	########### CFP ###########
 	add_accessory_modifiers = {

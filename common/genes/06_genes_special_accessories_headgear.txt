@@ -1280,8 +1280,20 @@ accessory_genes = {
             girl = female
 		}
 
+		norman_sicily_war = {
+			index = 79
+			male = {
+				1 = male_headgear_secular_latin_war_norman_01
+			}
+			female = {
+				1 = female_headgear_secular_latin_war_norman_01
+			}
+			boy = male
+            girl = female
+		}
+
 		turkic_high_nobility = {
-            index = 79
+            index = 80
             male = {
 				5 = male_headgears_secular_turkic_high_cuman_nobility_01
 				5 = male_headgears_secular_turkic_high_cuman_nobility_02
@@ -1296,7 +1308,7 @@ accessory_genes = {
         }	
 
         turkic_nobility = {
-            index = 80
+            index = 81
             male = {
 				3 = empty
 				5 = male_headgears_secular_turkic_low_cuman_nobility_01
@@ -1311,7 +1323,7 @@ accessory_genes = {
         }	
 
 		turkic_common = {
-			index = 81
+			index = 82
 			male = {
 				5 = empty
 				5 = male_headgears_secular_turkic_low_cuman_nobility_02
@@ -1328,7 +1340,7 @@ accessory_genes = {
 		}
 
 		turkic_royalty = {
-			index = 82
+			index = 83
 			male = {
 				5 = male_headgears_secular_turkic_royalty_01
 				5 = male_headgears_secular_turkic_royalty_02
@@ -1343,7 +1355,7 @@ accessory_genes = {
 		}
 
 		turkic_war = {
-			index = 83
+			index = 84
 			male = {
 				10 = male_headgears_secular_turkic_war_cuman_01
 				8 = male_headgears_secular_turkic_war_cuman_02
@@ -1363,7 +1375,7 @@ accessory_genes = {
 		}
 		
         slavic_high_nobility = {
-            index = 84
+            index = 85
 			male = {
 				5 = male_headgear_secular_slavic_high_nobility_01
 				2 = male_headgear_secular_western_high_nobility_01
@@ -1378,7 +1390,7 @@ accessory_genes = {
         }
 		
         slavic_royalty = {
-            index = 85
+            index = 86
 			male = {
 				5 = male_headgear_secular_slavic_royalty_01
 				1 = male_headgear_secular_western_royalty_01
@@ -1394,7 +1406,7 @@ accessory_genes = {
         }
 		
 		slavic_war = {
-			index = 86
+			index = 87
 			male = {
 				4 = male_headgears_secular_slavic_war_helmet_01
 				4 = male_headgears_secular_slavic_war_helmet_02
@@ -1410,7 +1422,7 @@ accessory_genes = {
 		}
 
 		rre_imperial = {
-			index = 87
+			index = 88
 			male = {
 				1 = male_headgear_secular_rre_laurelwreath_02
 				1 = male_headgear_secular_rre_laurelwreath_03
@@ -1424,7 +1436,7 @@ accessory_genes = {
 		}
 		
 		trait_laurel = {
-			index = 88
+			index = 89
 			male = {
 				1 = male_headgear_secular_rre_laurelwreath_01
 			}
@@ -1436,7 +1448,7 @@ accessory_genes = {
 		}
 
 		latin_common = {
-			index = 89
+			index = 90
 			male = {
 				1 = male_headgear_secular_latin_cfp_phrygian_common_01
 				1 = male_headgear_secular_latin_cfp_wicker_common_01
@@ -1450,7 +1462,7 @@ accessory_genes = {
 		}
 
 		latin_nobility = {
-			index = 90
+			index = 91
 			male = {
 				1 = male_headgear_secular_latin_cfp_nobility_01
 			}
@@ -1462,7 +1474,7 @@ accessory_genes = {
 		}
 
 		latin_high_nobility = {
-			index = 91
+			index = 92
 			male = {
 				1 = male_headgear_secular_latin_cfp_high_nobility_01
 			}
@@ -1474,7 +1486,7 @@ accessory_genes = {
 		}
 
 		latin_royalty = {
-			index = 92
+			index = 93
 			male = {
 				1 = male_headgear_secular_latin_cfp_icol_01
 			}
@@ -1486,7 +1498,7 @@ accessory_genes = {
 		}
 
 		latin_war = {
-			index = 93
+			index = 94
 			male = {
 				1 = male_headgear_secular_latin_war_flat_top_01
 				1 = male_headgear_secular_latin_war_flat_top_02
