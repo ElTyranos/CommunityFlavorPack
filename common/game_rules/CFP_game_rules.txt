@@ -8,3 +8,8 @@ cfp_trait_accessories = {
 	default_cfp_trait_accessories = {}
 	never_cfp_trait_accessories = {}
 }
+cfp_barbershop_unlocks = {
+	default = default_cfp_barbershop_unlocks
+	default_cfp_barbershop_unlocks = {}
+	never_cfp_barbershop_unlocks = {}
+}
