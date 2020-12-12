@@ -5,3 +5,10 @@
  setting_default_cfp_baldtrait_desc:0 "Les personnages ayant développé des mécanismes coping face au stress perdront leur cheveux en vieillissant."
  setting_never_cfp_baldtrait:1 "#high Jamais#!"
  setting_never_cfp_baldtrait_desc:0 "Les personnages ayant développé des mécanismes coping face au stress gardent leur cheveux."
+
+ rule_cfp_trait_accessories:0 "Community Flavor Pack : trait accessories"
+ setting_default_cfp_trait_accessories:0 "Default"
+ setting_default_cfp_trait_accessories_desc:0 "Characters will use new kinds of head accessories based on their traits (eyeglasses, jewelry, tatoos, warpaints)."
+ setting_never_cfp_trait_accessories:1 "#high Never#!"
+ setting_never_cfp_trait_accessories_desc:0 "Characters will stick to vanilla accessories only (blindfolds, defiguration mask, head bandage, eye patch)."
+ 

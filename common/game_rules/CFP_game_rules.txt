@@ -3,3 +3,8 @@
 	default_cfp_baldtrait = {}
 	never_cfp_baldtrait = {}
 }
+cfp_trait_accessories = {
+	default = default_cfp_trait_accessories
+	default_cfp_trait_accessories = {}
+	never_cfp_trait_accessories = {}
+}
