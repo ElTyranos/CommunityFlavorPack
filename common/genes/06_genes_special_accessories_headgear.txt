@@ -1479,6 +1479,7 @@ accessory_genes = {
 			index = 92
 			male = {
 				1 = male_headgear_secular_latin_cfp_high_nobility_01
+				1 = male_headgear_secular_latin_cfp_pannonian_high_01
 			}
 			female = {
 				1 = female_headgear_secular_latin_cfp_high_nobility_01
