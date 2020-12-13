@@ -8,7 +8,7 @@
 
  rule_cfp_trait_accessories:0 "Community Flavor Pack : accessoires de traits"
  setting_default_cfp_trait_accessories:0 "Par défaut"
- setting_default_cfp_trait_accessories_desc:0 "Les personnages utilisent des accessoires selon leurs traits (lunettes de  vue, bijoux, tatouages, peintures de guerre)."
+ setting_default_cfp_trait_accessories_desc:0 "Les personnages utilisent des accessoires selon leurs traits (lunettes de vue, bijoux, tatouages, peintures de guerre)."
  setting_never_cfp_trait_accessories:1 "#high Jamais#!"
  setting_never_cfp_trait_accessories_desc:0 "Les personnages n'utilisent que les accessoires par défaut (cache-oeil, bandage, masque de défiguration, bandeau d'aveugle)."
  
@@ -16,4 +16,4 @@
  setting_default_cfp_barbershop_unlocks:0 "Débloqué"
  setting_default_cfp_barbershop_unlocks_desc:0 "Le barbier est totalement débloqué. Les capes, accessoires et habits religieux sont disponnible pour le joueur. Cela n'influence pas la tenue de l'IA."
  setting_never_cfp_barbershop_unlocks:1 "#high Bloqué#!"
- setting_never_cfp_barbershop_unlocks_desc:0 "Le barbier fonctionne comme le jeu vanilla. Les accessoires  ne peuvent pas être customisés, les capes nécessitent un rang minimum, les habits religieux restent cachés. Cela n'influence pas la tenue de l'IA."
+ setting_never_cfp_barbershop_unlocks_desc:0 "Le barbier fonctionne comme le jeu vanilla. Les accessoires ne peuvent pas être customisés, les capes nécessitent un rang minimum, les habits religieux restent cachés. Cela n'influence pas la tenue de l'IA."

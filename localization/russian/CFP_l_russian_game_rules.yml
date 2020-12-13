@@ -17,4 +17,3 @@
  setting_default_cfp_barbershop_unlocks_desc:0 "Barbershop is fully unlocked. Cloaks, all accessories and religious clothes will be listed to the player. This does not change AI clothing behaviour."
  setting_never_cfp_barbershop_unlocks:1 "#high Locked#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "Barbershop behaviour remains the same as vanilla. Accessories can't be customized, cloaks have rank requirement, religious clothing remains hidden. This does not change AI clothing behaviour."
-  
