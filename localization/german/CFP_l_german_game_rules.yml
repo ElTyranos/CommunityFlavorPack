@@ -11,7 +11,7 @@
  setting_never_cfp_trait_accessories:1 "#high niemals#!"
  setting_never_cfp_trait_accessories_desc:0 "Charaktere werden nur vanilla Accessoires benutzen (Augenbinde, Entstellungsmaske, Kopfbinde, Augenklappe)."
 
- rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : Barbier freigegeben"
+ rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : Barbier erweitert"
  setting_default_cfp_barbershop_unlocks:0 "freigegeben"
  setting_default_cfp_barbershop_unlocks_desc:0 "Der Barbier ist freigegeben. Mäntel, alle Accessoires und religiöse Kleidung wird dem Spieler zur Verfügung gestellt. Dies beeinflusst nicht das Verhalten der KI."
  setting_never_cfp_barbershop_unlocks:1 "#high begrenzt#!"

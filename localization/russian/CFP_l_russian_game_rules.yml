@@ -12,7 +12,7 @@
  setting_never_cfp_trait_accessories:1 "#high Never#!"
  setting_never_cfp_trait_accessories_desc:0 "Characters will stick to vanilla accessories only (blindfolds, defiguration mask, head bandage, eye patch)."
  
- rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : barbershop unlocked"
+ rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : barbershop expanded"
  setting_default_cfp_barbershop_unlocks:0 "Unlocked"
  setting_default_cfp_barbershop_unlocks_desc:0 "Barbershop is fully unlocked. Cloaks, all accessories and religious clothes will be listed to the player. This does not change AI clothing behaviour."
  setting_never_cfp_barbershop_unlocks:1 "#high Locked#!"

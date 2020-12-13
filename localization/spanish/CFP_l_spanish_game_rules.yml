@@ -12,7 +12,7 @@
  setting_never_cfp_trait_accessories:1 "#high Nunca#!"
  setting_never_cfp_trait_accessories_desc:0 "los personajes utilizarán unicamente los accesorios incluidos en el juego (vendas, mascara de desfigurado, vendaje de cabeza, parches)."
  
- rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : barbería desbloqueada"
+ rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : barbería ampliada"
  setting_default_cfp_barbershop_unlocks:0 "Desbloqueada"
  setting_default_cfp_barbershop_unlocks_desc:0 "La barberia esta completamente desbloqueada. Las capas, todos los accesorios y los atuendos religiosos serán enlistados para el jugador. No afecta al comportamiento de la IA."
  setting_never_cfp_barbershop_unlocks:1 "#high Bloqueada#!"
