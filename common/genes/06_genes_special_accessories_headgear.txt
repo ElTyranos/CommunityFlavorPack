@@ -1498,9 +1498,22 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
+		latin_venetian_royalty = {
+			index = 94
+
+			male = {
+				1 = male_headgear_secular_latin_cfp_venetian_doge_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
 
 		latin_war = {
-			index = 94
+			index = 95
 			male = {
 				1 = male_headgear_secular_latin_war_flat_top_01
 				1 = male_headgear_secular_latin_war_flat_top_02

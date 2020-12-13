@@ -122,6 +122,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "Almófar con tiara"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "Gran yelmo con corona"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_02:1 "Tiara de perlas en yelmo nasal"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_venetian_doge_01:0 "Venetian Ducal Horn"
  
 ## Fixing missing vanilla string
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Corona de perlas"

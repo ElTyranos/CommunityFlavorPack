@@ -383,6 +383,10 @@ male_headgear_secular_latin_cfp_wicker_common_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_latin_cfp_wicker_common_01_entity 	 }
 }
+male_headgear_secular_latin_cfp_venetian_doge_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_latin_cfp_venetian_doge_01_entity 	 }
+}
 
 male_headgear_secular_latin_cfp_high_nobility_01 = {
 	set_tags = "crown"
