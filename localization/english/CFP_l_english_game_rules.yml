@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ rule_cfp_fullplate_helmets:0 "Community Flavor Pack : full plate helmets"
+ setting_default_cfp_fullplate_helmets:0 "Default"
+ setting_default_cfp_fullplate_helmets_desc:0 "Characters at war are allowed to use full plate helmets that cover their faces."
+ setting_never_cfp_fullplate_helmets:1 "#high Exposed faces#!"
+ setting_never_cfp_fullplate_helmets_desc:0 "Characters will never use a full plate helmet and their face will always be visible."
+
  rule_cfp_baldtrait:0 "Community Flavor Pack : bald characters"
  setting_default_cfp_baldtrait:0 "Default"
  setting_default_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms in the face of stress will lose their hair as they age."
@@ -15,6 +21,6 @@
  rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : barbershop expanded"
  setting_default_cfp_barbershop_unlocks:0 "Unlocked"
  setting_default_cfp_barbershop_unlocks_desc:0 "Barbershop is fully unlocked. Cloaks, all accessories and religious clothes will be listed to the player. This does not change AI clothing behaviour."
- setting_never_cfp_barbershop_unlocks:1 "#high Locked#!"
+ setting_never_cfp_barbershop_unlocks:1 "#high Limited#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "Barbershop behaviour remains the same as vanilla. Accessories can't be customized, cloaks have rank requirement, religious clothing remains hidden. This does not change AI clothing behaviour."
  

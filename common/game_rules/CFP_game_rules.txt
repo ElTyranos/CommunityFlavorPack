@@ -1,4 +1,9 @@
-﻿cfp_baldtrait = {
+﻿cfp_fullplate_helmets = {
+	default = default_cfp_fullplate_helmets
+	default_cfp_fullplate_helmets = {}
+	never_cfp_fullplate_helmets = {}
+}
+cfp_baldtrait = {
 	default = default_cfp_baldtrait
 	default_cfp_baldtrait = {}
 	never_cfp_baldtrait = {}

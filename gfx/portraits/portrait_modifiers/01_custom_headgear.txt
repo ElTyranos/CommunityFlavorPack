@@ -51,6 +51,10 @@
 	### CFP ###
 	add_accessory_modifiers = {
 		gene = headgear
+		template = western_war_fullplate
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = latin_common
 	}
 	add_accessory_modifiers = {
@@ -262,6 +266,11 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = turkic_war
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = turkic_war_fullplate
 	}
 ########### /CFP ###########
 	add_accessory_modifiers = {

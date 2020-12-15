@@ -995,6 +995,65 @@ headgear = {
 			}
 		}
 	}
+	
+	western_war_fullplate = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_war_fullplate
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_wear_helmet_trigger = yes
+				portrait_western_clothing_trigger = yes
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
 
 	norman_war = {
 		dna_modifiers = {
@@ -1069,6 +1128,7 @@ headgear = {
 				add = 101
 				portrait_wear_helmet_trigger = yes
 				portrait_norman_sicily_clothing_trigger = yes
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				
 				NOR = {
 				    AND = {
@@ -3762,9 +3822,68 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 50
 				portrait_wear_helmet_trigger = yes
 				portrait_turkic_clothing_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+
+	turkic_war_fullplate = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = turkic_war_fullplate
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 45
+				portrait_wear_helmet_trigger = yes
+				portrait_turkic_clothing_trigger = yes
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				
 				NOR = {
 				    AND = {
@@ -4123,6 +4242,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 10
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				NAND = {
 					has_trait = peasant_leader
 					OR = {

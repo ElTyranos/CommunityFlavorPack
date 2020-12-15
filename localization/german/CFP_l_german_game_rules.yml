@@ -1,5 +1,11 @@
 ﻿l_german:
 
+ rule_cfp_fullplate_helmets:0 "Community Flavor Pack : Vollschutzhelme"
+ setting_default_cfp_fullplate_helmets:0 "Standardmäßig"
+ setting_default_cfp_fullplate_helmets_desc:0 "Charaktere im Krieg dürfen Vollplattenhelme tragen, die ihr Gesicht bedecken."
+ setting_never_cfp_fullplate_helmets:1 "#high Freiliegende Gesichter#!"
+ setting_never_cfp_fullplate_helmets_desc:0 "Charaktere werden nie einen Vollplattenhelm verwenden und ihr Gesicht wird immer sichtbar sein."
+
  rule_cfp_baldtrait:0 "Community Flavor Pack : kahle Charaktere"
  setting_default_cfp_baldtrait:0 "Standardmäßig"
  setting_default_cfp_baldtrait_desc:0 "Charaktere, die angesichts von Stress Bewältigungsmechanismen entwickelt haben, werden mit zunehmendem Alter ihre Haare verlieren."
@@ -7,6 +13,7 @@
  setting_never_cfp_baldtrait_desc:0 "Charaktere, die Bewältigungsmechanismen entwickelt haben, behalten ihre Haare."
 
  rule_cfp_trait_accessories:0 "Community Flavor Pack : Accessoire Eigenschaften"
+ setting_default_cfp_trait_accessories:0 "Standardmäßig"
  setting_default_cfp_trait_accessories_desc:0 "Charaktere werden neue Accessoires basierend auf ihren Eigenschaften benutzen (Brillen, Schmuck, Tattoos, Kriegsbemalungen)."
  setting_never_cfp_trait_accessories:1 "#high niemals#!"
  setting_never_cfp_trait_accessories_desc:0 "Charaktere werden nur vanilla Accessoires benutzen (Augenbinde, Entstellungsmaske, Kopfbinde, Augenklappe)."
