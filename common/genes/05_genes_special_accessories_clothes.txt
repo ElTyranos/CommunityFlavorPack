@@ -1369,6 +1369,21 @@ accessory_genes = {
 			girl = female
 		}
 
+## Latin ##
+
+		latin_venetian_royalty_clothes = {
+			index = 74
+
+			male = {
+				1 = male_clothes_secular_latin_cfp_venetian_doge_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+
 	}
 	
 }

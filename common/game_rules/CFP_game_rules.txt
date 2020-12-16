@@ -1,5 +1,20 @@
-﻿cfp_baldtrait = {
+﻿cfp_fullplate_helmets = {
+	default = default_cfp_fullplate_helmets
+	default_cfp_fullplate_helmets = {}
+	never_cfp_fullplate_helmets = {}
+}
+cfp_baldtrait = {
 	default = default_cfp_baldtrait
 	default_cfp_baldtrait = {}
 	never_cfp_baldtrait = {}
+}
+cfp_trait_accessories = {
+	default = default_cfp_trait_accessories
+	default_cfp_trait_accessories = {}
+	never_cfp_trait_accessories = {}
+}
+cfp_barbershop_unlocks = {
+	default = default_cfp_barbershop_unlocks
+	default_cfp_barbershop_unlocks = {}
+	never_cfp_barbershop_unlocks = {}
 }

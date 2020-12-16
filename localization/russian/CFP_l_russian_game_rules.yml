@@ -1,8 +1,25 @@
 ﻿l_russian:
 
+ rule_cfp_fullplate_helmets:0 "Community Flavor Pack : большие шлемы"
+ setting_default_cfp_fullplate_helmets:0 "По умолчанию"
+ setting_default_cfp_fullplate_helmets_desc:0 "Персонажам, находящимся в состоянии войны, разрешается использовать полнопластинчатые шлемы, закрывающие их лица."
+ setting_never_cfp_fullplate_helmets:1 "#high Разоблаченные лица#!"
+ setting_never_cfp_fullplate_helmets_desc:0 "Персонажи никогда не будут использовать шлем с полной пластиной и их лицо всегда будет видно."
+
  rule_cfp_baldtrait:0 "Community Flavor Pack : лысые персонажи"
  setting_default_cfp_baldtrait:0 "По умолчанию"
  setting_default_cfp_baldtrait_desc:0 "персонажи, разработавшие механизмы преодоления стресса, с возрастом будут терять волосы."
  setting_never_cfp_baldtrait:1 "#high Никогда#!"
  setting_never_cfp_baldtrait_desc:0 "Персонажи, разработавшие механизмы копирования, будут держать свои волосы.."
  
+ rule_cfp_trait_accessories:0 "Community Flavor Pack : индивидуальные аксессуары"
+ setting_default_cfp_trait_accessories:0 "По умолчанию"
+ setting_default_cfp_trait_accessories_desc:0 "Персонажи будут использовать новые виды аксессуаров для головы в зависимости от их свойств (очки, украшения, татуировки, военные рисунки)."
+ setting_never_cfp_trait_accessories:1 "#high Никогда#!"
+ setting_never_cfp_trait_accessories_desc:0 "Персонажи будут придерживаться только ванильных аксессуаров (повязки, маска деформации, повязка на голову, повязка на глаза)."
+ 
+ rule_cfp_barbershop_unlocks:0 "Community Flavor Pack : парикмахерская расширена"
+ setting_default_cfp_barbershop_unlocks:0 "Разблокированный"
+ setting_default_cfp_barbershop_unlocks_desc:0 "Парикмахерская полностью разблокирована. Плащи, все аксессуары и религиозная одежда будут перечислены игроку. Это не меняет поведение ИИ одежды."
+ setting_never_cfp_barbershop_unlocks:1 "#high Лимитед#!"
+ setting_never_cfp_barbershop_unlocks_desc:0 "Поведение парикмахера остается таким же, как и ваниль. Аксессуары не могут быть изготовлены по индивидуальному заказу, плащи имеют ранговые требования, религиозная одежда остается скрытой. Это не меняет поведение ИИ одежды."
