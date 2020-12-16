@@ -1008,9 +1008,10 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 20
+				add = 50
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
+				cfp_era_high_medieval_trigger = yes
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				
 				NOR = {
