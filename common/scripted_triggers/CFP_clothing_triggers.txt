@@ -110,6 +110,9 @@ portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ s
 	}
 }
 
+cfp_era_high_medieval_trigger = {
+	culture = { has_cultural_era_or_later = culture_era_high_medieval }
+}
 
 # Overwritting default classes
 portrait_western_clothing_trigger = {
