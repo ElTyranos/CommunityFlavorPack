@@ -1491,6 +1491,7 @@ accessory_genes = {
 			}
 			female = {
 				1 = female_headgear_secular_latin_cfp_high_nobility_01
+				1 = female_headgear_secular_latin_cfp_hennin_high_01
 			}
 			boy = male
             girl = female
