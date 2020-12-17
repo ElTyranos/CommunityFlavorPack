@@ -114,13 +114,12 @@ accessory_genes = {
 			index = 6
 			male = {
 				4 = male_headgear_secular_dde_hre_imperial_01
-				1 = male_headgear_secular_latin_cfp_icol_01
 				
 			}
 			female = {
 				2 = female_headgear_secular_western_royalty_01
-				2 = female_headgear_secular_western_royalty_02				
-				1 = female_headgear_secular_latin_cfp_icol_01
+				2 = female_headgear_secular_western_royalty_02
+				
 			}
 			boy = male
             girl = female
