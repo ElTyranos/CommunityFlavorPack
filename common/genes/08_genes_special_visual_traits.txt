@@ -753,9 +753,7 @@ special_genes = {
 				male = {
 					100 = male_headgear_special_cfp_slavic_earrings_01
 				}
-				female = {
-					100 = empty
-				}
+				female = {}
 				boy = male
 				girl = female
 			}

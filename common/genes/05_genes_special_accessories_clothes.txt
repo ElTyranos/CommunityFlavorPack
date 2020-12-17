@@ -1377,9 +1377,7 @@ accessory_genes = {
 			male = {
 				1 = male_clothes_secular_latin_cfp_venetian_doge_01
 			}
-			female = {
-				1 = empty
-			}
+			female = {}
 			boy = male
 			girl = female
 		}
