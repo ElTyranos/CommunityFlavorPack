@@ -1,6 +1,8 @@
 ﻿l_german:
 
  PORTRAIT_MODIFIER_custom_special:1 "Accessories"
+ PORTRAIT_MODIFIER_custom_special_male_empty:1 "Kein Sonderzubehör"
+ PORTRAIT_MODIFIER_custom_special_female_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
 
  ## Vanilla
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:1 "Kopfbandage"
