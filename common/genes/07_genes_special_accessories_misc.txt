@@ -227,6 +227,7 @@ accessory_genes = {
 			index = 3
 			male = {
 				1 = male_legwear_secular_western_war_01
+				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
 			female = {
 				1 = female_legwear_secular_western_common_01
