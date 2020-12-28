@@ -227,7 +227,6 @@ accessory_genes = {
 			index = 3
 			male = {
 				1 = male_legwear_secular_western_war_01
-				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
 			female = {
 				1 = female_legwear_secular_western_common_01
@@ -244,6 +243,16 @@ accessory_genes = {
 			female = {
 				1 = female_legwear_secular_mena_war_nobility_01
 			}
+			boy = male
+			girl = female
+		}
+		
+		western_war_legwear_late = {
+			index = 5
+			male = {
+				1 = male_legwear_secular_western_cfp_war_plate_01
+			}
+			female = {}
 			boy = male
 			girl = female
 		}
