@@ -56,3 +56,11 @@
  
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_catholic_devoted_01_common:0 "Robe de Nonne"
  
+## Legwear
+ PORTRAIT_MODIFIER_custom_legwear:1 "Jambières"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_war_01:1 "Jambières de maille"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01:1 "Jambières occidentales"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01$"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01:1 "Jambières arabes"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01$"
+ 
