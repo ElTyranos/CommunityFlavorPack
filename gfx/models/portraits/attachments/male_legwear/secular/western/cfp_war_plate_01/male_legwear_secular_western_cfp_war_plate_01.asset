@@ -2,6 +2,9 @@ pdxmesh = {
 	name = "male_legwear_secular_western_cfp_war_plate_01_mesh"
 	file = "male_legwear_secular_western_cfp_war_plate_01.mesh"
 
+	blend_shape = { id = "male_legwear_secular_western_cfp_war_plate_01_bs_muscular"		type = "male_legwear_secular_western_cfp_war_plate_01_bs_muscular.mesh" }	
+	blend_shape = { id = "male_legwear_secular_western_cfp_war_plate_01_bs_old"		type = "male_legwear_secular_western_cfp_war_plate_01_bs_old.mesh" }
+	
 	meshsettings = {
 		name = "male_legwear_secular_western_cfp_war_plate_01Shape"
 		index = 0
@@ -16,4 +19,7 @@ pdxmesh = {
 entity = {
 	name = "male_legwear_secular_western_cfp_war_plate_01_entity"
 	pdxmesh = "male_legwear_secular_western_cfp_war_plate_01_mesh"
+
+	attribute = { name = "bs_body_muscular_1"				blend_shape = "male_legwear_secular_western_cfp_war_plate_01_bs_muscular" }	
+	attribute = { name = "bs_body_old_1"					blend_shape = "male_legwear_secular_western_cfp_war_plate_01_bs_old" }
 }
