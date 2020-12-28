@@ -225,3 +225,7 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common:1 "条顿"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_05_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common$"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "Churburg Plate Armour"
+
+## Legwear
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "Plate Armour Legwear"
