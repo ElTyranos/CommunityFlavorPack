@@ -187,13 +187,19 @@ male_headgear_secular_western_pillbox_low_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_low_01_entity 	 }		
 }
 
-male_headgear_secular_western_war_bascinet_01 = {
-	set_tags = "cap"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_war_bascinet_01_entity 	 }		
+male_headgear_secular_western_cfp_war_bascinet_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_war_bascinet_01_entity 	 }		
 }
-female_headgear_secular_western_war_bascinet_01 = {
-	set_tags = "cap"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_war_bascinet_01_entity 	 }		
+male_headgear_secular_western_cfp_war_bascinet_02 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_war_bascinet_02_entity 	 }		
+}
+male_headgear_secular_western_cfp_war_bascinet_03 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_war_bascinet_03_entity 	 }		
 }
 
 male_headgear_secular_western_war_flat_top_01 = {
