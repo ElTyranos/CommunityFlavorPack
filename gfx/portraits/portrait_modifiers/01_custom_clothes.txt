@@ -33,6 +33,11 @@
 		template = western_war_nobility_clothes
 	}
 
+	add_accessory_modifiers = {
+		gene = clothes
+		template = western_war_late
+	}
+
 	# add_accessory_modifiers = {
 	# 	gene = clothes
 	# 	is_valid_custom = {

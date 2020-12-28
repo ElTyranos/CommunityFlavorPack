@@ -178,7 +178,6 @@ accessory_genes = {
 			male = {
 				4 = male_clothes_secular_western_war_nobility_01_low
 				1 = male_clothes_secular_dde_hre_war_nobility_01_low
-				1 = male_clothes_secular_western_cfp_war_plate_01
 			}
 
 			female = {
@@ -1265,10 +1264,24 @@ accessory_genes = {
 			girl = female
 		}
 
+## Western
+
+
+		western_war_late = {
+			index = 68
+			male = {
+				1 = male_clothes_secular_western_cfp_war_plate_01
+			}
+			female = {}
+			boy = male
+			girl = female
+		}
+
+
 ## Northern Pagans ##
 
 		norse_commoner_clothes = {
-			index = 68
+			index = 69
 
 			male = {
 				1 = male_clothes_secular_northern_nobility_01_common
@@ -1285,7 +1298,7 @@ accessory_genes = {
 		}
 
 		norse_low_nobility_clothes = {
-			index = 69
+			index = 70
 
 			male = {
 				1 = male_clothes_secular_northern_nobility_01_low
@@ -1301,7 +1314,7 @@ accessory_genes = {
 		}
 
 		norse_high_nobility_clothes = {
-			index = 70
+			index = 71
 
 			male = {
 
@@ -1318,7 +1331,7 @@ accessory_genes = {
 		}
 
 		norse_war_nobility_clothes = {
-			index = 71
+			index = 72
 
 			male = {
 				5 = male_clothes_secular_northern_war_nobility_01_common
@@ -1336,7 +1349,7 @@ accessory_genes = {
 ## Normans ##
 
 		norman_war_nobility_clothes = {
-			index = 72
+			index = 73
 
 			male = {
 				3 = male_clothes_secular_northern_war_nobility_01_common
@@ -1355,7 +1368,7 @@ accessory_genes = {
 ## Turkic ##
 
 		turkic_war_nobility_clothes = {
-			index = 73
+			index = 74
 
 			male = {
 				1 = male_clothes_secular_dde_abbasid_war_nobility_01_low
@@ -1373,7 +1386,7 @@ accessory_genes = {
 ## Latin ##
 
 		latin_venetian_royalty_clothes = {
-			index = 74
+			index = 75
 
 			male = {
 				1 = male_clothes_secular_latin_cfp_venetian_doge_01
