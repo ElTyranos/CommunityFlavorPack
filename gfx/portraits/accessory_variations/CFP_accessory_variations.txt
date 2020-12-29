@@ -12,6 +12,20 @@ pattern_textures = {
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/CFP/crusader_cross_pattern_05_properties.dds"
 }
 
+pattern_textures = {
+	name = "latin_venetian_doge_pattern_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/CFP/doge_silk_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/CFP/doge_silk_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/CFP/doge_silk_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "latin_venetian_doge_pattern_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/CFP/doge_silk_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/CFP/doge_silk_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/CFP/doge_silk_02_properties.dds"
+}
+
 variation = {
 	name = "northern_war_gambeson_01"
 	
@@ -174,67 +188,60 @@ variation = {
 	name = "latin_venetian_doge_01"
 	pattern = { 
 		weight = 2
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "latin_venetian_doge_pattern_01" layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_01" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 2
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "latin_venetian_doge_pattern_01" layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_02" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 2
-		r = { textures = "western_silk_brocade_02" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "latin_venetian_doge_pattern_01" layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_03" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 2
-		r = { textures = "western_silk_brocade_03" layout = "plain_fabric_layout" }
+		r = { textures = "latin_venetian_doge_pattern_01" layout = "plain_fabric_layout" }
 		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_04" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 2
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "latin_venetian_doge_pattern_02" layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_04" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 2
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "latin_venetian_doge_pattern_02" layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_03" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}
 	pattern = { 
 		weight = 2
-		r = { textures = "western_silk_brocade_02" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "latin_venetian_doge_pattern_02" layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_01" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
-		weight = 1
-		r = { textures = "western_silk_plain_01" layout = "western_silk_brocade_01_layout" }
+		weight = 2
+		r = { textures = "latin_venetian_doge_pattern_02" layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_02" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
-	}	
-	pattern = { 
-		weight = 1
-		r = { textures = "western_silk_plain_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "big_trim_layout_01" }
-		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
-	}	
+	}
 	pattern = { 
 		weight = 1
 		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
