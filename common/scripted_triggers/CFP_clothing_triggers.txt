@@ -1,4 +1,7 @@
-﻿portrait_norse_clothing_trigger = {
+﻿cfp_allow_nudity_in_barbershop_trigger = {
+	should_show_nudity = yes
+}
+portrait_norse_clothing_trigger = {
 	has_culture_group = culture_group:north_germanic_group
 }
 portrait_anglo_saxon_clothing_trigger = {

@@ -30,6 +30,9 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_catholic_devoted_01:1 "Nun's black veil"
 
 ## Clothes
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:1 "No clothes"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01$"
+ 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_01:1 "Monk's Black Habit"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_02:1 "Monk's Habit"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_head_01:1 "Papal Robe"
@@ -58,6 +61,11 @@
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear:1 "Legwear"
+ 
+ PORTRAIT_MODIFIER_custom_legwear_male_empty:1 "No Legwear"
+ PORTRAIT_MODIFIER_custom_legwear_female_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_boy_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_girl_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_war_01:1 "Mail Legwear"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01:1 "Western Legwear"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01$"

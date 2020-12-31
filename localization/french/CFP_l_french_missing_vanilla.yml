@@ -30,6 +30,9 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_catholic_devoted_01:1 "Voile de Nonne"
 
 ## Clothes
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:1 "Pas de vêtements"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01$"
+ 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_01:1 "Robe de Moine noire"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_02:1 "Robe de Moine"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_head_01:1 "Robe du Pape"
@@ -58,6 +61,11 @@
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear:1 "Jambières"
+ 
+ PORTRAIT_MODIFIER_custom_legwear_male_empty:1 "Pas de jambières"
+ PORTRAIT_MODIFIER_custom_legwear_female_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_boy_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_girl_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_war_01:1 "Jambières de maille"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01:1 "Jambières occidentales"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01$"
