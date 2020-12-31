@@ -21,7 +21,7 @@ cloaks = {
 				OR = {
 					portrait_western_clothing_trigger = yes
 					portrait_northern_clothing_trigger = yes
-					portrait_norse_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
 				}
 			}
 			modifier = {
@@ -88,7 +88,7 @@ cloaks = {
 			modifier = {
 				add = 100
 				AND = {
-					portrait_norse_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
 					portrait_wear_armor_trigger = yes
 				}
 			}
@@ -114,7 +114,7 @@ cloaks = {
 			modifier = {
 				add = 100
 				AND = {
-					portrait_norman_clothing_trigger = yes
+					cfp_portrait_norman_clothing_trigger = yes
 					portrait_wear_armor_trigger = yes
 				}
 			}
