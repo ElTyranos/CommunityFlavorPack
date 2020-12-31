@@ -28,6 +28,8 @@
 					}
 				}
 				NOR = {
+					has_trait = disfigured
+					has_trait = blind
 					portrait_indian_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes

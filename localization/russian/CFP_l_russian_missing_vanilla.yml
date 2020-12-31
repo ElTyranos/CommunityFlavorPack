@@ -30,6 +30,9 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_catholic_devoted_01:1 "Монашеская чёрная вуаль"
 
 ## Clothes
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:1 "Одежды нет"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01$"
+ 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_01:1 "Сестра черная вуаль"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_02:1 "Привычка монаха"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_head_01:1 "Папская красавица"
@@ -55,4 +58,17 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_steppe_high_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_steppe_high_01_common$"
  
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_catholic_devoted_01_common:0 "Монашеская привычка"
+ 
+## Legwear
+ PORTRAIT_MODIFIER_custom_legwear:1 "Леггинсы"
+ 
+ PORTRAIT_MODIFIER_custom_legwear_male_empty:1 "Без леггинсы"
+ PORTRAIT_MODIFIER_custom_legwear_female_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_boy_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_girl_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_war_01:1 "Ячеистые леггинсы"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01:1 "Западные леггинсы"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01$"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01:1 "Арабские леггинсы"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01$"
  

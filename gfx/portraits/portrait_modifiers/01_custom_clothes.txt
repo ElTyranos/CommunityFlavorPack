@@ -4,6 +4,14 @@
 	
 	add_accessory_modifiers = {
 		gene = clothes
+		template = no_clothes
+		is_valid_custom = {
+			NOT = { cfp_allow_nudity_in_barbershop_trigger = no }
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
 		template = western_commoner_clothes
 	}
 
@@ -31,6 +39,11 @@
 	add_accessory_modifiers = {
 		gene = clothes
 		template = western_war_nobility_clothes
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = western_war_late
 	}
 
 	# add_accessory_modifiers = {

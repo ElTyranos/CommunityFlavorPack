@@ -51,7 +51,15 @@
 	### CFP ###
 	add_accessory_modifiers = {
 		gene = headgear
-		template = western_war_fullplate
+		template = western_war_high_fullplate
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = western_war_late
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = western_war_late_fullplate
 	}
 	add_accessory_modifiers = {
 		gene = headgear

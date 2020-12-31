@@ -30,6 +30,9 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_catholic_devoted_01:1 "Velo negro de la hermana"
 
 ## Clothes
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:1 "Sin ropa"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01$"
+ 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_01:1 "Atuendo Negro del Hermano"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_02:1 "Ropa del Hermano"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_head_01:1 "Atuendo Papal"
@@ -55,4 +58,17 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_steppe_high_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_steppe_high_01_common$"
  
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_catholic_devoted_01_common:0 "Atuendo de la hermana"
+ 
+## Legwear
+ PORTRAIT_MODIFIER_custom_legwear:1 "Perneras"
+ 
+ PORTRAIT_MODIFIER_custom_legwear_male_empty:1 "Sin perneras"
+ PORTRAIT_MODIFIER_custom_legwear_female_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_boy_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_girl_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_war_01:1 "Perneras de malla"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01:1 "Perneras occidentales"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01$"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01:1 "Perneras árabes"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01$"
  

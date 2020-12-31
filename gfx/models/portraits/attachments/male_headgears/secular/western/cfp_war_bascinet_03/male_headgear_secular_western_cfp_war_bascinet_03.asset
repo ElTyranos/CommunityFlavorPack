@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "male_headgear_secular_western_cfp_war_bascinet_03_mesh"
+	file = "male_headgear_secular_western_cfp_war_bascinet_03.mesh"
+
+	meshsettings = {
+		name = "male_headgear_secular_western_cfp_war_bascinet_03Shape"
+		index = 0
+		texture_diffuse = "western_cfp_war_bascinet_01_diffuse.dds"
+		texture_normal = "western_cfp_war_bascinet_01_normal.dds"
+		texture_specular = "western_cfp_war_bascinet_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_western_cfp_war_bascinet_03_entity"
+	pdxmesh = "male_headgear_secular_western_cfp_war_bascinet_03_mesh"
+}

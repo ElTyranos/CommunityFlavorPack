@@ -1,4 +1,7 @@
-﻿portrait_norse_clothing_trigger = {
+﻿cfp_allow_nudity_in_barbershop_trigger = {
+	should_show_nudity = yes
+}
+portrait_norse_clothing_trigger = {
 	has_culture_group = culture_group:north_germanic_group
 }
 portrait_anglo_saxon_clothing_trigger = {
@@ -115,6 +118,14 @@ cfp_era_high_medieval_trigger = {
 }
 cfp_innovation_plate_armor_trigger = {
 	culture = { has_innovation =  innovation_plate_armor }
+	# We need conditions to avoid clipping with blendshapes due to model exporter issues
+	is_male = yes
+	NOR = {
+		has_trait = one_legged
+		has_trait = dwarf
+		current_weight >= 10
+	}
+	# end
 }
 
 # Overwritting default classes

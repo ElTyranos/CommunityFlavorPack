@@ -3,6 +3,8 @@
  PORTRAIT_MODIFIER_custom_special:1 "Accesorios"
  PORTRAIT_MODIFIER_custom_special_male_empty:1 "No accesorio personalizado"
  PORTRAIT_MODIFIER_custom_special_female_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
+ PORTRAIT_MODIFIER_custom_special_boy_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
+ PORTRAIT_MODIFIER_custom_special_girl_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
 
  ## Vanilla
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:1 "Vendas Faciales"
