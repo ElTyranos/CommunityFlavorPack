@@ -112,11 +112,6 @@
 		gene = headgear
 		template = norse_war
 	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = norse_common
-	}
 
 	add_accessory_modifiers = {
 		gene = headgear
