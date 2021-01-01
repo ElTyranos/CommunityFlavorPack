@@ -12,4 +12,4 @@
 # -----------
 # 001 - Iron Crown of Lombardy
 
-cfp_force_item_001_trigger = { always = no }
+cfp_force_cfp_force_cfp_headgears_001_trigger = { always = no }
