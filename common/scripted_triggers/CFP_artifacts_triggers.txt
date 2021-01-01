@@ -1,0 +1,15 @@
+﻿# Just overwrite bellow triggers with your own conditions.
+# Be careful
+# 1: triggers must always be set, I could not leave them empty
+# 2: if trigger = true then item will 100% show-up.
+#
+# Formatting
+# -----------
+# cfp_force_item_XXX_trigger
+# replace XXX by code from the list bellow
+#
+# Available Artifacts
+# -----------
+# 001 - Iron Crown of Lombardy
+
+cfp_force_item_001_trigger = { always = no }

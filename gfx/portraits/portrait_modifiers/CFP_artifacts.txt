@@ -1,0 +1,31 @@
+﻿# This file as no purpose but for Artifacts mods to catch assets to display when CFP is running alongside their work. Readme is in common/scripted_triggers info file.
+
+cfp_artifacts_headgear = {
+	usage = game
+	selection_behavior = weighted_random
+	
+	cfp_icol = {
+		# Iron Crown of  Lombardy
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_icol
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_item_001_trigger = yes
+			}
+		}
+	}
+}
