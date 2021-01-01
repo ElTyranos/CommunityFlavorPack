@@ -1,6 +1,8 @@
 ﻿cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 }
+
+# Cultural triggers
 cfp_portrait_norse_clothing_trigger = {
 	has_culture_group = culture_group:north_germanic_group
 }
@@ -54,6 +56,8 @@ cfp_portrait_slavic_clothing_trigger = {
 		has_culture_group = culture_group:south_slavic_group
 	}
 }
+
+# wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
 		AND = {
@@ -113,6 +117,7 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 	}
 }
 
+# Era or innovation triggers
 cfp_era_high_medieval_trigger = {
 	culture = { has_cultural_era_or_later = culture_era_high_medieval }
 }
