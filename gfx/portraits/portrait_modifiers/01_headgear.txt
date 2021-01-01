@@ -1072,7 +1072,6 @@ headgear = {
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
 				cfp_innovation_plate_armor_trigger = yes
-				is_male = yes
 				
 				NOR = {
 				    AND = {
@@ -1132,7 +1131,6 @@ headgear = {
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
 				cfp_innovation_plate_armor_trigger = yes
-				is_male = yes
 				
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				
