@@ -5,9 +5,17 @@ special_genes = {
 
 		cfp_artifacts_headgear = {
 
-			cfp_icol = {
+			ck3_reichskrone = {
 				index = 0
-				male = {				male = { 1 = male_headgear_secular_latin_cfp_icol_01 }
+				male = { 1 = male_headgear_secular_western_imperial_01 }
+				female = { 1 = female_headgear_secular_western_imperial_01 }
+				boy = male
+				girl = female
+			}
+			
+			cfp_icol = {
+				index = 1
+				male = { 1 = male_headgear_secular_latin_cfp_icol_01 }
 				female = { 1 = female_headgear_secular_latin_cfp_icol_01 }
 				boy = male
 				girl = female

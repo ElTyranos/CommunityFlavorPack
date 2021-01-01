@@ -12,8 +12,14 @@
 # cfp_force_XXX_trigger
 # replace XXX by a code from the list bellow
 #
-# Available Artifacts
+# CK3 Vanilla Available Artifacts
 # -----------
-# 001 - Iron Crown of Lombardy
+# ck3_headgears_001 - Reichskrone
+#
+# CFP Available Artifacts
+# -----------
+# cfp_headgears_001 - Iron Crown of Lombardy
 
-cfp_force_cfp_force_cfp_headgears_001_trigger = { always = no }
+cfp_force_ck3_headgears_001_trigger = { always = no }
+
+cfp_force_cfp_headgears_001_trigger = { always = no }

@@ -4,7 +4,32 @@ cfp_artifacts_headgear = {
 	usage = game
 	selection_behavior = weighted_random
 	
-	cfp_icol = {
+	cfp_artifacts_headgear_ck3_reichskrone = {
+		# Reichskrone
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = ck3_reichskrone
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_ck3_headgears_001_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_icol = {
 		# Iron Crown of  Lombardy
 		dna_modifiers = {
 			accessory = {
