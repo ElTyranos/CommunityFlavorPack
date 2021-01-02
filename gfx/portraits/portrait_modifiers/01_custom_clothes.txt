@@ -59,9 +59,15 @@
 		template = western_prison
 	}
 
+	# add_accessory_modifiers = {
+	#	gene = clothes
+	#	template = western_bedchamber
+	#}
+	
+	# western_bedchamber conflicts with nudity unlock in barbershop
 	add_accessory_modifiers = {
 		gene = clothes
-		template = western_bedchamber
+		template = cfp_bedchamber
 	}
 
 	add_accessory_modifiers = {

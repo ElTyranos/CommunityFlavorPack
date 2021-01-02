@@ -1266,8 +1266,23 @@ accessory_genes = {
 
 ## Western
 
-		western_war_late = {
+		cfp_bedchamber = {
 			index = 68
+
+			male = {
+				1 = cfp_male_clothes_western_bedchamber_01_common
+			}
+
+			female = {
+				1 = cfp_female_clothes_western_bedchamber_01_common
+			}
+
+			boy = male
+			girl = female
+		}
+
+		western_war_late = {
+			index = 69
 			male = {
 				1 = male_clothes_secular_western_cfp_war_plate_01
 				1 = male_clothes_secular_western_cfp_war_plate_02
@@ -1280,7 +1295,7 @@ accessory_genes = {
 ## Normans ##
 
 		norman_war_nobility_clothes = {
-			index = 69
+			index = 70
 
 			male = {
 				3 = male_clothes_secular_northern_war_nobility_01_common
@@ -1299,7 +1314,7 @@ accessory_genes = {
 ## Turkic ##
 
 		turkic_war_nobility_clothes = {
-			index = 70
+			index = 71
 
 			male = {
 				1 = male_clothes_secular_dde_abbasid_war_nobility_01_low
@@ -1317,7 +1332,7 @@ accessory_genes = {
 ## Latin ##
 
 		latin_venetian_royalty_clothes = {
-			index = 71
+			index = 72
 
 			male = {
 				1 = male_clothes_secular_latin_cfp_venetian_doge_01
