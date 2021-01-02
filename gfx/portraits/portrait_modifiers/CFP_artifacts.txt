@@ -24,7 +24,7 @@ cfp_artifacts_headgear = {
 			base = 0
 			modifier = {
 				add = 1000
-				cfp_force_ck3_headgears_001_trigger = yes
+				cfp_force_ck3_headgear_001_trigger = yes
 			}
 		}
 	}
@@ -49,7 +49,7 @@ cfp_artifacts_headgear = {
 			base = 0
 			modifier = {
 				add = 1000
-				cfp_force_cfp_headgears_001_trigger = yes
+				cfp_force_cfp_headgear_001_trigger = yes
 			}
 		}
 	}
