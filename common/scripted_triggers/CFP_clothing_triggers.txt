@@ -126,7 +126,6 @@ cfp_innovation_plate_armor_trigger = {
 	# We need conditions to avoid clipping with blendshapes due to model exporter issues
 	is_male = yes
 	NOR = {
-		has_trait = one_legged
 		has_trait = dwarf
 		current_weight >= 10
 	}
