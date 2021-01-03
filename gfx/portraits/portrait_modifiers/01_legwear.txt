@@ -147,7 +147,6 @@
 				portrait_wear_armor_trigger = yes
 				portrait_western_clothing_trigger = yes
 				cfp_innovation_plate_armor_trigger = yes
-				is_male = yes
 			}
 		}
 	}
@@ -178,7 +177,7 @@
 					portrait_indian_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 				}
 			}
 		}

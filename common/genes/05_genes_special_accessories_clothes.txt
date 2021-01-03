@@ -1266,9 +1266,23 @@ accessory_genes = {
 
 ## Western
 
+		cfp_bedchamber = {
+			index = 68
+
+			male = {
+				1 = cfp_male_clothes_western_bedchamber_01_common
+			}
+
+			female = {
+				1 = cfp_female_clothes_western_bedchamber_01_common
+			}
+
+			boy = male
+			girl = female
+		}
 
 		western_war_late = {
-			index = 68
+			index = 69
 			male = {
 				1 = male_clothes_secular_western_cfp_war_plate_01
 				1 = male_clothes_secular_western_cfp_war_plate_02
@@ -1278,79 +1292,10 @@ accessory_genes = {
 			girl = female
 		}
 
-
-## Northern Pagans ##
-
-		norse_commoner_clothes = {
-			index = 69
-
-			male = {
-				1 = male_clothes_secular_northern_nobility_01_common
-				1 = male_clothes_secular_northern_nobility_02_common
-			}
-
-			female = {
-				1 = female_clothes_secular_northern_nobility_01_common
-				1 = female_clothes_secular_northern_nobility_02_common
-			}
-
-			boy = male
-			girl = female
-		}
-
-		norse_low_nobility_clothes = {
-			index = 70
-
-			male = {
-				1 = male_clothes_secular_northern_nobility_01_low
-				1 = male_clothes_secular_northern_nobility_02_low
-			}
-
-			female = {
-				1 = female_clothes_secular_northern_nobility_01_low
-				1 = female_clothes_secular_northern_nobility_02_low		
-			}
-			boy = male
-			girl = female
-		}
-
-		norse_high_nobility_clothes = {
-			index = 71
-
-			male = {
-
-				1 = male_clothes_secular_northern_nobility_01_high
-				1 = male_clothes_secular_northern_nobility_02_high
-			}
-
-			female = {
-				1 = female_clothes_secular_northern_nobility_01_high
-				1 = female_clothes_secular_northern_nobility_02_high
-			}
-			boy = male
-			girl = female
-		}
-
-		norse_war_nobility_clothes = {
-			index = 72
-
-			male = {
-				5 = male_clothes_secular_northern_war_nobility_01_common
-				3 = male_clothes_secular_northern_war_gambeson_01
-			}
-
-			female = {
-				5 = female_clothes_secular_northern_war_nobility_01
-				3 = female_clothes_secular_northern_war_gambeson_01
-			}
-			boy = male
-			girl = female
-		}
-
 ## Normans ##
 
 		norman_war_nobility_clothes = {
-			index = 73
+			index = 70
 
 			male = {
 				3 = male_clothes_secular_northern_war_nobility_01_common
@@ -1369,7 +1314,7 @@ accessory_genes = {
 ## Turkic ##
 
 		turkic_war_nobility_clothes = {
-			index = 74
+			index = 71
 
 			male = {
 				1 = male_clothes_secular_dde_abbasid_war_nobility_01_low
@@ -1387,7 +1332,7 @@ accessory_genes = {
 ## Latin ##
 
 		latin_venetian_royalty_clothes = {
-			index = 75
+			index = 72
 
 			male = {
 				1 = male_clothes_secular_latin_cfp_venetian_doge_01

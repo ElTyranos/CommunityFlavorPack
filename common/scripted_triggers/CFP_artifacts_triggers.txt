@@ -1,0 +1,24 @@
+﻿# You can catch those triggers in your own mod. E.g. to create artifacts, bind them to event, etc.
+# Just overwrite bellow triggers with your own conditions in your mod files (file name does not have to match, just trigger name).
+#
+# Be aware that:
+# -----------
+# 1: triggers must always be set, I could not leave them empty.
+# 2: it means your mod should be loaded after CFP so your own definition of the trigger is the one running.
+# 3: if trigger = true then item will 100% show-up. 
+#
+# Formatting
+# -----------
+# cfp_force_XXX_trigger
+# replace XXX by a code from the list bellow
+#
+# CK3 Vanilla Available Artifacts
+# -----------
+# ck3_headgear_001 - Reichskrone
+#
+# CFP Available Artifacts
+# -----------
+# cfp_headgear_001 - Iron Crown of Lombardy
+
+cfp_force_ck3_headgear_001_trigger = { always = no }
+cfp_force_cfp_headgear_001_trigger = { always = no }

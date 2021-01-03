@@ -804,7 +804,7 @@ clothes = {
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
-				portrait_norman_clothing_trigger = yes
+				cfp_portrait_norman_clothing_trigger = yes
 			}
 		}
 	}
@@ -922,7 +922,7 @@ clothes = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -933,8 +933,8 @@ clothes = {
 				OR = {
 					portrait_byzantine_clothing_trigger = yes
 					portrait_northern_clothing_trigger = yes
-					portrait_norse_clothing_trigger = yes
-					portrait_norman_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
+					cfp_portrait_norman_clothing_trigger = yes
 					portrait_western_clothing_trigger = yes
 				}
 			}
@@ -971,8 +971,8 @@ clothes = {
 				OR = {
 					portrait_byzantine_clothing_trigger = yes
 					portrait_northern_clothing_trigger = yes
-					portrait_norse_clothing_trigger = yes
-					portrait_norman_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
+					cfp_portrait_norman_clothing_trigger = yes
 					portrait_western_clothing_trigger = yes
 				}
 			}
@@ -1009,8 +1009,8 @@ clothes = {
 				OR = {
 					portrait_byzantine_clothing_trigger = yes
 					portrait_northern_clothing_trigger = yes
-					portrait_norse_clothing_trigger = yes
-					portrait_norman_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
+					cfp_portrait_norman_clothing_trigger = yes
 					portrait_western_clothing_trigger = yes
 				}
 			}
@@ -1926,7 +1926,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -1938,7 +1938,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -1975,7 +1975,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -2013,7 +2013,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -2064,7 +2064,7 @@ latin_venetian_royalty = {
 				}
 				OR = {
 					portrait_steppe_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 				}
 			}
 		}
@@ -2108,7 +2108,7 @@ latin_venetian_royalty = {
 						}
 						OR = {
 							portrait_steppe_clothing_trigger = yes
-							portrait_turkic_clothing_trigger = yes
+							cfp_portrait_turkic_clothing_trigger = yes
 						}
 					}
 					AND = {
@@ -2129,7 +2129,7 @@ latin_venetian_royalty = {
 							}
 							OR = {
 								portrait_steppe_clothing_trigger = yes
-								portrait_turkic_clothing_trigger = yes
+								cfp_portrait_turkic_clothing_trigger = yes
 							}
 						}
 					}
@@ -2177,7 +2177,7 @@ latin_venetian_royalty = {
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						OR = {
 							portrait_steppe_clothing_trigger = yes
-							portrait_turkic_clothing_trigger = yes
+							cfp_portrait_turkic_clothing_trigger = yes
 						}
 					}
 					AND = {
@@ -2197,7 +2197,7 @@ latin_venetian_royalty = {
 							}
 							OR = {
 								portrait_steppe_clothing_trigger = yes
-								portrait_turkic_clothing_trigger = yes
+								cfp_portrait_turkic_clothing_trigger = yes
 							}
 						}
 					}
@@ -2266,7 +2266,7 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
-				portrait_turkic_clothing_trigger = yes
+				cfp_portrait_turkic_clothing_trigger = yes
 			}
 		}
 	}
@@ -2312,7 +2312,10 @@ latin_venetian_royalty = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_northern_clothing_trigger = yes
+				OR  = {
+					portrait_northern_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -2353,7 +2356,10 @@ latin_venetian_royalty = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_northern_clothing_trigger = yes
+						OR  = {
+							portrait_northern_clothing_trigger = yes
+							cfp_portrait_norse_clothing_trigger = yes
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -2370,8 +2376,11 @@ latin_venetian_royalty = {
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_northern_clothing_trigger = yes
+									}
+								OR  = {
+									portrait_northern_clothing_trigger = yes
+									cfp_portrait_norse_clothing_trigger = yes
+								}
 						}
 					}
 				}
@@ -2416,7 +2425,10 @@ latin_venetian_royalty = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_northern_clothing_trigger = yes
+						OR  = {
+							portrait_northern_clothing_trigger = yes
+							cfp_portrait_norse_clothing_trigger = yes
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -2433,7 +2445,10 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_northern_clothing_trigger = yes
+							OR  = {
+								portrait_northern_clothing_trigger = yes
+								cfp_portrait_norse_clothing_trigger = yes
+							}
 						}
 					}
 				}
@@ -2468,211 +2483,13 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
-				portrait_northern_clothing_trigger = yes
-			}
-		}
-	}
-
-	norse_commoners = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = norse_commoner_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 1.0
-				template = body_shape_average_clothed
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
-						}
-					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+				OR  = {
+					portrait_northern_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
 				}
-				portrait_norse_clothing_trigger = yes
 			}
 		}
 	}
-
-	norse_low_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = norse_low_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 1.0
-				template = body_shape_average_clothed
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_norse_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							highest_held_title_tier = tier_county
-							NOR = {
-								# has_dynasty = no
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_norse_clothing_trigger = yes
-						}
-					}
-				}
-
-			}
-		}
-	}
-
-	norse_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = norse_high_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 1.0
-				template = body_shape_average_clothed
-			}
-		}		
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_norse_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							OR = {
-								highest_held_title_tier > tier_county
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_norse_clothing_trigger = yes
-						}
-					}
-				}
-
-			}
-		}
-	}
-
-	norse_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = norse_war_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 1.0
-				template = body_shape_average_clothed
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				portrait_wear_armor_trigger = yes
-				portrait_norse_clothing_trigger = yes
-			}
-		}
-	}
-
 
 ## Sub-Saharan Africans ##
 

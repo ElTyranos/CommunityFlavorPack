@@ -16,6 +16,7 @@
 			trigger_if = {
 				limit = { exists = root }
 				age >= 40
+				current_date >= 1286.1.1
 				NOT = { has_game_rule = never_cfp_trait_accessories }
 				OR = {
 					AND = {
@@ -33,8 +34,8 @@
 					portrait_indian_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					portrait_norse_clothing_trigger = yes
-					portrait_turkic_clothing_trigger = yes
+					cfp_portrait_norse_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
 				}
 			}
 		}

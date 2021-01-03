@@ -1,0 +1,26 @@
+﻿# This file as no purpose but for Artifacts mods to catch assets to display when CFP is running alongside their work. Readme is in common/scripted_triggers info file.
+
+special_genes = {
+	accessory_genes = {
+
+		cfp_artifacts_headgear = {
+
+			ck3_reichskrone = {
+				index = 0
+				male = { 1 = male_headgear_secular_western_imperial_01 }
+				female = { 1 = female_headgear_secular_western_imperial_01 }
+				boy = male
+				girl = female
+			}
+			
+			cfp_icol = {
+				index = 1
+				male = { 1 = male_headgear_secular_latin_cfp_icol_01 }
+				female = { 1 = female_headgear_secular_latin_cfp_icol_01 }
+				boy = male
+				girl = female
+			}
+		}
+
+	}
+}

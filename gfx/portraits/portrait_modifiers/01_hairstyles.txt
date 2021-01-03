@@ -209,8 +209,8 @@ hairstyles = {
 						has_trait = education_martial_4
 					}
 					OR = {
-						portrait_slavic_clothing_trigger = yes
-						portrait_hungarian_clothing_trigger = yes
+						cfp_portrait_slavic_clothing_trigger = yes
+						cfp_portrait_hungarian_clothing_trigger = yes
 					}
 				}
             }
