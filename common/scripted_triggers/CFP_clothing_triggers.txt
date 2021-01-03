@@ -130,7 +130,6 @@ cfp_innovation_plate_armor_trigger = {
 		has_trait = dwarf
 		current_weight >= 10
 	}
-	# end
 }
 
 # Overwritting default classes
