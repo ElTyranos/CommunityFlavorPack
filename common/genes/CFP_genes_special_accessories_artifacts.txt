@@ -22,7 +22,7 @@ special_genes = {
 			}
 			
 			cfp_zvonimir = {
-				index = 1
+				index = 2
 				male = { 1 = male_headgear_secular_slavic_royalty_01 }
 				female = { 1 = female_headgear_secular_slavic_royalty_01 }
 				boy = male
@@ -30,7 +30,7 @@ special_genes = {
 			}
 			
 			cfp_hchungary = {
-				index = 1
+				index = 3
 				male = { 1 = male_headgear_secular_hungarian_royalty_01 }
 				female = { 1 = female_headgear_secular_hungarian_royalty_01 }
 				boy = male
@@ -38,7 +38,7 @@ special_genes = {
 			}
 			
 			cfp_sutton_hoo = {
-				index = 1
+				index = 4
 				male = { 1 = male_headgear_secular_northern_royalty_suttonhoo_01 }
 				female = { 1 = female_headgear_secular_northern_royalty_suttonhoo_01 }
 				boy = male
@@ -46,7 +46,7 @@ special_genes = {
 			}
 			
 			cfp_monomachus = {
-				index = 1
+				index = 5
 				male = { 1 = male_headgear_secular_byzantine_monomachus_01 }
 				female = { 1 = female_headgear_secular_byzantine_monomachus_01 }
 				boy = male
@@ -54,7 +54,7 @@ special_genes = {
 			}
 			
 			cfp_komnenos = {
-				index = 1
+				index = 6
 				male = { 1 = male_headgear_secular_byzantine_imperial_02 }
 				female = { 1 = female_headgear_secular_byzantine_imperial_02 }
 				boy = male
