@@ -1,0 +1,9 @@
+﻿cfp_is_loaded = { always = yes }
+
+# You can then detect if CFP is running with this trigger
+#
+# cfp_loaded_checker = { 
+#    trigger_if = { cfp_is_loaded = yes }
+#    trigger_else = { always = no }
+# }
+#
