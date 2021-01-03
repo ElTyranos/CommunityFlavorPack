@@ -16,6 +16,7 @@
 			trigger_if = {
 				limit = { exists = root }
 				age >= 40
+				current_date >= 1286.1.1
 				NOT = { has_game_rule = never_cfp_trait_accessories }
 				OR = {
 					AND = {
