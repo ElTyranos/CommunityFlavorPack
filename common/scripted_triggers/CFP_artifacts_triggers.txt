@@ -19,6 +19,17 @@
 # CFP Available Artifacts
 # -----------
 # cfp_headgear_001 - Iron Crown of Lombardy
+# cfp_headgear_002 - Crown of Zvonimir
+# cfp_headgear_003 - Holy crown of Hungary
+# cfp_headgear_004 - Sutton Hoo helmet
+# cfp_headgear_005 - Monomachus crown
+# cfp_headgear_006 - Komnenos crown
 
 cfp_force_ck3_headgear_001_trigger = { always = no }
+
 cfp_force_cfp_headgear_001_trigger = { always = no }
+cfp_force_cfp_headgear_002_trigger = { always = no }
+cfp_force_cfp_headgear_003_trigger = { always = no }
+cfp_force_cfp_headgear_004_trigger = { always = no }
+cfp_force_cfp_headgear_005_trigger = { always = no }
+cfp_force_cfp_headgear_006_trigger = { always = no }

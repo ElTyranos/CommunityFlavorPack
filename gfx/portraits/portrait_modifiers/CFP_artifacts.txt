@@ -5,7 +5,6 @@ cfp_artifacts_headgear = {
 	selection_behavior = weighted_random
 	
 	cfp_artifacts_headgear_ck3_reichskrone = {
-		# Reichskrone
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -30,7 +29,6 @@ cfp_artifacts_headgear = {
 	}
 	
 	cfp_artifacts_headgear_cfp_icol = {
-		# Iron Crown of  Lombardy
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -50,6 +48,126 @@ cfp_artifacts_headgear = {
 			modifier = {
 				add = 1000
 				cfp_force_cfp_headgear_001_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_zvonimir = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_zvonimir
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_002_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_hchungary = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_hchungary
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_003_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_sutton_hoo = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_sutton_hoo
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_004_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_monomachus = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_monomachus
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_005_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_komnenos = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_komnenos
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_006_trigger = yes
 			}
 		}
 	}
