@@ -50,6 +50,9 @@ cfp_portrait_turkic_clothing_trigger = {
 cfp_portrait_latin_clothing_trigger = {
 	has_culture_group = culture_group:latin_group
 }
+cfp_portrait_iberian_clothing_trigger = {
+	has_culture_group = culture_group:iberian_group
+}
 cfp_portrait_slavic_clothing_trigger = {
 	OR = {
 		has_culture_group = culture_group:east_slavic_group
