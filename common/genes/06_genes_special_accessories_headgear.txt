@@ -1542,6 +1542,58 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
+		iberian_common = {
+			index = 99
+			male = {}
+			female = {}
+			boy = male
+            girl = female
+		}
+
+		iberian_nobility = {
+			index = 100
+			male = {}
+			female = {}
+			boy = male
+            girl = female
+		}
+
+		iberian_high_nobility = {
+			index = 101
+			male = {}
+			female = {}
+			boy = male
+            girl = female
+		}
+
+		iberian_royalty = {
+			index = 102
+			male = {}
+			female = {}
+			boy = male
+            girl = female
+		}
+
+		iberian_aragonese_royalty = {
+			index = 103
+			male = {}
+			female = {}
+			boy = male
+            girl = female
+		}
+
+		iberian_war = {
+			index = 104
+			male = {
+				1 = male_headgear_secular_iberian_cfp_war_cervelliere_01
+			}
+			female = {
+				1 = female_headgear_secular_iberian_cfp_war_cervelliere_01
+			}
+			boy = male
+            girl = female
+		}
 
 	}
 }
