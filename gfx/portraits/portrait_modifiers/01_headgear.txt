@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1539,16 +1539,19 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
-				has_title = title:e_italy
-			}
-			modifier = {
-				add = 101
-				has_title = title:k_italy
-				NAND = { 
-					exists = title:e_italy.holder
-					NOT = { has_title = title:e_italy }
+				OR = {
+					primary_title = title:k_italy
+					primary_title = title:e_italy
 				}
 			}
+			# modifier = {
+				# add = 101
+				# has_title = title:k_italy
+				# NAND = { 
+					# exists = title:e_italy.holder
+					# NOT = { has_title = title:e_italy }
+				# }
+			# }
 		}
 	}
 
