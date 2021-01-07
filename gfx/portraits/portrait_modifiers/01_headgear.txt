@@ -1634,6 +1634,24 @@ headgear = {
 
 ## Iberian
 
+	iberian_aragonese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_aragonese_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				primary_title = title:k_aragon
+			}
+		}
+	}
+
 	iberian_war = {
 		dna_modifiers = {
 			accessory = {
