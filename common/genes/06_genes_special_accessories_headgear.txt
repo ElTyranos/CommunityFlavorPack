@@ -1603,9 +1603,11 @@ accessory_genes = {
 			index = 105
 			male = {
 				1 = male_headgear_secular_iberian_cfp_war_cervelliere_01
+				1 = male_headgear_secular_iberian_cfp_war_nasal_01
 			}
 			female = {
 				1 = female_headgear_secular_iberian_cfp_war_cervelliere_01
+				1 = female_headgear_secular_iberian_cfp_war_nasal_01
 			}
 			boy = male
             girl = female

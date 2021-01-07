@@ -421,6 +421,15 @@ female_headgear_secular_iberian_cfp_war_cervelliere_01 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iberian_cfp_war_cervelliere_01_entity 	 }
 }
+male_headgear_secular_iberian_cfp_war_nasal_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iberian_cfp_war_nasal_01_entity 	 }
+}
+female_headgear_secular_iberian_cfp_war_nasal_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iberian_cfp_war_nasal_01_entity 	 }
+}
 
 male_headgear_secular_iberian_cfp_aragonese_royalty_01 = {
 	set_tags = "cap,cap_02"
