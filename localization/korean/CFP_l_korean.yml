@@ -1,4 +1,4 @@
-l_korean:
+﻿l_korean:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "코받이 투구 (목 보호구 없음)"
@@ -133,6 +133,9 @@ l_korean:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01:1 "Aragonese Dragon Crown"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01:1 "Aragonese Dragon Helm"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_war_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01$"
+
 ## War crowns
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "사슬 머리싸개 왕관"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "왕관있는 냄비 투구"

@@ -107,6 +107,10 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
+		template = iberian_war_aragonese_royalty
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = iberian_war
 	}
 	### /CFP ###

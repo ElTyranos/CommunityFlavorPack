@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "护鼻盔（无脖颈)"
@@ -132,6 +132,10 @@ l_simp_chinese:
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01:1 "Aragonese Dragon Crown"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01:1 "Aragonese Dragon Helm"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_war_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01$"
+
 ## War crowns
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "锁甲罩帽头环"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "猪面盔型皇冠"

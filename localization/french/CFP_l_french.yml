@@ -1,4 +1,4 @@
-l_french:
+﻿l_french:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "Casque conique à nasal (sans couvre-nuque)"
@@ -133,6 +133,9 @@ l_french:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01:1 "Couronne draconique d'Aragon"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01:1 "Heaume draconique d'Aragon"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_war_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01$"
+
 ## War crowns
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "Camail avec bandeau"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "Grand heaume couronné"
