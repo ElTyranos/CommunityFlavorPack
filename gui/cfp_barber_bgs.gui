@@ -1,0 +1,33 @@
+template "cfp_portrait_bgs"
+{
+	widget = {
+	  size = { 100% 100% }
+	  visible = no
+	  using = hide_bg_temp
+	  state = {
+	    name = cfp_road_to_castle_bg
+	    on_start = "[PdxGuiWidget.Show]"
+	  }
+	  background = {
+	    texture = "gfx/interface/illustrations/cfp/road_to_castle.dds"
+	    fittype = centercrop
+	  }
+	}
+}
+
+template "cfp_bg_buttons"
+{
+	flowcontainer = {
+		flowcontainer = {
+			direction = vertical
+			widget = {
+				size = { 0 10 }
+			}
+			button_standard_list = {
+				text = "Road to castle"
+				onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
+				onclick = "[PdxGuiTriggerAllAnimations('cfp_road_to_castle_bg')]"
+			}
+		}
+	}
+}
