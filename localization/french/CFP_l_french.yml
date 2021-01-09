@@ -42,6 +42,9 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
  
 ## Western
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_01:1 "Couronne d'émeraude fleur de lis"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_01$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "Chapeau Pillbox (Noble)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "Chapeau Pillbox (Commun)"
  
