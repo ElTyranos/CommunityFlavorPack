@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -1571,8 +1571,12 @@ accessory_genes = {
 
 		iberian_castilian_royalty = {
 			index = 102
-			male = {}
-			female = {}
+			male = {
+				1 = male_headgear_secular_iberian_cfp_castilian_royalty_01
+			}
+			female = {
+				1 = female_headgear_secular_iberian_cfp_castilian_royalty_01
+			}
 			boy = male
             girl = female
 		}
