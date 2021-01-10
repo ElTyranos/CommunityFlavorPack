@@ -1647,7 +1647,13 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
-				primary_title = title:k_castille
+				OR = {
+					primary_title = title:k_castille
+					AND = {
+						primary_title = title:e_spain
+						has_title = k_castille
+					}
+				}
 			}
 		}
 	}
@@ -1665,7 +1671,13 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
-				primary_title = title:k_aragon
+				OR = {
+					primary_title = title:k_aragon
+					AND = {
+						primary_title = title:e_spain
+						has_title = k_aragon
+					}
+				}
 			}
 		}
 	}
