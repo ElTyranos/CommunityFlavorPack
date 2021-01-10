@@ -1651,7 +1651,7 @@ headgear = {
 					primary_title = title:k_castille
 					AND = {
 						primary_title = title:e_spain
-						has_title = k_castille
+						has_title = title:k_castille
 					}
 				}
 			}
@@ -1675,7 +1675,7 @@ headgear = {
 					primary_title = title:k_aragon
 					AND = {
 						primary_title = title:e_spain
-						has_title = k_aragon
+						has_title = title:k_aragon
 					}
 				}
 			}
