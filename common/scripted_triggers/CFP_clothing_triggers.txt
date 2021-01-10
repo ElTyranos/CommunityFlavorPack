@@ -130,8 +130,9 @@ cfp_innovation_plate_armor_trigger = {
 	# We need conditions to avoid clipping with blendshapes due to model exporter issues
 	is_male = yes
 	NOR = {
-		has_trait = dwarf
-		current_weight >= 10
+		prowess > 15 # thicc bois need no armor. Get naked.
+		has_trait = dwarf # did you think you were Gimli, dwarf ?
+		current_weight >= 10 # we have no breastplate stretcher out there.
 	}
 }
 
