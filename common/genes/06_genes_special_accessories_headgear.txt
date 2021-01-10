@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -1569,7 +1569,7 @@ accessory_genes = {
             girl = female
 		}
 
-		iberian_royalty = {
+		iberian_castilian_royalty = {
 			index = 102
 			male = {}
 			female = {}

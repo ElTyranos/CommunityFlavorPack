@@ -99,7 +99,7 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
-		template = iberian_royalty
+		template = iberian_castilian_royalty
 	}
 	add_accessory_modifiers = {
 		gene = headgear
