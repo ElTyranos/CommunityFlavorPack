@@ -857,7 +857,10 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 								AND = {
 									highest_held_title_tier = tier_empire
-									portrait_northern_clothing_trigger = yes
+									OR = {
+										portrait_northern_clothing_trigger = yes
+										cfp_portrait_norse_clothing_trigger = yes
+									}
 								}
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
