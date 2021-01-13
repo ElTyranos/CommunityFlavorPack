@@ -468,6 +468,19 @@ female_headgear_secular_iberian_cfp_war_aragonese_royalty_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iberian_cfp_war_aragonese_royalty_01_entity 	 }
 }
 
+male_headgear_secular_iberian_cfp_bonnet_common_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iberian_cfp_bonnet_common_01_entity 	 }
+}
+male_headgear_secular_iberian_cfp_bonnet_low_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iberian_cfp_bonnet_low_01_entity 	 }
+}
+male_headgear_secular_iberian_cfp_bonnet_high_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iberian_cfp_bonnet_high_01_entity 	 }
+}
+
 ## War Crowns
 male_headgear_secular_western_war_high_nobility_01 = {
 	set_tags = "no_hair"

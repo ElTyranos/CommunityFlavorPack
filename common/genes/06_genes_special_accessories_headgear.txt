@@ -1547,7 +1547,9 @@ accessory_genes = {
 		
 		iberian_common = {
 			index = 99
-			male = {}
+			male = {
+				1 = male_headgear_secular_iberian_cfp_bonnet_common_01
+			}
 			female = {}
 			boy = male
             girl = female
@@ -1555,7 +1557,9 @@ accessory_genes = {
 
 		iberian_nobility = {
 			index = 100
-			male = {}
+			male = {
+				1 = male_headgear_secular_iberian_cfp_bonnet_low_01
+			}
 			female = {}
 			boy = male
             girl = female
@@ -1563,7 +1567,9 @@ accessory_genes = {
 
 		iberian_high_nobility = {
 			index = 101
-			male = {}
+			male = {
+				1 = male_headgear_secular_iberian_cfp_bonnet_high_01
+			}
 			female = {}
 			boy = male
             girl = female
