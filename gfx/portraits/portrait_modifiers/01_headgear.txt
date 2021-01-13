@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1379,6 +1379,7 @@ headgear = {
 					}
 				}
 				cfp_portrait_latin_clothing_trigger = yes
+				is_male = yes # because latin women have no specific hat
 			}
 			modifier = {
 				add = 20
