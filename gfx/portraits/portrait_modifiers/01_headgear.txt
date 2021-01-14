@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1720,6 +1720,7 @@ headgear = {
 						}
 					}
 				}
+				is_male = yes # because iberian women have no specific hat
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -1785,6 +1786,7 @@ headgear = {
 						}
 					}
 				}
+				is_male = yes # because iberian women have no specific hat
 				OR = {
 					AND = {
 						OR = {
