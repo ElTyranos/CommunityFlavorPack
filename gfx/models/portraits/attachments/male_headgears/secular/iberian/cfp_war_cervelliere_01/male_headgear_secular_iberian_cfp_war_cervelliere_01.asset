@@ -1,0 +1,28 @@
+pdxmesh = {
+	name = "male_headgear_secular_iberian_cfp_war_cervelliere_01_mesh"
+	file = "male_headgear_secular_iberian_cfp_war_cervelliere_01.mesh"
+	
+	meshsettings = {
+		name = "male_headgear_secular_iberian_cfp_war_cervelliere_01Shape"
+		index = 0
+		texture_diffuse = "iberian_cfp_war_cervelliere_01_diffuse.dds"
+		texture_normal = "iberian_cfp_war_cervelliere_01_normal.dds"
+		texture_specular = "iberian_cfp_war_cervelliere_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "male_headgear_secular_iberian_cfp_war_cervelliere_01_mailShape"
+		index = 0
+		texture_diffuse = "mail_coif_01_diffuse.dds"
+		texture_normal = "mail_coif_01_normal.dds"
+		texture_specular = "mail_coif_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_iberian_cfp_war_cervelliere_01_entity"
+	pdxmesh = "male_headgear_secular_iberian_cfp_war_cervelliere_01_mesh"
+}

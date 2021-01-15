@@ -831,7 +831,10 @@ headgear = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 							AND = {
 								highest_held_title_tier = tier_empire
-								portrait_northern_clothing_trigger = yes
+								OR = {
+									portrait_northern_clothing_trigger = yes
+									cfp_portrait_norse_clothing_trigger = yes
+								}
 							}
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
@@ -854,7 +857,10 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 								AND = {
 									highest_held_title_tier = tier_empire
-									portrait_northern_clothing_trigger = yes
+									OR = {
+										portrait_northern_clothing_trigger = yes
+										cfp_portrait_norse_clothing_trigger = yes
+									}
 								}
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
@@ -1373,6 +1379,7 @@ headgear = {
 					}
 				}
 				cfp_portrait_latin_clothing_trigger = yes
+				is_male = yes # because latin women have no specific hat
 			}
 			modifier = {
 				add = 20
@@ -1539,16 +1546,19 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
-				has_title = title:e_italy
-			}
-			modifier = {
-				add = 101
-				has_title = title:k_italy
-				NAND = { 
-					exists = title:e_italy.holder
-					NOT = { has_title = title:e_italy }
+				OR = {
+					primary_title = title:k_italy
+					primary_title = title:e_italy
 				}
 			}
+			# modifier = {
+				# add = 101
+				# has_title = title:k_italy
+				# NAND = { 
+					# exists = title:e_italy.holder
+					# NOT = { has_title = title:e_italy }
+				# }
+			# }
 		}
 	}
 
@@ -1586,6 +1596,317 @@ headgear = {
 				add = 50
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_latin_clothing_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+
+## Iberian
+
+
+	iberian_commoners = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				cfp_portrait_iberian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 10
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				cfp_portrait_iberian_clothing_trigger = yes
+			}
+		}
+	}
+
+	iberian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 30
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				is_male = yes # because iberian women have no specific hat
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						OR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						cfp_portrait_iberian_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							cfp_portrait_iberian_clothing_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	iberian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 30
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				is_male = yes # because iberian women have no specific hat
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						cfp_portrait_iberian_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							cfp_portrait_iberian_clothing_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	iberian_castilian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_castilian_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				OR = {
+					primary_title = title:k_castille
+					AND = {
+						primary_title = title:e_spain
+						has_title = title:k_castille
+					}
+				}
+			}
+		}
+	}
+
+	iberian_aragonese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_aragonese_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				OR = {
+					primary_title = title:k_aragon
+					AND = {
+						primary_title = title:e_spain
+						has_title = title:k_aragon
+					}
+				}
+			}
+		}
+	}
+
+	iberian_war_aragonese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_war_aragonese_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				primary_title = title:k_aragon
+				portrait_wear_helmet_trigger = yes
+				cfp_era_high_medieval_trigger = yes
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+			}
+		}
+	}
+
+	iberian_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_wear_helmet_trigger = yes
+				cfp_portrait_iberian_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -4039,6 +4360,7 @@ headgear = {
 					}
 				}
 				portrait_northern_clothing_trigger = yes
+				cfp_portrait_norse_clothing_trigger = yes
 			}
 			modifier = {
 				add = 30
@@ -4057,6 +4379,7 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
+				cfp_portrait_norse_clothing_trigger = yes
 			}
 		}
 	}
@@ -4099,6 +4422,7 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
+				cfp_portrait_norse_clothing_trigger = yes
 			}
 		}
 	}
