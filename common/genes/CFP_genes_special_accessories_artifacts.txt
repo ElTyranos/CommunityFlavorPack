@@ -60,6 +60,30 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			cfp_sancho = {
+				index = 7
+				male = { 1 = male_headgear_secular_iberian_cfp_castilian_royalty_01 }
+				female = { 1 = female_headgear_secular_iberian_cfp_castilian_royalty_01 }
+				boy = male
+				girl = female
+			}
+			
+			cfp_dragon_crown = {
+				index = 8
+				male = { 1 = male_headgear_secular_iberian_cfp_aragonese_royalty_01 }
+				female = { 1 = female_headgear_secular_iberian_cfp_aragonese_royalty_01 }
+				boy = male
+				girl = female
+			}
+			
+			cfp_dragon_helmet = {
+				index = 9
+				male = { 1 = male_headgear_secular_iberian_cfp_war_aragonese_royalty_01 }
+				female = { 1 = female_headgear_secular_iberian_cfp_war_aragonese_royalty_01 }
+				boy = male
+				girl = female
+			}
 		}
 
 	}

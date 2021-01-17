@@ -171,4 +171,76 @@ cfp_artifacts_headgear = {
 			}
 		}
 	}
+	
+	cfp_artifacts_headgear_cfp_sancho = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_sancho
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_007_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_dragon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_dragon_crown
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_008_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_headgear_cfp_dragon_helmet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_headgear
+				template = cfp_dragon_helmet
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_headgear_009_trigger = yes
+			}
+		}
+	}
 }

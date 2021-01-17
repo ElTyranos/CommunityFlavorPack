@@ -24,6 +24,9 @@
 # cfp_headgear_004 - Sutton Hoo helmet
 # cfp_headgear_005 - Monomachus crown
 # cfp_headgear_006 - Komnenos crown
+# cfp_headgear_007 - Sancho IV crown
+# cfp_headgear_008 - Dragon crown
+# cfp_headgear_009 - Dragon helmet
 
 cfp_force_ck3_headgear_001_trigger = { always = no }
 
@@ -33,3 +36,6 @@ cfp_force_cfp_headgear_003_trigger = { always = no }
 cfp_force_cfp_headgear_004_trigger = { always = no }
 cfp_force_cfp_headgear_005_trigger = { always = no }
 cfp_force_cfp_headgear_006_trigger = { always = no }
+cfp_force_cfp_headgear_007_trigger = { always = no }
+cfp_force_cfp_headgear_008_trigger = { always = no }
+cfp_force_cfp_headgear_009_trigger = { always = no }
