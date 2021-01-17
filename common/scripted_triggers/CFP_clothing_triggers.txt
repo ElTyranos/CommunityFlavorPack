@@ -60,6 +60,22 @@ cfp_portrait_slavic_clothing_trigger = {
 		has_culture_group = culture_group:south_slavic_group
 	}
 }
+cfp_portrait_iranian_clothing_trigger = {
+	OR = {
+		has_culture_group = culture_group:iranian_group
+	}
+}
+cfp_portrait_arabic_clothing_trigger = {
+	OR = {
+		has_culture_group = culture_group:arabic_group
+	}
+}
+cfp_portrait_berber_clothing_trigger = {
+	OR = {
+		has_culture_group = culture_group:berber_group
+	}
+}
+
 
 # wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
