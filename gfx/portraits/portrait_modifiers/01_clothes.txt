@@ -1645,9 +1645,12 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 102 # slightly stronger than mena war
+				add = 101 # setting 102 just overwrites mena when 101vs101 = 50%
 				portrait_wear_armor_trigger = yes
-				portrait_dde_abbasid_clothing_trigger = yes
+				OR = {
+					portrait_dde_abbasid_clothing_trigger = yes
+					cfp_portrait_dde_turkic_clothing_trigger = yes
+				}
 			}
 		}
 	}
