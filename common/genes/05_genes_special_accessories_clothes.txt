@@ -1,4 +1,4 @@
-﻿
+
 
 special_genes = {
 
@@ -565,10 +565,12 @@ accessory_genes = {
 
 			male = {
 				1 = male_clothes_secular_mena_war_nobility_01_low
+				1 = male_clothes_secular_mena_war_nobility_02_low
 			}
 
 			female = {
 				1 = female_clothes_secular_mena_war_nobility_01_low
+				1 = female_clothes_secular_mena_war_nobility_02_low
 			}
 
 			boy = male
@@ -930,10 +932,12 @@ accessory_genes = {
 
 			male = {
 				1 = male_clothes_secular_dde_abbasid_war_nobility_01_low
+				1 = male_clothes_secular_dde_abbasid_war_nobility_02_low
 			}
 
 			female = {
 				1 = female_clothes_secular_dde_abbasid_war_nobility_01_low
+				1 = female_clothes_secular_dde_abbasid_war_nobility_02_low
 			}
 
 			boy = male
@@ -1321,11 +1325,13 @@ accessory_genes = {
 			male = {
 				1 = male_clothes_secular_dde_abbasid_war_nobility_01_low
 				1 = male_clothes_secular_mena_war_nobility_01_low
+				1 = male_clothes_secular_mena_war_nobility_02_low
 			}
 
 			female = {
 				1 = female_clothes_secular_dde_abbasid_war_nobility_01_low
 				1 = female_clothes_secular_mena_war_nobility_01_low
+				1 = female_clothes_secular_mena_war_nobility_02_low
 			}
 			boy = male
 			girl = female
