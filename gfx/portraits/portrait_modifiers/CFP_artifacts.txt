@@ -244,3 +244,81 @@ cfp_artifacts_headgear = {
 		}
 	}
 }
+
+
+cfp_artifacts_clothes = {
+	usage = game
+	selection_behavior = weighted_random
+	
+	cfp_artifacts_clothes_cfp_plate = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_clothes
+				template = cfp_plate
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_legwear
+				template = cfp_plate
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_clothes_001_trigger = yes
+			}
+		}
+	}
+	
+	cfp_artifacts_clothes_cfp_plate = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_clothes
+				template = cfp_brigandine
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = cfp_artifacts_legwear
+				template = cfp_plate
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				cfp_force_cfp_clothes_002_trigger = yes
+			}
+		}
+	}
+}

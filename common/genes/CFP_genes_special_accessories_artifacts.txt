@@ -86,5 +86,37 @@ special_genes = {
 			}
 		}
 
+
+		cfp_artifacts_clothes = {
+
+			cfp_plate = {
+				index = 0
+				male = { 1 = male_clothes_secular_western_cfp_war_plate_01 }
+				female = {}
+				boy = male
+				girl = female
+			}
+			
+			cfp_brigandine = {
+				index = 0
+				male = { 1 = male_clothes_secular_western_cfp_war_plate_02 }
+				female = {}
+				boy = male
+				girl = female
+			}
+			
+		}
+		
+		cfp_artifacts_legwear = {
+
+			cfp_plate = {
+				index = 0
+				male = { 1 = male_legwear_secular_western_cfp_war_plate_01 }
+				female = {}
+				boy = male
+				girl = female
+			}
+			
+		}
 	}
 }
