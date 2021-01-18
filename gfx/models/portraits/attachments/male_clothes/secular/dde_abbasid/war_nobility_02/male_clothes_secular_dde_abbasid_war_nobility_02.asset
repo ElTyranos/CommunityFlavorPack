@@ -9,8 +9,6 @@ pdxmesh = {
 	blend_shape = { id = "male_clothes_secular_dde_abbasid_war_nobility_02_bs_old"					type = "male_clothes_secular_dde_abbasid_war_nobility_02_bs_old.mesh" }
 	blend_shape = { id = "male_clothes_secular_dde_abbasid_war_nobility_02_bs_dwarf"				type = "male_clothes_secular_dde_abbasid_war_nobility_02_bs_dwarf.mesh" }
 
-
-
 	meshsettings = {
 		name = "male_clothes_secular_dde_abbasid_war_nobility_02Shape"
 		index = 0
