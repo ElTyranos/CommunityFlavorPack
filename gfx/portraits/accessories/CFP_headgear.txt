@@ -736,6 +736,17 @@ female_headgear_secular_rre_laurelwreath_03 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_rre_laurelwreath_03_entity 	 }		
 }
 
+## Iranian
+male_headgear_secular_iranian_cfp_war_mail_coif_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iranian_cfp_war_mail_coif_01_entity 	 }		
+}
+female_headgear_secular_iranian_cfp_war_mail_coif_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iranian_cfp_war_mail_coif_01_entity 	 }		
+}
+
 ## Special
 male_headgear_special_cfp_glasses_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_01_entity 	 }
