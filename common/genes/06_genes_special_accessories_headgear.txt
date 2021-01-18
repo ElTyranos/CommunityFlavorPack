@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -259,10 +259,12 @@ accessory_genes = {
 			male = {
 				1 = male_headgear_secular_mena_war_nobility_01
 				1 = male_headgear_secular_crusades_mena_war_nobility_01
+				1 = male_headgear_secular_western_war_mail_coif_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_mena_war_nobility_01
+				1 = female_headgear_secular_western_war_mail_coif_01
 				
 			}
 			boy = male
@@ -476,14 +478,10 @@ accessory_genes = {
 			index = 30
 			male = {
 				10 = male_headgear_secular_dde_abbasid_war_nobility_01
-				1 = male_headgear_secular_western_war_mail_coif_01
-				1 = male_headgear_secular_western_war_mail_coif_03
 				
 			}
 			female = {
 				10 = female_headgear_secular_dde_abbasid_war_nobility_01
-				1 = female_headgear_secular_western_war_mail_coif_01
-				1 = female_headgear_secular_western_war_mail_coif_03
 				
 			}
 			boy = male
