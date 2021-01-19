@@ -261,12 +261,16 @@ accessory_genes = {
 				1 = male_headgear_secular_crusades_mena_war_nobility_01
 				1 = male_headgear_secular_western_war_mail_coif_01
 				1 = male_headgear_secular_iranian_cfp_war_mail_coif_01
+				1 = male_headgear_secular_iranian_cfp_war_quilted_01
+				1 = male_headgear_secular_iranian_cfp_war_quilted_02
 				
 			}
 			female = {
 				1 = female_headgear_secular_mena_war_nobility_01
 				1 = female_headgear_secular_western_war_mail_coif_01
 				1 = female_headgear_secular_iranian_cfp_war_mail_coif_01
+				1 = female_headgear_secular_iranian_cfp_war_quilted_01
+				1 = female_headgear_secular_iranian_cfp_war_quilted_02
 				
 			}
 			boy = male
