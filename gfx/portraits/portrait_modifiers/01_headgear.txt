@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1704,7 +1704,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 30
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -1769,7 +1769,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 30
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
