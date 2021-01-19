@@ -951,6 +951,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
 				
@@ -1009,6 +1010,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
 				cfp_era_high_medieval_trigger = yes
@@ -1128,6 +1130,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 1000
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
 				cfp_innovation_plate_armor_trigger = yes
@@ -1189,6 +1192,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_norman_clothing_trigger = yes
 				
@@ -1247,6 +1251,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_norman_sicily_clothing_trigger = yes
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
@@ -1594,6 +1599,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_latin_clothing_trigger = yes
 				
@@ -1902,6 +1908,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_iberian_clothing_trigger = yes
 				
@@ -2088,6 +2095,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_hungarian_clothing_trigger = yes
 				
@@ -2271,6 +2279,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_slavic_clothing_trigger = yes
 				
@@ -2624,6 +2633,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_byzantine_clothing_trigger = yes
 				
@@ -2984,6 +2994,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_indian_clothing_trigger = yes
 				
@@ -3341,6 +3352,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_mena_clothing_trigger = yes
 				
@@ -3924,6 +3936,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_steppe_clothing_trigger = yes
 				
@@ -4223,6 +4236,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_turkic_clothing_trigger = yes
 				
@@ -4437,6 +4451,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_northern_clothing_trigger = yes
 				
@@ -4495,6 +4510,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_norse_clothing_trigger = yes
 				
@@ -4816,6 +4832,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_african_clothing_trigger = yes
 				
