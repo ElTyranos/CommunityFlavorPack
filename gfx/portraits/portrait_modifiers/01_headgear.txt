@@ -1704,7 +1704,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 30
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -1720,7 +1720,6 @@ headgear = {
 						}
 					}
 				}
-				is_male = yes # because iberian women have no specific hat
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -1770,7 +1769,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 30
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -1786,7 +1785,6 @@ headgear = {
 						}
 					}
 				}
-				is_male = yes # because iberian women have no specific hat
 				OR = {
 					AND = {
 						OR = {
