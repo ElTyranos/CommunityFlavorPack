@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1640,7 +1640,6 @@ headgear = {
 	}
 
 ## Iberian
-
 
 	iberian_commoners = {
 
