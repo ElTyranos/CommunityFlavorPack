@@ -247,7 +247,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_quilted_02:1 "Iranian Common Quilted Helmet"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iranian_cfp_war_quilted_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_quilted_02$"
 
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_pannel_common_01:1 "Iranian panel hat"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_panel_common_01:1 "Iranian panel hat"
  
 ## Cloaks
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01:1 "Щит викинга"
