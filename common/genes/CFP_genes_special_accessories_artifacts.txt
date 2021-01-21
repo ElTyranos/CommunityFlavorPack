@@ -98,7 +98,7 @@ special_genes = {
 			}
 			
 			cfp_brigandine = {
-				index = 0
+				index = 1
 				male = { 1 = male_clothes_secular_western_cfp_war_plate_02 }
 				female = {}
 				boy = male
