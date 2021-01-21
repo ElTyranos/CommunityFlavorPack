@@ -752,6 +752,26 @@ female_headgear_secular_iranian_cfp_war_mail_coif_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iranian_cfp_war_mail_coif_01_entity 	 }		
 }
 
+male_headgear_secular_iranian_cfp_war_khud_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iranian_cfp_war_khud_01_entity 	 }		
+}
+female_headgear_secular_iranian_cfp_war_khud_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iranian_cfp_war_khud_01_entity 	 }		
+}
+
+male_headgear_secular_iranian_cfp_war_khud_02 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iranian_cfp_war_khud_02_entity 	 }		
+}
+female_headgear_secular_iranian_cfp_war_khud_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iranian_cfp_war_khud_02_entity 	 }		
+}
+
 male_headgear_secular_iranian_cfp_war_quilted_01 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iranian_cfp_war_quilted_01_entity 	 }		
