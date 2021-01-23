@@ -269,6 +269,7 @@ accessory_genes = {
 				1 = male_headgear_secular_iranian_cfp_war_quilted_02
 				1 = male_headgear_secular_iranian_cfp_war_khud_01
 				1 = male_headgear_secular_iranian_cfp_war_khud_02
+				1 = male_headgear_secular_iranian_cfp_war_leather_01
 				
 			}
 			female = {
@@ -279,6 +280,7 @@ accessory_genes = {
 				1 = female_headgear_secular_iranian_cfp_war_quilted_02
 				1 = female_headgear_secular_iranian_cfp_war_khud_01
 				1 = female_headgear_secular_iranian_cfp_war_khud_02
+				1 = female_headgear_secular_iranian_cfp_war_leather_01
 				
 			}
 			boy = male
