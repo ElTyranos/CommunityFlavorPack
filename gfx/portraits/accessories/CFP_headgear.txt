@@ -741,10 +741,18 @@ male_headgear_secular_iranian_cfp_panel_common_01 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iranian_cfp_panel_common_01_entity 	 }		
 }
+female_headgear_secular_iranian_cfp_panel_common_01 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iranian_cfp_panel_common_01_entity 	 }		
+}
 
 male_headgear_secular_iranian_cfp_panel_low_01 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iranian_cfp_panel_low_01_entity 	 }		
+}
+female_headgear_secular_iranian_cfp_panel_low_01 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iranian_cfp_panel_low_01_entity 	 }		
 }
 
 male_headgear_secular_iranian_cfp_war_mail_coif_01 = {

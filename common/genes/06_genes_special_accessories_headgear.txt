@@ -236,6 +236,8 @@ accessory_genes = {
 				5 = female_headgear_secular_mena_common_01
 				5 = female_headgear_secular_mena_common_02
 				5 = female_headgear_secular_dde_abbasid_common_01
+				5 = female_headgear_secular_iranian_cfp_panel_common_01
+				5 = female_headgear_secular_iranian_cfp_panel_low_01
 				
 			}
 			boy = male
