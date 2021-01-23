@@ -228,6 +228,7 @@ accessory_genes = {
 				10 = male_headgear_secular_mena_common_01
 				10 = male_headgear_secular_dde_abbasid_common_02
 				10 = male_headgear_secular_iranian_cfp_panel_common_01
+				10 = male_headgear_secular_iranian_cfp_panel_low_01
 			
 			}
 			female = {
