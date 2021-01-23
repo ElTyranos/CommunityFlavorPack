@@ -286,6 +286,8 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "Churburg-Plattenrüstung"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "Brigantinenrüstung"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "Arabic Chainmail"
+ 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low:0 "Arabische Rüstung (Leder)"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low$"
  

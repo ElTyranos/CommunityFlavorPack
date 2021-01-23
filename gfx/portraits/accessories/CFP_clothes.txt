@@ -32,6 +32,9 @@ male_clothes_secular_latin_cfp_venetian_doge_01 = {
 }
 
 # Vanilla edits - MENA
+male_clothes_secular_mena_cfp_war_common_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_mena_cfp_war_common_01_entity }
+}
 male_clothes_secular_mena_war_nobility_02_low = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_mena_war_nobility_02_low_entity }
 }
