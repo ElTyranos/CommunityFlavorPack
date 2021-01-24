@@ -1,0 +1,26 @@
+pdxmesh = {
+	name = "female_headgear_secular_iranian_cfp_panel_common_01_mesh"
+	file = "female_headgear_secular_iranian_cfp_panel_common_01.mesh"
+
+	meshsettings = {
+		name = "female_headgear_secular_iranian_cfp_panel_common_01Shape"
+		index = 0
+		texture_diffuse = "iranian_female_panel_common_01_diffuse.dds"
+		texture_normal = "iranian_female_panel_common_01_normal.dds"
+		texture_specular = "iranian_female_panel_common_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_iranian_cfp_panel_common_01_entity"
+	pdxmesh = "female_headgear_secular_iranian_cfp_panel_common_01_mesh"
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/female_headgears/secular/iranian/cfp_panel_common_01/iranian_female_panel_common_01_masks.dds"
+			variation = "mena_common_01"
+		}
+	}
+}

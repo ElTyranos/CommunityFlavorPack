@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "female_headgear_secular_iranian_cfp_war_khud_02_mesh"
+	file = "female_headgear_secular_iranian_cfp_war_khud_02.mesh" # blend_shape = { id = "female_headgear_secular_iranian_cfp_war_khud_02_bs_fat"		type = "female_headgear_secular_iranian_cfp_war_khud_02_bs_fat.mesh" }
+
+	meshsettings = {
+		name = "female_headgear_secular_iranian_cfp_war_khud_02Shape"
+		index = 0
+		texture_diffuse = "iranian_khud_02_diffuse.dds"
+		texture_normal = "iranian_khud_02_normal.dds"
+		texture_specular = "iranian_khud_02_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "female_headgear_secular_iranian_cfp_war_khud_02_mailShape"
+		index = 0
+		texture_diffuse = "iranian_mail_coif_01_diffuse.dds"
+		texture_normal = "iranian_mail_coif_01_normal.dds"
+		texture_specular = "iranian_mail_coif_01_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_iranian_cfp_war_khud_02_entity"
+	pdxmesh = "female_headgear_secular_iranian_cfp_war_khud_02_mesh" #  attribute = { name = "bs_fat_1"								blend_shape = "female_headgear_secular_iranian_cfp_war_khud_02_bs_fat" }
+}
