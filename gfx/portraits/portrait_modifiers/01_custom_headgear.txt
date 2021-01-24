@@ -264,10 +264,6 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
-		template = iranian_royalty
-	}
-	add_accessory_modifiers = {
-		gene = headgear
 		template = iranian_war
 	}
 	########### /CFP ###########

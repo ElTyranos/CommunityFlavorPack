@@ -3602,68 +3602,6 @@ headgear = {
 		}
 	}
 
-	iranian_royalty = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = iranian_royalty
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}		
-		weight = {
-			base = 0
-			modifier = {
-				add = 60
-				is_male = yes # because iranian women have no specific hat
-				
-				NAND = {
-					has_trait = peasant_leader
-					OR = {
-						is_ruler = no
-						is_leading_faction_type = peasant_faction
-						AND = {
-							is_ruler = yes
-							is_landed = no
-							OR = {
-								has_government = feudal_government
-								has_government = clan_government
-							}
-						}
-					}
-				}
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
-						cfp_portrait_iranian_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							OR = {
-								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
-							cfp_portrait_iranian_clothing_trigger = yes
-						}
-					}
-				}
-
-			}
-		}
-	}
-
 	iranian_war = {
 		dna_modifiers = {
 			accessory = {
