@@ -1,4 +1,4 @@
-﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
 
 	#set_tags = "no_hair"
 	#set_tags = "no_beard"
@@ -520,6 +520,16 @@ female_headgear_secular_slavic_royalty_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_royalty_01_entity 	 }		
 }
+
+male_headgear_secular_slavic_cfp_skanderbeg_01 = {	
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_skanderbeg_01_entity 	 }		
+}
+female_headgear_secular_slavic_cfp_skanderbeg_01 = {	
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_cfp_skanderbeg_01_entity 	 }		
+}
+
 male_headgear_secular_slavic_high_nobility_01 = {	
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_high_nobility_01_entity 	 }		
