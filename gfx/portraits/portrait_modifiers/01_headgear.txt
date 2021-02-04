@@ -4857,36 +4857,11 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 10
+				add = 101
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
-				NAND = {
-					has_trait = peasant_leader
-					OR = {
-						is_ruler = no
-						is_leading_faction_type = peasant_faction
-						AND = {
-							is_ruler = yes
-							is_landed = no
-							OR = {
-								has_government = feudal_government
-								has_government = clan_government
-							}
-						}
-					}
-				}
-				OR = {
-					AND = {
-						cfp_portrait_anglo_saxon_clothing_trigger = yes
-						OR = {
-							highest_held_title_tier >= tier_duchy
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOR = { 
-							AND = { is_ruler = yes has_government = mercenary_government  } # Blocked for mercenaries
-							OR = { has_government = republic_government is_independent_ruler = no }
-						}
-					}
-				}
+				cfp_portrait_anglo_saxon_clothing_trigger = yes
+				NOT = { culture = { has_cultural_era_or_later = culture_era_early_medieval } }
+				primary_title = title:d_norfolk # East Anglia
 			}
 		}
 	}
