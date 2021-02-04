@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -2264,6 +2264,29 @@ headgear = {
 							cfp_portrait_slavic_clothing_trigger = yes
 						}
 					}
+				}
+			}
+		}
+	}
+
+	albanian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = albanian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				cfp_portrait_slavic_clothing_trigger = yes
+				NOT = { culture = { has_cultural_era_or_later = culture_era_high_medieval } }
+				OR = {
+					primary_title = title:d_dyrrachion
+					primary_title = title:k_epirus
 				}
 			}
 		}
