@@ -115,10 +115,12 @@ accessory_genes = {
 		western_imperial = {
 			index = 6
 			male = {
-				4 = male_headgear_secular_dde_hre_imperial_01
+				2 = male_headgear_secular_dde_hre_imperial_01
+				3 = male_headgear_secular_western_cfp_imperial_01
 				
 			}
 			female = {
+				4 = female_headgear_secular_western_cfp_imperial_01
 				2 = female_headgear_secular_western_royalty_01
 				2 = female_headgear_secular_western_royalty_02
 				
@@ -396,11 +398,13 @@ accessory_genes = {
 		dde_hre_imperial = {
 			index = 24
 			male = {
-				1 = male_headgear_secular_western_imperial_01
+				3 = male_headgear_secular_western_imperial_01
+				1 = male_headgear_secular_western_cfp_imperial_01
 				
 			}
 			female = {
-				1 = female_headgear_secular_western_imperial_01
+				3 = female_headgear_secular_western_imperial_01
+				1 = female_headgear_secular_western_cfp_imperial_01
 				
 			}
 			boy = male

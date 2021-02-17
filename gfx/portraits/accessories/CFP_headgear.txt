@@ -142,6 +142,15 @@ female_headgear_secular_northern_royalty_suttonhoo_01 = {
 
 
 ## Western cultural
+male_headgear_secular_western_cfp_imperial_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_imperial_01_entity 	 }		
+}
+female_headgear_secular_western_cfp_imperial_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_imperial_01_entity 	 }		
+}
+
 male_headgear_secular_western_cfp_royalty_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_01_entity 	 }		
