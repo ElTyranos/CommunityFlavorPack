@@ -1,7 +1,27 @@
 texticon = {
 	icon = cfp_icon
 	iconsize = {
-		texture = "gfx/interface/icons/icon_cfp.dds"
+		texture = "gfx/interface/icons/icon_cfp_blue.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = cfp_icon_white
+	iconsize = {
+		texture = "gfx/interface/icons/icon_cfp_white.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = cfp_icon_black
+	iconsize = {
+		texture = "gfx/interface/icons/icon_cfp_black.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16
@@ -32,6 +52,26 @@ texticon = {
 	icon = cfp_icon_purple
 	iconsize = {
 		texture = "gfx/interface/icons/icon_cfp_purple.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = cfp_icon_yellow
+	iconsize = {
+		texture = "gfx/interface/icons/icon_cfp_yellow.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = cfp_icon_orange
+	iconsize = {
+		texture = "gfx/interface/icons/icon_cfp_orange.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16
