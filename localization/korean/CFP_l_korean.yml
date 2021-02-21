@@ -47,7 +47,10 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_01:1 "@cfp_icon! Fleur-de-lis Emerald Crown"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_01$"
-  
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02:1 "@cfp_icon! Roman Crown"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! 약통 모자 (귀족)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! 약통 모자 (평민)"
  
