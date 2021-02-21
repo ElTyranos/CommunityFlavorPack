@@ -1,6 +1,8 @@
 ﻿l_spanish:
 
 ## Headgears
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Corona de perlas"
+ 
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_imperial_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_clothes_situational_western_stealth_hood_01_common:1 "Capucha de Espía"
@@ -32,6 +34,9 @@
 ## Clothes
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:1 "Sin ropa"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_cfp_male_clothes_western_bedchamber_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common$"
+ PORTRAIT_MODIFIER_custom_clothes_cfp_female_clothes_western_bedchamber_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common$"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_01:1 "Atuendo Negro del Hermano"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_02:1 "Ropa del Hermano"

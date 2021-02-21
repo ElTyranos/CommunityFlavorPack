@@ -11,9 +11,6 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "@cfp_icon! Imperial Crown without Headwrap"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "@cfp_icon! Dazzling Crown"
- 
- PORTRAIT_MODIFIER_custom_clothes_cfp_male_clothes_western_bedchamber_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common$"
- PORTRAIT_MODIFIER_custom_clothes_cfp_female_clothes_western_bedchamber_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common$"
 
 ## Northern
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_01:1 "@cfp_icon! Viking Helmet (Vendel)"
@@ -164,9 +161,6 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "@cfp_icon! Mail coif circlet"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "@cfp_icon! Crowned topf helm"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_02:1 "@cfp_icon! Nasal Pearl circlet"
- 
-## Fixing missing vanilla string
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Pearl crown"
 
 ## Byzantine
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "@cfp_icon_purple! Monomachus Crown"

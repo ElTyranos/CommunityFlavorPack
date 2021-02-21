@@ -11,9 +11,6 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "@cfp_icon! 터번없는 제국 머리싸개 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "@cfp_icon! 휘황찬란한 왕관"
- 
- PORTRAIT_MODIFIER_custom_clothes_cfp_male_clothes_western_bedchamber_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common$"
- PORTRAIT_MODIFIER_custom_clothes_cfp_female_clothes_western_bedchamber_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common$"
 
 ## Northern
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_01:1 "@cfp_icon! 바이킹 투구 (초기)"
@@ -164,9 +161,6 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_high_nobility_01:1 "@cfp_icon! 사슬 머리싸개 왕관"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_01:1 "@cfp_icon! 왕관있는 냄비 투구"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_high_nobility_02:1 "@cfp_icon! 코받이 진주 왕관"
- 
-## Fixing missing vanilla string
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 " 진주 왕관"
 
 ## Byzantine
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_monomachus_01:1 "@cfp_icon_purple! 모노마호스 왕관"
