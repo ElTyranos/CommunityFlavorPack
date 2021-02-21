@@ -1,42 +1,42 @@
 ﻿l_spanish:
 
 ## Western
- PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "Tenedor francés"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "Calvo hacia atrás"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "Calva descuidada"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "Calvo descuidado"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "@cfp_icon! Tenedor francés"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "@cfp_icon! Calvo hacia atrás"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "@cfp_icon! Calva descuidada"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "@cfp_icon! Calvo descuidado"
 
 ## Norse
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "Heroe de saga Nordica"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "@cfp_icon! Heroe de saga Nordica"
  
 ## Turkic
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "Trenzas Bagatures"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "@cfp_icon! Trenzas Bagatures"
  
 ## Slavic
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "Mostacho de guerrero rus"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "Mechón de pelo de guerrero rus con pendientes"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "Mechón de pelo de guerrero rus"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "@cfp_icon! Mostacho de guerrero rus"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon! Mechón de pelo de guerrero rus con pendientes"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon! Mechón de pelo de guerrero rus"
  
 ## Beards vanilla edit
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "Patillas"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "Patillas con perilla"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "Mostacho imperial"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "Triple perilla moldeada"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "Perilla moldeada"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! Patillas"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! Patillas con perilla"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "@cfp_icon! Mostacho imperial"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "@cfp_icon! Triple perilla moldeada"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "@cfp_icon! Perilla moldeada"
  
  ## Hair vanilla edit
- PORTRAIT_MODIFIER_custom_hair_bald:0 "Completamente calva"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "Mechas esteparias"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "Jinete de la estepa calvo"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "Jinete de la estepa sin cintas"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "Jinete joven de las estepas"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "Trenzado"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "Rizado sin joyas"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "Moño apretado"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "Trenzado sin joyas"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "Ondulado sin joyas"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "Tocado real sin pendientes"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "Trenzado doble con cintas sin pendientes"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "Trenzas enrolladas sin pendientes"
+ PORTRAIT_MODIFIER_custom_hair_bald:0 "@cfp_icon! Completamente calva"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "@cfp_icon! Mechas esteparias"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon! Jinete de la estepa calvo"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "@cfp_icon! Jinete de la estepa sin cintas"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "@cfp_icon! Jinete joven de las estepas"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "@cfp_icon! Trenzado"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "@cfp_icon! Rizado sin joyas"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "@cfp_icon! Moño apretado"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "@cfp_icon! Trenzado sin joyas"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "@cfp_icon! Ondulado sin joyas"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "@cfp_icon! Tocado real sin pendientes"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "@cfp_icon! Trenzado doble con cintas sin pendientes"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "@cfp_icon! Trenzas enrolladas sin pendientes"
 
  

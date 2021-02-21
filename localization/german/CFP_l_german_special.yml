@@ -20,11 +20,11 @@
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01$"
 
  ## CFP
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01:1 "Brille"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01:1 "@cfp_icon! Brille"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02:1 "Hölzerne Brille"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02:1 "@cfp_icon! Hölzerne Brille"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "Slawische Ohrringe"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "@cfp_icon! Slawische Ohrringe"
  

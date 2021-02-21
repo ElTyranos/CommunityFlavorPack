@@ -20,11 +20,11 @@
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01$"
 
  ## CFP
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01:1 "Lunettes de vue"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01:1 "@cfp_icon! Lunettes de vue"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02:1 "Lunettes de vue en bois"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02:1 "@cfp_icon! Lunettes de vue en bois"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "Boucles d'oreilles slaves"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "@cfp_icon! Boucles d'oreilles slaves"
  
