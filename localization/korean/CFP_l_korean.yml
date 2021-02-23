@@ -7,10 +7,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_02:1 "@cfp_icon_purple! 비잔티움 투구 (목 보호구 없음)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nobility_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_02$"
 
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "@cfp_icon! 터번없는 왕관"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "@cfp_icon! 터번없는 제국 머리싸개 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "@cfp_icon_yellow! 터번없는 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "@cfp_icon_yellow! 터번없는 제국 머리싸개 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02$"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "@cfp_icon! 휘황찬란한 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "@cfp_icon_orange! 휘황찬란한 왕관"
 
 ## Northern
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_01:1 "@cfp_icon! 바이킹 투구 (초기)"
@@ -190,46 +190,46 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nasal_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nasal_01$"
 
 ## Turkic
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon! 쿠만 고리버들 모자"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon! 쿠만 비단 모자"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon! 쿠만 가죽 모자"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon! 쿠만 자수 모자"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! 쿠만 고리버들 모자"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! 쿠만 비단 모자"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! 쿠만 가죽 모자"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon_red! 쿠만 자수 모자"
  
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon! 쿠만 진주 머리쓰개"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! 쿠만 진주 머리쓰개"
 
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "@cfp_icon! 투르크 왕관"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_02:1 "@cfp_icon! 투르크 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "@cfp_icon_red! 투르크 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_02:1 "@cfp_icon_red! 투르크 왕관"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "@cfp_icon! 쿠만 전쟁 마스크"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "@cfp_icon_red! 쿠만 전쟁 마스크"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_02:1 "@cfp_icon! 쿠만 투구"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_02:1 "@cfp_icon_red! 쿠만 투구"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_02$"
  
 ## Slavic
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01:1 "@cfp_icon! 슬라브 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01:1 "@cfp_icon_red! 슬라브 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon! Albanian Royal Crown"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon_red! Albanian Royal Crown"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_skanderbeg_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_high_nobility_01:1 "@cfp_icon! 슬라브 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_high_nobility_01:1 "@cfp_icon_red! 슬라브 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_high_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_01:1 "@cfp_icon! 슬라브 코받이 투구"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_01:1 "@cfp_icon_red! 슬라브 코받이 투구"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_slavic_war_helmet_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_02:1 "@cfp_icon! 슬라브 투구"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_02:1 "@cfp_icon_red! 슬라브 투구"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_slavic_war_helmet_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_slavic_war_helmet_02$"
  
 ## Hungarian
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hungarian_high_nobility_01:1 "@cfp_icon! 헝가리 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hungarian_high_nobility_01:1 "@cfp_icon_red! 헝가리 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_hungarian_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hungarian_high_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hungarian_royalty_01:1 "@cfp_icon! 헝가리 호화로운 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hungarian_royalty_01:1 "@cfp_icon_red! 헝가리 호화로운 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_hungarian_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hungarian_royalty_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_hungarian_war_helmet_01:1 "@cfp_icon! 헝가리 투구"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_hungarian_war_helmet_01:1 "@cfp_icon_red! 헝가리 투구"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_hungarian_war_helmet_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_hungarian_war_helmet_01$"
 
 ## RRE
@@ -277,7 +277,7 @@
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_war_norman_shield_01:1 "@cfp_icon! 노르만 방패"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_war_norman_shield_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_war_norman_shield_01$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_royalty_01:1 "@cfp_icon! 비잔틴 곶"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_royalty_01:1 "@cfp_icon_purple! 비잔틴 곶"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_byzantine_royalty_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_royalty_01$"
  
 ## Clothes
@@ -296,12 +296,12 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! Churburg Plate Armour"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! Brigandine Plate Armour"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon! Arabic Chainmail"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Arabic Chainmail"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low:0 "@cfp_icon! 아랍 갑옷 (가죽)"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low:0 "@cfp_icon_green! 아랍 갑옷 (가죽)"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low$"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_02_low:0 "@cfp_icon! 아바스 갑옷 (가죽)"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_02_low:0 "@cfp_icon_green! 아바스 갑옷 (가죽)"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_war_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_02_low$"
 
 ## Legwear
