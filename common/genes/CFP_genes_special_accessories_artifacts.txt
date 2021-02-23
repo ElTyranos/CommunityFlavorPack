@@ -100,6 +100,14 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			cfp_monomakh_crown = {
+				index = 12
+				male = { 1 = male_headgear_secular_slavic_cfp_monomakh_01 }
+				female = { 1 = female_headgear_secular_slavic_cfp_monomakh_01 }
+				boy = male
+				girl = female
+			}
 		}
 
 

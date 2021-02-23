@@ -29,6 +29,7 @@
 # cfp_headgear_009 - Dragon helmet
 # cfp_headgear_010 - Skanderbeg crown
 # cfp_headgear_011 - Otton III crown
+# cfp_headgear_012 - Monomakh's Cap
 #
 # cfp_clothes_001 - Plate armour outfit
 # cfp_clothes_002 - Brigandine armour outfit
@@ -46,6 +47,7 @@ cfp_force_cfp_headgear_008_trigger = { always = no }
 cfp_force_cfp_headgear_009_trigger = { always = no }
 cfp_force_cfp_headgear_010_trigger = { always = no }
 cfp_force_cfp_headgear_011_trigger = { always = no }
+cfp_force_cfp_headgear_012_trigger = { always = no }
 
 cfp_force_cfp_clothes_001_trigger = { always = no }
 cfp_force_cfp_clothes_002_trigger = { always = no }
