@@ -173,6 +173,11 @@
 	
 	add_accessory_modifiers = {
 		gene = headgear
+		template = slavic_imperial
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = albanian_royalty
 	}
 	

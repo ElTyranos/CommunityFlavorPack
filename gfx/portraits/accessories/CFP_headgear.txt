@@ -529,6 +529,15 @@ male_headgear_secular_dde_hre_war_high_nobility_02 = {
 }
 
 ## Slavic cultural
+male_headgear_secular_slavic_cfp_monomakh_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_monomakh_01_entity 	 }		
+}
+female_headgear_secular_slavic_cfp_monomakh_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_cfp_monomakh_01_entity 	 }		
+}
+
 male_headgear_secular_slavic_royalty_01 = {	
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_royalty_01_entity 	 }		

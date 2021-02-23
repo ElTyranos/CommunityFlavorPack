@@ -1424,8 +1424,20 @@ accessory_genes = {
             girl = female
         }
 		
+        slavic_imperial = {
+            index = 90
+			male = {
+				5 = male_headgear_secular_slavic_cfp_monomakh_01
+			}
+			female = {
+				5 = female_headgear_secular_slavic_cfp_monomakh_01
+			}
+            boy = male
+            girl = female
+        }
+		
 		slavic_war = {
-			index = 90
+			index = 91
 			male = {
 				4 = male_headgears_secular_slavic_war_helmet_01
 				4 = male_headgears_secular_slavic_war_helmet_02
@@ -1441,7 +1453,7 @@ accessory_genes = {
 		}
 
 		rre_imperial = {
-			index = 91
+			index = 92
 			male = {
 				1 = male_headgear_secular_rre_laurelwreath_02
 				1 = male_headgear_secular_rre_laurelwreath_03
@@ -1455,7 +1467,7 @@ accessory_genes = {
 		}
 		
 		trait_laurel = {
-			index = 92
+			index = 93
 			male = {
 				1 = male_headgear_secular_rre_laurelwreath_01
 			}
@@ -1467,7 +1479,7 @@ accessory_genes = {
 		}
 
 		latin_common = {
-			index = 93
+			index = 94
 			male = {
 				1 = male_headgear_secular_latin_cfp_phrygian_common_01
 				1 = male_headgear_secular_latin_cfp_wicker_common_01
@@ -1481,7 +1493,7 @@ accessory_genes = {
 		}
 
 		latin_nobility = {
-			index = 94
+			index = 95
 			male = {
 				1 = male_headgear_secular_latin_cfp_nobility_01
 			}
@@ -1493,7 +1505,7 @@ accessory_genes = {
 		}
 
 		latin_high_nobility = {
-			index = 95
+			index = 96
 			male = {
 				1 = male_headgear_secular_latin_cfp_high_nobility_01
 				1 = male_headgear_secular_latin_cfp_pannonian_high_01
@@ -1507,7 +1519,7 @@ accessory_genes = {
 		}
 
 		latin_royalty = {
-			index = 96
+			index = 97
 			male = {
 				1 = male_headgear_secular_latin_cfp_icol_01
 			}
@@ -1519,7 +1531,7 @@ accessory_genes = {
 		}
 		
 		latin_venetian_royalty = {
-			index = 97
+			index = 98
 
 			male = {
 				1 = male_headgear_secular_latin_cfp_venetian_doge_01
@@ -1532,7 +1544,7 @@ accessory_genes = {
 		}
 
 		latin_war = {
-			index = 98
+			index = 99
 			male = {
 				1 = male_headgear_secular_latin_war_flat_top_01
 				1 = male_headgear_secular_latin_war_flat_top_02
@@ -1550,7 +1562,7 @@ accessory_genes = {
 		}
 		
 		iberian_common = {
-			index = 99
+			index = 100
 			male = {
 				1 = male_headgear_secular_iberian_cfp_bonnet_common_01
 			}
@@ -1562,7 +1574,7 @@ accessory_genes = {
 		}
 
 		iberian_nobility = {
-			index = 100
+			index = 101
 			male = {
 				1 = male_headgear_secular_iberian_cfp_bonnet_low_01
 			}
@@ -1574,7 +1586,7 @@ accessory_genes = {
 		}
 
 		iberian_high_nobility = {
-			index = 101
+			index = 102
 			male = {
 				1 = male_headgear_secular_iberian_cfp_bonnet_high_01
 			}
@@ -1586,7 +1598,7 @@ accessory_genes = {
 		}
 
 		iberian_castilian_royalty = {
-			index = 102
+			index = 103
 			male = {
 				1 = male_headgear_secular_iberian_cfp_castilian_royalty_01
 			}
@@ -1598,7 +1610,7 @@ accessory_genes = {
 		}
 
 		iberian_aragonese_royalty = {
-			index = 103
+			index = 104
 			male = {
 				1 =  male_headgear_secular_iberian_cfp_aragonese_royalty_01
 			}
@@ -1610,7 +1622,7 @@ accessory_genes = {
 		}
 		
 		iberian_war_aragonese_royalty = {
-			index = 104
+			index = 105
 			male = {
 				1 =  male_headgear_secular_iberian_cfp_war_aragonese_royalty_01
 			}
@@ -1622,7 +1634,7 @@ accessory_genes = {
 		}
 
 		iberian_war = {
-			index = 105
+			index = 106
 			male = {
 				1 = male_headgear_secular_iberian_cfp_war_cervelliere_01
 				1 = male_headgear_secular_iberian_cfp_war_nasal_01
@@ -1636,7 +1648,7 @@ accessory_genes = {
 		}
 
 		iranian_common = {
-			index = 106
+			index = 107
 			male = {
 				5 = empty
 				10 = male_headgear_secular_iranian_cfp_panel_common_01
@@ -1652,7 +1664,7 @@ accessory_genes = {
 		}
 
 		iranian_low_nobility = {
-            index = 107
+            index = 108
             male = {
                 5 = empty
 				10 = male_headgear_secular_iranian_cfp_panel_low_01
@@ -1668,7 +1680,7 @@ accessory_genes = {
         }	
 
         iranian_high_nobility = {
-            index = 108
+            index = 109
             male = {
 				10 = male_headgear_secular_iranian_cfp_qalansuwah_high_01
             }
