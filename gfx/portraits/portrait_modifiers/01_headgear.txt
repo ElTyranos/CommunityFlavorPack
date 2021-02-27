@@ -275,100 +275,6 @@ headgear = {
 		}
 	}
 
-	dde_hre_war_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = dde_hre_war_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
-				cfp_portrait_wear_helmet_high_noble_trigger = yes
-				portrait_dde_hre_clothing_trigger = yes
-				
-				OR = {
-					AND = {
-						exists = primary_title
-						is_commanding_army = yes
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_dde_hre_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							OR = {
-								highest_held_title_tier = tier_duchy
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 2
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_dde_hre_clothing_trigger = yes
-						}
-					}
-				}
-				
-				NOR = {
-				    AND = {
-				        religion = religion:christianity_religion
-				        has_government = holy_order_government
-				    }
-				    AND = {
-				        religion = religion:christianity_religion
-				        is_landed = no
-				        portrait_wear_armor_trigger = yes
-				        exists = liege
-				        liege = {
-				            has_government = holy_order_government
-				        }
-				    }
-				    AND = {
-				        religion = religion:christianity_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
-				}
-			}
-		}
-	}
-
 	dde_hre_royalty = {
 		dna_modifiers = {
 			accessory = {
@@ -714,6 +620,7 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				cfp_portrait_wear_helmet_high_noble_trigger = yes
 				portrait_western_clothing_trigger = yes
+				is_male = yes # because there's no women versions
 				
 				OR = {
 					AND = {

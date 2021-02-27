@@ -1181,31 +1181,18 @@ accessory_genes = {
 		western_war_high_nobility = {
 			index = 75
 			male = {
-				1 = male_headgear_secular_western_high_nobility_01
-				1 = male_headgear_secular_western_war_high_nobility_01
+				4 = male_headgear_secular_western_war_high_nobility_01
+				 # HRE lock was not required anymore as DLC content in the models was replaced by CFP
+				1 = male_headgear_secular_dde_hre_war_high_nobility_01
+				2 = male_headgear_secular_dde_hre_war_high_nobility_02
 			}
-			female = {
-				1 = female_headgear_secular_western_high_nobility_01
-			}
+			female = {}
 			boy = male
             girl = female
 		}
 		
-		dde_hre_war_high_nobility = {
-			index = 76
-            male = {
-				5 = male_headgear_secular_dde_hre_high_nobility_01
-				5 = male_headgear_secular_dde_hre_high_nobility_02
-				1 = male_headgear_secular_dde_hre_war_high_nobility_01
-				5 = male_headgear_secular_dde_hre_war_high_nobility_02
-            }
-            female = {
-				1 = female_headgear_secular_dde_hre_high_nobility_01
-            }
-            boy = male
-            girl = female
-        }
-
+		## 76 is free (ex hre_war_high_noble)
+		
 		hungarian_high_nobility = {
 			index = 77
 			male = {

@@ -398,15 +398,6 @@
 			has_dlc = "Garments of the Holy Roman Empire"
 		}
 	}
-	### CFP ###
-	add_accessory_modifiers = {
-		gene = headgear
-		template = dde_hre_war_high_nobility
-		is_valid_custom = {
-			has_dlc = "Garments of the Holy Roman Empire"
-		}
-	}
-	### /CFP ###
 	
 	add_accessory_modifiers = {
 		gene = headgear
