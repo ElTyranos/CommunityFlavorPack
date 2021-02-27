@@ -3,16 +3,16 @@ pdxmesh = {
 	file = "male_headgear_secular_dde_hre_war_high_nobility_01.mesh" # blend_shape = { id = "male_headgear_secular_dde_hre_war_high_nobility_01_bs_fat"		type = "male_headgear_secular_dde_hre_war_high_nobility_01_bs_fat.mesh" }
 
 	meshsettings = {
-		name = "male_headgear_secular_dde_hre_war_high_nobility_01Shape"
+		name = "male_headgear_secular_dde_hre_war_high_nobility_01_crownShape"
 		index = 0
-		texture_diffuse = "male_headgear_secular_dde_hre_high_nobility_01_diffuse.dds"
-		texture_normal = "male_headgear_secular_dde_hre_high_nobility_01_normal.dds"
-		texture_specular = "male_headgear_secular_dde_hre_high_nobility_01_properties.dds"
+		texture_diffuse = "western_cfp_royalty_02_diffuse.dds"
+		texture_normal = "western_cfp_royalty_02_normal.dds"
+		texture_specular = "western_cfp_royalty_02_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 	meshsettings = {
-		name = "male_headgear_secular_western_war_topf_01Shape"
+		name = "male_headgear_secular_dde_hre_war_high_nobility_01_topfShape"
 		index = 0
 		texture_diffuse = "topfhelm_diffuse.dds"
 		texture_normal = "topfhelm_normal.dds"
@@ -22,7 +22,7 @@ pdxmesh = {
 	}
 	
 	meshsettings = {
-		name = "male_headgear_secular_western_war_topf_01_MailShape"
+		name = "male_headgear_secular_dde_hre_war_high_nobility_01_mailShape"
 		index = 0
 		texture_diffuse = "mail_coif_01_padded_diffuse.dds"
 		texture_normal = "mail_coif_01_padded_normal.dds"
