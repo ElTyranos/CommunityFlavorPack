@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -264,6 +264,7 @@ accessory_genes = {
 				1 = male_headgear_secular_mena_war_nobility_01
 				1 = male_headgear_secular_crusades_mena_war_nobility_01
 				1 = male_headgear_secular_western_war_mail_coif_01
+				1 = male_headgear_secular_mena_cfp_war_turban_helmet_01
 				
 			}
 			female = {
