@@ -1,4 +1,4 @@
-
+﻿
 
 special_genes = {
 
@@ -297,6 +297,7 @@ accessory_genes = {
 			index = 1
 			male = {
 				1 = male_cloaks_secular_western_royalty_01
+				1 = male_cloaks_secular_western_cfp_common_01
 				1 = male_cloaks_secular_western_cfp_crusades_01
 			}
 			female = {
