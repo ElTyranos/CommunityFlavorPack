@@ -267,6 +267,7 @@ accessory_genes = {
 				1 = male_headgear_secular_mena_cfp_war_mail_coif_02
 				1 = male_headgear_secular_mena_cfp_war_turban_helmet_01
 				1 = male_headgear_secular_mena_cfp_war_striped_helmet_01
+				1 = male_headgear_secular_mena_cfp_zamt_01
 				
 			}
 			female = {
