@@ -703,6 +703,26 @@ special_genes = {
 
 		}
 
+		special_accessories_gloves = {
+
+			western_high_nobility = {
+				index = 0
+				male = {
+					10 = empty
+					5 = male_accessories_cfp_noble_gloves_01
+					5 = male_accessories_cfp_noble_gloves_02
+				}
+				female = {
+					10 = empty
+					5 = female_accessories_cfp_noble_gloves_01
+					5 = female_accessories_cfp_noble_gloves_02
+				}
+				boy = male
+				girl = female
+			}
+
+		}
+
 		special_headgear_head_bandage = {
 
 			head_bandage = {
