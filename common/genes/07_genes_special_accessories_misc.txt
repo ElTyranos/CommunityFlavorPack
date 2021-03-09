@@ -299,6 +299,7 @@ accessory_genes = {
 				1 = male_cloaks_secular_western_royalty_01
 				1 = male_cloaks_secular_western_cfp_common_01
 				1 = male_cloaks_secular_western_cfp_crusades_01
+				1 = male_cloaks_secular_western_cfp_crusades_02
 				1 = male_cloaks_secular_western_cfp_ermine_01
 			}
 			female = {
