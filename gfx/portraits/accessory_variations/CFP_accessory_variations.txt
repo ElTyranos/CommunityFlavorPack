@@ -1,4 +1,4 @@
-pattern_textures = {
+﻿pattern_textures = {
 	name = "all_painted_metal_plain_rough_01"
 	colormask	= "gfx/portraits/accessory_variations/textures/patterns/CFP/all_painted_metal_plain_rough_01_masks.dds"
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/CFP/all_painted_metal_plain_rough_01_normal.dds"
@@ -281,5 +281,5 @@ variation = {
 		b = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
 		a = { textures = "western_wool_plain_01"	layout = "small_trim_layout" }
 	}
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_northern_common_01.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_western_hoods_common_01.dds" }	
 }
