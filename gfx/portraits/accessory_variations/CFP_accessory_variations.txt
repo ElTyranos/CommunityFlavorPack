@@ -1,4 +1,4 @@
-﻿pattern_textures = {
+pattern_textures = {
 	name = "all_painted_metal_plain_rough_01"
 	colormask	= "gfx/portraits/accessory_variations/textures/patterns/CFP/all_painted_metal_plain_rough_01_masks.dds"
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/CFP/all_painted_metal_plain_rough_01_normal.dds"
@@ -83,7 +83,7 @@ variation = {
 		b = { textures = "western_wool_plain_01" layout = "crusader_cross_layout" }
 		a = { textures = "western_wool_plain_01"	layout = "crusader_cross_layout" }
 	}
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_crusaders_03.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_crusaders_03.dds" }
 }
 
 variation = {
@@ -108,7 +108,7 @@ variation = {
 		b = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
 		a = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
 	}
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_painted_metal_01.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_painted_metal_01.dds" }
 }
 
 variation = {
@@ -187,7 +187,7 @@ variation = {
 		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
 		a = { textures = "western_silk_trim_02"	layout = "small_trim_layout" }
 	}
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_byzantine_cloaks_01.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_byzantine_cloaks_01.dds" }
 }
 
 
@@ -268,7 +268,7 @@ variation = {
 		b = { textures = "western_silk_trim_04" layout = "big_trim_layout_01" }
 		a = { textures = "western_wool_belt_01"	layout = "big_trim_layout_01" }
 	}
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_venetian_doge_01.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_venetian_doge_01.dds" }
 }
 
 
