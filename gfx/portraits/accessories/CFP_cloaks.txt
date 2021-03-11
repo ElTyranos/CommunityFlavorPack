@@ -24,6 +24,13 @@ male_cloaks_secular_western_cfp_crusades_hood_02 = {
 male_cloaks_secular_western_cfp_crusades_02 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_crusades_02_entity }
 }
+male_cloaks_secular_western_cfp_crusades_hood_03 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""		shared_pose_entity = head		entity = male_cloaks_secular_western_cfp_crusades_hood_03_entity }
+}
+male_cloaks_secular_western_cfp_crusades_03 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_crusades_03_entity }
+}
 male_cloaks_secular_western_cfp_ermine_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_ermine_01_entity }
 }

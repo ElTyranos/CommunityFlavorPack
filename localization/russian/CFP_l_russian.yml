@@ -1,4 +1,4 @@
-﻿l_russian:
+l_russian:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "@cfp_icon! Шлем с наносником (без бармицы)"
@@ -300,6 +300,12 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02:1 "@cfp_icon! Holy Horder Hood (Black)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02$"
+ 
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_03:1 "@cfp_icon_white! Holy Horder Cloak (Commoner)"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_03:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_02$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03:1 "@cfp_icon_white! Holy Horder Hood (Commoner)"
+ PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03$"
  
 ## Clothes
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01:1 "@cfp_icon! Северные доспехи (Стёганный)"
