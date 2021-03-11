@@ -15,10 +15,30 @@
 					has_game_rule = never_cfp_barbershop_unlocks
 					highest_held_title_tier >= tier_kingdom
 				}
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					cfp_innovation_ermine_cloaks_trigger = yes
+					highest_held_title_tier >= tier_duchy
+				}
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
 			}
 		}
 		template = western_royalty
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					cfp_innovation_ermine_cloaks_trigger = yes
+					highest_held_title_tier >= tier_kingdom
+				}
+				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
+			}
+		}
+		template = western_royalty_ermine
 	}
 
 	add_accessory_modifiers = {

@@ -1,4 +1,4 @@
-cfp_allow_nudity_in_barbershop_trigger = {
+﻿cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -148,6 +148,9 @@ cfp_innovation_plate_armor_trigger = {
 		has_trait = dwarf # did you think you were Gimli, dwarf ?
 		current_weight >= 10 # we have no breastplate stretcher out there.
 	}
+}
+cfp_innovation_ermine_cloaks_trigger = {
+	culture = { has_innovation = innovation_ermine_cloaks }
 }
 
 # Overwritting default classes
