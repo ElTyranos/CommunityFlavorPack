@@ -1,4 +1,4 @@
-﻿cfp_allow_nudity_in_barbershop_trigger = {
+cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -140,7 +140,7 @@ cfp_era_high_medieval_trigger = {
 	culture = { has_cultural_era_or_later = culture_era_high_medieval }
 }
 cfp_innovation_plate_armor_trigger = {
-	culture = { has_innovation =  innovation_plate_armor }
+	culture = { has_innovation = innovation_plate_armor }
 	# We need conditions to avoid clipping with blendshapes due to model exporter issues
 	is_male = yes
 	NOR = {

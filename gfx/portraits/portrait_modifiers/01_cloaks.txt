@@ -1,4 +1,4 @@
-﻿
+
 cloaks = {
 
 	usage = game
@@ -41,12 +41,11 @@ cloaks = {
 		}
 	}
 	
+	## Community Flavor Pack
 	byzantine_kings = {
-		# outfit_tags = { rank_headgear } 
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				
 				gene = cloaks
 				template = byzantine_royalty
 				range = { 0 1 }
@@ -73,7 +72,6 @@ cloaks = {
 		}
 	}
 	
-	## Community Flavor Pack
 	norse_war = {
 		dna_modifiers = {
 			accessory = {
