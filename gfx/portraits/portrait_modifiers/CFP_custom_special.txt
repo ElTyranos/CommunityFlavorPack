@@ -24,13 +24,6 @@
 		}
 	}
 	add_accessory_modifiers = {
-		gene = special_accessories_gloves
-		template = western_high_nobility
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
-	}
-	add_accessory_modifiers = {
 		gene = special_headgear_head_bandage
 		template = head_bandage
 		is_valid_custom = {
