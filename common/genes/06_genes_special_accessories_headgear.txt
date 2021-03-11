@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -38,6 +38,7 @@ accessory_genes = {
                 20 = empty
                 20 = male_cloaks_secular_western_cfp_crusades_hood_01
                 20 = male_cloaks_secular_western_cfp_crusades_hood_02
+                20 = male_cloaks_secular_western_cfp_crusades_hood_03
                 10 = male_headgear_secular_western_common_01
                 10 = male_headgear_secular_western_common_02
     			# 0 = male_headgear_secular_western_nobility_01
