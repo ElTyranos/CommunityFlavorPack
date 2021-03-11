@@ -29,6 +29,8 @@
 			modifier = {
 				add = 100
 				
+				cfp_era_high_medieval_trigger = yes
+				
 				OR = {
 					AND = {
 						OR = {
