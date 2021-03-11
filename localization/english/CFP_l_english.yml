@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "@cfp_icon! Nasal Helmet (no neck guard)"
@@ -289,16 +289,16 @@ l_english:
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01:1 "@cfp_icon! Commoner Cloak"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_01:1 "@cfp_icon! Holy Horder Cloak (White)"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_01:1 "@cfp_icon_white! Holy Horder Cloak (White)"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_01:1 "@cfp_icon! Holy Horder Hood (White)"
+ PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_01:1 "@cfp_icon_white! Holy Horder Hood (White)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_01$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_02:1 "@cfp_icon! Holy Horder Cloak (Black)"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_02:1 "@cfp_icon_white! Holy Horder Cloak (Black)"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_02:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_02$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02:1 "@cfp_icon! Holy Horder Hood (Black)"
+ PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02:1 "@cfp_icon_white! Holy Horder Hood (Black)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02$"
  
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_03:1 "@cfp_icon_white! Holy Horder Cloak (Commoner)"
@@ -314,10 +314,10 @@ l_english:
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_norman_01:1 "@cfp_icon! Norman armor"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_latin_cfp_venetian_doge_01:1 "@cfp_icon! Venetian Doge Robe"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common:1 "@cfp_icon! Teutonic Order"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common:1 "@cfp_icon_white! Teutonic Order"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_05_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common$"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_06_common:1 "@cfp_icon! Order of Santiago"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_06_common:1 "@cfp_icon_white! Order of Santiago"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_06_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_06_common$"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! Churburg Plate Armour"
