@@ -27,10 +27,4 @@
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02$"
 
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "@cfp_icon_red! Slawische Ohrringe"
- 
- PORTRAIT_MODIFIER_custom_special_male_accessories_cfp_noble_gloves_01:1 "@cfp_icon! High Nobility Gloves"
- PORTRAIT_MODIFIER_custom_special_female_accessories_cfp_noble_gloves_01:0 "$PORTRAIT_MODIFIER_custom_special_male_accessories_cfp_noble_gloves_01$"
-
- PORTRAIT_MODIFIER_custom_special_male_accessories_cfp_noble_gloves_02:1 "@cfp_icon! High Nobility Left Glove"
- PORTRAIT_MODIFIER_custom_special_female_accessories_cfp_noble_gloves_02:0 "$PORTRAIT_MODIFIER_custom_special_male_accessories_cfp_noble_gloves_02$"
- 
+  
