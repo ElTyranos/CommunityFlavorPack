@@ -1264,6 +1264,53 @@ headgear = {
 		}
 	}
 
+## Crusader hood
+	crusades_western = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crusades_western
+				range = { 0 1 }
+			}
+		}	
+		outfit_tags = { western_crusades_white }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					has_government = holy_order_government
+					is_ruler = yes
+				}
+			}
+		}
+	}
+	
+	crusades_western_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crusades_western_black
+				range = { 0 1 }
+			}
+		}	
+		outfit_tags = { western_crusades_black }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					has_government = holy_order_government
+					is_ruler = yes
+				}
+			}
+		}
+	}
+
 ## Latin
 
 	latin_commoners = {

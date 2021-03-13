@@ -61,6 +61,34 @@
 			OR = {
 				AND = {
 					has_game_rule = never_cfp_barbershop_unlocks
+					highest_held_title_tier >= tier_kingdom
+				}
+				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
+			}
+		}
+		template = western_crusades
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					highest_held_title_tier >= tier_kingdom
+				}
+				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
+			}
+		}
+		template = western_crusades_black
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
 					cfp_portrait_norse_clothing_trigger = yes
 				}
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 

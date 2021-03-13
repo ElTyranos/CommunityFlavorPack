@@ -142,6 +142,52 @@ cloaks = {
 		}
 	}
 	
+	western_crusades = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = western_crusades
+				range = { 0 1 } 
+			}
+		}	
+		outfit_tags = { western_crusades_white }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					has_government = holy_order_government
+					is_ruler = yes
+				}
+			}
+		}
+	}
+	
+	western_crusades_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = western_crusades_black
+				range = { 0 1 } 
+			}
+		}	
+		outfit_tags = { western_crusades_black }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					has_government = holy_order_government
+					is_ruler = yes
+				}
+			}
+		}
+	}
+	
 	norse_war = {
 		dna_modifiers = {
 			accessory = {
@@ -194,6 +240,7 @@ cloaks = {
 			}			
 		}
 	}
+
 #
 #	pope = {
 #	    dna_modifiers = {

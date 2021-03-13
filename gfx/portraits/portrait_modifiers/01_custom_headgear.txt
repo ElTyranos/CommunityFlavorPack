@@ -465,6 +465,17 @@
 		template = crusades_western_war
 	}
 
+	## CFP Crusaders hoods
+	add_accessory_modifiers = {
+		gene = headgear
+		template = crusades_western
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = crusades_western_black
+	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = catholic_high
