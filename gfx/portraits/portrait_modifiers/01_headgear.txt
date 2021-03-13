@@ -1265,6 +1265,39 @@ headgear = {
 	}
 
 ## Crusader hood
+	crusades_western_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crusades_western_commoner
+				range = { 0 1 }
+			}
+		}	
+		outfit_tags = { western_crusades_commoner }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				OR = {
+					AND = {
+						has_council_position = councillor_spymaster
+						highest_held_title_tier < tier_county
+					}
+					AND = {
+						has_trait = witch
+						highest_held_title_tier < tier_county
+					}
+					cfp_is_on_pilgrimage = yes
+				}
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	
 	crusades_western = {
 		dna_modifiers = {
 			accessory = {

@@ -1,4 +1,4 @@
-﻿custom_cloaks = {
+custom_cloaks = {
 	usage = customization
 	interface_position = 4
 	
@@ -53,6 +53,21 @@
 			}
 		}
 		template = byzantine_royalty
+	}
+
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					highest_held_title_tier >= tier_kingdom
+				}
+				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
+			}
+		}
+		template = western_crusades_commoner
 	}
 
 	add_accessory_modifiers = {
