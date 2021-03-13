@@ -1,4 +1,4 @@
-
+﻿
 cloaks = {
 
 	usage = game
@@ -142,6 +142,42 @@ cloaks = {
 		}
 	}
 	
+	western_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = western_commoner
+				range = { 0 1 } 
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				highest_held_title_tier < tier_county
+				NOR = {
+					portrait_wear_armor_trigger = yes
+					is_theocratic_lessee = yes
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+			}
+		}
+	}
 	
 	western_crusades_commoner = {
 		dna_modifiers = {
@@ -248,6 +284,7 @@ cloaks = {
 			}			
 		}
 	}
+	
 	norman_war = {
 		dna_modifiers = {
 			accessory = {

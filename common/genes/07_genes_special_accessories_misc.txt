@@ -1,4 +1,4 @@
-
+﻿
 
 special_genes = {
 
@@ -329,6 +329,16 @@ accessory_genes = {
 			}
 			female = {
 				1 = female_cloaks_secular_byzantine_royalty_01
+			}
+		}
+		western_commoner = {
+			index = 5
+			male = {
+				4 = empty
+				1 = male_cloaks_secular_western_cfp_common_01
+			}
+			female = {
+				1 = empty
 			}
 		}
 		western_crusades_commoner = {
