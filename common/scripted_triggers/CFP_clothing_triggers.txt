@@ -1,4 +1,4 @@
-cfp_allow_nudity_in_barbershop_trigger = {
+﻿cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -74,6 +74,9 @@ cfp_portrait_berber_clothing_trigger = {
 		has_culture_group = culture_group:berber_group
 }
 
+cfp_is_on_pilgrimage = {
+	AND = {	has_character_flag = is_on_hajj }
+}
 
 # wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
