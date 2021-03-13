@@ -1,4 +1,4 @@
-﻿cfp_allow_nudity_in_barbershop_trigger = {
+cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -143,7 +143,7 @@ cfp_innovation_plate_armor_trigger = {
 	culture = { has_innovation = innovation_plate_armor }
 	# We need conditions to avoid clipping with blendshapes due to model exporter issues
 	is_male = yes
-	NOT = { has_trait = dwarf # did you think you were Gimli, dwarf ? }
+	NOT = { has_trait = dwarf } # did you think you were Gimli, dwarf ? }
 	NAND = {
 		# Weight but no muscle
 		prowess > 5
