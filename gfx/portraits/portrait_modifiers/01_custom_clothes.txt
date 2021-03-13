@@ -77,6 +77,10 @@
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = clothes
+		template = western_crusades_black
+	}
+	add_accessory_modifiers = {
+		gene = clothes
 		template = latin_venetian_royalty_clothes
 	}
 ########### /CFP ###########
