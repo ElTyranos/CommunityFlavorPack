@@ -1,4 +1,4 @@
-default_fleet = {
+﻿default_fleet = {
 	type = fleet
 	entity = "unit_western_ship_01_cog_entity"
 }
