@@ -460,16 +460,6 @@ custom_headgear = {
 		}
 	}
 
-	add_accessory_modifiers = {
-		gene = headgear
-		template = crusades_western_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = catholic_high
-	}
-
 	## CFP Unlocked vanilla
 	add_accessory_modifiers = {
 		gene = headgear
@@ -486,109 +476,71 @@ custom_headgear = {
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
+	##
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_catholic_devoted
+	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = catholic_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = catholic_head
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = religious_catholic_devoted
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_orthodox_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_orthodox_head
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_zoroastrian_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_jewish_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_jewish_head
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_muslim_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_muslim_head
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_african_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_steppe_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_northern_high
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 
 	#add_accessory_modifiers = {
