@@ -1,4 +1,4 @@
-﻿custom_headgear = {
+custom_headgear = {
 	usage = customization
 	interface_position = 1
 
@@ -125,6 +125,7 @@
 		template = northern_war
 	}
 
+	########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
 		template = norman_war
@@ -135,7 +136,6 @@
 		template = norman_sicily_war
 	}
 	
-	########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
 		template = norse_war
