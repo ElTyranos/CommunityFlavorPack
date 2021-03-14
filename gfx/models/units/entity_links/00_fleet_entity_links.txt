@@ -1,4 +1,4 @@
-﻿default_fleet = {
+default_fleet = {
 	type = fleet
 	
 	entity = "unit_western_ship_01_cog_entity"
@@ -6,6 +6,6 @@
 
 northern_fleet = {
 	type = fleet
-	graphical_cultures = { danish_coa_gfx norwegian_coa_gfx swedish_coa_gfx norse_coa_gfx norman_coa_gfx anglo_saxon_coa_gfx }
+	graphical_cultures = { norse_unit_gfx norman_coa_gfx anglo_saxon_coa_gfx }
 	entity = "unit_northern_ship_01_drakkar_entity"
 }
