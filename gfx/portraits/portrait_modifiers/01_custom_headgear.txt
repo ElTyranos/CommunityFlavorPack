@@ -1,6 +1,59 @@
-custom_headgear = {
+﻿custom_headgear = {
 	usage = customization
 	interface_position = 1
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = no_headgear
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp1_common
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp1_low_nobility
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp1_nobility
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp1_war
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp1_royalty
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp1_imperial
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+	}
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -398,7 +451,7 @@ custom_headgear = {
 			has_dlc = "Garments of the Holy Roman Empire"
 		}
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = dde_hre_royalty
