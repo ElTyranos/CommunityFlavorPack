@@ -1,4 +1,4 @@
-﻿custom_clothes = {
+custom_clothes = {
 	usage = customization
 	interface_position = 0
 	
@@ -74,12 +74,14 @@
 		gene = clothes
 		template = western_crusades
 	}
+	
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = clothes
 		template = latin_venetian_royalty_clothes
 	}
 ########### /CFP ###########
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = northern_commoner_clothes
@@ -99,6 +101,7 @@
 		gene = clothes
 		template = northern_war_nobility_clothes
 	}
+	
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = clothes
