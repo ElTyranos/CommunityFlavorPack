@@ -4,7 +4,14 @@ default_fleet = {
 	entity = "unit_western_ship_01_cog_entity"
 }
 
-northern_fleet = {
+fp1_norse_fleet = {
+	requires_dlc_flag = the_northern_lords
+	type = fleet
+	graphical_cultures = { danish_coa_gfx norwegian_coa_gfx swedish_coa_gfx norse_coa_gfx }
+	entity = "unit_fp1_ship_01_knarr_entity"
+}
+
+cfp_northern_fleet = {
 	type = fleet
 	graphical_cultures = { norse_unit_gfx norman_coa_gfx anglo_saxon_coa_gfx }
 	entity = "unit_northern_ship_01_drakkar_entity"
