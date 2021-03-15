@@ -23,8 +23,9 @@
  PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "@cfp_icon! 제국 콧수염"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "@cfp_icon! 구레나룻없는 구슬 수염"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "@cfp_icon! 한 갈래 구슬 수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_beard_fp1_04:0 "@cfp_icon! 큰 콧수염"
  
- ## Hair vanilla edit
+## Hair vanilla edit
  PORTRAIT_MODIFIER_custom_hair_bald:0 "@cfp_icon! 완전한 대머리"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "@cfp_icon! 초원지대 심지"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon! 대머리 초원지대 기수"

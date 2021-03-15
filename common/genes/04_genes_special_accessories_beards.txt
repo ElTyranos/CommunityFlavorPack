@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 
@@ -331,6 +331,7 @@ special_genes = {
 					5 = male_beard_fp1_02 # Short low beard
 					5 = male_beard_fp1_03 # Wavy pointy beard
 					5 = male_beard_fp1_04 # Huge braid
+					5 = cfp_male_beard_fp1_04 # Moustache variation
 					5 = male_beard_fp1_05 # Long narrow wavy
 					
 								

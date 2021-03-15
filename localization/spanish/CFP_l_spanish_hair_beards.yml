@@ -23,8 +23,9 @@
  PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "@cfp_icon! Mostacho imperial"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "@cfp_icon! Triple perilla moldeada"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "@cfp_icon! Perilla moldeada"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_beard_fp1_04:0 "@cfp_icon! Bigote grande"
  
- ## Hair vanilla edit
+## Hair vanilla edit
  PORTRAIT_MODIFIER_custom_hair_bald:0 "@cfp_icon! Completamente calva"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "@cfp_icon! Mechas esteparias"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon! Jinete de la estepa calvo"
