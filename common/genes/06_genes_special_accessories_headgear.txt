@@ -1145,13 +1145,17 @@ accessory_genes = {
 		fp1_war = {
 			index = 72
 			male = {
-				1 = male_headgear_secular_fp1_war_nobility_01
-				1 = male_headgear_secular_fp1_war_nobility_02
+				10 = male_headgear_secular_fp1_war_nobility_01
+				10 = male_headgear_secular_fp1_war_nobility_02
+				10 = male_headgear_secular_northern_war_viking_02
+				10 = male_headgear_secular_northern_war_viking_04
 
 			}
 			female = {
-				1 = female_headgear_secular_fp1_war_nobility_01	
-				1 = female_headgear_secular_fp1_war_nobility_02		
+				10 = female_headgear_secular_fp1_war_nobility_01	
+				10 = female_headgear_secular_fp1_war_nobility_02
+				10 = female_headgear_secular_northern_war_viking_02
+				10 = female_headgear_secular_northern_war_viking_04
 						
 			}
 		}
@@ -1159,11 +1163,21 @@ accessory_genes = {
 		fp1_war_common = { # For commoners to use, non-gilded version only
 			index = 75
 			male = {
-				1 = male_headgear_secular_fp1_war_nobility_02
+				10 = male_headgear_secular_fp1_war_nobility_02
+				10 = male_headgear_secular_northern_war_viking_01
+				10 = male_headgear_secular_northern_war_viking_03
+				7 = male_headgear_secular_northern_war_nasal_02
+				5 = male_headgear_secular_western_war_mail_coif_01
+				5 = male_headgear_secular_western_war_padded_hood_01
 
 			}
 			female = {
-				1 = female_headgear_secular_fp1_war_nobility_02	
+				10 = female_headgear_secular_fp1_war_nobility_02
+				10 = female_headgear_secular_northern_war_viking_01
+				10 = female_headgear_secular_northern_war_viking_03
+				7 = female_headgear_secular_northern_war_nasal_02
+				5 = female_headgear_secular_western_war_mail_coif_01
+				5 = female_headgear_secular_western_war_padded_hood_01
 						
 			}
 		}

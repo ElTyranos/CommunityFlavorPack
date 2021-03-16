@@ -4854,7 +4854,10 @@ headgear = {
 				add = 100
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_norse_clothing_trigger = yes
+				AND = {
+					cfp_portrait_norse_clothing_trigger = yes
+					has_fp1_dlc_trigger = no
+				}
 				
 				NOR = {
 				    AND = {
