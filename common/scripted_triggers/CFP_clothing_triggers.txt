@@ -161,7 +161,7 @@ cfp_innovation_plate_armor_trigger = {
 	}
 }
 cfp_innovation_ermine_cloaks_trigger = {
-	culture = { has_innovation = innovation_ermine_cloaks }
+	scope:culture = { has_innovation = innovation_ermine_cloaks }
 }
 
 # Overwritting default classes
