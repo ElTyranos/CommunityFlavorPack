@@ -518,7 +518,10 @@ hairstyles = {
 						template = hair_straight_thin_beard
 					}
 				}
-                portrait_steppe_clothing_trigger = yes
+				OR = {
+					portrait_steppe_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
+				}
             }
             modifier = {
                 add = -100
@@ -547,7 +550,10 @@ hairstyles = {
                     category = gene_hair_type
                     template = hair_wavy
                 }
-                portrait_steppe_clothing_trigger = yes
+				OR = {
+					portrait_steppe_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
+				}
             }
             modifier = {
                 add = -100
@@ -576,7 +582,10 @@ hairstyles = {
                     category = gene_hair_type
                     template = hair_curly
                 }
-                portrait_steppe_clothing_trigger = yes
+				OR = {
+					portrait_steppe_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
+				}
             }
             modifier = {
                 add = -100
@@ -605,7 +614,10 @@ hairstyles = {
                     category = gene_hair_type
                     template = hair_afro
                 }
-                portrait_steppe_clothing_trigger = yes
+				OR = {
+					portrait_steppe_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
+				}
             }
             modifier = {
                 add = -100
