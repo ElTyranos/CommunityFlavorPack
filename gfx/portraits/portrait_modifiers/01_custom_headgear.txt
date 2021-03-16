@@ -41,6 +41,11 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
+		template = norse_war
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
 		template = fp1_royalty
 		is_valid_custom = {
 			has_fp1_dlc_trigger = yes
@@ -189,11 +194,6 @@
 		template = norman_sicily_war
 	}
 	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = norse_war
-	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = anglo_saxon_royalty
