@@ -1,4 +1,4 @@
-
+﻿
 cloaks = {
 
 	usage = game
@@ -24,6 +24,7 @@ cloaks = {
 						portrait_northern_clothing_trigger = yes
 						OR = {
 							portrait_fp1_norse_clothing_trigger = no
+							cfp_portrait_norse_clothing_trigger = no
 							AND = {
 								portrait_fp1_norse_clothing_trigger = yes
 								NOR = {
@@ -31,10 +32,17 @@ cloaks = {
 									religion = religion:germanic_religion
 								}
 							}
-						}
+							AND = {
+								cfp_portrait_norse_clothing_trigger = yes
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
 							}
 						}
 					}
+				}
+			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -200,7 +208,27 @@ cloaks = {
 				cfp_innovation_ermine_cloaks_trigger = yes
 				OR = {
 					portrait_western_clothing_trigger = yes
-					portrait_northern_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						OR = {
+							portrait_fp1_norse_clothing_trigger = no
+							cfp_portrait_norse_clothing_trigger = no
+							AND = {
+								portrait_fp1_norse_clothing_trigger = yes
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
+							}
+							AND = {
+								cfp_portrait_norse_clothing_trigger = yes
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
+							}
+						}
+					}
 				}
 			}
 			modifier = {
@@ -237,7 +265,27 @@ cloaks = {
 				cfp_innovation_ermine_cloaks_trigger = yes
 				OR = {
 					portrait_western_clothing_trigger = yes
-					portrait_northern_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						OR = {
+							portrait_fp1_norse_clothing_trigger = no
+							cfp_portrait_norse_clothing_trigger = no
+							AND = {
+								portrait_fp1_norse_clothing_trigger = yes
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
+							}
+							AND = {
+								cfp_portrait_norse_clothing_trigger = yes
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
+							}
+						}
+					}
 				}
 			}
 			modifier = {
@@ -281,7 +329,8 @@ cloaks = {
 			}			
 		}
 	}
-		western_commoner = {
+	
+	western_commoner = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
