@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1365,7 +1365,6 @@ headgear = {
 						has_trait = witch
 						highest_held_title_tier < tier_county
 					}
-					cfp_is_on_pilgrimage = yes
 				}
 				OR = {
 					portrait_western_clothing_trigger = yes

@@ -1,4 +1,4 @@
-﻿
+
 cloaks = {
 
 	usage = game
@@ -32,10 +32,9 @@ cloaks = {
 								}
 							}
 						}
+							}
+						}
 					}
-					cfp_portrait_norse_clothing_trigger = yes
-				}
-			}
 			modifier = {
 				factor = 0
 				OR = {
