@@ -341,7 +341,6 @@ cloaks = {
 						has_trait = witch
 						highest_held_title_tier < tier_county
 					}
-					cfp_is_on_pilgrimage = yes
 				}
 				OR = {
 					portrait_western_clothing_trigger = yes
