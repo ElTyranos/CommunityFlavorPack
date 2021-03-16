@@ -1,26 +1,26 @@
 ﻿l_english:
 
- rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : full plate helmets"
+ rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : Full Plate Helmets"
  setting_default_cfp_fullplate_helmets:0 "Default"
  setting_default_cfp_fullplate_helmets_desc:0 "Characters at war are allowed to use full plate helmets that cover their faces."
  setting_never_cfp_fullplate_helmets:1 "#high Exposed faces#!"
  setting_never_cfp_fullplate_helmets_desc:0 "Characters will never use a full plate helmet and their face will always be visible."
 
- rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : bald characters"
+ rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Bald Characters"
  setting_default_cfp_baldtrait:0 "Default"
- setting_default_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms in the face of stress will lose their hair as they age."
+ setting_default_cfp_baldtrait_desc:0 "Men who developed coping mechanisms in the face of stress will lose their hair as they age."
  setting_never_cfp_baldtrait:1 "#high Never#!"
- setting_never_cfp_baldtrait_desc:0 "Characters who have developed coping mechanisms will keep their hair."
+ setting_never_cfp_baldtrait_desc:0 "Men who developed coping mechanisms will keep their hair."
  
- rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : trait accessories"
+ rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Trait Accessories"
  setting_default_cfp_trait_accessories:0 "Default"
  setting_default_cfp_trait_accessories_desc:0 "Characters will use new kinds of head accessories based on their traits (eyeglasses, jewelry, tatoos, warpaints)."
  setting_never_cfp_trait_accessories:1 "#high Never#!"
  setting_never_cfp_trait_accessories_desc:0 "Characters will stick to vanilla accessories only (blindfolds, defiguration mask, head bandage, eye patch)."
  
- rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : barbershop expanded"
+ rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Barbershop Expanded"
  setting_default_cfp_barbershop_unlocks:0 "Unlocked"
- setting_default_cfp_barbershop_unlocks_desc:0 "Barbershop is fully unlocked. Cloaks, all accessories and religious clothes will be listed to the player. This does not change AI clothing behaviour."
+ setting_default_cfp_barbershop_unlocks_desc:0 "Barbershop is fully unlocked. Cloaks, legwear and all accessories will be listed to the player. This does not change AI clothing behaviour."
  setting_never_cfp_barbershop_unlocks:1 "#high Limited#!"
- setting_never_cfp_barbershop_unlocks_desc:0 "Barbershop behaviour remains the same as vanilla. Accessories can't be customized, cloaks have rank requirement, religious clothing remains hidden. This does not change AI clothing behaviour."
+ setting_never_cfp_barbershop_unlocks_desc:0 "Barbershop behaviour remains the same as vanilla. Accessories and legwear can't be customized, cloaks have rank requirement. This does not change AI clothing behaviour."
  

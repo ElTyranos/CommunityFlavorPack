@@ -5,7 +5,7 @@
 
 # Cultural triggers
 cfp_portrait_norse_clothing_trigger = {
-	has_culture_group = culture_group:north_germanic_group
+	scope:culture = { has_graphical_culture = fp1_norse_clothing_gfx }
 }
 cfp_portrait_anglo_saxon_clothing_trigger = {
 	has_culture = culture:anglo_saxon
@@ -65,13 +65,13 @@ cfp_portrait_slavic_clothing_trigger = {
 	}
 }
 cfp_portrait_iranian_clothing_trigger = {
-		has_culture_group = culture_group:iranian_group
+	has_culture_group = culture_group:iranian_group
 }
 cfp_portrait_arabic_clothing_trigger = {
-		has_culture_group = culture_group:arabic_group
+	has_culture_group = culture_group:arabic_group
 }
 cfp_portrait_berber_clothing_trigger = {
-		has_culture_group = culture_group:berber_group
+	has_culture_group = culture_group:berber_group
 }
 
 cfp_is_on_pilgrimage = {
@@ -102,6 +102,7 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 		}
 		AND = {
 			is_knight = yes
+			is_councillor = no
 			OR = {
 				is_landed = no
 				AND = {
@@ -120,6 +121,7 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 				primary_title.tier = tier_duchy
 			}
 		}
+		# has_character_flag = is_currently_varangian # added in 1.3 - irrelevant ?
 	}
 	NAND = {
 		has_trait = peasant_leader
@@ -140,10 +142,10 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 
 # Era or innovation triggers
 cfp_era_high_medieval_trigger = {
-	culture = { has_cultural_era_or_later = culture_era_high_medieval }
+	scope:culture = { has_cultural_era_or_later = culture_era_high_medieval }
 }
 cfp_innovation_plate_armor_trigger = {
-	culture = { has_innovation = innovation_plate_armor }
+	scope:culture = { has_innovation = innovation_plate_armor }
 	# We need conditions to avoid clipping with blendshapes due to model exporter issues
 	is_male = yes
 	NOT = { has_trait = dwarf } # did you think you were Gimli, dwarf ? }
@@ -163,28 +165,8 @@ cfp_innovation_ermine_cloaks_trigger = {
 }
 
 # Overwritting default classes
-portrait_western_clothing_trigger = {
-	culture = {
-		has_graphical_culture = western_clothing_gfx
-		NOR = {
-			has_graphical_culture = byzantine_clothing_gfx
-			has_graphical_culture = northern_clothing_gfx
-			has_graphical_culture = norse_clothing_gfx
-		}
-	}
-}
-portrait_northern_clothing_trigger = {
-	culture = {
-		has_graphical_culture = northern_clothing_gfx
-	}
-	NOR = {
-		cfp_portrait_norse_clothing_trigger = yes
-	}
-}
 portrait_steppe_clothing_trigger = {
-	culture = {
-		has_graphical_culture = mongol_clothing_gfx
-	}
+	scope:culture = { has_graphical_culture = mongol_clothing_gfx }
 	NOR = {
 		cfp_portrait_turkic_clothing_trigger = yes
 	}

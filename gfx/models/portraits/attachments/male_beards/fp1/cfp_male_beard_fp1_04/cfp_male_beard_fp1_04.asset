@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "cfp_male_beard_fp1_04_mesh"
+	file = "cfp_male_beard_fp1_04.mesh"
+
+	blend_shape = { id = "cfp_male_beard_fp1_04_bs_fat"		type = "cfp_male_beard_fp1_04_bs_fat.mesh" }
+
+	meshsettings = {
+		name = "cfp_male_beard_fp1_04Shape"
+		index = 0
+		texture_diffuse = "male_beard_fp1_04_diffuse.dds"
+		texture_normal = "male_beard_fp1_04_normal.dds"
+		texture_specular = "male_beard_fp1_04_properties.dds"
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "cfp_male_beard_fp1_04_entity"
+	pdxmesh = "cfp_male_beard_fp1_04_mesh"
+	attribute = { name = "bs_fat_1"					blend_shape = "cfp_male_beard_fp1_04_bs_fat" }
+}
+
+pdxmesh = {
+	name = "cfp_male_beard_fp1_04_hood_mesh"
+	file = "cfp_male_beard_fp1_04_hood.mesh"
+
+	blend_shape = { id = "cfp_male_beard_fp1_04_hood_bs_fat"		type = "cfp_male_beard_fp1_04_hood_bs_fat.mesh" }
+
+	meshsettings = {
+		name = "cfp_male_beard_fp1_04_hoodShape"
+		index = 0
+		texture_diffuse = "male_beard_fp1_04_diffuse.dds"
+		texture_normal = "male_beard_fp1_04_normal.dds"
+		texture_specular = "male_beard_fp1_04_properties.dds"
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "cfp_male_beard_fp1_04_hood_entity"
+	pdxmesh = "cfp_male_beard_fp1_04_hood_mesh"
+	attribute = { name = "bs_fat_1"					blend_shape = "cfp_male_beard_fp1_04_hood_bs_fat" }
+}
