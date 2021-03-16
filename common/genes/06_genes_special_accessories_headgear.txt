@@ -1811,7 +1811,7 @@ accessory_genes = {
         }
 		
 		crusades_western_commoner = {
-			index = 112
+			index = 118
 			male = {
                 1 = male_cloaks_secular_western_cfp_crusades_hood_03
 				
@@ -1825,7 +1825,7 @@ accessory_genes = {
 		}
 		
 		crusades_western = {
-			index = 113
+			index = 119
 			male = {
                 1 = male_cloaks_secular_western_cfp_crusades_hood_01
 				
@@ -1839,7 +1839,7 @@ accessory_genes = {
 		}
 
 		crusades_western_black = {
-			index = 114
+			index = 120
 			male = {
                 1 = male_cloaks_secular_western_cfp_crusades_hood_02
 				
