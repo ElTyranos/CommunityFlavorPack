@@ -1,11 +1,11 @@
 ﻿l_french:
- PORTRAIT_MODIFIER_custom_hands:0 "Hands"
+ PORTRAIT_MODIFIER_custom_hands:0 "Mains"
  
- PORTRAIT_MODIFIER_custom_hands_male_empty:1 "Bare Hands"
+ PORTRAIT_MODIFIER_custom_hands_male_empty:1 "Mains nues"
  PORTRAIT_MODIFIER_custom_hands_female_empty:0 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
  
- PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_01:1 "@cfp_icon! High Nobility Gloves"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_01:1 "@cfp_icon! Gants de haute noblesse"
  PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_noble_gloves_01:0 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_01$"
 
- PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_02:1 "@cfp_icon! High Nobility Left Glove"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_02:1 "@cfp_icon! Gant gauche de haute noblesse"
  PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_noble_gloves_02:0 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_02$"
