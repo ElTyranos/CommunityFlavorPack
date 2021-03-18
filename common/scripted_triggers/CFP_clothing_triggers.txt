@@ -167,3 +167,13 @@ portrait_steppe_clothing_trigger = {
 		cfp_portrait_turkic_clothing_trigger = yes
 	}
 }
+portrait_northern_clothing_trigger = {
+	OR = {
+		scope:culture = { has_graphical_culture = northern_clothing_gfx }
+		AND = {
+			has_fp1_dlc_trigger = yes
+			has_culture_group = culture_group:west_germanic_group
+			NOT = { has_culture = culture:english }
+		}
+	}
+}
