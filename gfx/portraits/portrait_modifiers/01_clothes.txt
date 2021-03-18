@@ -2467,10 +2467,7 @@ latin_venetian_royalty = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				OR  = {
-					portrait_northern_clothing_trigger = yes
-					cfp_portrait_norse_clothing_trigger = yes
-				}
+				portrait_northern_clothing_trigger = yes
 			}
 		}
 	}
@@ -2511,10 +2508,7 @@ latin_venetian_royalty = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						OR  = {
-							portrait_northern_clothing_trigger = yes
-							cfp_portrait_norse_clothing_trigger = yes
-						}
+						portrait_northern_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -2531,11 +2525,8 @@ latin_venetian_royalty = {
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
-									}
-								OR  = {
-									portrait_northern_clothing_trigger = yes
-									cfp_portrait_norse_clothing_trigger = yes
-								}
+							}
+							portrait_northern_clothing_trigger = yes
 						}
 					}
 				}
@@ -2580,10 +2571,7 @@ latin_venetian_royalty = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						OR  = {
-							portrait_northern_clothing_trigger = yes
-							cfp_portrait_norse_clothing_trigger = yes
-						}
+						portrait_northern_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -2600,10 +2588,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							OR  = {
-								portrait_northern_clothing_trigger = yes
-								cfp_portrait_norse_clothing_trigger = yes
-							}
+							portrait_northern_clothing_trigger = yes
 						}
 					}
 				}
@@ -2636,15 +2621,9 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 102 # CFP: 102 instead of 101 to force over western armor for anglo-saxons
 				portrait_wear_armor_trigger = yes
-				OR  = {
-					portrait_northern_clothing_trigger = yes
-					AND = {
-						cfp_portrait_norse_clothing_trigger = yes
-						has_fp1_dlc_trigger = no
-					}
-				}
+				portrait_northern_clothing_trigger = yes
 			}
 		}
 	}
