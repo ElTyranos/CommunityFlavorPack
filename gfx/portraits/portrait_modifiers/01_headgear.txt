@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -598,6 +598,10 @@ headgear = {
 							AND = {
 								cfp_portrait_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
 							}
 						}
 					}
@@ -631,6 +635,10 @@ headgear = {
 								AND = {
 									cfp_portrait_norse_clothing_trigger = yes
 									has_fp1_dlc_trigger = no
+									NOR = {
+										has_government = tribal_government
+										religion = religion:germanic_religion
+									}
 								}
 							}
 						}
@@ -687,6 +695,10 @@ headgear = {
 							AND = {
 								cfp_portrait_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
 							}
 						}
 					}
@@ -720,6 +732,10 @@ headgear = {
 								AND = {
 									cfp_portrait_norse_clothing_trigger = yes
 									has_fp1_dlc_trigger = no
+									NOR = {
+										has_government = tribal_government
+										religion = religion:germanic_religion
+									}
 								}
 							}
 						}
