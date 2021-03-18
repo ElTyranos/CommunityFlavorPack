@@ -5731,10 +5731,12 @@ headgear = {
 				}
 				AND = {
 					OR = {
-						portrait_dde_hre_clothing_trigger = yes
 						portrait_western_clothing_trigger = yes
 						portrait_byzantine_clothing_trigger = yes
-						portrait_northern_clothing_trigger = yes
+						AND = {
+							portrait_northern_clothing_trigger = yes
+							NOT = { cfp_portrait_norse_clothing_trigger = yes }
+						}
 					}
 				}
 			}
