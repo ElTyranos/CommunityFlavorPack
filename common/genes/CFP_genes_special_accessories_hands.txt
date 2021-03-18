@@ -15,7 +15,7 @@
 				girl = female
 			}
 
-			fp1_hands = {
+			fp1_rings = {
 				index = 1
 				male = {
 					1 = empty
@@ -27,9 +27,51 @@
 				boy = male
 				girl = female
 			}
+			
+			dde_hre_rings = {
+				index = 2
+				male = {
+					1 = empty
+					1 = male_accessories_cfp_dde_hre_rings_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+			
+			dde_abbasid_rings = {
+				index = 3
+				male = {
+					1 = empty
+					1 = male_accessories_cfp_dde_abbasid_rings_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			rings = {
+				index = 4
+				male = {
+					1 = empty
+					1 = male_accessories_cfp_norse_rings_01
+					1 = male_accessories_cfp_catholic_rings_01
+				}
+				female = {
+					1 = empty
+					1 = female_accessories_cfp_african_rings_01
+					1 = female_accessories_cfp_indian_rings_01
+				}
+				boy = male
+				girl = female
+			}
 
 			western_high_nobility_gloves = {
-				index = 2
+				index = 5
 				male = {
 					10 = empty
 					5 = male_accessories_cfp_noble_gloves_01

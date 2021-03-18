@@ -19,4 +19,5 @@ entity = {
 	name = "male_accessories_cfp_fp1_rings_01_entity"
 	pdxmesh = "male_accessories_cfp_fp1_rings_01_mesh"
 	attribute = { name = "bs_body_fat_1"								blend_shape = "male_accessories_cfp_fp1_rings_01_bs_fat" }
+	attribute = { name = "bs_body_dwarf_1"								blend_shape = "male_accessories_cfp_fp1_rings_01_bs_fat" }
 }
