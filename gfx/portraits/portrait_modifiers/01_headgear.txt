@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -4783,10 +4783,6 @@ headgear = {
 					}
 				}
 				portrait_northern_clothing_trigger = yes
-				AND = {
-					cfp_portrait_norse_clothing_trigger = yes
-					has_fp1_dlc_trigger = no
-				}
 			}
 			modifier = {
 				add = 30
@@ -4805,10 +4801,6 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
-				AND = {
-					cfp_portrait_norse_clothing_trigger = yes
-					has_fp1_dlc_trigger = no
-				}
 			}
 		}
 	}
@@ -4851,10 +4843,6 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
-				AND = {
-					cfp_portrait_norse_clothing_trigger = yes
-					has_fp1_dlc_trigger = no
-				}
 			}
 		}
 	}
