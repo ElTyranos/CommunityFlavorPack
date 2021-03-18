@@ -1,4 +1,10 @@
-﻿male_accessories_cfp_noble_gloves_01 = {
+﻿# Vanilla edits
+male_accessories_cfp_fp1_rings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_accessories_cfp_fp1_rings_01_entity }
+}
+
+# CFP
+male_accessories_cfp_noble_gloves_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_accessories_cfp_noble_gloves_01_entity }
 }
 female_accessories_cfp_noble_gloves_01 = {

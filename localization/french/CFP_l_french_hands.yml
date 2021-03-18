@@ -4,6 +4,10 @@
  PORTRAIT_MODIFIER_custom_hands_male_empty:1 "Mains nues"
  PORTRAIT_MODIFIER_custom_hands_female_empty:0 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
  
+## FP1
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_fp1_rings_01:1 "Bagues des Seigneurs du Nord"
+ 
+## CFP
  PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_01:1 "@cfp_icon! Gants de haute noblesse"
  PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_noble_gloves_01:0 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_01$"
 

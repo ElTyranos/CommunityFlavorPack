@@ -15,8 +15,21 @@
 				girl = female
 			}
 
-			western_high_nobility_gloves = {
+			fp1_hands = {
 				index = 1
+				male = {
+					1 = empty
+					1 = male_accessories_cfp_fp1_rings_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			western_high_nobility_gloves = {
+				index = 2
 				male = {
 					10 = empty
 					5 = male_accessories_cfp_noble_gloves_01
