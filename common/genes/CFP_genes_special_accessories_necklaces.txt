@@ -1,0 +1,33 @@
+﻿special_genes = {
+	accessory_genes = {
+
+		special_accessories_necklace = {
+
+			no_necklace = {
+				index = 0
+				male = {
+					100 = empty
+				}
+				female = {
+					100 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			western_war_late = {
+				index = 1
+				male = {
+					1 = male_headgear_secular_western_cfp_war_pixane_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+		}
+
+	}
+}

@@ -1229,6 +1229,7 @@ accessory_genes = {
 			index = 78
 			male = {
 				5 = male_headgear_secular_western_cfp_war_bascinet_03
+				5 = male_headgear_secular_western_cfp_war_pixane_01
 				
 			}
 			female = {}
