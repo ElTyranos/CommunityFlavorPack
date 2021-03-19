@@ -192,7 +192,6 @@ cloaks = {
 	## Community Flavor Pack
 	
 	western_kings_ermine = {
-	# When Ermine cloak is unlocked, kings are forced to use the vanilla royal cloak.
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -314,6 +313,37 @@ cloaks = {
 			modifier = {
 				add = 100
 				portrait_byzantine_clothing_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					highest_held_title_tier < tier_kingdom
+					has_government = theocracy_government
+					has_government = republic_government
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+	
+	byzantine_kings_ermine = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = byzantine_royalty_ermine
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_byzantine_clothing_trigger = yes
+				cfp_innovation_ermine_cloaks_trigger = yes
 			}
 			modifier = {
 				factor = 0

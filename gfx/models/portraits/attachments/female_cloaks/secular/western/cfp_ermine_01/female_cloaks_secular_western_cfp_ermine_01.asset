@@ -38,3 +38,22 @@ entity = {
 		}
 	}
 }
+
+entity = {
+	name = "female_cloaks_secular_byzantine_cfp_ermine_01_entity"
+	pdxmesh = "female_cloaks_secular_western_cfp_ermine_01_mesh"
+
+	attribute = { name = "bs_body_fat_1"					blend_shape = "female_cloaks_secular_western_cfp_ermine_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_cloaks_secular_western_cfp_ermine_01_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1"				blend_shape = "female_cloaks_secular_western_cfp_ermine_01_bs_muscular" }
+	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_ermine_01_bs_dwarf" }
+	attribute = { name = "bs_body_breast_size_max"			blend_shape = "female_cloaks_secular_western_cfp_ermine_01_bs_breast_size_max" }
+	attribute = { name = "bs_body_breast_size_min"			blend_shape = "female_cloaks_secular_western_cfp_ermine_01_bs_breast_size_min" }
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_ermine_01/cloaks_secular_western_cfp_ermine_01_masks.dds"
+			variation = "byzantine_cloaks_royalty_01"	
+		}
+	}
+}
