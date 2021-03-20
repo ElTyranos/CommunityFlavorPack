@@ -12,6 +12,14 @@
 
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
+		template = byzantine_high_nobility
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_necklace
 		template = western_war_late
 		is_valid_custom = {
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }

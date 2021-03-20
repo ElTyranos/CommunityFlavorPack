@@ -41,6 +41,18 @@
 				girl = female
 			}
 
+			byzantine_high_nobility = {
+				index = 3
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_cfp_byzantine_necklace_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 
 	}
