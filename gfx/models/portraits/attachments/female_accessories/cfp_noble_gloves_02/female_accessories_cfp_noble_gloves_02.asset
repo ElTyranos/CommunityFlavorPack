@@ -1,7 +1,9 @@
 pdxmesh = {
 	name = "female_accessories_cfp_noble_gloves_02_mesh"
 	file = "female_accessories_cfp_noble_gloves_02.mesh"
-	
+
+	blend_shape = { id = "female_accessories_cfp_noble_gloves_02_bs_fat"					type = "female_accessories_cfp_noble_gloves_02_bs_fat.mesh" }
+
 	meshsettings = {
 		name = "female_accessories_cfp_noble_gloves_02Shape"
 		index = 0
@@ -16,4 +18,6 @@ pdxmesh = {
 entity = {
 	name = "female_accessories_cfp_noble_gloves_02_entity"
 	pdxmesh = "female_accessories_cfp_noble_gloves_02_mesh"
+	attribute = { name = "bs_body_fat_1"					blend_shape = "female_accessories_cfp_noble_gloves_02_bs_fat" }
+	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_accessories_cfp_noble_gloves_02_bs_fat" }
 }
