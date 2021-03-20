@@ -368,8 +368,28 @@ accessory_genes = {
 				1 = empty
 			}
 		}
-		byzantine_royalty = {
+		western_royalty_ermine = {
 			index = 4
+			male = {
+				1 = male_cloaks_secular_western_cfp_ermine_01
+			}
+			female = {
+				1 = female_cloaks_secular_western_cfp_ermine_01
+			}
+		}
+		western_high_nobility_ermine = {
+			index = 5
+			male = {
+				10 = empty
+				8 = male_cloaks_secular_western_royalty_01
+			}
+			female = {
+				10 = empty
+				8 = female_cloaks_secular_western_royalty_01
+			}
+		}
+		byzantine_royalty = {
+			index = 6
 			male = {
 				1 = male_cloaks_secular_byzantine_royalty_01
 			}
@@ -377,8 +397,54 @@ accessory_genes = {
 				1 = female_cloaks_secular_byzantine_royalty_01
 			}
 		}
+		byzantine_royalty_ermine = {
+			index = 7
+			male = {
+				1 = male_cloaks_secular_byzantine_cfp_ermine_01
+			}
+			female = {
+				1 = female_cloaks_secular_byzantine_cfp_ermine_01
+			}
+		}
+		western_commoner = {
+			index = 8
+			male = {
+				4 = empty
+				1 = male_cloaks_secular_western_cfp_common_01
+			}
+			female = {
+				1 = empty
+			}
+		}
+		western_crusades_commoner = {
+			index = 9
+			male = {
+				1 = male_cloaks_secular_western_cfp_crusades_03
+			}
+			female = {
+				1 = female_cloaks_secular_western_cfp_crusades_03
+			}
+		}
+		western_crusades = {
+			index = 10
+			male = {
+				1 = male_cloaks_secular_western_cfp_crusades_01
+			}
+			female = {
+				1 = female_cloaks_secular_western_cfp_crusades_01
+			}
+		}
+		western_crusades_black = {
+			index = 11
+			male = {
+				1 = male_cloaks_secular_western_cfp_crusades_02
+			}
+			female = {
+				1 = female_cloaks_secular_western_cfp_crusades_02
+			}
+		}
 		norse_war = {
-			index = 5
+			index = 12
 			male = {
 				1 = empty
 				1 = male_cloaks_secular_northern_war_viking_shield_01
@@ -389,7 +455,7 @@ accessory_genes = {
 			}
 		}
 		norman_war = {
-			index = 6
+			index = 13
 			male = {
 				1 = empty
 				1 = male_cloaks_secular_western_war_norman_shield_01

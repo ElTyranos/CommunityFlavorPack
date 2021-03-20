@@ -513,6 +513,22 @@
 		}
 	}
 
+	## CFP Crusaders hoods
+	add_accessory_modifiers = {
+		gene = headgear
+		template = crusades_western_commoner
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = crusades_western
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = crusades_western_black
+	}
+
 	## CFP Unlocked vanilla
 	add_accessory_modifiers = {
 		gene = headgear

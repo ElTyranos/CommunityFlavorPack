@@ -1,0 +1,66 @@
+pdxmesh = {
+	name = "female_cloaks_secular_western_cfp_crusades_01_mesh"
+	file = "female_cloaks_secular_western_cfp_crusades_01.mesh"
+
+	blend_shape = { id = "female_cloaks_secular_western_cfp_crusades_01_bs_fat"		type = "female_cloaks_secular_western_cfp_crusades_01_bs_fat.mesh" }
+	blend_shape = { id = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt"		type = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt.mesh" }
+	blend_shape = { id = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf"		type = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf.mesh" }
+	
+	meshsettings = {
+		name = "female_cloaks_secular_western_cfp_crusades_01Shape"
+		index = 0
+		texture_diffuse = "cloaks_secular_western_cfp_crusades_01_diffuse.dds"
+		texture_normal = "cloaks_secular_western_cfp_crusades_01_normal.dds"
+		texture_specular = "cloaks_secular_western_cfp_crusades_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_cloaks_secular_western_cfp_crusades_01_entity"
+	pdxmesh = "female_cloaks_secular_western_cfp_crusades_01_mesh"
+
+	attribute = { name = "bs_body_fat_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt" }
+	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
+			variation = "knights_templar"
+		}
+	}
+}
+
+entity = {
+	name = "female_cloaks_secular_western_cfp_crusades_02_entity"
+	pdxmesh = "female_cloaks_secular_western_cfp_crusades_01_mesh"
+
+	attribute = { name = "bs_body_fat_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt" }
+	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
+			variation = "knights_hospitaller"
+		}
+	}
+}
+
+entity = {
+	name = "female_cloaks_secular_western_cfp_crusades_03_entity"
+	pdxmesh = "female_cloaks_secular_western_cfp_crusades_01_mesh"
+
+	attribute = { name = "bs_body_fat_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt" }
+	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
+			variation = "cfp_western_hoods_common_01"
+		}
+	}
+}

@@ -598,6 +598,10 @@ headgear = {
 							AND = {
 								cfp_portrait_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
 							}
 						}
 					}
@@ -631,6 +635,10 @@ headgear = {
 								AND = {
 									cfp_portrait_norse_clothing_trigger = yes
 									has_fp1_dlc_trigger = no
+									NOR = {
+										has_government = tribal_government
+										religion = religion:germanic_religion
+									}
 								}
 							}
 						}
@@ -687,6 +695,10 @@ headgear = {
 							AND = {
 								cfp_portrait_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
 							}
 						}
 					}
@@ -720,6 +732,10 @@ headgear = {
 								AND = {
 									cfp_portrait_norse_clothing_trigger = yes
 									has_fp1_dlc_trigger = no
+									NOR = {
+										has_government = tribal_government
+										religion = religion:germanic_religion
+									}
 								}
 							}
 						}
@@ -1336,6 +1352,85 @@ headgear = {
 				            }
 				        }
 				    }
+				}
+			}
+		}
+	}
+
+## Crusader hood
+	crusades_western_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crusades_western_commoner
+				range = { 0 1 }
+			}
+		}	
+		outfit_tags = { western_crusades_commoner }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				OR = {
+					AND = {
+						has_council_position = councillor_spymaster
+						highest_held_title_tier < tier_county
+					}
+					AND = {
+						has_trait = witch
+						highest_held_title_tier < tier_county
+					}
+				}
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	
+	crusades_western = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crusades_western
+				range = { 0 1 }
+			}
+		}	
+		outfit_tags = { western_crusades_white }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					has_government = holy_order_government
+					is_ruler = yes
+				}
+			}
+		}
+	}
+	
+	crusades_western_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crusades_western_black
+				range = { 0 1 }
+			}
+		}	
+		outfit_tags = { western_crusades_black }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					has_government = holy_order_government
+					is_ruler = yes
 				}
 			}
 		}
@@ -4704,10 +4799,6 @@ headgear = {
 					}
 				}
 				portrait_northern_clothing_trigger = yes
-				AND = {
-					cfp_portrait_norse_clothing_trigger = yes
-					has_fp1_dlc_trigger = no
-				}
 			}
 			modifier = {
 				add = 30
@@ -4726,10 +4817,6 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
-				AND = {
-					cfp_portrait_norse_clothing_trigger = yes
-					has_fp1_dlc_trigger = no
-				}
 			}
 		}
 	}
@@ -4772,10 +4859,6 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
-				AND = {
-					cfp_portrait_norse_clothing_trigger = yes
-					has_fp1_dlc_trigger = no
-				}
 			}
 		}
 	}
@@ -5648,10 +5731,12 @@ headgear = {
 				}
 				AND = {
 					OR = {
-						portrait_dde_hre_clothing_trigger = yes
 						portrait_western_clothing_trigger = yes
 						portrait_byzantine_clothing_trigger = yes
-						portrait_northern_clothing_trigger = yes
+						AND = {
+							portrait_northern_clothing_trigger = yes
+							NOT = { cfp_portrait_norse_clothing_trigger = yes }
+						}
 					}
 				}
 			}

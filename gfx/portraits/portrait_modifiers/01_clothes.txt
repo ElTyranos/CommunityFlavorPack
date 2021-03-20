@@ -913,7 +913,76 @@ clothes = {
 				value = 1.0
 				template = body_shape_average_clothed
 			}
-		}	
+		}
+		outfit_tags = { western_crusades_white }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				OR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+	
+	western_crusades_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = western_crusades_black
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		outfit_tags = { western_crusades_black }
 		weight = {
 			base = 0
 			modifier = {
@@ -2398,10 +2467,7 @@ latin_venetian_royalty = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				OR  = {
-					portrait_northern_clothing_trigger = yes
-					cfp_portrait_norse_clothing_trigger = yes
-				}
+				portrait_northern_clothing_trigger = yes
 			}
 		}
 	}
@@ -2442,10 +2508,7 @@ latin_venetian_royalty = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						OR  = {
-							portrait_northern_clothing_trigger = yes
-							cfp_portrait_norse_clothing_trigger = yes
-						}
+						portrait_northern_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -2462,11 +2525,8 @@ latin_venetian_royalty = {
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
-									}
-								OR  = {
-									portrait_northern_clothing_trigger = yes
-									cfp_portrait_norse_clothing_trigger = yes
-								}
+							}
+							portrait_northern_clothing_trigger = yes
 						}
 					}
 				}
@@ -2511,10 +2571,7 @@ latin_venetian_royalty = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						OR  = {
-							portrait_northern_clothing_trigger = yes
-							cfp_portrait_norse_clothing_trigger = yes
-						}
+						portrait_northern_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -2531,10 +2588,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							OR  = {
-								portrait_northern_clothing_trigger = yes
-								cfp_portrait_norse_clothing_trigger = yes
-							}
+							portrait_northern_clothing_trigger = yes
 						}
 					}
 				}
@@ -2567,15 +2621,9 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 102 # CFP: 102 instead of 101 to force over western armor for anglo-saxons
 				portrait_wear_armor_trigger = yes
-				OR  = {
-					portrait_northern_clothing_trigger = yes
-					AND = {
-						cfp_portrait_norse_clothing_trigger = yes
-						has_fp1_dlc_trigger = no
-					}
-				}
+				portrait_northern_clothing_trigger = yes
 			}
 		}
 	}

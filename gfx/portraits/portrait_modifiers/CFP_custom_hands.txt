@@ -1,0 +1,48 @@
+﻿custom_hands = {
+	usage = customization
+	interface_position = 8
+
+	add_accessory_modifiers = {
+		gene = special_accessories_hands
+		template = fp1_rings
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_hands
+		template = rings
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_hands
+		template = western_high_nobility_gloves
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_hands
+		template = dde_abbasid_rings
+		is_valid_custom = {
+			has_dlc = "Fashion of the Abbasid Court"
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_hands
+		template = dde_hre_rings
+		is_valid_custom = {
+			has_dlc = "Garments of the Holy Roman Empire"
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+}

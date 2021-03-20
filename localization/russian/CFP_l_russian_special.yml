@@ -26,4 +26,5 @@
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02:1 "@cfp_icon! Деревянные очки"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "@cfp_icon! славянские серьги"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_slavic_earrings_01:1 "@cfp_icon_red! славянские серьги"
+ 
