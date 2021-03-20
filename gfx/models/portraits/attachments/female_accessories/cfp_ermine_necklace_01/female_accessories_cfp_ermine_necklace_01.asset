@@ -1,0 +1,27 @@
+pdxmesh = {
+	name = "female_accessories_cfp_ermine_necklace_01_mesh"
+	file = "female_accessories_cfp_ermine_necklace_01.mesh"
+	
+	blend_shape = { id = "female_accessories_cfp_ermine_necklace_01_bs_fat"				type = "female_accessories_cfp_ermine_necklace_01_bs_fat.mesh" }
+	blend_shape = { id = "female_accessories_cfp_ermine_necklace_01_bs_dwarf"				type = "female_accessories_cfp_ermine_necklace_01_bs_dwarf.mesh" }
+	blend_shape = { id = "female_accessories_cfp_ermine_necklace_01_bs_muscular"				type = "female_accessories_cfp_ermine_necklace_01_bs_muscular.mesh" }
+
+	meshsettings = {
+		name = "female_accessories_cfp_ermine_necklace_01Shape"
+		index = 0
+		texture_diffuse = "male_accessories_cfp_ermine_necklace_01_diffuse.dds"
+		texture_normal = "male_accessories_cfp_ermine_necklace_01_normal.dds"
+		texture_specular = "male_accessories_cfp_ermine_necklace_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_accessories_cfp_ermine_necklace_01_entity"
+	pdxmesh = "female_accessories_cfp_ermine_necklace_01_mesh"
+	
+	attribute = { name = "bs_body_fat_1"								blend_shape = "female_accessories_cfp_ermine_necklace_01_bs_fat" }
+	attribute = { name = "bs_body_dwarf_1"								blend_shape = "female_accessories_cfp_ermine_necklace_01_bs_dwarf" }
+	attribute = { name = "bs_body_muscular_1"								blend_shape = "female_accessories_cfp_ermine_necklace_01_bs_muscular" }
+}
