@@ -283,10 +283,10 @@
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_royalty_01:1 "@cfp_icon_purple! Cape Byzantine"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_byzantine_royalty_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_royalty_01$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_ermine_01:1 "@cfp_icon! Cape royale en ermine"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_ermine_01:1 "@cfp_icon! Cape royale en hermine"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_ermine_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_ermine_01$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_cfp_ermine_01:1 "@cfp_icon_purple! Cape Byzantine en ermine"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_cfp_ermine_01:1 "@cfp_icon_purple! Cape Byzantine en hermine"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_byzantine_cfp_ermine_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_byzantine_cfp_ermine_01$"
  
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01:1 "@cfp_icon! Cape commune"

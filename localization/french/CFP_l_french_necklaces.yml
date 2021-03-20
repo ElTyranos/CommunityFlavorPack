@@ -1,4 +1,4 @@
-﻿l_french:
+l_french:
  PORTRAIT_MODIFIER_custom_necklace:0 "Collier"
  
  PORTRAIT_MODIFIER_custom_necklace_male_empty:1 "Sans collier"
@@ -7,6 +7,9 @@
 ## Vanilla
 
 ## CFP
- PORTRAIT_MODIFIER_custom_necklace_male_headgear_secular_western_cfp_war_pixane_01:1 "@cfp_icon! Pixane"
+ PORTRAIT_MODIFIER_custom_necklace_male_headgear_secular_western_cfp_war_pixane_01:1 "@cfp_icon! Gorgerin en maille"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_pixane_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_headgear_secular_western_cfp_war_pixane_01$"
+ 
+ PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01:0 "@cfp_icon! Collier pour cape en hermine"
+ PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_ermine_necklace_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01$"
  
