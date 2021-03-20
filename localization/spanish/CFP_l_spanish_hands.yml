@@ -5,12 +5,12 @@
  PORTRAIT_MODIFIER_custom_hands_female_empty:0 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
  
 ## Vanilla
- PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_fp1_rings_01:1 "Northern Lords Rings"
- PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_abbasid_rings_01:1 "Ruby Ring"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_fp1_rings_01:1 "Anillos de los Señores del Norte"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_abbasid_rings_01:1 "Anillo de rubí"
  PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_indian_rings_01:1 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_abbasid_rings_01$"
- PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_hre_rings_01:1 "Jade Ring"
- PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_norse_rings_01:1 "Runic Ring"
- PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_catholic_rings_01:1 "Signet Ring"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_hre_rings_01:1 "Anillo de jade"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_norse_rings_01:1 "Anillo rúnico"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_catholic_rings_01:1 "Anillo de sello"
  PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_african_rings_01:1 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_catholic_rings_01$"
 
 ## CFP 
