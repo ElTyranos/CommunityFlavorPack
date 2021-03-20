@@ -18,4 +18,12 @@
 		}
 	}
 
+	add_accessory_modifiers = {
+		gene = special_accessories_necklace
+		template = western_royalty_ermine
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
 }
