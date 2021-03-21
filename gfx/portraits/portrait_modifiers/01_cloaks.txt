@@ -377,6 +377,7 @@ cloaks = {
 				NOR = {
 					portrait_wear_armor_trigger = yes
 					is_theocratic_lessee = yes
+					has_trait = devoted
 					AND = {
 						exists = primary_spouse
 						primary_spouse = {
