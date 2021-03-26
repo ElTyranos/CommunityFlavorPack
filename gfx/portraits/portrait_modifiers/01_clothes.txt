@@ -2624,6 +2624,16 @@ latin_venetian_royalty = {
 				add = 102 # CFP: 102 instead of 101 to force over western armor for anglo-saxons
 				portrait_wear_armor_trigger = yes
 				portrait_northern_clothing_trigger = yes
+				portrait_fp1_norse_clothing_trigger = no
+			}
+		}
+		# Specific modifier for norses or fp1_norse_war is overwritten by 102 value
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_fp1_norse_clothing_trigger = yes
 			}
 		}
 	}
