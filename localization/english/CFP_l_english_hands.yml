@@ -3,6 +3,8 @@
  
  PORTRAIT_MODIFIER_custom_hands_male_empty:1 "Bare Hands"
  PORTRAIT_MODIFIER_custom_hands_female_empty:0 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
+ PORTRAIT_MODIFIER_custom_hands_boy_empty:1 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
+ PORTRAIT_MODIFIER_custom_hands_girl_empty:1 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
  
 ## Vanilla
  PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_fp1_rings_01:1 "Northern Lords Rings"

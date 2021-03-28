@@ -224,12 +224,16 @@ beards = {
 					portrait_mena_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
+                NOT = { # The Prophet Muhammad does not have a portrait
+                    this = character:33922 # Prophet Muhammad
+                }
             }
             modifier = {
                 add = -100
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
+                    this = character:33922 # Prophet Muhammad
                 }
             }
             modifier = {
@@ -294,12 +298,16 @@ beards = {
 					portrait_mena_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
+                NOT = { # The Prophet Muhammad does not have a portrait
+                    this = character:33922 # Prophet Muhammad
+                }
             }
             modifier = {
                 add = -100
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
+                    this = character:33922 # Prophet Muhammad
                 }
             }
             modifier = {

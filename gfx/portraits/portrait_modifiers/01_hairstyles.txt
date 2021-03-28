@@ -159,6 +159,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
+					this = character:33922 # Prophet Muhammad
                 }
             }
         }
@@ -188,6 +189,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
+					this = character:33922 # Prophet Muhammad
                 }
             }
         }
@@ -217,6 +219,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
+					this = character:33922 # Prophet Muhammad
                 }
             }
         }
@@ -246,6 +249,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
+					this = character:33922 # Prophet Muhammad
                 }
             }
         }
