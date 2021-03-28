@@ -2469,6 +2469,12 @@ latin_venetian_royalty = {
 				}
 				portrait_northern_clothing_trigger = yes
 			}
+			modifier = {
+				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
+				add = -1000
+				cfp_portrait_norse_clothing_trigger = yes
+				has_fp1_dlc_trigger = yes
+			}
 		}
 	}
 
@@ -2530,7 +2536,12 @@ latin_venetian_royalty = {
 						}
 					}
 				}
-
+			}
+			modifier = {
+				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
+				add = -1000
+				cfp_portrait_norse_clothing_trigger = yes
+				has_fp1_dlc_trigger = yes
 			}
 		}
 	}
@@ -2592,7 +2603,12 @@ latin_venetian_royalty = {
 						}
 					}
 				}
-
+			}
+			modifier = {
+				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
+				add = -1000
+				cfp_portrait_norse_clothing_trigger = yes
+				has_fp1_dlc_trigger = yes
 			}
 		}
 	}
@@ -2617,15 +2633,6 @@ latin_venetian_royalty = {
 				value = 1.0
 				template = body_shape_average_clothed
 			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 102 # CFP: 102 instead of 101 to force over western armor for anglo-saxons
-				portrait_wear_armor_trigger = yes
-				portrait_northern_clothing_trigger = yes
-				portrait_fp1_norse_clothing_trigger = no
-			}
 		}
 		# Specific modifier for norses or fp1_norse_war is overwritten by 102 value
 		weight = {
@@ -2634,6 +2641,12 @@ latin_venetian_royalty = {
 				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_fp1_norse_clothing_trigger = yes
+			}
+			modifier = {
+				add = 102 # CFP: 102 instead of 101 to force over western armor for anglo-saxons
+				portrait_wear_armor_trigger = yes
+				portrait_northern_clothing_trigger = yes
+				portrait_fp1_norse_clothing_trigger = no
 			}
 		}
 	}
