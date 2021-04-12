@@ -68,6 +68,13 @@ female_cloaks_secular_byzantine_cfp_ermine_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_byzantine_cfp_ermine_01_entity }
 }
 
+male_cloaks_secular_mena_cfp_taylasan_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_mena_cfp_taylasan_01_entity }
+}
+male_cloaks_secular_mena_cfp_taylasan_02 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_mena_cfp_taylasan_02_entity }
+}
+
 ## Shields
 male_cloaks_secular_northern_war_viking_shield_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_northern_war_viking_shield_01_entity }
