@@ -813,6 +813,10 @@ male_headgear_secular_mena_cfp_war_mamluk_helmet_01 = {
 	set_tags = "hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_war_mamluk_helmet_01_entity 	 }		
 }
+male_headgear_secular_mena_cfp_bonnet_low_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_bonnet_low_01_entity 	 }		
+}
 
 ## Iranian
 male_headgear_secular_iranian_cfp_panel_common_01 = {

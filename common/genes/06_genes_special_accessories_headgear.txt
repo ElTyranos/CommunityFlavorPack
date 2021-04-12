@@ -231,6 +231,8 @@ accessory_genes = {
 				5 = empty
 				10 = male_headgear_secular_mena_common_01
 				10 = male_headgear_secular_dde_abbasid_common_02
+				5 = male_headgear_secular_mena_cfp_bonnet_low_01
+				5 = male_headgear_secular_mena_cfp_zamt_01
 			
 			}
 			female = {
@@ -267,7 +269,6 @@ accessory_genes = {
 				1 = male_headgear_secular_mena_cfp_war_mail_coif_02
 				1 = male_headgear_secular_mena_cfp_war_turban_helmet_01
 				1 = male_headgear_secular_mena_cfp_war_striped_helmet_01
-				1 = male_headgear_secular_mena_cfp_zamt_01
 				1 = male_headgear_secular_mena_cfp_war_andalusian_helmet_01
 				1 = male_headgear_secular_mena_cfp_war_andalusian_helmet_02
 				1 = male_headgear_secular_mena_cfp_war_mamluk_helmet_01
