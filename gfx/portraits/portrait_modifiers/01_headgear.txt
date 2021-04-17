@@ -4823,6 +4823,7 @@ headgear = {
 				add = -1000
 				cfp_portrait_norse_clothing_trigger = yes
 				has_fp1_dlc_trigger = yes
+				NOT = { has_government = republic_government }
 			}
 		}
 	}
@@ -4871,6 +4872,7 @@ headgear = {
 				add = -1000
 				cfp_portrait_norse_clothing_trigger = yes
 				has_fp1_dlc_trigger = yes
+				NOT = { has_government = republic_government }
 			}
 		}
 	}
@@ -4936,6 +4938,7 @@ headgear = {
 				add = -1000
 				cfp_portrait_norse_clothing_trigger = yes
 				has_fp1_dlc_trigger = yes
+				NOT = { has_government = republic_government }
 			}
 		}
 	}
