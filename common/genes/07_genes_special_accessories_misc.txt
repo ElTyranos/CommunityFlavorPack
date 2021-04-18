@@ -337,6 +337,7 @@ accessory_genes = {
 				1 = male_cloaks_secular_western_royalty_01
 				1 = male_cloaks_secular_mena_cfp_taylasan_01
 				1 = male_cloaks_secular_mena_cfp_taylasan_02
+				1 = male_cloaks_secular_mena_cfp_double_harness_01
 			}
 			female = {
 				1 = female_cloaks_secular_western_royalty_01
