@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -233,6 +233,8 @@ accessory_genes = {
 				10 = male_headgear_secular_dde_abbasid_common_02
 				5 = male_headgear_secular_mena_cfp_bonnet_low_01
 				5 = male_headgear_secular_mena_cfp_zamt_01
+				5 = male_headgear_secular_mena_cfp_tagelmust_01
+				5 = male_headgear_secular_mena_cfp_tagelmust_02
 			
 			}
 			female = {
