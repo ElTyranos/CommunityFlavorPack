@@ -1,4 +1,4 @@
-﻿cfp_allow_nudity_in_barbershop_trigger = {
+cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -86,6 +86,15 @@ cfp_portrait_bedouin_clothing_trigger = {
 # wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
+		primary_title.tier = tier_duchy
+		AND = {
+			primary_title.tier >= tier_duchy
+			portrait_mena_clothing_trigger = yes
+		}
+	}
+	OR = {
+		is_commanding_army = yes
+		has_council_position = councillor_marshal
 		AND = {
 			is_ruler = yes
 			has_government = mercenary_government
@@ -94,39 +103,6 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 			is_ruler = yes
 			has_government = holy_order_government
 		}
-		has_trait = order_member
-		AND = {
-			is_commanding_army = yes
-			OR = {
-				is_landed = no
-				AND = {
-					exists = primary_title
-					primary_title.tier = tier_duchy
-				}
-			}
-		}
-		AND = {
-			is_knight = yes
-			is_councillor = no
-			OR = {
-				is_landed = no
-				AND = {
-					exists = primary_title
-					primary_title.tier = tier_duchy
-					liege = {
-						is_at_war = yes
-					}
-				}
-			}
-		}
-		AND = {
-			has_council_position = councillor_marshal
-			OR = {
-				is_landed = no
-				primary_title.tier = tier_duchy
-			}
-		}
-		# has_character_flag = is_currently_varangian # added in 1.3 - irrelevant ?
 	}
 	NAND = {
 		has_trait = peasant_leader
