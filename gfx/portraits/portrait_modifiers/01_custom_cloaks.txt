@@ -1,4 +1,4 @@
-custom_cloaks = {
+﻿custom_cloaks = {
 	usage = customization
 	interface_position = 4
 	
@@ -128,4 +128,33 @@ custom_cloaks = {
 		}
 		template = norman_war
 	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					portrait_mena_clothing_trigger = yes
+				}
+				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
+			}
+		}
+		template = berber_high_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					portrait_mena_clothing_trigger = yes
+				}
+				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
+			}
+		}
+		template = religious_muslim_cloak
+	}
+		
 }
