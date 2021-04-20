@@ -1,9 +1,9 @@
-﻿cfp_allow_nudity_in_barbershop_trigger = {
+cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
 
-# Cultural triggers
+# NORTH
 cfp_portrait_norse_clothing_trigger = {
 	scope:culture = { has_graphical_culture = fp1_norse_clothing_gfx }
 }
@@ -41,6 +41,8 @@ cfp_portrait_norman_sicily_clothing_trigger = {
 		location.province_owner.capital_province = { geographical_region = world_europe_south_italy }
 	}
 }
+
+## EAST
 cfp_portrait_hungarian_clothing_trigger = {
 	has_culture = culture:hungarian
 }
@@ -51,12 +53,6 @@ cfp_portrait_dde_turkic_clothing_trigger = {
 	has_culture_group = culture_group:turkic_group
 	has_dlc = "Fashion of the Abbasid Court" # required to assign DLC armors to Cumans
 }
-cfp_portrait_latin_clothing_trigger = {
-	has_culture_group = culture_group:latin_group
-}
-cfp_portrait_iberian_clothing_trigger = {
-	has_culture_group = culture_group:iberian_group
-}
 cfp_portrait_slavic_clothing_trigger = {
 	OR = {
 		has_culture_group = culture_group:east_slavic_group
@@ -64,6 +60,16 @@ cfp_portrait_slavic_clothing_trigger = {
 		has_culture_group = culture_group:south_slavic_group
 	}
 }
+
+## WESTERN
+cfp_portrait_latin_clothing_trigger = {
+	has_culture_group = culture_group:latin_group
+}
+cfp_portrait_iberian_clothing_trigger = {
+	has_culture_group = culture_group:iberian_group
+}
+
+## MENA
 cfp_portrait_iranian_clothing_trigger = {
 	has_culture_group = culture_group:iranian_group
 }
@@ -136,7 +142,7 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 	}
 }
 
-# Era or innovation triggers
+## ERA OR INNOVATION TRIGGERS
 cfp_era_high_medieval_trigger = {
 	scope:culture = { has_cultural_era_or_later = culture_era_high_medieval }
 }
@@ -160,7 +166,7 @@ cfp_innovation_ermine_cloaks_trigger = {
 	scope:culture = { has_innovation = innovation_ermine_cloaks }
 }
 
-# Overwritting default classes
+## OVERWRITTING DEFAULT CLASSES
 portrait_steppe_clothing_trigger = {
 	scope:culture = { has_graphical_culture = mongol_clothing_gfx }
 	NOR = {
