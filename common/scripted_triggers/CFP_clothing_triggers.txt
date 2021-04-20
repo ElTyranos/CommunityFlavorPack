@@ -128,6 +128,9 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 cfp_era_high_medieval_trigger = {
 	scope:culture = { has_cultural_era_or_later = culture_era_high_medieval }
 }
+cfp_era_late_medieval_trigger = {
+	scope:culture = { has_cultural_era_or_later = culture_era_late_medieval }
+}
 cfp_innovation_plate_armor_trigger = {
 	scope:culture = { has_innovation = innovation_plate_armor }
 	# We need conditions to avoid clipping with blendshapes due to model exporter issues

@@ -2362,7 +2362,7 @@ headgear = {
 			modifier = {
 				add = 101
 				cfp_portrait_slavic_clothing_trigger = yes
-				NOT = { culture = { has_cultural_era_or_later = culture_era_high_medieval } }
+				cfp_era_late_medieval_trigger = yes
 				OR = {
 					primary_title = title:d_dyrrachion
 					primary_title = title:k_epirus
@@ -3640,7 +3640,7 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_mena_clothing_trigger = yes
 				cfp_portrait_wear_helmet_high_noble_trigger = yes
-				# cfp_era_high_medieval_trigger = yes
+				cfp_era_high_medieval_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -3761,6 +3761,7 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				cfp_portrait_wear_helmet_high_noble_trigger = yes
 				cfp_portrait_andalusian_clothing_trigger = yes
+				cfp_era_late_medieval_trigger = yes
 				
 				NOR = {
 				    AND = {
