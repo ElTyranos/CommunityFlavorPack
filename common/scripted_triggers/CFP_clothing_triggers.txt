@@ -1,4 +1,4 @@
-cfp_allow_nudity_in_barbershop_trigger = {
+﻿cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -73,11 +73,14 @@ cfp_portrait_iberian_clothing_trigger = {
 cfp_portrait_iranian_clothing_trigger = {
 	has_culture_group = culture_group:iranian_group
 }
-cfp_portrait_arabic_clothing_trigger = {
-	has_culture_group = culture_group:arabic_group
-}
 cfp_portrait_berber_clothing_trigger = {
 	has_culture_group = culture_group:berber_group
+}
+cfp_portrait_andalusian_clothing_trigger = {
+	has_culture = culture:andalusian
+}
+cfp_portrait_bedouin_clothing_trigger = {
+	has_culture = culture:bedouin
 }
 
 # wear_helmet_trigger but for dukes
