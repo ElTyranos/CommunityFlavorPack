@@ -154,7 +154,7 @@
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
 			}
 		}
-		template = religious_muslim_cloak
+		template = religious_muslim
 	}
 		
 }

@@ -443,7 +443,7 @@ accessory_genes = {
 				1 = female_cloaks_secular_western_cfp_crusades_02
 			}
 		}
-		religious_muslim_cloak = {
+		religious_muslim = {
 			index = 12
 			male = {
 				1 = male_cloaks_secular_mena_cfp_taylasan_01
