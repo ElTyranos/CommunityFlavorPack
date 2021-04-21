@@ -1803,12 +1803,12 @@ accessory_genes = {
 			male = {
 				1 = male_headgear_secular_iranian_cfp_war_khud_01
 				1 = male_headgear_secular_iranian_cfp_war_khud_02
-				1 = male_headgear_secular_iranian_cfp_war_ilkanate_helmet_01
+				1 = male_headgear_secular_iranian_cfp_war_ilkanate_01
 			}
 			female = {
 				1 = female_headgear_secular_iranian_cfp_war_khud_01
 				1 = female_headgear_secular_iranian_cfp_war_khud_02
-				1 = female_headgear_secular_iranian_cfp_war_ilkanate_helmet_01
+				1 = female_headgear_secular_iranian_cfp_war_ilkanate_01
 			}
 			boy = male
             girl = female
