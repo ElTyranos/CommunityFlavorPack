@@ -3837,7 +3837,7 @@ headgear = {
 				cfp_portrait_egyptian_clothing_trigger = yes
 			}
 			modifier = {
-				add = 20
+				add = 40
 				is_male = yes
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -4235,7 +4235,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 102
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_iranian_clothing_trigger = yes
