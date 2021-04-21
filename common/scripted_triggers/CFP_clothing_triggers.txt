@@ -3,7 +3,7 @@
 	age >= 18
 }
 
-# Cultural triggers
+# NORTH
 cfp_portrait_norse_clothing_trigger = {
 	scope:culture = { has_graphical_culture = fp1_norse_clothing_gfx }
 }
@@ -41,6 +41,8 @@ cfp_portrait_norman_sicily_clothing_trigger = {
 		location.province_owner.capital_province = { geographical_region = world_europe_south_italy }
 	}
 }
+
+## EAST
 cfp_portrait_hungarian_clothing_trigger = {
 	has_culture = culture:hungarian
 }
@@ -51,12 +53,6 @@ cfp_portrait_dde_turkic_clothing_trigger = {
 	has_culture_group = culture_group:turkic_group
 	has_dlc = "Fashion of the Abbasid Court" # required to assign DLC armors to Cumans
 }
-cfp_portrait_latin_clothing_trigger = {
-	has_culture_group = culture_group:latin_group
-}
-cfp_portrait_iberian_clothing_trigger = {
-	has_culture_group = culture_group:iberian_group
-}
 cfp_portrait_slavic_clothing_trigger = {
 	OR = {
 		has_culture_group = culture_group:east_slavic_group
@@ -64,19 +60,44 @@ cfp_portrait_slavic_clothing_trigger = {
 		has_culture_group = culture_group:south_slavic_group
 	}
 }
+
+## WESTERN
+cfp_portrait_latin_clothing_trigger = {
+	has_culture_group = culture_group:latin_group
+}
+cfp_portrait_iberian_clothing_trigger = {
+	has_culture_group = culture_group:iberian_group
+}
+
+## MENA
 cfp_portrait_iranian_clothing_trigger = {
 	has_culture_group = culture_group:iranian_group
 }
-cfp_portrait_arabic_clothing_trigger = {
-	has_culture_group = culture_group:arabic_group
-}
 cfp_portrait_berber_clothing_trigger = {
 	has_culture_group = culture_group:berber_group
+}
+cfp_portrait_andalusian_clothing_trigger = {
+	has_culture = culture:andalusian
+}
+cfp_portrait_bedouin_clothing_trigger = {
+	has_culture = culture:bedouin
+}
+cfp_portrait_egyptian_clothing_trigger = {
+	has_culture = culture:egyptian
 }
 
 # wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
+		primary_title.tier = tier_duchy
+		AND = {
+			primary_title.tier >= tier_duchy
+			portrait_mena_clothing_trigger = yes
+		}
+	}
+	OR = {
+		is_commanding_army = yes
+		has_council_position = councillor_marshal
 		AND = {
 			is_ruler = yes
 			has_government = mercenary_government
@@ -85,39 +106,6 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 			is_ruler = yes
 			has_government = holy_order_government
 		}
-		has_trait = order_member
-		AND = {
-			is_commanding_army = yes
-			OR = {
-				is_landed = no
-				AND = {
-					exists = primary_title
-					primary_title.tier = tier_duchy
-				}
-			}
-		}
-		AND = {
-			is_knight = yes
-			is_councillor = no
-			OR = {
-				is_landed = no
-				AND = {
-					exists = primary_title
-					primary_title.tier = tier_duchy
-					liege = {
-						is_at_war = yes
-					}
-				}
-			}
-		}
-		AND = {
-			has_council_position = councillor_marshal
-			OR = {
-				is_landed = no
-				primary_title.tier = tier_duchy
-			}
-		}
-		# has_character_flag = is_currently_varangian # added in 1.3 - irrelevant ?
 	}
 	NAND = {
 		has_trait = peasant_leader
@@ -136,9 +124,12 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 	}
 }
 
-# Era or innovation triggers
+## ERA OR INNOVATION TRIGGERS
 cfp_era_high_medieval_trigger = {
 	scope:culture = { has_cultural_era_or_later = culture_era_high_medieval }
+}
+cfp_era_late_medieval_trigger = {
+	scope:culture = { has_cultural_era_or_later = culture_era_late_medieval }
 }
 cfp_innovation_plate_armor_trigger = {
 	scope:culture = { has_innovation = innovation_plate_armor }
@@ -160,7 +151,7 @@ cfp_innovation_ermine_cloaks_trigger = {
 	scope:culture = { has_innovation = innovation_ermine_cloaks }
 }
 
-# Overwritting default classes
+## OVERWRITTING DEFAULT CLASSES
 portrait_steppe_clothing_trigger = {
 	scope:culture = { has_graphical_culture = mongol_clothing_gfx }
 	NOR = {

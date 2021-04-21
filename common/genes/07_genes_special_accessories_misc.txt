@@ -443,8 +443,27 @@ accessory_genes = {
 				1 = female_cloaks_secular_western_cfp_crusades_02
 			}
 		}
-		norse_war = {
+		religious_muslim = {
 			index = 12
+			male = {
+				1 = male_cloaks_secular_mena_cfp_taylasan_01
+				1 = male_cloaks_secular_mena_cfp_taylasan_02
+			}
+			female = {
+				1 = empty
+			}
+		}
+		berber_high_nobility = {
+			index = 13
+			male = {
+				1 = male_cloaks_secular_mena_cfp_double_harness_01
+			}
+			female = {
+				1 = empty
+			}
+		}
+		norse_war = {
+			index = 14
 			male = {
 				1 = empty
 				1 = male_cloaks_secular_northern_war_viking_shield_01
@@ -455,7 +474,7 @@ accessory_genes = {
 			}
 		}
 		norman_war = {
-			index = 13
+			index = 15
 			male = {
 				1 = empty
 				1 = male_cloaks_secular_western_war_norman_shield_01

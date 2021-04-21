@@ -2362,7 +2362,7 @@ headgear = {
 			modifier = {
 				add = 101
 				cfp_portrait_slavic_clothing_trigger = yes
-				NOT = { culture = { has_cultural_era_or_later = culture_era_high_medieval } }
+				cfp_era_late_medieval_trigger = yes
 				OR = {
 					primary_title = title:d_dyrrachion
 					primary_title = title:k_epirus
@@ -3563,7 +3563,406 @@ headgear = {
 			}
 		}
 	}
+		
+	mena_war_high_medieval = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_war_high_medieval
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
+				portrait_wear_helmet_trigger = yes
+				portrait_mena_clothing_trigger = yes
+				cfp_era_high_medieval_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+
+	mena_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_war_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
+				portrait_mena_clothing_trigger = yes
+				cfp_portrait_wear_helmet_high_noble_trigger = yes
+				cfp_era_high_medieval_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+
+## Andalusians
+
+	andalusian_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = andalusian_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
+				portrait_wear_helmet_trigger = yes
+				cfp_portrait_andalusian_clothing_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
 	
+	andalusian_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = andalusian_war_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
+				cfp_portrait_wear_helmet_high_noble_trigger = yes
+				cfp_portrait_andalusian_clothing_trigger = yes
+				cfp_era_late_medieval_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+
+## Egyptians
+
+	egyptian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = egyptian_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				is_male = yes
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				cfp_portrait_egyptian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 40
+				is_male = yes
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				cfp_portrait_egyptian_clothing_trigger = yes
+			}
+		}
+	}
+
+
+## Bedouins
+
+	bedouin_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = bedouin_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				is_male = yes
+				highest_held_title_tier <= tier_county
+				NOR = {
+					has_game_rule = never_cfp_fullplate_helmets
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				OR = {
+					cfp_portrait_bedouin_clothing_trigger = yes
+					cfp_portrait_berber_clothing_trigger = yes				
+				}
+				AND = {
+					exists = primary_spouse
+					OR = {
+						is_ruler = no
+						highest_held_title_tier = tier_barony
+					}
+					primary_spouse = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						OR = {
+							cfp_portrait_bedouin_clothing_trigger = yes
+							cfp_portrait_berber_clothing_trigger = yes				
+						}
+						NOT = { has_game_rule = never_cfp_fullplate_helmets }
+					}
+				}
+			}
+			modifier = {
+				add = 80
+				is_male = yes
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				OR = {
+					cfp_portrait_bedouin_clothing_trigger = yes
+					cfp_portrait_berber_clothing_trigger = yes				
+				}
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+			}
+			modifier = {
+				add = 80
+				is_male = yes
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				OR = {
+					cfp_portrait_bedouin_clothing_trigger = yes
+					cfp_portrait_berber_clothing_trigger = yes				
+				}
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+			}
+			modifier = {
+				add = 80
+				is_male = yes
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				OR = {
+					cfp_portrait_bedouin_clothing_trigger = yes
+					cfp_portrait_berber_clothing_trigger = yes				
+				}
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+			}
+		}
+	}
+
+
+
 ##  Iranians ##
 
 	iranian_commoners = {
@@ -3824,6 +4223,66 @@ headgear = {
 		}
 	}
 	
+	iranian_war_high_medieval = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iranian_war_high_medieval
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 102
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
+				portrait_wear_helmet_trigger = yes
+				cfp_portrait_iranian_clothing_trigger = yes
+				cfp_era_high_medieval_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+	
 
 	
 ## DDE ABBASID ##
@@ -4034,24 +4493,9 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101 # slightly higher than mena
-				OR = { # This helmet is really fancy & gilded - it's nothing for commoners. We allow Dukes+ to use it sometimes, just because it suits them!
-					AND = {
-						has_council_position = councillor_marshal
-						OR = {
-							is_landed = no
-							primary_title.tier >= tier_duchy
-						}
-					}
-					AND = {
-						is_commanding_army = yes
-						AND = {
-							exists = primary_title
-							primary_title.tier >= tier_duchy
-						}
-					}
-				}
 				portrait_mena_clothing_trigger = yes
-				
+				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
+				cfp_portrait_wear_helmet_high_noble_trigger = yes
 				NOR = {
 				    AND = {
 				        religion = religion:christianity_religion
@@ -4089,21 +4533,6 @@ headgear = {
 				            }
 				        }
 				    }
-					AND = {
-						has_trait = peasant_leader
-						OR = {
-							is_ruler = no
-							is_leading_faction_type = peasant_faction
-							AND = {
-								is_ruler = yes
-								is_landed = no
-								OR = {
-									has_government = feudal_government
-									has_government = clan_government
-								}
-							}
-						}
-					}
 				}
 			}
 		}

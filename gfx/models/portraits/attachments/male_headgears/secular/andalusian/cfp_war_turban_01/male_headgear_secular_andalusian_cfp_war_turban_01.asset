@@ -1,0 +1,25 @@
+pdxmesh = {
+	name = "male_headgear_secular_andalusian_cfp_war_turban_01_mesh"
+	file = "male_headgear_secular_andalusian_cfp_war_turban_01.mesh"
+
+	meshsettings = {
+		name = "male_headgear_secular_andalusian_cfp_war_turban_01Shape"
+		index = 0
+		texture_diffuse = "andalusian_cfp_war_turban_01_diffuse.dds"
+		texture_normal = "andalusian_cfp_war_turban_01_normal.dds"
+		texture_specular = "andalusian_cfp_war_turban_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_andalusian_cfp_war_turban_01_entity"
+	pdxmesh = "male_headgear_secular_andalusian_cfp_war_turban_01_mesh"
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/andalusian/cfp_war_turban_01/andalusian_cfp_war_turban_01_masks.dds"
+			variation = "mena_common_01"
+		}
+	}
+}

@@ -530,6 +530,76 @@ cloaks = {
 		}
 	}
 
+	berber_high_nobles = {
+		# outfit_tags = { rank_headgear } 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				
+				gene = cloaks
+				template = berber_high_nobility
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cfp_portrait_berber_clothing_trigger = yes
+				OR = {
+					is_independent_ruler = yes
+					highest_held_title_tier >= tier_duchy
+				}
+				NOR = {
+					is_adult = no
+					portrait_wear_armor_trigger = yes
+					has_government = theocracy_government
+					has_government = republic_government
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+				}
+			}
+		}
+	}
+
+
+	religious_muslim = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = religious_muslim
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 111
+				portrait_mena_clothing_trigger = yes
+				religion = religion:islam_religion
+				OR = {
+					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
+					AND = { is_ruler = yes has_government = theocracy_government }
+					has_trait = devoted
+					has_trait = theologian
+				}
+				NOR = {
+					is_adult = no
+					# portrait_wear_armor_trigger = yes
+					has_government = theocracy_government
+					has_government = republic_government
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+				}
+			}
+	    }
+	}
+
+
 #
 #	pope = {
 #	    dna_modifiers = {
