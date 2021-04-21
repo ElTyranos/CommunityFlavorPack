@@ -266,13 +266,13 @@ accessory_genes = {
 				1 = male_headgear_secular_crusades_mena_war_nobility_01
 				1 = male_headgear_secular_mena_cfp_war_mail_coif_01
 				1 = male_headgear_secular_mena_cfp_war_mail_coif_02
-				1 = male_headgear_secular_mena_cfp_war_striped_helmet_01
+				1 = male_headgear_secular_mena_cfp_war_striped_01
 			}
 			female = {
 				1 = female_headgear_secular_mena_war_nobility_01
 				1 = female_headgear_secular_mena_cfp_war_mail_coif_01
 				1 = female_headgear_secular_mena_cfp_war_mail_coif_02
-				1 = female_headgear_secular_mena_cfp_war_striped_helmet_01
+				1 = female_headgear_secular_mena_cfp_war_striped_01
 			}
 			boy = male
             girl = female
@@ -1871,10 +1871,10 @@ accessory_genes = {
 		mena_war_high_medieval = {
 			index = 122
 			male = {
-				1 = male_headgear_secular_mena_cfp_war_turban_helmet_01
+				1 = male_headgear_secular_mena_cfp_war_turban_01
 			}
 			female = {
-				1 = female_headgear_secular_mena_cfp_war_turban_helmet_01		
+				1 = female_headgear_secular_mena_cfp_war_turban_01		
 			}
 			boy = male
             girl = female
@@ -1883,10 +1883,10 @@ accessory_genes = {
 		mena_war_high_nobility = {
 			index = 123
 			male = {
-				1 = male_headgear_secular_mena_cfp_war_mamluk_helmet_01
+				1 = male_headgear_secular_mena_cfp_war_mamluk_01
 			}
 			female = {
-				1 = female_headgear_secular_mena_cfp_war_mamluk_helmet_01		
+				1 = female_headgear_secular_mena_cfp_war_mamluk_01		
 			}
 			boy = male
             girl = female

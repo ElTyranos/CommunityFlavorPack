@@ -815,33 +815,33 @@ female_headgear_secular_mena_cfp_war_mail_coif_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_mena_cfp_war_mail_coif_02_entity 	 }		
 }
 
-male_headgear_secular_mena_cfp_war_turban_helmet_01 = {
+male_headgear_secular_mena_cfp_war_turban_01 = {
 	set_tags = "no_hair"
 	set_tags = "hood_beard"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_war_turban_helmet_01_entity 	 }		
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_war_turban_01_entity 	 }		
 }
-female_headgear_secular_mena_cfp_war_turban_helmet_01 = {
+female_headgear_secular_mena_cfp_war_turban_01 = {
 	set_tags = "no_hair"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_mena_cfp_war_turban_helmet_01_entity 	 }		
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_mena_cfp_war_turban_01_entity 	 }		
 }
 
-male_headgear_secular_mena_cfp_war_striped_helmet_01 = {
+male_headgear_secular_mena_cfp_war_striped_01 = {
 	set_tags = "cap,cap_02"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_war_striped_helmet_01_entity 	 }		
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_war_striped_01_entity 	 }		
 }
-female_headgear_secular_mena_cfp_war_striped_helmet_01 = {
+female_headgear_secular_mena_cfp_war_striped_01 = {
 	set_tags = "cap,cap_02"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_mena_cfp_war_striped_helmet_01_entity 	 }		
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_mena_cfp_war_striped_01_entity 	 }		
 }
 
-male_headgear_secular_mena_cfp_war_mamluk_helmet_01 = {
+male_headgear_secular_mena_cfp_war_mamluk_01 = {
 	set_tags = "no_hair"
 	set_tags = "hood_beard"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_war_mamluk_helmet_01_entity 	 }		
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_war_mamluk_01_entity 	 }		
 }
-female_headgear_secular_mena_cfp_war_mamluk_helmet_01 = {
+female_headgear_secular_mena_cfp_war_mamluk_01 = {
 	set_tags = "no_hair"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_mena_cfp_war_mamluk_helmet_01_entity 	 }		
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_mena_cfp_war_mamluk_01_entity 	 }		
 }
 
 ## Andalusian
