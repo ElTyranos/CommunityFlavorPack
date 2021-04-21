@@ -1895,12 +1895,12 @@ accessory_genes = {
 		andalusian_war = {
 			index = 124
 			male = {
-				1 = male_headgear_secular_mena_cfp_war_andalusian_helmet_01
-				1 = male_headgear_secular_mena_cfp_war_andalusian_helmet_02
+				1 = male_headgear_secular_andalusian_cfp_war_turban_helmet_01
+				1 = male_headgear_secular_andalusian_cfp_war_nasal_helmet_01
 			}
 			female = {
-				1 = female_headgear_secular_mena_cfp_war_andalusian_helmet_01
-				1 = female_headgear_secular_mena_cfp_war_andalusian_helmet_02	
+				1 = female_headgear_secular_andalusian_cfp_war_turban_helmet_01
+				1 = female_headgear_secular_andalusian_cfp_war_nasal_helmet_01	
 			}
 			boy = male
             girl = female
@@ -1909,10 +1909,10 @@ accessory_genes = {
 		andalusian_war_high_nobility = {
 			index = 125
 			male = {
-				1 = male_headgear_secular_mena_cfp_war_sallet_helmet_01
+				1 = male_headgear_secular_andalusian_cfp_war_sallet_helmet_01
 			}
 			female = {
-				1 = female_headgear_secular_mena_cfp_war_sallet_helmet_01
+				1 = female_headgear_secular_andalusian_cfp_war_sallet_helmet_01
 			}
 			boy = male
             girl = female
