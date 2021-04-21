@@ -1,6 +1,6 @@
 pdxmesh = {
 	name = "male_headgear_secular_mena_cfp_war_mail_coif_01_mesh"
-	file = "male_headgear_secular_mena_cfp_war_mail_coif_01.mesh"
+	file = "male_headgear_secular_mena_cfp_war_mail_coif_01.mesh" #	blend_shape = { id = "male_headgear_secular_mena_cfp_war_mail_coif_01_bs_fat"		type = "male_headgear_secular_mena_cfp_war_mail_coif_01_bs_fat.mesh" }
 
 	meshsettings = {
 		name = "male_headgear_secular_mena_cfp_war_mail_coif_01Shape"
@@ -15,5 +15,5 @@ pdxmesh = {
 
 entity = {
 	name = "male_headgear_secular_mena_cfp_war_mail_coif_01_entity"
-	pdxmesh = "male_headgear_secular_mena_cfp_war_mail_coif_01_mesh"
+	pdxmesh = "male_headgear_secular_mena_cfp_war_mail_coif_01_mesh" # attribute = { name = "bs_body_fat_1"					blend_shape = "male_headgear_secular_mena_cfp_war_mail_coif_01_bs_fat" }
 }

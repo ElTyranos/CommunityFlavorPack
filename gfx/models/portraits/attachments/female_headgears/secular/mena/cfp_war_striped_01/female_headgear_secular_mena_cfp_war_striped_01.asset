@@ -5,9 +5,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "female_headgear_secular_mena_cfp_war_striped_01Shape"
 		index = 0
-		texture_diffuse = "mena_cfp_war_striped_helmet_01_diffuse.dds"
-		texture_normal = "mena_cfp_war_striped_helmet_01_normal.dds"
-		texture_specular = "mena_cfp_war_striped_helmet_01_properties.dds"
+		texture_diffuse = "mena_cfp_war_striped_01_diffuse.dds"
+		texture_normal = "mena_cfp_war_striped_01_normal.dds"
+		texture_specular = "mena_cfp_war_striped_01_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}

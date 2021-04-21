@@ -1,6 +1,8 @@
 pdxmesh = {
 	name = "female_headgear_secular_mena_cfp_war_mamluk_01_mesh"
 	file = "female_headgear_secular_mena_cfp_war_mamluk_01.mesh"
+	
+	blend_shape = { id = "female_headgear_secular_mena_cfp_war_mamluk_01_bs_fat"		type = "female_headgear_secular_mena_cfp_war_mamluk_01_bs_fat.mesh" }
 
 	meshsettings = {
 		name = "female_headgear_secular_mena_cfp_war_mamluk_01Shape"
@@ -16,4 +18,6 @@ pdxmesh = {
 entity = {
 	name = "female_headgear_secular_mena_cfp_war_mamluk_01_entity"
 	pdxmesh = "female_headgear_secular_mena_cfp_war_mamluk_01_mesh"
+	
+	attribute = { name = "bs_body_fat_1"					blend_shape = "female_headgear_secular_mena_cfp_war_mamluk_01_bs_fat" }
 }

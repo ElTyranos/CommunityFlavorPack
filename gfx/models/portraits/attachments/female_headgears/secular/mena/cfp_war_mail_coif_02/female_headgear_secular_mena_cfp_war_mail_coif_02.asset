@@ -1,6 +1,6 @@
 pdxmesh = {
 	name = "female_headgear_secular_mena_cfp_war_mail_coif_02_mesh"
-	file = "female_headgear_secular_mena_cfp_war_mail_coif_02.mesh"
+	file = "female_headgear_secular_mena_cfp_war_mail_coif_02.mesh" # blend_shape = { id = "male_headgear_secular_mena_cfp_war_mail_coif_02_bs_fat"		type = "male_headgear_secular_mena_cfp_war_mail_coif_02_bs_fat.mesh" }
 
 	meshsettings = {
 		name = "female_headgear_secular_mena_cfp_war_mail_coif_02Shape"
@@ -24,7 +24,8 @@ pdxmesh = {
 
 entity = {
 	name = "female_headgear_secular_mena_cfp_war_mail_coif_02_entity"
-	pdxmesh = "female_headgear_secular_mena_cfp_war_mail_coif_02_mesh"
+	pdxmesh = "female_headgear_secular_mena_cfp_war_mail_coif_02_mesh" # attribute = { name = "bs_body_fat_1"					blend_shape = "male_headgear_secular_mena_cfp_war_mail_coif_02_bs_fat" }
+	
 	game_data = {
 		portrait_accessory = {
 			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/mena/cfp_war_mail_coif_02/mena_cfp_war_mail_coif_02_masks.dds"
