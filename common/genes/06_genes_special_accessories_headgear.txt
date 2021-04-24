@@ -1405,7 +1405,7 @@ accessory_genes = {
             }
             boy = male
             girl = female
-        }	
+        }
 
         turkic_nobility = {
             index = 89
@@ -1420,7 +1420,7 @@ accessory_genes = {
             }
             boy = male
             girl = female
-        }	
+        }
 
 		turkic_common = {
 			index = 90
@@ -1942,7 +1942,37 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
+		oghuz_high_nobility = {
+            index = 128
+            male = {
+				5 = male_headgears_secular_turkic_high_nobility_01
+				5 = male_headgears_secular_turkic_high_nobility_02
+				
+            }
+            female = {
+                2 = female_headgear_secular_byzantine_common_01
+                3 = female_headgears_secular_turkic_high_nobility_01
+                5 = female_headgears_secular_turkic_high_nobility_02
+            }
+            boy = male
+            girl = female
+        }
 
+		oghuz_low_nobility = {
+            index = 129
+            male = {
+				5 = empty
+				10 = male_headgears_secular_turkic_low_nobility_01
+            }
+            female = {
+                5 = empty
+                10 = female_headgear_secular_steppe_common_01
+                10 = female_headgears_secular_turkic_low_nobility_01
+            }
+            boy = male
+            girl = female
+        }
 	}
 }
 

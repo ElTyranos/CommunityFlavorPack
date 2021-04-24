@@ -405,6 +405,16 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
+		template = oghuz_low_nobility
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = oghuz_high_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = turkic_royalty
 	}
 
