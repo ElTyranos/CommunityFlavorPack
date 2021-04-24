@@ -193,12 +193,12 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "@cfp_icon_red! Corona turca"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_02:1 "@cfp_icon_red! Diadema turca"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Turkic Low Nobility Boerk Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Turkic Low Nobility Hat"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_01:1 "@cfp_icon_red! Turkic High Nobility Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_01:0 "@cfp_icon_red! Turkic High Nobility Hat"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_02:1 "@cfp_icon_red! Turkic High Nobility Boerk Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_02:0 "@cfp_icon_red! Turkic High Nobility Hat 2"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Sombrero boerk túrquico de baja nobleza"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Sombrero túrquico de baja nobleza"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_01:1 "@cfp_icon_red! Sombrero túrquico de alta nobleza"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_01:0 "@cfp_icon_red! Sombrero túrquico de alta nobleza"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_02:1 "@cfp_icon_red! Sombrero túrquico boerk de alta nobleza"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_02:0 "@cfp_icon_red! Sombrero túrquico de alta nobleza 2"
  
 ## Cuman
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! Cuman Wicker Hat"
