@@ -190,16 +190,34 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nasal_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nasal_01$"
 
 ## Turkic
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "@cfp_icon_red! Тюркская корона"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_02:1 "@cfp_icon_red! Тюркская диадема"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Turkic Low Nobility Boerk Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Turkic Low Nobility Hat"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_01:1 "@cfp_icon_red! Turkic High Nobility Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_01:0 "@cfp_icon_red! Turkic High Nobility Hat"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_02:1 "@cfp_icon_red! Turkic High Nobility Boerk Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_02:0 "@cfp_icon_red! Turkic High Nobility Hat 2"
+ 
+## Cuman
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! Cuman Wicker Hat"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! Cuman Silk Hat"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! Cuman Leather Hat"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon_red! Cuman Embroidered Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! Cuman Pearl Headdress"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "@cfp_icon_red! Cuman Battle Mask"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_02:1 "@cfp_icon_red! Cuman Helmet"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! Плетёная шляпа Кумана"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! Шёлковая шляпа Кумана"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! Кожаная шляпа Кумана"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon_red! Вышитая шляпа Кумана"
- 
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! жемчужный головной убор Кумана"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "@cfp_icon_red! Тюркская корона"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_02:1 "@cfp_icon_red! Тюркская диадема"
-
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "@cfp_icon_red! Боевая маска Кумана"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01$"
  
