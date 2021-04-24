@@ -595,6 +595,32 @@ male_headgears_secular_turkic_royalty_02 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_royalty_02_entity 	 }		
 }
+male_headgears_secular_turkic_low_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_low_nobility_01_entity 	 }		
+}
+female_headgears_secular_turkic_low_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_turkic_low_nobility_01_entity 	 }		
+}
+male_headgears_secular_turkic_high_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_high_nobility_01_entity 	 }		
+}
+female_headgears_secular_turkic_high_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_turkic_high_nobility_01_entity 	 }		
+}
+male_headgears_secular_turkic_high_nobility_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_high_nobility_02_entity 	 }		
+}
+female_headgears_secular_turkic_high_nobility_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_turkic_high_nobility_02_entity 	 }		
+}
+
+## Cuman
 male_headgears_secular_turkic_low_cuman_nobility_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_turkic_low_cuman_nobility_01_entity 	 }		
