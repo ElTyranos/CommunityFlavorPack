@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -4902,7 +4902,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 80
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -4920,15 +4920,15 @@ headgear = {
 				}
 				OR = {
 					AND = {
+						highest_held_title_tier = tier_county
 						NOR = {
-							highest_held_title_tier = tier_duchy
+							# has_dynasty = no
 							AND = {
 								has_government = republic_government
 								primary_title.tier > 1
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						cfp_portrait_turkic_clothing_trigger = yes
 					}
 					AND = {
@@ -4938,8 +4938,9 @@ headgear = {
 							highest_held_title_tier = tier_barony
 						}
 						primary_spouse = {
-							OR = {
-								highest_held_title_tier = tier_duchy
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
 								AND = {
 									has_government = republic_government
 									primary_title.tier > 1
@@ -4963,11 +4964,11 @@ headgear = {
 				template = turkic_high_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
-		}		
+		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 80
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
