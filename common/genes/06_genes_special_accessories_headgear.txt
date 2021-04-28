@@ -1401,7 +1401,7 @@ accessory_genes = {
             }
             female = {
                 5 = female_headgears_secular_turkic_high_cuman_nobility_01
-                2 = female_headgear_secular_byzantine_common_01
+                2 = female_headgear_secular_byzantine_high_nobility_01
             }
             boy = male
             girl = female
