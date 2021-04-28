@@ -48,6 +48,7 @@
 				}
 				female = {
 					1 = female_accessories_cfp_byzantine_necklace_01
+					1 = female_accessories_cfp_african_earrings_01
 				}
 				boy = male
 				girl = female
