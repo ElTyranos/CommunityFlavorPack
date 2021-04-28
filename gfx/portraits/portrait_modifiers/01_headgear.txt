@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -4867,7 +4867,7 @@ headgear = {
 						}
 					}
 				}
-				portrait_steppe_clothing_trigger = yes
+				cfp_portrait_turkic_clothing_trigger = yes
 			}
 			modifier = {
 				add = 20
