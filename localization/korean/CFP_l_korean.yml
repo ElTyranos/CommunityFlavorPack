@@ -1,4 +1,4 @@
-l_korean:
+﻿l_korean:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "@cfp_icon! 코받이 투구 (목 보호구 없음)"
@@ -200,18 +200,7 @@ l_korean:
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_02:1 "@cfp_icon_red! 투르크 고위 귀족 뵈르크"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_02:0 "@cfp_icon_red! 투르크 고위 귀족 모자 2"
  
-## Cuman
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! Cuman Wicker Hat"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! Cuman Silk Hat"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! Cuman Leather Hat"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon_red! Cuman Embroidered Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! Cuman Pearl Headdress"
- 
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "@cfp_icon_red! Cuman Battle Mask"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01$"
- 
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_02:1 "@cfp_icon_red! Cuman Helmet"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_war_cuman_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_02$"
+## Cuman 
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! 쿠만 고리버들 모자"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! 쿠만 비단 모자"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! 쿠만 가죽 모자"
