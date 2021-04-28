@@ -1,4 +1,4 @@
-l_russian:
+﻿l_russian:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "@cfp_icon! Шлем с наносником (без бармицы)"
@@ -193,12 +193,12 @@ l_russian:
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_01:1 "@cfp_icon_red! Тюркская корона"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_royalty_02:1 "@cfp_icon_red! Тюркская диадема"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Turkic Low Nobility Boerk Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Turkic Low Nobility Hat"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_01:1 "@cfp_icon_red! Turkic High Nobility Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_01:0 "@cfp_icon_red! Turkic High Nobility Hat"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_02:1 "@cfp_icon_red! Turkic High Nobility Boerk Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_02:0 "@cfp_icon_red! Turkic High Nobility Hat 2"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Шляпа тюркского низшего дворянства"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_low_nobility_01:1 "@cfp_icon_red! Тюркская шапка низкого дворянства"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_01:1 "@cfp_icon_red! Тюркский головной убор высшего дворянства"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_01:0 "@cfp_icon_red! Тюркский головной убор высшего дворянства"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_nobility_02:1 "@cfp_icon_red! Тюркский головной убор из бурок"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_02:0 "@cfp_icon_red! Тюркский головной убор высшего дворянства 2"
  
 ## Cuman
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! Плетёная шляпа Кумана"
