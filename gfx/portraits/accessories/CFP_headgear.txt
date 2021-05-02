@@ -998,6 +998,40 @@ female_headgear_secular_iranian_cfp_war_ilkanate_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iranian_cfp_war_ilkanate_01_entity 	 }		
 }
 
+## African
+male_headgear_religious_african_cfp_mask_01 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_african_cfp_mask_01_entity 	 }		
+}
+female_headgear_religious_african_cfp_mask_01 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_religious_african_cfp_mask_01_entity 	 }		
+}
+male_headgear_religious_african_cfp_mask_02 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_african_cfp_mask_02_entity 	 }		
+}
+female_headgear_religious_african_cfp_mask_02 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_religious_african_cfp_mask_02_entity 	 }		
+}
+male_headgear_religious_african_cfp_mask_03 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_african_cfp_mask_03_entity 	 }		
+}
+female_headgear_religious_african_cfp_mask_03 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_religious_african_cfp_mask_03_entity 	 }		
+}
+male_headgear_religious_african_cfp_mask_04 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_african_cfp_mask_04_entity 	 }		
+}
+female_headgear_religious_african_cfp_mask_04 = {
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_religious_african_cfp_mask_04_entity 	 }		
+}
+
 ## Special
 male_headgear_special_cfp_glasses_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_01_entity 	 }
