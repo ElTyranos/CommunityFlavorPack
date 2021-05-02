@@ -1062,18 +1062,10 @@ accessory_genes = {
 			index = 67
 			male = {
 				1 = male_headgear_religious_african_high_01
-				1 = male_headgear_religious_african_cfp_mask_01
-				1 = male_headgear_religious_african_cfp_mask_02
-				1 = male_headgear_religious_african_cfp_mask_03
-				1 = male_headgear_religious_african_cfp_mask_04
 				
 			}
 			female = {
 				1 = female_headgear_religious_african_high_01
-				1 = female_headgear_religious_african_cfp_mask_01
-				1 = female_headgear_religious_african_cfp_mask_02
-				1 = female_headgear_religious_african_cfp_mask_03
-				1 = female_headgear_religious_african_cfp_mask_04
 				
 			}
 			boy = male
@@ -1981,6 +1973,28 @@ accessory_genes = {
             boy = male
             girl = female
         }
+		
+		african_religious_masks = {
+			index = 130
+			male = {
+				2 = male_headgear_religious_african_high_01
+				1 = male_headgear_religious_african_cfp_mask_01
+				1 = male_headgear_religious_african_cfp_mask_02
+				1 = male_headgear_religious_african_cfp_mask_03
+				1 = male_headgear_religious_african_cfp_mask_04
+				
+			}
+			female = {
+				2 = female_headgear_religious_african_high_01
+				1 = female_headgear_religious_african_cfp_mask_01
+				1 = female_headgear_religious_african_cfp_mask_02
+				1 = female_headgear_religious_african_cfp_mask_03
+				1 = female_headgear_religious_african_cfp_mask_04
+				
+			}
+			boy = male
+            girl = female
+		}
 	}
 }
 
