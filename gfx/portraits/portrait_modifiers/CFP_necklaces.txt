@@ -71,12 +71,12 @@
 		}
 	}
 	
-	western_royalty_ermine = {
+	african_low_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = western_royalty_ermine
+				template = african_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
