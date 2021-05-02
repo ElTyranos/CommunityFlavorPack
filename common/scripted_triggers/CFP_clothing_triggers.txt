@@ -89,6 +89,32 @@ cfp_portrait_egyptian_clothing_trigger = {
 	has_culture = culture:egyptian
 }
 
+## AFRICA
+cfp_portrait_east_africa_clothing_trigger = {
+	OR = {
+		has_culture_group = culture_group:east_african_group
+		has_culture_group = culture_group:somalian_group
+	}
+}
+cfp_portrait_central_africa_clothing_trigger = {
+	OR = {
+		has_culture_group = culture_group:central_african_group
+		has_culture_group = culture_group:yoruba_group
+	}
+}
+cfp_portrait_west_africa_clothing_trigger = {
+	OR = {
+		has_culture_group = culture_group:west_african_group
+		has_culture_group = culture_group:akan_group
+		has_culture_group = culture_group:senegambian_group
+		has_culture_group = culture_group:sahelian_group
+	}
+}
+cfp_portrait_afar_clothing_trigger = {
+	has_culture = culture:afar
+}
+
+
 # wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
