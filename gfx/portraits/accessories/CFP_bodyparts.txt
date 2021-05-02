@@ -1,0 +1,3 @@
+﻿cfp_afar_female_teeth_pointy = {
+	entity = { entity = "cfp_afar_female_teeth_entity"		shared_pose_entity = head }
+}
