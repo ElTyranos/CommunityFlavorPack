@@ -23,6 +23,7 @@
 				female = {
 					3 = empty
 					1 = female_accessories_cfp_african_earrings_01
+					1 = female_accessories_cfp_african_earrings_02
 				}
 				boy = male
 				girl = female
