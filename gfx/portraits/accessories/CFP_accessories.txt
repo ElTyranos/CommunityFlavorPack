@@ -53,3 +53,6 @@ female_accessories_cfp_african_necklace_01 = {
 female_accessories_cfp_african_earrings_01 = {
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_african_earrings_01_entity }
 }
+female_accessories_cfp_african_earrings_02 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_african_earrings_02_entity }
+}
