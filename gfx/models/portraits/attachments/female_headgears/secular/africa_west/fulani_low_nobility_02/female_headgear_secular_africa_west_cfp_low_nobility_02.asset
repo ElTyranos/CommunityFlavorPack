@@ -1,0 +1,43 @@
+pdxmesh = {
+	name = "female_headgear_secular_africa_west_cfp_low_nobility_02_mesh"
+	file = "female_headgear_secular_africa_west_cfp_low_nobility_02.mesh"
+
+	meshsettings = {
+		name = "female_headgear_secular_africa_west_cfp_low_nobility_02Shape"
+		index = 0
+		texture_diffuse = "female_africa_west_cfp_low_nobility_01_diffuse.dds"
+		texture_normal = "female_africa_west_cfp_low_nobility_01_normal.dds"
+		texture_specular = "female_africa_west_cfp_low_nobility_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "female_headgear_secular_africa_west_cfp_low_nobility_02_turbanS" # too long
+		index = 0
+		texture_diffuse = "female_headgear_secular_sub_saharan_common_01_diffuse.dds"
+		texture_normal = "female_headgear_secular_sub_saharan_common_01_normal.dds"
+		texture_specular = "female_headgear_secular_sub_saharan_common_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "female_headgear_secular_africa_west_cfp_low_nobility_02_hatS" # too long
+		index = 0
+		texture_diffuse = "male_africa_west_cfp_low_nobility_01_diffuse.dds"
+		texture_normal = "male_africa_west_cfp_low_nobility_01_normal.dds"
+		texture_specular = "male_africa_west_cfp_low_nobility_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_africa_west_cfp_low_nobility_02_entity"
+	pdxmesh = "female_headgear_secular_africa_west_cfp_low_nobility_02_mesh"
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/female_headgear/secular/sub_saharan/common_01/female_headgear_secular_sub_saharan_common_01_masks.dds"
+			variation = "western_nobility_low_01"
+		}
+	}
+}
