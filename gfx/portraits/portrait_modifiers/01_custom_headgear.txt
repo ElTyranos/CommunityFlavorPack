@@ -433,6 +433,17 @@
 		template = sub_saharan_common
 	}
 
+########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = west_african_low_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = west_african_high_nobility
+	}
+########### /CFP ###########
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sub_saharan_high_nobility

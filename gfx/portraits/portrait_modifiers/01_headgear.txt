@@ -6263,6 +6263,137 @@ headgear = {
 
 ## CFP Africans
 
+	west_african_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = west_african_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						cfp_portrait_west_africa_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							cfp_portrait_west_africa_clothing_trigger = yes
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	west_african_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = west_african_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						cfp_portrait_west_africa_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							cfp_portrait_west_africa_clothing_trigger = yes
+						}
+					}
+				}
+
+			}
+		}
+	}
+
 	african_religious_masks = {
 	    dna_modifiers = {
 	        accessory = {
