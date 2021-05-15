@@ -2021,6 +2021,18 @@ accessory_genes = {
             boy = male
             girl = female
         }
+		
+	    west_african_war = {
+            index = 133
+            male = {
+                1 = male_headgear_secular_africa_west_cfp_helmet_01
+            }
+            female = {
+            	1 = female_headgear_secular_africa_west_cfp_helmet_01
+            }
+            boy = male
+            girl = female
+        }
 
 	}
 }

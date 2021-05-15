@@ -463,6 +463,10 @@
 		gene = headgear
 		template = african_religious_masks
 	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = west_african_war
+	}
 ########### /CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
