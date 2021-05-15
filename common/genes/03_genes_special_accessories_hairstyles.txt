@@ -39,6 +39,9 @@ special_genes = {
 					1 = male_hair_byzantine_01
 					1 = male_hair_byzantine_02
 					1 = male_hair_sub_saharan_01
+				1 = cfp_male_hair_sub_saharan_01
+				1 = cfp_male_hair_sub_saharan_02
+				1 = cfp_male_hair_sub_saharan_03
 					1 = male_hair_sub_saharan_02
 					1 = male_hair_sub_saharan_03
 					1 = male_hair_rtt_01
@@ -258,6 +261,7 @@ special_genes = {
 				index = 5
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
 					2 = male_hair_sub_saharan_03 # Short dreads
 				}
@@ -332,6 +336,7 @@ special_genes = {
 				index = 9
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
 					2 = male_hair_sub_saharan_03 # Short dreads
 				}
@@ -407,6 +412,7 @@ special_genes = {
 				index = 13
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
 					2 = male_hair_sub_saharan_03 # Short dreads
 				}
@@ -498,6 +504,9 @@ special_genes = {
 				set_tags = "very_curly_hair"
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_02 # Short african 
+					2 = cfp_male_hair_sub_saharan_03 # Short african 
 					2 = male_hair_sub_saharan_02 # Small afro
 					2 = male_hair_sub_saharan_03 # Short dreads
 				}
@@ -576,6 +585,7 @@ special_genes = {
 				index = 21
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
 					2 = male_hair_sub_saharan_03 # Short dreads
 				}
@@ -658,6 +668,7 @@ special_genes = {
 				index = 25
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_01 # Short african 
 					2 = male_hair_sub_saharan_02 # Small afro
 					2 = male_hair_sub_saharan_03 # Short dreads
 				}
@@ -742,6 +753,9 @@ special_genes = {
 				index = 29
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_01 # Short african 
+					2 = cfp_male_hair_sub_saharan_02 # Short african 
+					2 = cfp_male_hair_sub_saharan_03 # Short african 
 					2 = male_hair_sub_saharan_02 # Small afro
 					2 = male_hair_sub_saharan_03 # Short dreads
 				}
