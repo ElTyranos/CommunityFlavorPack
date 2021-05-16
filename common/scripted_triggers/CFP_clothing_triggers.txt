@@ -114,7 +114,6 @@ cfp_portrait_afar_clothing_trigger = {
 	has_culture = culture:afar
 }
 
-
 # wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
