@@ -1078,6 +1078,18 @@ female_headgear_secular_africa_east_cfp_helmet_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_africa_east_cfp_helmet_01_entity 	 }		
 }
 
+## Central African
+male_headgear_secular_africa_central_cfp_high_nobility_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_africa_central_cfp_high_nobility_01_entity 	 }		
+}
+female_headgear_secular_africa_central_cfp_high_nobility_01 = {
+	# set_tags = "cap_02"
+	set_tags = "cap"
+	# set_tags = "headdress"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_africa_central_cfp_high_nobility_01_entity 	 }		
+}
+
 ## Special
 male_headgear_special_cfp_glasses_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_01_entity 	 }
