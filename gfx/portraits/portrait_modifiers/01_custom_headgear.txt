@@ -440,7 +440,23 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
+		template = central_african_low_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_low_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = west_african_high_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = central_african_high_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_high_nobility
 	}
 ########### /CFP ###########
 
@@ -466,6 +482,14 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = west_african_war
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = central_african_war
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_war
 	}
 ########### /CFP ###########
 	add_accessory_modifiers = {
