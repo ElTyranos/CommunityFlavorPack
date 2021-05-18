@@ -436,6 +436,10 @@
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
+		template = east_african_common
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = west_african_low_nobility
 	}
 	add_accessory_modifiers = {

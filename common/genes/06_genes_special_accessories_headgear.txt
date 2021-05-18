@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -2074,8 +2074,20 @@ accessory_genes = {
             girl = female
         }
 		
-	    east_african_low_nobility = {
+	    east_african_common = {
             index = 135
+            male = {
+				1 = empty
+            }
+            female = {
+            	1 = female_headgear_secular_africa_east_cfp_common_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_low_nobility = {
+            index = 136
             male = {
                 # 1 = male_headgear_secular_africa_west_cfp_low_nobility_01
                 # 1 = male_headgear_secular_africa_west_cfp_low_nobility_02
@@ -2089,7 +2101,7 @@ accessory_genes = {
         }
 		
 	    east_african_high_nobility = {
-            index = 136
+            index = 137
             male = {
                 # 1 = male_headgear_secular_africa_central_cfp_high_nobility_01
             }
@@ -2101,7 +2113,7 @@ accessory_genes = {
         }
 		
 	    east_african_war = {
-            index = 137
+            index = 138
             male = {
                 1 = male_headgear_secular_africa_east_cfp_helmet_01
             }
