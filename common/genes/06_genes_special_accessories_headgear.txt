@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -2099,7 +2099,7 @@ accessory_genes = {
 	    east_african_high_nobility = {
             index = 139
             male = {
-                # 1 = male_headgear_secular_africa_central_cfp_high_nobility_01
+                1 = male_headgear_secular_africa_east_cfp_high_nobility_01
             }
             female = {
             	# 1 = female_headgear_secular_africa_central_cfp_high_nobility_01
