@@ -1084,6 +1084,15 @@ male_headgear_secular_africa_east_cfp_high_nobility_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_africa_east_cfp_high_nobility_01_entity 	 }		
 }
 
+male_headgear_secular_africa_east_cfp_high_nobility_02 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_africa_east_cfp_high_nobility_02_entity 	 }		
+}
+female_headgear_secular_africa_east_cfp_high_nobility_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_africa_east_cfp_high_nobility_02_entity 	 }		
+}
+
 male_headgear_secular_africa_east_cfp_high_nobility_03 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_africa_east_cfp_high_nobility_03_entity 	 }		
