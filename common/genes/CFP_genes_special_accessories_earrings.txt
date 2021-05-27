@@ -1,4 +1,4 @@
-special_genes = {
+﻿special_genes = {
 	accessory_genes = {
 
 		special_accessories_earrings = {
@@ -96,6 +96,19 @@ special_genes = {
 				girl = female
 			}
 			
+			slavic_low_nobility = {
+				index =7
+				male = {
+					1 = male_accessories_cfp_slavic_earrings_01
+				}
+				female = {
+					3 = empty
+				}
+				boy = male
+				girl = female
+			}
+			
+
 		}
 
 	}
