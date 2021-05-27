@@ -473,6 +473,13 @@
 		gene = headgear
 		template = sub_saharan_royalty
 	}
+	
+########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_royalty
+	}
+########### /CFP ###########
 
 	add_accessory_modifiers = {
 		gene = headgear

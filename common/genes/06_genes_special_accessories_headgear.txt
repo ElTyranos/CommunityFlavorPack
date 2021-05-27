@@ -2106,14 +2106,25 @@ accessory_genes = {
             female = {
                 1 = female_headgear_secular_africa_east_cfp_high_nobility_01
                 1 = female_headgear_secular_africa_east_cfp_high_nobility_02
-            	1 = female_headgear_secular_africa_east_cfp_royalty_01 # no
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_royalty = {
+            index = 140
+            male = {
+                1 = male_headgear_secular_africa_east_cfp_royalty_01
+            }
+            female = {
+            	1 = female_headgear_secular_africa_east_cfp_royalty_01
             }
             boy = male
             girl = female
         }
 		
 	    east_african_war = {
-            index = 140
+            index = 141
             male = {
                 1 = male_headgear_secular_africa_east_cfp_helmet_01
             }
