@@ -1,4 +1,4 @@
-﻿special_genes = {
+special_genes = {
 	accessory_genes = {
 
 		special_accessories_earrings = {
@@ -15,8 +15,46 @@
 				girl = female
 			}
 
-			african_low_nobility = {
+			western_low_nobility = {
 				index = 1
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+			
+			byzantine_low_nobility = {
+				index = 2
+				male = {
+					1 = empty
+				}
+				female = {
+					3 = empty
+					1 = female_accessories_cfp_byzantine_earrings_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			mena_low_nobility = {
+				index = 3
+				male = {
+					1 = empty
+				}
+				female = {
+					3 = empty
+					1 = female_accessories_cfp_mena_earrings_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			african_low_nobility = {
+				index = 4
 				male = {
 					1 = empty
 				}
@@ -28,7 +66,36 @@
 				boy = male
 				girl = female
 			}
-
+			
+			indian_low_nobility = {
+				index = 5
+				male = {
+					1 = empty
+				}
+				female = {
+					3 = empty
+					1 = female_accessories_cfp_indian_earrings_01
+					1 = female_accessories_cfp_indian_earrings_02
+					1 = female_accessories_cfp_indian_earrings_03
+				}
+				boy = male
+				girl = female
+			}
+			
+			steppe_low_nobility = {
+				index = 6
+				male = {
+					1 = empty
+				}
+				female = {
+					3 = empty
+					1 = female_accessories_cfp_steppe_earrings_01
+					1 = female_accessories_cfp_steppe_earrings_02
+				}
+				boy = male
+				girl = female
+			}
+			
 		}
 
 	}
