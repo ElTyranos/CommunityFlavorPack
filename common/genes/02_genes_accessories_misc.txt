@@ -121,7 +121,7 @@ accessory_genes = {
 			}
 			female = {
 				2 = "female_teeth_normal"
-				1 = "cfp_afar_female_teeth_pointy"
+				2 = "cfp_afar_female_teeth_pointy"
 			}
 			boy = {
 				1 = "boy_teeth_normal"
