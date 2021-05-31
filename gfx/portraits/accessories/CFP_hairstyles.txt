@@ -152,3 +152,15 @@ cfp_male_hair_sub_saharan_03 = {
 	entity = { required_tags = "very_curly_hair"	shared_pose_entity = head		entity = "cfp_male_hair_sub_saharan_03_entity" }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_male_hair_sub_saharan_03_entity" }
 }
+
+cfp_female_hair_african_01 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "very_curly_hair"	shared_pose_entity = head		entity = "cfp_female_hair_african_01_entity" }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_female_hair_african_01_entity" }
+}
+
+cfp_female_hair_african_02 = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = "very_curly_hair"	shared_pose_entity = head		entity = "cfp_female_hair_african_02_entity" }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "cfp_female_hair_african_02_entity" }
+}
