@@ -294,6 +294,18 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+		
+		sub_saharan_common_legwear = {
+			index = 7
+			male = {
+				1 = male_legwear_secular_sub_saharan_cfp_common_01
+			}
+			female = {
+				1 = female_legwear_secular_sub_saharan_cfp_common_01
+			}
+			boy = male
+			girl = female
+		}
 	}
 
 	special_legwear = {

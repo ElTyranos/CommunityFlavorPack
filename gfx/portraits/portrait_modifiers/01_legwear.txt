@@ -175,9 +175,29 @@
 				OR = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
-					portrait_african_clothing_trigger = yes
+					# portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
 					cfp_portrait_turkic_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	
+	sub_saharan_legwear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = sub_saharan_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				OR = {
+					portrait_african_clothing_trigger = yes
 				}
 			}
 		}
