@@ -1,4 +1,4 @@
-﻿custom_special = {
+custom_special = {
 	usage = customization
 	interface_position = 6
 
@@ -12,13 +12,6 @@
 	add_accessory_modifiers = {
 		gene = special_headgear_eyeglasses
 		template = eyeglasses
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
-	}
-	add_accessory_modifiers = {
-		gene = special_headgear_slavic_jewelry
-		template = slavic_jewelry
 		is_valid_custom = {
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}

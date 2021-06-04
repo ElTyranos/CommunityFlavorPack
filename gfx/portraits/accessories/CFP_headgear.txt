@@ -1156,7 +1156,3 @@ male_headgear_special_cfp_glasses_02 = {
 female_headgear_special_cfp_glasses_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_cfp_glasses_02_entity 	 }
 }
-
-male_headgear_special_cfp_slavic_earrings_01 = {
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_slavic_earrings_01_entity 	 }
-}
