@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -612,6 +612,7 @@ headgear = {
 							highest_held_title_tier = tier_barony
 						}
 						primary_spouse = {
+							portrait_western_clothing_trigger = yes ## this was placed in a OR ??
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -621,7 +622,6 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								portrait_western_clothing_trigger = yes
 								OR = {
 									portrait_fp1_norse_clothing_trigger = no
 									AND = {
