@@ -2037,12 +2037,10 @@ accessory_genes = {
 	    central_african_low_nobility = {
             index = 134
             male = {
-                # 1 = male_headgear_secular_africa_west_cfp_low_nobility_01
-                # 1 = male_headgear_secular_africa_west_cfp_low_nobility_02
+				1 = male_headgear_secular_africa_central_cfp_low_01
             }
             female = {
-            	# 1 = female_headgear_secular_africa_west_cfp_low_nobility_01
-            	# 1 = female_headgear_secular_africa_west_cfp_low_nobility_02
+				1 = female_headgear_secular_africa_central_cfp_low_01
             }
             boy = male
             girl = female
