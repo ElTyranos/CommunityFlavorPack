@@ -196,3 +196,22 @@ portrait_northern_clothing_trigger = {
 		}
 	}
 }
+portrait_mena_clothing_trigger = {
+	scope:culture = { has_graphical_culture = mena_clothing_gfx }
+	NOR = {
+		has_culture_group = culture_group:east_african_group
+		has_culture_group = culture_group:somalian_group
+	}	
+}
+portrait_african_clothing_trigger = {
+	OR = { 
+		scope:culture = { has_graphical_culture = african_clothing_gfx }
+		AND = { 
+			scope:culture = { has_graphical_culture = mena_clothing_gfx }
+			OR = {
+				has_culture_group = culture_group:east_african_group
+				has_culture_group = culture_group:somalian_group
+			}
+		}
+	}
+}
