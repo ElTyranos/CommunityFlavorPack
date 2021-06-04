@@ -622,7 +622,7 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								OR = {
+								AND = {
 									portrait_fp1_norse_clothing_trigger = no
 									AND = {
 										portrait_fp1_norse_clothing_trigger = yes
@@ -719,7 +719,7 @@ headgear = {
 							}
 							OR = {
 								portrait_western_clothing_trigger = yes
-								OR = {
+								AND = {
 									portrait_fp1_norse_clothing_trigger = no
 									AND = {
 										portrait_fp1_norse_clothing_trigger = yes
@@ -4867,7 +4867,7 @@ headgear = {
 						}
 					}
 				}
-				portrait_steppe_clothing_trigger = yes
+				cfp_portrait_turkic_clothing_trigger = yes
 			}
 			modifier = {
 				add = 20
