@@ -33,6 +33,37 @@ pattern_textures = {
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/CFP/doge_silk_02_properties.dds"
 }
 
+pattern_textures = {
+	name = "makurian_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_01_properties.dds"
+}
+pattern_textures = {
+	name = "makurian_01_alt"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_01_alt_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_01_alt_properties.dds"
+}
+pattern_textures = {
+	name = "makurian_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_02_properties.dds"
+}
+pattern_textures = {
+	name = "nubian_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_01_properties.dds"
+}
+pattern_textures = {
+	name = "nubian_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_02_properties.dds"
+}
+
 variation = {
 	name = "northern_war_gambeson_01"
 	
@@ -346,4 +377,18 @@ variation = {
 		a = { textures = "mena_tiraz_01"	layout = "small_trim_layout" }
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_mena_clothing_high_nobility_01.dds" }	
+}
+
+variation = {
+	name = "cfp_sub_saharan_apron_01"
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "sub_saharan_trim_silk_01"	layout = "small_trim_layout" }
+		b = { textures = "western_leather_plain_01" layout = "plain_fabric_full_layout" }
+		a = { textures = "sub_saharan_trim_silk_01"	layout = "small_trim_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_sub_saharan_royalty_01.dds" }	
 }
