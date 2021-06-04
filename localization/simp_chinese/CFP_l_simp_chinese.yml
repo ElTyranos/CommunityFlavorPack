@@ -354,9 +354,9 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03:1 "@cfp_icon_white! 圣骑士团兜帽（平民）"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_01:1 "@cfp_icon_green! Taylasan"
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_02:1 "@cfp_icon_green! Taylasan （Plain）"
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_double_harness_01:1 "@cfp_icon_green! Double Harness"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_01:1 "@cfp_icon_green! 泰拉桑披巾"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_02:1 "@cfp_icon_green! 泰拉桑披巾（素色）"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_double_harness_01:1 "@cfp_icon_green! 双吊带"
  
 ## Clothes
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01:1 "@cfp_icon! 北境铠甲（软甲）"
