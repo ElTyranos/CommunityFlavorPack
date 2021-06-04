@@ -1,6 +1,6 @@
-custom_special = {
+﻿custom_special = {
 	usage = customization
-	interface_position = 6
+	interface_position = 5
 
 	add_accessory_modifiers = {
 		gene = special_headgear_eyeglasses

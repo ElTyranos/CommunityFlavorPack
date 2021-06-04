@@ -1,6 +1,6 @@
 ﻿custom_necklace = {
 	usage = customization
-	interface_position = 9
+	interface_position = 7
 
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace

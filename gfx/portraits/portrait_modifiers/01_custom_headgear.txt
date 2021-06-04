@@ -432,23 +432,23 @@
 		gene = headgear
 		template = sub_saharan_common
 	}
-
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sub_saharan_high_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sub_saharan_royalty
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sub_saharan_imperial
+	}
+	
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
-		template = east_african_common
-	}
-	add_accessory_modifiers = {
-		gene = headgear
 		template = west_african_low_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = central_african_low_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = east_african_low_nobility
 	}
 	add_accessory_modifiers = {
 		gene = headgear
@@ -456,58 +456,53 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
-		template = central_african_high_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = east_african_high_nobility
-	}
-########### /CFP ###########
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = sub_saharan_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = sub_saharan_royalty
+		template = west_african_war
 	}
 	
-########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
-		template = east_african_royalty
-	}
-########### /CFP ###########
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = sub_saharan_imperial
-	}
-########### CFP ###########
-	add_accessory_modifiers = {
-		gene = headgear
-		template = african_religious_masks
+		template = central_african_low_nobility
 	}
 	add_accessory_modifiers = {
 		gene = headgear
-		template = west_african_war
+		template = central_african_high_nobility
 	}
 	add_accessory_modifiers = {
 		gene = headgear
 		template = central_african_war
 	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_common
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_low_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_high_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = east_african_royalty
+	}
 	add_accessory_modifiers = {
 		gene = headgear
 		template = east_african_war
 	}
-########### /CFP ###########
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = african_religious_masks
+	}
+###########/CFP ###########
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = indian_common
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = indian_nobility
