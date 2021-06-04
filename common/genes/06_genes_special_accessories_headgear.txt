@@ -2038,6 +2038,7 @@ accessory_genes = {
             index = 134
             male = {
 				1 = male_headgear_secular_africa_central_cfp_low_01
+				1 = male_headgear_secular_africa_central_cfp_low_02
             }
             female = {
 				1 = female_headgear_secular_africa_central_cfp_low_01
