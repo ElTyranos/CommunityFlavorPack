@@ -6671,7 +6671,7 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
-						portrait_african_clothing_trigger = yes
+						cfp_portrait_east_africa_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -6686,7 +6686,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_african_clothing_trigger = yes
+							cfp_portrait_east_africa_clothing_trigger = yes
 						}
 					}
 				}
