@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -6341,7 +6341,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -6465,7 +6465,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				has_trait = peasant_leader
 				OR = {
 					is_ruler = no
@@ -6483,7 +6483,7 @@ headgear = {
 				is_female = yes # nothing for males
 			}
 			modifier = {
-				add = 50
+				add = 60
 				highest_held_title_tier < tier_county
 				NOR = {
 					AND = {
@@ -6516,7 +6516,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -6582,7 +6582,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -6647,7 +6647,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -6766,7 +6766,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
@@ -6832,7 +6832,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				NAND = {
 					has_trait = peasant_leader
 					OR = {
