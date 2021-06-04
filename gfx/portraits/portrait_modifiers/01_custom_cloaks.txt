@@ -156,5 +156,19 @@
 		}
 		template = religious_muslim
 	}
-		
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					portrait_mena_clothing_trigger = yes
+				}
+				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
+			}
+		}
+		template = african_royalty
+	}
+	
 }
