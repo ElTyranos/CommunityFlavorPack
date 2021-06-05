@@ -17,6 +17,13 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon! 带耳环罗斯勇士发绺"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon! 罗斯勇士发绺"
  
+## African
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_01:0 "@cfp_icon_yellow! High Fade Afro"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_02:0 "@cfp_icon_yellow! Afro Quiff"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! Afro Crescent"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! Twisted Cornrows"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! Straight Cornrows"
+ 
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! 络腮胡"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! 络腮山羊胡"
