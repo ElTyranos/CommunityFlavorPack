@@ -345,10 +345,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_high_nobility_01:1 "@cfp_icon_yellow! Couronne de perles Edo"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_central_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_high_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_01:1 "@cfp_icon_yellow! Chapeau en osier Edo"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_central_cfp_low_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_01$"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_nobility_01:1 "@cfp_icon_yellow! Chapeau en osier Edo"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_central_cfp_low_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_02:1 "@cfp_icon_yellow! Chapeau en osier Edo (sans plume)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_nobility_02:1 "@cfp_icon_yellow! Chapeau en osier Edo (sans plume)"
  
 ## East African
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_east_cfp_high_nobility_01:1 "@cfp_icon_yellow! Couronne Nubienne"
@@ -366,7 +366,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_east_cfp_imperial_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_common_01:1 "@cfp_icon_yellow! Voile Éthiopien"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_low_01:1 "@cfp_icon_yellow! Chapeau en odier Éthiopien"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_low_nobility_01:1 "@cfp_icon_yellow! Chapeau en odier Éthiopien"
  
 ## Cloaks
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01:1 "@cfp_icon! Bouclier Viking"

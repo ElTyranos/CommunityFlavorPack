@@ -344,10 +344,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_high_nobility_01:1 "@cfp_icon_yellow! 에도 진주 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_central_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_high_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_01:1 "@cfp_icon_yellow! 에도 고리버들 모자"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_central_cfp_low_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_01$"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_nobility_01:1 "@cfp_icon_yellow! 에도 고리버들 모자"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_central_cfp_low_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_02:1 "@cfp_icon_yellow! 에도 고리버들 모자 (깃털 없음)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_central_cfp_low_nobility_02:1 "@cfp_icon_yellow! 에도 고리버들 모자 (깃털 없음)"
  
 ## East African
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_east_cfp_high_nobility_01:1 "@cfp_icon_yellow! 누비아 왕관"
@@ -365,7 +365,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_africa_east_cfp_imperial_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_common_01:1 "@cfp_icon_yellow! 에티오피아 면사포"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_low_01:1 "@cfp_icon_yellow! 에티오피아 고리버들 모자"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_low_nobility_01:1 "@cfp_icon_yellow! 에티오피아 고리버들 모자"
  
 ## Cloaks
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01:1 "@cfp_icon! 바이킹 방패"
