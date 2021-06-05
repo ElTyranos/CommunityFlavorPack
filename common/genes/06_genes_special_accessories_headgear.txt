@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -2099,12 +2099,10 @@ accessory_genes = {
             index = 139
             male = {
                 1 = male_headgear_secular_africa_east_cfp_high_nobility_01
-                1 = male_headgear_secular_africa_east_cfp_high_nobility_02
                 1 = male_headgear_secular_africa_east_cfp_high_nobility_03
             }
             female = {
                 1 = female_headgear_secular_africa_east_cfp_high_nobility_01
-                1 = female_headgear_secular_africa_east_cfp_high_nobility_02
             }
             boy = male
             girl = female
@@ -2114,6 +2112,13 @@ accessory_genes = {
             index = 140
             male = {
                 1 = male_headgear_secular_africa_east_cfp_royalty_01
+            }
+            female = {
+                1 = female_headgear_secular_africa_east_cfp_royalty_01
+            }
+            boy = male
+            girl = female
+        }
 		
 	    east_african_imperial = {
             index = 141

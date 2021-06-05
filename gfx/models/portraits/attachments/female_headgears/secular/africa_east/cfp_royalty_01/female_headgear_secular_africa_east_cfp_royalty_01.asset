@@ -1,19 +1,19 @@
 pdxmesh = {
-	name = "female_headgear_secular_africa_east_cfp_high_nobility_02_mesh"
-	file = "female_headgear_secular_africa_east_cfp_high_nobility_02.mesh"
+	name = "female_headgear_secular_africa_east_cfp_royalty_01_mesh"
+	file = "female_headgear_secular_africa_east_cfp_royalty_01.mesh"
 
 	meshsettings = {
-		name = "female_headgear_secular_africa_east_cfp_high_nobility_02Shape"
+		name = "female_headgear_secular_africa_east_cfp_royalty_01Shape"
 		index = 0
-		texture_diffuse = "male_africa_east_cfp_high_nobility_02_diffuse.dds"
-		texture_normal = "male_africa_east_cfp_high_nobility_02_normal.dds"
-		texture_specular = "male_africa_east_cfp_high_nobility_02_properties.dds"
+		texture_diffuse = "male_africa_east_cfp_royalty_01_diffuse.dds"
+		texture_normal = "male_africa_east_cfp_royalty_01_normal.dds"
+		texture_specular = "male_africa_east_cfp_royalty_01_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 	
 	meshsettings = {
-		name = "female_headgear_secular_africa_east_cfp_high_nobility_02_veilSh" # too long
+		name = "female_headgear_secular_africa_east_cfp_royalty_01_veilShape"
 		index = 0
 		texture_diffuse = "female_headgear_secular_mena_common_02_diffuse.dds"
 		texture_normal = "female_headgear_secular_mena_common_02_normal.dds"
@@ -24,8 +24,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "female_headgear_secular_africa_east_cfp_high_nobility_02_entity"
-	pdxmesh = "female_headgear_secular_africa_east_cfp_high_nobility_02_mesh"
+	name = "female_headgear_secular_africa_east_cfp_royalty_01_entity"
+	pdxmesh = "female_headgear_secular_africa_east_cfp_royalty_01_mesh"
 	
 	game_data = {
 		portrait_accessory = {
