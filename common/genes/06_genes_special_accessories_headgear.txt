@@ -2074,7 +2074,7 @@ accessory_genes = {
 	    east_african_common = {
             index = 137
             male = {
-				1 = empty
+				1 = empty # has is_female = yes
             }
             female = {
             	1 = female_headgear_secular_africa_east_cfp_common_01
@@ -2086,7 +2086,7 @@ accessory_genes = {
 	    east_african_low_nobility = {
             index = 138
             male = {
-				1 = empty
+				1 = empty # has is_female = yes
             }
             female = {
             	1 = female_headgear_secular_africa_east_cfp_low_01
