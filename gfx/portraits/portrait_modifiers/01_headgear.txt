@@ -6544,6 +6544,7 @@ headgear = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						cfp_portrait_east_africa_clothing_trigger = yes
+						is_female = yes # nothing for males
 					}
 					AND = {
 						exists = primary_spouse
@@ -6562,6 +6563,7 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							cfp_portrait_east_africa_clothing_trigger = yes
+							is_female = yes # nothing for males
 						}
 					}
 				}
@@ -6695,6 +6697,45 @@ headgear = {
 		}
 	}
 
+	east_african_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = east_african_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				highest_held_title_tier = tier_empire
+				NOR = {
+					AND = { is_ruler = yes has_government = mercenary_government  }
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				cfp_portrait_east_africa_clothing_trigger = yes
+			}
+		}
+	}
+	
 	east_african_war = {
 		dna_modifiers = {
 			accessory = {

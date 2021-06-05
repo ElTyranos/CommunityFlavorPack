@@ -490,6 +490,10 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
+		template = east_african_imperial
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = east_african_war
 	}
 	
