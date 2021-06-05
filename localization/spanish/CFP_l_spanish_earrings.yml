@@ -1,0 +1,19 @@
+﻿l_spanish:
+ 
+ PORTRAIT_MODIFIER_custom_earrings:0 "Pendientes"
+ PORTRAIT_MODIFIER_custom_earrings_male_empty:1 "Sin Pendientes"
+ PORTRAIT_MODIFIER_custom_earrings_female_empty:0 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ PORTRAIT_MODIFIER_custom_earrings_boy_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ PORTRAIT_MODIFIER_custom_earrings_girl_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ 
+ PORTRAIT_MODIFIER_custom_earrings_male_accessories_cfp_slavic_earrings_01:1 "@cfp_icon_red! Pendientes Eslavos"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_african_earrings_01:1 "@cfp_icon_yellow! Pendientes de Bronce Africanos"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_african_earrings_02:1 "@cfp_icon_yellow! Pendientes de Ébano Africanos"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_01:1 "@cfp_icon_orange! Pendientes Indios 1"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_02:1 "@cfp_icon_orange! Pendientes Indios 2"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_03:1 "@cfp_icon_orange! Pendientes Indios 3"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_mena_earrings_01:1 "@cfp_icon_green! Pendientes de Oriente Medio"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_01:1 "@cfp_icon_red! Pendientes Simples de la Estepa"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_02:1 "@cfp_icon_red! Pendientes Complejos de la Estepa"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_byzantine_earrings_01:1 "@cfp_icon_purple! Pendientes de Perlas Bizantinos"
+ 
