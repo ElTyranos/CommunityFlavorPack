@@ -17,6 +17,13 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon! Прядь волос воина Руси с серьгами"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon! Прядь волос воина Руси"
  
+## African
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_01:0 "@cfp_icon_yellow! Афро высокий градиент"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_02:0 "@cfp_icon_yellow! Афро-челка"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! Афро полумесяц"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! Крученые локоны"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! Прямой локоны"
+ 
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! Бараний отбивной"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! Бараньи отбивные с козлиной бородкой"
