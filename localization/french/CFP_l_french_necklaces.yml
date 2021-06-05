@@ -16,3 +16,5 @@
  PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01:0 "@cfp_icon! Collier pour cape en hermine"
  PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_ermine_necklace_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01$"
  
+ PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_african_necklace_01:1 "@cfp_icon_yellow! Collier d'anneaux Africain"
+ 
