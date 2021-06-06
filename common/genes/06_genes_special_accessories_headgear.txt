@@ -2062,10 +2062,12 @@ accessory_genes = {
 	    central_african_war = {
             index = 136
             male = {
-                # 1 = male_headgear_secular_africa_west_cfp_helmet_01
+                1 = male_headgears_secular_africa_central_cfp_war_padded_01
+                1 = male_headgears_secular_africa_central_cfp_war_padded_02
             }
             female = {
-            	# 1 = female_headgear_secular_africa_west_cfp_helmet_01
+            	1 = female_headgears_secular_africa_central_cfp_war_padded_01
+            	1 = female_headgears_secular_africa_central_cfp_war_padded_02
             }
             boy = male
             girl = female

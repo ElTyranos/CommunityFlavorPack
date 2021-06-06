@@ -1141,6 +1141,24 @@ female_headgear_secular_africa_central_cfp_low_nobility_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_africa_central_cfp_low_nobility_01_entity 	 }		
 }
+male_headgears_secular_africa_central_cfp_war_padded_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_africa_central_cfp_war_padded_01_entity 	 }		
+}
+female_headgears_secular_africa_central_cfp_war_padded_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_africa_central_cfp_war_padded_01_entity 	 }		
+}
+male_headgears_secular_africa_central_cfp_war_padded_02 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgears_secular_africa_central_cfp_war_padded_02_entity 	 }		
+}
+female_headgears_secular_africa_central_cfp_war_padded_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_africa_central_cfp_war_padded_02_entity 	 }		
+}
 
 ## Special
 male_headgear_special_cfp_glasses_01 = {
