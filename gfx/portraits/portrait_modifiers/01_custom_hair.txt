@@ -185,11 +185,6 @@ custom_hair = {
 
 	add_accessory_modifiers = {
 		gene = hairstyles
-		template = steppe_hairstyles
-	}
-
-	add_accessory_modifiers = {
-		gene = hairstyles
 		template = steppe_hairstyles_straight
 		
 		weight = {
