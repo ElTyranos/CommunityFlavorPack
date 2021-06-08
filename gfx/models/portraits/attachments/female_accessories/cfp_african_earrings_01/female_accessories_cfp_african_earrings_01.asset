@@ -1,0 +1,48 @@
+pdxmesh = {
+	name = "female_accessories_cfp_african_earrings_01_mesh"
+	file = "female_accessories_cfp_african_earrings_01.mesh"
+	
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_angle_min"		type = "female_accessories_cfp_african_earrings_01_bs_ear_angle_min.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_angle_max"		type = "female_accessories_cfp_african_earrings_01_bs_ear_angle_max.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_inner_shape_max"		type = "female_accessories_cfp_african_earrings_01_bs_ear_inner_shape_max.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_lower_bend_max"		type = "female_accessories_cfp_african_earrings_01_bs_ear_lower_bend_max.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_outward_min"		type = "female_accessories_cfp_african_earrings_01_bs_ear_outward_min.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_outward_max"		type = "female_accessories_cfp_african_earrings_01_bs_ear_outward_max.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_size_min"		type = "female_accessories_cfp_african_earrings_01_bs_ear_size_min.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_size_max"		type = "female_accessories_cfp_african_earrings_01_bs_ear_size_max.mesh" }
+	blend_shape = { id = "female_accessories_cfp_african_earrings_01_bs_ear_upper_bend_max"		type = "female_accessories_cfp_african_earrings_01_bs_ear_upper_bend_max.mesh" }
+	
+	meshsettings = {
+		name = "female_accessories_cfp_african_earrings_01Shape"
+		index = 0
+		texture_diffuse = "female_accessories_cfp_african_earrings_01_diffuse.dds"
+		texture_normal = "female_accessories_cfp_african_earrings_01_normal.dds"
+		texture_specular = "female_accessories_cfp_african_earrings_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "female_accessories_cfp_african_earrings_ext_01Shape"
+		index = 0
+		texture_diffuse = "female_head_diffuse.dds"
+		texture_normal = "female_head_normal.dds"
+		texture_specular = "female_head_properties.dds"
+		shader = "portrait_skin_face"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_accessories_cfp_african_earrings_01_entity"
+	pdxmesh = "female_accessories_cfp_african_earrings_01_mesh"
+	
+	attribute = { name = "bs_ear_angle_min"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_angle_min" }
+	attribute = { name = "bs_ear_angle_max"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_angle_max" }
+	attribute = { name = "bs_ear_inner_shape_max"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_inner_shape_max" }
+	attribute = { name = "bs_ear_lower_bend_max"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_lower_bend_max" }
+	attribute = { name = "bs_ear_outward_min"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_outward_min" }
+	attribute = { name = "bs_ear_outward_max"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_outward_max" }
+	attribute = { name = "bs_ear_size_min"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_size_min" }
+	attribute = { name = "bs_ear_size_max"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_size_max" }
+	attribute = { name = "bs_ear_upper_bend_max"					blend_shape = "female_accessories_cfp_african_earrings_01_bs_ear_upper_bend_max" }
+}

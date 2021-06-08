@@ -1,0 +1,19 @@
+﻿l_french:
+ 
+ PORTRAIT_MODIFIER_custom_earrings:0 "Boucles d'oreilles"
+ PORTRAIT_MODIFIER_custom_earrings_male_empty:1 "Sans d'oreilles"
+ PORTRAIT_MODIFIER_custom_earrings_female_empty:0 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ PORTRAIT_MODIFIER_custom_earrings_boy_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ PORTRAIT_MODIFIER_custom_earrings_girl_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ 
+ PORTRAIT_MODIFIER_custom_earrings_male_accessories_cfp_slavic_earrings_01:1 "@cfp_icon_red! Boucles Slaves"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_african_earrings_01:1 "@cfp_icon_yellow! Boucles Africaines en bronze"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_african_earrings_02:1 "@cfp_icon_yellow! Boucles Africaines en ébène"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_01:1 "@cfp_icon_orange! Boucles Indiennes 1"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_02:1 "@cfp_icon_orange! Boucles Indiennes 2"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_03:1 "@cfp_icon_orange! Boucles Indiennes 3"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_mena_earrings_01:1 "@cfp_icon_green! Boucles du Moyen-Orient"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_01:1 "@cfp_icon_red! Boucles des steppes simples"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_02:1 "@cfp_icon_red! Boucles des steppes complexes"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_byzantine_earrings_01:1 "@cfp_icon_purple! Boucles de perles Byzantines"
+ 

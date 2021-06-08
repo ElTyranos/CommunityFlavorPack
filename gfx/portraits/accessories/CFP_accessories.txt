@@ -34,6 +34,8 @@ male_accessories_cfp_noble_gloves_02 = {
 female_accessories_cfp_noble_gloves_02 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_accessories_cfp_noble_gloves_02_entity }
 }
+
+# Necklaces
 male_accessories_cfp_ermine_necklace_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_accessories_cfp_ermine_necklace_01_entity }
 }
@@ -42,4 +44,40 @@ female_accessories_cfp_ermine_necklace_01 = {
 }
 female_accessories_cfp_byzantine_necklace_01 = {
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_byzantine_necklace_01_entity }
+}
+female_accessories_cfp_african_necklace_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_african_necklace_01_entity }
+}
+
+# Earrings
+male_accessories_cfp_slavic_earrings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = male_accessories_cfp_slavic_earrings_01_entity }
+}
+
+female_accessories_cfp_african_earrings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_african_earrings_01_entity }
+}
+female_accessories_cfp_african_earrings_02 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_african_earrings_02_entity }
+}
+female_accessories_cfp_byzantine_earrings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_byzantine_earrings_01_entity }
+}
+female_accessories_cfp_mena_earrings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_mena_earrings_01_entity }
+}
+female_accessories_cfp_indian_earrings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_indian_earrings_01_entity }
+}
+female_accessories_cfp_indian_earrings_02 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_indian_earrings_02_entity }
+}
+female_accessories_cfp_indian_earrings_03 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_indian_earrings_03_entity }
+}
+female_accessories_cfp_steppe_earrings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_steppe_earrings_01_entity }
+}
+female_accessories_cfp_steppe_earrings_02 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_steppe_earrings_02_entity }
 }

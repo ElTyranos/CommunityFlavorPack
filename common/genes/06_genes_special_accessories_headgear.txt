@@ -1973,6 +1973,179 @@ accessory_genes = {
             boy = male
             girl = female
         }
+		
+		african_religious_masks = {
+			index = 130
+			male = {
+				2 = male_headgear_religious_african_high_01
+				1 = male_headgear_religious_african_cfp_mask_01
+				1 = male_headgear_religious_african_cfp_mask_02
+				1 = male_headgear_religious_african_cfp_mask_03
+				1 = male_headgear_religious_african_cfp_mask_04
+				
+			}
+			female = {
+				2 = female_headgear_religious_african_high_01
+				1 = female_headgear_religious_african_cfp_mask_01
+				1 = female_headgear_religious_african_cfp_mask_02
+				1 = female_headgear_religious_african_cfp_mask_03
+				1 = female_headgear_religious_african_cfp_mask_04
+				
+			}
+			boy = male
+            girl = female
+		}
+		
+	    west_african_low_nobility = {
+            index = 131
+            male = {
+                1 = male_headgear_secular_africa_west_cfp_low_nobility_01
+                1 = male_headgear_secular_africa_west_cfp_low_nobility_02
+            }
+            female = {
+            	1 = female_headgear_secular_africa_west_cfp_low_nobility_01
+            	1 = female_headgear_secular_africa_west_cfp_low_nobility_02
+            }
+            boy = male
+            girl = female
+        }
+		
+	    west_african_high_nobility = {
+            index = 132
+            male = {
+                1 = male_headgear_secular_africa_west_cfp_high_nobility_01
+            }
+            female = {
+            	1 = female_headgear_secular_africa_west_cfp_high_nobility_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    west_african_war = {
+            index = 133
+            male = {
+                1 = male_headgear_secular_africa_west_cfp_helmet_01
+            }
+            female = {
+            	1 = female_headgear_secular_africa_west_cfp_helmet_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    central_african_low_nobility = {
+            index = 134
+            male = {
+				1 = male_headgear_secular_africa_central_cfp_low_nobility_01
+				1 = male_headgear_secular_africa_central_cfp_low_nobility_02
+            }
+            female = {
+				1 = female_headgear_secular_africa_central_cfp_low_nobility_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    central_african_high_nobility = {
+            index = 135
+            male = {
+                1 = male_headgear_secular_africa_central_cfp_high_nobility_01
+            }
+            female = {
+            	1 = female_headgear_secular_africa_central_cfp_high_nobility_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    central_african_war = {
+            index = 136
+            male = {
+                1 = male_headgears_secular_africa_central_cfp_war_padded_01
+                1 = male_headgears_secular_africa_central_cfp_war_padded_02
+            }
+            female = {
+            	1 = female_headgears_secular_africa_central_cfp_war_padded_01
+            	1 = female_headgears_secular_africa_central_cfp_war_padded_02
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_common = {
+            index = 137
+            male = {
+				1 = empty # has is_female = yes
+            }
+            female = {
+            	1 = female_headgear_secular_africa_east_cfp_common_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_low_nobility = {
+            index = 138
+            male = {
+				1 = empty # has is_female = yes
+            }
+            female = {
+            	1 = female_headgear_secular_africa_east_cfp_low_nobility_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_high_nobility = {
+            index = 139
+            male = {
+                1 = male_headgear_secular_africa_east_cfp_high_nobility_01
+                1 = male_headgear_secular_africa_east_cfp_high_nobility_03
+            }
+            female = {
+                1 = female_headgear_secular_africa_east_cfp_high_nobility_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_royalty = {
+            index = 140
+            male = {
+                1 = male_headgear_secular_africa_east_cfp_royalty_01
+            }
+            female = {
+                1 = female_headgear_secular_africa_east_cfp_royalty_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_imperial = {
+            index = 141
+            male = {
+                1 = male_headgear_secular_africa_east_cfp_imperial_01
+            }
+            female = {
+            	1 = female_headgear_secular_africa_east_cfp_imperial_01
+            }
+            boy = male
+            girl = female
+        }
+		
+	    east_african_war = {
+            index = 142
+            male = {
+                1 = male_headgear_secular_africa_east_cfp_helmet_01
+            }
+            female = {
+            	1 = female_headgear_secular_africa_east_cfp_helmet_01
+            }
+            boy = male
+            girl = female
+        }
+
 	}
 }
 

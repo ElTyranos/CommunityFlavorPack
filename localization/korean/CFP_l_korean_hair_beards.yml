@@ -17,6 +17,13 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon! 귀걸이있는 러시아 전사 한 가닥 머리"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon! 러시아 전사 한 가닥 머리"
 
+## African
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_01:0 "@cfp_icon_yellow! 하이페이드 아프로"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_02:0 "@cfp_icon_yellow! 아프로 퀴프"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! 아프로 크레센트"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! 트위스트 콘로우"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! 스트레이트라인 콘로우"
+ 
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! 구레나룻"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! 염소 수염있는 구레나룻"

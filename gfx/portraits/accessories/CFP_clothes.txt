@@ -61,3 +61,15 @@ male_clothes_secular_western_cfp_war_plate_01 = {
 male_clothes_secular_western_cfp_war_plate_02 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_war_plate_02_entity }
 }
+male_clothes_secular_africa_central_cfp_war_padded_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_africa_central_cfp_war_padded_01_entity }
+}
+female_clothes_secular_africa_central_cfp_war_padded_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_africa_central_cfp_war_padded_01_entity }
+}
+male_clothes_secular_africa_central_cfp_war_padded_02 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_africa_central_cfp_war_padded_02_entity }
+}
+female_clothes_secular_africa_central_cfp_war_padded_02 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_africa_central_cfp_war_padded_02_entity }
+}

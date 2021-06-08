@@ -1,6 +1,6 @@
 ﻿custom_legwear = {
 	usage = customization
-	interface_position = 5
+	interface_position = 3
 
 	add_accessory_modifiers = {
 		gene = legwear
@@ -53,7 +53,7 @@
 	
 	add_accessory_modifiers = {
 		gene = legwear
-		template = mena_common_legwear
+		template = sub_saharan_common_legwear
 		is_valid_custom = {
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}

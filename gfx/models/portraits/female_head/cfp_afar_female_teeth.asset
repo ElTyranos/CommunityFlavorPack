@@ -1,0 +1,25 @@
+pdxmesh = {
+	name = "cfp_afar_female_teeth_mesh"
+	file = "cfp_afar_female_teeth.mesh"
+
+	meshsettings = {
+		name = "cfp_afar_female_teethShape"
+		index = 0
+		texture_diffuse = "male_teeth_diffuse.dds"
+		texture_normal = "male_teeth_normal.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	blend_shape = { id = "cfp_afar_female_teeth_bs_lower_down"	type = "cfp_afar_female_teeth_bs_lower_down.mesh"  }
+	blend_shape = { id = "cfp_afar_female_teeth_bs_lower_up"	type = "cfp_afar_female_teeth_bs_lower_up.mesh"  }
+}
+
+entity = {
+	name = "cfp_afar_female_teeth_entity"
+	pdxmesh = "cfp_afar_female_teeth_mesh"
+
+	attribute = { name = "teeth_bs_lower_down"					blend_shape = "cfp_afar_female_teeth_bs_lower_down" }
+	attribute = { name = "teeth_bs_lower_up"					blend_shape = "cfp_afar_female_teeth_bs_lower_up" }
+
+}

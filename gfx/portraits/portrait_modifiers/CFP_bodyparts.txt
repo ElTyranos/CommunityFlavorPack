@@ -1,0 +1,26 @@
+﻿cfp_bodyparts = {
+
+	usage = game
+	selection_behavior = weighted_random
+	# fallback = no_teeth
+
+	afar_teeth = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = teeth_accessory
+				template = afar_teeth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				
+				cfp_portrait_afar_clothing_trigger = yes
+				
+			}
+		}
+	}
+}

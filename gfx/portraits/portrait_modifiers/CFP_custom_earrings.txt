@@ -1,0 +1,69 @@
+﻿custom_earrings = {
+	usage = customization
+	interface_position = 6
+
+	add_accessory_modifiers = {
+		gene = special_accessories_earrings
+		template = no_earrings
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	# add_accessory_modifiers = {
+		# gene = special_accessories_earrings
+		# template = western_low_nobility
+		# is_valid_custom = {
+			# NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		# }
+	# }
+
+	add_accessory_modifiers = {
+		gene = special_accessories_earrings
+		template = byzantine_low_nobility
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_earrings
+		template = mena_low_nobility
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_earrings
+		template = african_low_nobility
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_earrings
+		template = indian_low_nobility
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_earrings
+		template = steppe_low_nobility
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = special_accessories_earrings
+		template = slavic_low_nobility
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+
+}

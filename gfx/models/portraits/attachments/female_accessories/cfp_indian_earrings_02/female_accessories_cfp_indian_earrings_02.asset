@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "female_accessories_cfp_indian_earrings_02_mesh"
+	file = "female_accessories_cfp_indian_earrings_02.mesh"
+
+	meshsettings = {
+		name = "female_accessories_cfp_indian_earrings_02Shape"
+		index = 0
+		texture_diffuse = "female_hair_indian_02_diffuse.dds"
+		texture_normal = "female_hair_indian_02_normal.dds"
+		texture_specular = "female_hair_indian_02_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_accessories_cfp_indian_earrings_02_entity"
+	pdxmesh = "female_accessories_cfp_indian_earrings_02_mesh"
+}
