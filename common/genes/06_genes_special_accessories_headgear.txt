@@ -756,7 +756,7 @@ accessory_genes = {
 		sub_saharan_common = {
 			index = 46
 			male = {
-				# 5 = empty
+				5 = empty
 				5 = male_headgear_secular_sub_saharan_common_01
 		
 			}
