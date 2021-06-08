@@ -400,7 +400,7 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_hre_clothing_trigger = yes
+							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -462,7 +462,7 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_hre_clothing_trigger = yes
+							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -603,7 +603,7 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_western_clothing_trigger = yes
+							portrait_western_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -665,7 +665,7 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_western_clothing_trigger = yes
+							portrait_western_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -726,7 +726,7 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_western_clothing_trigger = yes
+							portrait_western_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -787,7 +787,7 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_western_clothing_trigger = yes
+							portrait_western_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1239,7 +1239,7 @@ latin_venetian_royalty = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_byzantine_clothing_trigger = yes
+				portrait_byzantine_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -1298,7 +1298,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_byzantine_clothing_trigger = yes
+							portrait_byzantine_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1360,7 +1360,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_byzantine_clothing_trigger = yes
+							portrait_byzantine_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1500,7 +1500,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_indian_clothing_trigger = yes
+							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1562,7 +1562,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_indian_clothing_trigger = yes
+							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
 				}				
@@ -1699,7 +1699,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_abbasid_clothing_trigger = yes
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1761,7 +1761,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_abbasid_clothing_trigger = yes
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1933,7 +1933,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_mena_clothing_trigger = yes
+							portrait_mena_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1995,7 +1995,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_mena_clothing_trigger = yes
+							portrait_mena_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2283,8 +2283,8 @@ latin_venetian_royalty = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								portrait_steppe_clothing_trigger = yes
-								cfp_portrait_turkic_clothing_trigger = yes
+								portrait_steppe_clothing_spouse_trigger = yes
+								cfp_portrait_turkic_clothing_spouse_trigger = yes
 							}
 						}
 					}
@@ -2351,8 +2351,8 @@ latin_venetian_royalty = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								portrait_steppe_clothing_trigger = yes
-								cfp_portrait_turkic_clothing_trigger = yes
+								portrait_steppe_clothing_spouse_trigger = yes
+								cfp_portrait_turkic_clothing_spouse_trigger = yes
 							}
 						}
 					}
@@ -2533,7 +2533,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_northern_clothing_trigger = yes
+							portrait_northern_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2601,7 +2601,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_northern_clothing_trigger = yes
+							portrait_northern_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2751,7 +2751,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_fp1_norse_clothing_trigger = yes
+							portrait_fp1_norse_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2813,7 +2813,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_fp1_norse_clothing_trigger = yes
+							portrait_fp1_norse_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2954,7 +2954,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_african_clothing_trigger = yes
+							portrait_african_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3017,7 +3017,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_african_clothing_trigger = yes
+							portrait_african_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3087,6 +3087,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 120
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
@@ -3243,6 +3244,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
@@ -3331,6 +3333,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3439,6 +3442,7 @@ latin_venetian_royalty = {
 				add = 111
 				
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3448,27 +3452,28 @@ latin_venetian_royalty = {
 	    }
 	}
 
-	# religious_muslim_head_clothes = {
-	#     dna_modifiers = {
-	#         accessory = {
-	#             mode = add
-	#             gene = clothes
-	#             template = religious_muslim_high_clothes
-	#             range = { 0 1 }
-	#         }
-	#     }
-	#     weight = {
-	#         base = 0
-	#         modifier = {
-	#             add = 100
-	# 			is_ruler = yes
-	# 			primary_title = {
-	# 				exists = controlled_faith
-	# 				controlled_faith = faith:orthodox
-	# 			}
-	#         }
-	#     }
-	# }	
+	religious_muslim_head_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_muslim_head_clothes
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 112
+				is_ruler = yes
+				any_held_title = {
+					exists = controlled_faith
+				}
+				religion = religion:islam_religion
+				NOT = { portrait_wear_armor_trigger = yes }
+	        }
+	    }
+	}	
 
 ## Northern ##
 
@@ -3499,6 +3504,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3545,6 +3551,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3622,6 +3629,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3698,6 +3706,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3738,6 +3747,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3816,6 +3826,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -3876,6 +3887,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain

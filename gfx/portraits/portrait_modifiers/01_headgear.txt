@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -153,7 +153,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_dde_hre_clothing_trigger = yes
+				portrait_dde_hre_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -215,7 +215,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_hre_clothing_trigger = yes
+							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -279,7 +279,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_hre_clothing_trigger = yes
+							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -338,7 +338,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_dde_hre_clothing_trigger = yes
+							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -471,7 +471,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_western_clothing_trigger = yes
+				portrait_western_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -533,7 +533,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_western_clothing_trigger = yes
+							portrait_western_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -612,7 +612,7 @@ headgear = {
 							highest_held_title_tier = tier_barony
 						}
 						primary_spouse = {
-							portrait_western_clothing_trigger = yes ## this was placed in a OR ??
+							portrait_western_clothing_spouse_trigger = yes ## this was placed in a OR ??
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -623,9 +623,9 @@ headgear = {
 							}
 							OR = {
 								AND = {
-									portrait_fp1_norse_clothing_trigger = no
+									portrait_fp1_norse_clothing_spouse_trigger = no
 									AND = {
-										portrait_fp1_norse_clothing_trigger = yes
+										portrait_fp1_norse_clothing_spouse_trigger = yes
 										NOR = {
 											has_government = tribal_government
 											religion = religion:germanic_religion
@@ -633,7 +633,7 @@ headgear = {
 									}
 								}
 								AND = {
-									cfp_portrait_norse_clothing_trigger = yes
+									cfp_portrait_norse_clothing_spouse_trigger = yes
 									has_fp1_dlc_trigger = no
 									NOR = {
 										has_government = tribal_government
@@ -718,11 +718,11 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								portrait_western_clothing_trigger = yes
+								portrait_western_clothing_spouse_trigger = yes
 								AND = {
-									portrait_fp1_norse_clothing_trigger = no
+									portrait_fp1_norse_clothing_spouse_trigger = no
 									AND = {
-										portrait_fp1_norse_clothing_trigger = yes
+										portrait_fp1_norse_clothing_spouse_trigger = yes
 										NOR = {
 											has_government = tribal_government
 											religion = religion:germanic_religion
@@ -730,7 +730,7 @@ headgear = {
 									}
 								}
 								AND = {
-									cfp_portrait_norse_clothing_trigger = yes
+									cfp_portrait_norse_clothing_spouse_trigger = yes
 									has_fp1_dlc_trigger = no
 									NOR = {
 										has_government = tribal_government
@@ -852,20 +852,20 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 								AND = {
 									highest_held_title_tier = tier_empire
-									portrait_northern_clothing_trigger = yes
-									portrait_fp1_norse_clothing_trigger = no
+									portrait_northern_clothing_spouse_trigger = yes
+									portrait_fp1_norse_clothing_spouse_trigger = no
 								}
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
 							OR = {
-								portrait_western_clothing_trigger = yes
+								portrait_western_clothing_spouse_trigger = yes
 								AND = {
-									portrait_northern_clothing_trigger = yes
-									portrait_fp1_norse_clothing_trigger = no
+									portrait_northern_clothing_spouse_trigger = yes
+									portrait_fp1_norse_clothing_spouse_trigger = no
 								}
 								AND = {
-									portrait_fp1_norse_clothing_trigger = yes
+									portrait_fp1_norse_clothing_spouse_trigger = yes
 									NOR = {
 										has_government = tribal_government
 										religion = religion:germanic_religion
@@ -930,7 +930,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_western_clothing_trigger = yes
+							portrait_western_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1484,7 +1484,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_latin_clothing_trigger = yes
+				cfp_portrait_latin_clothing_spouse_trigger = yes
 				is_male = yes # because latin women have no specific hat
 			}
 		}
@@ -1548,7 +1548,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_latin_clothing_trigger = yes
+							cfp_portrait_latin_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1612,7 +1612,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_latin_clothing_trigger = yes
+							cfp_portrait_latin_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1774,7 +1774,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_iberian_clothing_trigger = yes
+				cfp_portrait_iberian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -1836,7 +1836,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_iberian_clothing_trigger = yes
+							cfp_portrait_iberian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1900,7 +1900,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_iberian_clothing_trigger = yes
+							cfp_portrait_iberian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2097,7 +2097,7 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								cfp_portrait_hungarian_clothing_trigger = yes
+								cfp_portrait_hungarian_clothing_spouse_trigger = yes
 							}
 						}
 					}
@@ -2156,7 +2156,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							cfp_portrait_hungarian_clothing_trigger = yes
+							cfp_portrait_hungarian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2281,7 +2281,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_slavic_clothing_trigger = yes
+							cfp_portrait_slavic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2340,7 +2340,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							cfp_portrait_slavic_clothing_trigger = yes
+							cfp_portrait_slavic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2424,7 +2424,7 @@ headgear = {
 							# }
 							# NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							# NOT = { has_government = republic_government }
-							# cfp_portrait_slavic_clothing_trigger = yes
+							# cfp_portrait_slavic_clothing_spouse_trigger = yes
 						# }
 					# }
 				}
@@ -2538,7 +2538,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_byzantine_clothing_trigger = yes
+				portrait_byzantine_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -2600,7 +2600,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_byzantine_clothing_trigger = yes
+							portrait_byzantine_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2665,7 +2665,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_byzantine_clothing_trigger = yes
+							portrait_byzantine_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2720,7 +2720,7 @@ headgear = {
 								highest_held_title_tier >= tier_kingdom
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_byzantine_clothing_trigger = yes
+							portrait_byzantine_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2777,7 +2777,7 @@ headgear = {
 					#		}
 					#		NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 					#		NOT = { has_government = republic_government }
-					#		portrait_byzantine_clothing_trigger = yes
+					#		portrait_byzantine_clothing_spouse_trigger = yes
 					#	}
 					#}
 				}
@@ -2891,7 +2891,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_indian_clothing_trigger = yes
+				portrait_indian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -2953,7 +2953,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_indian_clothing_trigger = yes
+							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3018,7 +3018,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_indian_clothing_trigger = yes
+							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
 				}				
@@ -3078,7 +3078,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_indian_clothing_trigger = yes
+							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
 				}				
@@ -3138,7 +3138,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_indian_clothing_trigger = yes
+							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
 				}				
@@ -3250,7 +3250,7 @@ headgear = {
 					has_government = republic_government
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_mena_clothing_trigger = yes
+				portrait_mena_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -3332,7 +3332,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_mena_clothing_trigger = yes
+							portrait_mena_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3397,7 +3397,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_mena_clothing_trigger = yes
+							portrait_mena_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3457,7 +3457,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_mena_clothing_trigger = yes
+							portrait_mena_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3850,7 +3850,7 @@ headgear = {
 					has_government = republic_government
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_egyptian_clothing_trigger = yes
+				cfp_portrait_egyptian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -3898,8 +3898,8 @@ headgear = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						OR = {
-							cfp_portrait_bedouin_clothing_trigger = yes
-							cfp_portrait_berber_clothing_trigger = yes				
+							cfp_portrait_bedouin_clothing_spouse_trigger = yes
+							cfp_portrait_berber_clothing_spouse_trigger = yes				
 						}
 						NOT = { has_game_rule = never_cfp_fullplate_helmets }
 					}
@@ -3953,8 +3953,8 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				OR = {
-					cfp_portrait_bedouin_clothing_trigger = yes
-					cfp_portrait_berber_clothing_trigger = yes				
+					cfp_portrait_bedouin_clothing_spouse_trigger = yes
+					cfp_portrait_berber_clothing_spouse_trigger = yes				
 				}
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 			}
@@ -4006,7 +4006,7 @@ headgear = {
 					has_government = republic_government
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_iranian_clothing_trigger = yes
+				cfp_portrait_iranian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -4088,7 +4088,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_iranian_clothing_trigger = yes
+							cfp_portrait_iranian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4155,7 +4155,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_iranian_clothing_trigger = yes
+							cfp_portrait_iranian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4311,7 +4311,7 @@ headgear = {
 				 	has_government = republic_government
 				 	AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_dde_abbasid_clothing_trigger = yes
+				portrait_dde_abbasid_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -4372,7 +4372,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_abbasid_clothing_trigger = yes
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4432,7 +4432,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_dde_abbasid_clothing_trigger = yes
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4585,7 +4585,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_steppe_clothing_trigger = yes
+				portrait_steppe_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -4646,7 +4646,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_steppe_clothing_trigger = yes
+							portrait_steppe_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4711,7 +4711,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_steppe_clothing_trigger = yes
+							portrait_steppe_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4771,7 +4771,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_steppe_clothing_trigger = yes
+							portrait_steppe_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4885,7 +4885,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_turkic_clothing_trigger = yes
+				cfp_portrait_turkic_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -4947,7 +4947,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_turkic_clothing_trigger = yes
+							cfp_portrait_turkic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5012,7 +5012,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_turkic_clothing_trigger = yes
+							cfp_portrait_turkic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5072,7 +5072,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							cfp_portrait_turkic_clothing_trigger = yes
+							cfp_portrait_turkic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5256,7 +5256,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_oghuz_clothing_trigger = yes
+							cfp_portrait_oghuz_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5321,7 +5321,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_oghuz_clothing_trigger = yes
+							cfp_portrait_oghuz_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5376,12 +5376,12 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_northern_clothing_trigger = yes
+				portrait_northern_clothing_spouse_trigger = yes
 			}
 			modifier = {
 				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
 				add = -1000
-				cfp_portrait_norse_clothing_trigger = yes
+				cfp_portrait_norse_clothing_spouse_trigger = yes
 				has_fp1_dlc_trigger = yes
 				NOT = { has_government = republic_government }
 			}
@@ -5608,7 +5608,7 @@ headgear = {
 				 	has_government = republic_government
 				 	AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_fp1_norse_clothing_trigger = yes
+				portrait_fp1_norse_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -5711,7 +5711,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_fp1_norse_clothing_trigger = yes
+							portrait_fp1_norse_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5771,7 +5771,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_fp1_norse_clothing_trigger = yes
+							portrait_fp1_norse_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6033,7 +6033,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_african_clothing_trigger = yes
+				portrait_african_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -6094,7 +6094,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_african_clothing_trigger = yes
+							portrait_african_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6154,7 +6154,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_african_clothing_trigger = yes
+							portrait_african_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6320,7 +6320,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_west_africa_clothing_trigger = yes
+							cfp_portrait_west_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6385,7 +6385,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_west_africa_clothing_trigger = yes
+							cfp_portrait_west_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6498,7 +6498,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_east_africa_clothing_trigger = yes
+				cfp_portrait_east_africa_clothing_spouse_trigger = yes
 				is_female = yes # nothing for males
 			}
 		}
@@ -6562,7 +6562,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_east_africa_clothing_trigger = yes
+							cfp_portrait_east_africa_clothing_spouse_trigger = yes
 							is_female = yes # nothing for males
 						}
 					}
@@ -6628,7 +6628,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_east_africa_clothing_trigger = yes
+							cfp_portrait_east_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6688,7 +6688,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							cfp_portrait_east_africa_clothing_trigger = yes
+							cfp_portrait_east_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6852,7 +6852,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_central_africa_clothing_trigger = yes
+							cfp_portrait_central_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6917,7 +6917,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_central_africa_clothing_trigger = yes
+							cfp_portrait_central_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -7100,6 +7100,7 @@ headgear = {
 	        modifier = {
 				add = 130
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
@@ -7274,6 +7275,7 @@ headgear = {
 	            add = 120
 				faith = { religion_tag = christianity_religion }
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
@@ -7371,6 +7373,7 @@ headgear = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7433,6 +7436,7 @@ headgear = {
 	        modifier = {
 				add = 111
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7461,6 +7465,7 @@ headgear = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7495,6 +7500,7 @@ headgear = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7560,6 +7566,7 @@ headgear = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7612,6 +7619,7 @@ headgear = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7640,6 +7648,7 @@ headgear = {
 	        modifier = {
 				add = 100
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7694,6 +7703,7 @@ headgear = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7742,6 +7752,7 @@ headgear = {
 	        modifier = {
 				add = 110
 				OR = {
+					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
@@ -7756,5 +7767,164 @@ headgear = {
 				}
 			}
 	    }
+	}
+
+	#RTT headgear
+	male_headgear_secular_rtt_nobility_01_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = monarchs_journey_low
+				value = 0
+			}
+		}
+		
+		is_valid_custom = {
+			#monarchs_journey_unlock = 3
+			is_male = yes
+		}
+
+		weight = {
+	        base = 0
+	        modifier = {
+	        	add = 10 
+        		AND = {
+					has_government = republic_government
+					primary_title.tier = 1
+				}
+				current_date >= 1300.1.1
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_western_clothing_spouse_trigger = yes
+				}
+	        }
+   		}
+	}
+
+	male_headgear_secular_rtt_nobility_01_high = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = monarchs_journey_high
+				value = 0
+			}
+		}
+		
+		is_valid_custom = {
+			#monarchs_journey_unlock = 3
+			is_male = yes
+		}
+
+		weight = {
+	        base = -100
+        }
+	}
+ 
+	male_headgear_secular_rtt_jester_01_low = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = monarchs_journey_low
+				value = 1
+			}
+		}
+		
+		is_valid_custom = {
+			#monarchs_journey_unlock = 4
+			is_male = yes
+		}
+
+		weight = {
+			base = -100
+		}
+	}
+
+	male_headgear_secular_rtt_jester_01_high = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = monarchs_journey_high
+				value = 1
+			}
+		}
+		
+		is_valid_custom = {
+			#monarchs_journey_unlock = 4
+			is_male = yes
+		}
+
+		weight = {
+			base = -100
+		}
+	}
+
+	female_headgear_secular_rtt_nobility_01_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = monarchs_journey_low
+				value = 1
+			}
+		}
+		
+		is_valid_custom = {
+			#monarchs_journey_unlock = 5
+			is_male = no
+		}
+
+	  	weight = {
+	        base = 0
+	        modifier = {
+	        	add = 2
+	        	is_lowborn = no
+	        	current_date >= 1300.1.1
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_western_clothing_spouse_trigger = yes
+				}
+	        }
+        }
+	}
+
+	female_headgear_secular_rtt_nobility_01_high = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = monarchs_journey_high
+				value = 1
+			}
+		}
+		
+		is_valid_custom = {
+			#monarchs_journey_unlock = 5
+			is_male = no
+		}
+
+	  	weight = {
+	        base = 0
+	        modifier = {
+	        	add = 2
+	        	current_date >= 1300.1.1
+				is_ruler = no
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_western_clothing_spouse_trigger = yes
+				}
+	        }
+        }
 	}
 }
