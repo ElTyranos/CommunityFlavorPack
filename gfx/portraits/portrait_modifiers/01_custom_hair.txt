@@ -1,4 +1,4 @@
-﻿# Make sure the weights here match up best as possible with the hairstyles set
+# Make sure the weights here match up best as possible with the hairstyles set
 custom_hair = {
 	usage = customization
 	interface_position = 2
@@ -79,7 +79,7 @@ custom_hair = {
 		gene = hairstyles
 		template = western_hairstyles_aging
 	}
-	##
+	## /CFP
 
 
 	add_accessory_modifiers = {
@@ -181,7 +181,7 @@ custom_hair = {
 		gene = hairstyles
 		template = catholic_devoted_hairstyles
 	}
-	## CFP
+	## / CFP
 
 	add_accessory_modifiers = {
 		gene = hairstyles
