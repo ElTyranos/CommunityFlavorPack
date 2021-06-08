@@ -5,16 +5,43 @@
 
 # NORTH
 cfp_portrait_norse_clothing_trigger = {
-	scope:culture = { has_graphical_culture = fp1_norse_clothing_gfx }
+	scope:culture = { cfp_portrait_norse_clothing_contents_trigger = yes }
 }
+cfp_portrait_norse_clothing_spouse_trigger = {
+	culture = { cfp_portrait_norse_clothing_contents_trigger = yes }
+}
+cfp_portrait_norse_clothing_contents_trigger = {
+	has_graphical_culture = fp1_norse_clothing_gfx
+}
+
 cfp_portrait_anglo_saxon_clothing_trigger = {
-	has_culture = culture:anglo_saxon
+	scope:culture = { cfp_portrait_anglo_saxon_clothing_contents_trigger = yes }
 }
+cfp_portrait_anglo_saxon_clothing_spouse_trigger = {
+	culture = { cfp_portrait_anglo_saxon_clothing_contents_trigger = yes }
+}
+cfp_portrait_anglo_saxon_clothing_contents_trigger = {
+	this = culture:anglo_saxon
+}
+
 cfp_portrait_norman_clothing_trigger = {
-	has_culture = culture:norman
+	scope:culture = { cfp_portrait_norman_clothing_contents_trigger = yes }
 }
+cfp_portrait_norman_clothing_spouse_trigger = {
+	culture = { cfp_portrait_norman_clothing_contents_trigger = yes }
+}
+cfp_portrait_norman_clothing_contents_trigger = {
+	this = culture:norman
+}
+
 cfp_portrait_norman_sicily_clothing_trigger = {
-	has_culture = culture:norman
+	scope:culture = { cfp_portrait_norman_sicily_clothing_contents_trigger = yes }
+}
+cfp_portrait_norman_sicily_clothing_spouse_trigger = {
+	culture = { cfp_portrait_norman_sicily_clothing_contents_trigger = yes }
+}
+cfp_portrait_norman_sicily_clothing_contents_trigger = {
+	this = culture:norman
 	trigger_if = {
 		limit = { exists = capital_province }
 		capital_province = { geographical_region = world_europe_south_italy }
@@ -44,74 +71,176 @@ cfp_portrait_norman_sicily_clothing_trigger = {
 
 ## EAST
 cfp_portrait_hungarian_clothing_trigger = {
-	has_culture = culture:hungarian
+	scope:culture = { cfp_portrait_hungarian_clothing_contents_trigger = yes }
 }
+cfp_portrait_hungarian_clothing_spouse_trigger = {
+	culture = { cfp_portrait_hungarian_clothing_contents_trigger = yes }
+}
+cfp_portrait_hungarian_clothing_contents_trigger = {
+	this = culture:hungarian
+}
+
 cfp_portrait_turkic_clothing_trigger = {
-	has_culture_group = culture_group:turkic_group
+	scope:culture = { cfp_portrait_turkic_clothing_contents_trigger = yes }
 }
+cfp_portrait_turkic_clothing_spouse_trigger = {
+	culture = { cfp_portrait_turkic_clothing_contents_trigger = yes }
+}
+cfp_portrait_turkic_clothing_contents_trigger = {
+	culture_group = culture_group:turkic_group
+}
+
 cfp_portrait_dde_turkic_clothing_trigger = {
-	has_culture_group = culture_group:turkic_group
+	scope:culture = { cfp_portrait_dde_turkic_clothing_contents_trigger = yes }
+}
+cfp_portrait_dde_turkic_clothing_spouse_trigger = {
+	culture = { cfp_portrait_dde_turkic_clothing_contents_trigger = yes }
+}
+cfp_portrait_dde_turkic_clothing_contents_trigger = {
+	culture_group = culture_group:turkic_group
 	has_dlc = "Fashion of the Abbasid Court" # required to assign DLC armors to Cumans
 }
+
 cfp_portrait_oghuz_clothing_trigger = {
-	has_culture = culture:turkish
+	scope:culture = { cfp_portrait_oghuz_clothing_contents_trigger = yes }
 }
+cfp_portrait_oghuz_clothing_spouse_trigger = {
+	culture = { cfp_portrait_oghuz_clothing_contents_trigger = yes }
+}
+cfp_portrait_oghuz_clothing_contents_trigger = {
+	this = culture:turkish
+}
+
 cfp_portrait_slavic_clothing_trigger = {
+	scope:culture = { cfp_portrait_slavic_clothing_contents_trigger = yes }
+}
+cfp_portrait_slavic_clothing_spouse_trigger = {
+	culture = { cfp_portrait_slavic_clothing_contents_trigger = yes }
+}
+cfp_portrait_slavic_clothing_contents_trigger = {
 	OR = {
-		has_culture_group = culture_group:east_slavic_group
-		has_culture_group = culture_group:west_slavic_group
-		has_culture_group = culture_group:south_slavic_group
+		culture_group = culture_group:east_slavic_group
+		culture_group = culture_group:west_slavic_group
+		culture_group = culture_group:south_slavic_group
 	}
 }
 
 ## WESTERN
 cfp_portrait_latin_clothing_trigger = {
-	has_culture_group = culture_group:latin_group
+	scope:culture = { cfp_portrait_latin_clothing_contents_trigger = yes }
 }
+cfp_portrait_latin_clothing_spouse_trigger = {
+	culture = { cfp_portrait_latin_clothing_contents_trigger = yes }
+}
+cfp_portrait_latin_clothing_contents_trigger = {
+	culture_group = culture_group:latin_group
+}
+
 cfp_portrait_iberian_clothing_trigger = {
-	has_culture_group = culture_group:iberian_group
+	scope:culture = { cfp_portrait_iberian_clothing_contents_trigger = yes }
+}
+cfp_portrait_iberian_clothing_spouse_trigger = {
+	culture = { cfp_portrait_iberian_clothing_contents_trigger = yes }
+}
+cfp_portrait_iberian_clothing_contents_trigger = {
+	culture_group = culture_group:iberian_group
 }
 
 ## MENA
 cfp_portrait_iranian_clothing_trigger = {
-	has_culture_group = culture_group:iranian_group
+	scope:culture = { cfp_portrait_iranian_clothing_contents_trigger = yes }
 }
+cfp_portrait_iranian_clothing_spouse_trigger = {
+	culture = { cfp_portrait_iranian_clothing_contents_trigger = yes }
+}
+cfp_portrait_iranian_clothing_contents_trigger = {
+	culture_group = culture_group:iranian_group
+}
+
 cfp_portrait_berber_clothing_trigger = {
-	has_culture_group = culture_group:berber_group
+	scope:culture = { cfp_portrait_berber_clothing_contents_trigger = yes }
 }
+cfp_portrait_berber_clothing_spouse_trigger = {
+	culture = { cfp_portrait_berber_clothing_contents_trigger = yes }
+}
+cfp_portrait_berber_clothing_contents_trigger = {
+	culture_group = culture_group:berber_group
+}
+
 cfp_portrait_andalusian_clothing_trigger = {
-	has_culture = culture:andalusian
+	scope:culture = { cfp_portrait_andalusian_clothing_contents_trigger = yes }
 }
+cfp_portrait_andalusian_clothing_spouse_trigger = {
+	culture = { cfp_portrait_andalusian_clothing_contents_trigger = yes }
+}
+cfp_portrait_andalusian_clothing_contents_trigger = {
+	this = culture:andalusian
+}
+
 cfp_portrait_bedouin_clothing_trigger = {
-	has_culture = culture:bedouin
+	scope:culture = { cfp_portrait_bedouin_clothing_contents_trigger = yes }
 }
+cfp_portrait_bedouin_clothing_spouse_trigger = {
+	culture = { cfp_portrait_bedouin_clothing_contents_trigger = yes }
+}
+cfp_portrait_bedouin_clothing_contents_trigger = {
+	this = culture:bedouin
+}
+
 cfp_portrait_egyptian_clothing_trigger = {
-	has_culture = culture:egyptian
+	scope:culture = { cfp_portrait_egyptian_clothing_contents_trigger = yes }
+}
+cfp_portrait_egyptian_clothing_spouse_trigger = {
+	culture = { cfp_portrait_egyptian_clothing_contents_trigger = yes }
+}
+cfp_portrait_egyptian_clothing_contents_trigger = {
+	this = culture:egyptian
 }
 
 ## AFRICA
 cfp_portrait_east_africa_clothing_trigger = {
+	scope:culture = { cfp_portrait_east_africa_clothing_contents_trigger = yes }
+}
+cfp_portrait_east_africa_clothing_spouse_trigger = {
+	culture = { cfp_portrait_east_africa_clothing_contents_trigger = yes }
+}
+cfp_portrait_east_africa_clothing_contents_trigger = {
 	OR = {
-		has_culture_group = culture_group:east_african_group
-		has_culture_group = culture_group:somalian_group
+		culture_group = culture_group:east_african_group
+		culture_group = culture_group:somalian_group
 	}
 }
+
 cfp_portrait_central_africa_clothing_trigger = {
+	scope:culture = { cfp_portrait_central_africa_clothing_contents_trigger = yes }
+}
+cfp_portrait_central_africa_clothing_spouse_trigger = {
+	culture = { cfp_portrait_central_africa_clothing_contents_trigger = yes }
+}
+cfp_portrait_central_africa_clothing_contents_trigger = {
 	OR = {
-		has_culture_group = culture_group:central_african_group
-		has_culture_group = culture_group:yoruba_group
+		culture_group = culture_group:central_african_group
+		culture_group = culture_group:yoruba_group
 	}
 }
+
 cfp_portrait_west_africa_clothing_trigger = {
+	scope:culture = { cfp_portrait_west_africa_clothing_contents_trigger = yes }
+}
+cfp_portrait_west_africa_clothing_spouse_trigger = {
+	culture = { cfp_portrait_west_africa_clothing_contents_trigger = yes }
+}
+cfp_portrait_west_africa_clothing_contents_trigger = {
 	OR = {
-		has_culture_group = culture_group:west_african_group
-		has_culture_group = culture_group:akan_group
-		has_culture_group = culture_group:senegambian_group
-		has_culture_group = culture_group:sahelian_group
+		culture_group = culture_group:west_african_group
+		culture_group = culture_group:akan_group
+		culture_group = culture_group:senegambian_group
+		culture_group = culture_group:sahelian_group
 	}
 }
+
 cfp_portrait_afar_clothing_trigger = {
-	has_culture = culture:afar
+	has_culture = culture:afar # only for teeth so no spouse trigger is needed yet
 }
 
 # wear_helmet_trigger but for dukes
@@ -180,37 +309,35 @@ cfp_innovation_ermine_cloaks_trigger = {
 }
 
 ## OVERWRITTING DEFAULT CLASSES
-portrait_steppe_clothing_trigger = {
-	scope:culture = { has_graphical_culture = mongol_clothing_gfx }
-	NOR = {
-		cfp_portrait_turkic_clothing_trigger = yes
-	}
+portrait_steppe_clothing_contents_trigger = {
+	has_graphical_culture = mongol_clothing_gfx
+	NOT = {	culture_group = culture_group:turkic_group }
 }
-portrait_northern_clothing_trigger = {
+portrait_northern_clothing_contents_trigger = {
 	OR = {
-		scope:culture = { has_graphical_culture = northern_clothing_gfx }
+		has_graphical_culture = northern_clothing_gfx
 		AND = {
 			has_fp1_dlc_trigger = yes
-			has_culture_group = culture_group:west_germanic_group
-			NOT = { has_culture = culture:english }
+			culture_group = culture_group:west_germanic_group
+			NOT = { this = culture:english }
 		}
 	}
 }
-portrait_mena_clothing_trigger = {
-	scope:culture = { has_graphical_culture = mena_clothing_gfx }
+portrait_mena_clothing_contents_trigger = {
+	has_graphical_culture = mena_clothing_gfx
 	NOR = {
-		has_culture_group = culture_group:east_african_group
-		has_culture_group = culture_group:somalian_group
+		culture_group = culture_group:east_african_group
+		culture_group = culture_group:somalian_group
 	}	
 }
-portrait_african_clothing_trigger = {
+portrait_african_clothing_contents_trigger = {
 	OR = { 
-		scope:culture = { has_graphical_culture = african_clothing_gfx }
-		AND = { 
-			scope:culture = { has_graphical_culture = mena_clothing_gfx }
+		has_graphical_culture = african_clothing_gfx
+		AND = {
+			has_graphical_culture = mena_clothing_gfx
 			OR = {
-				has_culture_group = culture_group:east_african_group
-				has_culture_group = culture_group:somalian_group
+				culture_group = culture_group:east_african_group
+				culture_group = culture_group:somalian_group
 			}
 		}
 	}
