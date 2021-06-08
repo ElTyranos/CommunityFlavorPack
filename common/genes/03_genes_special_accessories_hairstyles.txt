@@ -982,8 +982,17 @@ special_genes = {
 				girl = female
 			}
 			
-			western_hairstyles_aging = {
+			# Harald Fairhair's vow-hair.
+			scripted_character_hairstyles_02 = {
 				index = 37
+				male = { 1 = male_hair_northern_01 }		   
+				female = male
+				boy = male
+				girl = male
+			}
+			
+			western_hairstyles_aging = {
+				index = 38
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -999,7 +1008,7 @@ special_genes = {
 			}
 			
 			slavic_hairstyles_warrior = {
-				index = 38
+				index = 39
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
