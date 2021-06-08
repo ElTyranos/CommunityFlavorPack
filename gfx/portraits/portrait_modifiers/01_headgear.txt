@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -6034,6 +6034,20 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_african_clothing_spouse_trigger = yes
+			}
+			modifier = {
+				## Let's add this otherwise eastern african male low nobles have nothing to wear
+				add = 50
+				highest_held_title_tier = tier_county
+				NOR = {
+					# has_dynasty = no
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				cfp_portrait_east_africa_clothing_trigger = yes
 			}
 		}
 	}
