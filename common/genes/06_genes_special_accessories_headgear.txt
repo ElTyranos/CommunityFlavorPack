@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -1135,6 +1135,7 @@ accessory_genes = {
 			index = 71
 			male = {
 				1 = male_headgear_religious_northern_high_01
+				1 = male_headgear_secular_fp1_cfp_nobility_01
 
 			}
 			female = {
@@ -1189,6 +1190,7 @@ accessory_genes = {
 			index = 73
 			male = {
 				1 = male_headgear_secular_fp1_royalty_01
+				1 = male_headgear_secular_fp1_cfp_royalty_01
 
 			}
 			female = {

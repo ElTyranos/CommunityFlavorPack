@@ -1,4 +1,4 @@
-﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
 
 	#set_tags = "no_hair"
 	#set_tags = "no_beard"
@@ -55,6 +55,16 @@ male_headgear_secular_sub_saharan_royalty_02 = {
 male_headgear_secular_indian_imperial_02 = {
 	set_tags = "crown"	
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_indian_imperial_02_entity 	 }		
+}
+
+male_headgear_secular_fp1_cfp_nobility_01 = {	
+	set_tags = "cap"
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_fp1_cfp_nobility_01_entity 	 }		
+}
+male_headgear_secular_fp1_cfp_royalty_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_fp1_cfp_royalty_01_entity 	 }		
 }
 
 ## Viking cultural
