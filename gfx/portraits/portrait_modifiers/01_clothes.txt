@@ -3052,7 +3052,41 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
-				portrait_african_clothing_trigger = yes
+				OR = { 
+					cfp_portrait_central_africa_clothing_trigger = yes
+					cfp_portrait_west_africa_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	
+	east_african_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = east_african_war_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				cfp_portrait_east_africa_clothing_trigger = yes
 			}
 		}
 	}

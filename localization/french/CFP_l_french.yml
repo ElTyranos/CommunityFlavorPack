@@ -1,4 +1,4 @@
-l_french:
+﻿l_french:
 
 ## Vanilla Edit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "@cfp_icon! Casque conique à nasal (sans couvre-nuque)"
@@ -453,6 +453,9 @@ l_french:
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02:0 "@cfp_icon_yellow! Armure Africaine matelassée 2"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_central_cfp_war_padded_02:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01:0 "@cfp_icon_yellow! Cotte de maille Africaine"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_east_cfp_war_mail_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01$"
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Jambières d'armure de plates"
