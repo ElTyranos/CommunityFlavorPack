@@ -48,6 +48,9 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02:1 "@cfp_icon! 罗马王冠"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03:1 "@cfp_icon! 叶冠2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! 平顶小圆帽（贵族）"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! 平顶小圆帽（平民）"
  
