@@ -48,6 +48,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02:1 "@cfp_icon! Римская корона"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03:1 "@cfp_icon! Корона-венец 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! Шляпа-пильон (Дворянин)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! Шляпа-пильон (Общий)"
  
@@ -434,7 +437,7 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! Пластинчатая броня типа Чурбург"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! Броня тарелок и бандитов"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Арабская почта"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Арабская Кольчуга"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low:0 "@cfp_icon_green! Арабские доспехи (Кожаный)"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low$"
@@ -442,7 +445,7 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_02_low:0 "@cfp_icon_green! Аббасидские доспехи (Кожаный)"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_war_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_02_low$"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_02:0 "@cfp_icon_green! Arabic Gambeson"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_02:0 "@cfp_icon_green! Арабские мягкая броня"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_gambeson_02:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_02$"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_01:0 "@cfp_icon_yellow! Африканские мягкие доспехи"
@@ -450,6 +453,9 @@
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02:0 "@cfp_icon_yellow! Африканские мягкие доспехи 2"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_central_cfp_war_padded_02:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01:0 "@cfp_icon_yellow! Африканские Кольчуга"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_east_cfp_war_mail_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01$"
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Ножки пластинчатой брони"

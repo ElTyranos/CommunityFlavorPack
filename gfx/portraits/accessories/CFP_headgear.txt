@@ -57,6 +57,16 @@ male_headgear_secular_indian_imperial_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_indian_imperial_02_entity 	 }		
 }
 
+male_headgear_secular_fp1_cfp_nobility_01 = {	
+	set_tags = "cap"
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_fp1_cfp_nobility_01_entity 	 }		
+}
+male_headgear_secular_fp1_cfp_royalty_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_fp1_cfp_royalty_01_entity 	 }		
+}
+
 ## Viking cultural
 male_headgear_secular_northern_war_viking_01 = {
 	set_tags = "cap"
@@ -166,6 +176,14 @@ male_headgear_secular_western_cfp_royalty_02 = {
 female_headgear_secular_western_cfp_royalty_02 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_02_entity 	 }		
+}
+male_headgear_secular_western_cfp_royalty_03 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_03_entity 	 }		
+}
+female_headgear_secular_western_cfp_royalty_03 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_03_entity 	 }		
 }
 
 male_headgear_secular_western_headband_common_01 = {

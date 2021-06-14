@@ -56,7 +56,8 @@
 			african_low_nobility = {
 				index = 4
 				male = {
-					1 = empty
+					10 = empty
+					1 = male_accessories_cfp_african_earrings_01
 				}
 				female = {
 					3 = empty

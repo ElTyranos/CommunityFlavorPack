@@ -1436,6 +1436,23 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			## African ##
+			
+			
+			east_african_war_nobility_clothes = {
+				index = 78
+
+				male = {
+					1 = male_clothes_secular_africa_east_cfp_war_mail_01
+				}
+
+				female = {
+					1 = female_clothes_secular_africa_east_cfp_war_mail_01
+				}
+				boy = male
+				girl = female
+			}
 
 		}
 }

@@ -240,7 +240,11 @@ cfp_portrait_west_africa_clothing_contents_trigger = {
 }
 
 cfp_portrait_afar_clothing_trigger = {
-	has_culture = culture:afar # only for teeth so no spouse trigger is needed yet
+	scope:culture = { cfp_portrait_afar_clothing_contents_trigger = yes }
+	# only for teeth so no spouse trigger is needed yet
+}
+cfp_portrait_afar_clothing_contents_trigger = {
+	this = culture:afar
 }
 
 # wear_helmet_trigger but for dukes

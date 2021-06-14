@@ -256,6 +256,13 @@
 		gene = clothes
 		template = sub_saharan_war_nobility_clothes
 	}
+	
+	## CFP
+	add_accessory_modifiers = {
+		gene = clothes
+		template = east_african_war_nobility_clothes
+	}
+	## /CFP
 
 	add_accessory_modifiers = {
 		gene = clothes

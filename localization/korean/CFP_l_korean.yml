@@ -48,6 +48,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02:1 "@cfp_icon! 로마 제관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03:1 "@cfp_icon! 나뭇잎 왕관 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! 약통 모자 (귀족)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! 약통 모자 (평민)"
  
@@ -449,6 +452,9 @@
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02:0 "@cfp_icon_yellow! 아프리카 누비 갑옷 2"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_central_cfp_war_padded_02:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01:0 "@cfp_icon_yellow! 아프리카 사슬 갑옷"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_east_cfp_war_mail_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01$"
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 플레이트 아머 각반"

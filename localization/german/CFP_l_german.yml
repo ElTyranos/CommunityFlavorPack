@@ -48,6 +48,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02:1 "@cfp_icon! Römische Krone"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03:1 "@cfp_icon! Blätterkrone 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_03$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! Pillbox-Hut (Adelig)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! Pillbox-Hut (gemeiner)"
  
@@ -449,6 +452,9 @@
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02:0 "@cfp_icon_yellow! African Padded Armor 2"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_central_cfp_war_padded_02:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_02$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01:0 "@cfp_icon_yellow! African Mail Armor"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_east_cfp_war_mail_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01$"
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Plattenbeinschutz"
