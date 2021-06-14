@@ -60,6 +60,9 @@ male_accessories_cfp_slavic_earrings_01 = {
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_accessories_cfp_slavic_earrings_01_entity }
 }
 
+male_accessories_cfp_african_earrings_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head		entity = male_accessories_cfp_african_earrings_01_entity }
+}
 female_accessories_cfp_african_earrings_01 = {
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_african_earrings_01_entity }
 }
