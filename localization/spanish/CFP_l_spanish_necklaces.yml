@@ -18,5 +18,6 @@
  PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_ermine_necklace_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01$"
  
  PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_african_necklace_01:1 "@cfp_icon_yellow! Collar de anillos Africano"
- PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_african_necklace_02:1 "@cfp_icon_yellow! Collar de coral Ado"
+ PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_african_necklace_02:1 "@cfp_icon_yellow! Collar de coral Ado"
+ PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_african_necklace_02:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_african_necklace_02$"
  

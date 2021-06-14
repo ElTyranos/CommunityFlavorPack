@@ -140,7 +140,6 @@
 			base = 0
 			modifier = {
 				add = 101
-				NOT = { is_male = yes }
 				cfp_portrait_central_africa_clothing_trigger = yes
 				OR = {
 					AND = {

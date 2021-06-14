@@ -67,7 +67,7 @@
 			central_african_low_nobility = {
 				index = 5
 				male = {
-					1 = empty
+					1 = male_accessories_cfp_african_necklace_02
 				}
 				female = {
 					3 = female_accessories_cfp_african_necklace_02
