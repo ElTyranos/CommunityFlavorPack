@@ -277,6 +277,13 @@ variation = {
 		b = { textures = "sub_saharan_trim_silk_01" layout = "small_trim_layout" }
 		a = { textures = "sub_saharan_trim_silk_01"	layout = "small_trim_layout" }
 	}
+	pattern = { 
+		weight = 1
+		r = { textures = "makurian_04" layout = "plain_fabric_layout_03" }
+		g = { textures = "sub_saharan_stripes_pattern_Silk_02" layout = "plain_fabric_layout_02" }
+		b = { textures = "sub_saharan_trim_silk_01" layout = "small_trim_layout" }
+		a = { textures = "sub_saharan_trim_silk_01"	layout = "small_trim_layout" }
+	}
 	
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.

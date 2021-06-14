@@ -58,6 +58,12 @@ pattern_textures = {
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_03_properties.dds"
 }
 pattern_textures = {
+	name = "makurian_04"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_04_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_04_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/makurian_04_properties.dds"
+}
+pattern_textures = {
 	name = "nubian_01"
 	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_01_masks.dds"
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_01_normal.dds"
