@@ -294,19 +294,7 @@ cfp_era_late_medieval_trigger = {
 }
 cfp_innovation_plate_armor_trigger = {
 	scope:culture = { has_innovation = innovation_plate_armor }
-	# We need conditions to avoid clipping with blendshapes due to model exporter issues
 	is_male = yes
-	NOT = { has_trait = dwarf } # did you think you were Gimli, dwarf ? }
-	NAND = {
-		# Weight but no muscle
-		prowess > 5
-		current_weight >= 25
-	}
-	NAND = {
-		# No weight but muscle
-		prowess > 10
-		current_weight >= 0
-	}
 }
 cfp_innovation_ermine_cloaks_trigger = {
 	scope:culture = { has_innovation = innovation_ermine_cloaks }
