@@ -247,6 +247,18 @@ cfp_portrait_afar_clothing_contents_trigger = {
 	this = culture:afar
 }
 
+## INDIA
+portrait_burmese_clothing_trigger = {
+	scope:culture = { portrait_burmese_clothing_contents_trigger = yes }
+}
+
+portrait_burmese_clothing_spouse_trigger = {
+	culture = { portrait_burmese_clothing_contents_trigger = yes }
+}
+portrait_burmese_clothing_contents_trigger = {
+	culture_group = culture_group:burman_group
+}
+
 # wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
