@@ -1628,7 +1628,7 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 89
+				add = 101
 				highest_held_title_tier < tier_county
 				NOR = {
 					AND = {
