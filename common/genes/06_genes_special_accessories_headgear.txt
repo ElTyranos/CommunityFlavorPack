@@ -2160,6 +2160,32 @@ accessory_genes = {
             boy = male
             girl = female
         }
+		
+		javanese_nobility = {
+			index = 146
+			male = {
+				1 = empty
+				5 = male_headgear_secular_java_cfp_high_nobility_01
+			}
+			female = {
+				1 = empty
+				5 = female_headgear_secular_java_cfp_high_nobility_01
+			}
+			boy = male
+            girl = female
+		}
+		
+		javanese_royalty = {
+			index = 147
+			male = {
+				1 = male_headgear_secular_java_cfp_royalty_01
+			}
+			female = {
+				1 = female_headgear_secular_java_cfp_royalty_01
+			}
+			boy = male
+            girl = female
+		}
 
 	}
 }

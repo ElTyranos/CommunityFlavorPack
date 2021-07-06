@@ -198,6 +198,18 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+		
+		javanese_spymasters_dagger = {
+			index = 15
+			male = {
+				1 = cfp_kris_dagger_01
+			}
+			female = {
+				1 = cfp_kris_dagger_01		
+			}
+			boy = male
+			girl = female
+		}
 	}
 
 
@@ -302,6 +314,42 @@ accessory_genes = {
 			}
 			female = {
 				1 = female_legwear_secular_sub_saharan_cfp_common_01
+			}
+			boy = male
+			girl = female
+		}
+		
+		javanese_common_legwear = {
+			index = 8
+			male = {
+				1 = male_legwear_secular_java_cfp_common_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		
+		javanese_nobility_legwear = {
+			index = 9
+			male = {
+				1 = male_legwear_secular_java_cfp_high_nobility_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		
+		javanese_royalty_legwear = {
+			index = 10
+			male = {
+				1 = male_legwear_secular_java_cfp_royalty_01
+			}
+			female = {
+				1 = empty
 			}
 			boy = male
 			girl = female

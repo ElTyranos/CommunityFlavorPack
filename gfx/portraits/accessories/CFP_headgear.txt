@@ -1192,3 +1192,21 @@ male_headgear_special_cfp_glasses_02 = {
 female_headgear_special_cfp_glasses_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_cfp_glasses_02_entity 	 }
 }
+
+## Javanese
+male_headgear_secular_java_cfp_royalty_01 = {	
+	set_tags = "cap,cap_02"
+ 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_java_cfp_royalty_01_entity 	 }		
+}
+female_headgear_secular_java_cfp_royalty_01 = {	
+	set_tags = "cap,cap_02"
+ 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_java_cfp_royalty_01_entity 	 }		
+}
+male_headgear_secular_java_cfp_high_nobility_01 = {	
+	set_tags = "no_hair"
+ 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_java_cfp_high_nobility_01_entity 	 }		
+}
+female_headgear_secular_java_cfp_high_nobility_01 = {	
+	set_tags = "no_hair"
+ 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_java_cfp_high_nobility_01_entity 	 }		
+}

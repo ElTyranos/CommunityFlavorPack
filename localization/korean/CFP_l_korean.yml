@@ -376,6 +376,13 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_common_01:1 "@cfp_icon_yellow! 에티오피아 면사포"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_low_nobility_01:1 "@cfp_icon_yellow! 에티오피아 고리버들 모자"
  
+## Javanese
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mmjm_royalty_01:0 "@mmjm_icon! 자바 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mmjm_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mmjm_royalty_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mmjm_high_nobility_01:0 "@mmjm_icon! 자바 공백"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_java_cfp_high_nobility_01:0 "@cfp_icon_orange! 자바 캡"
+ 
 ## Cloaks
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01:1 "@cfp_icon! 바이킹 방패"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_northern_war_viking_shield_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01$"
@@ -456,8 +463,20 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01:0 "@cfp_icon_yellow! 아프리카 사슬 갑옷"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_east_cfp_war_mail_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01$"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mmjm_royalty_01:0 "@mmjm_icon! 자바 왕족 의상"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mmjm_royalty_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mmjm_royalty_01$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mmjm_high_nobility_01:0 "@mmjm_icon! 자바 귀족 의상"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mmjm_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mmjm_high_nobility_01$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mmjm_common_01:0 "@mmjm_icon! 자바 평민 의상"
+ 
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 플레이트 아머 각반"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! 아프리카 레그웨어"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_sub_saharan_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01$"
+
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_common_01:1 "@mmjm_icon! 자바 평민 레그웨어"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_high_nobility_01:1 "@mmjm_icon! 자바 귀족 레그웨어"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_royalty_01:1 "@mmjm_icon! 자바 왕족 레그웨어"

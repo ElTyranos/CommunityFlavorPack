@@ -227,5 +227,177 @@
 			}
 		}
 	}
+	
+	## burmese ##
+
+	burmese_common_legwear = {
+	
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = javanese_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				portrait_burmese_clothing_trigger = yes
+			}
+		}
+	}
+
+
+	burmese_noble_legwear = {
+	
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = javanese_nobility_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_burmese_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_burmese_clothing_spouse_trigger = yes
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 101
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_burmese_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_burmese_clothing_spouse_trigger = yes
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	burmese_royal_legwear = {
+	
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = javanese_royalty_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				OR = {
+					AND = {
+						highest_held_title_tier >= tier_kingdom
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_burmese_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier >= tier_kingdom
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_burmese_clothing_spouse_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
 
 }

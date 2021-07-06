@@ -234,6 +234,23 @@
 		gene = clothes
 		template = indian_war_nobility_clothes
 	}
+
+########### CFP ###########
+	add_accessory_modifiers = {
+		gene = clothes
+		template = javanese_common
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = javanese_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = javanese_royalty
+	}
+########### /CFP ###########
 	
 	
 

@@ -1453,6 +1453,50 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			## Javanese ## 
+			
+			javanese_common = {
+				index = 79
+
+				male = {	
+					1 = male_clothes_secular_western_nudity_01
+				}
+
+				female = {
+					1 = female_clothes_secular_java_cfp_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			javanese_nobility = {
+				index = 80
+
+				male = {	
+					1 = male_clothes_secular_java_cfp_high_nobility_01
+				}
+
+				female = {
+					1 = female_clothes_secular_java_cfp_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			javanese_royalty = {
+				index = 81
+
+				male = {	
+					1 = male_clothes_secular_java_cfp_royalty_01
+				}
+
+				female = {
+					1 = female_clothes_secular_java_cfp_royalty_01
+				}
+				boy = male
+				girl = female
+			}
 
 		}
 }
