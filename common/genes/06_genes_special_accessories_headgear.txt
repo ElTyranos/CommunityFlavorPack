@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -43,7 +43,8 @@ accessory_genes = {
 				10 = male_headgear_secular_dde_hre_common_02
 				10 = male_headgear_secular_western_nobility_03
 				10 = male_headgear_secular_western_nobility_04
-				10 = male_headgear_secular_western_pillbox_common_01
+				5 = male_headgear_secular_western_pillbox_common_01
+				5 = male_headgear_secular_western_pillbox_common_02
             }
             female = {
                 30 = empty
@@ -102,6 +103,7 @@ accessory_genes = {
 				1 = male_headgear_secular_western_common_01
 				1 = male_headgear_secular_western_common_02
 				1 = male_headgear_secular_western_pillbox_common_01
+				1 = male_headgear_secular_western_pillbox_common_02
 				1 = male_headgear_secular_western_headband_common_01
 			}
 			female = {
@@ -549,6 +551,7 @@ accessory_genes = {
 				1 = empty
 				1 = male_headgear_secular_northern_common_01
 				1 = male_headgear_secular_western_pillbox_common_01
+				1 = male_headgear_secular_western_pillbox_common_02
 				1 = male_headgear_secular_western_headband_common_01
 				
 			}
@@ -1863,6 +1866,7 @@ accessory_genes = {
 			male = {
                 2 = male_cloaks_secular_western_cfp_crusades_hood_01
                 1 = male_headgear_secular_western_pillbox_cfp_crusades_01
+                1 = male_headgear_secular_western_pillbox_cfp_crusades_03
 				
 			}
 			female = {
@@ -1878,6 +1882,7 @@ accessory_genes = {
 			male = {
                 2 = male_cloaks_secular_western_cfp_crusades_hood_02
                 1 = male_headgear_secular_western_pillbox_cfp_crusades_02
+                1 = male_headgear_secular_western_pillbox_cfp_crusades_04
 				
 			}
 			female = {
