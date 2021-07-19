@@ -998,6 +998,7 @@ accessory_genes = {
 			male = {
 				1 = male_headgear_religious_zorastrian_high_01
 				1 = male_headgear_religious_jewish_cfp_judenhut_01
+				1 = male_headgear_religious_jewish_cfp_sudra_01
 				1 = male_headgear_religious_catholic_cfp_pilgrim_01
 				1 = male_headgear_religious_catholic_cfp_pilgrim_02
 				
