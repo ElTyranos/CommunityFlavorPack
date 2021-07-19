@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -994,6 +994,7 @@ accessory_genes = {
 			index = 62
 			male = {
 				1 = male_headgear_religious_zorastrian_high_01
+				1 = male_headgear_religious_jewish_cfp_common_01
 				
 			}
 			female = {
