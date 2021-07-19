@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -1959,6 +1959,7 @@ accessory_genes = {
 		bedouin_low_nobility = {
 			index = 130
 			male = {
+				5 = male_headgear_secular_mena_cfp_tagelmust_high_01
 				5 = male_headgear_secular_mena_cfp_tagelmust_01
 				5 = male_headgear_secular_mena_cfp_tagelmust_02
 			}
