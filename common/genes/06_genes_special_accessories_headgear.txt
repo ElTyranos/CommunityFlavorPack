@@ -1861,7 +1861,8 @@ accessory_genes = {
 		crusades_western = {
 			index = 123
 			male = {
-                1 = male_cloaks_secular_western_cfp_crusades_hood_01
+                2 = male_cloaks_secular_western_cfp_crusades_hood_01
+                1 = male_headgear_secular_western_pillbox_cfp_crusades_01
 				
 			}
 			female = {
@@ -1875,7 +1876,8 @@ accessory_genes = {
 		crusades_western_black = {
 			index = 124
 			male = {
-                1 = male_cloaks_secular_western_cfp_crusades_hood_02
+                2 = male_cloaks_secular_western_cfp_crusades_hood_02
+                1 = male_headgear_secular_western_pillbox_cfp_crusades_02
 				
 			}
 			female = {

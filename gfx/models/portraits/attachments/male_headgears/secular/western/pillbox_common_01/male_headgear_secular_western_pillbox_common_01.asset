@@ -23,3 +23,25 @@ entity = {
 		}
 	}
 }
+
+entity = {
+	name = "male_headgear_secular_western_pillbox_cfp_crusades_01_entity"
+	pdxmesh = "male_headgear_secular_western_pillbox_common_01_mesh"
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/western/pillbox_common_01/male_headgear_secular_western_pillbox_common_01_masks.dds"
+			variation = "knights_templar"
+		}
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_western_pillbox_cfp_crusades_02_entity"
+	pdxmesh = "male_headgear_secular_western_pillbox_common_01_mesh"
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/western/pillbox_common_01/male_headgear_secular_western_pillbox_common_01_masks.dds"
+			variation = "knights_hospitaller"
+		}
+	}
+}

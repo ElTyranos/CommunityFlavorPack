@@ -1191,6 +1191,14 @@ male_headgear_religious_catholic_cfp_pilgrim_02 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_catholic_cfp_pilgrim_02_entity 	 }		
 }
+male_headgear_secular_western_pillbox_cfp_crusades_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_cfp_crusades_01_entity 	 }		
+}
+male_headgear_secular_western_pillbox_cfp_crusades_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_cfp_crusades_02_entity 	 }		
+}
 ## Special
 male_headgear_special_cfp_glasses_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_01_entity 	 }
