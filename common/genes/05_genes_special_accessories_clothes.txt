@@ -177,6 +177,7 @@ special_genes = {
 
 				male = {
 					4 = male_clothes_secular_western_war_nobility_01_low
+					4 = male_clothing_secular_western_cfp_war_nobility_01
 					1 = male_clothes_secular_dde_hre_war_nobility_01_low
 				}
 
@@ -863,6 +864,7 @@ special_genes = {
 				male = {
 					4 = male_clothes_secular_dde_hre_war_nobility_01_low
 					1 = male_clothes_secular_western_war_nobility_01_low
+					1 = male_clothing_secular_western_cfp_war_nobility_01
 				}
 
 				female = {
