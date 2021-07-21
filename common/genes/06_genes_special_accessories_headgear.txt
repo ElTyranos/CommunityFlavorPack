@@ -1043,6 +1043,7 @@ accessory_genes = {
 			index = 65
 			male = {
 				1 = male_headgear_religious_dde_muslim_head_01
+				1 = male_headgear_religious_muslim_cfp_caliph_01
 				
 			}
 			female = {

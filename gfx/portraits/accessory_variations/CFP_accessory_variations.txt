@@ -444,3 +444,14 @@ variation = {
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_Sub_Saharan_common_01.dds" }	
 }
+variation = {
+	name = "cfp_muslim_black_01"
+	pattern = { 
+		weight = 1
+		r = { textures = "mena_silk_brocade_01" layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "mena_silk_brocade_03" layout = "small_trim_layout" }
+		a = { textures = "mena_silk_trim_01"	layout = "small_trim_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_muslim_black_01.dds" }	
+}
