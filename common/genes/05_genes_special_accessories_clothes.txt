@@ -997,6 +997,7 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_religious_muslim_high_01
+					1 = male_clothes_religious_muslim_cfp_caliph_01
 
 				}
 
