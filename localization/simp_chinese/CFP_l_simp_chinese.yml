@@ -16,7 +16,7 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_01:1 "@cfp_icon! 维京头盔（文德尔型）"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_viking_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_01$"
 
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_02:1 "@cfp_icon! 维京头盔（杰尔蒙德布型）"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_02:1 "@cfp_icon! 维京头盔（约尔蒙比型）"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_viking_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_02$"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_03:1 "@cfp_icon! 维京头盔（步兵）"
@@ -110,7 +110,7 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_high_nobility_01:1 "@cfp_icon! 拉丁头环"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_latin_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_high_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_war_flat_top_01:1 "@cfp_icon! 拉丁平顶盔（涂漆）"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_war_flat_top_01:1 "@cfp_icon! 拉丁平顶盔（着色）"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_latin_war_flat_top_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_war_flat_top_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_war_flat_top_02:1 "@cfp_icon! 拉丁平顶盔"
@@ -131,9 +131,9 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_phrygian_common_01:0 "@cfp_icon! 拉丁弗里吉亚帽"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_wicker_common_01:0 "@cfp_icon! 拉丁柳条帽"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_nobility_01:0 "@cfp_icon! 拉丁礼帽"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_pannonian_high_01:0 "@cfp_icon! 拉丁公爵潘诺尼亚帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_pannonian_high_01:0 "@cfp_icon! 拉丁公侯潘诺尼亚帽"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_latin_cfp_venetian_doge_01:0 "@cfp_icon! 威尼斯总督角帽"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_latin_cfp_hennin_high_01:0 "@cfp_icon! 拉丁公爵埃宁帽"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_latin_cfp_hennin_high_01:0 "@cfp_icon! 拉丁公侯埃宁帽"
 
 ## Iberian
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_cervelliere_01:1 "@cfp_icon! 伊比利亚内盔"
@@ -175,7 +175,7 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_high_01:1 "@cfp_icon_purple! 绸制潘诺尼亚绣花无沿帽"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_low_01:1 "@cfp_icon_purple! 棉制潘诺尼亚无沿帽"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_common_01:1 "@cfp_icon_purple! 皮制潘诺尼亚无沿帽"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_skiadion_01:1 "@cfp_icon_purple! 伞帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_skiadion_01:1 "@cfp_icon_purple! 遮阳伞帽"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_01:1 "@cfp_icon_purple! 拜占庭普罗波洛玛"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_01:1 "@cfp_icon_purple! 锦纹普罗波洛玛"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_02:1 "@cfp_icon_purple! V型锦纹普罗波洛玛"
@@ -205,8 +205,8 @@ l_simp_chinese:
  
 ## Cuman
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! 库曼柳条帽" PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! 库曼绸帽"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! 库曼绣花帽"
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon_red! 库曼刺绣帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! 库曼皮帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon_red! 库曼绣花帽"
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! 库曼珍珠头饰"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_war_cuman_01:1 "@cfp_icon_red! 库曼作战面甲"
@@ -259,7 +259,7 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_mail_coif_01:1 "@cfp_icon_green! 锁甲罩帽"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_cfp_war_mail_coif_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_mail_coif_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_mail_coif_02:1 "@cfp_icon_green! 锁甲罩帽带头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_mail_coif_02:1 "@cfp_icon_green! 锁甲罩帽附带头巾"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_cfp_war_mail_coif_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_mail_coif_02$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_turban_01:1 "@cfp_icon_green! 土尔班盔"
@@ -271,10 +271,10 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_mamluk_01:1 "@cfp_icon_green! 带饰伊斯兰护鼻盔"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_cfp_war_mamluk_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_war_mamluk_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_tagelmust_01:1 "@cfp_icon_green! 塔格尔穆斯特蒙面头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_tagelmust_01:1 "@cfp_icon_green! 塔格尔穆斯特裹头巾"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_cfp_tagelmust_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_tagelmust_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_tagelmust_02:1 "@cfp_icon_green! 塔格尔穆斯特蒙面头巾2"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_tagelmust_02:1 "@cfp_icon_green! 塔格尔穆斯特裹头巾 2"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_cfp_tagelmust_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_cfp_tagelmust_02$"
  
 ## Andalusian
@@ -288,10 +288,10 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_andalusian_cfp_war_nasal_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_andalusian_cfp_war_nasal_01$"
  
 ## Iranian
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_mail_coif_01:1 "@cfp_icon_green! 伊朗链盔"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_mail_coif_01:1 "@cfp_icon_green! 伊朗迈法"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iranian_cfp_war_mail_coif_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_mail_coif_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_khud_01:1 "@cfp_icon_green! 伊朗涂漆胡德盔"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_khud_01:1 "@cfp_icon_green! 伊朗着色胡德盔"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iranian_cfp_war_khud_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_khud_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_khud_02:1 "@cfp_icon_green! 伊朗胡德盔"
@@ -315,7 +315,7 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_qalansuwah_low_01:1 "@cfp_icon_green! 伊朗低等贵族加兰苏瓦"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_qalansuwah_low_02:1 "@cfp_icon_green! 伊朗低等贵族皮制加兰苏瓦"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_qalansuwah_high_01:1 "@cfp_icon_green! 伊朗高等贵族加兰苏瓦"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_qalansuwah_royalty_01:1 "@cfp_icon_green! 伊朗王室加兰苏瓦"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_qalansuwah_royalty_01:1 "@cfp_icon_green! 伊朗王家加兰苏瓦"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_ilkanate_01:1 "@cfp_icon_green! 伊儿汗国头盔"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iranian_cfp_war_ilkanate_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_ilkanate_01$"
@@ -377,11 +377,11 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_africa_east_cfp_low_nobility_01:1 "@cfp_icon_yellow! 埃塞俄比亚柳条帽"
  
 ## Javanese
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_java_cfp_royalty_01:0 "@cfp_icon_orange! Javanese Royal Crown"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_java_cfp_royalty_01:0 "@cfp_icon_orange! 爪哇王冠"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_java_cfp_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_java_cfp_royalty_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_java_cfp_high_nobility_01:0 "@cfp_icon_orange! Javanese Blangkon"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_java_cfp_high_nobility_01:0 "@cfp_icon_orange! Javanese Caping"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_java_cfp_high_nobility_01:0 "@cfp_icon_orange! 爪哇便帽"
  
 ## Cloaks
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_northern_war_viking_shield_01:1 "@cfp_icon! 维京盾牌"
@@ -422,7 +422,7 @@ l_simp_chinese:
  
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_01:1 "@cfp_icon_green! 泰拉桑披巾"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_02:1 "@cfp_icon_green! 泰拉桑披巾（素色）"
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_double_harness_01:1 "@cfp_icon_green! 双吊带"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_double_harness_01:1 "@cfp_icon_green! 双背带"
  
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_sub_saharan_cfp_apron_01:0 "@cfp_icon_yellow! 非洲王家围裙"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_sub_saharan_cfp_apron_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_sub_saharan_cfp_apron_01$"
@@ -463,13 +463,13 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01:0 "@cfp_icon_yellow! 非洲锁甲"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_east_cfp_war_mail_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_east_cfp_war_mail_01$"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_java_cfp_royalty_01:0 "@cfp_icon_orange! Javanese Royalty"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_java_cfp_royalty_01:0 "@cfp_icon_orange! 爪哇王室着装"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_royalty_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_java_cfp_royalty_01$"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_java_cfp_high_nobility_01:0 "@cfp_icon_orange! Javanese Nobility"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_java_cfp_high_nobility_01:0 "@cfp_icon_orange! 爪哇贵族着装"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_java_cfp_high_nobility_01$"
  
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_common_01:0 "@cfp_icon_orange! Javanese Commoner"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_common_01:0 "@cfp_icon_orange! 爪哇平民着装"
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 板甲袜"
@@ -477,6 +477,6 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! 非洲袜"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_sub_saharan_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01$"
 
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_common_01:1 "@cfp_icon_orange! Javanese Commoner Legwear"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_high_nobility_01:1 "@cfp_icon_orange! Javanese Noble Legwear"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_royalty_01:1 "@cfp_icon_orange! Javanese Royal Legwear"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_common_01:1 "@cfp_icon_orange! 爪哇平民袜"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_high_nobility_01:1 "@cfp_icon_orange! 爪哇贵族袜"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_royalty_01:1 "@cfp_icon_orange! 爪哇王室袜"
