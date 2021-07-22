@@ -1,0 +1,26 @@
+pdxmesh = {
+	name = "male_clothes_religious_catholic_cfp_cardinal_01_mesh"
+	file = "male_clothes_religious_catholic_cfp_cardinal_01.mesh"
+
+	meshsettings = {
+		name = "male_clothes_religious_catholic_cfp_cardinal_01Shape"
+		index = 0
+		texture_diffuse = "male_clothes_religious_catholic_cfp_cardinal_01_diffuse.dds"
+		texture_normal = "male_clothes_religious_catholic_cfp_cardinal_01_normal.dds"
+		texture_specular = "male_clothes_religious_catholic_cfp_cardinal_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_clothes_religious_catholic_cfp_cardinal_01_entity"
+	pdxmesh = "male_clothes_religious_catholic_cfp_cardinal_01_mesh"
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_clothes/religious/catholic/cfp_cardinal_01/male_clothes_religious_catholic_cfp_cardinal_01_masks.dds"
+			variation = "cfp_cardinal_01"
+		}
+	}
+}

@@ -342,6 +342,7 @@ accessory_genes = {
                 2 = male_headgear_religious_catholic_high_01
 				1 = male_headgear_religious_dde_catholic_high_01
 				1 = male_headgear_religious_dde_catholic_high_01
+				1 = male_headgear_religious_catholic_cfp_cardinal_01
             }
             female = {
                 1 = female_headgear_religious_catholic_devoted_01

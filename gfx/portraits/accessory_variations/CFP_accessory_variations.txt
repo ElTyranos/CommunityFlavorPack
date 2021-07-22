@@ -455,3 +455,29 @@ variation = {
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_muslim_black_01.dds" }	
 }
+
+variation = {
+	name = "cfp_cardinal_01"
+	pattern = { 
+		weight = 1
+		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "catholic_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
+		b = { textures = "catholic_silk_trim_01" layout = "small_trim_layout" }
+		a = { textures = "western_silk_trim_02"	layout = "small_trim_layout" }
+	}
+	pattern = { 
+		weight = 1
+		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "catholic_silk_brocade_03" layout = "edge_trim_layout" }
+		b = { textures = "catholic_silk_trim_02" layout = "small_trim_layout" }
+		a = { textures = "western_silk_trim_02"	layout = "small_trim_layout" }
+	}
+	pattern = { 
+		weight = 1
+		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "catholic_silk_brocade_01" layout = "edge_trim_layout" }
+		b = { textures = "catholic_silk_trim_02" layout = "small_trim_layout" }
+		a = { textures = "western_silk_trim_01"	layout = "small_trim_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_cfp_catholic_cardinal_01.dds" }	
+}
