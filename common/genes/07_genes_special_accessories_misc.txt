@@ -395,6 +395,7 @@ accessory_genes = {
 			index = 1
 			male = {
 				1 = male_cloaks_secular_western_royalty_01
+				1 = male_cloaks_religious_catholic_cfp_head_01
 			}
 			female = {
 				1 = female_cloaks_secular_western_royalty_01
