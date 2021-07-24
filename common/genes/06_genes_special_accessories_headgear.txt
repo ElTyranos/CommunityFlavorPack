@@ -355,6 +355,7 @@ accessory_genes = {
             index = 20
             male = {
                 1 = male_headgear_religious_catholic_head_01
+                1 = male_headgear_religious_catholic_cfp_head_01
             }
             female = {
             	1 = female_headgear_religious_catholic_devoted_01
