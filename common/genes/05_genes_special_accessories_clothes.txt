@@ -1069,6 +1069,7 @@ special_genes = {
 				index = 56
 				male = {
 					1 = male_clothes_religious_catholic_head_01
+					1 = male_clothes_religious_catholic_cfp_head_01
 				}
 				female = {
 					1 = female_clothes_religious_catholic_devoted_01_common
