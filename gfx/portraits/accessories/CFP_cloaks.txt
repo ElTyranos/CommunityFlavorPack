@@ -1,4 +1,4 @@
-﻿## Vanilla variants
+## Vanilla variants
 male_cloaks_secular_byzantine_royalty_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_byzantine_royalty_01_entity }
 }
@@ -88,6 +88,9 @@ female_cloaks_secular_sub_saharan_cfp_apron_01 = {
 
 male_cloaks_religious_catholic_cfp_head_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_religious_catholic_cfp_head_01_entity }
+}
+male_cloaks_religious_orthodox_cfp_omophorion_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_religious_orthodox_cfp_omophorion_01_entity }
 }
 
 ## Shields
