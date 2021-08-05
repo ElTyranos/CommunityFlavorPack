@@ -1068,6 +1068,18 @@ headgear = {
 				template = western_war_late
 				range = { 0 1 } # For the randomness to work correctly
 			}
+            morph = {
+                mode = add                
+                gene = gene_bs_nose_forward
+                template = nose_forward_neg                
+                value = 1.0
+            }
+            morph = {
+                mode = add
+                gene = gene_bs_ear_outward
+                template = ear_outward_neg
+                value = 1.0
+            }
 		}	
 		weight = {
 			base = 0
@@ -1249,6 +1261,12 @@ headgear = {
 				template = norman_sicily_war
 				range = { 0 1 } # For the randomness to work correctly
 			}
+            morph = {
+                mode = add                
+                gene = gene_bs_nose_forward
+                template = nose_forward_neg                
+                value = 1.0
+            }
 		}	
 		weight = {
 			base = 0
