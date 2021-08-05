@@ -7270,7 +7270,8 @@ headgear = {
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = religious_orthodox_high
+	            # template = religious_orthodox_high
+	            template = no_headgear # Orthodox had no headgear before 1500s
 	            range = { 0 1 }
 	        }
 	    }
@@ -7314,7 +7315,8 @@ headgear = {
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = religious_orthodox_head
+	            # template = religious_orthodox_head
+	            template = no_headgear # Orthodox had no headgear before 1500s
 	            range = { 0 1 }
 	        }
 	    }
