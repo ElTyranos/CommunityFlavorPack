@@ -1,4 +1,4 @@
-
+﻿
 
 special_genes = {
 
@@ -396,6 +396,7 @@ accessory_genes = {
 			male = {
 				1 = male_cloaks_secular_western_royalty_01
 				1 = male_cloaks_religious_catholic_cfp_head_01
+				1 = male_cloaks_religious_catholic_cfp_tribal_01
 				1 = male_cloaks_religious_orthodox_cfp_omophorion_01
 			}
 			female = {
