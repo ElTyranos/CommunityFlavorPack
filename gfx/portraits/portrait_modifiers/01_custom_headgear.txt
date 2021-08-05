@@ -1,4 +1,4 @@
-﻿custom_headgear = {
+custom_headgear = {
 	usage = customization
 	interface_position = 1
 
@@ -496,11 +496,6 @@
 		gene = headgear
 		template = east_african_war
 	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = african_religious_masks
-	}
 ###########/CFP ###########
 	
 	add_accessory_modifiers = {
@@ -710,6 +705,13 @@
 		template = religious_african_high
 	}
 
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = african_religious_masks
+	}
+	##
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_steppe_high
