@@ -344,7 +344,12 @@
 			has_dlc = "Fashion of the Abbasid Court"
 		}
 	}
-	
+	## CFP
+	add_accessory_modifiers = {
+		gene = clothes
+		template = religious_orthodox_devoted_clothes
+	}
+	##
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_orthodox_high_clothes
@@ -364,16 +369,32 @@
 		gene = clothes
 		template = religious_muslim_head_clothes
 	}
-	
+	## CFP
+	add_accessory_modifiers = {
+		gene = clothes
+		template = religious_muslim_head_turkic_clothes
+	}
+	##
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_catholic_devoted_clothes
 	}
-	
+		
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_catholic_high_clothes
 	}
+	
+	## CFP
+	add_accessory_modifiers = {
+		gene = clothes
+		template = male_clothes_religious_catholic_cfp_cardinal_01
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = religious_catholic_head_early_clothes
+	}
+	##
 	
 	add_accessory_modifiers = {
 		gene = clothes

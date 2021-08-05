@@ -342,8 +342,6 @@ accessory_genes = {
                 2 = male_headgear_religious_catholic_high_01
 				1 = male_headgear_religious_dde_catholic_high_01
 				1 = male_headgear_religious_dde_catholic_high_01
-				1 = male_headgear_religious_catholic_cfp_cardinal_01
-				1 = male_headgear_religious_catholic_cfp_tribal_01
             }
             female = {
                 1 = female_headgear_religious_catholic_devoted_01
@@ -356,7 +354,6 @@ accessory_genes = {
             index = 20
             male = {
                 1 = male_headgear_religious_catholic_head_01
-                1 = male_headgear_religious_catholic_cfp_head_01
             }
             female = {
             	1 = female_headgear_religious_catholic_devoted_01
@@ -958,7 +955,6 @@ accessory_genes = {
 			index = 59
 			male = {
 				1 = male_headgear_religious_orthodox_high_01
-				1 = male_headgear_religious_orthodox_cfp_koukoulion_01
 				
 			}
 			female = {
@@ -1001,10 +997,6 @@ accessory_genes = {
 			index = 62
 			male = {
 				1 = male_headgear_religious_zorastrian_high_01
-				1 = male_headgear_religious_jewish_cfp_judenhut_01
-				1 = male_headgear_religious_jewish_cfp_sudra_01
-				1 = male_headgear_religious_catholic_cfp_pilgrim_01
-				1 = male_headgear_religious_catholic_cfp_pilgrim_02
 				
 			}
 			female = {
@@ -1047,7 +1039,6 @@ accessory_genes = {
 			index = 65
 			male = {
 				1 = male_headgear_religious_dde_muslim_head_01
-				1 = male_headgear_religious_muslim_cfp_caliph_01
 				
 			}
 			female = {
@@ -1964,7 +1955,6 @@ accessory_genes = {
 		bedouin_low_nobility = {
 			index = 130
 			male = {
-				5 = male_headgear_secular_mena_cfp_tagelmust_high_01
 				5 = male_headgear_secular_mena_cfp_tagelmust_01
 				5 = male_headgear_secular_mena_cfp_tagelmust_02
 			}
@@ -1975,8 +1965,20 @@ accessory_genes = {
             girl = female
 		}
 		
+		bedouin_high_nobility = {
+			index = 131
+			male = {
+				5 = male_headgear_secular_mena_cfp_tagelmust_high_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		
 		oghuz_high_nobility = {
-            index = 131
+            index = 132
             male = {
 				5 = male_headgears_secular_turkic_high_nobility_01
 				5 = male_headgears_secular_turkic_high_nobility_02
@@ -1992,7 +1994,7 @@ accessory_genes = {
         }
 
 		oghuz_low_nobility = {
-            index = 132
+            index = 133
             male = {
 				5 = empty
 				10 = male_headgears_secular_turkic_low_nobility_01
@@ -2007,7 +2009,7 @@ accessory_genes = {
         }
 		
 		african_religious_masks = {
-			index = 133
+			index = 134
 			male = {
 				2 = male_headgear_religious_african_high_01
 				1 = male_headgear_religious_african_cfp_mask_01
@@ -2029,7 +2031,7 @@ accessory_genes = {
 		}
 		
 	    west_african_low_nobility = {
-            index = 134
+            index = 135
             male = {
                 1 = male_headgear_secular_africa_west_cfp_low_nobility_01
                 1 = male_headgear_secular_africa_west_cfp_low_nobility_02
@@ -2043,7 +2045,7 @@ accessory_genes = {
         }
 		
 	    west_african_high_nobility = {
-            index = 135
+            index = 136
             male = {
                 1 = male_headgear_secular_africa_west_cfp_high_nobility_01
             }
@@ -2055,7 +2057,7 @@ accessory_genes = {
         }
 		
 	    west_african_war = {
-            index = 136
+            index = 137
             male = {
                 1 = male_headgear_secular_africa_west_cfp_helmet_01
             }
@@ -2067,7 +2069,7 @@ accessory_genes = {
         }
 		
 	    central_african_low_nobility = {
-            index = 137
+            index = 138
             male = {
 				1 = male_headgear_secular_africa_central_cfp_low_nobility_01
 				1 = male_headgear_secular_africa_central_cfp_low_nobility_02
@@ -2080,7 +2082,7 @@ accessory_genes = {
         }
 		
 	    central_african_high_nobility = {
-            index = 138
+            index = 139
             male = {
                 1 = male_headgear_secular_africa_central_cfp_high_nobility_01
             }
@@ -2092,7 +2094,7 @@ accessory_genes = {
         }
 		
 	    central_african_war = {
-            index = 139
+            index = 140
             male = {
                 1 = male_headgears_secular_africa_central_cfp_war_padded_01
                 1 = male_headgears_secular_africa_central_cfp_war_padded_02
@@ -2106,7 +2108,7 @@ accessory_genes = {
         }
 		
 	    east_african_common = {
-            index = 140
+            index = 141
             male = {
 				1 = empty # has is_female = yes
             }
@@ -2118,7 +2120,7 @@ accessory_genes = {
         }
 		
 	    east_african_low_nobility = {
-            index = 141
+            index = 142
             male = {
 				1 = empty # has is_female = yes
             }
@@ -2130,7 +2132,7 @@ accessory_genes = {
         }
 		
 	    east_african_high_nobility = {
-            index = 142
+            index = 143
             male = {
                 1 = male_headgear_secular_africa_east_cfp_high_nobility_01
                 1 = male_headgear_secular_africa_east_cfp_high_nobility_03
@@ -2143,7 +2145,7 @@ accessory_genes = {
         }
 		
 	    east_african_royalty = {
-            index = 143
+            index = 144
             male = {
                 1 = male_headgear_secular_africa_east_cfp_royalty_01
             }
@@ -2155,7 +2157,7 @@ accessory_genes = {
         }
 		
 	    east_african_imperial = {
-            index = 144
+            index = 145
             male = {
                 1 = male_headgear_secular_africa_east_cfp_imperial_01
             }
@@ -2167,7 +2169,7 @@ accessory_genes = {
         }
 		
 	    east_african_war = {
-            index = 145
+            index = 146
             male = {
                 1 = male_headgear_secular_africa_east_cfp_helmet_01
             }
@@ -2179,7 +2181,7 @@ accessory_genes = {
         }
 		
 		javanese_nobility = {
-			index = 146
+			index = 147
 			male = {
 				1 = empty
 				5 = male_headgear_secular_java_cfp_high_nobility_01
@@ -2193,12 +2195,102 @@ accessory_genes = {
 		}
 		
 		javanese_royalty = {
-			index = 147
+			index = 148
 			male = {
 				1 = male_headgear_secular_java_cfp_royalty_01
 			}
 			female = {
 				1 = female_headgear_secular_java_cfp_royalty_01
+			}
+			boy = male
+            girl = female
+		}
+		
+		religious_catholic_head_early = {
+			index = 149
+			male = {
+                1 = male_headgear_religious_catholic_cfp_head_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		religious_catholic_cardinal = {
+			index = 150
+			male = {
+				1 = male_headgear_religious_catholic_cfp_cardinal_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		religious_catholic_high_northern = {
+			index = 151
+			male = {
+				1 = male_headgear_religious_catholic_cfp_tribal_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		religious_catholic_pilgrim = {
+			index = 152
+			male = {
+				1 = male_headgear_religious_catholic_cfp_pilgrim_01
+				1 = male_headgear_religious_catholic_cfp_pilgrim_02
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		religious_orthodox_devoted = {
+			index = 153
+			male = {
+				1 = male_headgear_religious_orthodox_cfp_koukoulion_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		religious_muslim_head_turkic = {
+			index = 154
+			male = {
+				1 = male_headgear_religious_muslim_cfp_caliph_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		religious_jewish_common_western = {
+			index = 155
+			male = {
+				1 = male_headgear_religious_jewish_cfp_judenhut_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		religious_jewish_common_mena = {
+			index = 156
+			male = {
+				1 = male_headgear_religious_jewish_cfp_sudra_01
+			}
+			female = {
+				1 = empty
 			}
 			boy = male
             girl = female
