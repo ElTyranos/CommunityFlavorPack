@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -957,6 +957,7 @@ accessory_genes = {
 			index = 59
 			male = {
 				1 = male_headgear_religious_orthodox_high_01
+				1 = male_headgear_religious_orthodox_cfp_koukoulion_01
 				
 			}
 			female = {

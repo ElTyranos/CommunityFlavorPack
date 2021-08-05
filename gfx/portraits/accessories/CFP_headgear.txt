@@ -1,4 +1,4 @@
-﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
 
 	#set_tags = "no_hair"
 	#set_tags = "no_beard"
@@ -1233,6 +1233,11 @@ male_headgear_secular_western_pillbox_cfp_crusades_04 = {
 male_headgear_religious_muslim_cfp_caliph_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_muslim_cfp_caliph_01_entity 	 }		
+}
+
+male_headgear_religious_orthodox_cfp_koukoulion_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_orthodox_cfp_koukoulion_01_entity 	 }		
 }
 
 ## Special
