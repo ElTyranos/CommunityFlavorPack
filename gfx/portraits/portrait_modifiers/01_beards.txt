@@ -1,4 +1,4 @@
-# Make sure the weights here match up best as possible with the custom_beards set
+﻿# Make sure the weights here match up best as possible with the custom_beards set
 beards = {
 
 	usage = game
@@ -48,6 +48,27 @@ beards = {
 					OR = {
 						religion = religion:buddhism_religion
 						religion = religion:bon_religion
+					}
+					OR = {
+						is_theocratic_lessee = yes
+						AND = { is_ruler = yes has_government = theocracy_government }
+						has_council_position = councillor_court_chaplain
+						has_trait = devoted
+					}
+				}
+            }
+            modifier = {
+                add = 101 # catholics are shaved
+				AND ={
+					religion = religion:christianity_religion
+					NOR = {
+						faith = faith:orthodox
+						faith = faith:armenian_apostolic
+						faith = faith:coptic
+						faith = faith:messalian
+						faith = faith:bogomilist
+						faith = faith:paulician
+						faith = faith:nestorian
 					}
 					OR = {
 						is_theocratic_lessee = yes
