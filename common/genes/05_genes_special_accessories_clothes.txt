@@ -967,6 +967,7 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_religious_orthodox_high_01
+					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
 
 				female = {

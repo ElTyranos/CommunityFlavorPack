@@ -43,6 +43,9 @@ male_clothes_religious_catholic_cfp_devoted_01 = {
 	#tags = "christian_clergy"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_religious_catholic_cfp_devoted_01_entity }
 }
+male_clothes_religious_orthodox_cfp_devoted_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_religious_orthodox_cfp_devoted_01_entity }
+}
 male_clothes_religious_muslim_cfp_caliph_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_religious_muslim_cfp_caliph_01_entity }
 }
