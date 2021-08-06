@@ -1,4 +1,4 @@
-﻿
+
 cloaks = {
 
 	usage = game
@@ -624,6 +624,29 @@ cloaks = {
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
+	
+	religious_catholic_head = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = religious_catholic_head
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 120
+				faith = faith:catholic
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
 				}
 			}
 	    }

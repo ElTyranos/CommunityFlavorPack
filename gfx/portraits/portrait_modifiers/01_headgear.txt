@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -7540,6 +7540,33 @@ headgear = {
 			# 	template = no_hairstyles
 			# 	range = { 0 1 }
 			# }
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 140
+				cfp_era_late_medieval_trigger = yes
+				faith = faith:catholic
+				is_adult = yes
+				religion = religion:christianity_religion
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+			}
+		}
+	}
+	
+	popes_early = {
+		outfit_tags = { rank_headgear }
+		usage = game
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_head_early
+				range = { 0 1 }
+			}
 		}	
 		weight = {
 			base = 0
