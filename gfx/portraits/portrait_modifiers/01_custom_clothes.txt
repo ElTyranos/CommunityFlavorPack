@@ -388,7 +388,7 @@
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
-		template = male_clothes_religious_catholic_cfp_cardinal_01
+		template = religious_catholic_cardinal_clothes
 	}
 	add_accessory_modifiers = {
 		gene = clothes
