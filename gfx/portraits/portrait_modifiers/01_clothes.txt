@@ -3412,7 +3412,8 @@ latin_venetian_royalty = {
 	        accessory = {
 	            mode = add
 	            gene = clothes
-	            template = religious_orthodox_head_clothes
+	            # template = religious_orthodox_head_clothes # not historical
+	            template = religious_orthodox_high_clothes
 	            range = { 0 1 }
 	        }
 	        morph = {
