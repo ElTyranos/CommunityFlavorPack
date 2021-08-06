@@ -1,4 +1,4 @@
-
+﻿
 
 special_genes = {
 
@@ -1509,7 +1509,7 @@ special_genes = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
 				female = {
-					1 = empty
+					1 = female_clothes_religious_catholic_devoted_01_common
 				}
 				boy = male
 				girl = female
@@ -1539,7 +1539,7 @@ special_genes = {
 				girl = female
 			}
 		
-			religious_muslim_head_turkic_clothes = {
+			religious_muslim_high_turkic_clothes = {
 				index = 85
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01

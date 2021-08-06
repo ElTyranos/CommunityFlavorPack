@@ -740,19 +740,19 @@
 		gene = headgear
 		template = religious_muslim_high
 	}
+	
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_muslim_high_turkic
+	}
+	##
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_muslim_head
 	}
 
-	## CFP
-	add_accessory_modifiers = {
-		gene = headgear
-		template = religious_muslim_head_turkic
-	}
-	##
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_african_high

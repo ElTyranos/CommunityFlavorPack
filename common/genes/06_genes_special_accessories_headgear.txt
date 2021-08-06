@@ -2262,7 +2262,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
-		religious_muslim_head_turkic = {
+		religious_muslim_high_turkic = {
 			index = 154
 			male = {
 				1 = male_headgear_religious_muslim_cfp_caliph_01

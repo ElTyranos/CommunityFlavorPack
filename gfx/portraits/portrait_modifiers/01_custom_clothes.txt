@@ -364,17 +364,17 @@
 		gene = clothes
 		template = religious_muslim_high_clothes
 	}
-	
+	## CFP
+	add_accessory_modifiers = {
+		gene = clothes
+		template = religious_muslim_high_turkic_clothes
+	}
+	##	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_muslim_head_clothes
 	}
-	## CFP
-	add_accessory_modifiers = {
-		gene = clothes
-		template = religious_muslim_head_turkic_clothes
-	}
-	##
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_catholic_devoted_clothes
