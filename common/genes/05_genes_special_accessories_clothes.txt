@@ -1,4 +1,4 @@
-﻿
+
 
 special_genes = {
 
@@ -1504,7 +1504,7 @@ special_genes = {
 			## Religious
 			
 			religious_catholic_head_early_clothes = {
-				index = 81
+				index = 82
 				male = {	
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -1516,7 +1516,7 @@ special_genes = {
 			}
 		
 			religious_catholic_cardinal_clothes = {
-				index = 82
+				index = 83
 				male = {	
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -1528,7 +1528,7 @@ special_genes = {
 			}
 		
 			religious_orthodox_devoted_clothes = {
-				index = 83
+				index = 84
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -1540,7 +1540,7 @@ special_genes = {
 			}
 		
 			religious_muslim_head_turkic_clothes = {
-				index = 84
+				index = 85
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
