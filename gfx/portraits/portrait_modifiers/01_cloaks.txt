@@ -1,4 +1,4 @@
-
+﻿
 cloaks = {
 
 	usage = game
@@ -632,6 +632,65 @@ cloaks = {
 	    }
 	}
 	
+	religious_orthodox_high = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = religious_orthodox_high
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = { # head
+	            add = 150
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+	        }
+			modifier = { # high
+				add = 120
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				NOT = {
+					faith.religious_head = this
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+			}
+	    }
+	}	
 	
 	religious_catholic_high_northern = {
 	    dna_modifiers = {
