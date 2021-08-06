@@ -624,6 +624,14 @@ cloaks = {
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
+					# doesnt fit nicely to eastern imams
+					cfp_portrait_turkic_clothing_trigger = yes
+					cfp_portrait_iranian_clothing_trigger = yes
+				}
+			}
+	    }
+	}
+	
 	
 	religious_catholic_high_northern = {
 	    dna_modifiers = {

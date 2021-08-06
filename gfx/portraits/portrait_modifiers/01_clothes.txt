@@ -3835,6 +3835,47 @@ latin_venetian_royalty = {
 	    }
 	}
 
+	religious_muslim_high_turkic_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_muslim_high_turkic_clothes
+	            range = { 0 1 }
+	        }
+	        morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    outfit_tags = { priest_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 120
+				OR = {
+					cfp_portrait_turkic_clothing_trigger = yes
+					cfp_portrait_iranian_clothing_trigger = yes
+				}
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
+				}
+				religion = religion:islam_religion
+			}
+	    }
+	}
+
 	religious_muslim_head_clothes = {
 	    dna_modifiers = {
 	        accessory = {
