@@ -7671,6 +7671,15 @@ headgear = {
 				}
 				cfp_era_high_medieval_trigger = no
 				faith = { religion_tag = christianity_religion }
+				NOR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
@@ -7835,7 +7844,7 @@ headgear = {
 	    weight = {
 	        base = 0
 	        modifier = {
-				add = 55
+				add = 20
 				is_male = yes
 				religion = religion:judaism_religion
 				portrait_wear_armor_trigger = no
@@ -7843,6 +7852,7 @@ headgear = {
 				OR = {
 					portrait_western_clothing_trigger = yes
 					portrait_northern_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
 				}
 				NOR = {
 					AND = {
@@ -7873,14 +7883,14 @@ headgear = {
 	    weight = {
 	        base = 0
 	        modifier = {
-				add = 55
+				add = 20
 				is_male = yes
 				religion = religion:judaism_religion
 				portrait_wear_armor_trigger = no
 				highest_held_title_tier < tier_county
 				OR = {
 					portrait_mena_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
 				}
 				NOR = {
 					AND = {
