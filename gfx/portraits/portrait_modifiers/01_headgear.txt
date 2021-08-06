@@ -7782,6 +7782,82 @@ headgear = {
 
 ## Jewish ##
 
+	religious_jewish_common_western = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = religious_jewish_common_western
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 55
+				is_male = yes
+				religion = religion:judaism_religion
+				portrait_wear_armor_trigger = no
+				highest_held_title_tier < tier_county
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+			}
+	    }
+	}
+	
+	religious_jewish_common_mena = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = religious_jewish_common_mena
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 55
+				is_male = yes
+				religion = religion:judaism_religion
+				portrait_wear_armor_trigger = no
+				highest_held_title_tier < tier_county
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
+				}
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+			}
+	    }
+	}
+	
 	religious_jewish_high_headgear = {
 	    dna_modifiers = {
 	        accessory = {
