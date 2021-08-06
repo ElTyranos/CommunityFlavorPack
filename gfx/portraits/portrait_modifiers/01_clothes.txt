@@ -3634,6 +3634,7 @@ latin_venetian_royalty = {
 	        base = 0
 	        modifier = {
 	            add = 120
+				cfp_era_late_medieval_trigger = yes
 				faith = faith:catholic
 				exists = primary_title
 				primary_title = {
