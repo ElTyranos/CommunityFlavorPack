@@ -7352,6 +7352,58 @@ headgear = {
 
 ## Orthodox ##
 
+	religious_orthodox_devoted = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_orthodox_devoted
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				is_male = yes
+				OR = {
+					has_trait = devoted
+					AND = {
+						faith = {
+							has_doctrine_parameter = vows_of_poverty_active
+						}
+						OR = {
+							AND = {
+								has_council_position = councillor_court_chaplain
+								faith = {
+									has_doctrine = doctrine_theocracy_lay_clergy
+								}
+							}
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+
 	religious_orthodox_high_clothes = {
 	    dna_modifiers = {
 	        accessory = {

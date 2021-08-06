@@ -3297,6 +3297,64 @@ latin_venetian_royalty = {
 
 ## Orthodox ##
 
+	religious_orthodox_devoted_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = religious_orthodox_devoted_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				is_male = yes
+				OR = {
+					has_trait = devoted
+					AND = {
+						faith = {
+							has_doctrine_parameter = vows_of_poverty_active
+						}
+						OR = {
+							AND = {
+								has_council_position = councillor_court_chaplain
+								faith = {
+									has_doctrine = doctrine_theocracy_lay_clergy
+								}
+							}
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+
 	religious_orthodox_high_clothes = {
 	    dna_modifiers = {
 	        accessory = {
