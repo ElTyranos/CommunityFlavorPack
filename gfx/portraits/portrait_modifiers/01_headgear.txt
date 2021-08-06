@@ -1068,6 +1068,18 @@ headgear = {
 				template = western_war_late
 				range = { 0 1 } # For the randomness to work correctly
 			}
+            morph = {
+                mode = add                
+                gene = gene_bs_nose_forward
+                template = nose_forward_neg                
+                value = 1.0
+            }
+            morph = {
+                mode = add
+                gene = gene_bs_ear_outward
+                template = ear_outward_neg
+                value = 1.0
+            }
 		}	
 		weight = {
 			base = 0
@@ -1249,6 +1261,12 @@ headgear = {
 				template = norman_sicily_war
 				range = { 0 1 } # For the randomness to work correctly
 			}
+            morph = {
+                mode = add                
+                gene = gene_bs_nose_forward
+                template = nose_forward_neg                
+                value = 1.0
+            }
 		}	
 		weight = {
 			base = 0
@@ -4127,7 +4145,76 @@ headgear = {
 		}
 	}
 
+	bedouin_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = bedouin_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						OR = {
+							cfp_portrait_bedouin_clothing_trigger = yes
+							cfp_portrait_berber_clothing_trigger = yes				
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							OR = {
+								cfp_portrait_bedouin_clothing_spouse_trigger = yes
+								cfp_portrait_berber_clothing_spouse_trigger = yes				
+							}
+						}
+					}
+				}
 
+			}
+		}
+	}
 
 ##  Iranians ##
 
@@ -7265,12 +7352,65 @@ headgear = {
 
 ## Orthodox ##
 
+	religious_orthodox_devoted = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_orthodox_devoted
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				is_male = yes
+				OR = {
+					has_trait = devoted
+					AND = {
+						faith = {
+							has_doctrine_parameter = vows_of_poverty_active
+						}
+						OR = {
+							AND = {
+								has_council_position = councillor_court_chaplain
+								faith = {
+									has_doctrine = doctrine_theocracy_lay_clergy
+								}
+							}
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+
 	religious_orthodox_high_clothes = {
 	    dna_modifiers = {
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = religious_orthodox_high
+	            # template = religious_orthodox_high
+	            template = no_headgear # Orthodox had no headgear before 1500s
 	            range = { 0 1 }
 	        }
 	    }
@@ -7314,7 +7454,8 @@ headgear = {
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = religious_orthodox_head
+	            # template = religious_orthodox_head
+	            template = no_headgear # Orthodox had no headgear before 1500s
 	            range = { 0 1 }
 	        }
 	    }
@@ -7339,6 +7480,48 @@ headgear = {
 
 ## Catholic ##
 
+	catholic_pilgrim = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_pilgrim
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				religion = religion:christianity_religion
+				portrait_western_clothing_trigger = yes
+				is_male = yes
+				OR = {
+					AND = {
+						has_trait = pilgrim
+						highest_held_title_tier <= tier_county
+					}
+					has_character_modifier = pilgrimage_divine_protection_modifier
+					has_character_modifier = new_pilgrimage_companions_modifier
+					has_character_modifier = pilgrimage_completely_lost_modifier
+					has_character_modifier = dedicated_to_pilgrimage_modifier
+					has_character_modifier = pilgrimage_worldly_modifier
+					has_character_modifier = pilgrimage_rest_and_good_health_modifier
+					has_character_modifier = pilgrimage_armed_pilgrimages_modifier
+				}
+				NOR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+	
 	catholic_devoted = {
 		dna_modifiers = {
 			accessory = {
@@ -7468,6 +7651,81 @@ headgear = {
 	    }
 	}
 
+	religious_catholic_high_northern = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_high_northern
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { priest_outfit bishop_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 150
+				OR = {
+					portrait_northern_clothing_trigger = yes
+					cfp_portrait_anglo_saxon_clothing_trigger = yes
+				}
+				cfp_era_high_medieval_trigger = no
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				# NOT = {
+					# faith = {
+						# has_doctrine_parameter = vows_of_poverty_active
+					# }
+				# }
+	        }
+	    }
+	}
+
+	catholic_cardinal = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_cardinal
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { cardinal_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 140
+				is_male = yes
+	        	current_date >= 1245.1.1
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					AND = {
+						is_vassal_of = title:k_papal_state.holder
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
+					AND = {
+						is_councillor_of = title:k_papal_state.holder
+						is_theocratic_lessee = yes
+					}
+					is_courtier_of = title:k_papal_state.holder
+				}
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
+	        }
+	    }
+	}
+	
 	#religious_catholic_high_headgear = {
 	#    dna_modifiers = {
 	#        accessory = {
@@ -7525,6 +7783,33 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 140
+				cfp_era_late_medieval_trigger = yes
+				faith = faith:catholic
+				is_adult = yes
+				religion = religion:christianity_religion
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+			}
+		}
+	}
+	
+	popes_early = {
+		outfit_tags = { rank_headgear }
+		usage = game
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_head_early
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 140
 				faith = faith:catholic
 				is_adult = yes
 				religion = religion:christianity_religion
@@ -7538,6 +7823,82 @@ headgear = {
 
 ## Jewish ##
 
+	religious_jewish_common_western = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = religious_jewish_common_western
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 55
+				is_male = yes
+				religion = religion:judaism_religion
+				portrait_wear_armor_trigger = no
+				highest_held_title_tier < tier_county
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+			}
+	    }
+	}
+	
+	religious_jewish_common_mena = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = religious_jewish_common_mena
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 55
+				is_male = yes
+				religion = religion:judaism_religion
+				portrait_wear_armor_trigger = no
+				highest_held_title_tier < tier_county
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					cfp_portrait_turkic_clothing_trigger = yes
+				}
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+			}
+	    }
+	}
+	
 	religious_jewish_high_headgear = {
 	    dna_modifiers = {
 	        accessory = {
@@ -7615,6 +7976,35 @@ headgear = {
 	        base = 0
 	        modifier = {
 				add = 111
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
+				}
+				religion = religion:islam_religion
+			}
+	    }
+	}
+	
+	religious_muslim_high_turkic_headgear = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = religious_muslim_high_turkic
+	            range = { 0 1 }
+	        }
+	    }
+	    outfit_tags = { priest_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 120
+				OR = {
+					cfp_portrait_turkic_clothing_trigger = yes
+					cfp_portrait_iranian_clothing_trigger = yes
+				}
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes

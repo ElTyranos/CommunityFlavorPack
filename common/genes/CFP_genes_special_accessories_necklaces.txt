@@ -75,6 +75,17 @@
 				boy = male
 				girl = female
 			}
+			pectoral_crosses = {
+				index = 6
+				male = {
+					1 = male_accessories_cfp_pectoral_cross_01
+				}
+				female = {
+					1 = female_accessories_cfp_pectoral_cross_01
+				}
+				boy = male
+				girl = female
+			}
 
 		}
 

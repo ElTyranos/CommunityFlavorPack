@@ -3297,6 +3297,64 @@ latin_venetian_royalty = {
 
 ## Orthodox ##
 
+	religious_orthodox_devoted_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = religious_orthodox_devoted_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				is_male = yes
+				OR = {
+					has_trait = devoted
+					AND = {
+						faith = {
+							has_doctrine_parameter = vows_of_poverty_active
+						}
+						OR = {
+							AND = {
+								has_council_position = councillor_court_chaplain
+								faith = {
+									has_doctrine = doctrine_theocracy_lay_clergy
+								}
+							}
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+
 	religious_orthodox_high_clothes = {
 	    dna_modifiers = {
 	        accessory = {
@@ -3501,6 +3559,102 @@ latin_venetian_royalty = {
 			}
 	    }
 	}
+	
+	religious_catholic_high_northern_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = northern_low_nobility_clothes
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    outfit_tags = { priest_outfit bishop_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 150
+				portrait_northern_clothing_trigger = yes
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				religion = religion:christianity_religion
+				NAND = {
+					faith = faith:catholic
+					faith.religious_head = this
+				}
+				NOT = {
+					faith = faith:orthodox
+				}
+				# NOT = {
+					# faith = {
+						# has_doctrine_parameter = vows_of_poverty_active
+					# }
+				# }
+			}
+	    }
+	}
+
+	religious_catholic_cardinal_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_catholic_cardinal_clothes
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    outfit_tags = { cardinal_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 140
+				is_male = yes
+	        	current_date >= 1245.1.1
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					AND = {
+						is_vassal_of = title:k_papal_state.holder
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
+					AND = {
+						is_councillor_of = title:k_papal_state.holder
+						is_theocratic_lessee = yes
+					}
+					is_courtier_of = title:k_papal_state.holder
+				}
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
+			}
+	    }
+	}
 
 	religious_catholic_head_clothes = {
 	    dna_modifiers = {
@@ -3508,6 +3662,46 @@ latin_venetian_royalty = {
 	            mode = add
 	            gene = clothes
 	            template = religious_catholic_head_clothes
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 120
+				cfp_era_late_medieval_trigger = yes
+				faith = faith:catholic
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+	        }
+	    }
+	}
+
+	religious_catholic_head_early_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_catholic_head_early_clothes
 	            range = { 0 1 }
 	        }
 			morph = {
@@ -3678,6 +3872,47 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 111
 				
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
+				}
+				religion = religion:islam_religion
+			}
+	    }
+	}
+
+	religious_muslim_high_turkic_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_muslim_high_turkic_clothes
+	            range = { 0 1 }
+	        }
+	        morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    outfit_tags = { priest_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 120
+				OR = {
+					cfp_portrait_turkic_clothing_trigger = yes
+					cfp_portrait_iranian_clothing_trigger = yes
+				}
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes

@@ -226,6 +226,10 @@ male_headgear_secular_western_pillbox_common_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_common_01_entity 	 }		
 }
+male_headgear_secular_western_pillbox_common_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_common_02_entity 	 }		
+}
 male_headgear_secular_western_pillbox_low_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_low_01_entity 	 }		
@@ -838,6 +842,11 @@ male_headgear_secular_mena_cfp_tagelmust_02 = {
 	set_tags = "no_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_tagelmust_02_entity 	 }		
 }
+male_headgear_secular_mena_cfp_tagelmust_high_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_tagelmust_high_01_entity 	 }		
+}
 
 male_headgear_secular_mena_cfp_war_mail_coif_01 = {
 	set_tags = "no_hair"
@@ -1176,6 +1185,63 @@ male_headgears_secular_africa_central_cfp_war_padded_02 = {
 female_headgears_secular_africa_central_cfp_war_padded_02 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_africa_central_cfp_war_padded_02_entity 	 }		
+}
+
+## Religious
+male_headgear_religious_jewish_cfp_judenhut_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_jewish_cfp_judenhut_01_entity 	 }		
+}
+male_headgear_religious_jewish_cfp_sudra_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_jewish_cfp_sudra_01_entity 	 }		
+}
+
+male_headgear_religious_catholic_cfp_head_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_catholic_cfp_head_01_entity 	 }		
+}
+male_headgear_religious_catholic_cfp_tribal_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_catholic_cfp_tribal_01_entity 	 }		
+}
+male_headgear_religious_catholic_cfp_cardinal_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_catholic_cfp_cardinal_01_entity 	 }		
+}
+male_headgear_religious_catholic_cfp_pilgrim_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_catholic_cfp_pilgrim_01_entity 	 }		
+}
+male_headgear_religious_catholic_cfp_pilgrim_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_catholic_cfp_pilgrim_02_entity 	 }		
+}
+male_headgear_secular_western_pillbox_cfp_crusades_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_cfp_crusades_01_entity 	 }		
+}
+male_headgear_secular_western_pillbox_cfp_crusades_02 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_cfp_crusades_02_entity 	 }		
+}
+male_headgear_secular_western_pillbox_cfp_crusades_03 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_cfp_crusades_03_entity 	 }		
+}
+male_headgear_secular_western_pillbox_cfp_crusades_04 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_cfp_crusades_04_entity 	 }		
+}
+
+male_headgear_religious_muslim_cfp_caliph_01 = {
+	set_tags = "cap,cap_02"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_muslim_cfp_caliph_01_entity 	 }		
+}
+
+male_headgear_religious_orthodox_cfp_koukoulion_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_orthodox_cfp_koukoulion_01_entity 	 }		
 }
 
 ## Special

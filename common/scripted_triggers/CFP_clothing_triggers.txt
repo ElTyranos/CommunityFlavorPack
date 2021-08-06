@@ -36,12 +36,6 @@ cfp_portrait_norman_clothing_contents_trigger = {
 
 cfp_portrait_norman_sicily_clothing_trigger = {
 	scope:culture = { cfp_portrait_norman_sicily_clothing_contents_trigger = yes }
-}
-cfp_portrait_norman_sicily_clothing_spouse_trigger = {
-	culture = { cfp_portrait_norman_sicily_clothing_contents_trigger = yes }
-}
-cfp_portrait_norman_sicily_clothing_contents_trigger = {
-	this = culture:norman
 	trigger_if = {
 		limit = { exists = capital_province }
 		capital_province = { geographical_region = world_europe_south_italy }
@@ -67,6 +61,37 @@ cfp_portrait_norman_sicily_clothing_contents_trigger = {
 		}
 		location.province_owner.capital_province = { geographical_region = world_europe_south_italy }
 	}
+}
+cfp_portrait_norman_sicily_clothing_spouse_trigger = {
+	culture = { cfp_portrait_norman_sicily_clothing_contents_trigger = yes }
+	trigger_if = {
+		limit = { exists = capital_province }
+		capital_province = { geographical_region = world_europe_south_italy }
+	}
+	trigger_if = {
+		limit = {
+			exists = host.capital_province
+			NOT = { exists = capital_province }
+		}
+		host.capital_province = { geographical_region = world_europe_south_italy }
+	}
+	trigger_if = {
+		limit = {
+			exists = liege.capital_province
+			NOT = { exists = capital_province }
+		}
+		liege.capital_province = { geographical_region = world_europe_south_italy  }
+	}
+	trigger_if = {
+		limit = {
+			exists = location.province_owner.capital_province
+			NOT = { exists = capital_province }
+		}
+		location.province_owner.capital_province = { geographical_region = world_europe_south_italy }
+	}
+}
+cfp_portrait_norman_sicily_clothing_contents_trigger = {
+	this = culture:norman
 }
 
 ## EAST

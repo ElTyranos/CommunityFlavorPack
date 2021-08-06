@@ -1,0 +1,34 @@
+pdxmesh = {
+	name = "male_headgear_religious_catholic_cfp_cardinal_01_mesh"
+	file = "male_headgear_religious_catholic_cfp_cardinal_01.mesh"
+
+	blend_shape = { id = "male_headgear_religious_catholic_cfp_cardinal_01_bs_fat"		type = "male_headgear_religious_catholic_cfp_cardinal_01_bs_fat.mesh" }
+	blend_shape = { id = "male_headgear_religious_catholic_cfp_cardinal_01_bs_gaunt"		type = "male_headgear_religious_catholic_cfp_cardinal_01_bs_gaunt.mesh" }
+	blend_shape = { id = "male_headgear_religious_catholic_cfp_cardinal_01_bs_muscular"	type = "male_headgear_religious_catholic_cfp_cardinal_01_bs_muscular.mesh" }	
+	
+	meshsettings = {
+		name = "male_headgear_religious_catholic_cfp_cardinal_01Shape"
+		index = 0
+		texture_diffuse = "male_clothes_religious_catholic_cfp_cardinal_01_diffuse.dds"
+		texture_normal = "male_clothes_religious_catholic_cfp_cardinal_01_normal.dds"
+		texture_specular = "male_clothes_religious_catholic_cfp_cardinal_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_religious_catholic_cfp_cardinal_01_entity"
+	pdxmesh = "male_headgear_religious_catholic_cfp_cardinal_01_mesh"
+	
+	attribute = { name = "bs_body_fat_1"					blend_shape = "male_headgear_religious_catholic_cfp_cardinal_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "male_headgear_religious_catholic_cfp_cardinal_01_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1"				blend_shape = "male_headgear_religious_catholic_cfp_cardinal_01_bs_muscular" }
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_clothes/religious/catholic/cfp_cardinal_01/male_clothes_religious_catholic_cfp_cardinal_01_masks.dds"
+			variation = "cfp_cardinal_01"
+		}
+	}
+}

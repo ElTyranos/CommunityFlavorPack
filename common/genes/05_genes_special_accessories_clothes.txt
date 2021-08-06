@@ -177,6 +177,7 @@ special_genes = {
 
 				male = {
 					4 = male_clothes_secular_western_war_nobility_01_low
+					4 = male_clothing_secular_western_cfp_war_nobility_01
 					1 = male_clothes_secular_dde_hre_war_nobility_01_low
 				}
 
@@ -863,6 +864,7 @@ special_genes = {
 				male = {
 					4 = male_clothes_secular_dde_hre_war_nobility_01_low
 					1 = male_clothes_secular_western_war_nobility_01_low
+					1 = male_clothing_secular_western_cfp_war_nobility_01
 				}
 
 				female = {
@@ -1032,6 +1034,7 @@ special_genes = {
 				male = {
 					1 = male_clothes_religious_catholic_devoted_01
 					1 = male_clothes_religious_catholic_devoted_02
+					5 = male_clothes_religious_catholic_cfp_devoted_01
 				}
 
 				female = {
@@ -1497,7 +1500,57 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
+		
+			## Religious
+			
+			religious_catholic_head_early_clothes = {
+				index = 82
+				male = {	
+					1 = male_clothes_religious_catholic_cfp_head_01
+				}
+				female = {
+					1 = female_clothes_religious_catholic_devoted_01_common
+				}
+				boy = male
+				girl = female
+			}
+		
+			religious_catholic_cardinal_clothes = {
+				index = 83
+				male = {	
+					1 = male_clothes_religious_catholic_cfp_cardinal_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+		
+			religious_orthodox_devoted_clothes = {
+				index = 84
+				male = {
+					1 = male_clothes_religious_orthodox_cfp_devoted_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+		
+			religious_muslim_high_turkic_clothes = {
+				index = 85
+				male = {
+					1 = male_clothes_religious_muslim_cfp_caliph_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+		
 		}
 }
 }

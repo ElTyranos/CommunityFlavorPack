@@ -296,6 +296,10 @@
 		gene = headgear
 		template = bedouin_low_nobility
 	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = bedouin_high_nobility
+	}
 	########### /CFP ###########
 
 	add_accessory_modifiers = {
@@ -496,11 +500,6 @@
 		gene = headgear
 		template = east_african_war
 	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = african_religious_masks
-	}
 ###########/CFP ###########
 	
 	add_accessory_modifiers = {
@@ -653,23 +652,54 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
+	
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_catholic_pilgrim
+	}
 	##
-
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_catholic_devoted
 	}
 
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_catholic_high_northern
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_catholic_cardinal
+	}
+	##
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = catholic_high
 	}
 
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_catholic_head_early
+	}
+	##
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = catholic_head
 	}
-
+	
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_orthodox_devoted
+	}
+	##
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_orthodox_high
@@ -679,12 +709,23 @@
 		gene = headgear
 		template = religious_orthodox_head
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_zoroastrian_high
 	}
 
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_jewish_common_western
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_jewish_common_mena
+	}
+	##
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_jewish_high
@@ -694,11 +735,18 @@
 		gene = headgear
 		template = religious_jewish_head
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_muslim_high
 	}
+	
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = religious_muslim_high_turkic
+	}
+	##
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -710,6 +758,13 @@
 		template = religious_african_high
 	}
 
+	## CFP
+	add_accessory_modifiers = {
+		gene = headgear
+		template = african_religious_masks
+	}
+	##
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_steppe_high

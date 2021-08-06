@@ -1,0 +1,26 @@
+pdxmesh = {
+	name = "male_headgear_religious_muslim_cfp_caliph_01_mesh"
+	file = "male_headgear_religious_muslim_cfp_caliph_01.mesh"
+
+	meshsettings = {
+		name = "male_headgear_religious_muslim_cfp_caliph_01Shape"
+		index = 0
+		texture_diffuse = "male_headgear_religious_muslim_cfp_caliph_01_diffuse.dds"
+		texture_normal = "male_headgear_religious_muslim_cfp_caliph_01_normal.dds"
+		texture_specular = "male_headgear_religious_muslim_cfp_caliph_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_religious_muslim_cfp_caliph_01_entity"
+	pdxmesh = "male_headgear_religious_muslim_cfp_caliph_01_mesh"
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/religious/muslim/cfp_caliph_01/male_headgear_religious_muslim_cfp_caliph_01_masks.dds"
+			variation = "cfp_muslim_black_01"
+		}
+	}
+}

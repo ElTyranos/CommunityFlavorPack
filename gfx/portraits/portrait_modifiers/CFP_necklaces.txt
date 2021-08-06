@@ -94,7 +94,7 @@
 				}
 				OR = {
 					AND = {
-						highest_held_title_tier >= tier_county # an above
+						highest_held_title_tier >= tier_county # and above
 						NOR = {
 							has_dynasty = no
 							AND = {
@@ -108,10 +108,10 @@
 						exists = primary_spouse
 						OR = {
 							is_ruler = no
-							highest_held_title_tier >= tier_barony # an above
+							highest_held_title_tier >= tier_barony # and above
 						}
 						primary_spouse = {
-							highest_held_title_tier >= tier_county # an above
+							highest_held_title_tier >= tier_county # and above
 							NOR = {
 								has_dynasty = no
 								AND = {
@@ -143,7 +143,7 @@
 				cfp_portrait_central_africa_clothing_trigger = yes
 				OR = {
 					AND = {
-						highest_held_title_tier >= tier_county # an above
+						highest_held_title_tier >= tier_county # and above
 						NOR = {
 							has_dynasty = no
 							AND = {
@@ -157,10 +157,10 @@
 						exists = primary_spouse
 						OR = {
 							is_ruler = no
-							highest_held_title_tier >= tier_barony # an above
+							highest_held_title_tier >= tier_barony # and above
 						}
 						primary_spouse = {
-							highest_held_title_tier >= tier_county # an above
+							highest_held_title_tier >= tier_county # and above
 							NOR = {
 								has_dynasty = no
 								AND = {
@@ -175,4 +175,44 @@
 			}			
 		}
 	}
+	
+	pectoral_crosses = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_accessories_necklace
+				template = pectoral_crosses
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101$
+				AND = {
+					highest_held_title_tier >= tier_duchy # for dukes and above
+					OR = {
+						has_trait = zealous
+						has_trait = theologian
+						has_trait = faith_warrior
+						has_trait = devoted
+					}
+					portrait_northern_clothing_trigger = yes
+					religion = religion:christianity_religion
+				}
+				NOR = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+	
+	
 }

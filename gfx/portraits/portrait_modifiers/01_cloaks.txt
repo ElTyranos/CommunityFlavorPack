@@ -624,6 +624,132 @@ cloaks = {
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
+					# doesnt fit nicely to eastern imams
+					cfp_portrait_turkic_clothing_trigger = yes
+					cfp_portrait_iranian_clothing_trigger = yes
+				}
+			}
+	    }
+	}
+	
+	religious_orthodox_high = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = religious_orthodox_high
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = { # head
+	            add = 150
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+	        }
+			modifier = { # high
+				add = 120
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				NOT = {
+					faith.religious_head = this
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+			}
+	    }
+	}	
+	
+	religious_catholic_high_northern = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = religious_catholic_high_northern
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 120
+				portrait_northern_clothing_trigger = yes
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				religion = religion:christianity_religion
+				NAND = {
+					faith = faith:catholic
+					faith.religious_head = this
+				}
+				NOT = {
+					faith = faith:orthodox
+				}
+				# NOT = {
+					# faith = {
+						# has_doctrine_parameter = vows_of_poverty_active
+					# }
+				# }
+			}
+	    }
+	}
+	
+	religious_catholic_head = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = religious_catholic_head
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 120
+				faith = faith:catholic
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
 				}
 			}
 	    }
