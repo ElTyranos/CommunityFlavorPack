@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -7685,6 +7685,47 @@ headgear = {
 	    }
 	}
 
+	catholic_cardinal = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_cardinal
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { cardinal_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 140
+				is_male = yes
+	        	current_date >= 1245.1.1
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					AND = {
+						is_vassal_of = title:k_papal_state.holder
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
+					AND = {
+						is_councillor_of = title:k_papal_state.holder
+						is_theocratic_lessee = yes
+					}
+					is_courtier_of = title:k_papal_state.holder
+				}
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
+	        }
+	    }
+	}
+	
 	#religious_catholic_high_headgear = {
 	#    dna_modifiers = {
 	#        accessory = {

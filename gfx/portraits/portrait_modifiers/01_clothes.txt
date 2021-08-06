@@ -1,4 +1,4 @@
-
+﻿
 clothes = {
 
 	usage = game
@@ -3605,6 +3605,53 @@ latin_venetian_royalty = {
 						# has_doctrine_parameter = vows_of_poverty_active
 					# }
 				# }
+			}
+	    }
+	}
+
+	religious_catholic_cardinal_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_catholic_cardinal_clothes
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    outfit_tags = { cardinal_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 140
+				is_male = yes
+	        	current_date >= 1245.1.1
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					AND = {
+						is_vassal_of = title:k_papal_state.holder
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
+					AND = {
+						is_councillor_of = title:k_papal_state.holder
+						is_theocratic_lessee = yes
+					}
+					is_courtier_of = title:k_papal_state.holder
+				}
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
 			}
 	    }
 	}
