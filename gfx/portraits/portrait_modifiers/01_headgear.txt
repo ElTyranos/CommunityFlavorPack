@@ -7480,6 +7480,48 @@ headgear = {
 
 ## Catholic ##
 
+	catholic_pilgrim = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_pilgrim
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				religion = religion:christianity_religion
+				portrait_western_clothing_trigger = yes
+				is_male = yes
+				OR = {
+					AND = {
+						has_trait = pilgrim
+						highest_held_title_tier <= tier_county
+					}
+					has_character_modifier = pilgrimage_divine_protection_modifier
+					has_character_modifier = new_pilgrimage_companions_modifier
+					has_character_modifier = pilgrimage_completely_lost_modifier
+					has_character_modifier = dedicated_to_pilgrimage_modifier
+					has_character_modifier = pilgrimage_worldly_modifier
+					has_character_modifier = pilgrimage_rest_and_good_health_modifier
+					has_character_modifier = pilgrimage_armed_pilgrimages_modifier
+				}
+				NOR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+	
 	catholic_devoted = {
 		dna_modifiers = {
 			accessory = {
