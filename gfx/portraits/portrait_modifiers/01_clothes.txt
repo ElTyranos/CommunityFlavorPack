@@ -3501,6 +3501,55 @@ latin_venetian_royalty = {
 			}
 	    }
 	}
+	
+	religious_catholic_high_northern_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = northern_low_nobility_clothes
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+	    }
+	    outfit_tags = { priest_outfit bishop_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 150
+				portrait_northern_clothing_trigger = yes
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				religion = religion:christianity_religion
+				NAND = {
+					faith = faith:catholic
+					faith.religious_head = this
+				}
+				NOT = {
+					faith = faith:orthodox
+				}
+				# NOT = {
+					# faith = {
+						# has_doctrine_parameter = vows_of_poverty_active
+					# }
+				# }
+			}
+	    }
+	}
 
 	religious_catholic_head_clothes = {
 	    dna_modifiers = {

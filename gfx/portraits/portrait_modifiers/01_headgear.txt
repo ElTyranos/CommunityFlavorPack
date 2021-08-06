@@ -7488,6 +7488,40 @@ headgear = {
 	    }
 	}
 
+	religious_catholic_high_northern = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_catholic_high_northern
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { priest_outfit bishop_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 150
+				OR = {
+					portrait_northern_clothing_trigger = yes
+					cfp_portrait_anglo_saxon_clothing_trigger = yes
+				}
+				cfp_era_high_medieval_trigger = no
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				# NOT = {
+					# faith = {
+						# has_doctrine_parameter = vows_of_poverty_active
+					# }
+				# }
+	        }
+	    }
+	}
+
 	#religious_catholic_high_headgear = {
 	#    dna_modifiers = {
 	#        accessory = {
