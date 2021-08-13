@@ -3637,6 +3637,7 @@ latin_venetian_royalty = {
 	        modifier = {
 				add = 140
 				is_male = yes
+				is_adult = yes
 	        	current_date >= 1245.1.1
 				faith = { religion_tag = christianity_religion }
 				OR = {
