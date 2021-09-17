@@ -810,6 +810,12 @@ accessory_genes = {
             index = 49
             male = {
                 5 = male_headgear_secular_indian_high_nobility_01
+                5 = male_headgear_secular_indian_cfp_war_tibetan_01
+                5 = male_headgear_religious_hindu_cfp_mask_01
+                5 = male_headgear_religious_hindu_cfp_devoted_01
+                5 = male_headgear_secular_indian_cfp_high_nobility_01
+                5 = male_headgear_secular_indian_cfp_royal_01
+                5 = male_headgear_secular_indian_cfp_imperial_01
             }
             female = {
                 5 = female_headgear_secular_indian_nobility_02
