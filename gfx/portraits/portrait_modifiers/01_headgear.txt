@@ -7510,13 +7510,19 @@ headgear = {
 					faith = faith:nestorian
 				}
 			}
+			modifier = {
+				add = 80
+				religion = religion:christianity_religion
+				portrait_western_clothing_trigger = yes
+				is_male = yes
+				OR = {
 					has_character_modifier = pilgrimage_divine_protection_modifier
 					has_character_modifier = new_pilgrimage_companions_modifier
 					has_character_modifier = pilgrimage_completely_lost_modifier
 					has_character_modifier = dedicated_to_pilgrimage_modifier
 					has_character_modifier = pilgrimage_worldly_modifier
 					has_character_modifier = pilgrimage_rest_and_good_health_modifier
-					has_character_modifier = pilgrimage_armed_pilgrimages_modifier
+					# has_character_modifier = pilgrimage_armed_pilgrimages_modifier # determined pilgrim is gained by 99.9% of AIs, we want the hat to appear unique
 				}
 				NOR = {
 					faith = faith:orthodox
