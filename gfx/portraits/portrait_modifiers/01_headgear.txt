@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -7672,6 +7672,15 @@ headgear = {
 				}
 				cfp_era_high_medieval_trigger = no
 				faith = { religion_tag = christianity_religion }
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NAND = {
+					faith = faith:catholic
+					faith.religious_head = this
+				}
 				NOR = {
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
@@ -7680,11 +7689,6 @@ headgear = {
 					faith = faith:bogomilist
 					faith = faith:paulician
 					faith = faith:nestorian
-				}
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				# NOT = {
 					# faith = {
