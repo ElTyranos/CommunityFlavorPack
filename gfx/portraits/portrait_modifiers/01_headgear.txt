@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -7492,15 +7492,24 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 80
+				add = 20
 				religion = religion:christianity_religion
 				portrait_western_clothing_trigger = yes
 				is_male = yes
-				OR = {
-					AND = {
-						has_trait = pilgrim
-						highest_held_title_tier <= tier_county
-					}
+				AND = {
+					has_trait = pilgrim
+					highest_held_title_tier < tier_county
+				}
+				NOR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
 					has_character_modifier = pilgrimage_divine_protection_modifier
 					has_character_modifier = new_pilgrimage_companions_modifier
 					has_character_modifier = pilgrimage_completely_lost_modifier
