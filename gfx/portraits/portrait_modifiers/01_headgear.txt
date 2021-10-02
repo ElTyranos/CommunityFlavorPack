@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1068,12 +1068,12 @@ headgear = {
 				template = western_war_late
 				range = { 0 1 } # For the randomness to work correctly
 			}
-            morph = {
-                mode = add                
-                gene = gene_bs_nose_forward
-                template = nose_forward_neg                
-                value = 1.0
-            }
+            # morph = {
+                # mode = add                
+                # gene = gene_bs_nose_forward
+                # template = nose_forward_neg                
+                # value = 1.0
+            # }
             morph = {
                 mode = add
                 gene = gene_bs_ear_outward
@@ -7670,7 +7670,6 @@ headgear = {
 					portrait_northern_clothing_trigger = yes
 					cfp_portrait_anglo_saxon_clothing_trigger = yes
 				}
-				cfp_era_high_medieval_trigger = no
 				faith = { religion_tag = christianity_religion }
 				OR = {
 					has_character_flag = need_priest_outfit
@@ -7682,6 +7681,7 @@ headgear = {
 					faith.religious_head = this
 				}
 				NOR = {
+					cfp_era_high_medieval_trigger = yes
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
 					faith = faith:coptic
