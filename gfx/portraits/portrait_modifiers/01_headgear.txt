@@ -7501,6 +7501,7 @@ headgear = {
 					highest_held_title_tier < tier_county
 				}
 				NOR = {
+					highest_held_title_tier >= tier_kingdom # prevent kings and above as it looks silly
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
 					faith = faith:coptic
