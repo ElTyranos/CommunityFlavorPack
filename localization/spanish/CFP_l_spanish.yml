@@ -507,8 +507,12 @@
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_orthodox_cfp_devoted_01:1 "@cfp_icon_white! Túnica de monje ortodoxo"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_doublet_01:1 "@cfp_icon! Doblete de Líneas Rotas"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_doublet_02:1 "@cfp_icon! Doblete Acolchado"
+ 
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Perneras de armadura de placas"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Perneras Tardo-medievales"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! Calzas Africanas"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_sub_saharan_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01$"
