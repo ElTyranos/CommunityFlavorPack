@@ -263,7 +263,7 @@ accessory_genes = {
 		}
 
 		western_war_legwear = {
-			index = 3
+			index = 4
 			male = {
 				1 = male_legwear_secular_western_war_01
 			}
