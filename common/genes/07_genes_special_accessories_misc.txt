@@ -1,4 +1,4 @@
-
+﻿
 
 special_genes = {
 
@@ -258,6 +258,16 @@ accessory_genes = {
 			female = {
 				1 = female_legwear_secular_western_common_01
 			}
+			boy = male
+			girl = female
+		}
+
+		western_common_legwear_late = {
+			index = 3
+			male = {
+				1 = male_legwear_secular_western_cfp_pants_01
+			}
+			female = {}
 			boy = male
 			girl = female
 		}
