@@ -1,4 +1,4 @@
-﻿# Vanilla edits - Western
+# Vanilla edits - Western
 cfp_male_clothes_western_bedchamber_01_common = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
 	male_clothes_situational_western_bedchamber_01_common_entity }
@@ -82,6 +82,9 @@ male_clothes_religious_catholic_cfp_cardinal_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_religious_catholic_cfp_cardinal_01_entity }
 }
 
+male_clothes_secular_western_cfp_doublet_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_doublet_01_entity }
+}
 # Sub-saharan
 male_clothes_secular_africa_central_cfp_war_padded_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_africa_central_cfp_war_padded_01_entity }

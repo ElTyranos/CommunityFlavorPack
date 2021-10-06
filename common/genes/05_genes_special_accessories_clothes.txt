@@ -1365,8 +1365,16 @@ special_genes = {
 			}
 			
 			
+			western_high_nobility_clothes_late = {
 				index = 73
 				male = {
+					1 = male_clothes_secular_western_cfp_doublet_01
+				}
+				female = {}
+				boy = male
+				girl = female
+			}
+
 			western_war_late = {
 				index = 74
 				male = {
