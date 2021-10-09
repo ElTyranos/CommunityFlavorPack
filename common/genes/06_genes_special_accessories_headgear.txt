@@ -891,11 +891,13 @@ accessory_genes = {
 			male = {
 				5 = male_headgear_secular_indian_war_nobility_01
                 5 = male_headgear_secular_indian_cfp_war_tibetan_01
+                5 = male_headgear_secular_indian_cfp_war_timurid_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_indian_war_nobility_01
                 1 = female_headgear_secular_indian_cfp_war_tibetan_01
+                1 = female_headgear_secular_indian_cfp_war_timurid_01
 				
 			}
 			boy = male
