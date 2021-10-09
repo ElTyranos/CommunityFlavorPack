@@ -981,7 +981,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			# Harald Fairhair's vow-hair.
 			scripted_character_hairstyles_02 = {
 				index = 37

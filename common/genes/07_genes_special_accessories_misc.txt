@@ -198,9 +198,205 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+
+		messenger_scroll = {
+			index = 15
+			male = {
+				1 = rolled_scroll_01
+			}
+			female = {
+				1 = rolled_scroll_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artisan_spear_left_hand = {
+			index = 16
+			male = {
+				1 = ep1_spear_01_left_hand
+			}
+			female = {
+				1 = ep1_spear_01_left_hand		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artisan_spear_right_hand = {
+			index = 17
+			male = {
+				1 = ep1_spear_01_right_hand
+			}
+			female = {
+				1 = ep1_spear_01_right_hand		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artisan_sword_mena = {
+			index = 18
+			male = {
+				1 = ep1_sword_mena_01
+			}
+			female = {
+				1 = ep1_sword_mena_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artisan_axe_mena = {
+			index = 19
+			male = {
+				1 = ep1_axe_mena_01
+			}
+			female = {
+				1 = ep1_axe_mena_01		
+			}
+			boy = male
+			girl = female
+		}	
+
+		ep1_artisan_axe = {
+			index = 20
+			male = {
+				1 = ep1_axe_01
+			}
+			female = {
+				1 = ep1_axe_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artisan_axe_northern_pagan = {
+			index = 21
+			male = {
+				1 = ep1_axe_northern_pagan_01
+			}
+			female = {
+				1 = ep1_axe_northern_pagan_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		# Genes for props with overrides for equipped artifacts
+		ep1_artifact_axe_equipped = {
+			index = 22
+			male = {
+				1 = ep1_artifact_axe_equipped_01
+			}
+			female = {
+				1 = ep1_artifact_axe_equipped_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artifact_mace_equipped = {
+			index = 23
+			male = {
+				1 = ep1_artifact_mace_equipped_01
+			}
+			female = {
+				1 = ep1_artifact_mace_equipped_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artifact_sword_equipped = {
+			index = 24
+			male = {
+				1 = ep1_artifact_sword_equipped_01
+			}
+			female = {
+				1 = ep1_artifact_sword_equipped_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artifact_dagger_equipped = {
+			index = 25
+			male = {
+				1 = ep1_artifact_dagger_equipped_01
+			}
+			female = {
+				1 = ep1_artifact_dagger_equipped_01		
+			}
+			boy = male
+			girl = female
+		}
+
+		ep1_artifact_spear_equipped = {
+			index = 26
+			male = {
+				1 = ep1_artifact_spear_equipped_01
+			}
+			female = {
+				1 = ep1_artifact_spear_equipped_01		
+			}
+			boy = male
+			girl = female
+		}
+		
+		
+		ep1_mena_book_big = {
+			index = 27
+			male = {
+				1 = ep1_mena_book_big_01
+			}
+			female = {
+				1 = ep1_mena_book_big_01		
+			}
+			boy = male
+			girl = female
+		}
+		
+		ep1_western_book_big = {
+			index = 28
+			male = {
+				1 = ep1_western_book_big_01
+			}
+			female = {
+				1 = ep1_western_book_big_01		
+			}
+			boy = male
+			girl = female
+		}
+		
+		ep1_tool_quill = {
+			index = 29
+			male = {
+				1 = ep1_tool_quill_01
+			}
+			female = {
+				1 = ep1_tool_quill_01		
+			}
+			boy = male
+			girl = female
+		}
+		
+		
+		
+		ep1_artifact_hammer_equipped = {
+			index = 30
+			male = {
+				1 = ep1_artifact_hammer_equipped_01
+			}
+			female = {
+				1 = ep1_artifact_hammer_equipped_01		
+			}
+			boy = male
+			girl = female
+		}
 		
 		javanese_spymasters_dagger = {
-			index = 15
+			index = 31
 			male = {
 				1 = cfp_kris_dagger_01
 			}
@@ -306,9 +502,20 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+		ep1_jester_legwear = {
+			index = 7
+			male = {
+				1 = male_legwear_secular_ep1_jester_01
+			}
+			female = {
+				1 = female_legwear_secular_western_common_01
+			}
+			boy = male
+			girl = female
+		}
 		
 		western_war_legwear_late = {
-			index = 7
+			index = 8
 			male = {
 				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
@@ -318,7 +525,7 @@ accessory_genes = {
 		}
 		
 		sub_saharan_common_legwear = {
-			index = 8
+			index = 9
 			male = {
 				1 = male_legwear_secular_sub_saharan_cfp_common_01
 			}
@@ -330,7 +537,7 @@ accessory_genes = {
 		}
 		
 		javanese_common_legwear = {
-			index = 9
+			index = 10
 			male = {
 				1 = male_legwear_secular_java_cfp_common_01
 			}
@@ -342,7 +549,7 @@ accessory_genes = {
 		}
 		
 		javanese_nobility_legwear = {
-			index = 10
+			index = 11
 			male = {
 				1 = male_legwear_secular_java_cfp_high_nobility_01
 			}
@@ -354,7 +561,7 @@ accessory_genes = {
 		}
 		
 		javanese_royalty_legwear = {
-			index = 11
+			index = 12
 			male = {
 				1 = male_legwear_secular_java_cfp_royalty_01
 			}
@@ -438,8 +645,17 @@ accessory_genes = {
 				1 = empty
 			}
 		}
-		western_royalty_ermine = {
+		ep1_cloak_adventurer = {
 			index = 4
+			male = {
+				1 = male_cloaks_secular_ep1_adventurer_01
+			}
+			female = {
+				1 = empty
+			}
+		}
+		western_royalty_ermine = {
+			index = 5
 			male = {
 				1 = male_cloaks_secular_western_cfp_ermine_01
 			}
@@ -448,7 +664,7 @@ accessory_genes = {
 			}
 		}
 		western_high_nobility_ermine = {
-			index = 5
+			index = 6
 			male = {
 				10 = empty
 				8 = male_cloaks_secular_western_royalty_01
@@ -459,7 +675,7 @@ accessory_genes = {
 			}
 		}
 		byzantine_royalty = {
-			index = 6
+			index = 7
 			male = {
 				1 = male_cloaks_secular_byzantine_royalty_01
 			}
@@ -468,7 +684,7 @@ accessory_genes = {
 			}
 		}
 		byzantine_royalty_ermine = {
-			index = 7
+			index = 8
 			male = {
 				1 = male_cloaks_secular_byzantine_cfp_ermine_01
 			}
@@ -477,7 +693,7 @@ accessory_genes = {
 			}
 		}
 		western_commoner = {
-			index = 8
+			index = 9
 			male = {
 				4 = empty
 				1 = male_cloaks_secular_western_cfp_common_01
@@ -487,7 +703,7 @@ accessory_genes = {
 			}
 		}
 		western_crusades_commoner = {
-			index = 9
+			index = 10
 			male = {
 				1 = male_cloaks_secular_western_cfp_crusades_03
 			}
@@ -496,7 +712,7 @@ accessory_genes = {
 			}
 		}
 		western_crusades = {
-			index = 10
+			index = 11
 			male = {
 				1 = male_cloaks_secular_western_cfp_crusades_01
 			}
@@ -505,7 +721,7 @@ accessory_genes = {
 			}
 		}
 		western_crusades_black = {
-			index = 11
+			index = 12
 			male = {
 				1 = male_cloaks_secular_western_cfp_crusades_02
 			}
@@ -514,7 +730,7 @@ accessory_genes = {
 			}
 		}
 		religious_muslim = {
-			index = 12
+			index = 13
 			male = {
 				1 = male_cloaks_secular_mena_cfp_taylasan_01
 				1 = male_cloaks_secular_mena_cfp_taylasan_02
@@ -524,7 +740,7 @@ accessory_genes = {
 			}
 		}
 		berber_high_nobility = {
-			index = 13
+			index = 14
 			male = {
 				1 = male_cloaks_secular_mena_cfp_double_harness_01
 			}
@@ -533,7 +749,7 @@ accessory_genes = {
 			}
 		}
 		norse_war = {
-			index = 14
+			index = 15
 			male = {
 				1 = empty
 				1 = male_cloaks_secular_northern_war_viking_shield_01
@@ -544,7 +760,7 @@ accessory_genes = {
 			}
 		}
 		norman_war = {
-			index = 15
+			index = 16
 			male = {
 				1 = empty
 				1 = male_cloaks_secular_western_war_norman_shield_01
@@ -555,7 +771,7 @@ accessory_genes = {
 			}
 		}
 		african_royalty = {
-			index = 16
+			index = 17
 			male = {
 				1 = male_cloaks_secular_sub_saharan_cfp_apron_01
 			}
@@ -564,7 +780,7 @@ accessory_genes = {
 			}
 		}
 		religious_catholic_head = {
-			index = 17
+			index = 18
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_head_01
 			}
@@ -573,7 +789,7 @@ accessory_genes = {
 			}
 		}
 		religious_catholic_high_northern = {
-			index = 18
+			index = 19
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_tribal_01
 			}
@@ -582,7 +798,7 @@ accessory_genes = {
 			}
 		}
 		religious_orthodox_high = {
-			index = 19
+			index = 20
 			male = {
 				1 = male_cloaks_religious_orthodox_cfp_omophorion_01
 			}
@@ -590,8 +806,32 @@ accessory_genes = {
 				1 = empty
 			}
 		}
+	}
+
+
+#####################################
+#									#
+# 		  	   secondary prop		        #
+#									#
+#####################################
+
+
+	props_2 = {
+		ep1_mena_book_big = {
+			index = 0
+			male = {
+			1 = ep1_mena_book_big_01
+			}
+			female = {
+				1 = ep1_mena_book_big_01		
+			}
+			boy = male
+			girl = female
+		}
+
 	}		
 }
 
 
 }
+
