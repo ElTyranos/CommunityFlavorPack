@@ -1068,12 +1068,12 @@ headgear = {
 				template = western_war_late
 				range = { 0 1 } # For the randomness to work correctly
 			}
-            morph = {
-                mode = add                
-                gene = gene_bs_nose_forward
-                template = nose_forward_neg                
-                value = 1.0
-            }
+            # morph = {
+                # mode = add                
+                # gene = gene_bs_nose_forward
+                # template = nose_forward_neg                
+                # value = 1.0
+            # }
             morph = {
                 mode = add
                 gene = gene_bs_ear_outward
@@ -7492,22 +7492,38 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 20
+				religion = religion:christianity_religion
+				portrait_western_clothing_trigger = yes
+				is_male = yes
+				AND = {
+					has_trait = pilgrim
+					highest_held_title_tier < tier_county
+				}
+				NOR = {
+					highest_held_title_tier >= tier_kingdom # prevent kings and above as it looks silly
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+			modifier = {
 				add = 80
 				religion = religion:christianity_religion
 				portrait_western_clothing_trigger = yes
 				is_male = yes
 				OR = {
-					AND = {
-						has_trait = pilgrim
-						highest_held_title_tier <= tier_county
-					}
 					has_character_modifier = pilgrimage_divine_protection_modifier
 					has_character_modifier = new_pilgrimage_companions_modifier
 					has_character_modifier = pilgrimage_completely_lost_modifier
 					has_character_modifier = dedicated_to_pilgrimage_modifier
 					has_character_modifier = pilgrimage_worldly_modifier
 					has_character_modifier = pilgrimage_rest_and_good_health_modifier
-					has_character_modifier = pilgrimage_armed_pilgrimages_modifier
+					# has_character_modifier = pilgrimage_armed_pilgrimages_modifier # determined pilgrim is gained by 99.9% of AIs, we want the hat to appear unique
 				}
 				NOR = {
 					faith = faith:orthodox
@@ -7670,9 +7686,18 @@ headgear = {
 					portrait_northern_clothing_trigger = yes
 					cfp_portrait_anglo_saxon_clothing_trigger = yes
 				}
-				cfp_era_high_medieval_trigger = no
 				faith = { religion_tag = christianity_religion }
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NAND = {
+					faith = faith:catholic
+					faith.religious_head = this
+				}
 				NOR = {
+					cfp_era_high_medieval_trigger = yes
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
 					faith = faith:coptic
@@ -7680,11 +7705,6 @@ headgear = {
 					faith = faith:bogomilist
 					faith = faith:paulician
 					faith = faith:nestorian
-				}
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				# NOT = {
 					# faith = {

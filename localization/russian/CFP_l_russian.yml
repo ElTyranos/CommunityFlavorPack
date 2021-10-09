@@ -508,8 +508,12 @@
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_orthodox_cfp_devoted_01:1 "@cfp_icon_white! Халат православного монаха"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_doublet_01:1 "@cfp_icon! Дублет ломаных линий"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_doublet_02:1 "@cfp_icon! Дублет с мягкой подкладкой"
+ 
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Ножки пластинчатой брони"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Нижняя одежда позднего средневековья"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! Африкански сандали"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_sub_saharan_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01$"

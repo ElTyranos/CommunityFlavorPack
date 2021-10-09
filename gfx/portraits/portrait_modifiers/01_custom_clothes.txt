@@ -59,6 +59,11 @@
 		# }
 		template = western_high_nobility_clothes
 	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = western_high_nobility_clothes_late
+	}
 
 	add_accessory_modifiers = {
 		gene = clothes

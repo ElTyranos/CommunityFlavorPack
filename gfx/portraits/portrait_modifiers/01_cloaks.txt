@@ -704,20 +704,30 @@ cloaks = {
 	    weight = {
 	        base = 0
 	        modifier = {
-	            add = 120
-				portrait_northern_clothing_trigger = yes
+	            add = 150
+				OR = {
+					portrait_northern_clothing_trigger = yes
+					cfp_portrait_anglo_saxon_clothing_trigger = yes
+				}
+				faith = { religion_tag = christianity_religion }
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				religion = religion:christianity_religion
 				NAND = {
 					faith = faith:catholic
 					faith.religious_head = this
 				}
-				NOT = {
+				NOR = {
+					cfp_era_high_medieval_trigger = yes
 					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
 				}
 				# NOT = {
 					# faith = {

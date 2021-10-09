@@ -262,8 +262,18 @@ accessory_genes = {
 			girl = female
 		}
 
-		western_war_legwear = {
+		western_common_legwear_late = {
 			index = 3
+			male = {
+				1 = male_legwear_secular_western_cfp_pants_01
+			}
+			female = {}
+			boy = male
+			girl = female
+		}
+
+		western_war_legwear = {
+			index = 4
 			male = {
 				1 = male_legwear_secular_western_war_01
 			}
@@ -275,7 +285,7 @@ accessory_genes = {
 		}
 
 		mena_common_legwear = {
-			index = 4
+			index = 5
 			male = {
 				1 = male_legwear_secular_mena_war_nobility_01
 			}
@@ -286,7 +296,7 @@ accessory_genes = {
 			girl = female
 		}
 		fp1_common_legwear = {
-			index = 5
+			index = 6
 			male = {
 				1 = male_legwear_secular_fp1_common_01
 			}
@@ -298,7 +308,7 @@ accessory_genes = {
 		}
 		
 		western_war_legwear_late = {
-			index = 6
+			index = 7
 			male = {
 				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
@@ -308,7 +318,7 @@ accessory_genes = {
 		}
 		
 		sub_saharan_common_legwear = {
-			index = 7
+			index = 8
 			male = {
 				1 = male_legwear_secular_sub_saharan_cfp_common_01
 			}
@@ -320,7 +330,7 @@ accessory_genes = {
 		}
 		
 		javanese_common_legwear = {
-			index = 8
+			index = 9
 			male = {
 				1 = male_legwear_secular_java_cfp_common_01
 			}
@@ -332,7 +342,7 @@ accessory_genes = {
 		}
 		
 		javanese_nobility_legwear = {
-			index = 9
+			index = 10
 			male = {
 				1 = male_legwear_secular_java_cfp_high_nobility_01
 			}
@@ -344,7 +354,7 @@ accessory_genes = {
 		}
 		
 		javanese_royalty_legwear = {
-			index = 10
+			index = 11
 			male = {
 				1 = male_legwear_secular_java_cfp_royalty_01
 			}
