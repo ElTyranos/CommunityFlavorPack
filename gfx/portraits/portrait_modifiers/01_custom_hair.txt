@@ -2,6 +2,7 @@
 custom_hair = {
 	usage = customization
 	interface_position = 2
+	priority = 5
 	
 	no_hair = {
 		dna_modifiers = {
@@ -15,6 +16,12 @@ custom_hair = {
 
 		weight = {
 			base = 0
+			modifier = {
+                add = 200
+                exists = this
+                exists = character:easteregg_joe_parkin
+                this = character:easteregg_joe_parkin
+            }
 		}
 	}
 
