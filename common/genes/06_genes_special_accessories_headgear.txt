@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -810,12 +810,9 @@ accessory_genes = {
             index = 49
             male = {
                 5 = male_headgear_secular_indian_high_nobility_01
-                5 = male_headgear_secular_indian_cfp_war_tibetan_01
+                5 = male_headgear_secular_indian_cfp_high_nobility_01
                 5 = male_headgear_religious_hindu_cfp_mask_01
                 5 = male_headgear_religious_hindu_cfp_devoted_01
-                5 = male_headgear_secular_indian_cfp_high_nobility_01
-                5 = male_headgear_secular_indian_cfp_royal_01
-                5 = male_headgear_secular_indian_cfp_imperial_01
             }
             female = {
                 5 = female_headgear_secular_indian_nobility_02
@@ -851,7 +848,6 @@ accessory_genes = {
 				5 = empty
 				5 = female_headgear_secular_indian_common_01
 
-
 			}
 			boy = male
             girl = female
@@ -861,10 +857,12 @@ accessory_genes = {
 			index = 52
 			male = {
 				5 = male_headgear_secular_indian_royalty_01
+                5 = male_headgear_secular_indian_cfp_royalty_01
 				
 			}
 			female = {
 				5 = female_headgear_secular_indian_royalty_01
+                5 = female_headgear_secular_indian_cfp_royalty_01
 				
 			}
 			boy = male
@@ -876,10 +874,12 @@ accessory_genes = {
 			male = {
 				3 = male_headgear_secular_indian_imperial_01
 				2 = male_headgear_secular_indian_imperial_02
+                5 = male_headgear_secular_indian_cfp_imperial_01
 				
 			}
 			female = {
 				5 = female_headgear_secular_indian_royalty_01
+                5 = female_headgear_secular_indian_cfp_imperial_01
 				
 			}
 			boy = male
@@ -890,10 +890,12 @@ accessory_genes = {
 			index = 54
 			male = {
 				5 = male_headgear_secular_indian_war_nobility_01
+                5 = male_headgear_secular_indian_cfp_war_tibetan_01
 				
 			}
 			female = {
 				1 = female_headgear_secular_indian_war_nobility_01
+                1 = female_headgear_secular_indian_cfp_war_tibetan_01
 				
 			}
 			boy = male
