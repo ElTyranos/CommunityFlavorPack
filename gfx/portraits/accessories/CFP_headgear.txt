@@ -1269,11 +1269,6 @@ female_headgear_secular_indian_cfp_imperial_01 = {
  	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_indian_cfp_imperial_01_entity 	 }		
 }
 
-male_headgear_secular_indian_cfp_high_nobility_01 = {	
-	set_tags = "no_hair"
- 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_indian_cfp_high_nobility_01_entity 	 }		
-}
-
 male_headgear_secular_indian_cfp_royalty_01 = {	
 	set_tags = "cap,cap_02"
  	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_indian_cfp_royalty_01_entity 	 }		
@@ -1281,6 +1276,11 @@ male_headgear_secular_indian_cfp_royalty_01 = {
 female_headgear_secular_indian_cfp_royalty_01 = {	
 	set_tags = "cap,cap_02"
  	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_indian_cfp_royalty_01_entity 	 }		
+}
+
+male_headgear_secular_indian_cfp_high_nobility_01 = {	
+	set_tags = "no_hair"
+ 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_indian_cfp_high_nobility_01_entity 	 }		
 }
 
 male_headgear_religious_hindu_cfp_mask_01 = {	
