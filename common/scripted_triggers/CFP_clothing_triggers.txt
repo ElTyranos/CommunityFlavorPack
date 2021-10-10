@@ -395,10 +395,10 @@ cfp_portrait_burmese_clothing_contents_trigger = {
 }
 
 cfp_portrait_tibetan_clothing_trigger = {
-	scope:culture = { portrait_tibetan_clothing_contents_trigger = yes }
+	scope:culture = { cfp_portrait_tibetan_clothing_contents_trigger = yes }
 }
 cfp_portrait_tibetan_clothing_spouse_trigger = {
-	culture = { portrait_tibetan_clothing_contents_trigger = yes }
+	culture = { cfp_portrait_tibetan_clothing_contents_trigger = yes }
 }
 cfp_portrait_tibetan_clothing_contents_trigger = {
 	OR = {
