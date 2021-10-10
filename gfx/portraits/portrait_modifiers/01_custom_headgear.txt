@@ -718,6 +718,11 @@
 	## CFP
 	add_accessory_modifiers = {
 		gene = headgear
+		template = religious_buddhist_tibetan_mask
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = religious_jewish_common_western
 	}
 	add_accessory_modifiers = {

@@ -1779,7 +1779,7 @@ latin_venetian_royalty = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_burmese_clothing_trigger = yes
+				cfp_portrait_burmese_clothing_trigger = yes
 			}
 		}
 	}
@@ -1820,7 +1820,7 @@ latin_venetian_royalty = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -1838,7 +1838,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1856,7 +1856,7 @@ latin_venetian_royalty = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -1873,7 +1873,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1916,7 +1916,7 @@ latin_venetian_royalty = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -1933,7 +1933,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}			

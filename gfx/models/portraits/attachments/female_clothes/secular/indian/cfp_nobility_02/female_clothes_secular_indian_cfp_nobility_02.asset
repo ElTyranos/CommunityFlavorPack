@@ -1,0 +1,50 @@
+pdxmesh = {
+	name = "female_clothes_secular_indian_cfp_nobility_02_mesh"
+	file = "female_clothes_secular_indian_cfp_nobility_02.mesh"
+
+	meshsettings = {
+		name = "female_clothes_secular_indian_cfp_nobility_02Shape"
+		index = 0
+		texture_diffuse = "female_clothes_secular_indian_cfp_nobility_01_diffuse.dds"
+		texture_normal = "female_clothes_secular_indian_cfp_nobility_01_normal.dds"
+		texture_specular = "female_clothes_secular_indian_cfp_nobility_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_clothes_secular_indian_cfp_nobility_02_common_entity"
+	pdxmesh = "female_clothes_secular_indian_cfp_nobility_02_mesh"
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
+			variation = "western_common_01"
+		}
+	}
+}
+
+entity = {
+	name = "female_clothes_secular_indian_cfp_nobility_02_low_entity"
+	pdxmesh = "female_clothes_secular_indian_cfp_nobility_02_mesh"
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
+			variation = "indian_nobility_low_02"
+		}
+	}
+}
+
+entity = {
+	name = "female_clothes_secular_indian_cfp_nobility_02_high_entity"
+	pdxmesh = "female_clothes_secular_indian_cfp_nobility_02_mesh"
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
+			variation = "indian_nobility_high_02"
+		}
+	}
+}
