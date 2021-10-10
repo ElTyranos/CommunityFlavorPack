@@ -1,4 +1,4 @@
-version="2.10"
+version="3.0"
 tags={
 	"Historical"
 	"Portraits"
