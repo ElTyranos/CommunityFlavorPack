@@ -279,7 +279,7 @@
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_burmese_clothing_trigger = yes
+				cfp_portrait_burmese_clothing_trigger = yes
 			}
 		}
 	}
@@ -310,7 +310,7 @@
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -328,7 +328,7 @@
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -346,7 +346,7 @@
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -363,7 +363,7 @@
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -396,7 +396,7 @@
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -413,7 +413,7 @@
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
