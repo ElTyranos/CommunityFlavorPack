@@ -3253,7 +3253,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				portrait_burmese_clothing_trigger = yes
+				cfp_portrait_burmese_clothing_trigger = yes
 			}
 		}
 	}
@@ -3282,7 +3282,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -3300,7 +3300,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3318,7 +3318,7 @@ headgear = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -3335,7 +3335,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3366,7 +3366,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						portrait_burmese_clothing_trigger = yes
+						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -3383,7 +3383,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}			
@@ -8175,6 +8175,39 @@ headgear = {
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
+				}
+				OR = {
+					religion = religion:buddhism_religion
+					religion = religion:bon_religion
+					religion = religion:taoism_religion
+				}
+			}
+	    }
+	}
+	
+	religious_buddhist_tibetan_mask = {
+	    dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_buddhist_tibetan_mask
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				range = { 0 1 } # For the randomness to work correctly
+			}
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 110
+				cfp_portrait_tibetan_clothing_trigger = yes
+				OR = {
+					has_trait = lunatic
+					has_trait = possessed
 				}
 				OR = {
 					religion = religion:buddhism_religion
