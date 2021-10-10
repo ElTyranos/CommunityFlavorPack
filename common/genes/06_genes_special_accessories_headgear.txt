@@ -2462,7 +2462,7 @@ accessory_genes = {
             girl = female
 		}
 		religious_buddhist_tibetan_mask = {
-            index = 157
+            index = 169
             male = {
                 5 = male_headgear_religious_hindu_cfp_mask_01
             }
