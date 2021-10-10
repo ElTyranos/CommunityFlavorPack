@@ -30,9 +30,11 @@ entity = {
 	attribute = { name = "bs_body_old_1"					blend_shape = "male_cloaks_religious_catholic_cfp_tribal_01_bs_old" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/religious/catholic/cfp_tribal_01/male_cloaks_religious_catholic_cfp_tribal_01_masks.dds"
-			variation = "cfp_catholic_tribal_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/religious/catholic/cfp_tribal_01/male_cloaks_religious_catholic_cfp_tribal_01_masks.dds"
+				variation = "cfp_catholic_tribal_01"
+			}
 		}
 	}
 }

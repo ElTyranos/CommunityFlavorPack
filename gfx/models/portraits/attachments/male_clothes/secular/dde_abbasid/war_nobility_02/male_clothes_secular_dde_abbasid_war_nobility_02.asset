@@ -32,9 +32,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"								blend_shape = "male_clothes_secular_dde_abbasid_war_nobility_02_bs_dwarf" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/dde_abbasid/war_nobility_01/male_clothes_secular_dde_abbasid_war_nobility_01_masks.dds"
-			variation = "mena_war_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/dde_abbasid/war_nobility_01/male_clothes_secular_dde_abbasid_war_nobility_01_masks.dds"
+				variation = "mena_war_01"
+			}
 		}
 	}
 }

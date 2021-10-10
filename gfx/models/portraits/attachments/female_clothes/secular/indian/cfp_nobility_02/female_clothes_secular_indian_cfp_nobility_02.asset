@@ -38,9 +38,11 @@ entity = {
 	attribute = { name = "bs_body_breast_size_max"				blend_shape = "female_clothes_secular_indian_cfp_nobility_02_bs_breast_size_max" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
-			variation = "western_common_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
+				variation = "western_common_01"
+			}
 		}
 	}
 }
@@ -60,9 +62,11 @@ entity = {
 	attribute = { name = "bs_body_breast_size_max"				blend_shape = "female_clothes_secular_indian_cfp_nobility_02_bs_breast_size_max" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
-			variation = "indian_nobility_low_02"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
+				variation = "indian_nobility_low_02"
+			}
 		}
 	}
 }
@@ -82,9 +86,11 @@ entity = {
 	attribute = { name = "bs_body_breast_size_max"				blend_shape = "female_clothes_secular_indian_cfp_nobility_02_bs_breast_size_max" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
-			variation = "indian_nobility_high_02"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/indian/cfp_nobility_01/female_clothes_secular_indian_cfp_nobility_01_masks.dds"
+				variation = "indian_nobility_high_02"
+			}
 		}
 	}
 }

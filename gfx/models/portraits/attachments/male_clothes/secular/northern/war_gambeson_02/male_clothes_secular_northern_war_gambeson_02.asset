@@ -35,9 +35,11 @@ entity = {
 
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/northern/war_gambeson_02/gambeson_armor_02_mask.dds"
-			variation = "northern_war_gambeson_02"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/northern/war_gambeson_02/gambeson_armor_02_mask.dds"
+				variation = "northern_war_gambeson_02"
+			}
 		}
 	}
 }

@@ -16,10 +16,13 @@ pdxmesh = {
 entity = {
 	name = "female_headgear_secular_andalusian_cfp_war_turban_01_entity"
 	pdxmesh = "female_headgear_secular_andalusian_cfp_war_turban_01_mesh"
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/andalusian/cfp_war_turban_01/andalusian_cfp_war_turban_01_masks.dds"
-			variation = "mena_common_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/andalusian/cfp_war_turban_01/andalusian_cfp_war_turban_01_masks.dds"
+				variation = "mena_common_01"
+			}
 		}
 	}
 }

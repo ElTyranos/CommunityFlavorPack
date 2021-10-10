@@ -22,9 +22,11 @@ entity = {
 	attribute = { name = "bs_fat_1"								blend_shape = "female_headgear_secular_iranian_cfp_war_quilted_02_bs_fat" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/iranian/cfp_war_quilted_01/iranian_quilted_01_masks.dds"
-			variation = "mena_turban_common_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/iranian/cfp_war_quilted_01/iranian_quilted_01_masks.dds"
+				variation = "mena_turban_common_01"
+			}
 		}
 	}
 }

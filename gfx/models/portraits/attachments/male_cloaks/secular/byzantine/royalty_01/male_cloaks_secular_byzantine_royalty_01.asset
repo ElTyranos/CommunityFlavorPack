@@ -32,9 +32,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_cloaks_secular_byzantine_royalty_01_bs_dwarf" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/royalty_01/male_cloaks_secular_western_royalty_01_masks.dds"
-			variation = "byzantine_cloaks_royalty_01"	
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/royalty_01/male_cloaks_secular_western_royalty_01_masks.dds"
+				variation = "byzantine_cloaks_royalty_01"	
+			}
 		}
 	}
 }

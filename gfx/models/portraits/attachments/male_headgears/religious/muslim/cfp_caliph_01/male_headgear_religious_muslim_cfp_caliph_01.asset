@@ -18,9 +18,11 @@ entity = {
 	pdxmesh = "male_headgear_religious_muslim_cfp_caliph_01_mesh"
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/religious/muslim/cfp_caliph_01/male_headgear_religious_muslim_cfp_caliph_01_masks.dds"
-			variation = "cfp_muslim_black_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/religious/muslim/cfp_caliph_01/male_headgear_religious_muslim_cfp_caliph_01_masks.dds"
+				variation = "cfp_muslim_black_01"
+			}
 		}
 	}
 }
