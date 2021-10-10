@@ -1282,6 +1282,10 @@ male_headgear_secular_indian_cfp_high_nobility_01 = {
 	set_tags = "no_hair"
  	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_indian_cfp_high_nobility_01_entity 	 }		
 }
+male_headgear_secular_indian_cfp_high_nobility_02 = {	
+	set_tags = "no_hair"
+ 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_indian_cfp_high_nobility_02_entity 	 }		
+}
 
 male_headgear_religious_hindu_cfp_mask_01 = {	
 	# set_tags = "cap,cap_02"
