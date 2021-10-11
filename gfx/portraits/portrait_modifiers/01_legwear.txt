@@ -1,4 +1,4 @@
-legwear = {
+﻿legwear = {
 	# interface_position = 1
 	usage = game
 	selection_behavior = max
@@ -42,7 +42,7 @@ legwear = {
 			base = 0
 			modifier = {
 				add = 100
-				age < 4
+				scope:age < 4
 			}
 		}
 	}

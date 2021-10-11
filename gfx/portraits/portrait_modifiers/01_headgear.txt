@@ -88,7 +88,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				age < 16
+				scope:age < 16
 			}
 			# No headgear for characters with an active Vow of Poverty
 			modifier = {
@@ -6670,9 +6670,11 @@ headgear = {
 					AND = {
 						has_government = republic_government
 						primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
+				scope:highest_held_title_tier = tier_county
 				portrait_fp1_norse_clothing_trigger = yes
 			}
 		}
@@ -8951,9 +8953,9 @@ headgear = {
 				add = 100
 				portrait_has_trait = { TRAIT = devoted }
 				OR = {
-					religion = religion:buddhism_religion
-					religion = religion:bon_religion
-					religion = religion:taoism_religion
+					scope:faith.religion = religion:buddhism_religion
+					scope:faith.religion = religion:bon_religion
+					scope:faith.religion = religion:taoism_religion
 				}
 			}
 		}
@@ -9047,7 +9049,7 @@ headgear = {
 				add = 100
 				portrait_has_trait = { TRAIT = devoted }
 				OR = {
-					religion = religion:hinduism_religion
+					scope:faith.religion = religion:hinduism_religion
 				}
 			}
 		}
@@ -9133,7 +9135,7 @@ headgear = {
 				add = 100
 				portrait_has_trait = { TRAIT = devoted }
 				OR = {
-					religion = religion:jainism_religion
+					scope:faith.religion = religion:jainism_religion
 				}
 			}
 		}

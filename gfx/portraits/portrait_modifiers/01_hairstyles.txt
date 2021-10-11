@@ -1,4 +1,4 @@
-@baby_hair_age = 5
+﻿@baby_hair_age = 5
 @african_clothing_no_hair_chance = 6.5
 
 # Make sure the weights here match up best as possible with the custom_hair set
@@ -947,7 +947,7 @@ hairstyles = {
             base = 0
             modifier = {
                 add = 100
-                age < @baby_hair_age
+                scope:age < @baby_hair_age
                 NOT = { portrait_african_clothing_trigger = yes } # Should be replaced with a has_gene trigger when we get that
             }
         }
@@ -967,7 +967,7 @@ hairstyles = {
             base = 0
             modifier = {
                 add = 100
-                age < @baby_hair_age
+                scope:age < @baby_hair_age
                 portrait_african_clothing_trigger = yes # Should be replaced with a has_gene trigger when we get that
             }
         }
@@ -986,7 +986,7 @@ hairstyles = {
             base = 0
             modifier = {
                 add = -100
-                age < @baby_hair_age
+                scope:age < @baby_hair_age
             }
             modifier = {
                 add = -100
@@ -1024,7 +1024,7 @@ hairstyles = {
     #         base = 0
     #         modifier = {
     #             add = 100
-    #             age >= @baby_hair_age
+    #             scope:age >= @baby_hair_age
     #         }
     #         # This can't be always 100 otherwise it will get insta picked, so we subtract the no hair chance off to weight it properly
     #         modifier = {
@@ -1201,7 +1201,7 @@ hairstyles = {
                 add = {
                     subtract = 100
                 }
-                age < @baby_hair_age
+                scope:age >= @baby_hair_age
             }
             modifier = {
                 add = 100
@@ -1314,7 +1314,7 @@ hairstyles = {
                     category = gene_hair_type
                     template = hair_curly
                 }
-				culture.culture_group = culture_group:frankish_group
+				culture = { has_cultural_pillar = heritage_frankish }
             }
 		}
 	}
