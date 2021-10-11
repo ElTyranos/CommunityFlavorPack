@@ -192,10 +192,10 @@
 				AND = {
 					highest_held_title_tier >= tier_duchy # for dukes and above
 					OR = {
-						has_trait = zealous
-						has_trait = theologian
-						has_trait = faith_warrior
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = has_trait = zealous }
+						portrait_has_trait = { TRAIT = has_trait = theologian }
+						portrait_has_trait = { TRAIT = has_trait = faith_warrior }
+						portrait_has_trait = { TRAIT = has_trait = devoted }
 					}
 					portrait_northern_clothing_trigger = yes
 					religion = religion:christianity_religion

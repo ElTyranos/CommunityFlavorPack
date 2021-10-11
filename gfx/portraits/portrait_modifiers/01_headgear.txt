@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -172,7 +172,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -237,7 +237,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -301,7 +301,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -440,7 +440,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -490,7 +491,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -555,7 +556,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -798,7 +799,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -893,7 +894,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -1396,7 +1397,7 @@ headgear = {
 						highest_held_title_tier < tier_county
 					}
 					AND = {
-						has_trait = witch
+						portrait_has_trait = { TRAIT = witch }
 						highest_held_title_tier < tier_county
 					}
 				}
@@ -1470,7 +1471,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -1522,7 +1524,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -1588,7 +1590,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -1761,7 +1763,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 75
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -1811,7 +1814,7 @@ headgear = {
 			modifier = {
 				add = 75
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -1876,7 +1879,7 @@ headgear = {
 			modifier = {
 				add = 75
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2070,7 +2073,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2138,7 +2141,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2257,7 +2260,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2321,7 +2324,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2403,7 +2406,7 @@ headgear = {
 			modifier = {
 				add = 100
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2525,7 +2528,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -2575,7 +2579,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2641,7 +2645,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2706,7 +2710,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2760,8 +2764,9 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = this
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2878,7 +2883,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -2928,7 +2934,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -2994,7 +3000,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -3059,7 +3065,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -3119,7 +3125,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -3406,7 +3412,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -3473,7 +3480,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -3539,7 +3546,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -3604,7 +3611,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -3664,7 +3671,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4005,7 +4012,7 @@ headgear = {
 			modifier = {
 				add = 80
 				is_male = yes
-				has_trait = peasant_leader
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -4103,7 +4110,7 @@ headgear = {
 			modifier = {
 				add = 80
 				is_male = yes
-				has_trait = peasant_leader
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -4159,7 +4166,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4231,7 +4238,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -4298,7 +4306,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4366,7 +4374,7 @@ headgear = {
 				is_male = yes # because iranian women have no specific hat
 				
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4583,7 +4591,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4648,7 +4656,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4708,7 +4716,7 @@ headgear = {
 			modifier = {
 				add = 100 # pick over mena
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4807,7 +4815,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -4857,7 +4866,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4922,7 +4931,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -4987,7 +4996,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -5107,7 +5116,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -5157,7 +5167,7 @@ headgear = {
 			modifier = {
 				add = 80
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -5223,7 +5233,7 @@ headgear = {
 			modifier = {
 				add = 80
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -5288,7 +5298,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -5466,7 +5476,7 @@ headgear = {
 			modifier = {
 				add = 80
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -5532,7 +5542,7 @@ headgear = {
 			modifier = {
 				add = 80
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -5598,7 +5608,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 70
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -5655,7 +5666,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -5833,7 +5844,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 80
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -5879,9 +5891,9 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 51 # Slightly higher
-				NAND = {
-					has_trait = peasant_leader
-					OR = {
+					NAND = {
+						portrait_has_trait = { TRAIT = peasant_leader }
+						OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
 						AND = {
@@ -5922,8 +5934,8 @@ headgear = {
 			modifier = {
 				add = 51 # Slightly higher
 				NAND = {
-					has_trait = peasant_leader
-					OR = {
+						portrait_has_trait = { TRAIT = peasant_leader }
+						OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
 						AND = {
@@ -5987,7 +5999,7 @@ headgear = {
 			modifier = {
 				add = 51 # Slightly higher
 				NAND = {
-					has_trait = peasant_leader
+						portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6046,9 +6058,9 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100 # pick over northern
-				NAND = {
-					has_trait = peasant_leader
-					OR = {
+					NAND = {
+						portrait_has_trait = { TRAIT = peasant_leader }
+						OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
 						AND = {
@@ -6141,7 +6153,7 @@ headgear = {
 				        }
 				    }
 					AND = {
-						has_trait = peasant_leader
+						portrait_has_trait = { TRAIT = peasant_leader }
 						OR = {
 							is_ruler = no
 							is_leading_faction_type = peasant_faction
@@ -6255,7 +6267,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
-				has_trait = peasant_leader
+				exists = this
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -6319,7 +6332,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6384,7 +6397,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6444,7 +6457,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6544,7 +6557,7 @@ headgear = {
 			modifier = {
 				add = 50
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6610,7 +6623,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6733,7 +6746,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 60
-				has_trait = peasant_leader
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -6785,7 +6798,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6853,7 +6866,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6918,7 +6931,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -6978,7 +6991,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -7076,7 +7089,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -7142,7 +7155,7 @@ headgear = {
 			modifier = {
 				add = 60
 				NAND = {
-					has_trait = peasant_leader
+					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
 						is_ruler = no
 						is_leading_faction_type = peasant_faction
@@ -7298,7 +7311,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
-				has_trait = augustus
+				portrait_has_trait = { TRAIT = augustus }
 				AND = {
 					NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 					NOT = { has_government = republic_government }
@@ -7324,11 +7337,11 @@ headgear = {
 				add = 50
 				OR = {
 					AND = {
-						has_trait = scholar
+						portrait_has_trait = { TRAIT = scholar }
 						learning >= 20
 					}
 					AND = {
-						has_trait = august
+						portrait_has_trait = { TRAIT = august }
 						diplomacy >= 15
 					}
 				}
@@ -7374,7 +7387,7 @@ headgear = {
 				add = 101
 				is_male = yes
 				OR = {
-					has_trait = devoted
+					portrait_has_trait = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -7497,7 +7510,7 @@ headgear = {
 				portrait_western_clothing_trigger = yes
 				is_male = yes
 				AND = {
-					has_trait = pilgrim
+					portrait_has_trait = { TRAIT = pilgrim }
 					highest_held_title_tier < tier_county
 				}
 				NOR = {
@@ -7553,7 +7566,7 @@ headgear = {
 			modifier = {
 				add = 100
 				OR = {
-					has_trait = devoted
+					portrait_has_trait = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -8140,7 +8153,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				portrait_has_trait = { TRAIT = devoted }
 				OR = {
 					religion = religion:buddhism_religion
 					religion = religion:bon_religion
@@ -8206,8 +8219,8 @@ headgear = {
 				add = 110
 				cfp_portrait_tibetan_clothing_trigger = yes
 				OR = {
-					has_trait = lunatic
-					has_trait = possessed
+					portrait_has_trait = { TRAIT = lunatic }
+					portrait_has_trait = { TRAIT = possessed }
 				}
 				OR = {
 					religion = religion:buddhism_religion
@@ -8234,7 +8247,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				portrait_has_trait = { TRAIT = devoted }
 				OR = {
 					religion = religion:hinduism_religion
 				}
@@ -8318,7 +8331,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				portrait_has_trait = { TRAIT = devoted }
 				OR = {
 					religion = religion:jainism_religion
 				}
@@ -8369,7 +8382,7 @@ headgear = {
 	# 		base = 0
 	# 		modifier = {
 	# 			add = 100
-	# 			has_trait = devoted
+	# 			portrait_has_trait = { TRAIT = devoted }
 	# 			religion = religion:islam_religion
 	# 		}
 	# 	}

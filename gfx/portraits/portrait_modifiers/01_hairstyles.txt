@@ -955,7 +955,7 @@ hairstyles = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
 						has_council_position = councillor_court_chaplain
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 				}
             }
@@ -1070,7 +1070,7 @@ hairstyles = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 				}
             }
@@ -1108,15 +1108,15 @@ hairstyles = {
 					}
 					AND = {
 						age >= 35
-						has_trait = beauty_bad_3
+						 portrait_has_trait = { TRAIT = beauty_bad_3 }
 					}
 					AND = {
 						age >= 40
-						has_trait = beauty_bad_2
+						portrait_has_trait = { TRAIT = beauty_bad_2 }
 					}
 					AND = {
 						age >= 45
-						has_trait = beauty_bad_1
+					portrait_has_trait = { TRAIT = beauty_bad_1 }
 					}
 				}
             }
@@ -1145,10 +1145,10 @@ hairstyles = {
 				AND = {
 					is_male = yes
 					OR = {
-						has_trait = education_martial_1
-						has_trait = education_martial_2
-						has_trait = education_martial_3
-						has_trait = education_martial_4
+						portrait_has_trait = { TRAIT = education_martial_1 }
+						portrait_has_trait = { TRAIT = education_martial_2 }
+						portrait_has_trait = { TRAIT = education_martial_3 }
+						portrait_has_trait = { TRAIT = education_martial_4 }
 					}
 					OR = {
 						cfp_portrait_slavic_clothing_trigger = yes
