@@ -50,7 +50,7 @@ template "cfp_bg_buttons"
             size = { 0 12 }
         }
 		text_single = {
-			text = "Community Flavor Pack"
+			text = "cfp_name"
 			position = { 0 10 }
 			margin_bottom = 10
 			parentanchor = hcenter
