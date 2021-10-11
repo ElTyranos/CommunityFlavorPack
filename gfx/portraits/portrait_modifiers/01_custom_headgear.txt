@@ -1,4 +1,4 @@
-﻿custom_headgear = {
+custom_headgear = {
 	usage = customization
 	interface_position = 1
 
@@ -851,7 +851,15 @@
 		gene = headgear
 		template = religious_northern_high
 	}
-	
+
+	#add_accessory_modifiers = {
+	#	gene = hairstyles
+	#	template = rtt_hairstyles
+	#	
+	#	is_valid_custom = {
+	#		monarchs_journey_unlock = 1
+	#	}
+	#}
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_northern_high

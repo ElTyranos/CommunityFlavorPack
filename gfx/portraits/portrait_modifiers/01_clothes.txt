@@ -1,4 +1,4 @@
-﻿
+
 clothes = {
 
 	usage = game
@@ -4525,6 +4525,39 @@ latin_venetian_royalty = {
 				}
 			}
 	    }
+	}
+
+	ep1_jester = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ep1_male_jester_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1000
+				is_male = yes
+				has_court_position = court_jester_court_position
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
 	}
 
 	# religious_muslim_head_clothes = {
