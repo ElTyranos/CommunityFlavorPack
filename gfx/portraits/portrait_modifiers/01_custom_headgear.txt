@@ -1,4 +1,4 @@
-custom_headgear = {
+﻿custom_headgear = {
 	usage = customization
 	interface_position = 1
 
