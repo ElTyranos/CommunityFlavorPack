@@ -56,7 +56,7 @@ beards = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
 						has_council_position = councillor_court_chaplain
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 				}
             }
@@ -79,7 +79,7 @@ beards = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
 						has_council_position = councillor_court_chaplain
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 				}
             }
@@ -136,7 +136,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -202,7 +202,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -280,7 +280,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -358,7 +358,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -422,7 +422,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -486,7 +486,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -552,7 +552,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -616,7 +616,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -680,7 +680,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -744,7 +744,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -808,7 +808,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -865,7 +865,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -929,7 +929,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox
@@ -993,7 +993,7 @@ beards = {
 					OR = {
 						is_theocratic_lessee = yes
 						AND = { is_ruler = yes has_government = theocracy_government }
-						has_trait = devoted
+						portrait_has_trait = { TRAIT = devoted }
 					}
 					OR = {
 						faith = faith:orthodox

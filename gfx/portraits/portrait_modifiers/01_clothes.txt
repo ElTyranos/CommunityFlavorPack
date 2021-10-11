@@ -1192,7 +1192,7 @@ clothes = {
 			base = 0
 			modifier = {
 				add = 500
-				has_trait = peasant_leader
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -2399,7 +2399,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 500
-				has_trait = peasant_leader
+				portrait_has_trait = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -3461,7 +3461,7 @@ latin_venetian_royalty = {
 				add = 101
 				is_male = yes
 				OR = {
-					has_trait = devoted
+					portrait_has_trait = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -3627,7 +3627,7 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 100
 				OR = {
-					has_trait = devoted
+					portrait_has_trait = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -3990,7 +3990,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				portrait_has_trait = { TRAIT = devoted }
 				religion = religion:islam_religion
 			}
 		}
@@ -4215,7 +4215,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				portrait_has_trait = { TRAIT = devoted }
 				OR = {
 					religion = religion:buddhism_religion
 					religion = religion:bon_religion
@@ -4294,7 +4294,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				portrait_has_trait = { TRAIT = devoted }
 				OR = {
 					religion = religion:hinduism_religion
 				}
@@ -4414,7 +4414,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				has_trait = devoted
+				portrait_has_trait = { TRAIT = devoted }
 				OR = {
 					religion = religion:jainism_religion
 				}
@@ -4477,7 +4477,7 @@ latin_venetian_royalty = {
 	# 		base = 0
 	# 		modifier = {
 	# 			add = 60
-	# 			has_trait = devoted
+	# 			portrait_has_trait = { TRAIT = devoted }
 	# 			religion = religion:islam_religion
 	# 		}
 	# 	}
