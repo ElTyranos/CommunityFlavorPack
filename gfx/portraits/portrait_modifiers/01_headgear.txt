@@ -362,6 +362,13 @@ headgear = {
 				add = 101 # always pick the HRE crown over the western one
 				has_primary_title = title:e_hre
 			}
+			modifier = {
+				add = 140
+				exists = this
+				any_equipped_character_artifact = {
+					has_variable = reichskrone
+				}
+			}
 		}
 	}
 
@@ -798,6 +805,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = this
 				NAND = {
 					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
@@ -875,6 +883,219 @@ headgear = {
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+
+
+	ep1_western_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_western_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = {
+								highest_held_title_tier = tier_empire
+								portrait_northern_clothing_trigger = yes
+								portrait_fp1_norse_clothing_trigger = no
+							}
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						OR = {
+							portrait_western_clothing_trigger = yes
+							AND = {
+								portrait_northern_clothing_trigger = yes
+								portrait_fp1_norse_clothing_trigger = no
+							}
+							AND = {
+								portrait_fp1_norse_clothing_trigger = yes
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
+							}
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = {
+									highest_held_title_tier = tier_empire
+									portrait_northern_clothing_spouse_trigger = yes
+									portrait_fp1_norse_clothing_spouse_trigger = no
+								}
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							OR = {
+								portrait_western_clothing_spouse_trigger = yes
+								AND = {
+									portrait_northern_clothing_spouse_trigger = yes
+									portrait_fp1_norse_clothing_spouse_trigger = no
+								}
+								AND = {
+									portrait_fp1_norse_clothing_spouse_trigger = yes
+									NOR = {
+										has_government = tribal_government
+										religion = religion:germanic_religion
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
+			}
+		}
+	}
+
+	ep1_italian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_italian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = {
+								highest_held_title_tier = tier_empire
+								portrait_northern_clothing_trigger = yes
+								portrait_fp1_norse_clothing_trigger = no
+							}
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						OR = {
+							portrait_western_clothing_trigger = yes
+							AND = {
+								portrait_northern_clothing_trigger = yes
+								portrait_fp1_norse_clothing_trigger = no
+							}
+							AND = {
+								portrait_fp1_norse_clothing_trigger = yes
+								NOR = {
+									has_government = tribal_government
+									religion = religion:germanic_religion
+								}
+							}
+						}
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = {
+									highest_held_title_tier = tier_empire
+									portrait_northern_clothing_spouse_trigger = yes
+									portrait_fp1_norse_clothing_spouse_trigger = no
+								}
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							OR = {
+								portrait_western_clothing_spouse_trigger = yes
+								AND = {
+									portrait_northern_clothing_spouse_trigger = yes
+									portrait_fp1_norse_clothing_spouse_trigger = no
+								}
+								AND = {
+									portrait_fp1_norse_clothing_spouse_trigger = yes
+									NOR = {
+										has_government = tribal_government
+										religion = religion:germanic_religion
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					culture = {
+						has_cultural_pillar = heritage_latin
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
 				}
 			}
 		}
@@ -2809,6 +3030,76 @@ headgear = {
 		}
 	}
 
+	ep1_byzantine_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_byzantine_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_empire
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_byzantine_clothing_trigger = yes
+					}
+					#AND = {
+					#	exists = primary_spouse
+					#	is_ruler = no
+					#	primary_spouse = {
+					#		OR = {
+					#			highest_held_title_tier = tier_empire
+					#			AND = { is_ruler = yes has_government = theocracy_government }
+					#		}
+					#		NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+					#		NOT = { has_government = republic_government }
+					#		portrait_byzantine_clothing_trigger = yes
+					#	}
+					#}
+				}
+
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_title = title:e_byzantium
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
+			}
+		}
+	}
+
 	byzantine_war = {
 		dna_modifiers = {
 			accessory = {
@@ -3108,6 +3399,67 @@ headgear = {
 				}				
 
 			}
+			modifier = {
+				factor = 0
+				exists = this
+				has_ep1_dlc_trigger = yes
+				OR = {
+					highest_held_title_tier = tier_kingdom
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				NOT = { has_government = republic_government }
+				culture = {
+					has_cultural_pillar = heritage_burman
+				}
+			}
+		}
+	}
+
+	ep1_indian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_indian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					highest_held_title_tier = tier_kingdom
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				NOT = { has_government = republic_government }
+				portrait_indian_clothing_trigger = yes				
+
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
+			}
 		}
 	}
 
@@ -3124,6 +3476,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = this
 				NAND = {
 					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
@@ -3167,6 +3520,87 @@ headgear = {
 					}
 				}				
 
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				has_ep1_dlc_trigger = yes
+				OR = {
+					highest_held_title_tier = tier_empire
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				NOT = { has_government = republic_government }
+				culture = {
+					has_cultural_pillar = heritage_burman
+				}
+			}
+		}
+	}
+
+	ep1_indian_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_indian_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_empire
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_indian_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_empire
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_indian_clothing_spouse_trigger = yes
+						}
+					}
+				}				
+
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
 			}
 		}
 	}
@@ -3654,6 +4088,112 @@ headgear = {
 				}
 
 			}
+			modifier = {
+				factor = 0
+				exists = this
+				has_ep1_dlc_trigger = yes
+				OR = {
+					highest_held_title_tier = tier_kingdom
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				NOT = { has_government = republic_government }
+				AND = {
+					culture = {
+						has_cultural_pillar = heritage_east_african
+					}
+					NOT = {
+						religion = religion:islam_religion
+					}
+				}
+			}
+		}
+	}
+
+	ep1_mena_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_mena_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_mena_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						is_male = yes
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_mena_clothing_spouse_trigger = yes
+						}
+					}
+				}
+
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				has_ep1_dlc_trigger = yes
+				OR = {
+					highest_held_title_tier = tier_kingdom
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				NOT = { has_government = republic_government }
+				AND = {
+					culture = {
+						has_cultural_pillar = heritage_east_african
+					}
+					NOT = {
+						religion = religion:islam_religion
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
+			}
 		}
 	}
 
@@ -3670,6 +4210,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = this
 				NAND = {
 					portrait_has_trait = { TRAIT = peasant_leader }
 					OR = {
@@ -3692,6 +4233,69 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_mena_clothing_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				has_ep1_dlc_trigger = yes
+				OR = {
+					highest_held_title_tier = tier_empire
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				NOT = { has_government = republic_government }
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	ep1_persian_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_persian_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				highest_held_title_tier = tier_empire
+				NOR = {
+					AND = { is_ruler = yes has_government = mercenary_government  }
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				portrait_mena_clothing_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
 			}
 		}
 	}
@@ -5042,6 +5646,52 @@ headgear = {
 		}
 	}
 
+	ep1_steppe_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_steppe_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = this
+				NAND = {
+					portrait_has_trait = { TRAIT = peasant_leader }
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					highest_held_title_tier > tier_duchy
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				NOT = { has_government = republic_government }
+				portrait_steppe_clothing_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
+			}
+		}
+	}
+
 	steppe_war = {
 		dna_modifiers = {
 			accessory = {
@@ -5862,16 +6512,19 @@ headgear = {
 			}
 			modifier = {
 				add = 41 # Slightly higher
-				 highest_held_title_tier < tier_county
-				 NOR = {
-					AND = {
-						exists = primary_spouse
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
 						primary_spouse = {
 							highest_held_title_tier > tier_county
 						}
 					}
-				 	has_government = republic_government
-				 	AND = { is_ruler = yes has_government = theocracy_government }
+					 	has_government = republic_government
+					 	AND = { is_ruler = yes has_government = theocracy_government }
+					}
 				}
 				portrait_fp1_norse_clothing_spouse_trigger = yes
 			}
@@ -5891,6 +6544,8 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
 					NAND = {
 						portrait_has_trait = { TRAIT = peasant_leader }
 						OR = {
@@ -5933,7 +6588,9 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 51 # Slightly higher
-				NAND = {
+				trigger_if = {
+					limit = { exists = this }
+					NAND = {
 						portrait_has_trait = { TRAIT = peasant_leader }
 						OR = {
 						is_ruler = no
@@ -5977,10 +6634,14 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							portrait_fp1_norse_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					portrait_fp1_norse_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -6037,10 +6698,14 @@ headgear = {
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
 							portrait_fp1_norse_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_kingdom
+					portrait_fp1_norse_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -7839,6 +8504,13 @@ headgear = {
 					exists = controlled_faith
 				}
 			}
+			modifier = {
+				add = 140
+				exists = this
+				any_equipped_character_artifact = {
+					has_variable = pope_hat
+				}
+			}
 		}
 	}
 	
@@ -8420,11 +9092,44 @@ headgear = {
 	    }
 	}
 
+	jester_headgear = {
+	    dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = ep1_jester
+				range = { 0 1 }
+			}
+		}
+	    weight = {
+			base = -100
+			modifier = {
+				add = 1000
+				is_male = yes
+				has_court_position = court_jester_court_position
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
 	#RTT headgear
 	monarchs_journey_late_unlock = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
+
 				gene = headgear
 				template = monarchs_journey_unleashed
 				range = { 0 1 } # For the randomness to work correctly
