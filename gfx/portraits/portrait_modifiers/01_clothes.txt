@@ -1,4 +1,4 @@
-
+﻿
 clothes = {
 
 	usage = game
@@ -20,6 +20,10 @@ clothes = {
             modifier = {
                 add = 1000
                 should_be_fully_naked_portrait_trigger = yes
+            }
+            modifier = {
+                add = 1000
+                should_be_topless_portrait_trigger = yes
             }
             modifier = {
             	add = -1000
@@ -263,7 +267,7 @@ clothes = {
 			base = 0
 			modifier = {
 				add = 100
-				age < 4
+				scope:age < 4
 			}
 		}
 	}
@@ -291,21 +295,23 @@ clothes = {
 			base = 0
 			modifier = {
 				add = 20
+				scope:highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+					highest_held_title_tier < tier_county
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_dde_hre_clothing_trigger = yes
 			}
@@ -342,24 +348,6 @@ clothes = {
 					OR = {
 						AND = {
 							highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_dde_hre_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
 								AND = {
@@ -368,11 +356,42 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_hre_clothing_spouse_trigger = yes
+							portrait_dde_hre_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_dde_hre_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					portrait_dde_hre_clothing_trigger = yes
+					scope:highest_held_title_tier = tier_county
+				}
+			}
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_dde_hre_clothing_trigger = yes
 			}
 		}
 	}
@@ -397,26 +416,19 @@ clothes = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_dde_hre_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_dde_hre_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -425,11 +437,34 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_hre_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_dde_hre_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_dde_hre_clothing_spouse_trigger = yes
+							}
 						}
 					}
+					
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					portrait_dde_hre_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -458,6 +493,10 @@ clothes = {
 				portrait_wear_armor_trigger = yes
 				portrait_dde_hre_clothing_trigger = yes
 			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
 		}
 	}
 
@@ -484,19 +523,22 @@ clothes = {
 			base = 0
 			modifier = {
 				add = 20
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_western_clothing_trigger = yes
 			}
@@ -523,26 +565,19 @@ clothes = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_western_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_western_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
@@ -552,11 +587,34 @@ clothes = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_western_clothing_spouse_trigger = yes
+							portrait_western_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_western_clothing_spouse_trigger = yes
+							}
 						}
 					}
+					
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_western_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1262,19 +1320,22 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 20
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_byzantine_clothing_spouse_trigger = yes
 			}
@@ -1301,40 +1362,55 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_byzantine_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_byzantine_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
 								AND = {
-								has_government = republic_government
+									has_government = republic_government
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_byzantine_clothing_spouse_trigger = yes
+							portrait_byzantine_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+									has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_byzantine_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_byzantine_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1359,39 +1435,54 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_byzantine_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_byzantine_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-								has_government = republic_government
+									has_government = republic_government
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_byzantine_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_byzantine_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+									has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_byzantine_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_byzantine_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1420,6 +1511,10 @@ latin_venetian_royalty = {
 				portrait_wear_armor_trigger = yes
 				portrait_byzantine_clothing_trigger = yes
 			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
 		}
 	}
 
@@ -1445,19 +1540,22 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 20
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_indian_clothing_trigger = yes
 			}
@@ -1484,26 +1582,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_indian_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_indian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
@@ -1513,11 +1604,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_indian_clothing_spouse_trigger = yes
+							portrait_indian_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_indian_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_indian_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1542,39 +1655,54 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_indian_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_indian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-								has_government = republic_government
+									has_government = republic_government
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_indian_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_indian_clothing_trigger = yes
 						}
-					}
-				}				
-
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+									has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_indian_clothing_spouse_trigger = yes
+							}
+						}
+					}	
+				}
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_indian_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1602,6 +1730,10 @@ latin_venetian_royalty = {
 				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_indian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
 			}
 		}
 	}
@@ -1831,16 +1963,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 40
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						has_government = republic_government
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_dde_abbasid_clothing_trigger = yes
 			}
@@ -1867,26 +2002,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_dde_abbasid_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_dde_abbasid_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
@@ -1896,11 +2024,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_abbasid_clothing_spouse_trigger = yes
+							portrait_dde_abbasid_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_dde_abbasid_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_dde_abbasid_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1925,26 +2075,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_dde_abbasid_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_dde_abbasid_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
@@ -1953,11 +2096,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_dde_abbasid_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_dde_abbasid_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_dde_abbasid_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_dde_abbasid_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -1978,7 +2143,7 @@ latin_venetian_royalty = {
 			}
 
 		}
-		}	
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -1988,6 +2153,10 @@ latin_venetian_royalty = {
 					portrait_dde_abbasid_clothing_trigger = yes
 					cfp_portrait_dde_turkic_clothing_trigger = yes
 				}
+			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
 			}
 		}
 	}
@@ -2014,18 +2183,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 40
-				highest_held_title_tier < tier_county
+				scope:highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						has_government = republic_government
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_mena_clothing_trigger = yes
 			}
@@ -2052,8 +2222,8 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				highest_held_title_tier < tier_county
-				has_government = republic_government
+				scope:highest_held_title_tier < tier_county
+				scope:government = flag:republic_government
 				portrait_mena_clothing_trigger = yes
 			}
 		}
@@ -2079,26 +2249,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_mena_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_mena_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
@@ -2108,9 +2271,32 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_mena_clothing_spouse_trigger = yes
+							portrait_mena_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_mena_clothing_spouse_trigger = yes
+							}
 						}
 					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_mena_clothing_trigger = yes
 				}
 
 			}
@@ -2137,28 +2323,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_mena_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_mena_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
@@ -2167,11 +2344,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_mena_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_mena_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_mena_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_mena_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -2192,12 +2391,17 @@ latin_venetian_royalty = {
 			}
 
 		}
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_mena_clothing_trigger = yes
+			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
 			}
 		}
 	}
@@ -2354,25 +2558,26 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 20
-				highest_held_title_tier < tier_county
+				scope:highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
+					OR = {
+						portrait_steppe_clothing_trigger = yes
+						cfp_portrait_turkic_clothing_trigger = yes
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
-				}
-				OR = {
-					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
 				}
 			}
 		}
@@ -2398,48 +2603,61 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_steppe_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						OR = {
-							portrait_steppe_clothing_trigger = yes
-							cfp_portrait_turkic_clothing_trigger = yes
-						}
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
 								AND = {
-								has_government = republic_government
+									has_government = republic_government
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								portrait_steppe_clothing_spouse_trigger = yes
-								cfp_portrait_turkic_clothing_spouse_trigger = yes
+								portrait_steppe_clothing_trigger = yes
+								cfp_portrait_turkic_clothing_trigger = yes
+							}
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+									has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								OR = {
+									portrait_steppe_clothing_spouse_trigger = yes
+									cfp_portrait_turkic_clothing_spouse_trigger = yes
+								}
 							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_steppe_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -2464,31 +2682,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_steppe_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
 						AND = {
-						OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						OR = {
-							portrait_steppe_clothing_trigger = yes
-							cfp_portrait_turkic_clothing_trigger = yes
-						}
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
@@ -2497,14 +2703,39 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							OR = {
-								portrait_steppe_clothing_spouse_trigger = yes
-								cfp_portrait_turkic_clothing_spouse_trigger = yes
+								portrait_steppe_clothing_trigger = yes
+								cfp_portrait_turkic_clothing_trigger = yes
+							}
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								OR = {
+									portrait_steppe_clothing_spouse_trigger = yes
+									cfp_portrait_turkic_clothing_spouse_trigger = yes
+								}
 							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_steppe_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -2525,13 +2756,17 @@ latin_venetian_royalty = {
 			}
 
 		}
-		}	
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
 				portrait_steppe_clothing_trigger = yes
+			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
 			}
 		}
 	}
@@ -2561,6 +2796,10 @@ latin_venetian_royalty = {
 				portrait_wear_armor_trigger = yes
 				cfp_portrait_turkic_clothing_trigger = yes
 			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
 		}
 	}
 
@@ -2586,23 +2825,24 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				highest_held_title_tier < tier_county
+				scope:highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
 					NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					portrait_northern_clothing_trigger = yes
 				}
-				portrait_northern_clothing_trigger = yes
 			}
 			modifier = {
 				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
@@ -2634,26 +2874,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_northern_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				 portrait_northern_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
@@ -2663,9 +2896,32 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_northern_clothing_spouse_trigger = yes
+							portrait_northern_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_northern_clothing_spouse_trigger = yes
+							}
 						}
 					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_northern_clothing_trigger = yes
 				}
 			}
 			modifier = {
@@ -2698,28 +2954,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_northern_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
 						AND = {
-						OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_northern_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
@@ -2728,9 +2975,32 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_northern_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_northern_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_northern_clothing_spouse_trigger = yes
+							}
 						}
 					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_northern_clothing_trigger = yes
 				}
 			}
 			modifier = {
@@ -2759,7 +3029,7 @@ latin_venetian_royalty = {
 			}
 
 		}
-		# Specific modifier for norses or fp1_norse_war is overwritten by 102 value
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -2767,6 +3037,11 @@ latin_venetian_royalty = {
 				portrait_wear_armor_trigger = yes
 				portrait_fp1_norse_clothing_trigger = yes
 			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
+			# Specific modifier for norses or fp1_norse_war is overwritten by 102 value
 			modifier = {
 				add = 102 # CFP: 102 instead of 101 to force over western armor for anglo-saxons
 				portrait_wear_armor_trigger = yes
@@ -2798,18 +3073,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 41 # Slightly higher
-				highest_held_title_tier < tier_county
+				scope:highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						has_government = republic_government
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_fp1_norse_clothing_trigger = yes
 			}
@@ -2835,29 +3111,20 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_fp1_norse_clothing_trigger = yes
+			}
+			modifier = {
 				add = 51 # Slightly higher
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
 						AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_fp1_norse_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								# has_dynasty = no
@@ -2867,11 +3134,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_fp1_norse_clothing_spouse_trigger = yes
+							portrait_fp1_norse_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp1_norse_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					portrait_fp1_norse_clothing_trigger = yes
+					scope:highest_held_title_tier = tier_county
+				}
 			}
 		}
 	}
@@ -2895,29 +3184,20 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_fp1_norse_clothing_trigger = yes
+			}
+			modifier = {
 				add = 51 # Slightly higher
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
 						AND = {
-							OR = {
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_fp1_norse_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
@@ -2926,11 +3206,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_fp1_norse_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_fp1_norse_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp1_norse_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					portrait_fp1_norse_clothing_trigger = yes
+					scope:highest_held_title_tier > tier_county
+				}
 			}
 		}
 	}
@@ -2958,6 +3260,10 @@ latin_venetian_royalty = {
 				portrait_wear_armor_trigger = yes
 				portrait_fp1_norse_clothing_trigger = yes
 			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
 		}
 	}
 
@@ -2984,21 +3290,22 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
-				highest_held_title_tier < tier_county
+				scope:highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
 					NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_african_clothing_trigger = yes
 			}
@@ -3025,28 +3332,19 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_african_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						portrait_african_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+					OR = {
+						AND = {
 							highest_held_title_tier = tier_county
 							NOR = {
 								has_dynasty = no
@@ -3056,11 +3354,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_african_clothing_spouse_trigger = yes
+							portrait_african_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_african_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_african_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -3085,30 +3405,21 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_african_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
-				OR = {
-					AND = {
-						OR = {
-
-							highest_held_title_tier > tier_county
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_african_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+					OR = {
+						AND = {
 							OR = {
+
 								highest_held_title_tier > tier_county
 								AND = {
 									has_government = republic_government
@@ -3116,11 +3427,33 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_african_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_african_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_african_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_african_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -3141,7 +3474,7 @@ latin_venetian_royalty = {
 			}
 
 		}
-		}	
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -3713,7 +4046,7 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 100
 				portrait_has_trait = { TRAIT = devoted }
-				religion = religion:islam_religion
+				scope:faith.religion = religion:islam_religion
 			}
 		}
 	}
@@ -4271,6 +4604,26 @@ latin_venetian_royalty = {
 				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
 				template = bust_clothes
 			}
+
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = this
+				exists = character:easteregg_debbie_lane
+				this = character:easteregg_debbie_lane
+			}
+		}
+	}
+	isabella_welch = { # To make sure Isabella gets the nicer looking clothes!
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = dde_hre_high_nobility_clothes
+				value = 0.1 # For the randomness to work correctly
+		}
 			morph = {
 				mode = modify_multiply
 				gene = gene_bs_bust
@@ -4284,10 +4637,11 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 200
 				exists = this
-				this = character:easteregg_debbie_lane
+				exists = character:easteregg_isabella_welch
+				this = character:easteregg_isabella_welch
 			}
 		}
-	}
+	}	
 
 	# northern_commoners = {
 	# 	dna_modifiers = {
