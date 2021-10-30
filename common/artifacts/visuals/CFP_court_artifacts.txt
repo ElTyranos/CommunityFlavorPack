@@ -1,0 +1,9 @@
+﻿sword_court = {
+	default_type = pedestal
+	icon = "artifact_sword.dds"
+	pedestal = "weaponrack"
+	asset = {
+		trigger = { artifact_should_use_gfx_type_trigger = { TYPE = western_unit } }
+		reference = cfp_sword_joyeuse_01
+	}
+}

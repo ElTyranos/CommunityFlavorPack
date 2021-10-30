@@ -1,0 +1,39 @@
+﻿	# support_type = "short"
+	# support_type = "tall_pillow"
+	# support_type = "tall"
+	# support_type = "tall"
+	# support_type = "tall_pillow"
+	
+	# icon = "artefact_icons_unique_artifact_buddhas_tooth.dds"
+	# icon = "artefact_icons_unique_artifact_byzantine_imperial_crown.dds"
+	# icon = "artefact_icons_unique_artifact_eastern_reliquaries.dds"
+	# icon = "artefact_icons_unique_artifact_excalibur.dds"
+	# icon = "artefact_icons_unique_artifact_head_st_edmund.dds"
+	# icon = "artefact_icons_unique_artifact_holy_branch.dds"
+	# icon = "artefact_icons_unique_artifact_papal_tiara.dds"
+	# icon = "artefact_icons_unique_artifact_reichskrone.dds"
+	# icon = "artifact_armor.dds"
+	# icon = "artifact_banner.dds"
+	# icon = "artifact_cabinet.dds"
+	# icon = "artifact_crown.dds"
+	# icon = "artifact_goblet.dds"
+	# icon = "artifact_reliquary.dds"
+	# icon = "artifact_sword.dds"
+	# icon = "artifact_throneroom.dds"
+
+	# pedestal = "short"
+	# pedestal = "tall"
+	# pedestal = "tall_pillow"
+	# pedestal = "weaponrack"
+
+# cfp_holy_spear_01 = {
+	# icon = "artifact_spear.dds"
+	# asset = male_headgear_secular_dde_hre_imperial_01_artifact_entity
+	# pedestal = "tall"
+# }
+
+cfp_sword_joyeuse_01 = {
+	icon = "artifact_sword.dds"
+	pedestal = "weaponrack"
+	asset = cfp_sword_joyeuse_01_entity
+}
