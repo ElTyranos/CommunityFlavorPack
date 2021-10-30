@@ -450,7 +450,7 @@ clothes = {
 			}
 
 		}
-		}	
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -883,7 +883,7 @@ clothes = {
 			}
 
 		}
-		}	
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -1039,8 +1039,7 @@ clothes = {
 			}
 
 		}
-		}
-		outfit_tags = { western_crusades_black }
+		outfit_tags = { western_crusades_black military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -1413,6 +1412,7 @@ latin_venetian_royalty = {
 			}
 
 		}
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
