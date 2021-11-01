@@ -539,8 +539,10 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_low:1 "@cfp_icon_orange! Indian Low Nobility Stanapatta"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! Indian High Nobility Stanapatta"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_cfp_war_nobility_01:1 "@cfp_icon_purple! 拜占庭式金甲"
+ 
 ## Legwear
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 板甲袜"
+PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 板甲袜"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Late Medieval Legwear"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! 非洲袜"

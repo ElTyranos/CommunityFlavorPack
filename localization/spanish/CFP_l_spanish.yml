@@ -539,6 +539,8 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_low:1 "@cfp_icon_orange! Estanapatta Indio de Baja Nobleza"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! Estanapatta indio de Alta Nobleza"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_cfp_war_nobility_01:1 "@cfp_icon_purple! Armadura dorada Bizantina"
+ 
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Perneras de armadura de placas"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Perneras Tardo-medievales"

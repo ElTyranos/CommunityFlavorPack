@@ -540,8 +540,10 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_low:1 "@cfp_icon_orange! Stanapatta Indien de petite noblesse"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! Stanapatta Indien haute noblesse"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_cfp_war_nobility_01:1 "@cfp_icon_purple! Armure Byzantine dorée"
+ 
 ## Legwear
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Jambières d'armure de plates"
+    PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Jambières d'armure de plates"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Jambières tardives"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! Sandales et pagne Africains"
