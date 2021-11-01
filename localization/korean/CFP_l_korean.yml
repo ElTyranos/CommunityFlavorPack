@@ -179,6 +179,9 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_01:1 "@cfp_icon_purple! 비잔티움 여성 모자"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_01:1 "@cfp_icon_purple! 양단 줄무늬 비잔티움 여성 모자"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_02:1 "@cfp_icon_purple! V자 양단 줄무늬 비잔티움 여성 모자"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_02:1 "@cfp_icon_purple! 비잔티움 여성 모자 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_03:1 "@cfp_icon_purple! 양단 줄무늬 비잔티움 여성 모자 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_04:1 "@cfp_icon_purple! V자 양단 줄무늬 비잔티움 여성 모자 2"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "@cfp_icon_purple! 로마 (10세기, 투구드리개)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_roman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01$"

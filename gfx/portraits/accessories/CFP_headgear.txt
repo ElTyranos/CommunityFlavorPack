@@ -761,6 +761,10 @@ female_headgear_secular_byzantine_propoloma_low_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_low_01_entity 	 }		
 }
+female_headgear_secular_byzantine_propoloma_low_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_low_02_entity 	 }		
+}
 female_headgear_secular_byzantine_propoloma_high_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_01_entity 	 }		
@@ -768,6 +772,14 @@ female_headgear_secular_byzantine_propoloma_high_01 = {
 female_headgear_secular_byzantine_propoloma_high_02 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_02_entity 	 }		
+}
+female_headgear_secular_byzantine_propoloma_high_03 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_03_entity 	 }		
+}
+female_headgear_secular_byzantine_propoloma_high_04 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_04_entity 	 }		
 }
 
 ## Hungarian cultural
