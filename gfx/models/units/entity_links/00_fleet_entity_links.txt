@@ -1,4 +1,4 @@
-﻿default_fleet = {
+default_fleet = {
 	type = fleet
 	entity = "unit_western_ship_01_cog_entity"
 }
@@ -15,4 +15,10 @@ cfp_northern_fleet = {
 	type = fleet
 	graphical_cultures = { norse_unit_gfx norman_coa_gfx anglo_saxon_coa_gfx }
 	entity = "unit_northern_ship_01_drakkar_entity"
+}
+
+cfp_byzantine_fleet = {
+	type = fleet
+	graphical_cultures = { byzantine_group_coa_gfx }
+	entity = "unit_byzantine_ship_01_dromon_entity"
 }
