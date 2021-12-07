@@ -1,4 +1,4 @@
-﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
 
 	#set_tags = "no_hair"
 	#set_tags = "no_beard"
@@ -148,6 +148,15 @@ male_headgear_secular_northern_royalty_suttonhoo_01 = {
 female_headgear_secular_northern_royalty_suttonhoo_01 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
+}
+male_headgear_secular_northern_cfp_war_coppergate_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_cfp_war_coppergate_01_entity 	 }		
+}
+female_headgear_secular_northern_cfp_war_coppergate_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_cfp_war_coppergate_01_entity 	 }		
 }
 
 
