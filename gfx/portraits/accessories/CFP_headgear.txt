@@ -69,18 +69,16 @@ male_headgear_secular_fp1_cfp_royalty_01 = {
 
 ## Viking cultural
 male_headgear_secular_northern_war_viking_01 = {
-	set_tags = "cap"
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_01_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_01 = {
 	set_tags = "cap"
-	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_01_entity 	 }		
 }
 
 male_headgear_secular_northern_war_viking_02 = {
-	set_tags = "cap"
+	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_02_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_02 = {
@@ -98,13 +96,11 @@ female_headgear_secular_northern_war_viking_03 = {
 }
 
 male_headgear_secular_northern_war_viking_04 = {
-	set_tags = "cap"
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_04_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_04 = {
 	set_tags = "cap"
-	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_04_entity 	 }		
 }
 
