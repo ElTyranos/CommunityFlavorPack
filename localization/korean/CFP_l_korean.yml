@@ -38,6 +38,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01:1 "@cfp_icon! 앵글로-색슨 투구 (서튼 후)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01:1 "@cfp_icon! 앵글로-색슨 투구 (구리 게이트)"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_war_coppergate_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01$"
+ 
 ## Western
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01:1 "@cfp_icon! 오토 제관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01$"
