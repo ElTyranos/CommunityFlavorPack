@@ -38,6 +38,9 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01:1 "@cfp_icon! 盎格鲁-撒克逊头盔（萨顿胡）"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01:1 "@cfp_icon! 盎格鲁-撒克逊头盔（铜门)"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_war_coppergate_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01$"
+ 
 ## Western
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01:1 "@cfp_icon! 奥托帝冠"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01$"
@@ -179,6 +182,9 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_01:1 "@cfp_icon_purple! 拜占庭普罗波洛玛"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_01:1 "@cfp_icon_purple! 锦纹普罗波洛玛"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_02:1 "@cfp_icon_purple! V型锦纹普罗波洛玛"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_02:1 "@cfp_icon_purple! 拜占庭普罗波洛玛2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_03:1 "@cfp_icon_purple! 锦纹普罗波洛玛2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_04:1 "@cfp_icon_purple! V型锦纹普罗波洛玛2"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "@cfp_icon_purple! 罗马头盔（10世纪，带链甲头罩）"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_roman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01$"
@@ -539,8 +545,10 @@ l_simp_chinese:
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_low:1 "@cfp_icon_orange! Indian Low Nobility Stanapatta"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! Indian High Nobility Stanapatta"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_cfp_war_nobility_01:1 "@cfp_icon_purple! 拜占庭式金甲"
+ 
 ## Legwear
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 板甲袜"
+PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 板甲袜"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Late Medieval Legwear"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! 非洲袜"

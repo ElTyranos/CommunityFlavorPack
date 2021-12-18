@@ -44,31 +44,55 @@ template "cfp_portrait_bgs"
 template "cfp_bg_buttons"
 {
     flowcontainer = {
-        spacing = -2
         direction = vertical
+		ignoreinvisible = yes
+        spacing = -2
+		min_width = 200
+		
         widget = {
             size = { 0 12 }
         }
-		text_single = {
-			text = "cfp_name"
-			position = { 0 10 }
-			margin_bottom = 10
-			parentanchor = hcenter
+		
+		button_category = {
+			blockoverride "text" {
+				text = "Community Flavor Pack"
+				# margin_left = 5
+			}
 		}
-        button_FB_list = {
+
+        widget = {
+            size = { 0 12 }
+        }
+		
+        bg_button = {
             text = "cfp_iberian_citadel"
             onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
             onclick = "[PdxGuiTriggerAllAnimations('cfp_iberian_citadel_bg')]"
+			blockoverride "picture" {
+				texture = "gfx/interface/illustrations/cfp/cfp_iberian_citadel_bg.dds"
+			}
+			blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
         }
-        button_FB_list = {
+        bg_button = {
             text = "cfp_iberian_castle"
             onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
             onclick = "[PdxGuiTriggerAllAnimations('cfp_iberian_castle_bg')]"
+			blockoverride "picture" {
+				texture = "gfx/interface/illustrations/cfp/cfp_iberian_castle_bg.dds"
+			}
+			blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
         }
-        button_FB_list = {
+        bg_button = {
             text = "cfp_iberian_walls"
             onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
             onclick = "[PdxGuiTriggerAllAnimations('cfp_iberian_walls_bg')]"
+			blockoverride "picture" {
+				texture = "gfx/interface/illustrations/cfp/cfp_iberian_walls_bg.dds"
+			}
+			blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
         }
     }
 }

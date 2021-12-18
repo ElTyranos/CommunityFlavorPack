@@ -70,6 +70,11 @@ female_clothes_secular_dde_abbasid_war_nobility_02_low = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_dde_abbasid_war_nobility_02_low_entity }
 }
 
+# Vanilla edits - Byzantine
+male_clothes_secular_byzantine_cfp_war_nobility_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_byzantine_cfp_war_nobility_01_entity }
+}
+
 # CFP
 male_clothes_secular_western_cfp_war_plate_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_war_plate_01_entity }

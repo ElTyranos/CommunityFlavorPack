@@ -1,0 +1,57 @@
+pdxmesh = {
+	name = "unit_mena_ship_01_dhow_mesh"
+	file = "unit_mena_ship_01_dhow.mesh"
+
+	animation = { id = "idle_animation" type = "unit_mena_ship_01_dhow_idle.anim" }
+	animation = { id = "moving_animation" type = "unit_mena_ship_01_dhow_moving.anim" }
+	animation = { id = "start_moving_animation" type = "unit_mena_ship_01_dhow_start_moving.anim" }
+
+	scale = 0.02
+
+	meshsettings = {
+		name = "unit_mena_ship_01_dhow_sailsShape"
+		index = 0
+		texture_diffuse = "western_ship_01_cog_sails_diffuse.dds"
+		texture_normal = "western_ship_01_cog_sails_normal.dds"
+		texture_specular = "western_ship_01_cog_sails_properties.dds"
+		shader = "standard_usercolor_coa"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_mena_ship_01_dhowShape"
+		index = 0
+		texture_diffuse = "mena_ship_01_dhow_diffuse.dds"
+		texture_normal = "mena_ship_01_dhow_normal.dds"
+		texture_specular = "mena_ship_01_dhow_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "unit_mena_ship_01_dhow_entity"
+	pdxmesh = "unit_mena_ship_01_dhow_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle_animation"
+		event = { time = 0.0 sound = { soundeffect = "event:/SFX/Animations/Units/Ships/Generic/sfx_anim_ship_generic_idle"} }
+	}
+	state = {
+		name = "move"
+		animation = "start_moving_animation"
+		looping = no
+		next_state = move_loop
+		event = { time = 0.0 sound = { soundeffect = "event:/SFX/Animations/Units/Ships/Generic/sfx_anim_ship_generic_start_move"} }
+	}
+	state = {
+		name = "move_loop"
+		animation = "moving_animation"
+		event = { time = 0 node = "front_effect" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "back_effect" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0.0 sound = { soundeffect = "event:/SFX/Animations/Units/Ships/Generic/sfx_anim_ship_generic_move"} }
+	}
+}

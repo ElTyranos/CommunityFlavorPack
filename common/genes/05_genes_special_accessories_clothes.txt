@@ -414,6 +414,7 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_secular_byzantine_war_nobility_01_low
+					1 = male_clothes_secular_byzantine_cfp_war_nobility_01
 					
 				}
 

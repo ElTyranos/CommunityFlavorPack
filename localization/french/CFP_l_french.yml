@@ -22,7 +22,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_03:1 "@cfp_icon! Casque Viking (Piétaille)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_viking_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_03$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_04:1 "@cfp_icon! Casque Viking (Noble)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_04:1 "@cfp_icon! Casque Viking (Jarl)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_viking_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_viking_04$"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_01:1 "@cfp_icon! Casque conique à nasal (Noble)"
@@ -37,6 +37,9 @@
 ## Anglo-Saxon
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01:1 "@cfp_icon! Casque Anglo-Saxon (Sutton Hoo)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01:1 "@cfp_icon! Casque Anglo-Saxon (Coppergate)"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_war_coppergate_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01$"
  
 ## Western
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01:1 "@cfp_icon! Couronne Impériale Ottonienne"
@@ -176,9 +179,12 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_low_01:1 "@cfp_icon_purple! Pileus Pannonien en cotton"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_pannonian_common_01:1 "@cfp_icon_purple! Pileus Pannonien en fourrure"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_skiadion_01:1 "@cfp_icon_purple! Skiadion"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_01:1 "@cfp_icon_purple! Propoloma Byzantin"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_01:1 "@cfp_icon_purple! Propoloma"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_01:1 "@cfp_icon_purple! Propoloma à bandes de brocart"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_02:1 "@cfp_icon_purple! Propoloma à bandes de brocart en V"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_02:1 "@cfp_icon_purple! Propoloma 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_03:1 "@cfp_icon_purple! Propoloma 2 à bandes de brocart"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_04:1 "@cfp_icon_purple! Propoloma 2 à bandes de brocart en V"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "@cfp_icon_purple! Romain (Xème, aventail)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_roman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01$"
@@ -540,8 +546,10 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_low:1 "@cfp_icon_orange! Stanapatta Indien de petite noblesse"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! Stanapatta Indien haute noblesse"
  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_cfp_war_nobility_01:1 "@cfp_icon_purple! Armure Byzantine dorée"
+ 
 ## Legwear
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Jambières d'armure de plates"
+    PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Jambières d'armure de plates"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Jambières tardives"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! Sandales et pagne Africains"

@@ -69,18 +69,16 @@ male_headgear_secular_fp1_cfp_royalty_01 = {
 
 ## Viking cultural
 male_headgear_secular_northern_war_viking_01 = {
-	set_tags = "cap"
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_01_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_01 = {
 	set_tags = "cap"
-	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_01_entity 	 }		
 }
 
 male_headgear_secular_northern_war_viking_02 = {
-	set_tags = "cap"
+	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_02_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_02 = {
@@ -98,13 +96,11 @@ female_headgear_secular_northern_war_viking_03 = {
 }
 
 male_headgear_secular_northern_war_viking_04 = {
-	set_tags = "cap"
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_04_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_04 = {
 	set_tags = "cap"
-	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_04_entity 	 }		
 }
 
@@ -131,12 +127,11 @@ female_headgear_secular_northern_war_nasal_02 = {
 }
 
 male_headgear_secular_northern_war_nasal_03 = {
-	set_tags = "no_hair"
-	set_tags = "hood_beard"
+	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nasal_03_entity 	 }		
 }
 female_headgear_secular_northern_war_nasal_03 = {
-	set_tags = "no_hair"
+	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nasal_03_entity 	 }		
 }
 
@@ -148,6 +143,15 @@ male_headgear_secular_northern_royalty_suttonhoo_01 = {
 female_headgear_secular_northern_royalty_suttonhoo_01 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_royalty_suttonhoo_01_entity 	 }		
+}
+male_headgear_secular_northern_cfp_war_coppergate_01 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_cfp_war_coppergate_01_entity 	 }		
+}
+female_headgear_secular_northern_cfp_war_coppergate_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_cfp_war_coppergate_01_entity 	 }		
 }
 
 
@@ -761,6 +765,10 @@ female_headgear_secular_byzantine_propoloma_low_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_low_01_entity 	 }		
 }
+female_headgear_secular_byzantine_propoloma_low_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_low_02_entity 	 }		
+}
 female_headgear_secular_byzantine_propoloma_high_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_01_entity 	 }		
@@ -768,6 +776,14 @@ female_headgear_secular_byzantine_propoloma_high_01 = {
 female_headgear_secular_byzantine_propoloma_high_02 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_02_entity 	 }		
+}
+female_headgear_secular_byzantine_propoloma_high_03 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_03_entity 	 }		
+}
+female_headgear_secular_byzantine_propoloma_high_04 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_propoloma_high_04_entity 	 }		
 }
 
 ## Hungarian cultural

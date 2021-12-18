@@ -38,6 +38,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01:1 "@cfp_icon! 앵글로-색슨 투구 (서튼 후)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01:1 "@cfp_icon! 앵글로-색슨 투구 (구리 게이트)"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_war_coppergate_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_war_coppergate_01$"
+ 
 ## Western
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01:1 "@cfp_icon! 오토 제관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01$"
@@ -179,6 +182,9 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_01:1 "@cfp_icon_purple! 비잔티움 여성 모자"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_01:1 "@cfp_icon_purple! 양단 줄무늬 비잔티움 여성 모자"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_02:1 "@cfp_icon_purple! V자 양단 줄무늬 비잔티움 여성 모자"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_low_02:1 "@cfp_icon_purple! 비잔티움 여성 모자 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_03:1 "@cfp_icon_purple! 양단 줄무늬 비잔티움 여성 모자 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_propoloma_high_04:1 "@cfp_icon_purple! V자 양단 줄무늬 비잔티움 여성 모자 2"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01:1 "@cfp_icon_purple! 로마 (10세기, 투구드리개)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_roman_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_roman_01$"
@@ -538,6 +544,8 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_common:1 "@cfp_icon_orange! 인도 평민 스타나파타"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_low:1 "@cfp_icon_orange! 인도 하위 귀족 스타나파타"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! 인도 고위 귀족 스타나파타"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_cfp_war_nobility_01:1 "@cfp_icon_purple! 비잔틴 황금 갑옷"
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 플레이트 아머 각반"
