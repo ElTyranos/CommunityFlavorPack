@@ -55,7 +55,7 @@ template "cfp_bg_buttons"
 		
 		button_category = {
 			blockoverride "text" {
-				text = "Community Flavor Pack"
+				text = "cfp_name"
 				# margin_left = 5
 			}
 		}
