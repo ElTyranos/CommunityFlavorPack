@@ -1,4 +1,4 @@
-
+﻿
 cloaks = {
 
 	usage = game
@@ -119,7 +119,11 @@ cloaks = {
 					portrait_wear_armor_trigger = yes
 					portrait_has_trait_trigger = { TRAIT = berserker }
 				}
-			}			
+			}
+			modifier = {
+				add = 200
+				has_character_flag = single_combat_duel_armor
+			}	
 		}
 	}
 
@@ -188,6 +192,34 @@ cloaks = {
 					should_be_naked_trigger = yes
 				}
 			}			
+		}
+	}
+	
+	easteregg_elisabeth_gangenes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				
+				gene = cloaks
+				template = fp1_cloak
+				range = 0
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_cloak
+				template = cloak
+				value = 1.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+	    		add = 200
+	    		exists = this
+	    		exists = character:easteregg_elisabeth_gangenes
+	    		this = character:easteregg_elisabeth_gangenes
+			}
 		}
 	}
 

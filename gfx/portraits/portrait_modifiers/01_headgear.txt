@@ -8928,6 +8928,11 @@ headgear = {
 				OR = {
 					religion = religion:tengrism_religion
 					religion = religion:qiangic_religion
+					religion = religion:siberian_religion
+					religion = religion:mundhum_religion
+					religion = religion:tani_religion
+					religion = religion:magyar_religion
+					faith = faith:old_bon
 				}
 			}
 	    }
@@ -8958,7 +8963,7 @@ headgear = {
 				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					scope:faith.religion = religion:buddhism_religion
-					scope:faith.religion = religion:bon_religion
+					faith = faith:bon
 					scope:faith.religion = religion:taoism_religion
 				}
 			}
@@ -8994,7 +8999,7 @@ headgear = {
 				}
 				OR = {
 					religion = religion:buddhism_religion
-					religion = religion:bon_religion
+					faith = faith:bon
 					religion = religion:taoism_religion
 				}
 			}
@@ -9223,6 +9228,7 @@ headgear = {
 					religion = religion:west_african_bori_religion
 					religion = religion:west_african_roog_religion
 					religion = religion:kushitism_religion
+					religion = religion:west_african_orisha_religion
 				}
 			}
 	    }
@@ -9242,7 +9248,6 @@ headgear = {
 			base = -100
 			modifier = {
 				add = 1000
-				is_male = yes
 				has_court_position = court_jester_court_position
 				OR = {
 					portrait_western_clothing_trigger = yes

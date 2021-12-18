@@ -1,4 +1,4 @@
-
+﻿
 clothes = {
 
 	usage = game
@@ -4225,6 +4225,11 @@ latin_venetian_royalty = {
 				OR = {
 					religion = religion:tengrism_religion
 					religion = religion:qiangic_religion
+					religion = religion:siberian_religion
+					religion = religion:mundhum_religion
+					religion = religion:tani_religion
+					religion = religion:magyar_religion
+					faith = faith:old_bon
 				}
 			}
 	    }
@@ -4256,7 +4261,7 @@ latin_venetian_royalty = {
 				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					religion = religion:buddhism_religion
-					religion = religion:bon_religion
+					faith = faith:bon
 					religion = religion:taoism_religion
 				}
 			}
@@ -4293,7 +4298,7 @@ latin_venetian_royalty = {
 				}
 				OR = {
 					religion = religion:buddhism_religion
-					religion = religion:bon_religion
+					faith = faith:bon
 					religion = religion:taoism_religion
 				}
 			}
@@ -4530,6 +4535,7 @@ latin_venetian_royalty = {
 					religion = religion:west_african_bori_religion
 					religion = religion:west_african_roog_religion
 					religion = religion:kushitism_religion
+					religion = religion:west_african_orisha_religion
 				}
 			}
 	    }
@@ -4540,7 +4546,7 @@ latin_venetian_royalty = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = ep1_male_jester_clothes
+				template = ep1_jester_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -4555,7 +4561,6 @@ latin_venetian_royalty = {
 			base = -100
 			modifier = {
 				add = 1000
-				is_male = yes
 				has_court_position = court_jester_court_position
 			}
 			modifier = {
@@ -4642,6 +4647,38 @@ latin_venetian_royalty = {
 			}
 		}
 	}	
+	
+	easteregg_elisabeth_gangenes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp1_high_nobility_clothes
+				value = 1.0 
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                add = 200
+                exists = this
+                exists = character:easteregg_elisabeth_gangenes
+                this = character:easteregg_elisabeth_gangenes
+            }
+		}
+	}
 
 	# northern_commoners = {
 	# 	dna_modifiers = {
