@@ -1,4 +1,4 @@
-﻿
+
 cloaks = {
 
 	usage = game
@@ -117,7 +117,7 @@ cloaks = {
 				portrait_fp1_norse_clothing_trigger = yes
 				OR = {
 					portrait_wear_armor_trigger = yes
-					portrait_has_trait = { TRAIT = berserker }
+					portrait_has_trait_trigger = { TRAIT = berserker }
 				}
 			}			
 		}
@@ -175,7 +175,7 @@ cloaks = {
 			modifier = {
 				add = 100
 				has_fp1_dlc_trigger = yes
-				portrait_has_trait = { TRAIT = berserker }
+				portrait_has_trait_trigger = { TRAIT = berserker }
 			}
 			modifier = {
 				factor = 0
@@ -211,7 +211,7 @@ cloaks = {
 						NOT =  {
 							portrait_fp1_norse_clothing_trigger = yes
 						}
-						portrait_has_trait = { TRAIT = adventurer }
+						portrait_has_trait_trigger = { TRAIT = adventurer }
 					}
 					AND = {
 						exists = inspiration
@@ -423,7 +423,7 @@ cloaks = {
 				NOR = {
 					portrait_wear_armor_trigger = yes
 					is_theocratic_lessee = yes
-					portrait_has_trait = { TRAIT = devoted }
+					portrait_has_trait_trigger = { TRAIT = devoted }
 					AND = {
 						exists = primary_spouse
 						primary_spouse = {
@@ -464,7 +464,7 @@ cloaks = {
 						highest_held_title_tier < tier_county
 					}
 					AND = {
-						portrait_has_trait = { TRAIT = witch }
+						portrait_has_trait_trigger = { TRAIT = witch }
 						highest_held_title_tier < tier_county
 					}
 				}
@@ -659,8 +659,8 @@ cloaks = {
 					is_theocratic_lessee = yes
 					has_council_position = councillor_court_chaplain
 					AND = { is_ruler = yes has_government = theocracy_government }
-					portrait_has_trait = { TRAIT = devoted }
-					portrait_has_trait = { TRAIT = theologian }
+					portrait_has_trait_trigger = { TRAIT = devoted }
+					portrait_has_trait_trigger = { TRAIT = theologian }
 				}
 				NOR = {
 					is_adult = no
@@ -867,12 +867,12 @@ cloaks = {
 	# 		modifier = {
 	# 			#humble people just wanna wear rags
 	# 			add = -100
-	# 			portrait_has_trait = { TRAIT = humble }
+	# 			portrait_has_trait_trigger = { TRAIT = humble }
 	# 		}
 	# 		modifier = {
 	# 			add = 50
 	# 			#arrogant people just wanna show off...
-	# 			portrait_has_trait = { TRAIT = arrogant }
+	# 			portrait_has_trait_trigger = { TRAIT = arrogant }
 	# 			OR = {
 	# 				highest_held_title_tier = tier_empire
 	# 				highest_held_title_tier = tier_kingdom

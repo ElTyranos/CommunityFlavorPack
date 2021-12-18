@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1641,7 +1641,7 @@ headgear = {
 						highest_held_title_tier < tier_county
 					}
 					AND = {
-						portrait_has_trait = { TRAIT = witch }
+						portrait_has_trait_trigger = { TRAIT = witch }
 						highest_held_title_tier < tier_county
 					}
 				}
@@ -8087,7 +8087,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
-				portrait_has_trait = { TRAIT = augustus }
+				portrait_has_trait_trigger = { TRAIT = augustus }
 				AND = {
 					NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 					NOT = { has_government = republic_government }
@@ -8113,11 +8113,11 @@ headgear = {
 				add = 50
 				OR = {
 					AND = {
-						portrait_has_trait = { TRAIT = scholar }
+						portrait_has_trait_trigger = { TRAIT = scholar }
 						learning >= 20
 					}
 					AND = {
-						portrait_has_trait = { TRAIT = august }
+						portrait_has_trait_trigger = { TRAIT = august }
 						diplomacy >= 15
 					}
 				}
@@ -8164,7 +8164,7 @@ headgear = {
 				exists = this
 				is_male = yes
 				OR = {
-					portrait_has_trait = { TRAIT = devoted }
+					portrait_has_trait_trigger = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -8290,7 +8290,7 @@ headgear = {
 				portrait_western_clothing_trigger = yes
 				is_male = yes
 				AND = {
-					portrait_has_trait = { TRAIT = pilgrim }
+					portrait_has_trait_trigger = { TRAIT = pilgrim }
 					highest_held_title_tier < tier_county
 				}
 				NOR = {
@@ -8347,7 +8347,7 @@ headgear = {
 				add = 100
 				exists = this
 				OR = {
-					portrait_has_trait = { TRAIT = devoted }
+					portrait_has_trait_trigger = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -8955,7 +8955,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				portrait_has_trait = { TRAIT = devoted }
+				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					scope:faith.religion = religion:buddhism_religion
 					scope:faith.religion = religion:bon_religion
@@ -9023,8 +9023,8 @@ headgear = {
 				exists = this
 				cfp_portrait_tibetan_clothing_trigger = yes
 				OR = {
-					portrait_has_trait = { TRAIT = lunatic }
-					portrait_has_trait = { TRAIT = possessed }
+					portrait_has_trait_trigger = { TRAIT = lunatic }
+					portrait_has_trait_trigger = { TRAIT = possessed }
 				}
 				OR = {
 					religion = religion:buddhism_religion
@@ -9051,7 +9051,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				portrait_has_trait = { TRAIT = devoted }
+				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					scope:faith.religion = religion:hinduism_religion
 				}
@@ -9137,7 +9137,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
-				portrait_has_trait = { TRAIT = devoted }
+				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					scope:faith.religion = religion:jainism_religion
 				}
@@ -9189,7 +9189,7 @@ headgear = {
 	# 		base = 0
 	# 		modifier = {
 	# 			add = 100
-	# 			portrait_has_trait = { TRAIT = devoted }
+	# 			portrait_has_trait_trigger = { TRAIT = devoted }
 	# 			religion = religion:islam_religion
 	# 		}
 	# 	}

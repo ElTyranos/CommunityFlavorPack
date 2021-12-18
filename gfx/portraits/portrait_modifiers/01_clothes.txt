@@ -1,4 +1,4 @@
-﻿
+
 clothes = {
 
 	usage = game
@@ -1168,7 +1168,7 @@ clothes = {
 			modifier = {
 				add = 500
 				exists = this
-				portrait_has_trait = { TRAIT = peasant_leader }
+				portrait_has_trait_trigger = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -2427,7 +2427,7 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 500
 				exists = this
-				portrait_has_trait = { TRAIT = peasant_leader }
+				portrait_has_trait_trigger = { TRAIT = peasant_leader }
 				OR = {
 					is_ruler = no
 					is_leading_faction_type = peasant_faction
@@ -3550,7 +3550,7 @@ latin_venetian_royalty = {
 				add = 101
 				is_male = yes
 				OR = {
-					portrait_has_trait = { TRAIT = devoted }
+					portrait_has_trait_trigger = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -3704,7 +3704,7 @@ latin_venetian_royalty = {
 				add = 100
 				exists = this
 				OR = {
-					portrait_has_trait = { TRAIT = devoted }
+					portrait_has_trait_trigger = { TRAIT = devoted }
 					AND = {
 						faith = {
 							has_doctrine_parameter = vows_of_poverty_active
@@ -4045,7 +4045,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				portrait_has_trait = { TRAIT = devoted }
+				portrait_has_trait_trigger = { TRAIT = devoted }
 				scope:faith.religion = religion:islam_religion
 			}
 		}
@@ -4253,7 +4253,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				portrait_has_trait = { TRAIT = devoted }
+				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					religion = religion:buddhism_religion
 					religion = religion:bon_religion
@@ -4323,7 +4323,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				portrait_has_trait = { TRAIT = devoted }
+				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					religion = religion:hinduism_religion
 				}
@@ -4430,7 +4430,7 @@ latin_venetian_royalty = {
 			base = 0
 			modifier = {
 				add = 100
-				portrait_has_trait = { TRAIT = devoted }
+				portrait_has_trait_trigger = { TRAIT = devoted }
 				OR = {
 					religion = religion:jainism_religion
 				}
@@ -4489,7 +4489,7 @@ latin_venetian_royalty = {
 	# 		base = 0
 	# 		modifier = {
 	# 			add = 60
-	# 			portrait_has_trait = { TRAIT = devoted }
+	# 			portrait_has_trait_trigger = { TRAIT = devoted }
 	# 			religion = religion:islam_religion
 	# 		}
 	# 	}
