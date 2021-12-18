@@ -1,4 +1,4 @@
-﻿
+
 
 special_genes = {
 
@@ -474,13 +474,13 @@ accessory_genes = {
 				1 = male_legwear_secular_western_war_01
 			}
 			female = {
-				1 = female_legwear_secular_western_common_01
+				1 = female_legwear_secular_western_war_01
 			}
 			boy = male
 			girl = female
 		}
 
-		mena_common_legwear = {
+		mena_war_legwear = {
 			index = 5
 			male = {
 				1 = male_legwear_secular_mena_war_nobility_01
@@ -491,8 +491,33 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		fp1_common_legwear = {
+		
+		mena_common_legwear = {
 			index = 6
+			male = {
+				1 = male_legwear_secular_mena_common_01
+			}
+			female = {
+				1 = female_legwear_secular_mena_common_01
+			}
+			boy = male
+			girl = female
+		}
+
+		mena_nobility_legwear = {
+			index = 7
+			male = {
+				1 = male_legwear_secular_mena_nobility_01
+			}
+			female = {
+				1 = female_legwear_secular_mena_nobility_01
+			}
+			boy = male
+			girl = female
+		}
+		
+		fp1_common_legwear = {
+			index = 8
 			male = {
 				1 = male_legwear_secular_fp1_common_01
 			}
@@ -503,19 +528,19 @@ accessory_genes = {
 			girl = female
 		}
 		ep1_jester_legwear = {
-			index = 7
+			index = 9
 			male = {
 				1 = male_legwear_secular_ep1_jester_01
 			}
 			female = {
-				1 = female_legwear_secular_western_common_01
+				1 = female_legwear_secular_ep1_jester_01
 			}
 			boy = male
 			girl = female
 		}
 		
 		western_war_legwear_late = {
-			index = 8
+			index = 10
 			male = {
 				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
@@ -525,7 +550,7 @@ accessory_genes = {
 		}
 		
 		sub_saharan_common_legwear = {
-			index = 9
+			index = 11
 			male = {
 				1 = male_legwear_secular_sub_saharan_cfp_common_01
 			}
@@ -537,7 +562,7 @@ accessory_genes = {
 		}
 		
 		javanese_common_legwear = {
-			index = 10
+			index = 12
 			male = {
 				1 = male_legwear_secular_java_cfp_common_01
 			}
@@ -549,7 +574,7 @@ accessory_genes = {
 		}
 		
 		javanese_nobility_legwear = {
-			index = 11
+			index = 13
 			male = {
 				1 = male_legwear_secular_java_cfp_high_nobility_01
 			}
@@ -561,7 +586,7 @@ accessory_genes = {
 		}
 		
 		javanese_royalty_legwear = {
-			index = 12
+			index = 14
 			male = {
 				1 = male_legwear_secular_java_cfp_royalty_01
 			}

@@ -179,7 +179,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = mena_common_legwear
+				template = mena_war_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			# morph = {
