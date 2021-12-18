@@ -883,4 +883,13 @@
 			base = 0
 		}
 	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ep1_jester
+		
+		weight = {
+			base = 0
+		}
+	}
 }

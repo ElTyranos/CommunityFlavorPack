@@ -453,7 +453,7 @@
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = ep1_male_jester_clothes
+		template = ep1_jester_clothes
 	}
 
 	#add_accessory_modifiers = {
