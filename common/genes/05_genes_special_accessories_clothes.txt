@@ -1354,7 +1354,7 @@ special_genes = {
 				girl = female
 			}
 
-			ep1_male_jester_clothes = {
+			ep1_jester_clothes = {
 				index = 72
 
 				male = {
@@ -1362,6 +1362,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = female_clothes_secular_ep1_jester_01
 				}
 
 				boy = male
