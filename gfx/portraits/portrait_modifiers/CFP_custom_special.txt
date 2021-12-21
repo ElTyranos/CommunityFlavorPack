@@ -1,4 +1,4 @@
-custom_special = {
+﻿custom_special = {
 	usage = customization
 	interface_position = 5
 
