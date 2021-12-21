@@ -20,6 +20,10 @@
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01$"
 
  ## CFP
+ PORTRAIT_MODIFIER_custom_special_no_blindfold:1 "@cfp_icon_remove! Remove Blindfold"
+ PORTRAIT_MODIFIER_custom_special_no_eye_patch:1 "@cfp_icon_remove! Remove Eye Patch"
+ PORTRAIT_MODIFIER_custom_special_no_eyeglasses:1 "@cfp_icon_remove! Remove Eyeglasses"
+ 
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01:1 "@cfp_icon! 안경"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01$"
 
