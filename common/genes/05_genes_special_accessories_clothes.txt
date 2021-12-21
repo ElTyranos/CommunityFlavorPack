@@ -1540,7 +1540,7 @@ special_genes = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
 				female = {
-					1 = empty
+					1 = female_clothes_secular_western_nudity_01
 				}
 				boy = male
 				girl = female
@@ -1552,7 +1552,7 @@ special_genes = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
 				female = {
-					1 = empty
+					1 = female_clothes_secular_western_nudity_01
 				}
 				boy = male
 				girl = female
@@ -1564,7 +1564,7 @@ special_genes = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
 				female = {
-					1 = empty
+					1 = female_clothes_secular_western_nudity_01
 				}
 				boy = male
 				girl = female
