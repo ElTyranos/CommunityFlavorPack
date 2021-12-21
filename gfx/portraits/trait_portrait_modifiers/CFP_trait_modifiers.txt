@@ -1,4 +1,4 @@
-﻿eyeglasses = {
+eyeglasses = {
 	eyeglasses = {
 		dna_modifiers = {
 			accessory = {
@@ -29,8 +29,8 @@
 					}
 				}
 				NOR = {
-					portrait_has_trait = { TRAIT = disfigured }
-					portrait_has_trait = { TRAIT = blind }
+					portrait_has_trait_trigger = { TRAIT = disfigured }
+					portrait_has_trait_trigger = { TRAIT = blind }
 					portrait_indian_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
