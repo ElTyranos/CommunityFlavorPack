@@ -1,5 +1,5 @@
-﻿eyeglasses = {
-	eyeglasses = {
+cfp_eyeglasses = {
+	cfp_eyeglasses = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
