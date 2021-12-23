@@ -1,0 +1,25 @@
+pdxmesh = {
+	name = "female_headgear_special_cfp_face_mask_03_mesh"
+	file = "female_headgear_special_cfp_face_mask_03.mesh"
+		
+	 	blend_shape = { id = "female_headgear_special_cfp_face_mask_03_bs_old"		type = "female_headgear_special_cfp_face_mask_03_bs_old.mesh" }
+		blend_shape = { id = "female_headgear_special_cfp_face_mask_03_bs_fat"		type = "female_headgear_special_cfp_face_mask_03_bs_fat.mesh" }
+
+	meshsettings = {
+		name = "female_headgear_special_cfp_face_mask_03Shape"
+		index = 0
+		texture_diffuse = "male_headgear_special_cfp_face_mask_01_diffuse.dds"
+		texture_normal = "male_headgear_special_cfp_face_mask_01_normal.dds"
+		texture_specular = "male_headgear_special_cfp_face_mask_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_special_cfp_face_mask_03_entity"
+	pdxmesh = "female_headgear_special_cfp_face_mask_03_mesh"
+
+	attribute = { name = "bs_old"								blend_shape = "female_headgear_special_cfp_face_mask_03_bs_old" }
+	attribute = { name = "bs_fat_1"								blend_shape = "female_headgear_special_cfp_face_mask_03_bs_fat" }
+}
