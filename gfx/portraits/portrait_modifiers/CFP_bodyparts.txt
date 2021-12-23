@@ -1,4 +1,4 @@
-cfp_bodyparts = {
+﻿cfp_bodyparts = {
 
 	usage = game
 	selection_behavior = weighted_random
@@ -20,6 +20,9 @@ cfp_bodyparts = {
 				
 				cfp_portrait_afar_clothing_trigger = yes
 				
+			}
+		}
+	}
 
 	blind = {
 		dna_modifiers = {
@@ -36,6 +39,38 @@ cfp_bodyparts = {
 				add = 100
 				
 				has_trait = blind
+				should_show_disturbing_portrait_modifiers = yes
+				NOT = { has_character_flag = temporarily_blinded }
+				
+			}
+		}
+	}
+	
+	blind_no_eyes = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = no_eyes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				
+				AND = {
+					has_trait = blind
+					OR = {
+						has_trait = disfigured
+						has_trait = scarred
+						has_trait = maimed
+						has_trait = one_legged
+						has_trait = education_martial
+					}
+				}
+				
 				should_show_disturbing_portrait_modifiers = yes
 				NOT = { has_character_flag = temporarily_blinded }
 				
