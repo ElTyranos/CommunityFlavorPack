@@ -1,4 +1,4 @@
-﻿cfp_bodyparts = {
+cfp_bodyparts = {
 
 	usage = game
 	selection_behavior = weighted_random
@@ -20,6 +20,28 @@
 				
 				cfp_portrait_afar_clothing_trigger = yes
 				
+	one_eyed = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = one_eyed_eyes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				
+				has_trait = one_eyed
+				should_show_disturbing_portrait_modifiers = yes
+				NOT = { has_character_flag = wears_fake_eye_patch }
+				
+			}
+		}
+	}
+	
 			}
 		}
 	}
