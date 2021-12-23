@@ -65,6 +65,34 @@ cfp_bodyparts = {
 		}
 	}
 	
+	one_eyed_missing = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = one_eyed_missing_eyes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				
+				AND = {
+					has_trait = one_eyed
+					OR = {
+						has_trait = disfigured
+						has_trait = scarred
+						has_trait = maimed
+						has_trait = one_legged
+						has_trait = education_martial
+					}
+				}
+				
+				should_show_disturbing_portrait_modifiers = yes
+				NOT = { has_character_flag = wears_fake_eye_patch }
+				
 			}
 		}
 	}

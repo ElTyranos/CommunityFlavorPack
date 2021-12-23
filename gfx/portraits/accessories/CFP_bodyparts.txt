@@ -8,3 +8,10 @@ cfp_male_one_eyed_eyes = {
 cfp_female_one_eyed_eyes = {
 	entity = { entity = "cfp_female_one_eyed_eyes_entity"		shared_pose_entity = head }
 }
+
+cfp_male_one_eyed_missing_eyes = {
+	entity = { entity = "cfp_male_one_eyed_missing_eyes_entity"		shared_pose_entity = head }
+}
+cfp_female_one_eyed_missing_eyes = {
+	entity = { entity = "cfp_female_one_eyed_missing_eyes_entity"		shared_pose_entity = head }
+}
