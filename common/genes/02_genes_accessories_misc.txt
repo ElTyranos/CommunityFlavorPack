@@ -1,4 +1,4 @@
-
+﻿
 
 
 
@@ -78,9 +78,11 @@ accessory_genes = {
 			index = 8
 			male = {
 				1 = "cfp_male_one_eyed_missing_eyes"
+				1 = "cfp_male_one_eyed_fake_eyes"
 			}
 			female = {
 				1 = "cfp_female_one_eyed_missing_eyes"
+				1 = "cfp_female_one_eyed_fake_eyes"
 			}
 			boy = male
 			girl = female
