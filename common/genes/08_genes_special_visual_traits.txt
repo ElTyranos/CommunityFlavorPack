@@ -748,12 +748,16 @@ special_genes = {
 					10 = male_headgear_special_cfp_face_mask_02
 					10 = male_headgear_special_cfp_face_mask_01
 					10 = male_headgear_special_cfp_face_mask_03
+					5 = male_headgear_special_cfp_fake_nose_01
+					5 = male_headgear_special_cfp_fake_nose_03
 				}
 				female = {
 					10 = female_headgear_special_face_mask_01
 					10 = female_headgear_special_cfp_face_mask_02
 					10 = female_headgear_special_cfp_face_mask_01
 					10 = female_headgear_special_cfp_face_mask_03
+					5 = female_headgear_special_cfp_fake_nose_01
+					5 = female_headgear_special_cfp_fake_nose_03
 				}
 				boy = male
 				girl = female
