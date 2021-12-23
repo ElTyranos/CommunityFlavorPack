@@ -776,6 +776,20 @@ special_headgear_blindfold = {
 				boy = male
 				girl = female
 			}
+			
+			cfp_blindfold = {
+				index = 2
+				male = {
+					2 = empty
+					1 = male_headgear_special_blindfold_01
+				}
+				female = {
+					2 = empty
+					1 = female_headgear_special_blindfold_01
+				}
+				boy = male
+				girl = female
+			}
 
 		}
 

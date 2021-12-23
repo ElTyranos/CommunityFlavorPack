@@ -42,6 +42,28 @@ cfp_eyeglasses = {
 	}
 }
 
+cfp_blind = {
+	cfp_blind = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_blindfold
+				template = cfp_blindfold
+                range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		traits = {
+			blind
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				should_show_disturbing_portrait_modifiers = yes
+			}
+		}
+	}
+}
+
 cfp_one_eyed = {
 	cfp_one_eyed = {
 		dna_modifiers = {
