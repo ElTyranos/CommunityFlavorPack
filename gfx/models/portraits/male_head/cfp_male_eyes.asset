@@ -1,0 +1,78 @@
+pdxmesh = {
+	name = "cfp_male_one_eyed_eyes_mesh"
+	file = "cfp_male_one_eyed_eyes.mesh"
+	
+	meshsettings = {
+		name = "cfp_male_one_eyed_r_eyesShape"
+		index = 0
+		texture_diffuse = "male_eyes_diffuse.dds"
+		texture_normal = "male_eyes_normal.dds"
+		texture_specular = "male_eyes_properties.dds"
+		shader = "portrait_eye"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "cfp_male_one_eyed_l_eyesShape"
+		index = 0
+		texture_diffuse = "male_eyes_blind_diffuse.dds"
+		texture_normal = "male_eyes_normal.dds"
+		texture_specular = "male_eyes_properties.dds"
+		shader = "portrait_eye"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+pdxmesh = {
+	name = "cfp_male_one_eyed_fake_eyes_mesh"
+	file = "cfp_male_one_eyed_fake_eyes.mesh"
+	
+	meshsettings = {
+		name = "cfp_male_one_eyed_r_fake_eyesShape"
+		index = 0
+		texture_diffuse = "male_eyes_diffuse.dds"
+		texture_normal = "male_eyes_normal.dds"
+		texture_specular = "male_eyes_properties.dds"
+		shader = "portrait_eye"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "cfp_male_one_eyed_l_fake_eyesShape"
+		index = 0
+		texture_diffuse = "male_eyes_fake_diffuse.dds"
+		texture_normal = "male_eyes_fake_normal.dds"
+		texture_specular = "male_eyes_fake_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+pdxmesh = {
+	name = "cfp_male_one_eyed_missing_eyes_mesh"
+	file = "cfp_male_one_eyed_missing_eyes.mesh"
+	
+	meshsettings = {
+		name = "cfp_male_one_eyed_missing_eyesShape"
+		index = 0
+		texture_diffuse = "male_eyes_diffuse.dds"
+		texture_normal = "male_eyes_normal.dds"
+		texture_specular = "male_eyes_properties.dds"
+		shader = "portrait_eye"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+}
+
+entity = {
+	name = "cfp_male_one_eyed_eyes_entity"
+	pdxmesh = "cfp_male_one_eyed_eyes_mesh"
+}
+entity = {
+	name = "cfp_male_one_eyed_fake_eyes_entity"
+	pdxmesh = "cfp_male_one_eyed_fake_eyes_mesh"
+}
+entity = {
+	name = "cfp_male_one_eyed_missing_eyes_entity"
+	pdxmesh = "cfp_male_one_eyed_missing_eyes_mesh"
+}

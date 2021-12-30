@@ -39,6 +39,32 @@ template "cfp_portrait_bgs"
 			fittype = centercrop
 		}
 	}
+	widget = {
+		size = { 100% 100% }
+		visible = no
+		using = hide_bg_temp
+		state = {
+			name = cfp_gaillard_zoomed_bg
+			on_start = "[PdxGuiWidget.Show]"
+		}
+		background = {
+			texture = "gfx/interface/illustrations/cfp/cfp_gaillard_zoomed_bg.dds"
+			fittype = centercrop
+		}
+	}
+	widget = {
+		size = { 100% 100% }
+		visible = no
+		using = hide_bg_temp
+		state = {
+			name = cfp_gaillard_bg
+			on_start = "[PdxGuiWidget.Show]"
+		}
+		background = {
+			texture = "gfx/interface/illustrations/cfp/cfp_gaillard_bg.dds"
+			fittype = centercrop
+		}
+	}
 }
 
 template "cfp_bg_buttons"
@@ -71,7 +97,7 @@ template "cfp_bg_buttons"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_iberian_citadel_bg.dds"
 			}
-			blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
         }
         bg_button = {
@@ -81,7 +107,7 @@ template "cfp_bg_buttons"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_iberian_castle_bg.dds"
 			}
-			blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
         }
         bg_button = {
@@ -91,7 +117,27 @@ template "cfp_bg_buttons"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_iberian_walls_bg.dds"
 			}
-			blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
+        }
+        bg_button = {
+            text = "cfp_gaillard_zoomed"
+            onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
+            onclick = "[PdxGuiTriggerAllAnimations('cfp_gaillard_zoomed_bg')]"
+			blockoverride "picture" {
+				texture = "gfx/interface/illustrations/cfp/cfp_gaillard_mini_bg.dds"
+			}
+			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
+			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
+        }
+        bg_button = {
+            text = "cfp_gaillard"
+            onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
+            onclick = "[PdxGuiTriggerAllAnimations('cfp_gaillard_bg')]"
+			blockoverride "picture" {
+				texture = "gfx/interface/illustrations/cfp/cfp_gaillard_mini_bg.dds"
+			}
+			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
         }
     }

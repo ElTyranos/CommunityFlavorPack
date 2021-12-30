@@ -1,3 +1,24 @@
 ﻿cfp_afar_female_teeth_pointy = {
 	entity = { entity = "cfp_afar_female_teeth_entity"		shared_pose_entity = head }
 }
+
+cfp_male_one_eyed_eyes = {
+	entity = { entity = "cfp_male_one_eyed_eyes_entity"		shared_pose_entity = head }
+}
+cfp_female_one_eyed_eyes = {
+	entity = { entity = "cfp_female_one_eyed_eyes_entity"		shared_pose_entity = head }
+}
+
+cfp_male_one_eyed_missing_eyes = {
+	entity = { entity = "cfp_male_one_eyed_missing_eyes_entity"		shared_pose_entity = head }
+}
+cfp_female_one_eyed_missing_eyes = {
+	entity = { entity = "cfp_female_one_eyed_missing_eyes_entity"		shared_pose_entity = head }
+}
+
+cfp_male_one_eyed_fake_eyes = {
+	entity = { entity = "cfp_male_one_eyed_fake_eyes_entity"		shared_pose_entity = head }
+}
+cfp_female_one_eyed_fake_eyes = {
+	entity = { entity = "cfp_female_one_eyed_fake_eyes_entity"		shared_pose_entity = head }
+}

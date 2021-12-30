@@ -611,6 +611,15 @@ female_headgears_secular_slavic_war_helmet_02 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_slavic_war_helmet_02_entity 	 }		
 }
+male_headgear_secular_slavic_cfp_war_type4_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_war_type4_01_entity 	 }		
+}
+female_headgear_secular_slavic_cfp_war_type4_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_cfp_war_type4_01_entity 	 }		
+}
 
 ## Turkic cultural
 male_headgears_secular_turkic_royalty_01 = {
@@ -684,6 +693,24 @@ male_headgears_secular_turkic_war_cuman_02 = {
 female_headgears_secular_turkic_war_cuman_02 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgears_secular_turkic_war_cuman_02_entity 	 }		
+}
+male_headgear_secular_turkic_cfp_war_kipchak_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_turkic_cfp_war_kipchak_01_entity 	 }		
+}
+female_headgear_secular_turkic_cfp_war_kipchak_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_turkic_cfp_war_kipchak_01_entity 	 }		
+}
+male_headgear_secular_turkic_cfp_war_kipchak_02 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_turkic_cfp_war_kipchak_02_entity 	 }		
+}
+female_headgear_secular_turkic_cfp_war_kipchak_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_turkic_cfp_war_kipchak_02_entity 	 }		
 }
 
 ## Byzantine cultural
