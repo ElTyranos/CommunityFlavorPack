@@ -21,11 +21,11 @@
 				OR = {
 					AND = {
 						learning >= 12
-						portrait_has_trait = { TRAIT = whole_of_body }
+						portrait_has_trait_trigger = { TRAIT = whole_of_body }
 					}
 					AND = {
 						stewardship >= 12
-						portrait_has_trait = { TRAIT = administrator }
+						portrait_has_trait_trigger = { TRAIT = administrator }
 					}
 				}
 				NOR = {
