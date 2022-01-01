@@ -9,7 +9,6 @@ pdxmesh = {
 	blend_shape = { id = "male_clothes_secular_byzantine_cfp_war_nobility_01_bs_old"				type = "male_clothes_secular_byzantine_cfp_war_nobility_01_bs_old.mesh" }
 	blend_shape = { id = "male_clothes_secular_byzantine_cfp_war_nobility_01_bs_dwarf"				type = "male_clothes_secular_byzantine_cfp_war_nobility_01_bs_dwarf.mesh" }
 
-
 	meshsettings = {
 		name = "male_clothes_secular_byzantine_cfp_war_nobility_01Shape"
 		index = 0
@@ -33,9 +32,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"								blend_shape = "male_clothes_secular_byzantine_cfp_war_nobility_01_bs_dwarf" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/byzantine/cfp_war_nobility_01/male_clothes_secular_byzantine_cfp_war_nobility_01_masks.dds"
-			variation = "western_common_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/byzantine/cfp_war_nobility_01/male_clothes_secular_byzantine_cfp_war_nobility_01_masks.dds"
+				variation = "western_common_01"
+			}
 		}
 	}
 }
