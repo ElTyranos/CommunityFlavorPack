@@ -565,7 +565,7 @@ accessory_genes = {
 		}
 		
 		javanese_spymasters_dagger = {
-			index = 31
+			index = 45
 			male = {
 				1 = cfp_kris_dagger_01
 			}
