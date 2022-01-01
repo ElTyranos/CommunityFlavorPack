@@ -1,4 +1,4 @@
-# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
 
 	# set_tags = ""
 	# set_tags = "cap"
@@ -85,7 +85,7 @@ male_headgear_secular_fp1_cfp_royalty_01 = {
 
 ## Viking cultural
 male_headgear_secular_northern_war_viking_01 = {
-	set_tags = "no_hair"
+	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_01_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_01 = {
@@ -94,7 +94,7 @@ female_headgear_secular_northern_war_viking_01 = {
 }
 
 male_headgear_secular_northern_war_viking_02 = {
-	set_tags = "no_hair"
+	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_02_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_02 = {
@@ -107,12 +107,12 @@ male_headgear_secular_northern_war_viking_03 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_03_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_03 = {
-	set_tags = "cap"
+	set_tags = "cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_03_entity 	 }		
 }
 
 male_headgear_secular_northern_war_viking_04 = {
-	set_tags = "no_hair"
+	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_viking_04_entity 	 }		
 }
 female_headgear_secular_northern_war_viking_04 = {
