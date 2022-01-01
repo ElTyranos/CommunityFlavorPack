@@ -1,16 +1,32 @@
-﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
 
-	#set_tags = "no_hair"
-	#set_tags = "no_beard"
-	#set_tags = "crown" -- crown shape to the hair
-	#set_tags = "cap" -- bowl shape to the hair
-	#set_tags = "hat"
-	#set_tags = "hood_beard" -- makes the beard narrower
-	#set_tags = "cap_02"
-	#set_tags = "helmet" -- male hairstyle
-	#set_tags = "headdress"  -- female hairstyle
-	#set_tags = "cap,cap_02" -- narrower than just cap or more hair styles impacted ?
-	#set_tags = "aventail" -- female hairstyle
+	# set_tags = ""
+	# set_tags = "cap"
+	# set_tags = "cap_02" -- narrower than just cap
+	# set_tags = "cap_03"
+	# set_tags = "crown"
+	# set_tags = "helmet" -- male hairstyle
+	# set_tags = "hood_beard" -- makes the beard narrower
+	# set_tags = "mask"
+	# set_tags = "mask_hat"
+	# set_tags = "no_beard"
+	# set_tags = "no_hair"
+	# set_tags = "stealth"
+	# set_tags = "aventail" -- female hairstyle
+	
+	# set_tags = "no_hair,cap,cap_02"
+	# set_tags = "no_hair,mask_hat"
+	# set_tags = "cap,cap_02"
+	# set_tags = "cap,cap_02,helmet"
+	# set_tags = "cap,cap_02,mask_hat"
+	# set_tags = "cap,cap_03,mask_hat"
+	# set_tags = "cap,helmet"
+	# set_tags = "cap,mask_hat"
+	# set_tags = "cap_02,cap"
+	# set_tags = "crown,mask_hat"
+	# set_tags = "headdress,cap"
+	# set_tags = "helmet,cap"
+	# set_tags = "helmet,mask_hat"
 
 ## Vanilla edits
 male_headgear_secular_northern_war_nobility_02 = {
