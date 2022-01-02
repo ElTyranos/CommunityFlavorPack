@@ -18,6 +18,16 @@ pdxmesh = {
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
+	
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_rack_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
 
 	meshsettings = {
 		name = "cfp_sword_joyeuse_01_LOD1Shape"
@@ -25,6 +35,16 @@ pdxmesh = {
 		texture_diffuse = "cfp_sword_joyeuse_01_diffuse.dds"
 		texture_normal = "cfp_sword_joyeuse_01_normal.dds"
 		texture_specular = "cfp_sword_joyeuse_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_rack_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
@@ -38,9 +58,64 @@ pdxmesh = {
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
+	
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_rack_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "cfp_sword_joyeuse_01_portrait_mesh"
+	file = "cfp_sword_joyeuse_01_portrait.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_portrait_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_sword_joyeuse_01_diffuse.dds"
+		texture_normal = "cfp_sword_joyeuse_01_normal.dds"
+		texture_specular = "cfp_sword_joyeuse_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_portrait_LOD1Shape"
+		index = 0
+		texture_diffuse = "cfp_sword_joyeuse_01_diffuse.dds"
+		texture_normal = "cfp_sword_joyeuse_01_normal.dds"
+		texture_specular = "cfp_sword_joyeuse_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_portrait_LOD2Shape"
+		index = 0
+		texture_diffuse = "cfp_sword_joyeuse_01_diffuse.dds"
+		texture_normal = "cfp_sword_joyeuse_01_normal.dds"
+		texture_specular = "cfp_sword_joyeuse_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
 }
 
 entity = {
 	name = "cfp_sword_joyeuse_01_entity"
 	pdxmesh = "cfp_sword_joyeuse_01_mesh"
+}
+
+entity = {
+	name = "cfp_sword_joyeuse_01_portrait_entity"
+	pdxmesh = "cfp_sword_joyeuse_01_portrait_mesh"
 }

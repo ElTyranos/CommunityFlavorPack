@@ -32,7 +32,7 @@
 	# pedestal = "tall"
 # }
 
-cfp_sword_joyeuse_01 = {
+cfp_sword_joyeuse = {
 	icon = "artifact_sword.dds"
 	pedestal = "weaponrack"
 	asset = cfp_sword_joyeuse_01_entity

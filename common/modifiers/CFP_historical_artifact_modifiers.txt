@@ -1,0 +1,6 @@
+﻿# cfp_joyeuse_modifier = {
+	# court_grandeur_baseline_add = 4
+	# monthly_dynasty_prestige = 0.10
+	# direct_vassal_opinion = 5
+	# courtier_and_guest_opinion = 10
+# }

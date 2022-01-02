@@ -1,0 +1,8 @@
+﻿cfp_sword_portrait = {
+	icon = "artifact_sword.dds"
+	
+	asset = {
+		trigger = { artifact_should_use_gfx_type_trigger = { TYPE = western_unit } }
+		reference = cfp_sword_joyeuse_01_portrait_entity
+	}
+}
