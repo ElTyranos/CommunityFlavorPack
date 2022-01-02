@@ -1,0 +1,8 @@
+﻿# sample_template = {
+	# can_equip = {
+		# always = yes
+	# }
+	# can_benefit = {} # can this character benefit from the full modifiers of the artifact?
+	# fallback = {} # if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	# unique = yes
+# }
