@@ -37,3 +37,9 @@ cfp_sword_joyeuse = {
 	pedestal = "weaponrack"
 	asset = cfp_sword_joyeuse_01_entity
 }
+
+cfp_holy_lance = {
+	icon = "artifact_spear.dds"
+	pedestal = "tall"
+	asset = cfp_holy_lance_entity
+}

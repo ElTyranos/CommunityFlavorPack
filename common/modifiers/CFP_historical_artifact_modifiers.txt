@@ -1,6 +1,6 @@
-﻿# cfp_joyeuse_modifier = {
-	# court_grandeur_baseline_add = 4
-	# monthly_dynasty_prestige = 0.10
-	# direct_vassal_opinion = 5
-	# courtier_and_guest_opinion = 10
-# }
+﻿cfp_holy_lance_modifier = {
+	court_grandeur_baseline_add = 4
+	clergy_opinion = 5
+	monthly_piety = 1
+	monthly_dynasty_prestige_mult = 0.02
+}

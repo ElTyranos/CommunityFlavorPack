@@ -49,3 +49,45 @@
 	}
 
 }
+
+create_artifact_cfp_holy_lance_effect = { 
+
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	create_artifact = {
+		name = artifact_cfp_holy_lance_name
+		description = artifact_cfp_holy_lance_description
+		template = cfp_holy_lance_template
+		type = pedestal
+		visuals = cfp_holy_lance
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+			date = 670.1.1 #To order entries correctly
+		}
+		modifier = cfp_holy_lance_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		# set_variable = joyeuse
+		add_artifact_title_history = {
+			target = title:e_hre
+			date = 921.01.01
+		}
+		add_artifact_history = {
+			type = given
+			date = 920.04.16
+			actor = character:1144 #Rudolf II of Upper Burgundy
+			recipient = character:1280 #Heinrich I of the HRE
+			location = province:2092 #Aachen
+		}
+				
+		save_scope_as = epic
+	}
+
+}

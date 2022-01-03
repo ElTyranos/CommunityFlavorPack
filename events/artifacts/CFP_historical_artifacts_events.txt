@@ -25,5 +25,13 @@ cfp_historical_artifacts.0001 = {
 			}
 			create_artifact_joyeuse_effect = { OWNER = this }
 		}
+		
+		random_ruler = {
+			limit = {
+				has_dlc_feature = royal_court
+				has_title = title:e_hre
+			}
+			create_artifact_cfp_holy_lance_effect = { OWNER = this }
+		}
 	}
 }
