@@ -1,25 +1,25 @@
 ﻿l_german:
- PORTRAIT_MODIFIER_custom_necklace:0 "Necklace"
+ PORTRAIT_MODIFIER_custom_necklace:0 "Halskette"
  
- PORTRAIT_MODIFIER_custom_necklace_male_empty:1 "No Necklace"
+ PORTRAIT_MODIFIER_custom_necklace_male_empty:1 "Keine Halskette"
  PORTRAIT_MODIFIER_custom_necklace_female_empty:0 "$PORTRAIT_MODIFIER_custom_necklace_male_empty$"
  PORTRAIT_MODIFIER_custom_necklace_boy_empty:1 "$PORTRAIT_MODIFIER_custom_necklace_male_empty$"
  PORTRAIT_MODIFIER_custom_necklace_girl_empty:1 "$PORTRAIT_MODIFIER_custom_necklace_male_empty$"
  
 ## Vanilla
- PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_byzantine_necklace_01:1 "@cfp_icon_purple! Byzantine Necklace"
+ PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_byzantine_necklace_01:1 "@cfp_icon_purple! Byzantinische Halskette"
 
 ## CFP
- PORTRAIT_MODIFIER_custom_necklace_male_headgear_secular_western_cfp_war_pixane_01:1 "@cfp_icon! Pixane Mail Collar"
+ PORTRAIT_MODIFIER_custom_necklace_male_headgear_secular_western_cfp_war_pixane_01:1 "@cfp_icon! Kettenhemdkragen"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_pixane_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_headgear_secular_western_cfp_war_pixane_01$"
  
- PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01:0 "@cfp_icon! Ermine Cloak Necklace"
+ PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01:0 "@cfp_icon! Hermelinumhang Halskette"
  PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_ermine_necklace_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_ermine_necklace_01$"
  
- PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_african_necklace_01:1 "@cfp_icon_yellow! African Neck Rings"
- PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_african_necklace_02:1 "@cfp_icon_yellow! Edo Coral Necklace"
+ PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_african_necklace_01:1 "@cfp_icon_yellow! Afrikanische Halsringe"
+ PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_african_necklace_02:1 "@cfp_icon_yellow! Edo Korallenhalskette"
  PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_african_necklace_02:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_african_necklace_02$"
  
- PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_pectoral_cross_01:1 "@cfp_icon_white! Anglo-Saxon pectoral cross"
+ PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_pectoral_cross_01:1 "@cfp_icon_white! Angelsächsisches Pektorale"
  PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_pectoral_cross_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_pectoral_cross_01$"
  
