@@ -1,5 +1,12 @@
 ﻿l_english:
 
 artifact_cfp_joyeuse_name:0 "@cfp_icon! Joyeuse"
+
 artifact_cfp_holy_lance_name:0 "@cfp_icon! Holy Lance"
 artifact_cfp_holy_lance_description:0 "This spear pierced Christ's side and is stained in his holy blood. The nail embedded in the tip was used for his Crucificion. It's said it belonged to a man named Longinus."
+
+artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_red! Krum of Bulgaria Skull Cup"
+artifact_cfp_krum_skull_cup_description:0 "After his death in battle, a Byzantine Emperor had his skull lined with gold and used as a drinking cup."
+
+artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_red! Küre of Pechenegs Skull Cup"
+artifact_cfp_kure_skull_cup_description:0 "Once the head of a famous Kievan prince. After an ambush led by Pechenegs raiders, it became a drinking cup."

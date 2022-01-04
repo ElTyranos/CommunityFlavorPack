@@ -1,4 +1,4 @@
-create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
+﻿create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
 
 	$OWNER$ = { save_scope_as = owner } # Get the character the artifact is being made for.
 	set_artifact_rarity_illustrious = yes # Not really used, but if we don't set the scopes we get errors in the feature selection
@@ -85,6 +85,94 @@ create_artifact_cfp_holy_lance_effect = {
 			actor = character:1144 #Rudolf II of Upper Burgundy
 			recipient = character:1280 #Heinrich I of the HRE
 			location = province:2092 #Aachen
+		}
+				
+		save_scope_as = epic
+	}
+
+}
+
+create_artifact_cfp_krum_skull_cup_effect = { 
+
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	create_artifact = {
+		name = artifact_cfp_krum_skull_cup_name
+		description = artifact_cfp_krum_skull_cup_description
+		template = general_unique_template
+		type = pedestal
+		visuals = cfp_trophy_skull_cup_01
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 750.1.1
+			recipient = character:70497 # Nikephoros I
+			location = province:760 #Tyana, c_cappadocia
+		}
+		modifier = cfp_krum_skull_cup_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		# set_variable = joyeuse
+		add_artifact_title_history = {
+			target = title:k_bulgaria
+			date = 812.1.1
+		}
+		add_artifact_history = {
+			type = conquest
+			date = 811.7.26
+			actor = character:70497 # Nikephoros I
+			recipient = character:159123 # Krum of Bulgaria
+			location = province:3689 #Preslav
+		}
+				
+		save_scope_as = epic
+	}
+
+}
+
+create_artifact_cfp_kure_skull_cup_effect = { 
+
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	create_artifact = {
+		name = artifact_cfp_kure_skull_cup_name
+		description = artifact_cfp_kure_skull_cup_description
+		template = general_unique_template
+		type = pedestal
+		visuals = cfp_trophy_skull_cup_01
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 942.1.2
+			recipient = character:602 # Sviatoslav of Ruthenia
+			location = province:547 #Kiev
+		}
+		modifier = cfp_kure_skull_cup_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		# set_variable = joyeuse
+		add_artifact_title_history = {
+			target = title:k_pechenegs
+			date = 973.1.1
+		}
+		add_artifact_history = {
+			type = conquest
+			date = 972.1.2
+			actor = character:602 # Sviatoslav of Ruthenia
+			recipient = character:pecheneg000001 # Küre of Pechenegs
+			location = province:1071 #river_dnieper
 		}
 				
 		save_scope_as = epic
