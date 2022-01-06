@@ -1,0 +1,6 @@
+﻿has_graphical_norman_culture_group_trigger = {
+	OR = {
+		has_culture = culture:english
+		has_culture = culture:norman
+	}
+}
