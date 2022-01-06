@@ -42,3 +42,32 @@ entity = {
 	name = "cfp_holy_lance_entity"
 	pdxmesh = "cfp_holy_lance_mesh"
 }
+
+pdxmesh = {
+	name = "cfp_bayeux_tapestry_mesh"
+	file = "cfp_bayeux_tapestry.mesh"
+
+	meshsettings = {
+		name = "cfp_bayeux_tapestryShape"
+		index = 0
+		texture_diffuse = "cfp_bayeux_tapestry_furniture_diffuse.dds"
+		texture_normal = "cfp_bayeux_tapestry_furniture_normal.dds"
+		texture_specular = "cfp_bayeux_tapestry_furniture_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_bayeux_tapestryShape"
+		index = 1
+		texture_diffuse = "cfp_bayeux_tapestry_diffuse.dds"
+		texture_normal = "cfp_bayeux_tapestry_normal.dds"
+		texture_specular = "cfp_bayeux_tapestry_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_bayeux_tapestry_entity"
+	pdxmesh = "cfp_bayeux_tapestry_mesh"
+}

@@ -1,4 +1,4 @@
-	# support_type = "short"
+﻿	# support_type = "short"
 	# support_type = "tall_pillow"
 	# support_type = "tall"
 	# support_type = "tall"
@@ -31,6 +31,11 @@
 	# asset = male_headgear_secular_dde_hre_imperial_01_artifact_entity
 	# pedestal = "tall"
 # }
+
+cfp_bayeux_tapestry = {
+	icon = "artifact_cfp_bayeux_tapestry.dds"
+	asset = cfp_bayeux_tapestry_entity
+}
 
 cfp_sword_joyeuse = {
 	icon = "artifact_cfp_joyeuse.dds"
