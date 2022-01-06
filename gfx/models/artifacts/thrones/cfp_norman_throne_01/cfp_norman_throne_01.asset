@@ -2,7 +2,7 @@ pdxmesh = {
 	name = "cfp_norman_throne_01_mesh"
 	file = "cfp_norman_throne_01.mesh"
 
-	meshsettings = {
+meshsettings = {
 		name = "cfp_norman_throne_01Shape"
 		index = 0
 		texture_diffuse = "cfp_norman_throne_01_diffuse.dds"
