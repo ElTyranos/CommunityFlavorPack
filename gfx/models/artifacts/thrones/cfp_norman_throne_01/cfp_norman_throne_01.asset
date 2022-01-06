@@ -16,4 +16,12 @@ meshsettings = {
 entity = {
 	name = "cfp_norman_throne_01_entity"
 	pdxmesh = "cfp_norman_throne_01_mesh"
+	locator = { name = ruler_locator position = { 0 65 -18 } }
+	
+	game_data = {
+		throne_entity_user_data = {
+			animation = throne_room_ruler
+			use_throne_transform = yes
+		}
+	}
 }
