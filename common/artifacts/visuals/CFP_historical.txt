@@ -1,4 +1,4 @@
-﻿	# support_type = "short"
+	# support_type = "short"
 	# support_type = "tall_pillow"
 	# support_type = "tall"
 	# support_type = "tall"
@@ -34,7 +34,6 @@
 
 cfp_sword_joyeuse = {
 	icon = "artifact_cfp_joyeuse.dds"
-	pedestal = "weaponrack"
 	asset = cfp_sword_joyeuse_01_entity
 }
 
