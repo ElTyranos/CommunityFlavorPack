@@ -1,0 +1,39 @@
+pdxmesh = {
+	name = "cfp_chess_set_01_mesh"
+	file = "cfp_chess_set_01.mesh"
+
+meshsettings = {
+		name = "cfp_chess_set_01Shape"
+		index = 0
+		texture_diffuse = "cfp_chess_set_01_diffuse.dds"
+		texture_normal = "cfp_chess_set_01_normal.dds"
+		texture_specular = "cfp_chess_set_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "cfp_chess_set_02_mesh"
+	file = "cfp_chess_set_01.mesh"
+
+meshsettings = {
+		name = "cfp_chess_set_01Shape"
+		index = 0
+		texture_diffuse = "cfp_chess_set_02_diffuse.dds"
+		texture_normal = "cfp_chess_set_01_normal.dds"
+		texture_specular = "cfp_chess_set_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_chess_set_01_entity"
+	pdxmesh = "cfp_chess_set_01_mesh"
+}
+
+entity = {
+	name = "cfp_chess_set_02_entity" #B&W
+	pdxmesh = "cfp_chess_set_02_mesh"
+}

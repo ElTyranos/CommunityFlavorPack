@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 artifact_cfp_joyeuse_name:0 "@cfp_icon! Joyeuse"
 
@@ -13,3 +13,6 @@ artifact_cfp_krum_skull_cup_description:0 "After his death in battle, a Byzantin
 
 artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_red! Küre of Pechenegs Skull Cup"
 artifact_cfp_kure_skull_cup_description:0 "Once the head of a famous Kievan prince. After an ambush led by Pechenegs raiders, it became a drinking cup."
+
+artifact_cfp_chess_set_01_name:0 "@cfp_icon! Chess set"
+artifact_cfp_chess_set_01_description:0 "The more you sweat playing chess, the less you bleed in battle."

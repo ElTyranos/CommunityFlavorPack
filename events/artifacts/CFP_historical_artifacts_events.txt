@@ -1,4 +1,4 @@
-namespace = cfp_historical_artifacts
+﻿namespace = cfp_historical_artifacts
 # Generation of CFP historical artifacts #
 
 #Historical artifacts generator at game start
@@ -48,6 +48,40 @@ cfp_historical_artifacts.0001 = {
 				has_title = title:k_pechenegs
 			}
 			create_artifact_cfp_kure_skull_cup_effect = { OWNER = this }
+		}
+		
+		if = {
+			limit = { 
+				has_dlc_feature = royal_court
+			}
+			while = {
+				count = 10
+				random_ruler = {
+					limit = {
+						NOT = { has_character_flag = seeded_chess_set }
+						has_royal_court = yes
+						NOR = {
+							AND = {
+								limit = { exists = capital_province }
+								location = { geographical_region = world_africa_west }								
+							}
+							AND = {
+								limit = { exists = capital_province }
+								location = { geographical_region = world_africa_east }								
+							}
+							AND = {
+								limit = { exists = capital_province }
+								location = { geographical_region = world_africa_sahara }								
+							}
+						}
+					}
+					create_artifact_cfp_chess_set_effect = { OWNER = this }
+					add_character_flag = {
+						flag = seeded_chess_set
+						days = 1
+					}
+				}
+			}
 		}
 		
 		random_ruler = {
