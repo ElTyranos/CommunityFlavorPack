@@ -1,4 +1,4 @@
-﻿namespace = cfp_title_event
+namespace = cfp_title_event
 
 cfp_title_event.0001 = {
 	type = character_event
@@ -29,7 +29,10 @@ cfp_title_event.0001 = {
 	trigger = {
 		scope:title = { this = title:k_england }
 		this = character:140 # William The Conqueror
-		NOT = { has_global_variable = cfp_bayeux_tapestry_created }
+		NOR = {
+			has_global_variable = cfp_bayeux_tapestry_created
+			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
+		}
 	}
 	
 	immediate = {

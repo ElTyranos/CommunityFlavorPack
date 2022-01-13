@@ -1,4 +1,4 @@
-﻿cfp_fullplate_helmets = {
+cfp_fullplate_helmets = {
 	default = default_cfp_fullplate_helmets
 	default_cfp_fullplate_helmets = {}
 	never_cfp_fullplate_helmets = {}
@@ -17,4 +17,9 @@ cfp_barbershop_unlocks = {
 	default = default_cfp_barbershop_unlocks
 	default_cfp_barbershop_unlocks = {}
 	never_cfp_barbershop_unlocks = {}
+}
+cfp_artifacts = {
+	default = default_cfp_artifacts
+	default_cfp_artifacts = {}
+	never_cfp_artifacts = {}
 }

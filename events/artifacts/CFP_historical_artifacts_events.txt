@@ -1,4 +1,4 @@
-﻿namespace = cfp_historical_artifacts
+namespace = cfp_historical_artifacts
 # Generation of CFP historical artifacts #
 
 #Historical artifacts generator at game start
@@ -10,6 +10,7 @@ cfp_historical_artifacts.0001 = {
 		#Historical Artifacts
 		random_ruler = {
 			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
 				current_year > 1000 # later start
 				has_title = title:k_france
@@ -19,6 +20,7 @@ cfp_historical_artifacts.0001 = {
 		
 		random_ruler = {
 			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
 				current_year < 1000 #early start
 				has_title = title:k_lotharingia
@@ -28,6 +30,7 @@ cfp_historical_artifacts.0001 = {
 		
 		random_ruler = {
 			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
 				has_title = title:e_hre
 			}
@@ -36,6 +39,7 @@ cfp_historical_artifacts.0001 = {
 		
 		random_ruler = {
 			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
 				has_title = title:k_bulgaria
 			}
@@ -44,6 +48,7 @@ cfp_historical_artifacts.0001 = {
 		
 		random_ruler = {
 			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
 				has_title = title:k_pechenegs
 			}
@@ -52,6 +57,7 @@ cfp_historical_artifacts.0001 = {
 		
 		if = {
 			limit = { 
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
 			}
 			while = {
