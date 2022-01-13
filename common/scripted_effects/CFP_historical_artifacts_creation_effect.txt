@@ -1,4 +1,4 @@
-﻿create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
+create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
 
 	$OWNER$ = { save_scope_as = owner } # Get the character the artifact is being made for.
 	set_artifact_rarity_illustrious = yes # Not really used, but if we don't set the scopes we get errors in the feature selection
@@ -53,26 +53,23 @@
 create_artifact_cfp_bayeux_tapestry_effect = { 
 
 	$OWNER$ = { save_scope_as = owner }
+	$MAKER$ = { save_scope_as = maker }
 	set_artifact_rarity_illustrious = yes
-
+	
+	scope:owner = {
 	create_artifact = {
 		name = artifact_cfp_bayeux_tapestry_name
 		description = artifact_cfp_bayeux_tapestry_description
 		template = general_unique_template
 		type = book
 		visuals = cfp_bayeux_tapestry
-		wealth = scope:wealth
-		quality = scope:quality
-		history = {
-			type = created
-			date = 1067.7.14
-			actor = character:367 # Mathilde
-			recipient = character:140 # William the Conqueror
-			location = province:2170 #Bayeux
+			wealth = scope:wealth
+			quality = scope:quality
+			creator = scope:maker
+			modifier = cfp_bayeux_tapestry_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
 		}
-		modifier = cfp_bayeux_tapestry_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
 	}
 
 	scope:newly_created_artifact = {

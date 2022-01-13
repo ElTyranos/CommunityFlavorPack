@@ -84,7 +84,10 @@ cfp_title_event.0002 = {
 	}
 		
 	immediate = {
-		create_artifact_cfp_bayeux_tapestry_effect = { OWNER = this }
+		create_artifact_cfp_bayeux_tapestry_effect = { 
+			OWNER = root
+			MAKER = scope:bishop
+		}
 		if = {
 			limit = { character:148 = { is_alive = yes } } ## Odo of Bayeux
 			character:148 = { save_scope_as = bishop }
