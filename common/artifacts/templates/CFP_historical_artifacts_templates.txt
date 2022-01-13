@@ -14,7 +14,32 @@
 
 	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
 	fallback = {
-		court_grandeur_baseline_add = 4
+		court_grandeur_baseline_add = 6
+		monthly_prestige = 2
+	}
+
+	unique = yes
+}
+
+cfp_bayeux_tapestry_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		OR = {
+			has_culture = culture:norman
+			has_culture = culture:english
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		court_grandeur_baseline_add = 5
+		monthly_prestige = 1.5
+		monthly_dynasty_prestige_mult = 0.05
+		direct_vassal_opinion = 10
 	}
 
 	unique = yes

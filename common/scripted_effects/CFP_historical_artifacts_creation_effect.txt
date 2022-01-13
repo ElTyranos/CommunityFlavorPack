@@ -1,4 +1,4 @@
-create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
+﻿create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
 
 	$OWNER$ = { save_scope_as = owner } # Get the character the artifact is being made for.
 	set_artifact_rarity_illustrious = yes # Not really used, but if we don't set the scopes we get errors in the feature selection
@@ -57,12 +57,12 @@ create_artifact_cfp_bayeux_tapestry_effect = {
 	set_artifact_rarity_illustrious = yes
 	
 	scope:owner = {
-	create_artifact = {
-		name = artifact_cfp_bayeux_tapestry_name
+		create_artifact = {
+			name = artifact_cfp_bayeux_tapestry_name
 			description = placeholder # Will be regenerated in the post-creation effects
-		template = general_unique_template
-		type = book
-		visuals = cfp_bayeux_tapestry
+			template = cfp_bayeux_tapestry_template
+			type = book
+			visuals = cfp_bayeux_tapestry
 			wealth = scope:wealth
 			quality = scope:quality
 			creator = scope:maker
@@ -125,7 +125,7 @@ create_artifact_cfp_holy_lance_effect = {
 create_artifact_cfp_krum_skull_cup_effect = { 
 
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_illustrious = yes
+	set_artifact_rarity_famed = yes
 
 	create_artifact = {
 		name = artifact_cfp_krum_skull_cup_name
@@ -169,7 +169,7 @@ create_artifact_cfp_krum_skull_cup_effect = {
 create_artifact_cfp_kure_skull_cup_effect = { 
 
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_illustrious = yes
+	set_artifact_rarity_famed = yes
 
 	create_artifact = {
 		name = artifact_cfp_kure_skull_cup_name
