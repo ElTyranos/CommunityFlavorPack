@@ -1,0 +1,98 @@
+﻿namespace = cfp_title_event
+
+cfp_title_event.0001 = {
+	type = character_event
+	title = cfp_title_event.0001.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {	character:148 = { is_alive = yes } }
+				desc = cfp_title_event.0001.odo
+			}
+			triggered_desc = {
+				trigger = {	NOT = { character:148 = { is_alive = yes } } }
+				desc = cfp_title_event.0001.bishop
+			}
+			# desc = cfp_title_event.0001.desc
+		}
+	}
+	theme = court
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:bishop
+		animation = personality_bold
+	}
+	
+	trigger = {
+		scope:title = { this = title:k_england }
+		this = character:140 # William The Conqueror
+		NOT = { has_global_variable = cfp_bayeux_tapestry_created }
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = cfp_bayeux_tapestry_created
+			value = yes
+		}
+		if = {
+			limit = { character:148 = { is_alive = yes } } ## Odo of Bayeux
+			character:148 = { save_scope_as = bishop }
+		}
+		else = {
+			limit = { exists = cp:councillor_court_chaplain	}
+			cp:councillor_court_chaplain = { save_scope_as = bishop	}
+		}
+	}
+	option = {
+		name = cfp_title_event.0001.a.odo
+		trigger = {	character:148 = { is_alive = yes } }
+		trigger_event = {
+			id = cfp_title_event.0002
+			days =  { 7 14 }
+			# days =  { 180 365 } # 6 months to 1 year
+		}
+	}
+		
+	option = {
+		name = cfp_title_event.0001.a.bishop
+		trigger = {	NOT = { character:148 = { is_alive = yes } } }
+		trigger_event = {
+			id = cfp_title_event.0002
+			days =  { 7 14 }
+			# days =  { 180 365 } # 6 months to 1 year
+		}
+	}
+}
+cfp_title_event.0002 = {
+	type = character_event
+	title = cfp_title_event.0002.t
+	desc = cfp_title_event.0002.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:bishop
+		animation = personality_content
+	}
+		
+	immediate = {
+		create_artifact_cfp_bayeux_tapestry_effect = { OWNER = this }
+		if = {
+			limit = { character:148 = { is_alive = yes } } ## Odo of Bayeux
+			character:148 = { save_scope_as = bishop }
+		}
+		else = {
+			limit = { exists = cp:councillor_court_chaplain	}
+			cp:councillor_court_chaplain = { save_scope_as = bishop	}
+		}
+	}
+	
+	option = {
+		name = cfp_title_event.0002.a
+	}
+}

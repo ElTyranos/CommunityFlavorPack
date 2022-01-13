@@ -1,0 +1,11 @@
+﻿l_english:
+
+ cfp_title_event.0001.t:0 "A Norman initiative"
+ cfp_title_event.0001.odo:1 "My brother [bishop.GetFullNameNoTooltipRegnal], comes at me with his usual strong spirit. He looks once again determined.  \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], the news of your great conquest reaches far and wide! However, I think we need to promote further your image and how just your cause is. I will come back soon with something that will seal your legitimacy for hundreds of years." \n\nAs I try to guess what he has in mind, I feel humbled, knowing I can trust him to help me to reign. So be it."
+ cfp_title_event.0001.a.odo:0 "Your sense of initiative always surprises me, [bishop.GetFirstNameNoTooltip]!"
+ cfp_title_event.0001.bishop:1 "My bishop [bishop.GetFullNameNoTooltipRegnal] comes at me.  \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], the news of your great conquest reaches far and wide! However, I think we need to promote further your image and how just your cause is. I will come back soon with something that will seal your legitimacy for hundreds of years." \n\nAs I try to guess what he has in mind, I feel obligated to let him do his business for the Pope accepted my claim over England. So be it."
+ cfp_title_event.0001.a.bishop:0 "May god help you to carry out your quest, [bishop.GetNameNoTooltip]!"
+ 
+ cfp_title_event.0002.t:0 "Rule with the Arts"
+ cfp_title_event.0002.desc:1 "[bishop.GetFullNameNoTooltipRegnal] has news about his project. \n\n"I asked the best embroiderers of Normandy to carry out this tapestry. It tells why you claimed England and how you conquered it. I named it the Telle du Conquest.""
+ cfp_title_event.0002.a:0 "This is a magnificent tapestry!"

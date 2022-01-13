@@ -83,15 +83,5 @@ cfp_historical_artifacts.0001 = {
 				}
 			}
 		}
-		
-		random_ruler = {
-			limit = {
-				has_dlc_feature = royal_court
-                exists = character:140 #William The Conqueror
-                this = character:140 #William The Conqueror
-			}
-			create_artifact_cfp_bayeux_tapestry_effect = { OWNER = this }
-		}
-		
 	}
 }
