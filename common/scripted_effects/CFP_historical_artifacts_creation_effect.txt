@@ -59,7 +59,7 @@ create_artifact_cfp_bayeux_tapestry_effect = {
 	scope:owner = {
 	create_artifact = {
 		name = artifact_cfp_bayeux_tapestry_name
-		description = artifact_cfp_bayeux_tapestry_description
+			description = placeholder # Will be regenerated in the post-creation effects
 		template = general_unique_template
 		type = book
 		visuals = cfp_bayeux_tapestry
@@ -73,8 +73,8 @@ create_artifact_cfp_bayeux_tapestry_effect = {
 	}
 
 	scope:newly_created_artifact = {
+		set_artifact_description = artifact_cfp_bayeux_tapestry_description
 		set_variable = { name = historical_unique_artifact value = yes }
-		# set_variable = joyeuse	
 		save_scope_as = epic
 	}
 
