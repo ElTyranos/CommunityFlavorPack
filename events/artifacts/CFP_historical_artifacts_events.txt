@@ -64,15 +64,12 @@ cfp_historical_artifacts.0001 = {
 				count = 10
 				random_ruler = {
 					limit = {
-						NOT = { has_character_flag = seeded_chess_set }
 						has_royal_court = yes
-						NOT = {
-							exists = capital_province
-							OR = {
-								location = { geographical_region = world_africa_west }
-								location = { geographical_region = world_africa_east }	
-								location = { geographical_region = world_africa_sahara }
-							}
+						NOR = {
+							has_character_flag = seeded_chess_set
+							location = { geographical_region = world_africa_west }
+							location = { geographical_region = world_africa_east }	
+							location = { geographical_region = world_africa_sahara }
 						}
 					}
 					create_artifact_cfp_chess_set_effect = { OWNER = this }
