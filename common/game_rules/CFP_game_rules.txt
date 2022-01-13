@@ -1,4 +1,4 @@
-cfp_fullplate_helmets = {
+﻿cfp_fullplate_helmets = {
 	default = default_cfp_fullplate_helmets
 	default_cfp_fullplate_helmets = {}
 	never_cfp_fullplate_helmets = {}
@@ -22,4 +22,9 @@ cfp_artifacts = {
 	default = default_cfp_artifacts
 	default_cfp_artifacts = {}
 	never_cfp_artifacts = {}
+}
+cfp_events = {
+	default = default_cfp_events
+	default_cfp_events = {}
+	never_cfp_events = {}
 }
