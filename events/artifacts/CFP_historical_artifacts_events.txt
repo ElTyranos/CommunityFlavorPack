@@ -66,18 +66,12 @@ cfp_historical_artifacts.0001 = {
 					limit = {
 						NOT = { has_character_flag = seeded_chess_set }
 						has_royal_court = yes
-						NOR = {
-							AND = {
-								limit = { exists = capital_province }
-								location = { geographical_region = world_africa_west }								
-							}
-							AND = {
-								limit = { exists = capital_province }
-								location = { geographical_region = world_africa_east }								
-							}
-							AND = {
-								limit = { exists = capital_province }
-								location = { geographical_region = world_africa_sahara }								
+						NOT = {
+							exists = capital_province
+							OR = {
+								location = { geographical_region = world_africa_west }
+								location = { geographical_region = world_africa_east }	
+								location = { geographical_region = world_africa_sahara }
 							}
 						}
 					}
