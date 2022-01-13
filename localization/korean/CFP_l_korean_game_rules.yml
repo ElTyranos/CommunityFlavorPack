@@ -24,3 +24,15 @@
  setting_never_cfp_barbershop_unlocks:1 "#high 제한#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "이발소의 기능은 바닐라와 같을 것입니다. 악세사리와 레그웨어는 커스터마이징 할 수 없으며, 망토는 특정 계급을 요구합니다. 이것은 AI의 옷 입는 행동을 바꾸지는 않습니다."
  
+ rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Artifacts"
+ setting_default_cfp_artifacts:0 "Default"
+ setting_default_cfp_artifacts_desc:0 "New custom artifacts are available. This may change gameplay experience but game balance is preserved as much as possible."
+ setting_never_cfp_artifacts:1 "#high Never#!"
+ setting_never_cfp_artifacts_desc:0 "Custom artifacts are disabled and won't be available."
+ 
+ rule_cfp_events:0 "@cfp_icon! Community Flavor Pack : Events"
+ setting_default_cfp_events:0 "Default"
+ setting_default_cfp_events_desc:0 "New custom events are available. This may change gameplay experience but game balance is preserved as much as possible."
+ setting_never_cfp_events:1 "#high Never#!"
+ setting_never_cfp_events_desc:0 "Custom events are disabled and won't be available."
+  

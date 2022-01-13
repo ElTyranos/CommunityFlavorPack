@@ -23,3 +23,15 @@
  setting_default_cfp_barbershop_unlocks_desc:0 "Der Barbier ist vollständig freigeschaltet. Mäntel, alle Accessoires und religiöse Kleidung werden dem Spieler zur Verfügung gestellt. Dies beeinflusst nicht das Verhalten der KI."
  setting_never_cfp_barbershop_unlocks:1 "#high Begrenzt#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "Der Barbier verhält sich wie im vanilla Spiel. Accessoires können nicht individualisiert werden, Mäntel haben eine Rangvorraussetzung, Der Spieler kann Religiöse Kleidung nicht anlegen. Dies beeinflusst nicht das Verhalten der KI."
+ 
+ rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Artifacts"
+ setting_default_cfp_artifacts:0 "Default"
+ setting_default_cfp_artifacts_desc:0 "New custom artifacts are available. This may change gameplay experience but game balance is preserved as much as possible."
+ setting_never_cfp_artifacts:1 "#high Never#!"
+ setting_never_cfp_artifacts_desc:0 "Custom artifacts are disabled and won't be available."
+ 
+ rule_cfp_events:0 "@cfp_icon! Community Flavor Pack : Events"
+ setting_default_cfp_events:0 "Default"
+ setting_default_cfp_events_desc:0 "New custom events are available. This may change gameplay experience but game balance is preserved as much as possible."
+ setting_never_cfp_events:1 "#high Never#!"
+ setting_never_cfp_events_desc:0 "Custom events are disabled and won't be available."
