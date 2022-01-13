@@ -1,31 +1,34 @@
 ﻿cfp_bayeux_tapestry_modifier = {
 	court_grandeur_baseline_add = 5
+	monthly_prestige = 1
+	monthly_dynasty_prestige_mult = 0.05
 	direct_vassal_opinion = 5
-	monthly_prestige = 0.1
-	monthly_dynasty_prestige_mult = 0.02
 	anglo_saxon_opinion = 5
 	norman_opinion = 10
 }
 
 cfp_holy_lance_modifier = {
-	court_grandeur_baseline_add = 4
+	court_grandeur_baseline_add = 6
+	domain_tax_same_faith_mult = 0.15
 	clergy_opinion = 5
-	monthly_piety = 1
-	monthly_dynasty_prestige_mult = 0.02
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_piety = 2
 }
 
 cfp_krum_skull_cup_modifier = {
-	court_grandeur_baseline_add = 4
-	monthly_dynasty_prestige = 0.10
-	dread_baseline_add = 15
-	monthly_prestige_gain_per_dread_add = 0.02
-	greek_opinion = -10
+	court_grandeur_baseline_add = 3
+	monthly_dynasty_prestige_mult = 0.05
+	dread_baseline_add = 12
+	monthly_prestige_gain_per_dread_add = 0.04
+	dynasty_opinion = 5
+	greek_opinion = -5
 }
 
 cfp_kure_skull_cup_modifier = {
-	court_grandeur_baseline_add = 4
-	monthly_dynasty_prestige = 0.10
-	dread_baseline_add = 15
-	monthly_prestige_gain_per_dread_add = 0.02
-	russian_opinion = -10
+	court_grandeur_baseline_add = 3
+	monthly_dynasty_prestige_mult = 0.05
+	dread_baseline_add = 12
+	monthly_prestige_gain_per_dread_add = 0.04
+	dynasty_opinion = 5
+	russian_opinion = -5
 }
