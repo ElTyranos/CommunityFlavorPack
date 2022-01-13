@@ -54,8 +54,8 @@ cfp_title_event.0001 = {
 		trigger = {	character:148 = { is_alive = yes } }
 		trigger_event = {
 			id = cfp_title_event.0002
-			days =  { 7 14 }
-			# days =  { 180 365 } # 6 months to 1 year
+			# days =  { 7 14 } # testing
+			days =  { 180 365 } # 6 months to 1 year
 		}
 	}
 		
@@ -64,8 +64,8 @@ cfp_title_event.0001 = {
 		trigger = {	NOT = { character:148 = { is_alive = yes } } }
 		trigger_event = {
 			id = cfp_title_event.0002
-			days =  { 7 14 }
-			# days =  { 180 365 } # 6 months to 1 year
+			# days =  { 7 14 } # testing
+			days =  { 180 365 } # 6 months to 1 year
 		}
 	}
 }
