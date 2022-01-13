@@ -1,4 +1,4 @@
-namespace = cfp_title_event
+﻿namespace = cfp_title_event
 
 cfp_title_event.0001 = {
 	type = character_event
