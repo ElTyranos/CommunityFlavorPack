@@ -227,7 +227,6 @@ cfp_portrait_iberian_clothing_spouse_trigger = {
 }
 cfp_portrait_iberian_clothing_contents_trigger = {
 	OR = {
-		this = culture:andalusian
 		this = culture:basque
 		this = culture:castilian
 		this = culture:catalan
