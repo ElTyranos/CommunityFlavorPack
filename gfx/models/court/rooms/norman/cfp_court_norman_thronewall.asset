@@ -58,3 +58,66 @@ entity = {
 	name = "cfp_court_norman_thronewall_g1_entity"
 	pdxmesh = "cfp_court_norman_thronewall_g1_mesh"
 }
+
+################ GREY #################
+
+#Grandeur 1 - 2
+pdxmesh = {
+	name = "cfp_court_goidelic_thronewall_mesh"
+	file = "cfp_court_norman_thronewall.mesh"
+
+	meshsettings = {
+		name = "cfp_court_norman_thronewallShape"
+		index = 0
+		texture_diffuse = "ep1_materials_wall_stone_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_wall_stone_01_a_normal.dds"
+		texture_specular = "ep1_materials_wall_stone_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_norman_thronewallShape"
+		index = 1
+		texture_diffuse = "ep1_materials_wall_trimsheet_01_a_g1_diffuse.dds"
+		texture_normal = "ep1_materials_wall_trimsheet_01_a_g1_normal.dds"
+		texture_specular = "ep1_materials_wall_trimsheet_01_a_g1_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_goidelic_thronewall_entity"
+	pdxmesh = "cfp_court_goidelic_thronewall_mesh"
+}
+
+#Grandeur 3
+pdxmesh = {
+	name = "cfp_court_goidelic_thronewall_g1_mesh"
+	file = "cfp_court_norman_thronewall_g1.mesh"
+
+
+	meshsettings = {
+		name = "cfp_court_norman_thronewall_g1Shape"
+		index = 0
+		texture_diffuse = "ep1_materials_wall_fresco_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_wall_fresco_01_a_normal.dds"
+		texture_specular = "ep1_materials_wall_fresco_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_norman_thronewall_g1Shape"
+		index = 1
+		texture_diffuse = "ep1_materials_wall_trimsheet_01_a_g1_diffuse.dds"
+		texture_normal = "ep1_materials_wall_trimsheet_01_a_g1_normal.dds"
+		texture_specular = "ep1_materials_wall_trimsheet_01_a_g1_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_goidelic_thronewall_g1_entity"
+	pdxmesh = "cfp_court_goidelic_thronewall_g1_mesh"
+}

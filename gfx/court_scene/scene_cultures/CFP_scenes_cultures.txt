@@ -4,6 +4,12 @@
 	}
 }
 
+goidelic = {
+	trigger = {
+		has_graphical_goidelic_culture_group_trigger = yes
+	}
+}
+
 ## Redefine western to exclude normans from it
 western = {
 	trigger = {
@@ -14,6 +20,9 @@ western = {
 				has_graphical_norse_culture_group_trigger = yes
 			}
 		}
-		NOT = { has_graphical_norman_culture_group_trigger = yes }
+		NOR = { 
+			has_graphical_norman_culture_group_trigger = yes
+			has_graphical_goidelic_culture_group_trigger = yes
+		}
 	}
 }

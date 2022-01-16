@@ -4,3 +4,10 @@
 		has_culture = culture:norman
 	}
 }
+
+has_graphical_goidelic_culture_group_trigger = {
+	OR = {
+		has_culture = culture:irish
+		has_culture = culture:gaelic
+	}
+}
