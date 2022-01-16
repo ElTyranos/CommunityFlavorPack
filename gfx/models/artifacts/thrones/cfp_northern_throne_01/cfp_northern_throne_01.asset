@@ -16,7 +16,7 @@ pdxmesh = {
 entity = {
 	name = "cfp_northern_throne_01_entity"
 	pdxmesh = "cfp_northern_throne_01_mesh"
-	locator = { name = ruler_locator position = { 0 72 -18 } }
+	locator = { name = ruler_locator position = { 0 50 -18 } }
 	
 	game_data = {
 		throne_entity_user_data = {
