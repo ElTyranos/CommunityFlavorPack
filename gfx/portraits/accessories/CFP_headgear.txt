@@ -247,7 +247,7 @@ male_headgear_secular_western_pillbox_common_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_common_01_entity 	 }		
 }
 male_headgear_secular_western_pillbox_common_02 = {
-	set_tags = "no_hair"
+	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_pillbox_common_02_entity 	 }		
 }
 male_headgear_secular_western_pillbox_low_01 = {
