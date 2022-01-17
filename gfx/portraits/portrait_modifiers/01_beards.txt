@@ -132,22 +132,7 @@ beards = {
             modifier = {
                 add = 200
                 exists = this
-				AND = {
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
-				}
+				cfp_portrait_orthodox_clergy_beard = yes
             }
         }
     }
@@ -198,22 +183,7 @@ beards = {
             modifier = {
                 add = 200
                 exists = this
-				AND = {
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
-				}
+				cfp_portrait_orthodox_clergy_beard = yes
             }
         }
     }
@@ -277,20 +247,7 @@ beards = {
 						portrait_mena_clothing_trigger = yes
 						portrait_african_clothing_trigger = yes
 					}
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -355,20 +312,7 @@ beards = {
 						portrait_mena_clothing_trigger = yes
 						portrait_african_clothing_trigger = yes
 					}
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -419,20 +363,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_indian_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -483,20 +414,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_indian_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -549,20 +467,7 @@ beards = {
 						category = gene_hair_type
 						template = hair_straight_thin_beard
 					}
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -613,20 +518,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_steppe_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -677,20 +569,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_steppe_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -741,20 +620,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_northern_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -805,20 +671,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_northern_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -862,20 +715,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_african_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -926,20 +766,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_fp1_norse_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
@@ -990,20 +817,7 @@ beards = {
                 exists = this
 				AND = {
 					portrait_fp1_norse_clothing_trigger = yes
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
-						portrait_has_trait_trigger = { TRAIT = devoted }
-					}
-					OR = {
-						faith = faith:orthodox
-						faith = faith:armenian_apostolic
-						faith = faith:coptic
-						faith = faith:messalian
-						faith = faith:bogomilist
-						faith = faith:paulician
-						faith = faith:nestorian
-					}
+					cfp_portrait_orthodox_clergy_beard = yes
 				}
             }
         }
