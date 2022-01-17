@@ -260,52 +260,42 @@
 		gene = headgear
 		template = norman_war
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = norman_sicily_war
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = anglo_saxon_royalty
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = hungarian_high_nobility
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = hungarian_royalty
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = hungarian_war
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = slavic_high_nobility
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = slavic_royalty
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = slavic_imperial
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = albanian_royalty
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = slavic_war
@@ -347,7 +337,6 @@
 		gene = headgear
 		template = rre_imperial
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = trait_laurel
@@ -416,7 +405,6 @@
 		gene = headgear
 		template = andalusian_war_high_nobility
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = iranian_common
@@ -468,59 +456,56 @@
 		gene = headgear
 		template = turkic_common
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = turkic_nobility
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = turkic_high_nobility
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = oghuz_low_nobility
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = oghuz_high_nobility
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = turkic_royalty
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = turkic_war
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = turkic_war_fullplate
 	}
 ########### /CFP ###########
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sub_saharan_common
 	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sub_saharan_high_nobility
 	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sub_saharan_royalty
 	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sub_saharan_imperial
 	}
-	
+
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
@@ -534,7 +519,6 @@
 		gene = headgear
 		template = west_african_war
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = central_african_low_nobility
@@ -547,7 +531,6 @@
 		gene = headgear
 		template = central_african_war
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = east_african_common
@@ -578,6 +561,7 @@
 		gene = headgear
 		template = indian_common
 	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = indian_nobility
@@ -608,7 +592,6 @@
 		gene = headgear
 		template = javanese_nobility
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = javanese_royalty
@@ -697,12 +680,10 @@
 		gene = headgear
 		template = crusades_western_commoner
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = crusades_western
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = crusades_western_black
@@ -716,7 +697,6 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-
 	add_accessory_modifiers = {
 		gene = headgear
 		template = western_stealth
@@ -781,7 +761,7 @@
 		gene = headgear
 		template = religious_orthodox_head
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_zoroastrian_high
@@ -792,7 +772,6 @@
 		gene = headgear
 		template = religious_buddhist_tibetan_mask
 	}
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_jewish_common_western
@@ -812,7 +791,7 @@
 		gene = headgear
 		template = religious_jewish_head
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_muslim_high
@@ -883,7 +862,7 @@
 			base = 0
 		}
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = ep1_jester
