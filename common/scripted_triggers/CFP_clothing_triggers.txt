@@ -410,7 +410,7 @@ cfp_portrait_tibetan_clothing_contents_trigger = {
 	}
 }
 
-# wear_helmet_trigger but for dukes
+## wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	OR = {
 		primary_title.tier = tier_duchy
