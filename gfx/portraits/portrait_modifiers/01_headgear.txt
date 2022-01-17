@@ -63,7 +63,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 200
-                exists = this
+				exists = this
 				this = character:33922
 			}
 		}
@@ -805,7 +805,6 @@ headgear = {
 			}
 		}
 	}
-
 
 	ep1_western_royalty = {
 		dna_modifiers = {

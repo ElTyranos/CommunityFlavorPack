@@ -169,7 +169,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
-					this = character:33922 # Prophet Muhammad
+                    this = character:33922 # Prophet Muhammad
                 }
             }
         }
@@ -201,7 +201,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
-					this = character:33922 # Prophet Muhammad
+                    this = character:33922 # Prophet Muhammad
                 }
             }
         }
@@ -233,7 +233,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
-					this = character:33922 # Prophet Muhammad
+                    this = character:33922 # Prophet Muhammad
                 }
             }
         }
@@ -265,7 +265,7 @@ hairstyles = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
-					this = character:33922 # Prophet Muhammad
+                    this = character:33922 # Prophet Muhammad
                 }
             }
         }
@@ -1121,7 +1121,7 @@ hairstyles = {
             base = 0
             modifier = {
                 add = 101
-		exists = this
+				exists = this
 				OR = {
 					religion = religion:christianity_religion
 				}
@@ -1152,7 +1152,7 @@ hairstyles = {
             base = 0
             modifier = {
                 add = 101
-		exists = this
+				exists = this
 				is_male = yes
 				NOT = { has_game_rule = never_cfp_baldtrait }
 				NOR = {
@@ -1179,7 +1179,7 @@ hairstyles = {
 					}
 					AND = {
 						age >= 45
-					portrait_has_trait_trigger = { TRAIT = beauty_bad_1 }
+						portrait_has_trait_trigger = { TRAIT = beauty_bad_1 }
 					}
 				}
             }
@@ -1205,7 +1205,7 @@ hairstyles = {
             }
             modifier = {
                 add = 100
-		exists = this
+				exists = this
 				AND = {
 					is_male = yes
 					OR = {
