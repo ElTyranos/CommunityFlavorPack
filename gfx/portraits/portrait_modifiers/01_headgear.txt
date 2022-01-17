@@ -5578,13 +5578,6 @@ headgear = {
 				}
 				portrait_northern_clothing_spouse_trigger = yes
 			}
-			modifier = {
-				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
-				add = -1000
-				cfp_portrait_norse_clothing_spouse_trigger = yes
-				has_fp1_dlc_trigger = yes
-				NOT = { has_government = republic_government }
-			}
 		}
 	}
 
@@ -5613,13 +5606,6 @@ headgear = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_northern_clothing_trigger = yes
-			}
-			modifier = {
-				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
-				add = -1000
-				cfp_portrait_norse_clothing_trigger = yes
-				has_fp1_dlc_trigger = yes
-				NOT = { has_government = republic_government }
 			}
 		}
 	}
@@ -5681,13 +5667,6 @@ headgear = {
 				    }
 				}
 			}
-			modifier = {
-				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
-				add = -1000
-				cfp_portrait_norse_clothing_trigger = yes
-				has_fp1_dlc_trigger = yes
-				NOT = { has_government = republic_government }
-			}
 		}
 	}
 
@@ -5711,7 +5690,6 @@ headgear = {
 					cfp_portrait_norse_clothing_trigger = yes
 					has_fp1_dlc_trigger = no
 				}
-				
 				NOR = {
 				    AND = {
 				        religion = religion:christianity_religion

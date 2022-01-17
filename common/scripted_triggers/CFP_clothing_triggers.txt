@@ -1,4 +1,4 @@
-cfp_allow_nudity_in_barbershop_trigger = {
+﻿cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -505,19 +505,6 @@ portrait_steppe_clothing_contents_trigger = {
 		this = culture:chuvash # Burtas
 		this = culture:shatuo #Sinicized turks of northern China
 		this = culture:ongud #Mongolicized turks of the Ordos region
-	}
-}
-portrait_northern_clothing_contents_trigger = {
-	OR = {
-		has_clothing_gfx = northern_clothing_gfx
-		AND = {
-			has_fp1_dlc_trigger = yes
-			OR = {
-				this = culture:anglo_saxon
-				this = culture:old_saxon
-				this = culture:scottish
-			}
-		}
 	}
 }
 portrait_mena_clothing_contents_trigger = {

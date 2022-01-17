@@ -1,4 +1,4 @@
-﻿
+
 clothes = {
 
 	usage = game
@@ -2841,15 +2841,8 @@ latin_venetian_royalty = {
 						}
 						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					portrait_northern_clothing_trigger = yes
 				}
-			}
-			modifier = {
-				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
-				add = -1000
-				cfp_portrait_norse_clothing_trigger = yes
-				has_fp1_dlc_trigger = yes
-				NOT = { has_government = republic_government }
+				portrait_northern_clothing_trigger = yes
 			}
 		}
 	}
@@ -2924,13 +2917,6 @@ latin_venetian_royalty = {
 					portrait_northern_clothing_trigger = yes
 				}
 			}
-			modifier = {
-				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
-				add = -1000
-				cfp_portrait_norse_clothing_trigger = yes
-				has_fp1_dlc_trigger = yes
-				NOT = { has_government = republic_government }
-			}
 		}
 	}
 
@@ -3003,13 +2989,6 @@ latin_venetian_royalty = {
 					portrait_northern_clothing_trigger = yes
 				}
 			}
-			modifier = {
-				# If player has DLC, disable CFP Norse trigger so they don't use northern assets
-				add = -1000
-				cfp_portrait_norse_clothing_trigger = yes
-				has_fp1_dlc_trigger = yes
-				NOT = { has_government = republic_government }
-			}
 		}
 	}
 
@@ -3035,18 +3014,11 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
-				portrait_fp1_norse_clothing_trigger = yes
+				portrait_northern_clothing_trigger = yes
 			}
 			modifier = {
 				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
 				portrait_wear_armor_currently_in_army_trigger = yes
-			}
-			# Specific modifier for norses or fp1_norse_war is overwritten by 102 value
-			modifier = {
-				add = 102 # CFP: 102 instead of 101 to force over western armor for anglo-saxons
-				portrait_wear_armor_trigger = yes
-				portrait_northern_clothing_trigger = yes
-				portrait_fp1_norse_clothing_trigger = no
 			}
 		}
 	}
