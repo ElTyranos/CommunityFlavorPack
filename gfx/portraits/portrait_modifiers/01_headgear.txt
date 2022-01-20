@@ -551,7 +551,10 @@ headgear = {
 							highest_held_title_tier = tier_barony
 						}
 						primary_spouse = {
-							portrait_western_clothing_spouse_trigger = yes ## this was placed in a OR ??
+							OR = {
+								portrait_western_clothing_spouse_trigger = yes
+								portrait_northern_clothing_spouse_trigger = yes
+							}
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -561,7 +564,7 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								AND = {
+								OR = {
 									portrait_fp1_norse_clothing_spouse_trigger = no
 									AND = {
 										portrait_fp1_norse_clothing_spouse_trigger = yes
@@ -570,13 +573,13 @@ headgear = {
 											religion = religion:germanic_religion
 										}
 									}
-								}
-								AND = {
-									cfp_portrait_norse_clothing_spouse_trigger = yes
-									has_fp1_dlc_trigger = no
-									NOR = {
-										has_government = tribal_government
-										religion = religion:germanic_religion
+									AND = {
+										cfp_portrait_norse_clothing_spouse_trigger = yes
+										has_fp1_dlc_trigger = no
+										NOR = {
+											has_government = tribal_government
+											religion = religion:germanic_religion
+										}
 									}
 								}
 							}
@@ -650,6 +653,10 @@ headgear = {
 						}
 						primary_spouse = {
 							OR = {
+								portrait_western_clothing_spouse_trigger = yes
+								portrait_northern_clothing_spouse_trigger = yes
+							}
+							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
 									has_government = republic_government
@@ -658,8 +665,7 @@ headgear = {
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							OR = {
-								portrait_western_clothing_spouse_trigger = yes
-								AND = {
+								OR = {
 									portrait_fp1_norse_clothing_spouse_trigger = no
 									AND = {
 										portrait_fp1_norse_clothing_spouse_trigger = yes
@@ -668,20 +674,20 @@ headgear = {
 											religion = religion:germanic_religion
 										}
 									}
-								}
-								AND = {
-									cfp_portrait_norse_clothing_spouse_trigger = yes
-									has_fp1_dlc_trigger = no
-									NOR = {
-										has_government = tribal_government
-										religion = religion:germanic_religion
+									AND = {
+										cfp_portrait_norse_clothing_spouse_trigger = yes
+										has_fp1_dlc_trigger = no
+										NOR = {
+											has_government = tribal_government
+											religion = religion:germanic_religion
+										}
 									}
 								}
 							}
 						}
 					}
 				}
-				
+				# This part bellow is from western_war
 				NOR = {
 				    AND = {
 				        religion = religion:christianity_religion
@@ -1725,18 +1731,17 @@ headgear = {
 				add = 101
 				exists = this
 				OR = {
-					primary_title = title:k_italy
-					primary_title = title:e_italy
+					AND = { 
+						exists = primary_title
+						primary_title = title:k_italy
+					}
+					AND = {
+						exists = primary_title
+						primary_title = title:e_italy
+						has_title = title:k_italy
+					}
 				}
 			}
-			# modifier = {
-				# add = 101
-				# has_title = title:k_italy
-				# NAND = { 
-					# exists = title:e_italy.holder
-					# NOT = { has_title = title:e_italy }
-				# }
-			# }
 		}
 	}
 
@@ -1755,7 +1760,10 @@ headgear = {
 				add = 101
 				exists = this
 				NOT = { is_female = yes }
-				primary_title = title:k_venice
+				AND = { 
+					exists = primary_title
+					primary_title = title:k_venice
+				}
 			}
 		}
 	}
@@ -1979,8 +1987,12 @@ headgear = {
 				add = 101
 				exists = this
 				OR = {
-					primary_title = title:k_castille
 					AND = {
+						exists = primary_title
+						primary_title = title:k_castille
+					}
+					AND = {
+						exists = primary_title
 						primary_title = title:e_spain
 						has_title = title:k_castille
 					}
@@ -2004,8 +2016,12 @@ headgear = {
 				add = 101
 				exists = this
 				OR = {
-					primary_title = title:k_aragon
 					AND = {
+						exists = primary_title
+						has_title = title:k_aragon
+					}
+					AND = {
+						exists = primary_title
 						primary_title = title:e_spain
 						has_title = title:k_aragon
 					}
@@ -2028,10 +2044,20 @@ headgear = {
 			modifier = {
 				add = 101
 				exists = this
-				primary_title = title:k_aragon
 				portrait_wear_helmet_trigger = yes
 				cfp_era_high_medieval_trigger = yes
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+				OR = {
+					AND = {
+						exists = primary_title
+						has_title = title:k_aragon
+					}
+					AND = {
+						exists = primary_title
+						primary_title = title:e_spain
+						has_title = title:k_aragon
+					}
+				}
 			}
 		}
 	}
@@ -2374,8 +2400,14 @@ headgear = {
 				cfp_portrait_slavic_clothing_trigger = yes
 				cfp_era_late_medieval_trigger = yes
 				OR = {
+					AND = {
+						exists = primary_title
 					primary_title = title:d_dyrrachion
+					}
+					AND = {
+						exists = primary_title
 					primary_title = title:k_epirus
+					}
 				}
 			}
 		}
@@ -6072,6 +6104,7 @@ headgear = {
 		}
 	}
 
+
 ## Anglo-Saxons ##
 	anglo_saxon_royalty = {
 		dna_modifiers = {
@@ -6087,10 +6120,15 @@ headgear = {
 			modifier = {
 				add = 101
 				exists = this
-				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				cfp_portrait_anglo_saxon_clothing_trigger = yes
-				NOT = { culture = { has_cultural_era_or_later = culture_era_early_medieval } }
-				primary_title = title:d_norfolk # East Anglia
+				NOR = { 
+					has_game_rule = never_cfp_fullplate_helmets
+					culture = { has_cultural_era_or_later = culture_era_early_medieval }
+				}
+				AND = {
+					exists = primary_title
+					primary_title = title:d_norfolk # East Anglia
+				}
 			}
 		}
 	}
@@ -6126,35 +6164,43 @@ headgear = {
 			}
 			modifier = {
 				add = 50
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				exists = this
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				portrait_african_clothing_spouse_trigger = yes
 			}
 			modifier = {
 				## Let's add this otherwise eastern african male low nobles have nothing to wear
 				add = 50
-				highest_held_title_tier = tier_county
-				NOR = {
-					# has_dynasty = no
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
+				exists = this
+				scope:highest_held_title_tier = tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						# has_dynasty = no
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_east_africa_clothing_trigger = yes
+				portrait_african_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -6172,27 +6218,11 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						portrait_african_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -6201,11 +6231,33 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							portrait_african_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_african_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 2
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_african_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					portrait_african_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -6223,35 +6275,111 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
-						portrait_african_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_african_clothing_spouse_trigger = yes
+							portrait_african_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_kingdom
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+								NOT = { has_government = republic_government }
+								portrait_african_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_kingdom
+					portrait_african_clothing_trigger = yes
+				}
 
+			}
+		}
+	}
+
+	ep1_sub_saharan_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_sub_saharan_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							OR = {
+								portrait_african_clothing_trigger = yes
+								AND = {
+									culture = {
+										has_cultural_pillar = heritage_east_african
+									}
+									NOT = {
+										religion = religion:islam_religion
+									}
+								}
+							}
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_kingdom
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+								NOT = { has_government = republic_government }
+								portrait_african_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_kingdom
+					portrait_african_clothing_trigger = yes
+				}
+
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
 			}
 		}
 	}
@@ -6269,17 +6397,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
-				portrait_can_use_noble_headgear_trigger = yes
-				highest_held_title_tier = tier_empire
-				NOR = {
-					AND = { is_ruler = yes has_government = mercenary_government  }
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					NOR = {
+						AND = { is_ruler = yes has_government = mercenary_government  }
+						has_government = republic_government
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
 				}
+				scope:highest_held_title_tier = tier_empire
 				portrait_african_clothing_trigger = yes
 			}
 		}
 	}
+
 
 	sub_saharan_war = {
 		dna_modifiers = {
@@ -6294,6 +6426,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 100
+				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_african_clothing_trigger = yes
@@ -6407,27 +6540,11 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 60
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						cfp_portrait_west_africa_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -6436,11 +6553,33 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_west_africa_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							cfp_portrait_west_africa_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 2
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								cfp_portrait_west_africa_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					cfp_portrait_west_africa_clothing_spouse_trigger = yes
+				}
 			}
 		}
 	}
@@ -6458,6 +6597,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
+				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_west_africa_clothing_trigger = yes
@@ -6523,22 +6663,26 @@ headgear = {
 			}
 			modifier = {
 				add = 60
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				exists = this
+				is_female = yes # nothing for males
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				cfp_portrait_east_africa_clothing_spouse_trigger = yes
-				is_female = yes # nothing for males
 			}
 		}
 	}
@@ -6610,27 +6754,11 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 60
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						cfp_portrait_east_africa_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -6639,11 +6767,33 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_east_africa_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							cfp_portrait_east_africa_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 2
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								cfp_portrait_east_africa_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					cfp_portrait_east_africa_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -6661,35 +6811,42 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 60
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
-						cfp_portrait_east_africa_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							cfp_portrait_east_africa_clothing_spouse_trigger = yes
+							cfp_portrait_east_africa_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_kingdom
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+								NOT = { has_government = republic_government }
+								cfp_portrait_east_africa_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_kingdom
+					portrait_african_clothing_trigger = yes
+				}
+				
 			}
 		}
 	}
@@ -6707,13 +6864,16 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 60
-				portrait_can_use_noble_headgear_trigger = yes
-				highest_held_title_tier = tier_empire
-				NOR = {
-					AND = { is_ruler = yes has_government = mercenary_government  }
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					NOR = {
+						AND = { is_ruler = yes has_government = mercenary_government  }
+						has_government = republic_government
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
 				}
+				scope:highest_held_title_tier = tier_empire
 				cfp_portrait_east_africa_clothing_trigger = yes
 			}
 		}
@@ -6732,6 +6892,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
+				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_east_africa_clothing_trigger = yes
@@ -6843,27 +7004,11 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 60
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						cfp_portrait_central_africa_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -6872,11 +7017,33 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_central_africa_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							cfp_portrait_central_africa_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 2
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								cfp_portrait_central_africa_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					cfp_portrait_central_africa_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -6894,6 +7061,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 101
+				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_central_africa_clothing_trigger = yes
@@ -6954,6 +7122,7 @@ headgear = {
 	        base = 0
 	        modifier = {
 				add = 150 ## overwrite default class if rule is active
+				exists = this
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				OR = {
 					is_theocratic_lessee = yes
@@ -6986,6 +7155,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = this
 				portrait_has_trait_trigger = { TRAIT = augustus }
 				AND = {
 					NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
@@ -7010,6 +7180,7 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				exists = this
 				OR = {
 					AND = {
 						portrait_has_trait_trigger = { TRAIT = scholar }
