@@ -412,9 +412,14 @@ cfp_portrait_tibetan_clothing_contents_trigger = {
 
 ## wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
+	exists = this
 	OR = {
-		primary_title.tier = tier_duchy
+		AND = { 
+			exists = primary_title
+			primary_title.tier = tier_duchy
+		}
 		AND = {
+			exists = primary_title
 			primary_title.tier >= tier_duchy
 			portrait_mena_clothing_trigger = yes
 		}
@@ -422,13 +427,10 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 	OR = {
 		is_commanding_army = yes
 		has_council_position = councillor_marshal
+		has_character_flag = single_combat_duel_armor
 		AND = {
-			is_ruler = yes
-			has_government = mercenary_government
-		}
-		AND = {
-			is_ruler = yes
-			has_government = holy_order_government
+			is_knight = yes
+			is_councillor = no
 		}
 	}
 	NAND = {
