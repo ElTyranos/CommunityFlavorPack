@@ -35,3 +35,4 @@
  setting_default_cfp_events_desc:0 "New custom events are available. This may change gameplay experience but game balance is preserved as much as possible."
  setting_never_cfp_events:1 "#high Never#!"
  setting_never_cfp_events_desc:0 "Custom events are disabled and won't be available."
+ 

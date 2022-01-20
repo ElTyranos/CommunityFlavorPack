@@ -35,3 +35,4 @@
  setting_default_cfp_events_desc:0 "Están disponibles nuevos eventos . Estos podrian afectar la experiencia en eljuego pero el equilibrio se intenta mantener todo lo posible."
  setting_never_cfp_events:1 "#high Nunca#!"
  setting_never_cfp_events_desc:0 "Los eventos del mod estarán desactivados y no estarán disponibles."
+ 
