@@ -567,10 +567,10 @@ accessory_genes = {
 		javanese_spymasters_dagger = {
 			index = 45
 			male = {
-				1 = cfp_kris_dagger_01
+				1 = cfp_kris_dagger_equipped_01
 			}
 			female = {
-				1 = cfp_kris_dagger_01		
+				1 = cfp_kris_dagger_equipped_01		
 			}
 			boy = male
 			girl = female

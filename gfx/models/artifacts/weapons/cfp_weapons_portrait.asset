@@ -1,9 +1,9 @@
 pdxmesh = {
-	name = "portrait_prop_cfp_kris_dagger_01_mesh"
-	file = "portrait_prop_cfp_kris_dagger_01.mesh"
+	name = "cfp_kris_dagger_01_portrait_mesh"
+	file = "cfp_kris_dagger_01_portrait.mesh"
 
 	meshsettings = {
-		name = "portrait_prop_cfp_kris_dagger_01Shape"
+		name = "cfp_kris_dagger_01_portraitShape"
 		index = 0
 		texture_diffuse = "cfp_kris_dagger_01_diffuse.dds"
 		texture_normal = "cfp_kris_dagger_01_normal.dds"
@@ -14,6 +14,6 @@ pdxmesh = {
 }
 
 entity = {
-	name = "portrait_prop_cfp_kris_dagger_01_entity"
-	pdxmesh = "portrait_prop_cfp_kris_dagger_01_mesh"
+	name = "cfp_kris_dagger_01_portrait_entity"
+	pdxmesh = "cfp_kris_dagger_01_portrait_mesh"
 }
