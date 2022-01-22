@@ -1009,6 +1009,12 @@ assets={ {
 		description="Carpet"
 		asset="ep1_western_carpet_01_a_entity"
 	}
+ {
+		position={ 415.000000 0.000000 -55.000000 }
+		direction=90.000000
+		description="Chair"
+		asset="ep1_deco_chair_01_a_entity"
+	}
  }
 artifacts={ {
 		locator="artifact_wall_large_1"

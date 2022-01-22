@@ -606,6 +606,34 @@ lights={ {
 			camera_near_far={ 0.100000 1000.000000 }
 		}
 	}
+ {
+		description="Candles"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=215.000000
+			intensity=50.000000
+			position={ -389.700012 174.800003 -470.399994 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.275208 0.023438 }
+			position_variation=0.500000
+			position_variation_frequency=100.000000
+			intensity_variation=1.000000
+			intensity_variation_frequency=200.000000
+			animation=yes
+			type=point_light
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -389.700012 174.800003 -470.399994 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
  }
 characters={ {
 		locator="Ruler"
@@ -1008,6 +1036,23 @@ assets={ {
 		position={ 0.000000 2.000000 266.000000 }
 		description="Carpet"
 		asset="ep1_western_carpet_01_a_entity"
+	}
+ {
+		position={ 422.500000 0.000000 -55.000000 }
+		direction=90.000000
+		description="Bench"
+		asset="cfp_norman_bench_01_entity"
+	}
+ {
+		position={ -420.000000 0.000000 195.000000 }
+		direction=-90.000000
+		description="Cupboard"
+		asset="ep1_deco_cupboard_01_b_entity"
+	}
+ {
+		position={ -403.200012 0.000000 -470.399994 }
+		description="Candles"
+		asset="ep1_western_candle_01_a_entity"
 	}
  }
 artifacts={ {
