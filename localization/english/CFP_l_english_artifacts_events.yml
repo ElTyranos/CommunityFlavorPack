@@ -13,12 +13,12 @@
  
  ## Kris Dagger
  cfp_artifact.0001.t:0 "A traveler arrives"
- cfp_artifact.0001.desc:0 "A man wearing nothing but a kind of colorful loincloth asks for an audience. \n\n« My name is [emissary.GetFullNameNoTooltipRegnal], I come from a very distant country. I was attacked by bandits near to your beautiful castle and I am scared to sleep outside. Would you host me tonight ? »"
+ cfp_artifact.0001.desc:0 "A man wearing nothing but a kind of colorful loincloth asks for an audience. \n\n« My name is [traveler.GetFullNameNoTooltip], I come from a very distant country. I was attacked by bandits near to your beautiful castle and I am scared to sleep outside. Would you host me tonight ? »"
  cfp_artifact.0001.a.1:0 "You beggar, get out of there!"
  cfp_artifact.0001.a.2:0 "Of course, you are my prisonner now."
  cfp_artifact.0001.a.3:0 "Come, we have a very comfortable stable with fresh hay!"
  
  cfp_artifact.0002.t:0 "The traveler has vanished"
- cfp_artifact.0002.desc:0 "You arrive in the stables early in the morning. It seems the traveler left before the sunrise without a trace. You see nothing but flattened hay and a small wrap of cloth."
+ cfp_artifact.0002.desc:0 "You arrive in the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] left before the sunrise without a trace. You see nothing but flattened hay and a small wrap of cloth."
  cfp_artifact.0002.a:0 "What is this ?"
  
