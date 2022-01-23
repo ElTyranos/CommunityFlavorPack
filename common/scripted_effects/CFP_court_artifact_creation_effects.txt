@@ -1,4 +1,4 @@
-﻿create_artifact_cfp_chess_set_effect = {
+create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	
@@ -112,4 +112,45 @@
 			}
 		}
 	}
+}
+
+create_artifact_cfp_iron_dagger_effect = {
+
+	$OWNER$ = { save_scope_as = owner }
+	
+	get_artifact_quality_effect = yes
+	get_artifact_wealth_effect = yes
+	
+	# Create the artifact
+	create_artifact = {
+		name = artifact_cfp_iron_dagger_name
+		description = artifact_cfp_iron_dagger_description
+		template = general_unique_template
+		type = pedestal
+		visuals = cfp_iron_dagger
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+			date = 670.1.1 #To order entries correctly
+		}
+		modifier = artifact_placeholder_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		add_scaled_artifact_modifier_intrigue_effect = yes
+		if = {
+			limit = {
+				OR = {
+					rarity = famed
+					rarity = illustrious
+				}
+			}
+			add_scaled_artifact_modifier_minor_prestige_effect = yes
+		}
+		remove_artifact_modifier = artifact_placeholder_modifier
+	}
+
 }

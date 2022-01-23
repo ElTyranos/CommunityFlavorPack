@@ -1,4 +1,4 @@
-﻿cfp_chess_set = {
+cfp_chess_set = {
 	default_type = pedestal
 	icon = "artifact_cfp_chess_set.dds"
 	pedestal = "tall_pillow"
@@ -22,4 +22,12 @@
 		}
 		reference = cfp_chess_set_02_entity
 	}
+}
+
+
+cfp_iron_dagger = {
+	icon = "artifact_dagger.dds"
+	default_type = pedestal
+	pedestal = "tall_pillow"
+	asset = cfp_western_dagger_01_entity
 }

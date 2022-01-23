@@ -1,4 +1,4 @@
-﻿namespace = cfp_historical_artifacts
+namespace = cfp_historical_artifacts
 # Generation of CFP historical artifacts #
 
 #Historical artifacts generator at game start
@@ -75,6 +75,27 @@ cfp_historical_artifacts.0001 = {
 					create_artifact_cfp_chess_set_effect = { OWNER = this }
 					add_character_flag = {
 						flag = seeded_chess_set
+						days = 1
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = { 
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+				has_dlc_feature = royal_court
+			}
+			while = {
+				count = 1
+				random_ruler = {
+					limit = {
+						has_royal_court = yes
+						NOT = {	has_character_flag = seeded_cfp_iron_dagger	}
+					}
+					create_artifact_cfp_iron_dagger_effect = { OWNER = this }
+					add_character_flag = {
+						flag = seeded_cfp_iron_dagger
 						days = 1
 					}
 				}
