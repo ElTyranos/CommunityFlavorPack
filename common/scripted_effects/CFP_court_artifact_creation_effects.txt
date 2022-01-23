@@ -1,4 +1,4 @@
-﻿create_artifact_cfp_chess_set_effect = {
+create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	
@@ -118,9 +118,9 @@ create_artifact_cfp_kris_dagger_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	# $MAKER$ = { save_scope_as = maker }
-
+	hidden_effect_new_artifact = {
 	# Intrigue education gives a nicer dagger
-	if = {
+		if = {
 		limit = {
 			OR = {
 				has_trait = education_intrigue_4
@@ -211,9 +211,11 @@ create_artifact_cfp_kris_dagger_effect = {
 				10 = { add_artifact_modifier = artifact_monthly_martial_lifestyle_xp_1_modifier }
 				2 = { add_artifact_modifier = artifact_martial_1_modifier }
 				5 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
-				5 = { add_artifact_modifier = artifact_stress_gain_1_modifier }
+					5 = { add_artifact_modifier = artifact_stress_gain_1_modifier }
+				}
+				add_artifact_modifier = artifact_intrigue_per_stress_level_1_modifier
 			}
-			add_artifact_modifier = artifact_intrigue_per_stress_level_1_modifier
+			
 		}
 	}
 }
@@ -222,15 +224,17 @@ create_artifact_cfp_iron_dagger_effect = {
 
 	$OWNER$ = { save_scope_as = owner }
 	
-	get_artifact_quality_effect = yes
-	get_artifact_wealth_effect = yes
+	hidden_effect_new_artifact = {
+		
+		get_artifact_quality_effect = yes
+		get_artifact_wealth_effect = yes
 	
-	# Create the artifact
-	create_artifact = {
-		name = artifact_cfp_iron_dagger_name
-		description = artifact_cfp_iron_dagger_description
-		template = general_unique_template
-		type = pedestal
+		# Create the artifact
+		create_artifact = {
+			name = artifact_cfp_iron_dagger_name
+			description = artifact_cfp_iron_dagger_description
+			template = general_unique_template
+			type = pedestal
 		visuals = cfp_iron_dagger
 		wealth = scope:wealth
 		quality = scope:quality
@@ -243,18 +247,18 @@ create_artifact_cfp_iron_dagger_effect = {
 		decaying = no
 	}
 
-	scope:newly_created_artifact = {
-		add_scaled_artifact_modifier_intrigue_effect = yes
-		if = {
-			limit = {
-				OR = {
-					rarity = famed
-					rarity = illustrious
+		scope:newly_created_artifact = {
+			add_scaled_artifact_modifier_intrigue_effect = yes
+			if = {
+				limit = {
+					OR = {
+						rarity = famed
+						rarity = illustrious
+					}
 				}
+				add_scaled_artifact_modifier_minor_prestige_effect = yes
 			}
-			add_scaled_artifact_modifier_minor_prestige_effect = yes
+			remove_artifact_modifier = artifact_placeholder_modifier
 		}
-		remove_artifact_modifier = artifact_placeholder_modifier
 	}
-
 }

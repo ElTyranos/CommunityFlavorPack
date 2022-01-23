@@ -1,0 +1,238 @@
+﻿namespace = cfp_artifact
+
+cfp_artifact.0001 = {
+	type = character_event
+	title = cfp_artifact.0001.t
+	desc = cfp_artifact.0001.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:traveler
+		animation = beg
+	}
+	
+	trigger = {
+		NOR = {
+			has_character_flag = had_event_cfp_artifact_0001
+			has_culture = culture:burmese
+			has_culture = culture:mon
+			location = { geographical_region = world_europe }	
+			location = { geographical_region = world_africa }
+			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				gender = male
+				age = { 35 50 }
+				learning = { 8 12 }
+				intrigue = { 6 8 }
+				trait = education_intrigue_3
+				faith = faith:theravada
+				culture = culture:burmese
+				location = root.capital_province
+				save_scope_as = traveler
+				dynasty = none
+			}
+			add_character_flag = {
+				flag = had_event_cfp_artifact_0001
+				days = 7300
+			}
+		}
+	}
+	
+	## Go away!
+	option = {
+		name = cfp_artifact.0001.a.1
+		
+		stress_impact = {
+			compassionate = medium_stress_impact_gain
+			generous = medium_stress_impact_gain
+			gregarious = minor_stress_impact_gain
+		}
+		
+		hidden_effect = {
+			scope:traveler = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_compassion = -1
+				ai_honor = -1
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_astray_level
+				}
+			}
+			add = 50
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_hostile_level
+				}
+			}
+			add = 100
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_evil_level
+				}
+			}
+			add = 200
+			}
+		}
+		
+	}
+	
+	## Jail
+	option = {
+		name = cfp_artifact.0001.a.2
+		add_dread = minor_dread_gain
+		
+		stress_impact = {
+			sadistic = major_stress_impact_loss
+			wrathful = minor_stress_impact_loss
+			lunatic_1 = minor_stress_impact_loss
+			lunatic_genetic = minor_stress_impact_loss
+			paranoid = medium_stress_impact_loss
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_compassion = -1
+				ai_zeal = -1
+			}
+			# modifier = {
+				# faith = {
+				# faith_hostility_level = {
+					# target = scope:traveler.faith
+					# value = faith_astray_level
+				# }
+			# }
+			# add = 50
+			# }
+			# modifier = {
+				# faith = {
+				# faith_hostility_level = {
+					# target = scope:traveler.faith
+					# value = faith_hostile_level
+				# }
+			# }
+			# add = 100
+			# }
+			# modifier = {
+				# faith = {
+				# faith_hostility_level = {
+					# target = scope:traveler.faith
+					# value = faith_evil_level
+				# }
+			# }
+			# add = 200
+			# }
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:traveler
+			IMPRISONER = root
+		}
+	}
+	
+	## Sleep in the stables
+	option = {
+		name = cfp_artifact.0001.a.3
+		
+		remove_short_term_gold = tiny_gold_value
+		
+		stress_impact = {
+			paranoid = medium_stress_impact_gain
+			callous = minor_stress_impact_gain
+			sadistic = medium_stress_impact_gain
+			zealous = major_stress_impact_gain
+		}
+				
+		ai_chance = {
+			base = 50
+
+			ai_value_modifier = {
+				ai_compassion = 1
+				ai_honor = 1
+				ai_zeal = -2
+				min = -45
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_hostile_level
+				}
+			}
+			add = -50
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_evil_level
+				}
+			}
+			add = -100
+			}
+		}
+		
+		trigger_event = {
+			id = cfp_artifact.0002
+			days = 1
+		}
+	}
+}
+cfp_artifact.0002 = {
+	type = character_event
+	title = cfp_artifact.0002.t
+	desc = cfp_artifact.0002.desc
+	theme = court
+	override_background = { event_background = courtyard }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		create_artifact_cfp_kris_dagger_effect = { 
+			OWNER = root
+		}
+		hidden_effect = {
+			scope:traveler = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	option = {
+		name = cfp_artifact.0002.a
+		show_as_tooltip = {
+			scope:newly_created_artifact = {
+				set_owner = {
+					target = root
+				}
+			}
+		}
+	}
+}

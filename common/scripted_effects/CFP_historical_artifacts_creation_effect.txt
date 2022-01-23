@@ -54,30 +54,32 @@ create_artifact_cfp_bayeux_tapestry_effect = {
 
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
-	set_artifact_rarity_illustrious = yes
 	
-	scope:owner = {
-		create_artifact = {
-			name = artifact_cfp_bayeux_tapestry_name
-			description = placeholder # Will be regenerated in the post-creation effects
-			template = cfp_bayeux_tapestry_template
-			type = book
-			visuals = cfp_bayeux_tapestry
-			wealth = scope:wealth
-			quality = scope:quality
-			creator = scope:maker
-			modifier = cfp_bayeux_tapestry_modifier
-			save_scope_as = newly_created_artifact
-			decaying = no
+	hidden_effect_new_artifact = {
+		set_artifact_rarity_illustrious = yes
+		
+		scope:owner = {
+			create_artifact = {
+				name = artifact_cfp_bayeux_tapestry_name
+				description = placeholder # Will be regenerated in the post-creation effects
+				template = cfp_bayeux_tapestry_template
+				type = book
+				visuals = cfp_bayeux_tapestry
+				wealth = scope:wealth
+				quality = scope:quality
+				creator = scope:maker
+				modifier = cfp_bayeux_tapestry_modifier
+				save_scope_as = newly_created_artifact
+				decaying = no
+			}
+		}
+
+		scope:newly_created_artifact = {
+			set_artifact_description = artifact_cfp_bayeux_tapestry_description
+			set_variable = { name = historical_unique_artifact value = yes }
+			save_scope_as = epic
 		}
 	}
-
-	scope:newly_created_artifact = {
-		set_artifact_description = artifact_cfp_bayeux_tapestry_description
-		set_variable = { name = historical_unique_artifact value = yes }
-		save_scope_as = epic
-	}
-
 }
 
 create_artifact_cfp_holy_lance_effect = { 
