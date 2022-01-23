@@ -1,4 +1,4 @@
-﻿namespace = cfp_title_event
+namespace = cfp_title_event
 
 cfp_title_event.0001 = {
 	type = character_event
@@ -57,7 +57,6 @@ cfp_title_event.0001 = {
 		trigger = {	character:148 = { is_alive = yes } }
 		trigger_event = {
 			id = cfp_title_event.0002
-			# days =  { 7 14 } # testing
 			days =  { 180 365 } # 6 months to 1 year
 		}
 	}
@@ -67,7 +66,6 @@ cfp_title_event.0001 = {
 		trigger = {	NOT = { character:148 = { is_alive = yes } } }
 		trigger_event = {
 			id = cfp_title_event.0002
-			# days =  { 7 14 } # testing
 			days =  { 180 365 } # 6 months to 1 year
 		}
 	}
