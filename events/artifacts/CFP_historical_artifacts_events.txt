@@ -87,32 +87,6 @@ cfp_historical_artifacts.0001 = {
 				has_dlc_feature = royal_court
 			}
 			while = {
-				count = 5
-				random_ruler = {
-					limit = {
-						has_royal_court = yes
-						NOR = {
-							has_character_flag = seeded_cfp_kris_dagger
-							has_title = title:k_pagan
-							location = { geographical_region = world_europe }	
-							location = { geographical_region = world_africa }
-						}
-					}
-					create_artifact_cfp_kris_dagger_effect = { OWNER = this }
-					add_character_flag = {
-						flag = seeded_cfp_kris_dagger
-						days = 1
-					}
-				}
-			}
-		}
-		
-		if = {
-			limit = { 
-				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
-				has_dlc_feature = royal_court
-			}
-			while = {
 				count = 1
 				random_ruler = {
 					limit = {
