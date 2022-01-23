@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
 artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
 
@@ -17,6 +17,8 @@ artifact_cfp_kure_skull_cup_description:0 "Once the head of a famous Kievan prin
 artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Chess set"
 artifact_cfp_chess_set_01_description:0 "An ceramic chess set made from a mixture of pulverized quartz, clay and coated by a glazed surface. The game is said to have originated from the near east and is attributed to many military victories. It is indeed said that the wiser you are playing chess, the better you'll fair in battle."
 
+artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Kris Dagger"
+artifact_cfp_kris_dagger_description:0 "Its blade looks strangely laminated and wavy. It belonged to a beggar native from a world known as Djawa. He disapeared the next day never to be seen again. May it have divine origins ?"
 
 artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Iron Dagger"
 artifact_cfp_iron_dagger_description:0 "There are many like it, but this one is unique. Forged with an iron ingot and a leather strip, this dagger is mostly used to pin notes on tables, eat or... kill a dragon. Eventually."

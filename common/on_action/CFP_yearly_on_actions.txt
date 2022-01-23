@@ -1,0 +1,27 @@
+﻿random_yearly_playable_pulse = {
+	trigger = {
+		basic_is_valid_for_yearly_events_trigger = yes
+	}
+	
+	random_on_action = {
+		chance_of_no_event = {
+			value = 75
+			if = {
+				limit = {
+					is_ai = yes
+					highest_held_title_tier < tier_duchy
+				}
+				add = 20 # AI counts aren't particularly important
+			}
+		} 
+		1 = cfp_artifact_1_on_action
+	}
+	
+}
+
+cfp_artifact_1_on_action = {
+	random_events = {
+		300 = 0
+		10 = cfp_artifact.0001 # A Burmese traveler might forget his Kris Dagger if you invite him
+	}
+}
