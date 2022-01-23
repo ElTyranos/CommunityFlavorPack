@@ -1,4 +1,4 @@
-create_artifact_cfp_chess_set_effect = {
+﻿create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	
@@ -121,101 +121,94 @@ create_artifact_cfp_kris_dagger_effect = {
 	hidden_effect_new_artifact = {
 	# Intrigue education gives a nicer dagger
 		if = {
-		limit = {
-			OR = {
-				has_trait = education_intrigue_4
-				has_trait = education_intrigue_3
+			limit = {
+				OR = {
+					scope:owner = { has_trait = education_intrigue_4 }
+					scope:owner = { has_trait = education_intrigue_3 }
+				}
+			}
+			set_artifact_rarity_illustrious = yes
+		}
+		else_if = {
+			limit = {
+				OR = {
+					scope:owner = { has_trait = education_intrigue_2 }
+					scope:owner = { has_trait = education_intrigue_1 }
+				}
+			}
+			set_artifact_rarity_famed = yes
+		}
+		else = {
+			get_artifact_quality_effect = yes
+			get_artifact_wealth_effect = yes
+		}
+		
+		scope:owner = {
+			create_artifact = {
+				name = artifact_cfp_kris_dagger_name
+				description = placeholder
+				template = general_unique_template
+				visuals = cfp_kris_dagger
+				type = pedestal
+				wealth = scope:wealth
+				quality = scope:quality
+				history = {
+					type = created_before_history
+					date = 670.1.1 #To order entries correctly
+				}
+				modifier = artifact_placeholder_modifier
+				save_scope_as = newly_created_artifact
 			}
 		}
-		set_artifact_rarity_illustrious = yes
-	}
-	else_if = {
-		limit = {
-			OR = {
-				has_trait = education_intrigue_2
-				has_trait = education_intrigue_1
-			}
-		}
-		set_artifact_rarity_famed = yes
-	}
-	else_if = {
-		get_artifact_quality_effect = yes
-		get_artifact_wealth_effect = yes
-	}
-	
-	scope:owner = {
-		create_artifact = {
-			name = artifact_cfp_kris_dagger_name
-			description = placeholder
-			visuals = cfp_kris_dagger
-			type = pedestal
-			wealth = scope:wealth
-			quality = scope:quality
-			history = {
-				type = created_before_history
-				date = 670.1.1 #To order entries correctly
-			}
-			modifier = artifact_monthly_intrigue_lifestyle_xp_1_modifier
-			save_scope_as = newly_created_artifact
-		}
-	}
 
-	scope:newly_created_artifact = {
-		set_artifact_description = artifact_cfp_kris_dagger_description
+		scope:newly_created_artifact = {
+			set_artifact_description = artifact_cfp_kris_dagger_description
 
-		if = {
-			limit = {
-				rarity = illustrious
+			if = {
+				limit = { rarity = illustrious }
+				random_list = {
+					15 = { add_artifact_modifier = artifact_intrigue_1_modifier }
+					10 = { add_scaled_artifact_modifier_prestige_effect = yes }
+					5 = { add_artifact_modifier = artifact_hostile_scheme_power_add_6_modifier }
+					5 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_6_modifier }
+				}
+				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_3_modifier
+				add_artifact_modifier = artifact_scheme_resistance_add_2_modifier
 			}
-			random_list = {
-				15 = { add_artifact_modifier = artifact_intrigue_1_modifier }
-				10 = { add_scaled_artifact_modifier_prestige_effect = yes }
-				5 = { add_artifact_modifier = artifact_hostile_scheme_power_add_6_modifier }
-				5 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_6_modifier }
+			if = {
+				limit = { rarity = famed }
+				random_list = {
+					10 = { add_artifact_modifier = artifact_intrigue_1_modifier }
+					10 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
+					5 = { add_artifact_modifier = artifact_hostile_scheme_power_add_4_modifier }
+					5 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_4_modifier }
+				}
+				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_2_modifier
+				add_artifact_modifier = artifact_scheme_resistance_add_1_modifier
 			}
-			add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_3_modifier
-			add_artifact_modifier = artifact_scheme_resistance_add_2_modifier
-			
-		}
-		else_if = {
-			limit = {
-				rarity = famed
+			if = {
+				limit = { rarity = masterwork }
+				random_list = {
+					5 = { add_artifact_modifier = artifact_intrigue_1_modifier }
+					10 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
+					7 = { add_artifact_modifier = artifact_hostile_scheme_power_add_2_modifier }
+					7 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_2_modifier }
+				}
+				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_1_modifier
+				add_artifact_modifier = artifact_intrigue_per_stress_level_2_modifier
 			}
-			random_list = {
-				10 = { add_artifact_modifier = artifact_intrigue_1_modifier }
-				10 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
-				5 = { add_artifact_modifier = artifact_hostile_scheme_power_add_4_modifier }
-				5 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_4_modifier }
-			}
-			add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_2_modifier
-			add_artifact_modifier = artifact_scheme_resistance_add_1_modifier
-		}
-		else_if = {
-			limit = {
-				rarity = masterwork
-			}
-			random_list = {
-				5 = { add_artifact_modifier = artifact_intrigue_1_modifier }
-				10 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
-				7 = { add_artifact_modifier = artifact_hostile_scheme_power_add_2_modifier }
-				7 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_2_modifier }
-			}
-			add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_1_modifier
-			add_artifact_modifier = artifact_intrigue_per_stress_level_2_modifier
-		} 
-		else_if = {
-			limit = {
-				rarity = common
-			}
-			random_list = {
-				10 = { add_artifact_modifier = artifact_monthly_martial_lifestyle_xp_1_modifier }
-				2 = { add_artifact_modifier = artifact_martial_1_modifier }
-				5 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
+			if = {
+				limit = { rarity = common }
+				random_list = {
+					10 = { add_artifact_modifier = artifact_monthly_martial_lifestyle_xp_1_modifier }
+					2 = { add_artifact_modifier = artifact_martial_1_modifier }
+					5 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
 					5 = { add_artifact_modifier = artifact_stress_gain_1_modifier }
 				}
 				add_artifact_modifier = artifact_intrigue_per_stress_level_1_modifier
 			}
 			
+			remove_artifact_modifier = artifact_placeholder_modifier
 		}
 	}
 }
@@ -235,17 +228,17 @@ create_artifact_cfp_iron_dagger_effect = {
 			description = artifact_cfp_iron_dagger_description
 			template = general_unique_template
 			type = pedestal
-		visuals = cfp_iron_dagger
-		wealth = scope:wealth
-		quality = scope:quality
-		history = {
-			type = created_before_history
-			date = 670.1.1 #To order entries correctly
+			visuals = cfp_iron_dagger
+			wealth = scope:wealth
+			quality = scope:quality
+			history = {
+				type = created_before_history
+				date = 670.1.1 #To order entries correctly
+			}
+			modifier = artifact_placeholder_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
 		}
-		modifier = artifact_placeholder_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
 
 		scope:newly_created_artifact = {
 			add_scaled_artifact_modifier_intrigue_effect = yes
