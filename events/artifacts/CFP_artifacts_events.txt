@@ -1,4 +1,4 @@
-﻿namespace = cfp_artifact
+namespace = cfp_artifact
 
 cfp_artifact.0001 = {
 	type = character_event
@@ -19,7 +19,7 @@ cfp_artifact.0001 = {
 			has_character_flag = had_event_cfp_artifact_0001
 			has_culture = culture:burmese
 			has_culture = culture:mon
-			location = { geographical_region = world_europe }	
+			location = { geographical_region = world_europe_north }
 			location = { geographical_region = world_africa }
 			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
 		}
@@ -116,35 +116,22 @@ cfp_artifact.0001 = {
 			base = 50
 			ai_value_modifier = {
 				ai_compassion = -1
-				ai_zeal = -1
+				ai_zeal = 1
 			}
 			# modifier = {
-				# faith = {
-				# faith_hostility_level = {
-					# target = scope:traveler.faith
-					# value = faith_astray_level
+				# OR = {
+					# has_trait = zealous
 				# }
+				# add = 100
 			# }
-			# add = 50
-			# }
-			# modifier = {
-				# faith = {
-				# faith_hostility_level = {
-					# target = scope:traveler.faith
-					# value = faith_hostile_level
-				# }
-			# }
-			# add = 100
-			# }
-			# modifier = {
-				# faith = {
-				# faith_hostility_level = {
-					# target = scope:traveler.faith
-					# value = faith_evil_level
-				# }
-			# }
-			# add = 200
-			# }
+			modifier = {
+				OR = {
+					has_trait = sadistic
+					has_trait = wrathful
+					has_trait = callous
+				}
+				add = 200
+			}
 		}
 
 		imprison_character_effect = {
@@ -164,6 +151,7 @@ cfp_artifact.0001 = {
 			callous = minor_stress_impact_gain
 			sadistic = medium_stress_impact_gain
 			zealous = major_stress_impact_gain
+			greedy = minor_stress_impact_gain
 		}
 				
 		ai_chance = {
@@ -173,7 +161,14 @@ cfp_artifact.0001 = {
 				ai_compassion = 1
 				ai_honor = 1
 				ai_zeal = -2
+				ai_greed = -1
 				min = -45
+			}
+			modifier = {
+				OR = {
+					has_trait = greedy
+				}
+				add = -100
 			}
 			modifier = {
 				faith = {
