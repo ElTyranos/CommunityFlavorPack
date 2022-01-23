@@ -12,7 +12,7 @@
  cfp_title_event.0002.a:0 "This is a magnificent tapestry!"
  
  ## Kris Dagger
- cfp_artifact.0001.t:0 "A traveler arrives"
+ cfp_artifact.0001.t:0 "$yearly.1090.t$" # We use vanilla name to confuse experienced players
  cfp_artifact.0001.desc:0 "A man wearing nothing but a kind of colorful loincloth asks for an audience. \n\n« My name is [traveler.GetFullNameNoTooltip], I come from a very distant country. I was attacked by bandits near to your beautiful castle and I am scared to sleep outside. Would you host me tonight ? »"
  cfp_artifact.0001.a.1:0 "You beggar, get out of there!"
  cfp_artifact.0001.a.2:0 "Of course, you are my prisonner now."
