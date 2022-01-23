@@ -89,16 +89,7 @@ cfp_title_event.0002 = {
 			OWNER = root
 			MAKER = scope:bishop
 		}
-		if = {
-			limit = { character:148 = { is_alive = yes } } ## Odo of Bayeux
-			character:148 = { save_scope_as = bishop }
-		}
-		else = {
-			limit = { exists = cp:councillor_court_chaplain	}
-			cp:councillor_court_chaplain = { save_scope_as = bishop	}
-		}
 	}
-	
 	option = {
 		name = cfp_title_event.0002.a
 	}
