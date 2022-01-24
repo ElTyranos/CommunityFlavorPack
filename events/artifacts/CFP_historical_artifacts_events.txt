@@ -84,8 +84,13 @@ cfp_historical_artifacts.0001 = {
 						flag = seeded_chess_set
 						days = 1
 					}
+					add_character_flag = {
+						flag = had_event_cfp_artifact_0011
+						days = 3650
+					}
 				}
 			}
+			
 		}
 		
 		if = {
