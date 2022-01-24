@@ -1,4 +1,4 @@
-create_artifact_cfp_chess_set_effect = {
+﻿create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
@@ -176,7 +176,7 @@ create_artifact_cfp_kris_dagger_effect = {
 				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_3_modifier
 				add_artifact_modifier = artifact_scheme_resistance_add_2_modifier
 			}
-			if = {
+			else_if = {
 				limit = { rarity = famed }
 				random_list = {
 					10 = { add_artifact_modifier = artifact_intrigue_1_modifier }
@@ -187,7 +187,7 @@ create_artifact_cfp_kris_dagger_effect = {
 				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_2_modifier
 				add_artifact_modifier = artifact_scheme_resistance_add_1_modifier
 			}
-			if = {
+			else_if = {
 				limit = { rarity = masterwork }
 				random_list = {
 					5 = { add_artifact_modifier = artifact_intrigue_1_modifier }
@@ -198,7 +198,7 @@ create_artifact_cfp_kris_dagger_effect = {
 				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_1_modifier
 				add_artifact_modifier = artifact_intrigue_per_stress_level_2_modifier
 			}
-			if = {
+			else_if = {
 				limit = { rarity = common }
 				random_list = {
 					10 = { add_artifact_modifier = artifact_monthly_martial_lifestyle_xp_1_modifier }
