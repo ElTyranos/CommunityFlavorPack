@@ -43,25 +43,20 @@ create_artifact_cfp_chess_set_effect = {
 		}
 		
 		scope:owner = {
-			# Create the artifact
 			create_artifact = {
 				name = artifact_cfp_chess_set_01_name
-				# creator = scope:owner
 				description = placeholder
 				visuals = cfp_chess_set
 				type = pedestal
 				wealth = scope:wealth
 				quality = scope:quality
-				modifier = artifact_monthly_martial_lifestyle_xp_1_modifier
-				history = {
-					type = created_before_history
-				}
+				creator = scope:maker
+				modifier = artifact_placeholder_modifier
 				save_scope_as = newly_created_artifact
 			}
 		}
 
 		scope:newly_created_artifact = {
-			get_artifact_feature_references_effect = yes
 			set_artifact_description = artifact_cfp_chess_set_01_description
 
 			if = {
@@ -114,6 +109,8 @@ create_artifact_cfp_chess_set_effect = {
 				}
 				add_scaled_artifact_modifier_combat_effect = yes
 			}
+			
+			remove_artifact_modifier = artifact_placeholder_modifier
 		}
 	}
 }
