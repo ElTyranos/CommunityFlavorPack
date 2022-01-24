@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  # Bayeux Tapestry
  cfp_title_event.0001.t:0 "A Norman initiative"
@@ -23,11 +23,11 @@ l_english:
  
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
  cfp_artifact.0011.t:0 "A game of chess"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks at the Council. \n\n"I am doing decent progress in my task to train our men. In order to provide our armies excellent commanders, may I suggest the court to invest in a most innovative game. This is a game of chess, which is said to be determining in the outcome of many battles.""
+ cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks at the Council. \n\n"I am doing decent progress in my task to train our men. In order to provide our armies excellent commanders, may I suggest the court invest in a most innovative game? This is a game of chess, which is said to have helped many generals determine how to achieve victory in battle.""
  cfp_artifact.0011.a:0 "War is not a game, get back to work."
- cfp_artifact.0011.b:0 "Any innovation that make our men better should be explored."
+ cfp_artifact.0011.b:0 "Any innovation that makes our men better should be explored."
  cfp_artifact.0011.c:0 "I think I played it once during my childhood. We should invest in a nice set."
- cfp_artifact.0012.desc:0 "My liege, I found this chess set at the local market. It looks rather basic but there's no missing pieces. \n\nI did not speak the tongue of the merchant who sold it to me, and he has already moved away, so I will try figure out the rules and come back to you as soon as I know how to play the game."
- cfp_artifact.0013.desc:0 "My liege, as soon as you approved this idea, I managed to order a beautiful chess set to a foreign artisan. \n\nWhile it took a long time to gather the pigment, this chess set looks magnificent. I did not speak the tongue of the artisan who sold it to me and [steward.GetFullNameNoTooltipRegnal] could not find a translator. \n\nAs the artisan has already moved away, I will try figure out the rules and come back to you as soon as I know how to play the game."
+ cfp_artifact.0012.desc:0 "My liege, I found this chess set at the local market. It looks rather basic but there's no missing pieces. \n\nI did not speak the tongue of the merchant who sold it to me but I think I figured out the rules. Hopefully this game will help us with strategical decisions."
+ cfp_artifact.0013.desc:0 "My liege, as soon as you approved this idea, I managed to order a beautiful chess set to a foreign artisan. \n\nWhile it took a long time to gather the pigment, this chess set looks magnificent. I did not speak the tongue of the artisan who sold it to me and [steward.GetFullNameNoTooltipRegnal] could not find a translator. \n\nYet, I think I managed to understand the rules. This game will surely help us with strategical decisions."
  cfp_artifact.0012.a:0 "Good work, [marshal.GetFirstNameNoTooltip]!"
  

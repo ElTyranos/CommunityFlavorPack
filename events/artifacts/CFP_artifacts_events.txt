@@ -1,4 +1,4 @@
-namespace = cfp_artifact
+﻿namespace = cfp_artifact
 
 # A Burmese traveler might forget his Kris Dagger if you invite him
 cfp_artifact.0001 = {
@@ -422,6 +422,5 @@ cfp_artifact.0013 = {
 				opinion = -5
 			}
 		}
-		
 	}
-}
+}
