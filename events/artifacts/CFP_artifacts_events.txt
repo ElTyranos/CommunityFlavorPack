@@ -26,23 +26,21 @@ cfp_artifact.0001 = {
 	}
 	
 	immediate = {
-		hidden_effect = {
-			create_character = {
-				gender = male
-				age = { 35 50 }
-				learning = { 8 12 }
-				intrigue = { 6 8 }
-				trait = education_intrigue_3
-				faith = faith:theravada
-				culture = culture:burmese
-				location = root.capital_province
-				save_scope_as = traveler
-				dynasty = none
-			}
-			add_character_flag = {
-				flag = had_event_cfp_artifact_0001
-				days = 7300
-			}
+		create_character = {
+			gender = male
+			age = { 35 50 }
+			learning = { 8 12 }
+			intrigue = { 6 8 }
+			trait = education_intrigue_3
+			faith = faith:theravada
+			culture = culture:burmese
+			location = root.capital_province
+			save_scope_as = traveler
+			dynasty = none
+		}
+		add_character_flag = {
+			flag = had_event_cfp_artifact_0001
+			days = 7300
 		}
 	}
 	
