@@ -1,4 +1,4 @@
-﻿namespace = cfp_historical_artifacts
+namespace = cfp_historical_artifacts
 # Generation of CFP historical artifacts #
 
 #Historical artifacts generator at game start
@@ -72,7 +72,14 @@ cfp_historical_artifacts.0001 = {
 							location = { geographical_region = world_africa_sahara }
 						}
 					}
-					create_artifact_cfp_chess_set_effect = { OWNER = this }
+					if = {
+						limit = { exists = cp:councillor_marshal }
+						cp:councillor_marshal = { save_scope_as = marshal }
+					}
+					create_artifact_cfp_chess_set_effect = {
+						OWNER = this
+						MAKER = scope:marshal
+					}
 					add_character_flag = {
 						flag = seeded_chess_set
 						days = 1
