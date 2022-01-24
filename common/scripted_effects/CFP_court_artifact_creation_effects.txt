@@ -1,6 +1,7 @@
 create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
+	$MAKER$ = { save_scope_as = maker }
 	
 	hidden_effect_new_artifact = {
 		
@@ -118,7 +119,7 @@ create_artifact_cfp_chess_set_effect = {
 create_artifact_cfp_kris_dagger_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
-	# $MAKER$ = { save_scope_as = maker }
+	
 	hidden_effect_new_artifact = {
 	# Intrigue education gives a nicer dagger
 		if = {
