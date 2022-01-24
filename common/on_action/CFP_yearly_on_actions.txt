@@ -23,6 +23,9 @@ cfp_artifact_1_on_action = {
 	random_events = {
 		chance_to_happen = 25
 		300 = 0
+		
 		20 = cfp_artifact.0001 # A Burmese traveler might forget his Kris Dagger if you invite him
+		
+		50 = cfp_artifact.0011 # Your marshal thinks that a chess set would help, and you can prove yourself worthy
 	}
 }

@@ -234,3 +234,194 @@ cfp_artifact.0002 = {
 		}
 	}
 }
+
+# Your marshal thinks that a chess set would help, and you can prove yourself worthy
+cfp_artifact.0011 = {
+	type = character_event
+	title = cfp_artifact.0011.t
+	desc = cfp_artifact.0011.desc
+	theme = martial_strategy_focus
+	left_portrait = {
+		character = scope:marshal
+		animation = marshal
+	}
+	
+	trigger = {
+		exists = cp:councillor_marshal
+		cp:councillor_marshal = { 
+			martial >= average_skill_level
+			basic_is_valid_for_yearly_events_trigger = yes
+			is_performing_council_task = task_train_commanders
+		}
+		NOR = {
+			has_character_flag = had_event_cfp_artifact_0011
+			location = { geographical_region = world_africa }
+			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				exists = cp:councillor_marshal
+			}
+			cp:councillor_marshal = { save_scope_as = marshal }
+		}
+		add_character_flag = {
+			flag = had_event_cfp_artifact_0011
+			days = 3650
+		}
+	}
+	
+	option = {
+		name = cfp_artifact.0011.a
+		debug_log = "CFP_Debug: a ruler was not interested in a chess set in cfp_artifact.0011"
+		
+		scope:marshal = {
+			add_opinion = {
+				target = root
+				modifier = respect_opinion
+				opinion = -5
+			}
+		}
+	}
+	option = {
+		name = cfp_artifact.0011.b
+		
+		remove_short_term_gold = minor_gold_value
+		add_prestige = 15
+		
+		add_character_flag = {
+			flag = paid_for_cheap_chess_set
+			days = 100
+		}
+		
+		trigger_event = {
+			id = cfp_artifact.0012
+			days = { 30 90 }
+		}
+	}
+	option = {
+		name = cfp_artifact.0011.c
+		
+		remove_short_term_gold = major_gold_value
+		add_prestige = minor_prestige_gain
+		
+		trigger = {
+			OR = {
+				has_trait = education_martial_4
+				has_trait = education_martial_3
+				has_trait = education_martial_2
+				has_trait = education_martial_1
+			}
+		}
+		
+		trigger_event = {
+			id = cfp_artifact.0013
+			days = { 60 120 }
+		}
+	}
+}
+cfp_artifact.0012 = {
+	type = character_event
+	title = cfp_artifact.0011.t
+	desc = cfp_artifact.0012.desc
+	theme = martial_strategy_focus
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:marshal
+		animation = flirtation_left
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		create_artifact_cfp_chess_set_effect = { 
+			OWNER = root
+			MAKER = scope:marshal
+		}
+	}
+	option = {
+		name = cfp_artifact.0012.a
+		debug_log = "CFP_Debug: a ruler got a common chess set in cfp_artifact.0011 chain"
+		
+		show_as_tooltip = {
+			scope:newly_created_artifact = {
+				set_owner = {
+					target = root
+				}
+			}
+		}
+		
+		scope:marshal = {
+			add_opinion = {
+				target = root
+				modifier = pleased_opinion
+				opinion = 5
+			}
+		}
+	}
+}
+cfp_artifact.0013 = {
+	type = character_event
+	title = cfp_artifact.0011.t
+	desc = cfp_artifact.0013.desc
+	theme = martial_strategy_focus
+	left_portrait = {
+		character = scope:steward
+		animation = shame
+	}
+	right_portrait = {
+		character = scope:marshal
+		animation = flirtation_left
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		if = {
+			limit = {
+				exists = cp:councillor_steward
+			}
+			cp:councillor_steward = { save_scope_as = steward }
+		}
+		create_artifact_cfp_chess_set_effect = { 
+			OWNER = root
+			MAKER = scope:marshal
+		}
+	}
+	option = {
+		name = cfp_artifact.0012.a
+		debug_log = "CFP_Debug: a ruler got a fancy chess set in cfp_artifact.0011 chain"
+		
+		show_as_tooltip = {
+			scope:newly_created_artifact = {
+				set_owner = {
+					target = root
+				}
+			}
+		}
+		
+		scope:marshal = {
+			add_opinion = {
+				target = root
+				modifier = pleased_opinion
+				opinion = 5
+			}
+		}
+		
+		scope:steward = {
+			add_opinion = {
+				target = scope:marshal
+				modifier = disappointed_opinion
+				opinion = -5
+			}
+		}
+		
+	}
+}
