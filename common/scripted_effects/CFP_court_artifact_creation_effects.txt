@@ -149,7 +149,6 @@ create_artifact_cfp_kris_dagger_effect = {
 			create_artifact = {
 				name = artifact_cfp_kris_dagger_name
 				description = placeholder
-				template = general_unique_template
 				visuals = cfp_kris_dagger
 				type = pedestal
 				wealth = scope:wealth
