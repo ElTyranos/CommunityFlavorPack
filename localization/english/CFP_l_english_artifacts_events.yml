@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  # Bayeux Tapestry
  cfp_title_event.0001.t:0 "A Norman initiative"
@@ -11,13 +11,12 @@
  cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] has news about his project. \n\n"I asked the best embroiderers of Normandy to carry out this tapestry. It tells why you claimed England and how you conquered it. I named it the Telle du Conquest.""
  cfp_title_event.0002.a:0 "This is a magnificent tapestry!"
  
- ## Kris Dagger
+ ## A Burmese traveler might forget his Kris Dagger if you invite him
  cfp_artifact.0001.t:0 "$yearly.1090.t$" # We use vanilla name to confuse experienced players
- cfp_artifact.0001.desc:0 "A man wearing nothing but a kind of colorful loincloth asks for an audience. \n\n« My name is [traveler.GetFullNameNoTooltip], I come from a very distant country. I was attacked by bandits near to your beautiful castle and I am scared to sleep outside. Would you host me tonight ? »"
- cfp_artifact.0001.a.1:0 "You beggar, get out of there!"
- cfp_artifact.0001.a.2:0 "Of course, you are my prisonner now."
- cfp_artifact.0001.a.3:0 "Come, we have a very comfortable stable with fresh hay!"
- 
+ cfp_artifact.0001.desc:0 "A man wearing nothing but a kind of colorful loincloth asks for an audience. \n\n"My name is [traveler.GetFullNameNoTooltip], I come from a very distant country. I was attacked by bandits near to your beautiful castle and I am scared to sleep outside. Would you host me tonight ?""
+ cfp_artifact.0001.a:0 "You beggar, get out of there!"
+ cfp_artifact.0001.b:0 "Of course, you are my prisonner now."
+ cfp_artifact.0001.c:0 "Come, we have a very comfortable stable with fresh hay!"
  cfp_artifact.0002.t:0 "The traveler has vanished"
  cfp_artifact.0002.desc:0 "You arrive in the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] left before the sunrise without a trace. You see nothing but flattened hay and a small wrap of cloth."
  cfp_artifact.0002.a:0 "What is this ?"

@@ -1,5 +1,6 @@
 namespace = cfp_artifact
 
+# A Burmese traveler might forget his Kris Dagger if you invite him
 cfp_artifact.0001 = {
 	type = character_event
 	title = cfp_artifact.0001.t
@@ -46,7 +47,8 @@ cfp_artifact.0001 = {
 	
 	## Go away!
 	option = {
-		name = cfp_artifact.0001.a.1
+		name = cfp_artifact.0001.a
+		debug_log = "CFP_Debug: traveler was denied entry in cfp_artifact.0001"
 		
 		stress_impact = {
 			compassionate = medium_stress_impact_gain
@@ -99,7 +101,9 @@ cfp_artifact.0001 = {
 	
 	## Jail
 	option = {
-		name = cfp_artifact.0001.a.2
+		name = cfp_artifact.0001.b
+		debug_log = "CFP_Debug: traveler was imprisoned in cfp_artifact.0001"
+		
 		add_dread = minor_dread_gain
 		
 		stress_impact = {
@@ -140,7 +144,8 @@ cfp_artifact.0001 = {
 	
 	## Sleep in the stables
 	option = {
-		name = cfp_artifact.0001.a.3
+		name = cfp_artifact.0001.c
+		debug_log = "CFP_Debug: traveler slept in the stables in cfp_artifact.0001"
 		
 		remove_short_term_gold = tiny_gold_value
 		
