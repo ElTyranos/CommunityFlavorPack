@@ -1,4 +1,4 @@
-namespace = cfp_historical_artifacts
+﻿namespace = cfp_historical_artifacts
 # Generation of CFP historical artifacts #
 
 #Historical artifacts generator at game start
