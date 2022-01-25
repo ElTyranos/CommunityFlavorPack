@@ -81,7 +81,12 @@ pattern_textures = {
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_03_normal.dds"
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_africa/nubian_03_properties.dds"
 }
-
+pattern_textures = {
+	name = "western_cfp_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/cfp_western/western_cfp_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/cfp_western/western_cfp_01_properties.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/cfp_western/western_cfp_01_normal.dds"
+}
 variation = {
 	name = "northern_war_gambeson_01"
 	pattern = { 
