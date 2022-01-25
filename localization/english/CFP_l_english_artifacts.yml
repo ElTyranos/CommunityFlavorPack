@@ -2,6 +2,7 @@ l_english:
 
 artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
 
+## Unique
 artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Telle du Conquest"
 artifact_cfp_bayeux_tapestry_description:0 "Merely a few meters from a tapestry of much magnificence. In a place named Hastings he removed his helmet to rally his troops. So [owner.GetFullNameRegnal] prevailed and became the Conqueror of England, his rightful heritage under God."
 
@@ -14,9 +15,11 @@ artifact_cfp_krum_skull_cup_description:0 "After his death in battle near [locat
 artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
 artifact_cfp_kure_skull_cup_description:0 "Once the head of [killed.GetFullNameNoTooltipRegnal], a famous Kievan prince. After an ambush led by [creator.GetFullNameNoTooltipRegnal] near [location.GetName], it became a drinking cup."
 
+## Games
 artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Chess set"
 artifact_cfp_chess_set_01_description:0 "An ceramic chess set made from a mixture of pulverized quartz, clay and coated by a glazed surface. The game is said to have originated from the near east and is attributed to many military victories. It is indeed said that the wiser you are playing chess, the better you'll fair in battle."
 
+## Weapons
 artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Kris Dagger"
 artifact_cfp_kris_dagger_description:0 "Its blade looks strangely laminated and wavy. It belonged to [traveler.GetFullName], a beggar native from a world known as Djawa. He disapeared the next day never to be seen again. May it have divine origins ?"
 
