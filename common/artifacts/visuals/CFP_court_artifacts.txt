@@ -37,3 +37,10 @@ cfp_iron_dagger = {
 	pedestal = "tall_pillow"
 	asset = cfp_western_dagger_01_entity
 }
+
+cfp_potato_jesus = {
+	icon = "artifact_cfp_potato_jesus.dds"
+	default_type = pedestal
+	pedestal = "tall"
+	asset = cfp_potato_jesus_entity
+}

@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "cfp_potato_jesus_mesh"
+	file = "cfp_potato_jesus.mesh"
+
+meshsettings = {
+		name = "cfp_potato_jesusShape"
+		index = 0
+		texture_diffuse = "cfp_potato_jesus_diffuse.dds"
+		texture_normal = "cfp_potato_jesus_normal.dds"
+		texture_specular = "cfp_potato_jesus_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_potato_jesus_entity"
+	pdxmesh = "cfp_potato_jesus_mesh"
+}
