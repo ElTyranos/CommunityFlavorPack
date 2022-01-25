@@ -256,3 +256,34 @@ create_artifact_cfp_iron_dagger_effect = {
 		}
 	}
 }
+
+create_artifact_cfp_potato_jesus_effect = {
+
+	$OWNER$ = { save_scope_as = owner }
+	$MAKER$ = { save_scope_as = maker }
+	
+	hidden_effect_new_artifact = {
+		
+		set_artifact_rarity_common = yes
+	
+		# Create the artifact
+		create_artifact = {
+			name = artifact_cfp_potato_jesus_name
+			description = artifact_cfp_potato_jesus_description
+			type = pedestal
+			visuals = cfp_potato_jesus
+			wealth = scope:wealth
+			quality = scope:quality
+			creator = scope:maker
+			modifier = artifact_placeholder_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
+		}
+
+		scope:newly_created_artifact = {
+			add_artifact_modifier = artifact_clergy_opinion_1_modifier
+			add_artifact_modifier = artifact_monthly_piety_1_modifier
+			remove_artifact_modifier = artifact_placeholder_modifier
+		}
+	}
+}

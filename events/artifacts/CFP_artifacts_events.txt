@@ -1,4 +1,4 @@
-﻿namespace = cfp_artifact
+namespace = cfp_artifact
 
 # A Burmese traveler might forget his Kris Dagger if you invite him
 cfp_artifact.0001 = {
@@ -234,6 +234,209 @@ cfp_artifact.0002 = {
 		}
 	}
 }
+
+# A local sculptor asks you to kickstart him so he can prove his talent
+cfp_artifact.0005 = {
+	type = character_event
+	title = cfp_artifact.0005.t
+	desc = cfp_artifact.0005.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:sculptor
+		animation = beg
+	}
+	
+	trigger = {
+		faith = { religion_tag = christianity_religion }
+		NOR = {
+			has_character_flag = had_event_cfp_artifact_0005
+			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			gender = male
+			age = { 20 60 }
+			trait = arrogant
+			trait = beauty_bad_2
+			location = root.capital_province
+			culture = root.culture
+			faith = root.faith
+			save_scope_as = sculptor
+			dynasty = none
+		}
+		add_character_flag = {
+			flag = had_event_cfp_artifact_0005
+			days = 7300
+		}
+	}
+	
+	## Go away!
+	option = {
+		name = cfp_artifact.0005.a
+		debug_log = "CFP_Debug: a ruler refused to be the benefactor of a local sculptor in cfp_artifact.0005"
+		stress_impact = {
+			zealous = medium_stress_impact_gain
+			generous = medium_stress_impact_gain
+			trusting = minor_stress_impact_gain
+		}
+		
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_zeal = -1
+				ai_greed = 1
+			}
+			modifier = {
+				gold < medium_gold_value
+				add = -100
+			}
+			modifier = {
+				has_trait = zealous
+				add = -75
+			}
+			modifier = {
+				OR = {
+					has_trait = cynical
+					has_trait = greedy
+				}
+				add = 100
+			}
+		}
+		
+		hidden_effect = {
+			scope:sculptor = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	
+	## Ok
+	option = {
+		name = cfp_artifact.0005.b
+		
+		remove_short_term_gold = medium_gold_value
+		
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+			cynical = medium_stress_impact_gain
+		}
+		trigger_event = {
+			id = cfp_artifact.0006
+			days = { 15 30 }
+		}
+		ai_chance = {
+			base = 75
+			ai_value_modifier = {
+				ai_zeal = 1
+			}
+			modifier = {
+				has_trait = zealous
+				add = 100
+			}
+		}
+	}
+}
+cfp_artifact.0006 = {
+	type = character_event
+	title = cfp_artifact.0006.t
+	desc = cfp_artifact.0006.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = dismissal
+	}
+	right_portrait = {
+		character = scope:sculptor
+		animation = shame
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		create_artifact_cfp_potato_jesus_effect = { 
+			OWNER = root
+			MAKER = scope:sculptor
+		}
+	}
+	option = {
+		name = cfp_artifact.0006.a
+		debug_log = "CFP_Debug: sculptor was dismissed in cfp_artifact.0006"
+		show_as_tooltip = {
+			scope:newly_created_artifact = {
+				set_owner = {
+					target = root
+				}
+			}
+		}
+		
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+			trusting = minor_stress_impact_gain
+		}
+		
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 1
+				ai_greed = -1
+			}
+		}
+		hidden_effect = {
+			scope:sculptor = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	option = {
+		name = cfp_artifact.0006.b
+		debug_log = "CFP_Debug: sculptor was imprisoned in cfp_artifact.0006"
+		show_as_tooltip = {
+			scope:newly_created_artifact = {
+				set_owner = {
+					target = root
+				}
+			}
+		}
+		
+		add_dread = minor_dread_gain
+		
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+			sadistic = major_stress_impact_loss
+			wrathful = minor_stress_impact_loss
+			lunatic_1 = minor_stress_impact_loss
+			lunatic_genetic = minor_stress_impact_loss
+		}
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_zeal = 1
+			}
+			modifier = {
+				OR = {
+					has_trait = sadistic
+					has_trait = wrathful
+					has_trait = callous
+				}
+				add = 200
+			}
+		}
+		
+		imprison_character_effect = {
+			TARGET = scope:sculptor
+			IMPRISONER = root
+		}
+		
+	}
+}
+
 
 # Your marshal thinks that a chess set would help, and you can prove yourself worthy
 cfp_artifact.0011 = {
