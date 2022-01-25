@@ -43,7 +43,15 @@ cfp_historical_artifacts.0001 = {
 				has_dlc_feature = royal_court
 				has_title = title:k_bulgaria
 			}
-			create_artifact_cfp_krum_skull_cup_effect = { OWNER = this }
+			character:159123 = { save_scope_as = creator }
+			character:70497 = { save_scope_as = deskulled }
+			province:3689 = { save_scope_as = location }
+			create_artifact_cfp_krum_skull_cup_effect = { 
+				OWNER = this
+				CREATOR = scope:creator
+				DESKULLED = scope:deskulled
+				LOCATION = scope:location
+			}
 		}
 		
 		random_ruler = {
@@ -52,7 +60,15 @@ cfp_historical_artifacts.0001 = {
 				has_dlc_feature = royal_court
 				has_title = title:k_pechenegs
 			}
-			create_artifact_cfp_kure_skull_cup_effect = { OWNER = this }
+			character:pecheneg000001 = { save_scope_as = creator }
+			character:602 = { save_scope_as = deskulled }
+			province:1071 = { save_scope_as = location }
+			create_artifact_cfp_kure_skull_cup_effect = { 
+				OWNER = this
+				CREATOR = scope:creator
+				DESKULLED = scope:deskulled
+				LOCATION = scope:location
+			}
 		}
 		
 		if = {

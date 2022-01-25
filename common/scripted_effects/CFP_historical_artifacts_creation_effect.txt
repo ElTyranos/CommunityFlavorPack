@@ -127,6 +127,10 @@ create_artifact_cfp_holy_lance_effect = {
 create_artifact_cfp_krum_skull_cup_effect = { 
 
 	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	$DESKULLED$ = { save_scope_as = killed }
+	$LOCATION$ = { save_scope_as = location }
+	
 	set_artifact_rarity_famed = yes
 
 	create_artifact = {
@@ -171,6 +175,10 @@ create_artifact_cfp_krum_skull_cup_effect = {
 create_artifact_cfp_kure_skull_cup_effect = { 
 
 	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	$DESKULLED$ = { save_scope_as = killed }
+	$LOCATION$ = { save_scope_as = location }
+	
 	set_artifact_rarity_famed = yes
 
 	create_artifact = {
