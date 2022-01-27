@@ -2,8 +2,31 @@ pdxmesh = {
 	name = "cfp_northern_throne_01_mesh"
 	file = "cfp_northern_throne_01.mesh"
 
+	lod_percentages = {
+		lod = { index = 1 percent = 45.0 }
+		lod = { index = 2 percent = 25.0 }
+	}
+
 	meshsettings = {
-		name = "cfp_northern_throne_01Shape"
+		name = "cfp_northern_throne_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_northern_throne_01_diffuse.dds"
+		texture_normal = "cfp_northern_throne_01_normal.dds"
+		texture_specular = "cfp_northern_throne_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_northern_throne_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "cfp_northern_throne_01_diffuse.dds"
+		texture_normal = "cfp_northern_throne_01_normal.dds"
+		texture_specular = "cfp_northern_throne_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_northern_throne_01_LOD2Shape"
 		index = 0
 		texture_diffuse = "cfp_northern_throne_01_diffuse.dds"
 		texture_normal = "cfp_northern_throne_01_normal.dds"
@@ -30,8 +53,21 @@ pdxmesh = {
 	name = "cfp_norman_throne_01_mesh"
 	file = "cfp_norman_throne_01.mesh"
 
-meshsettings = {
-		name = "cfp_norman_throne_01Shape"
+	lod_percentages = {
+		lod = { index = 1 percent = 45.0 }
+	}
+
+	meshsettings = {
+		name = "cfp_norman_throne_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_norman_throne_01_diffuse.dds"
+		texture_normal = "cfp_norman_throne_01_normal.dds"
+		texture_specular = "cfp_norman_throne_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_norman_throne_01_LOD1Shape"
 		index = 0
 		texture_diffuse = "cfp_norman_throne_01_diffuse.dds"
 		texture_normal = "cfp_norman_throne_01_normal.dds"

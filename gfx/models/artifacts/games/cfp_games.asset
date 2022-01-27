@@ -2,8 +2,31 @@ pdxmesh = {
 	name = "cfp_chess_set_01_mesh"
 	file = "cfp_chess_set_01.mesh"
 
-meshsettings = {
-		name = "cfp_chess_set_01Shape"
+	lod_percentages = {
+		lod = { index = 1 percent = 45.0 }
+		lod = { index = 2 percent = 25.0 }
+	}
+
+	meshsettings = {
+		name = "cfp_chess_set_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_chess_set_01_diffuse.dds"
+		texture_normal = "cfp_chess_set_01_normal.dds"
+		texture_specular = "cfp_chess_set_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_chess_set_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "cfp_chess_set_01_diffuse.dds"
+		texture_normal = "cfp_chess_set_01_normal.dds"
+		texture_specular = "cfp_chess_set_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_chess_set_01_LOD2Shape"
 		index = 0
 		texture_diffuse = "cfp_chess_set_01_diffuse.dds"
 		texture_normal = "cfp_chess_set_01_normal.dds"
@@ -17,8 +40,26 @@ pdxmesh = {
 	name = "cfp_chess_set_02_mesh"
 	file = "cfp_chess_set_01.mesh"
 
-meshsettings = {
-		name = "cfp_chess_set_01Shape"
+	meshsettings = {
+		name = "cfp_chess_set_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_chess_set_02_diffuse.dds"
+		texture_normal = "cfp_chess_set_01_normal.dds"
+		texture_specular = "cfp_chess_set_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_chess_set_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "cfp_chess_set_02_diffuse.dds"
+		texture_normal = "cfp_chess_set_01_normal.dds"
+		texture_specular = "cfp_chess_set_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_chess_set_01_LOD2Shape"
 		index = 0
 		texture_diffuse = "cfp_chess_set_02_diffuse.dds"
 		texture_normal = "cfp_chess_set_01_normal.dds"
@@ -29,11 +70,11 @@ meshsettings = {
 }
 
 entity = {
-	name = "cfp_chess_set_01_entity"
+	name = "cfp_chess_set_01_entity" #MENA
 	pdxmesh = "cfp_chess_set_01_mesh"
 }
 
 entity = {
-	name = "cfp_chess_set_02_entity" #B&W
+	name = "cfp_chess_set_02_entity" #Western
 	pdxmesh = "cfp_chess_set_02_mesh"
 }
