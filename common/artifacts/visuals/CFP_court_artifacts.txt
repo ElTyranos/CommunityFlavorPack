@@ -46,3 +46,9 @@ cfp_potato_jesus = {
 	pedestal = "tall"
 	asset = cfp_potato_jesus_entity
 }
+cfp_mary_statue = {
+	icon = "artifact_cfp_potato_jesus.dds"
+	default_type = pedestal
+	pedestal = "tall"
+	asset = cfp_mary_statue_entity
+}
