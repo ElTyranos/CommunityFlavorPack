@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
 
@@ -27,5 +27,11 @@ artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Iron Dagger"
 artifact_cfp_iron_dagger_description:0 "There are many like it, but this one is unique. Forged with an iron ingot and a leather strip, this dagger is mostly used to pin notes on tables, eat or... kill a dragon. Eventually."
 
 ## Statues
-artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Ungraceful statue of Mary and Jesus"
-artifact_cfp_potato_jesus_description:0 "Sculpted by [maker.GetFullName], the characters faces don't really look like human beings. It is not even worth displaying in a chapel, but it is still an holy representation and must be considered with respect."
+artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Ungraceful Effigy of Mary and Jesus"
+artifact_cfp_potato_jesus_description:0 "Sculpted by [maker.GetFullName], the faces don't really look human. It is not even worth displaying in a chapel, but it is still a holy icon and must be shown respect."
+
+artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! Effigy of a Saint"
+artifact_cfp_saint_statue_description:0 "Nicely sculpted by [maker.GetFullName], it looks like a Saint, but no one knows whom. It is a fairly inspiring statue nevertheless."
+
+artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! Mary Effigy"
+artifact_cfp_mary_statue_description:0 "A beautiful statue of Mary, mother of Jesus, sculpted by [maker.GetFullName]. She incarnates wisdom and gives a reassuring feeling. Anyone should be comfortable with her and embrace the faith."

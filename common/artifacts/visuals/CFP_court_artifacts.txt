@@ -1,4 +1,4 @@
-## Games
+﻿## Games
 cfp_chess_set = {
 	default_type = pedestal
 	icon = "artifact_cfp_chess_set.dds"
@@ -45,6 +45,12 @@ cfp_potato_jesus = {
 	default_type = pedestal
 	pedestal = "tall"
 	asset = cfp_potato_jesus_entity
+}
+cfp_saint_statue = {
+	icon = "artifact_cfp_potato_jesus.dds"
+	default_type = pedestal
+	pedestal = "tall"
+	asset = cfp_saint_statue_entity
 }
 cfp_mary_statue = {
 	icon = "artifact_cfp_potato_jesus.dds"
