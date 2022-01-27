@@ -1,4 +1,4 @@
-﻿create_artifact_cfp_chess_set_effect = {
+create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
@@ -257,6 +257,7 @@ create_artifact_cfp_iron_dagger_effect = {
 	}
 }
 
+## Statues
 create_artifact_cfp_potato_jesus_effect = {
 
 	$OWNER$ = { save_scope_as = owner }
