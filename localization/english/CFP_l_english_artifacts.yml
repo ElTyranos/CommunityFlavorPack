@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
 artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
 
@@ -7,7 +7,7 @@ artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Telle du Conquest"
 artifact_cfp_bayeux_tapestry_description:0 "Merely a few meters from a tapestry of much magnificence. In a place named Hastings he removed his helmet to rally his troops. So [owner.GetFullNameRegnal] prevailed and became the Conqueror of England, his rightful heritage under God."
 
 artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Holy Lance"
-artifact_cfp_holy_lance_description:0 "This spear pierced Christ's side and is stained in his holy blood. The nail embedded in the tip was used for his Crucificion. It's said it belonged to a man named Longinus."
+artifact_cfp_holy_lance_description:0 "Said to belong to Saint Longinus, this spear pierced Christ's side and is stained with his holy blood. The nail embedded in the tip was used for his Crucificion."
 
 artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
 artifact_cfp_krum_skull_cup_description:0 "After his death in battle near [location.GetName], [killed.GetFullNameNoTooltipRegnal] had his skull lined with gold and used as a drinking cup by [creator.GetFullNameNoTooltipRegnal]."
@@ -17,11 +17,11 @@ artifact_cfp_kure_skull_cup_description:0 "Once the head of [killed.GetFullNameN
 
 ## Games
 artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Chess set"
-artifact_cfp_chess_set_01_description:0 "An ceramic chess set made from a mixture of pulverized quartz, clay and coated by a glazed surface. The game is said to have originated from the near east and is attributed to many military victories. It is indeed said that the wiser you are playing chess, the better you'll fair in battle."
+artifact_cfp_chess_set_01_description:0 "A ceramic chess set made from a mixture of pulverized quartz and clay with a glazed finish. The game is said to have originated from the near east and is attributed to many military victories. It is indeed said that the wiser you are playing chess, the better you'll fair in battle."
 
 ## Weapons
 artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Kris Dagger"
-artifact_cfp_kris_dagger_description:0 "Its blade looks strangely laminated and wavy. It belonged to [traveler.GetFullName], a beggar native from a world known as Djawa. He disapeared the next day never to be seen again. May it have divine origins ?"
+artifact_cfp_kris_dagger_description:0 "A uniquely crafted blade that belonged to [traveler.GetFullName], a beggar from a land known as Djawa. He disapeared the next day never to be seen again. Could it have divine origins?"
 
 artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Iron Dagger"
 artifact_cfp_iron_dagger_description:0 "There are many like it, but this one is unique. Forged with an iron ingot and a leather strip, this dagger is mostly used to pin notes on tables, eat or... kill a dragon. Eventually."
