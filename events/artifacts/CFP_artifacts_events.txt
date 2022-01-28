@@ -525,6 +525,18 @@ cfp_artifact.0011 = {
 		name = cfp_artifact.0011.a
 		debug_log = "CFP_Debug: a ruler was not interested in a chess set in cfp_artifact.0011"
 		
+		stress_impact = {
+			trusting = minor_stress_gain
+			lazy = minor_stress_loss
+		}
+		
+		ai_chance = {
+			base = 25
+			ai_value_modifier = {
+				ai_rationality = -1
+			}
+		}
+		
 		scope:marshal = {
 			add_opinion = {
 				target = root
@@ -539,9 +551,28 @@ cfp_artifact.0011 = {
 		remove_short_term_gold = minor_gold_value
 		add_prestige = 15
 		
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+		}
+		
 		add_character_flag = {
 			flag = paid_for_cheap_chess_set
 			days = 100
+		}
+		
+		ai_chance = {
+			base = 50
+			modifier = {
+				gold < minor_gold_value
+				add = -40
+			}
+			modifier = {
+				OR = {
+					has_trait = greedy
+					ai_greed >= medium_positive_ai_value
+				}
+				add = -40
+			}
 		}
 		
 		trigger_event = {
@@ -564,13 +595,25 @@ cfp_artifact.0011 = {
 			}
 		}
 		
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+		}
+		
+		ai_chance = {
+			base = 100
+			modifier = {
+				gold < major_gold_value
+				add = -75
+			}
+		}
+		
 		trigger_event = {
 			id = cfp_artifact.0013
 			days = { 60 120 }
 		}
 	}
 }
-cfp_artifact.0012 = {
+cfp_artifact.0012 = { # Common
 	type = character_event
 	title = cfp_artifact.0011.t
 	desc = cfp_artifact.0012.desc
@@ -595,7 +638,7 @@ cfp_artifact.0012 = {
 	}
 	option = {
 		name = cfp_artifact.0012.a
-		debug_log = "CFP_Debug: a ruler got a common chess set in cfp_artifact.0011 chain"
+		debug_log = "CFP_Debug: a ruler got a common chess set in cfp_artifact.0011"
 		
 		show_as_tooltip = {
 			scope:newly_created_artifact = {
@@ -614,7 +657,7 @@ cfp_artifact.0012 = {
 		}
 	}
 }
-cfp_artifact.0013 = {
+cfp_artifact.0013 = { # Famed/Masterwork/Illustrious
 	type = character_event
 	title = cfp_artifact.0011.t
 	desc = cfp_artifact.0013.desc
@@ -645,7 +688,7 @@ cfp_artifact.0013 = {
 	}
 	option = {
 		name = cfp_artifact.0012.a
-		debug_log = "CFP_Debug: a ruler got a fancy chess set in cfp_artifact.0011 chain"
+		debug_log = "CFP_Debug: a ruler got a fancy chess set in cfp_artifact.0011"
 		
 		show_as_tooltip = {
 			scope:newly_created_artifact = {
