@@ -222,6 +222,7 @@ cfp_artifact.0001 = {
 		}
 	}
 }
+cfp_artifact.0002 = { # Don't forget
 	type = character_event
 	title = cfp_artifact.0002.t
 	desc = cfp_artifact.0002.desc
@@ -254,6 +255,27 @@ cfp_artifact.0001 = {
 				}
 			}
 		}
+	}
+}
+cfp_artifact.0003 = { # Forget
+	type = character_event
+	title = cfp_artifact.0002.t
+	desc = cfp_artifact.0003.desc
+	theme = court
+	override_background = { event_background = courtyard }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+	immediate = {
+		hidden_effect = {
+			scope:traveler = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	option = {
+		name = cfp_artifact.0003.a
 	}
 }
 
