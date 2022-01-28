@@ -1,4 +1,4 @@
-create_artifact_cfp_chess_set_effect = {
+﻿create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
@@ -227,21 +227,23 @@ create_artifact_cfp_iron_dagger_effect = {
 		get_artifact_wealth_effect = yes
 	
 		# Create the artifact
-		create_artifact = {
-			name = artifact_cfp_iron_dagger_name
-			description = artifact_cfp_iron_dagger_description
-			template = general_unique_template
-			type = pedestal
-			visuals = cfp_iron_dagger
-			wealth = scope:wealth
-			quality = scope:quality
-			history = {
-				type = created_before_history
-				date = 670.1.1 #To order entries correctly
+		scope:owner = {
+			create_artifact = {
+				name = artifact_cfp_iron_dagger_name
+				description = artifact_cfp_iron_dagger_description
+				template = general_unique_template
+				type = pedestal
+				visuals = cfp_iron_dagger
+				wealth = scope:wealth
+				quality = scope:quality
+				history = {
+					type = created_before_history
+					date = 670.1.1 #To order entries correctly
+				}
+				modifier = artifact_placeholder_modifier
+				save_scope_as = newly_created_artifact
+				decaying = no
 			}
-			modifier = artifact_placeholder_modifier
-			save_scope_as = newly_created_artifact
-			decaying = no
 		}
 
 		scope:newly_created_artifact = {
@@ -271,17 +273,19 @@ create_artifact_cfp_potato_jesus_effect = {
 		set_artifact_rarity_common = yes
 	
 		# Create the artifact
-		create_artifact = {
-			name = artifact_cfp_potato_jesus_name
-			description = artifact_cfp_potato_jesus_description
-			type = pedestal
-			visuals = cfp_potato_jesus
-			wealth = scope:wealth
-			quality = scope:quality
-			creator = scope:maker
-			modifier = artifact_placeholder_modifier
-			save_scope_as = newly_created_artifact
-			decaying = no
+		scope:owner = {
+			create_artifact = {
+				name = artifact_cfp_potato_jesus_name
+				description = artifact_cfp_potato_jesus_description
+				type = pedestal
+				visuals = cfp_potato_jesus
+				wealth = scope:wealth
+				quality = scope:quality
+				creator = scope:maker
+				modifier = artifact_placeholder_modifier
+				save_scope_as = newly_created_artifact
+				decaying = no
+			}
 		}
 
 		scope:newly_created_artifact = {
@@ -303,17 +307,19 @@ create_artifact_cfp_saint_statue_effect = {
 		set_artifact_rarity_masterwork = yes
 	
 		# Create the artifact
-		create_artifact = {
-			name = artifact_cfp_saint_statue_name
-			description = artifact_cfp_saint_statue_description
-			type = pedestal
-			visuals = cfp_saint_statue
-			wealth = scope:wealth
-			quality = scope:quality
-			creator = scope:maker
-			modifier = artifact_placeholder_modifier
-			save_scope_as = newly_created_artifact
-			decaying = no
+		scope:owner = {
+			create_artifact = {
+				name = artifact_cfp_saint_statue_name
+				description = artifact_cfp_saint_statue_description
+				type = pedestal
+				visuals = cfp_saint_statue
+				wealth = scope:wealth
+				quality = scope:quality
+				creator = scope:maker
+				modifier = artifact_placeholder_modifier
+				save_scope_as = newly_created_artifact
+				decaying = no
+			}
 		}
 
 		scope:newly_created_artifact = {
@@ -335,19 +341,21 @@ create_artifact_cfp_mary_statue_effect = {
 		set_artifact_rarity_famed = yes
 	
 		# Create the artifact
-		create_artifact = {
-			name = artifact_cfp_mary_statue_name
-			description = artifact_cfp_mary_statue_description
-			type = pedestal
-			visuals = cfp_mary_statue
-			wealth = scope:wealth
-			quality = scope:quality
-			creator = scope:maker
-			modifier = artifact_placeholder_modifier
-			save_scope_as = newly_created_artifact
-			decaying = no
+		scope:owner = {
+			create_artifact = {
+				name = artifact_cfp_mary_statue_name
+				description = artifact_cfp_mary_statue_description
+				type = pedestal
+				visuals = cfp_mary_statue
+				wealth = scope:wealth
+				quality = scope:quality
+				creator = scope:maker
+				modifier = artifact_placeholder_modifier
+				save_scope_as = newly_created_artifact
+				decaying = no
+			}
 		}
-
+		
 		scope:newly_created_artifact = {
 			set_variable = { name = cfp_mary_statue_var value = yes }
 			add_artifact_modifier = artifact_clergy_opinion_1_modifier
