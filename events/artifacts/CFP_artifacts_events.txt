@@ -592,6 +592,11 @@ cfp_artifact.0008 = { # A saint
 			limit = { exists = scope:sculptor }
 			remove_courtier_or_guest = scope:sculptor
 		}
+		hidden_effect = {
+			scope:sculptor = {
+				death = { death_reason = death_vanished	}
+			}
+		}
 	}
 }
 cfp_artifact.0009 = { # Mary
