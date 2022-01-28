@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  # Bayeux Tapestry
  cfp_title_event.0001.t:0 "A Norman initiative"
@@ -22,17 +22,32 @@
  cfp_artifact.0002.desc:0 "You arrive in the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] left before the sunrise without a trace. You see nothing but flattened hay and a small wrap of cloth."
  cfp_artifact.0002.a:0 "What is this ?"
  
+ cfp_artifact.0003.desc:0 "You arrive in the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] left before the sunrise without a trace. You see nothing but flattened hay. You are wondering what his story was, but you are soon called back to more important affairs."
+ cfp_artifact.0003.a:0 "Farewell, [traveler.GetFullNameNoTooltip]."
+ 
  ## A local sculptor asks you to kickstart him so he can prove his talent
  cfp_artifact.0005.t:0 "A local sculptor is looking for a benefactor"
  cfp_artifact.0005.desc:0 "A difficult looking man demands an audience. \n\n"My name is [sculptor.GetFullNameNoTooltip]. You may have encountered my beautiful sculptures on the calvaries laid next to the roads of your domain.\n\nI thought you might want to become my benefactor. Indeed, as my name has become quite famous among your subjects, both of us could benefit from this partnership. \n\nAs proof of my good faith, I would create a unique and masterful sculpture for you to display wherever you will, showing your immense piety to the world.""
  cfp_artifact.0005.a:0 "I've never heard of you, and you don't #italic look#! very talented."
  cfp_artifact.0005.b:0 "It sounds like a great opporunity."
  
- cfp_artifact.0006.t:0 "Local sculptor was a charlatan"
- cfp_artifact.0006.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\n The folds of Mary's dress fall nicely and soberly. She holds Jesus in her arms and looks happy, full of grace. As your eyes falls on Jesus' face, you can't help but retch. His eye cavities are empty, his face and nose are simple lines. This is a terrible work and an insult to his holiness."
- cfp_artifact.0006.a:0 "I should have known, leave and never come back."
- cfp_artifact.0006.b:0 "How about you sculpt your nails in my dungeon ?"
+ cfp_artifact.0006.t:0 "Local sculptor riped me off"
+ cfp_artifact.0006.desc:0 "A guard brings me a rock on which is attached a message. \n\n"To the stupid [ROOT.Char.GetTitledFirstNameNoTooltip], \n\nYour charity has no egal on this earth. When you will receive this note, I will be far away, saying how gullible you are." \n\nThe message is signed by the hand of [sculptor.GetFullNameNoTooltip]. There is not much you can do now."
+ cfp_artifact.0006.a:0 "My reputation is ruined!"
+ 
+ cfp_artifact.0007.t:0 "Local sculptor has no talent"
+ cfp_artifact.0007.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThe folds of Mary's dress fall nicely and soberly. She holds Jesus in her arms and looks happy, full of grace. As your eyes fall on Jesus' face, you can't help but retch. His eye cavities are empty, his face and nose are simple lines. This is a terrible work and an insult to his holiness."
+ cfp_artifact.0007.a:0 "I should have known, leave and never come back."
+ cfp_artifact.0007.b:0 "How about you sculpt your nails in my dungeon ?"
   
+ cfp_artifact.0008.t:0 "Local sculptor is quite talented"
+ cfp_artifact.0008.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is obviously a Saint, or maybe a bishop, but you don't dare to ask whom. The sculpt is sharp with beautiful curves and lines. It will surely impress your court, and the local sculptor will peddle your name alongside his humble but honest art."
+ cfp_artifact.0008.a:0 "Nice! Tell them you have my benefice, [sculptor.GetFullNameNoTooltip]."
+ 
+ cfp_artifact.0009.t:0 "Local sculptor is gifted"
+ cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is obviously a Saint, or maybe a bishop, but you don't dare to ask whom. The sculpt is sharp with beautiful curves and lines. It will surely impress your court, and the local sculptor will peddle your name alongside his humble but honest art."
+ cfp_artifact.0009.a:0 "I want you at my court so you can promote my name!"
+ 
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
  cfp_artifact.0011.t:0 "A game of chess"
  cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks at the Council. \n\n"I am doing decent progress in my task to train our men. In order to provide our armies excellent commanders, may I suggest the court invest in a most innovative game? This is a game of chess, which is said to have helped many generals determine how to achieve victory in battle.""
