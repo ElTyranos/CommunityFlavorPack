@@ -145,7 +145,6 @@ cfp_artifact.0001 = {
 	## Sleep in the stables
 	option = {
 		name = cfp_artifact.0001.c
-		debug_log = "CFP_Debug: traveler slept in the stables in cfp_artifact.0001"
 		
 		remove_short_term_gold = tiny_gold_value
 		
@@ -193,13 +192,36 @@ cfp_artifact.0001 = {
 			}
 		}
 		
-		trigger_event = {
-			id = cfp_artifact.0002
-			days = 1
+		hidden_effect = {
+			random_list = {
+				60 = {
+					debug_log = "CFP_Debug: traveler forgot his dagger in the stables cfp_artifact.0001"
+					if = { 
+						limit = { NOT = { any_character_artifact = { has_variable = cfp_kris_dagger_var } } } 
+						trigger_event = {
+							id = cfp_artifact.0002
+							days = 1
+						}
+					}
+					else = {
+						debug_log = "CFP_Debug: traveler slept in the stables in cfp_artifact.0001"
+						trigger_event = {
+							id = cfp_artifact.0003
+							days = 1
+						}
+					}
+				}
+				40 = {
+					debug_log = "CFP_Debug: traveler slept in the stables in cfp_artifact.0001"
+					trigger_event = {
+						id = cfp_artifact.0003
+						days = 1
+					}
+				}
+			}
 		}
 	}
 }
-cfp_artifact.0002 = {
 	type = character_event
 	title = cfp_artifact.0002.t
 	desc = cfp_artifact.0002.desc
@@ -457,6 +479,7 @@ cfp_artifact.0011 = {
 			is_performing_council_task = task_train_commanders
 		}
 		NOR = {
+			any_character_artifact = { has_variable = cfp_chess_set_var }
 			has_character_flag = had_event_cfp_artifact_0011
 			location = { geographical_region = world_africa }
 			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
