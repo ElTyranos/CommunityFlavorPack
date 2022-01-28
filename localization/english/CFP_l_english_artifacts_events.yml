@@ -1,38 +1,38 @@
-l_english:
+﻿l_english:
 
  # Bayeux Tapestry
  cfp_title_event.0001.t:0 "A Norman initiative"
- cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] comes at me with his usual strong spirit. He looks once again determined.  \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], the news of your great conquest reaches far and wide! However, I think we need to promote further your image and how just your cause is. I will come back soon with something that will seal your legitimacy for hundreds of years." \n\nAs I try to guess what he has in mind, I feel humbled, knowing I can trust him to help me to reign. So be it."
- cfp_title_event.0001.a.odo:0 "Your sense of initiative always surprises me, [bishop.GetFirstNameNoTooltip]!"
- cfp_title_event.0001.bishop:0 "My bishop [bishop.GetFullNameNoTooltipRegnal] comes at me.  \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], the news of your great conquest reaches far and wide! However, I think we need to promote further your image and how just your cause is. I will come back soon with something that will seal your legitimacy for hundreds of years." \n\nAs I try to guess what he has in mind, I feel obligated to let him do his business for the Pope accepted my claim over England. So be it."
+ cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] approaches me confidently, as is his usual demeanor. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], your reign stands uncontested! The word has spread of our glorious conquest. To rightfully praise such a momentous occasion, we need something unlike anything else, something that will stand the test of time. I’ll return soon, once the details are worked out, and your legitimacy as a ruler will never be challenged." \n\n As I attempt to grasp what great work he has planned, I’m humbled in knowing this is a person I assuredly can trust."
+ cfp_title_event.0001.a.odo:0 "May the Lord bless you in these pursuits [bishop.GetFirstNameNoTooltip]!"
+ cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal] approaches me. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], you stand as our rightful ruler! The word has spread and such a remarkable feat should be praised. We need something unlike anything else, which will last for many generations to come. I’ll return to you soon, once the details are worked out." \n\n As I attempt to grasp what great work he has planned, I feel obligated to grant him my lenience. After all, the Pope supported my claim over England."
  cfp_title_event.0001.a.bishop:0 "May god help you to carry out your quest, [bishop.GetNameNoTooltip]!"
  
  cfp_title_event.0002.t:0 "Rule with the Arts"
- cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] has news about his project. \n\n"I asked the best embroiderers of Normandy to carry out this tapestry. It tells why you claimed England and how you conquered it. I named it the Telle du Conquest.""
- cfp_title_event.0002.a:0 "This is a magnificent tapestry!"
+ cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] comes to inform me about his project. \n\n"I’ve requested the finest craftsmen and artists throughout the land to weave this tapestry, it features embroidered imagery of your mighty conquest of England and tells the tale of how these magnificent victories came to be. It has been named the Telle du Conquest.""
+ cfp_title_event.0002.a:0 "Such a magnificent tapestry!"
  
  ## A Burmese traveler might forget his Kris Dagger if you invite him
  cfp_artifact.0001.t:0 "$yearly.1090.t$" # We use vanilla name to confuse experienced players
- cfp_artifact.0001.desc:0 "A man wearing nothing but a kind of colorful loincloth asks for an audience. \n\n"My name is [traveler.GetFullNameNoTooltip], I come from a very distant country. I was attacked by bandits near to your beautiful castle and I am scared to sleep outside. Would you host me tonight ?""
- cfp_artifact.0001.a:0 "You beggar, get out of there!"
- cfp_artifact.0001.b:0 "Of course, you are my prisonner now."
- cfp_artifact.0001.c:0 "Come, we have a very comfortable stable with fresh hay!"
+ cfp_artifact.0001.desc:0 "A man wearing only a colorful loincloth appears before me. \n\n"My name is [traveler.GetFullNameNoTooltip], I hail from a very distant country. I was accosted by bandits just outside your beautiful castle, and I’m scared to sleep outside. Would you be so kind as to host me tonight?""
+ cfp_artifact.0001.a:0 "Guards! Remove this beggar from my sight!"
+ cfp_artifact.0001.b:0 "Of course, you’ll spend the night in my dungeon."
+ cfp_artifact.0001.c:0 "Come, you shall spend the night comfortably in the stables with some fresh hay!"
  
  cfp_artifact.0002.t:0 "The traveler has vanished"
- cfp_artifact.0002.desc:0 "You arrive in the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] left before the sunrise without a trace. You see nothing but flattened hay and a small wrap of cloth."
- cfp_artifact.0002.a:0 "What is this ?"
+ cfp_artifact.0002.desc:0 "You arrive at the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] disappeared without much of a trace. You only spot some flattened hay and a small cloth wrapping."
+ cfp_artifact.0002.a:0 "What's this ?"
  
- cfp_artifact.0003.desc:0 "You arrive in the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] left before the sunrise without a trace. You see nothing but flattened hay. You are wondering what his story was, but you are soon called back to more important affairs."
+ cfp_artifact.0003.desc:0 "You arrive at the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] disappeared without much of a trace. You spot nothing apart from some flattened hay. You wonder what his story was for a while, but are soon summoned back to other more important affairs."
  cfp_artifact.0003.a:0 "Farewell, [traveler.GetFullNameNoTooltip]."
  
  ## A local sculptor asks you to kickstart him so he can prove his talent
  cfp_artifact.0005.t:0 "A local sculptor is looking for a benefactor"
- cfp_artifact.0005.desc:0 "A difficult looking man demands an audience. \n\n"My name is [sculptor.GetFullNameNoTooltip]. You may have encountered my beautiful sculptures on the calvaries laid next to the roads of your domain.\n\nI thought you might want to become my benefactor. Indeed, as my name has become quite famous among your subjects, both of us could benefit from this partnership. \n\nAs proof of my good faith, I would create a unique and masterful sculpture for you to display wherever you will, showing your immense piety to the world.""
+ cfp_artifact.0005.desc:0 "A difficult looking man demands an audience. \n\n"My name is [sculptor.GetFullNameNoTooltip]. You may have encountered my beautiful sculptures on the calvaries next to the roads of your domain.\n\nI thought you might want to become my benefactor. Indeed, as my name has become quite famous among your subjects, both of us could benefit from this partnership. \n\nAs proof of my good faith, I would create a unique and masterful sculpture for you to display wherever you wish, showing your immense piety to the world.""
  cfp_artifact.0005.a:0 "I've never heard of you, and you don't #italic look#! very talented."
- cfp_artifact.0005.b:0 "It sounds like a great opporunity."
+ cfp_artifact.0005.b:0 "It sounds like a great opportunity."
  
- cfp_artifact.0006.t:0 "Local sculptor riped me off"
- cfp_artifact.0006.desc:0 "A guard brings me a rock on which is attached a message. \n\n"To the stupid [ROOT.Char.GetTitledFirstNameNoTooltip], \n\nYour charity has no egal on this earth. When you will receive this note, I will be far away, saying how gullible you are." \n\nThe message is signed by the hand of [sculptor.GetFullNameNoTooltip]. There is not much you can do now."
+ cfp_artifact.0006.t:0 "Local sculptor ripped me off"
+ cfp_artifact.0006.desc:0 "A guard brings me a rock on which a message is attached. \n\n"To the stupid [ROOT.Char.GetTitledFirstNameNoTooltip], \n\nYour charity has no equal on this earth. When you receive this note, I will be far away, telling the world how gullible you are." \n\nThe message is signed by the hand of [sculptor.GetFullNameNoTooltip]. There is not much you can do now."
  cfp_artifact.0006.a:0 "My reputation is ruined!"
  
  cfp_artifact.0007.t:0 "Local sculptor has no talent"
@@ -50,12 +50,12 @@ l_english:
  
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
  cfp_artifact.0011.t:0 "A game of chess"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks at the Council. \n\n"I am doing decent progress in my task to train our men. In order to provide our armies excellent commanders, may I suggest the court invest in a most innovative game? This is a game of chess, which is said to have helped many generals determine how to achieve victory in battle.""
+ cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks to the Council. \n\n"I am making decent progress in my task of training our men. However, may I suggest the court invest in a more innovative game in order to provide our armies with excellent commanders? This is a game of chess. Chess is said to have helped many generals achieve victory in battle through strategy.""
  cfp_artifact.0011.a:0 "War is not a game, get back to work."
- cfp_artifact.0011.b:0 "Any innovation that makes our men better should be explored."
- cfp_artifact.0011.c:0 "I think I played it once during my childhood. We should invest in a nice set."
+ cfp_artifact.0011.b:0 "Any innovation that makes our men better should be exploited."
+ cfp_artifact.0011.c:0 "It's true, I've played it once or twice during my childhood. We should invest in a nice set."
  
- cfp_artifact.0012.desc:0 "My liege, I found this chess set at the local market. It looks rather basic but there's no missing pieces. \n\nI did not speak the tongue of the merchant who sold it to me but I think I figured out the rules. Hopefully this game will help us to take better decisions in battle."
- cfp_artifact.0013.desc:0 "My liege, as soon as you approved this idea, I managed to order a beautiful chess set to a foreign artisan. \n\nWhile it took a long time to gather the pigment, this chess set looks magnificent. I did not speak the tongue of the man and [steward.GetFullNameNoTooltipRegnal] could not find a translator. \n\nYet, I think I managed to understand the rules. This game will surely help us with the art of war."
+ cfp_artifact.0012.desc:0 "My liege, I found this chess set at the local market. It looks rather basic but there are no missing pieces. \n\nI did not speak the tongue of the merchant who sold it to me, but I think I've figured out the rules. Hopefully, this game will help us achieve victory in battle."
+ cfp_artifact.0013.desc:0 "My liege, as soon as you approved the idea, I managed to order a beautiful chess set from a foreign artisan. \n\nWhile it took a long time to gather the pigment, this chess set looks magnificent. I did not speak the tongue of the man and [steward.GetFullNameNoTooltipRegnal] could not find a translator. \n\nYet, I think I managed to understand the rules. This game will surely help us with the art of war."
  cfp_artifact.0012.a:0 "Good work, [marshal.GetFirstNameNoTooltip]!"
  
