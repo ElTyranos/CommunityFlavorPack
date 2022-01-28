@@ -1,4 +1,4 @@
-﻿namespace = cfp_artifact
+namespace = cfp_artifact
 
 # A Burmese traveler might forget his Kris Dagger if you invite him
 cfp_artifact.0001 = {
@@ -514,7 +514,7 @@ cfp_artifact.0007 = { # Potato Jesus
 			limit = { exists = scope:sculptor }
 			remove_courtier_or_guest = scope:sculptor
 		}
-		ai_chance = {²
+		ai_chance = {
 			base = 150
 			ai_value_modifier = {
 				ai_compassion = 1
