@@ -286,7 +286,6 @@ create_artifact_cfp_potato_jesus_effect = {
 				creator = scope:maker
 				modifier = artifact_placeholder_modifier
 				save_scope_as = newly_created_artifact
-				decaying = no
 			}
 		}
 
@@ -320,7 +319,6 @@ create_artifact_cfp_saint_statue_effect = {
 				creator = scope:maker
 				modifier = artifact_placeholder_modifier
 				save_scope_as = newly_created_artifact
-				decaying = no
 			}
 		}
 
@@ -354,7 +352,6 @@ create_artifact_cfp_mary_statue_effect = {
 				creator = scope:maker
 				modifier = artifact_placeholder_modifier
 				save_scope_as = newly_created_artifact
-				decaying = no
 			}
 		}
 		
