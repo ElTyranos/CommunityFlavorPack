@@ -1,10 +1,10 @@
-﻿l_english:
+l_english:
 
  # Bayeux Tapestry
  cfp_title_event.0001.t:0 "A Norman initiative"
- cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] approaches me confidently, as is his usual demeanor. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], your reign stands uncontested! The word has spread of our glorious conquest. To rightfully praise such a momentous occasion, we need something unlike anything else, something that will stand the test of time. I’ll return soon, once the details are worked out, and your legitimacy as a ruler will never be challenged." \n\n As I attempt to grasp what great work he has planned, I’m humbled in knowing this is a person I assuredly can trust."
+ cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] approaches me confidently, as is his usual demeanor. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], your reign stands uncontested! The word has spread of our glorious conquest. To rightfully praise such a momentous occasion, we need something unlike anything else, something that will stand the test of time. I’ll return soon, once the details are worked out, and your legitimacy as a ruler will never be challenged." \n\nAs I attempt to grasp what great work he has planned, I’m humbled in knowing this is a person I assuredly can trust."
  cfp_title_event.0001.a.odo:0 "May the Lord bless you in these pursuits [bishop.GetFirstNameNoTooltip]!"
- cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal] approaches me. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], you stand as our rightful ruler! The word has spread and such a remarkable feat should be praised. We need something unlike anything else, which will last for many generations to come. I’ll return to you soon, once the details are worked out." \n\n As I attempt to grasp what great work he has planned, I feel obligated to grant him my lenience. After all, the Pope supported my claim over England."
+ cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal] approaches me. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], you stand as our rightful ruler! The word has spread and such a remarkable feat should be praised. We need something unlike anything else, which will last for many generations to come. I’ll return to you soon, once the details are worked out." \n\nAs I attempt to grasp what great work he has planned, I feel obligated to grant him my lenience. After all, the Pope supported my claim over England."
  cfp_title_event.0001.a.bishop:0 "May god help you to carry out your quest, [bishop.GetNameNoTooltip]!"
  
  cfp_title_event.0002.t:0 "Rule with the Arts"
@@ -39,7 +39,7 @@
  cfp_artifact.0007.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThe folds of Mary's dress fall nicely and soberly. She holds Jesus in her arms and looks happy, full of grace. As your eyes fall on Jesus' face, you can't help but retch. His eye cavities are empty, his face and nose are simple lines. This is a terrible work and an insult to his holiness."
  cfp_artifact.0007.a:0 "I should have known, leave and never come back."
  cfp_artifact.0007.b:0 "How about you sculpt your nails in my dungeon ?"
-  
+ 
  cfp_artifact.0008.t:0 "Local sculptor is quite talented"
  cfp_artifact.0008.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is obviously a Saint, or maybe a bishop, but you don't dare to ask whom. The sculpt is sharp with beautiful curves and lines. It will surely impress your court, and the local sculptor will peddle your name alongside his humble but honest art."
  cfp_artifact.0008.a:0 "Nice! Tell them you have my benefice, [sculptor.GetFullNameNoTooltip]."
