@@ -47,13 +47,13 @@ cfp_potato_jesus = {
 	asset = cfp_potato_jesus_entity
 }
 cfp_saint_statue = {
-	icon = "artifact_cfp_potato_jesus.dds"
+	icon = "artifact_cfp_saint_statue.dds"
 	default_type = pedestal
 	pedestal = "tall"
 	asset = cfp_saint_statue_entity
 }
 cfp_mary_statue = {
-	icon = "artifact_cfp_potato_jesus.dds"
+	icon = "artifact_cfp_mary_statue.dds"
 	default_type = pedestal
 	pedestal = "tall"
 	asset = cfp_mary_statue_entity
