@@ -1,4 +1,4 @@
-namespace = cfp_artifact
+﻿namespace = cfp_artifact
 
 # A Burmese traveler might forget his Kris Dagger if you invite him
 cfp_artifact.0001 = {
@@ -389,21 +389,21 @@ cfp_artifact.0005 = {
 			}
 			modifier = {
 				has_trait = zealous
-				add = 200
+				add = 150
 			}
 		}
 		
 		hidden_effect = {
 		
 			random_list = {
-				35 = {
+				20 = {
 					debug_log = "CFP_Debug: sculptor disapeared in cfp_artifact.0006"
 					trigger_event = {
 						id = cfp_artifact.0006
 						days = { 5 10 }
 					}
 				}
-				30 = {
+				20 = {
 					if = { 
 						limit = { NOT = { any_character_artifact = { has_variable = cfp_potato_jesus_var } } } 
 						trigger_event = {
@@ -436,7 +436,7 @@ cfp_artifact.0005 = {
 						}
 					}
 				}
-				15 = {
+				20 = {
 					if = {
 						limit = { NOT = { any_character_artifact = { has_variable = cfp_mary_statue_var } } } 
 						debug_log = "CFP_Debug: sculptor made a famed artifact in cfp_artifact.0009"
