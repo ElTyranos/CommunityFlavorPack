@@ -45,7 +45,7 @@
  cfp_artifact.0008.a:0 "Bien, dites au monde que je suis votre bienfaiteur, [sculptor.GetFullNameNoTooltip]."
  
  cfp_artifact.0009.t:0 "Le sculpteur local a un don"
- cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] revient vous présenter le fruit de son labeur. Vous inspectez la statue des pieds à la tête. \n\nThis is Virgin Mary. Her hands are joint in prayer and her eyes closed. The sculpting is sharp, with a complex veil covering Mary's head and falling over her shoulders. This is how everyone should see her when listening to the liturgy"
+ cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] revient vous présenter le fruit de son labeur. Vous inspectez la statue des pieds à la tête. \n\nIl s'agit de la vierge Marie. Ses mains sont jointes dans la prière, ses yeux fermés. La sculpture est belle, avec un voile complexe qui couvre sa tête et tombe sur ses épaules. C'est ainsi que tout le monde devrait la voir en écoutant la liturgie."
  cfp_artifact.0009.a:0 "Je vous veux à ma cour pour que nos noms soient liés!"
  
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
