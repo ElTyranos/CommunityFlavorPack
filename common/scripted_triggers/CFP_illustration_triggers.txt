@@ -2,6 +2,17 @@
 	OR = {
 		has_culture = culture:english
 		has_culture = culture:norman
+		AND = {
+			culture = {	has_cultural_pillar = heritage_frankish }
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = {	this = title:k_england }
+			}
+			NOR = {
+				has_culture = culture:french
+				has_culture = culture:frankish
+				has_culture = culture:occitan
+			}
+		}
 	}
 }
 
@@ -9,5 +20,6 @@ has_graphical_goidelic_culture_group_trigger = {
 	OR = {
 		has_culture = culture:irish
 		has_culture = culture:gaelic
+		culture = {	has_cultural_pillar = heritage_goidelic }
 	}
 }
