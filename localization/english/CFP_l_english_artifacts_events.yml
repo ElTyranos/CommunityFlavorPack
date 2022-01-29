@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  # Bayeux Tapestry
  cfp_title_event.0001.t:0 "A Norman initiative"
@@ -45,7 +45,7 @@ l_english:
  cfp_artifact.0008.a:0 "Nice! Tell them you have my benefice, [sculptor.GetFullNameNoTooltip]."
  
  cfp_artifact.0009.t:0 "Local sculptor is gifted"
- cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is obviously a Saint, or maybe a bishop, but you don't dare to ask whom. The sculpt is sharp with beautiful curves and lines. It will surely impress your court, and the local sculptor will peddle your name alongside his humble but honest art."
+ cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is Virgin Mary. Her hands are joined in prayer and her eyes closed. The sculpting is sharp, with a complex veil covering Mary's head and falling over her shoulders. This is how everyone should see her when listening to the liturgy."
  cfp_artifact.0009.a:0 "I want you at my court so you can promote my name!"
  
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
