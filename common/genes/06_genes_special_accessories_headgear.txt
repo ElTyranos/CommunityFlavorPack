@@ -1255,9 +1255,21 @@ accessory_genes = {
 			index = 78
 			male = {
 				1 = male_headgear_secular_ep1_western_royalty_01
+				# CFP: add western_royalty options or the EP1 crown is displayed 50% of the time
+				1 = male_headgear_secular_western_royalty_01
+				1 = male_headgear_secular_western_royalty_02
+				1 = male_headgear_secular_western_cfp_royalty_03
+				1 = male_headgear_secular_western_cfp_royalty_01
+				1 = male_headgear_secular_western_cfp_royalty_02
 			}
 			female = {
 				1 = female_headgear_secular_ep1_western_royalty_01
+				# CFP: add western_royalty options or the EP1 crown is displayed 50% of the time
+				1 = female_headgear_secular_western_royalty_01
+				1 = female_headgear_secular_western_royalty_02
+				1 = female_headgear_secular_western_cfp_royalty_03
+				1 = female_headgear_secular_western_cfp_royalty_01
+				1 = female_headgear_secular_western_cfp_royalty_02
 			}
 		}
 
@@ -1374,13 +1386,21 @@ accessory_genes = {
 		ep1_byzantine_imperial = {
 			index = 89
 			male = {
-				1 = male_headgear_secular_ep1_crown_of_justinian
+				6 = male_headgear_secular_ep1_crown_of_justinian
+				# CFP: add byzantine_imperial options or the EP1 crown is displayed 50% of the time
+				3 = male_headgear_secular_byzantine_imperial_01
+				6 = male_headgear_secular_byzantine_imperial_02
+				6 = male_headgear_secular_byzantine_monomachus_01
 			}
 			female = {
-				1 = female_headgear_secular_ep1_crown_of_justinian
+				6 = female_headgear_secular_ep1_crown_of_justinian
+				# CFP: add byzantine_imperial options or the EP1 crown is displayed 50% of the time
+				3 = female_headgear_secular_byzantine_imperial_01
+				6 = female_headgear_secular_byzantine_imperial_02
+				6 = female_headgear_secular_byzantine_monomachus_01
 			}
 		}
-
+		
 		ep1_italian_royalty = {
 			index = 90
 			male = {
