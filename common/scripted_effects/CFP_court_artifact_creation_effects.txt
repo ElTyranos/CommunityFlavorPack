@@ -224,11 +224,9 @@ create_artifact_cfp_iron_dagger_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	
 	hidden_effect_new_artifact = {
-		
-		get_artifact_quality_effect = yes
-		get_artifact_wealth_effect = yes
 	
-		# Create the artifact
+		set_artifact_rarity_illustrious = yes
+		
 		scope:owner = {
 			create_artifact = {
 				name = artifact_cfp_iron_dagger_name
@@ -250,15 +248,7 @@ create_artifact_cfp_iron_dagger_effect = {
 
 		scope:newly_created_artifact = {
 			add_scaled_artifact_modifier_intrigue_effect = yes
-			if = {
-				limit = {
-					OR = {
-						rarity = famed
-						rarity = illustrious
-					}
-				}
-				add_scaled_artifact_modifier_minor_prestige_effect = yes
-			}
+			add_scaled_artifact_modifier_minor_prestige_effect = yes
 			remove_artifact_modifier = artifact_placeholder_modifier
 		}
 	}
@@ -291,8 +281,8 @@ create_artifact_cfp_potato_jesus_effect = {
 
 		scope:newly_created_artifact = {
 			set_variable = { name = cfp_potato_jesus_var value = yes }
-			add_artifact_modifier = artifact_clergy_opinion_1_modifier
-			add_artifact_modifier = artifact_monthly_piety_1_modifier
+			add_scaled_artifact_modifier_devotion_effect = yes
+			add_scaled_artifact_modifier_piety_effect = yes
 			remove_artifact_modifier = artifact_placeholder_modifier
 		}
 	}
@@ -324,8 +314,8 @@ create_artifact_cfp_saint_statue_effect = {
 
 		scope:newly_created_artifact = {
 			set_variable = { name = cfp_saint_statue_var value = yes }
-			add_artifact_modifier = artifact_clergy_opinion_1_modifier
-			add_artifact_modifier = artifact_monthly_piety_1_modifier
+			add_scaled_artifact_modifier_devotion_effect = yes
+			add_scaled_artifact_modifier_piety_effect = yes
 			remove_artifact_modifier = artifact_placeholder_modifier
 		}
 	}
@@ -357,8 +347,8 @@ create_artifact_cfp_mary_statue_effect = {
 		
 		scope:newly_created_artifact = {
 			set_variable = { name = cfp_mary_statue_var value = yes }
-			add_artifact_modifier = artifact_clergy_opinion_1_modifier
-			add_artifact_modifier = artifact_monthly_piety_1_modifier
+			add_2_scaled_artifact_modifier_devotion_effect = yes
+			add_scaled_artifact_modifier_piety_effect = yes
 			remove_artifact_modifier = artifact_placeholder_modifier
 		}
 	}
