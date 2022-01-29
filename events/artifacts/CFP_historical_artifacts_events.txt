@@ -12,18 +12,16 @@ cfp_historical_artifacts.0001 = {
 			limit = {
 				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
-				current_year > 1000 # later start
-				has_title = title:k_france
-			}
-			create_artifact_joyeuse_effect = { OWNER = this }
-		}
-		
-		random_ruler = {
-			limit = {
-				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
-				has_dlc_feature = royal_court
-				current_year < 1000 #early start
-				has_title = title:k_lotharingia
+				OR = {
+					AND = {
+						current_year > 1000 # later start
+						has_title = title:k_france
+					}
+					AND = {
+						current_year < 1000 #early start
+						has_title = title:k_lotharingia
+					}
+				}
 			}
 			create_artifact_joyeuse_effect = { OWNER = this }
 		}
