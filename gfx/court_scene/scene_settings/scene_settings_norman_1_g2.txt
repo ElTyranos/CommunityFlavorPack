@@ -1053,16 +1053,16 @@ artifacts={ {
 		slot="wall_small_3"
 	}
  {
-		locator="artifact_bookshelf_1"
+		locator="artifact_bookshelf_2"
 		position={ -376.700012 0.000000 -45.000000 }
 		direction=0.000010
-		slot="lectern_1"
+		slot="lectern_2"
 	}
  {
-		locator="artifact_bookshelf_2"
+		locator="artifact_bookshelf_1"
 		position={ 0.000000 0.000000 843.700012 }
 		direction=90.000000
-		slot="lectern_2"
+		slot="lectern_1"
 	}
  {
 		locator="artifact_throne_1"
