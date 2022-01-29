@@ -1,3 +1,37 @@
 ﻿l_german:
 
-artifact_cfp_joyeuse_name:0 "@cfp_icon! Joyeuse"
+artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
+
+## Unique
+artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Teppich von Bayeux"
+artifact_cfp_bayeux_tapestry_description:0 "Lediglich ein paar Meter von dem Wandteppich von großer Pracht, an einem Ort namens Hastings setzte er seinen Helm ab, um seine Truppen zu sammeln. So setzte sich [owner.GetFullNameRegnal] durch und wurde zum Eroberer Englands, seinem rechtmäßigen Erbe unter Gott."
+
+artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Heilige Lanze"
+artifact_cfp_holy_lance_description:0 "Sie soll einst dem Heiligen Longinus gehört haben. Dieser Speer stach in Christus Körper und ist befleckt mit seinem heiligen Blut. Der in die Spitze eingearbeitete Nagel wurde für seine Kreuzigung genutzt."
+
+artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Schädelbecher"
+artifact_cfp_krum_skull_cup_description:0 "Nach dem Tod in der Schlacht von [location.GetName], ließ [creator.GetFullNameNoTooltipRegnal] den Schädel von [killed.GetFullNameNoTooltipRegnal] mit Gold verzieren und nutzte ihn daraufhin als Trinkbecher."
+
+artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Schädelbecher"
+artifact_cfp_kure_skull_cup_description:0 "Einst der Kopf von [killed.GetFullNameNoTooltipRegnal], einem berühmten Prinz von Kiew. Nach einem von [creator.GetFullNameNoTooltipRegnal] angeführten Hinterhalt nahe [location.GetName] wurde er zum Trinkbecher."
+
+## Games
+artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Schachbrett"
+artifact_cfp_chess_set_01_description:0 "Ein keramisches Schachbrett, hergestellt aus einer Mischung aus gemahlenem Quarz und Ton mit einer glasierten Oberfläche. Das Spiel soll ursprünglich aus dem Nahen Osten stammen und wird mit vielen militärischen Siegen in Verbindung gebracht. Es heißt sogar, je klüger man beim Schachspiel sei, desto besser würde es einem im Kampf ergehen."
+
+## Weapons
+artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Kris Dolch"
+artifact_cfp_kris_dagger_description:0 "Eine einzigartig gefertigte Klinge die einmal [traveler.GetFullName] gehörte. Einem Bettler aus einem Land welches als Djawa bekannt ist. Er verschwand am nächsten Tag und wurde nie wieder gesehen. Könnte er göttlichen Ursprungs sein?"
+
+artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Eisen Dolch"
+artifact_cfp_iron_dagger_description:0 "Es mag zwar viele davon geben, aber dieser ist einzigartig. Dieser aus einem Eisenbarren und einem Lederstreifen geschmiedete Dolch wird hauptsächlich dazu verwendet, Notizen auf Tische zu heften, zu essen oder... einen Drachen zu töten. Früher oder später jedenfalls."
+
+## Statues
+artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Misslungene Statue von Maria und Jesus"
+artifact_cfp_potato_jesus_description:0 "Vom Bildhauer [maker.GetFullName] geschaffen. Die Gesichter scheinen nicht wirklich menschlicher Natur zu sein. Sie ist es nicht einmal wert in einer kleinen Kapelle ausgestellt zu werden. Jedoch ist sie immer noch eine heilige Ikone, der es gilt Respekt zu zollen."
+
+artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! Statue eines Heiligen"
+artifact_cfp_saint_statue_description:0 "Eine schöne Statue von [maker.GetFullName]. Die Statue sieht wie ein Heiliger aus, doch niemand weiß um wen es sich genau handeln soll. Sie ist trotzdem eine recht inspirierende Statue."
+
+artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! Statue der Maria"
+artifact_cfp_mary_statue_description:0 "Eine wunderschöne Statue Marias, Mutter Jesu, von [maker.GetFullName] geschaffen. Sie verkörpert Weisheit und strahlt ein beruhigendes Gefühl aus. Jeder sollte sich bei ihr wohlfühlen und den Glauben annehmen."
