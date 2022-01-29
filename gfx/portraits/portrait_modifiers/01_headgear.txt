@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -6810,7 +6810,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 100
 				trigger_if = {
 					limit = { exists = this }
 					portrait_can_use_noble_headgear_trigger = yes
