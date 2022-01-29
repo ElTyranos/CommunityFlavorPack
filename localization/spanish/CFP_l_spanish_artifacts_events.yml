@@ -45,7 +45,7 @@
  cfp_artifact.0008.a:0 "Hermoso! Diles que tienes mi beneficio,[sculptor.GetFullNameNoTooltip]."
  
  cfp_artifact.0009.t:0 "El escultor local está dotado"
- cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] regresa con el producto de su trabajo. Inspeccionas la estatua de pies a cabeza. \n\nObviamente es un santo, o tal vez un obispo, pero no te atreves a preguntar quién.(masc. La escultura es nítida con hermosas curvas y líneas. Seguramente impresionará a su corte, y el escultor local venderá su nombre junto con su arte humilde pero honesto."
+ cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] vuelve con el producto de su trabajo. Inspeccionas la estatua de pies a cabeza. \n\nEs la virgen María. Sus manos están unidas en oración y sus ojos cerrados. La escultura es nítida, con un complejo velo que cubre la cabeza de María y cae sobre sus hombros. Así es como todos deben verla al escuchar la liturgia."
  cfp_artifact.0009.a:0 "¡Te quiero en mi corte para que puedas promocionar mi nombre!"
  
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
