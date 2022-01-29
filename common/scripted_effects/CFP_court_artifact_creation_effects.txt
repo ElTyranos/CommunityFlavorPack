@@ -1,4 +1,4 @@
-## Games
+﻿## Games
 create_artifact_cfp_chess_set_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
@@ -172,48 +172,13 @@ create_artifact_cfp_kris_dagger_effect = {
 			
 			if = {
 				limit = { rarity = illustrious }
-				random_list = {
-					15 = { add_artifact_modifier = artifact_intrigue_1_modifier }
-					10 = { add_scaled_artifact_modifier_prestige_effect = yes }
-					5 = { add_artifact_modifier = artifact_hostile_scheme_power_add_6_modifier }
-					5 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_6_modifier }
-				}
-				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_3_modifier
-				add_artifact_modifier = artifact_scheme_resistance_add_2_modifier
+				add_2_scaled_artifact_modifier_intrigue_effect = yes
+				add_2_scaled_artifact_modifier_combat_effect = yes
 			}
-			else_if = {
-				limit = { rarity = famed }
-				random_list = {
-					10 = { add_artifact_modifier = artifact_intrigue_1_modifier }
-					10 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
-					5 = { add_artifact_modifier = artifact_hostile_scheme_power_add_4_modifier }
-					5 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_4_modifier }
-				}
-				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_2_modifier
-				add_artifact_modifier = artifact_scheme_resistance_add_1_modifier
+			else = {
+				add_scaled_artifact_modifier_intrigue_effect = yes
+				add_scaled_artifact_modifier_combat_effect = yes
 			}
-			else_if = {
-				limit = { rarity = masterwork }
-				random_list = {
-					5 = { add_artifact_modifier = artifact_intrigue_1_modifier }
-					10 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
-					7 = { add_artifact_modifier = artifact_hostile_scheme_power_add_2_modifier }
-					7 = { add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_2_modifier }
-				}
-				add_artifact_modifier = artifact_monthly_intrigue_lifestyle_xp_1_modifier
-				add_artifact_modifier = artifact_intrigue_per_stress_level_2_modifier
-			}
-			else_if = {
-				limit = { rarity = common }
-				random_list = {
-					10 = { add_artifact_modifier = artifact_monthly_martial_lifestyle_xp_1_modifier }
-					2 = { add_artifact_modifier = artifact_martial_1_modifier }
-					5 = { add_scaled_artifact_modifier_minor_prestige_effect = yes }
-					5 = { add_artifact_modifier = artifact_stress_gain_1_modifier }
-				}
-				add_artifact_modifier = artifact_intrigue_per_stress_level_1_modifier
-			}
-			
 			remove_artifact_modifier = artifact_placeholder_modifier
 		}
 	}
@@ -247,7 +212,7 @@ create_artifact_cfp_iron_dagger_effect = {
 		}
 
 		scope:newly_created_artifact = {
-			add_scaled_artifact_modifier_intrigue_effect = yes
+			add_2_scaled_artifact_modifier_intrigue_effect = yes
 			add_scaled_artifact_modifier_minor_prestige_effect = yes
 			remove_artifact_modifier = artifact_placeholder_modifier
 		}
