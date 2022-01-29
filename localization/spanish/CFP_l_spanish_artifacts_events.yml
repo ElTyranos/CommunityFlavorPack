@@ -1,0 +1,61 @@
+l_spanish:
+
+ # Bayeux Tapestry
+ cfp_title_event.0001.t:0 "Una iniciativa normanda"
+ cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] se me acerca con confianza, como es costumbre en su labor. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], ¡vuestro reinado prevalece! la palabra de vuestra gloriosa conquieta llega a cualquier rincón. Para alabar legítimamente una ocasión tan trascendental, necesitamos algo diferente a cualquier otra cosa, algo que sobreviva al paso del tiempo.Volveré cuando se compllete el más minimo detalle y entonces tu legitimidad jamás volverá a ser cuestionada" \n\nMientras trato de comprender qué gran trabajo ha planeado, me  honra saber que esta es una persona en la que puedo confiar."
+ cfp_title_event.0001.a.odo:0 "Que el Señor os bendiga en estas labores, [bishop.GetFirstNameNoTooltip]!"
+ cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal] se me acerca. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], ¡eres nuestro gobernante legítimo! Se ha corrido la voz y debe elogiarse una hazaña tan notable. Necesitamos algo diferente a cualquier otra cosa, que dure por muchas generaciones por venir. Te responderé pronto, una vez que se resuelvan los detalles." \n\nMientras trato de comprender qué gran trabajo ha planeado, me siento obligado a concederle mi indulgencia. Después de todo, El papa apoyó mi reclamación sobre Inglaterra."
+ cfp_title_event.0001.a.bishop:0 "Que Dios te ayude a llevar a cabo vuestra búsqueda, [bishop.GetNameNoTooltip]!"
+ 
+ cfp_title_event.0002.t:0 "Gobernar con las artes"
+ cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] viene a informarme sobre su proyecto. \n\n"He pedido a los mejores artesanos y artistas de todo el país que tejan este tapiz, presenta imágenes bordadas de su poderosa conquista de Inglaterra y cuenta la historia de cómo se produjeron estas magníficas victorias. Ha sido nombrada tela de la conquista.""
+ cfp_title_event.0002.a:0 "¡Qué tapiz tan magnífico!"
+ 
+ ## A Burmese traveler might forget his Kris Dagger if you invite him
+ cfp_artifact.0001.t:0 "$yearly.1090.t$" # We use vanilla name to confuse experienced players
+ cfp_artifact.0001.desc:0 "Un hombre vestido sólo con un taparrabos de colores aparece ante mí.. \n\n"mi nombre [traveler.GetFullNameNoTooltip], provengo de un país muy lejano. Fui abordado por bandidos a las afueras de tu hermoso castillo, y temo dormir fuera. ¿Seríais tan amable de hospedarme esta noche?""
+ cfp_artifact.0001.a:0 "guardias! Sacad a este mendigo de mi vista!"
+ cfp_artifact.0001.b:0 "Por supuesto, podrás pasar la noche en mi calabozo."
+ cfp_artifact.0001.c:0 "Venid, podreis pasar la noche comodamente en los establos con algo de heno fresco."
+ 
+ cfp_artifact.0002.t:0 "El viajero se ha desvanecido"
+ cfp_artifact.0002.desc:0 "Llegas a los establos temprano en la mañana. Parece que [traveler.GetFullNameNoTooltip] desapareció sin dejar rastro. Solo ves un poco de heno aplanado y un pequeño envoltorio de tela.."
+ cfp_artifact.0002.a:0 "Qué es esto ?"
+ 
+ cfp_artifact.0003.desc:0 "Llegas a los establos temprano en la mañana. Parece que [traveler.GetFullNameNoTooltip] desapareció sin dejar rastro.No ves nada aparte de un poco de heno aplastado. Te preguntas cuál fue su historia por un tiempo, pero pronto vuelves a ocuparte de otros asuntos más importantes."
+ cfp_artifact.0003.a:0 "Adiós, [traveler.GetFullNameNoTooltip]."
+ 
+ ## A local sculptor asks you to kickstart him so he can prove his talent
+ cfp_artifact.0005.t:0 "Un escultor local busca un benefactor"
+ cfp_artifact.0005.desc:0 "Un hombre de aspecto turbio exige una audiencia. \n\n"Mi nombre es [sculptor.GetFullNameNoTooltip]. Es posible que os hayais encontrado con mis bellas esculturas en los calvarios junto a los caminos de tu dominio.\n\nPensé que podríais querer convertiros en mi benefactor. De hecho, como mi nombre se ha vuelto bastante famoso entre sus súbditos, ambos podríamos beneficiarnos de esta asociación. \n\nComo prueba de mi buena fe, crearía una escultura única y magistral para que la muestreis donde quierais, mostrando al mundo vuestra inmensa piedad.""
+ cfp_artifact.0005.a:0 "Nunca he oído hablar de vos, y vos tampoco. #italic look#! very talented."
+ cfp_artifact.0005.b:0 "Suena como una gran oportunidad."
+ 
+ cfp_artifact.0006.t:0 "El escultor local me estafó"
+ cfp_artifact.0006.desc:0 "Un guardia me trae una roca en la que se adjunta un mensaje. \n\n"Para el estupido de [ROOT.Char.GetTitledFirstNameNoTooltip], \n\nVuestra caridad no tiene igual en esta tierra. Cuando recibais esta nota, estaré lejos, diciéndole al mundo lo crédulo que sois." \n\nEl mensaje está firmado a mano por [sculptor.GetFullNameNoTooltip]. no hay mucho que puedas hacer ahora."
+ cfp_artifact.0006.a:0 "My reputation is ruined!"
+ 
+ cfp_artifact.0007.t:0 "El escultor local no tiene talento"
+ cfp_artifact.0007.desc:0 "[sculptor.GetFullNameNoTooltip] vuelve con el producto de su trabajo. Inspeccionas la estatua de pies a cabeza. \n\nLos pliegues del vestido de María caen agradable y sobriamente. Ella sostiene a Jesús en sus brazos y se ve feliz, llena de gracia. Cuando tus ojos se posan en el rostro de Jesús, no puedes evitar las arcadas. Las cavidades de sus ojos están vacías, su cara y nariz son líneas simples. Esta es una obra terrible y un insulto a su santidad."
+ cfp_artifact.0007.a:0 "Debería haberlo sabido, vete y jamas vuelvas."
+ cfp_artifact.0007.b:0 "¿Qué tal si esculpes tus uñas en mi mazmorra?"
+  
+ cfp_artifact.0008.t:0 "El escultor local es bastante talentoso"
+ cfp_artifact.0008.desc:0 "[sculptor.GetFullNameNoTooltip] regresa con el producto de su trabajo. Inspeccionas la estatua de pies a cabeza. \n\nObviamente es un santo, o tal vez un obispo, pero no te atreves a preguntar quién.(masc. La escultura es nítida con hermosas curvas y líneas. Seguramente impresionará a su corte, y el escultor local venderá su nombre junto con su arte humilde pero honesto."
+ cfp_artifact.0008.a:0 "Hermoso! Diles que tienes mi beneficio,[sculptor.GetFullNameNoTooltip]."
+ 
+ cfp_artifact.0009.t:0 "El escultor local está dotado"
+ cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] regresa con el producto de su trabajo. Inspeccionas la estatua de pies a cabeza. \n\nObviamente es un santo, o tal vez un obispo, pero no te atreves a preguntar quién.(masc. La escultura es nítida con hermosas curvas y líneas. Seguramente impresionará a su corte, y el escultor local venderá su nombre junto con su arte humilde pero honesto."
+ cfp_artifact.0009.a:0 "¡Te quiero en mi corte para que puedas promocionar mi nombre!"
+ 
+ ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
+ cfp_artifact.0011.t:0 "Un juego de ajedrez"
+ cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] habla al Consejo. \n\n"Estoy haciendo un progreso decente en mi tarea de entrenar a nuestros hombres. Sin embargo, ¿Puedo sugerir que la corte invierta en un juego más innovador para proporcionar a nuestros ejércitos excelentes comandantes? Este es un juego de ajedrez. Se dice que el ajedrez ayudó a muchos generales a lograr la victoria en la batalla a través de la estrategia.""
+ cfp_artifact.0011.a:0 "La guerra no es un juego, volved al trabajo."
+ cfp_artifact.0011.b:0 "Cualquier innovación que mejore a nuestros hombres debe ser explotada."
+ cfp_artifact.0011.c:0 "Es cierto, lo he jugado una o dos veces durante mi infancia. Deberíamos invertir en un buen conjunto."
+ 
+ cfp_artifact.0012.desc:0 "Mi señor, encontré este juego de ajedrez en el mercado local. Parece bastante básico, pero no faltan piezas. \n\nNo hablo la lengua del comerciante que me lo vendió, pero creo que me he dado cuenta de las reglas. Con suerte, este juego nos ayudará a lograr la victoria en la batalla."
+ cfp_artifact.0013.desc:0 "Mi señor, tan pronto como usted aprobó la idea, logré encargar un hermoso juego de ajedrez a un artesano extranjero. \n\nSi bien tomó mucho tiempo recolectar el pigmento, este juego de ajedrez se ve magnífico. No hablo la lengua del hombre y[steward.GetFullNameNoTooltipRegnal] no pudo encontrar un traductor. \n\nSin embargo, creo que logré entender las reglas. Este juego seguro que nos ayudará con el arte de la guerra."
+ cfp_artifact.0012.a:0 "Buen trabajo, [marshal.GetFirstNameNoTooltip]!"
+ 

@@ -1,3 +1,36 @@
 ﻿l_spanish:
 
-artifact_cfp_joyeuse_name:0 "@cfp_icon! Joyosa"
+artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyosa"
+
+## Unique
+artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Tela de la Conquista"
+artifact_cfp_bayeux_tapestry_description:0 "Solo unos metros de un tapiz de mucha grandeza. En una zona llamada Hastings el se quitó su cassco para levantar la moral a sus tropas. Así que [owner.GetFullNameRegnal] prevaleció y se convirtió en el conquistador de inglaterra, su justa herencia ante Dios."
+
+artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Santa lanza"
+artifact_cfp_holy_lance_description:0 "Se dice que perteneció a San Longinos, esta lanza perforó el costillar de cristo y se tiño con su sangre sagrada. el clavo envuelto en la cinta fué usado para su crucifixión."
+
+artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Copa de cráneo"
+artifact_cfp_krum_skull_cup_description:0 "Despúes de su muerte en una batalla cerca de [location.GetName], el craneo de [killed.GetFullNameNoTooltipRegnal] fué recubierto de oro y [creator.GetFullNameNoTooltipRegnal] lo utilizó como caliz."
+
+artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Copa de cráneo"
+artifact_cfp_kure_skull_cup_description:0 "Un día fue la cabeza de [killed.GetFullNameNoTooltipRegnal], un famoso principe de Kiev. después de una emboscada liderada por [creator.GetFullNameNoTooltipRegnal] cerca de [location.GetName], se convirtió en una copa."
+
+## Games
+artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Juego de Ajedrez"
+artifact_cfp_chess_set_01_description:0 "Un juego cerámico de ajedrez fabricado a partir de una mezcla de cuarzo pulverizado y arcilla con un acabado esmaltado. Se dice que el conjunto proviene de oriente medio y se le atribuyen numerosas victorias militares. De hecho, se dice que cuanto más sabio seas jugando al ajedrez, mejor serás justo en la batalla."
+
+## Weapons
+artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Daga kris"
+artifact_cfp_kris_dagger_description:0 "Una hoja unica que perteneció a [traveler.GetFullName], un mendigo proveniente de una tierra conocida como Djawa. Este desaparecio al dia siguiente para nunca más ser visto. ¿Podría tener la daga orígenes divinos?"
+
+artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Daga de hierro"
+artifact_cfp_iron_dagger_description:0 "Hay muchas parecidas, pero esta en concreto es única.Esta daga, forjada a partir de un lingote de hierro y una tira de cuero, se usa principalmente para dejar notas en mesas, comer o ... matar un dragón, si surge la ocasión."
+
+## Statues
+artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Efigie ingrata de María y Jesús"
+artifact_cfp_potato_jesus_description:0 "Esculpida por [maker.GetFullName], sus caras no parecen humanas. no merece la pena exponerlas en una capila, pero siguen siendo una imagen divina y se debe respetar."
+artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! Efigie de un Santo"
+artifact_cfp_saint_statue_description:0 "Bien esculpida por [maker.GetFullName], parece un santo, pero nadie sabe quien. Sin embargo, es una estatua bastante inspiradora.."
+
+artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! Efigie de la virgen"
+artifact_cfp_mary_statue_description:0 "Una hermosa estatua de María, madre de Jesús, esculpida por [maker.GetFullName]. Transmite sabiduria y una sensacion reconfortante. Cualquiera podria sentirse comodo con ella y abrazar la fé."
