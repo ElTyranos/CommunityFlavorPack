@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "cfp_court_andalusian_columns_mesh"
+	file = "cfp_court_andalusian_columns.mesh"
+
+	meshsettings = {
+		name = "cfp_court_andalusian_columnsShape"
+		index = 0
+		texture_diffuse = "cfp_materials_andalusian_column_diffuse.dds"
+		texture_normal = "cfp_materials_andalusian_column_normal.dds"
+		texture_specular = "cfp_materials_andalusian_column_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_andalusian_columns_entity"
+	pdxmesh = "cfp_court_andalusian_columns_mesh"
+}

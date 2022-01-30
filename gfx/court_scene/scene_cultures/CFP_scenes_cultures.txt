@@ -1,4 +1,4 @@
-norman = {
+﻿norman = {
 	trigger = {
 		has_graphical_norman_culture_group_trigger = yes
 	}
@@ -10,7 +10,13 @@ goidelic = {
 	}
 }
 
-## Redefine western to exclude normans from it
+andalusian = {
+	trigger = {
+		has_graphical_andalusian_culture_group_trigger = yes
+	}
+}
+
+## Redefine western to exclude normans and goidelics from it
 western = {
 	trigger = {
 		exists = capital_county
