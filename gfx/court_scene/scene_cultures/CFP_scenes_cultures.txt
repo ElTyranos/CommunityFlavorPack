@@ -1,4 +1,4 @@
-﻿norman = {
+norman = {
 	trigger = {
 		has_graphical_norman_culture_group_trigger = yes
 	}
@@ -23,6 +23,19 @@ western = {
 		NOR = { 
 			has_graphical_norman_culture_group_trigger = yes
 			has_graphical_goidelic_culture_group_trigger = yes
+		}
+	}
+}
+
+## Redefine mediterranean to exclude andalusians from it
+mediterranean = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_mediterranean_culture_group_trigger = yes
+		}
+		NOT = { 
+			has_graphical_andalusian_culture_group_trigger = yes
 		}
 	}
 }
