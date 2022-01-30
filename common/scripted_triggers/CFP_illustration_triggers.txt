@@ -23,3 +23,21 @@ has_graphical_goidelic_culture_group_trigger = {
 		culture = {	has_cultural_pillar = heritage_goidelic }
 	}
 }
+
+has_graphical_andalusian_culture_group_trigger = {
+	OR = {
+		has_culture = culture:andalusian
+		AND = {
+			faith.religion = religion:islam_religion
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = {	this = title:e_spain }
+			}
+		}
+		AND = {
+			culture = {	has_cultural_pillar = heritage_iberian }
+			any_sub_realm_county = {
+				any_this_title_or_de_jure_above = {	this = title:k_andalusia }
+			}
+		}
+	}
+}
