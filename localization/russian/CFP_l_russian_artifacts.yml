@@ -1,37 +1,37 @@
 ﻿l_russian:
 
-artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Жуайез"
+artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Меч Карла Великого (Жуайёз)"
 
 ## Unique
-artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Telle du Conquest"
-artifact_cfp_bayeux_tapestry_description:0 "Merely a few meters from a tapestry of much magnificence. In a place named Hastings he removed his helmet to rally his troops. So [owner.GetFullNameRegnal] prevailed and became the Conqueror of England, his rightful heritage under God."
+artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Гобелен из Байё"
+artifact_cfp_bayeux_tapestry_description:0 "Изображения, вышитые на ковре, рассказывают историю нормандского завоевания Англии. События разворачиваются в хронологическом порядке и представлены последовательными сценами, на ней в том числе, изображены события после битвы при Гастингсе, особо пышно показана коронация Вильгельма Завоевателя. Итак, да восславиться [owner.GetFullNameRegnal], истинный король Англии, перед Богом и людьми."
 
-artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Holy Lance"
-artifact_cfp_holy_lance_description:0 "Said to belong to Saint Longinus, this spear pierced Christ's side and is stained with his holy blood. The nail embedded in the tip was used for his Crucificion."
+artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Копьё судьбы"
+artifact_cfp_holy_lance_description:0 "Говорят, что это копьё принадлежало святому Лонгину, оно пронзило бок Христа и запятнано его святой кровью. Гвоздь, встроенный в кончик, был использован для его распятия."
 
-artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
-artifact_cfp_krum_skull_cup_description:0 "After his death in battle near [location.GetName], [killed.GetFullNameNoTooltipRegnal] had his skull lined with gold and used as a drinking cup by [creator.GetFullNameNoTooltipRegnal]."
+artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Чаша из черепа"
+artifact_cfp_krum_skull_cup_description:0 "После его гибели в бою у [location.GetName], [killed.GetFullNameNoTooltipRegnal] его череп был покрыт золотом и использовался как чаша для питья [creator.GetFullNameNoTooltipRegnal]."
 
-artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
-artifact_cfp_kure_skull_cup_description:0 "Once the head of [killed.GetFullNameNoTooltipRegnal], a famous Kievan prince. After an ambush led by [creator.GetFullNameNoTooltipRegnal] near [location.GetName], it became a drinking cup."
+artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Чаша из черепа"
+artifact_cfp_kure_skull_cup_description:0 "Когда-то была головой [killed.GetFullNameNoTooltipRegnal], известного киевского князя. После засады под руководством [creator.GetFullNameNoTooltipRegnal] возле [location.GetName], она превратилась в чашу для питья."
 
 ## Games
-artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Chess set"
-artifact_cfp_chess_set_01_description:0 "A ceramic chess set made from a mixture of pulverized quartz and clay with a glazed finish. The game is said to have originated from the near east and is attributed to many military victories. It is indeed said that the wiser you are playing chess, the better you'll fair in battle."
+artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Шахматы"
+artifact_cfp_chess_set_01_description:0 "Керамические шахматы из смеси измельченного кварца и глины с глазурью. Говорят, что эта игра возникла на ближнем востоке, и ей приписывают множество военных побед. Действительно говорят, что чем мудрее ты играешь в шахматы, тем честнее ты будешь в бою."
 
 ## Weapons
-artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Kris Dagger"
-artifact_cfp_kris_dagger_description:0 "A uniquely crafted blade that belonged to [traveler.GetFullName], a beggar from a land known as Djawa. He disapeared the next day never to be seen again. Could it have divine origins?"
+artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Клинок криса"
+artifact_cfp_kris_dagger_description:0 "Уникальный клинок, принадлежавший [traveler.GetFullName], какому-то нищему из земли, известной как остров Ява. На следующий день незнакомец исчез, и больше его никто не видел. Может ли оно иметь божественное происхождение?"
 
-artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Iron Dagger"
-artifact_cfp_iron_dagger_description:0 "There are many like it, but this one is unique. Forged with an iron ingot and a leather strip, this dagger is mostly used to pin notes on tables, eat or... kill a dragon. Eventually."
+artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Железный кинжал"
+artifact_cfp_iron_dagger_description:0 "Таких кузнец скуёт с десяток, но этот уникален. Этот кинжал по легенде, выкованный из зачарованного железного слитка, в основном используется, чтобы прикалывать записки к столу, есть еду или... иногда, может убить дракона в конце концов."
 
 ## Statues
-artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Ungraceful Effigy of Mary and Jesus"
-artifact_cfp_potato_jesus_description:0 "Sculpted by [maker.GetFullName], the faces don't really look human. It is not even worth displaying in a chapel, but it is still a holy icon and must be shown respect."
+artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Богом забытая грубая скульптура"
+artifact_cfp_potato_jesus_description:0 "Скульптор [maker.GetFullName], лица не очень похожи на человеческие. Её даже не стоило бы выставлять в часовне, но она всё же отдалённо похожа на Марию и Иисуса и ей должно оказывать уважение."
 
-artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! Effigy of a Saint"
-artifact_cfp_saint_statue_description:0 "Nicely sculpted by [maker.GetFullName], it looks like a Saint, but no one knows whom. It is a fairly inspiring statue nevertheless."
+artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! Скульптура святого"
+artifact_cfp_saint_statue_description:0 "Талантливый скульптор [maker.GetFullName] вылепил это, скульптура похожа на святого, но неизвестно на кого. Тем не менее, это довольно вдохновляющая статуя."
 
-artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! Mary Effigy"
-artifact_cfp_mary_statue_description:0 "A beautiful statue of Mary, mother of Jesus, sculpted by [maker.GetFullName]. She incarnates wisdom and gives a reassuring feeling. Anyone should be comfortable with her and embrace the faith."
+artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! Скульптура Девы Марии"
+artifact_cfp_mary_statue_description:0 "Прекрасная статуя девы Марии, матери Иисуса, воссозданная гениальным скульптором [maker.GetFullName]. Она воплощает мудрость и даёт обнадеживающее чувство умиротворения. Любой должен чувствовать себя безопасно рядом с ней и понять христианскую веру."
