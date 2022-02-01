@@ -34,7 +34,7 @@ has_graphical_andalusian_culture_group_trigger = {
 			}
 		}
 		AND = {
-			culture = {	has_cultural_pillar = heritage_iberian }
+			culture = { has_cultural_pillar = heritage_iberian }
 			any_sub_realm_county = {
 				any_this_title_or_de_jure_above = {	this = title:k_andalusia }
 			}
