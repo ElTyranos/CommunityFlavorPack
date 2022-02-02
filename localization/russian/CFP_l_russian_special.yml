@@ -1,28 +1,28 @@
 ﻿l_russian:
 
  PORTRAIT_MODIFIER_custom_special:1 "Аксессуары"
- PORTRAIT_MODIFIER_custom_special_male_empty:1 "Нет пользовательского аксессуара"
+ PORTRAIT_MODIFIER_custom_special_male_empty:1 "Нет специального аксессуара"
  PORTRAIT_MODIFIER_custom_special_female_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
  PORTRAIT_MODIFIER_custom_special_boy_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
  PORTRAIT_MODIFIER_custom_special_girl_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
 
  ## Vanilla
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:1 "Головной бинт"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:1 "Повязка на голову"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_head_bandage_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01:1 "глазная повязка"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01:1 "Повязка на глаз"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_eye_patch_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_face_mask_01:1 "Маска для лица"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_face_mask_01:1 "Лицевая маска"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_face_mask_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_face_mask_01$"
 
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01:1 "Повязка для глаз"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01:1 "Повязка на глаза"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01$"
 
  ## CFP
  PORTRAIT_MODIFIER_custom_special_no_blindfold:1 "@cfp_icon_remove! Снять повязку с глаз"
- PORTRAIT_MODIFIER_custom_special_no_eye_patch:1 "@cfp_icon_remove! Снимите глазная повязка"
- PORTRAIT_MODIFIER_custom_special_no_eyeglasses:1 "@cfp_icon_remove! Снимите очки"
+ PORTRAIT_MODIFIER_custom_special_no_eye_patch:1 "@cfp_icon_remove! Снять повязку с глаза"
+ PORTRAIT_MODIFIER_custom_special_no_eyeglasses:1 "@cfp_icon_remove! Снять очки"
  
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01:1 "@cfp_icon! Очки"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01$"
@@ -30,31 +30,31 @@
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02:1 "@cfp_icon! Деревянные очки"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_01:1 "@cfp_icon! Бронза маска для лица"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_01:1 "@cfp_icon! Бронзовая маска для лица"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_01$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_02:1 "@cfp_icon! Маска для лица (Без капюшона)"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_02:1 "@cfp_icon! Маска для лица без капюшона"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_02$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_03:1 "@cfp_icon! Бронза маска для лица (Без капюшона)"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_03:1 "@cfp_icon! Бронзовая маска для лица без капюшона"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_03:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_03$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_04:1 "@cfp_icon! Благородство маска для лица"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_04:1 "@cfp_icon! Лицевая маска для дворянства"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_04:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_04$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_04_Открыт:1 "@cfp_icon! Благородство маска для лица (Открыт)"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_04_Открыт:1 "@cfp_icon! Открытая лицевая маска для дворянства"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_04_Открыт:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_04_Открыт$"
  
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_05:1 "@cfp_icon! Железная маска для лица"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_05:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_05$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_05_Открыт:1 "@cfp_icon! Железная маска для лица (Открыт)"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_05_Открыт:1 "@cfp_icon! Открытая железная маска для лица"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_05_Открыт:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_05_Открыт$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06:1 "@cfp_icon! Медь маска для лица"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06:1 "@cfp_icon! Медная маска для лица"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_06:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06_Открыт:1 "@cfp_icon! Медь маска для лица (Открыт)"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06_Открыт:1 "@cfp_icon! Открытая медная маска для лица"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_06_Открыт:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06_Открыт$"
  
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_fake_nose_01:1 "@cfp_icon! Носовой протез"

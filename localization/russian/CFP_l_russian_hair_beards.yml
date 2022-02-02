@@ -2,35 +2,35 @@
 
 ## Western
  PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "@cfp_icon! Французская вилка"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "@cfp_icon! Лысый потянутый назад"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "@cfp_icon! Лысый назад"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "@cfp_icon! Лысый пренебрегаемый"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "@cfp_icon! Залысина на макушке"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "@cfp_icon! Ухоженная залысина"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "@cfp_icon! Неопрятная залысина"
 
 ## Norse
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "@cfp_icon! Герой северной саги"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "@cfp_icon! Герой скандинавской саги"
  
 ## Turkic
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "@cfp_icon! Багатур коса"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "@cfp_icon! Багатурская коса"
  
 ## Slavic
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "@cfp_icon! усы Русского воина"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon! Прядь волос воина Руси с серьгами"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon! Прядь волос воина Руси"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "@cfp_icon! Усы русского воина"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon! Чуб русского воина с серьгами"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon! Чуб русского воина"
  
 ## African
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_01:0 "@cfp_icon_yellow! Афро высокий градиент"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_02:0 "@cfp_icon_yellow! Афро-челка"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! Афро полумесяц"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! Крученые локоны"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! Прямой локоны"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_01:0 "@cfp_icon_yellow! Высокопосаженное афро"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_02:0 "@cfp_icon_yellow! Афро-квифф"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! Афро-полумесяц"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! Скрученные косички"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! Прямые косички"
  
 ## Beards vanilla edit
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! Бараний отбивной"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! Бараньи отбивные с козлиной бородкой"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "@cfp_icon! Императорские усы"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "@cfp_icon! Козлиная бородка с тремя бусинами"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "@cfp_icon! Бусиная бородка"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_beard_fp1_04:0 "@cfp_icon! Big Большие усы"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! Бакенбарды"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! Бакенбарды с бородкой"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "@cfp_icon! Имперские усы"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "@cfp_icon! Эспаньолка с тройным бисером"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "@cfp_icon! Эспаньолка с бисером"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_beard_fp1_04:0 "@cfp_icon! Большие усы"
  
 ## Hair vanilla edit
  PORTRAIT_MODIFIER_custom_hair_bald:0 "@cfp_icon! Полностью лысый"
@@ -38,12 +38,12 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon! Лысый степной всадник"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "@cfp_icon! Степной всадник без бакенбардов"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "@cfp_icon! Молодой степной всадник"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "@cfp_icon! Плетенки"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "@cfp_icon! Длинный кудрявый без украшений"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "@cfp_icon! Тугая булочка"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "@cfp_icon! Шея Тесьма без украшений"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "@cfp_icon! Волнистые стороны без украшений"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "@cfp_icon! Коронные завитки без сережек"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "@cfp_icon! Двойные косы с лентами и без сережек"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "@cfp_icon! Скатанные косички без сережек"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "@cfp_icon! Две косы"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "@cfp_icon! Длинные кудрявые без украшений"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "@cfp_icon! Тугой узел"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "@cfp_icon! Коса на плечо без украшений"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "@cfp_icon! Волнистые пряди без украшений"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "@cfp_icon! Локоны королевы без серёжек"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "@cfp_icon! Две косы с лентами и без серёжек"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "@cfp_icon! Уложенные косы без серёжек"
  
