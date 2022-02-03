@@ -1404,6 +1404,7 @@ special_genes = {
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_02
+					1 = male_clothes_secular_western_cfp_war_plate_03
 				}
 				female = {}
 				boy = male
