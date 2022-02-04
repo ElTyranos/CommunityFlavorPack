@@ -1,0 +1,32 @@
+﻿wall_shield = {
+	icon = "artifact_wall_shield.dds"
+	default_type = wall_small
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
+				# artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = mediterranean_building }
+			}
+		}
+		reference = ep1_western_shield_01_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = mena_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = steppe_building }
+			}
+		}
+		reference = ep1_mena_shield_01_a_entity
+	}
+	asset = {
+		trigger = { artifact_should_use_gfx_type_trigger = { TYPE = indian_building } }
+		reference = ep1_indian_shield_01_a_entity
+	}
+	# CFP
+	asset = {
+		trigger = {	artifact_should_use_gfx_type_trigger = { TYPE = norman_coa_gfx } }
+		reference = cfp_norman_shield_01_entity
+	}
+}
