@@ -48,3 +48,54 @@ entity = {
 		}
 	}
 }
+
+pdxmesh = {
+	name = "cfp_norse_shield_01_mesh"
+	file = "cfp_norse_shield_01.mesh"
+
+	# lod_percentages = {
+		# lod = { index = 1 percent = 15.0 }
+		# lod = { index = 2 percent = 7.0 }
+	# }
+
+	meshsettings = {
+		name = "cfp_norse_shield_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_shield_01_diffuse.dds"
+		texture_normal = "cfp_norse_shield_01_normal.dds"
+		texture_specular = "cfp_norse_shield_01_properties.dds"
+		shader = "court_usercolor_coa"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	# meshsettings = {
+		# name = "cfp_norse_shield_01_LOD1Shape"
+		# index = 0
+		# texture_diffuse = "cfp_norse_shield_01_diffuse.dds"
+		# texture_normal = "cfp_norse_shield_01_normal.dds"
+		# texture_specular = "cfp_norse_shield_01_properties.dds"
+		# shader = "court_usercolor_coa"
+		# shader_file = "gfx/FX/court_scene.shader"
+	# }
+
+	# meshsettings = {
+		# name = "cfp_norse_shield_01_LOD2Shape"
+		# index = 0
+		# texture_diffuse = "cfp_norse_shield_01_diffuse.dds"
+		# texture_normal = "cfp_norse_shield_01_normal.dds"
+		# texture_specular = "cfp_norse_shield_01_properties.dds"
+		# shader = "court_usercolor_coa"
+		# shader_file = "gfx/FX/court_scene.shader"
+	# }
+}
+
+entity = {
+	name = "cfp_norse_shield_01_entity"
+	pdxmesh = "cfp_norse_shield_01_mesh"
+
+	game_data = {
+		court_entity_user_data = {
+			coat_of_arms = yes
+		}
+	}
+}

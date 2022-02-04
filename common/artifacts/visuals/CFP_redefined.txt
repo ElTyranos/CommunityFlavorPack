@@ -26,6 +26,10 @@
 	}
 	# CFP
 	asset = {
+		trigger = {	artifact_should_use_gfx_type_trigger = { TYPE = norse_building } }
+		reference = cfp_norse_shield_01_entity
+	}
+	asset = {
 		trigger = {	artifact_should_use_gfx_type_trigger = { TYPE = norman_coa_gfx } }
 		reference = cfp_norman_shield_01_entity
 	}
