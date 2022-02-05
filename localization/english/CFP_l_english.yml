@@ -505,6 +505,7 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_06_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_06_common$"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! Churburg Plate Armour"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! Brigandine Plate Armour"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Arabic Chainmail"
@@ -558,6 +559,8 @@
  
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Plate Armour Legwear"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01$"
+ 
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Late Medieval Legwear"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! African Legwear"
