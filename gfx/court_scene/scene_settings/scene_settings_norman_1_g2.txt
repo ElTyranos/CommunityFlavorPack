@@ -627,8 +627,8 @@ characters={ {
 		roles={ adviser }
 	}
  {
-		position={ -279.999969 0.000000 520.000000 }
-		direction=-59.999985
+		position={ -279.999969 0.000000 560.300000 }
+		direction=-29.000000
 		locator="character_flavor_jester"
 		description="Jester"
 		roles={ jester poet low_prio_lone_courtier }
@@ -850,7 +850,7 @@ characters={ {
 		roles={ heir low_prio_lone_courtier }
 	}
  {
-		position={ -486.999969 0.000000 430.000031 }
+		position={ -312.200012 0.000000 268.700012 }
 		direction=-74.999977
 		locator="character_councillor_1"
 		description="character_councillor_1"
