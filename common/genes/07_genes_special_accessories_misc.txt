@@ -713,7 +713,9 @@ accessory_genes = {
 			male = {
 				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
-			female = {}
+			female = {
+				1 = female_legwear_secular_western_cfp_war_plate_01
+			}
 			boy = male
 			girl = female
 		}
