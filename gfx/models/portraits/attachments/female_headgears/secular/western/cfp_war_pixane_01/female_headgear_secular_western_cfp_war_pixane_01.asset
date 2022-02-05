@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "female_headgear_secular_western_cfp_war_pixane_01_mesh"
+	file = "female_headgear_secular_western_cfp_war_pixane_01.mesh"
+
+	# blend_shape = { id = "female_headgear_secular_western_cfp_war_pixane_01_bs_muscular"		type = "female_headgear_secular_western_cfp_war_pixane_01_bs_muscular.mesh" }	
+	# blend_shape = { id = "female_headgear_secular_western_cfp_war_pixane_01_bs_old"		type = "female_headgear_secular_western_cfp_war_pixane_01_bs_old.mesh" }
+	# blend_shape = { id = "female_headgear_secular_western_cfp_war_pixane_01_bs_fat"		type = "female_headgear_secular_western_cfp_war_pixane_01_bs_fat.mesh" }	
+	# blend_shape = { id = "female_headgear_secular_western_cfp_war_pixane_01_bs_dwarf"		type = "female_headgear_secular_western_cfp_war_pixane_01_bs_dwarf.mesh" }
+
+	meshsettings = {
+		name = "female_headgear_secular_western_cfp_war_pixane_01Shape"
+		index = 0
+		texture_diffuse = "western_cfp_war_pixane_01_diffuse.dds"
+		texture_normal = "western_cfp_war_pixane_01_normal.dds"
+		texture_specular = "western_cfp_war_pixane_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_western_cfp_war_pixane_01_entity"
+	pdxmesh = "female_headgear_secular_western_cfp_war_pixane_01_mesh"
+	
+	# attribute = { name = "bs_body_muscular_1"				blend_shape = "female_headgear_secular_western_cfp_war_pixane_01_bs_muscular" }	
+	# attribute = { name = "bs_body_old_1"					blend_shape = "female_headgear_secular_western_cfp_war_pixane_01_bs_old" }
+	# attribute = { name = "bs_body_fat_1"				blend_shape = "female_headgear_secular_western_cfp_war_pixane_01_bs_fat" }	
+	# attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_headgear_secular_western_cfp_war_pixane_01_bs_dwarf" }
+}

@@ -1447,7 +1447,10 @@ accessory_genes = {
 				5 = male_headgear_secular_western_cfp_war_pixane_01
 				
 			}
-			female = {}
+			female = {
+				5 = female_headgear_secular_western_cfp_war_pixane_01
+				
+			}
 			boy = male
             girl = female
 		}
@@ -1459,7 +1462,10 @@ accessory_genes = {
 				5 = male_headgear_secular_western_cfp_war_bascinet_02
 				
 			}
-			female = {}
+			female = {
+				5 = female_headgear_secular_western_cfp_war_pixane_01
+				
+			}
 			boy = male
             girl = female
 		}
