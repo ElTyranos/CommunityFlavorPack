@@ -5,7 +5,7 @@
 		trigger = {
 			OR = {
 				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
-				# artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				# artifact_should_use_gfx_type_trigger = { TYPE = norse_building } # Redefined bellow
 				artifact_should_use_gfx_type_trigger = { TYPE = mediterranean_building }
 			}
 		}
