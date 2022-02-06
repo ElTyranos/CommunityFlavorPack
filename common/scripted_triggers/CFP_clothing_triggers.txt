@@ -479,16 +479,6 @@ cfp_era_late_medieval_trigger = {
 }
 cfp_innovation_plate_armor_trigger = {
 	scope:culture = { has_innovation = innovation_plate_armor }
-	NOT = {
-		AND = {
-			is_female = yes
-			OR = {
-				has_trait = pregnant
-				has_trait = dwarf
-				current_weight >= 20
-			}
-		}
-	}
 }
 cfp_innovation_ermine_cloaks_trigger = {
 	scope:culture = { has_innovation = innovation_ermine_cloaks }
