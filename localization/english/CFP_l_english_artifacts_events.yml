@@ -7,7 +7,7 @@
  cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal] approaches me. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], you stand as our rightful ruler! The word has spread and such a remarkable feat should be praised. We need something unlike anything else, which will last for many generations to come. I’ll return to you soon, once the details are worked out." \n\nAs I attempt to grasp what great work he has planned, I feel obligated to grant him my lenience. After all, the Pope supported my claim over England."
  cfp_title_event.0001.a.bishop:0 "May god help you to carry out your quest, [bishop.GetNameNoTooltip]!"
  
- cfp_title_event.0002.t:0 "Rule With The Arts"
+ cfp_title_event.0002.t:0 "Rule with the Arts"
  cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] comes to inform me about his project. \n\n"I’ve requested the finest craftsmen and artists throughout the land to weave this tapestry, it features embroidered imagery of your mighty conquest of England and tells the tale of how these magnificent victories came to be. It has been named the Telle du Conquest.""
  cfp_title_event.0002.a:0 "Such a magnificent tapestry!"
  
@@ -18,7 +18,7 @@
  cfp_artifact.0001.b:0 "Of course, you’ll spend the night in my dungeon."
  cfp_artifact.0001.c:0 "Come, you shall spend the night comfortably in the stables with some fresh hay!"
  
- cfp_artifact.0002.t:0 "The Traveler Has Vanished"
+ cfp_artifact.0002.t:0 "The Traveler has Vanished"
  cfp_artifact.0002.desc:0 "You arrive at the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] disappeared without much of a trace. You only spot some flattened hay and a small cloth wrapping."
  cfp_artifact.0002.a:0 "What's this ?"
  
@@ -26,7 +26,7 @@
  cfp_artifact.0003.a:0 "Farewell, [traveler.GetFullNameNoTooltip]."
  
  ## A local sculptor asks you to kickstart him so he can prove his talent
- cfp_artifact.0005.t:0 "A Local Sculptor Is Looking For A Benefactor"
+ cfp_artifact.0005.t:0 "A Local Sculptor is Looking for a Benefactor"
  cfp_artifact.0005.desc:0 "A difficult looking man demands an audience. \n\n"My name is [sculptor.GetFullNameNoTooltip]. You may have encountered my beautiful sculptures on the calvaries next to the roads of your domain.\n\nI thought you might want to become my benefactor. Indeed, as my name has become quite famous among your subjects, both of us could benefit from this partnership. \n\nAs proof of my good faith, I would create a unique and masterful sculpture for you to display wherever you wish, showing your immense piety to the world.""
  cfp_artifact.0005.a:0 "I've never heard of you, and you don't #italic look#! very talented."
  cfp_artifact.0005.b:0 "It sounds like a great opportunity."
@@ -40,16 +40,16 @@
  cfp_artifact.0007.a:0 "I should have known, leave and never come back."
  cfp_artifact.0007.b:0 "How about you sculpt your nails in my dungeon ?"
  
- cfp_artifact.0008.t:0 "Local Sculptor Is Quite Talented"
+ cfp_artifact.0008.t:0 "Local Sculptor is Quite Talented"
  cfp_artifact.0008.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is obviously a Saint, or maybe a bishop, but you don't dare to ask whom. The sculpt is sharp with beautiful curves and lines. It will surely impress your court, and the local sculptor will peddle your name alongside his humble but honest art."
  cfp_artifact.0008.a:0 "Nice! Tell them you have my benefice, [sculptor.GetFullNameNoTooltip]."
  
- cfp_artifact.0009.t:0 "Local Sculptor Is Gifted"
+ cfp_artifact.0009.t:0 "Local Sculptor is Gifted"
  cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is Virgin Mary. Her hands are joined in prayer and her eyes closed. The sculpting is sharp, with a complex veil covering Mary's head and falling over her shoulders. This is how everyone should see her when listening to the liturgy."
  cfp_artifact.0009.a:0 "I want you at my court so you can promote my name!"
  
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
- cfp_artifact.0011.t:0 "A Game Of Chess"
+ cfp_artifact.0011.t:0 "A Game of Chess"
  cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks to the Council. \n\n"I am making decent progress in my task of training our men. However, may I suggest the court invest in a more innovative game in order to provide our armies with excellent commanders? This is a game of chess. Chess is said to have helped many generals achieve victory in battle through strategy.""
  cfp_artifact.0011.a:0 "War is not a game, get back to work."
  cfp_artifact.0011.b:0 "Any innovation that makes our men better should be exploited."
