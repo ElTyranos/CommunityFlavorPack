@@ -1,0 +1,4 @@
+﻿artifact_use_norman_coa_gfx_visuals_trigger = {
+	exists = culture
+	culture = { has_coa_gfx = norman_coa_gfx }
+}
