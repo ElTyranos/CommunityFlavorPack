@@ -2,13 +2,13 @@
 
  # Bayeux Tapestry
  cfp_title_event.0001.t:0 "Une entreprise Normande"
- cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] avec confiance, comme il en a l'habitude. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], votre règne est incontesté! La nouvelle de notre glorieuse conquête s'est répandue. Pour faire l'éloge d'une telle aventure, nous avons besoin de quelque chose comme le monde n'en a jamais vu, quelque chose qui résistera à l'épreuve du temps. Je reviendrai bientôt, une fois les détails réglés, et votre légitimité en tant que souverain ne sera jamais remis en question." \n\nAlors que j'essaye en vain de deviner ce qu'il a en tête, je mesure avec humilité la chance que j'ai d'avoir un frère en qui je peux avoir confiance."
+ cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] s'approche avec nonchalance, comme il en a l'habitude. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], votre règne est incontesté! La nouvelle de notre glorieuse conquête s'est répandue partout. Pour faire l'éloge d'une telle aventure, nous avons besoin d'une chose comme le monde n'en a jamais vu, une chose qui résistera à l'épreuve du temps. Je reviendrai bientôt, une fois les détails réglés, et votre légitimité en tant que souverain ne sera jamais remise en question." \n\nAlors que j'essaye en vain de deviner ce qu'il a en tête, je mesure avec humilité la chance que j'ai d'avoir un frère en qui je peux avoir confiance."
  cfp_title_event.0001.a.odo:0 "Que le seigneur vous bénisse dans votre quête [bishop.GetFirstNameNoTooltip]!"
  cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal] s'approche de moi. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], vous vous érigez comme notre souverain légitime! L'information circule et un fait si remarquable se doit d'être loué. Nous avons besoin de quelque chose comme le monde n'en a jamais vu, quelque chose qui marquera les générations futures. Je reviendrai bientôt, une fois les détails réglés." \n\nAlors que j'essaie d'imaginer quelle grande œuvre il a planifiée, je me sens obligé de lui accorder mon indulgence. Après tout, le Pape a soutenu ma revendication sur l'Angleterre."
  cfp_title_event.0001.a.bishop:0 "Puisse dieu vous aider dans votre quête, [bishop.GetNameNoTooltip]!"
  
  cfp_title_event.0002.t:0 "Diriger par les Arts"
- cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] viens vous informer quant au dénouement de son projet. \n\n"J'ai fait quérir les meilleurs artisans et artistes de la région pour tisser cette tapisserie. Elle comporte des images brodées contant votre glorieuse conquête de l'Angleterre et scelle ainsi vos revendications et votre légitimité. Elle a été nommée la "Telle du Conquest".""
+ cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] vient vous informer quant au dénouement de son projet. \n\n"J'ai fait quérir les meilleurs artisans et artistes de la région pour tisser cette tapisserie. Elle comporte des représentations brodées contant votre audacieuse conquête de l'Angleterre et scelle ainsi vos revendications et votre légitimité. Elle a été nommée la "Telle du Conquest".""
  cfp_title_event.0002.a:0 "Quelle magnifique tapisserie !"
  
  ## A Burmese traveler might forget his Kris Dagger if you invite him
@@ -19,15 +19,15 @@
  cfp_artifact.0001.c:0 "Venez, vous passerez la nuit confortablement dans mes écuries."
  
  cfp_artifact.0002.t:0 "Le voyageur a disparu"
- cfp_artifact.0002.desc:0 "Vous arrivez aux écuries aux aurores. Il semble que [traveler.GetFullNameNoTooltip] a disparu sans laisser de trace. Vous ne voyez que de la paille aplatie sur laquelle repose un objet emballé dans du tissu."
+ cfp_artifact.0002.desc:0 "Vous arrivez aux écuries aux aurores. Il semble que [traveler.GetFullNameNoTooltip] ait disparu sans laisser de traces. Vous ne voyez que de la paille aplatie sur laquelle repose un objet emballé dans du tissu."
  cfp_artifact.0002.a:0 "Qu'est-ce que ceci ?"
  
- cfp_artifact.0003.desc:0 "Vous arrivez aux écuries aux aurores. Il semble que [traveler.GetFullNameNoTooltip] a disparu sans laisser de trace. Vous ne voyez que de la paille aplatie. Pendant un bref instant, vous vous demandez quelle était son histoire, mais vous êtes rapidement rappelé à des affaires plus importantes."
+ cfp_artifact.0003.desc:0 "Vous arrivez aux écuries aux aurores. Il semble que [traveler.GetFullNameNoTooltip] ait disparu sans laisser de traces. Vous ne voyez que de la paille aplatie. Pendant un bref instant, vous vous demandez quelle était son histoire, mais vous êtes rapidement rappelé à des affaires plus importantes."
  cfp_artifact.0003.a:0 "Adieu, [traveler.GetFullNameNoTooltip]."
  
  ## A local sculptor asks you to kickstart him so he can prove his talent
  cfp_artifact.0005.t:0 "Un sculpteur local cherche un bienfaiteur"
- cfp_artifact.0005.desc:0 "Un homme à l'allure difficile demande une audience. \n\n"Mon nom est [sculptor.GetFullNameNoTooltip]. Peut-être avez vous rencontré mes magnifiques sculptures sur les calvaires près des routes de votre domaine. J'ai pensé que vous pourriez vouloir devenir mon bienfaiteur. En effet, comme mon nom est devenu assez célèbre parmi vos sujets, nous pourrions tous deux bénéficier de ce partenariat. \n\nComme preuve de ma bonne foi, je créerai une sculpture unique et magistrale que vous pourrez exposer où vous le souhaitez, montrant ainsi votre immense piété au monde entier.""
+ cfp_artifact.0005.desc:0 "Un homme à l'allure difficile demande une audience. \n\n"Mon nom est [sculptor.GetFullNameNoTooltip]. Peut-être avez vous aperçu mes magnifiques sculptures sur les calvaires près des routes de votre domaine. J'ai pensé que vous pourriez vouloir devenir mon bienfaiteur. En effet, comme mon nom est devenu assez célèbre parmi vos sujets, nous pourrions tous deux bénéficier de ce partenariat. \n\nComme preuve de ma bonne foi, je créerai une sculpture unique et magistrale que vous pourrez exposer où vous le souhaitez, montrant ainsi votre immense piété au monde entier.""
  cfp_artifact.0005.a:0 "Je n'ai jamais entendu ton nom et tu n'as pas #italic l'air#! très talentueux."
  cfp_artifact.0005.b:0 "Cela semble être une bonne opportunité."
  
