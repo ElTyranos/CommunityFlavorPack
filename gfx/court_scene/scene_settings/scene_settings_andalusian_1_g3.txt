@@ -986,7 +986,7 @@ assets={ {
 		asset="ep1_mena_chandelier_fancy_entity"
 	}
  {
-		position={ 0.000000 -1000.000000 200.000000 }
+		position={ -1000.000000 550.000000 200.000000 }
 		scale=0.550000
 		description="Chandelier 2 Dust"
 		asset="roco_dust_motes_mena"
@@ -997,7 +997,7 @@ assets={ {
 		asset="ep1_mena_chandelier_fancy_entity"
 	}
  {
-		position={ 0.000000 1000.000000 200.000000 }
+		position={ 1000.000000 550.000000 200.000000 }
 		scale=0.550000
 		description="Chandelier 3 Dust"
 		asset="roco_dust_motes_mena"
