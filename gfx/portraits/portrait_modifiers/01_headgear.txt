@@ -7698,6 +7698,7 @@ headgear = {
 			modifier = {
 				add = 140
 				exists = this
+				cfp_era_late_medieval_trigger = yes
 				any_equipped_character_artifact = {
 					has_variable = pope_hat
 				}
@@ -7727,6 +7728,13 @@ headgear = {
 				exists = primary_title
 				primary_title = {
 					exists = controlled_faith
+				}
+			}
+			modifier = {
+				add = 140
+				exists = this
+				any_equipped_character_artifact = {
+					has_variable = pope_hat
 				}
 			}
 		}
