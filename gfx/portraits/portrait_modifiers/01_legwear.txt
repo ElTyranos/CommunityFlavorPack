@@ -42,7 +42,7 @@
 			base = 0
 			modifier = {
 				add = 100
-				age < 4
+				scope:age < 4
 			}
 		}
 	}
@@ -179,7 +179,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = mena_common_legwear
+				template = mena_war_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			# morph = {
@@ -248,6 +248,34 @@
 			}
 		}
 	}
+
+
+	ep1_jester_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ep1_jester_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1000
+				is_male = yes
+				has_court_position = court_jester_court_position
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
 	
 	## burmese ##
 
@@ -266,18 +294,21 @@
 			modifier = {
 				add = 101
 				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				cfp_portrait_burmese_clothing_trigger = yes
 			}
@@ -298,28 +329,27 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						cfp_portrait_burmese_clothing_trigger = yes
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					OR = {
+						amenity_level = { type = court_fashion value >= 4 }
+						amenity_level = { type = court_fashion value = 5 }
 					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							highest_held_title_tier = tier_county
+				}
+				cfp_portrait_burmese_clothing_trigger = yes
+			}
+			modifier = {
+				add = 101
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_county
+								highest_held_title_tier = tier_duchy # include high nobles
+							}
 							NOR = {
 								# has_dynasty = no
 								AND = {
@@ -328,46 +358,54 @@
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_burmese_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							cfp_portrait_burmese_clothing_trigger = yes
 						}
-					}
-				}
-			}
-			modifier = {
-				add = 101
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						cfp_portrait_burmese_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+						# Countess
+						AND = {
+							exists = primary_spouse
 							OR = {
-								highest_held_title_tier = tier_duchy
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								is_ruler = no
+								highest_held_title_tier = tier_barony
 							}
-							cfp_portrait_burmese_clothing_spouse_trigger = yes
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								cfp_portrait_burmese_clothing_spouse_trigger = yes
+							}
+						}
+						# Duchess
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+									has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								cfp_portrait_burmese_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					cfp_portrait_burmese_clothing_trigger = yes
+				}
 			}
 		}
 	}
@@ -383,39 +421,46 @@
 			}
 		}	
 		weight = {
-			base = 0
+			base = 0	
 			modifier = {
 				add = 101
-				OR = {
-					AND = {
-						highest_held_title_tier >= tier_kingdom
-						NOR = {
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						cfp_portrait_burmese_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
 							highest_held_title_tier >= tier_kingdom
 							NOR = {
 								AND = {
-								has_government = republic_government
+									has_government = republic_government
 									primary_title.tier > 1
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_burmese_clothing_spouse_trigger = yes
+							cfp_portrait_burmese_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier >= tier_kingdom
+								NOR = {
+									AND = {
+									has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								cfp_portrait_burmese_clothing_spouse_trigger = yes
+							}
 						}
 					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier > tier_kingdom
+					cfp_portrait_burmese_clothing_trigger = yes
 				}
 			}
 		}

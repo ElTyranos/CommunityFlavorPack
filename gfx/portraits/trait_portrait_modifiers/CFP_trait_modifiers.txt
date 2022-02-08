@@ -21,16 +21,16 @@
 				OR = {
 					AND = {
 						learning >= 12
-						has_trait = whole_of_body
+						portrait_has_trait_trigger = { TRAIT = whole_of_body }
 					}
 					AND = {
 						stewardship >= 12
-						has_trait = administrator
+						portrait_has_trait_trigger = { TRAIT = administrator }
 					}
 				}
 				NOR = {
-					has_trait = disfigured
-					has_trait = blind
+					portrait_has_trait_trigger = { TRAIT = disfigured }
+					portrait_has_trait_trigger = { TRAIT = blind }
 					portrait_indian_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes

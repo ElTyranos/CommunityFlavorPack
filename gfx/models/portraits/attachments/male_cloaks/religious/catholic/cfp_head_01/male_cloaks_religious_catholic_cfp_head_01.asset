@@ -28,9 +28,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_cloaks_religious_catholic_cfp_head_01_bs_dwarf" }
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/religious/catholic/cfp_head_01/male_cloaks_religious_catholic_cfp_head_01_masks.dds"
-			variation = "catholic_head"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/religious/catholic/cfp_head_01/male_cloaks_religious_catholic_cfp_head_01_masks.dds"
+				variation = "catholic_head"
+			}
 		}
 	}
 }

@@ -18,9 +18,11 @@ entity = {
 	pdxmesh = "male_headgear_religious_jewish_cfp_sudra_01_mesh"
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/religious/jewish/cfp_sudra_01/male_headgear_religious_jewish_cfp_sudra_01_masks.dds"
-			variation = "western_common_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/religious/jewish/cfp_sudra_01/male_headgear_religious_jewish_cfp_sudra_01_masks.dds"
+				variation = "western_common_01"
+			}
 		}
 	}
 }

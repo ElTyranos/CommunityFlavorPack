@@ -16,10 +16,13 @@ pdxmesh = {
 entity = {
 	name = "male_headgear_secular_latin_cfp_pannonian_high_01_entity"
 	pdxmesh = "male_headgear_secular_latin_cfp_pannonian_high_01_mesh"
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/latin/cfp_pannonian_high_01/latin_cfp_pannonian_high_01_masks.dds"
-			variation = "western_nobility_high_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/latin/cfp_pannonian_high_01/latin_cfp_pannonian_high_01_masks.dds"
+				variation = "western_nobility_high_01"
+			}
 		}
 	}
 }

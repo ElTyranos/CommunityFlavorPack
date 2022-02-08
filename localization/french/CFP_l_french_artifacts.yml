@@ -1,0 +1,37 @@
+﻿l_french:
+
+artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
+
+## Unique
+artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Telle du Conquest"
+artifact_cfp_bayeux_tapestry_description:0 "Seuls quelques mètres d'une tapisserie d'une grande beauté. Dans un lieu nommé Hastings, il retira son heaume pour rallier ses troupes. Alors [owner.GetFullNameRegnal] vainquit et devint le Conquérant de l'Angleterre, son héritage légitime devant Dieu."
+
+artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Sainte Lance"
+artifact_cfp_holy_lance_description:0 "Elle aurait appartenu à Saint Longinus. Cette lance a percé le flanc du Christ et est maculée de son sang sacré. Le clou fiché dans la pointe a servi à sa crucifixion."
+
+artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! Coupe en crâne de [killed.GetTitledFirstNamePossessiveNoTooltip]"
+artifact_cfp_krum_skull_cup_description:0 "Après sa mort au combat près de [location.GetName], [killed.GetFullNameNoTooltipRegnal] eut son crâne plaqué d'or et utilisé comme une coupe à boire [creator.GetFullNameNoTooltipRegnal]."
+
+artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! Coupe en crâne de [killed.GetTitledFirstNamePossessiveNoTooltip]"
+artifact_cfp_kure_skull_cup_description:0 "Autrefois la tête de [killed.GetFullNameNoTooltipRegnal], un prince Kiévain célèbre. Après une embuscade dirigée par [creator.GetFullNameNoTooltipRegnal] près de [location.GetName], il devint une coupe à boire."
+
+## Games
+artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Jeu d'échecs"
+artifact_cfp_chess_set_01_description:0 "Un jeu d'échecs composé d'une mixture de quartz et d'argile pulvérisés, recouvert d'une finition vitrée. Le jeu serait originaire de l'est et est attribué à de nombreuses victoires militaires. Il est en effet dit que mieux vous y jouez, mieux vous guerroierez."
+
+## Weapons
+artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Dague Kriss"
+artifact_cfp_kris_dagger_description:0 "Une lame forgée de manière unique qui appartenait à [traveler.GetFullName], un vagabond originaire d'un monde connu sous le nom de Djawa. Il a disparu du jour au lendemain sans laisser de trace. Peut-être cette arme a-t-elle des origines divines ?"
+
+artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Dague en fer"
+artifact_cfp_iron_dagger_description:0 "Il y en a beaucoup comme elle, mais celle-ci est unique. Forgée avec un lingot de fer et une bande de cuire, cette dague sert surtout à accrocher des notes sur les tables, manger ou... tuer un dragon. Éventuellement."
+
+## Statues
+artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Effigie peu glorieuse de Jésus et Marie"
+artifact_cfp_potato_jesus_description:0 "Sculptée par [maker.GetFullName], les visages n'ont pas l'air humains. Elle ne mérite même pas d'être exposée dans une chapelle, mais c'est tout de même une représentation sacrée qui doit être traitée avec respect."
+
+artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! Effigie d'un saint"
+artifact_cfp_saint_statue_description:0 "Joliment sculptée par [maker.GetFullName], cela ressemble à un saint, mais personne ne sait qui. C'est une statue assez inspirante tout de même."
+
+artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! Effigie de la vierge"
+artifact_cfp_mary_statue_description:0 "Une belle statue de Marie, mère de Jésus, sculptée par [maker.GetFullName]. Elle incarne la sagesse et transmet un sentiment rassurant. N'importe qui se sentirait à l'aise face à elle et embrasserait la Foi."

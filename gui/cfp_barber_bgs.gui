@@ -2,12 +2,7 @@ template "cfp_portrait_bgs"
 {
 	widget = {
 		size = { 100% 100% }
-		visible = no
-		using = hide_bg_temp
-		state = {
-			name = cfp_iberian_citadel_bg
-			on_start = "[PdxGuiWidget.Show]"
-		}
+		visible = "[GetVariableSystem.HasValue('barber_bg', 'cfp_iberian_citadel_bg')]"
 		background = {
 			texture = "gfx/interface/illustrations/cfp/cfp_iberian_citadel_bg.dds"
 			fittype = centercrop
@@ -15,12 +10,7 @@ template "cfp_portrait_bgs"
 	}
 	widget = {
 		size = { 100% 100% }
-		visible = no
-		using = hide_bg_temp
-		state = {
-			name = cfp_iberian_castle_bg
-			on_start = "[PdxGuiWidget.Show]"
-		}
+		visible = "[GetVariableSystem.HasValue('barber_bg', 'cfp_iberian_castle_bg')]"
 		background = {
 			texture = "gfx/interface/illustrations/cfp/cfp_iberian_castle_bg.dds"
 			fittype = centercrop
@@ -28,12 +18,7 @@ template "cfp_portrait_bgs"
 	}
 	widget = {
 		size = { 100% 100% }
-		visible = no
-		using = hide_bg_temp
-		state = {
-			name = cfp_iberian_walls_bg
-			on_start = "[PdxGuiWidget.Show]"
-		}
+		visible = "[GetVariableSystem.HasValue('barber_bg', 'cfp_iberian_walls_bg')]"
 		background = {
 			texture = "gfx/interface/illustrations/cfp/cfp_iberian_walls_bg.dds"
 			fittype = centercrop
@@ -41,12 +26,7 @@ template "cfp_portrait_bgs"
 	}
 	widget = {
 		size = { 100% 100% }
-		visible = no
-		using = hide_bg_temp
-		state = {
-			name = cfp_gaillard_zoomed_bg
-			on_start = "[PdxGuiWidget.Show]"
-		}
+		visible = "[GetVariableSystem.HasValue('barber_bg', 'cfp_gaillard_zoomed_bg')]"
 		background = {
 			texture = "gfx/interface/illustrations/cfp/cfp_gaillard_zoomed_bg.dds"
 			fittype = centercrop
@@ -54,12 +34,7 @@ template "cfp_portrait_bgs"
 	}
 	widget = {
 		size = { 100% 100% }
-		visible = no
-		using = hide_bg_temp
-		state = {
-			name = cfp_gaillard_bg
-			on_start = "[PdxGuiWidget.Show]"
-		}
+		visible = "[GetVariableSystem.HasValue('barber_bg', 'cfp_gaillard_bg')]"
 		background = {
 			texture = "gfx/interface/illustrations/cfp/cfp_gaillard_bg.dds"
 			fittype = centercrop
@@ -74,14 +49,14 @@ template "cfp_bg_buttons"
 		ignoreinvisible = yes
         spacing = -2
 		min_width = 200
-		
+
         widget = {
             size = { 0 12 }
         }
-		
+
 		button_category = {
 			blockoverride "text" {
-				text = "Community Flavor Pack"
+				raw_text = "Community Flavor Pack"
 				# margin_left = 5
 			}
 		}
@@ -89,11 +64,10 @@ template "cfp_bg_buttons"
         widget = {
             size = { 0 12 }
         }
-		
+
         bg_button = {
             text = "cfp_iberian_citadel"
-            onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
-            onclick = "[PdxGuiTriggerAllAnimations('cfp_iberian_citadel_bg')]"
+			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_iberian_citadel_bg')]"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_iberian_citadel_bg.dds"
 			}
@@ -102,8 +76,7 @@ template "cfp_bg_buttons"
         }
         bg_button = {
             text = "cfp_iberian_castle"
-            onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
-            onclick = "[PdxGuiTriggerAllAnimations('cfp_iberian_castle_bg')]"
+			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_iberian_castle_bg')]"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_iberian_castle_bg.dds"
 			}
@@ -112,8 +85,7 @@ template "cfp_bg_buttons"
         }
         bg_button = {
             text = "cfp_iberian_walls"
-            onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
-            onclick = "[PdxGuiTriggerAllAnimations('cfp_iberian_walls_bg')]"
+			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_iberian_walls_bg')]"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_iberian_walls_bg.dds"
 			}
@@ -122,8 +94,7 @@ template "cfp_bg_buttons"
         }
         bg_button = {
             text = "cfp_gaillard_zoomed"
-            onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
-            onclick = "[PdxGuiTriggerAllAnimations('cfp_gaillard_zoomed_bg')]"
+			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_gaillard_zoomed_bg')]"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_gaillard_mini_bg.dds"
 			}
@@ -132,8 +103,7 @@ template "cfp_bg_buttons"
         }
         bg_button = {
             text = "cfp_gaillard"
-            onclick = "[PdxGuiTriggerAllAnimations('hide_bg')]"
-            onclick = "[PdxGuiTriggerAllAnimations('cfp_gaillard_bg')]"
+			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_gaillard_bg')]"
 			blockoverride "picture" {
 				texture = "gfx/interface/illustrations/cfp/cfp_gaillard_mini_bg.dds"
 			}

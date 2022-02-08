@@ -28,6 +28,7 @@
 			base = 0
 			modifier = {
 				add = 100
+				exists = this
 				
 				cfp_era_high_medieval_trigger = yes
 				

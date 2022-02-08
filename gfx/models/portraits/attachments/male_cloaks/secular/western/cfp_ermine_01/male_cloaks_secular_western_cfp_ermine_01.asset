@@ -28,9 +28,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_dwarf" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_ermine_01/cloaks_secular_western_cfp_ermine_01_masks.dds"
-			variation = "western_cloaks_royalty_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_ermine_01/cloaks_secular_western_cfp_ermine_01_masks.dds"
+				variation = "western_cloaks_royalty_01"
+			}
 		}
 	}
 }
@@ -45,9 +47,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_dwarf" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_ermine_01/cloaks_secular_western_cfp_ermine_01_masks.dds"
-			variation = "byzantine_cloaks_royalty_01"	
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_ermine_01/cloaks_secular_western_cfp_ermine_01_masks.dds"
+				variation = "byzantine_cloaks_royalty_01"	
+			}
 		}
 	}
 }

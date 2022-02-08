@@ -1,0 +1,8 @@
+﻿# Called from code after history generation
+# Empty scope
+
+on_game_start = {
+	events = {
+		cfp_historical_artifacts.0001			# CFP Historical Artifacts Generator
+	}
+}

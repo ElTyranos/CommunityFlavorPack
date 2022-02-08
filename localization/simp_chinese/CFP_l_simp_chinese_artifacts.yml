@@ -1,0 +1,37 @@
+﻿l_simp_chinese:
+
+artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! 鸠约斯"
+
+## Unique
+artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Telle du Conquest"
+artifact_cfp_bayeux_tapestry_description:0 "Merely a few meters from a tapestry of much magnificence. In a place named Hastings he removed his helmet to rally his troops. So [owner.GetFullNameRegnal] prevailed and became the Conqueror of England, his rightful heritage under God."
+
+artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Holy Lance"
+artifact_cfp_holy_lance_description:0 "Said to belong to Saint Longinus, this spear pierced Christ's side and is stained with his holy blood. The nail embedded in the tip was used for his Crucificion."
+
+artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
+artifact_cfp_krum_skull_cup_description:0 "After his death in battle near [location.GetName], [killed.GetFullNameNoTooltipRegnal] had his skull lined with gold and used as a drinking cup by [creator.GetFullNameNoTooltipRegnal]."
+
+artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
+artifact_cfp_kure_skull_cup_description:0 "Once the head of [killed.GetFullNameNoTooltipRegnal], a famous Kievan prince. After an ambush led by [creator.GetFullNameNoTooltipRegnal] near [location.GetName], it became a drinking cup."
+
+## Games
+artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! Chess set"
+artifact_cfp_chess_set_01_description:0 "A ceramic chess set made from a mixture of pulverized quartz and clay with a glazed finish. The game is said to have originated from the near east and is attributed to many military victories. It is indeed said that the wiser you are playing chess, the better you'll fair in battle."
+
+## Weapons
+artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! Kris Dagger"
+artifact_cfp_kris_dagger_description:0 "A uniquely crafted blade that belonged to [traveler.GetFullName], a beggar from a land known as Djawa. He disapeared the next day never to be seen again. Could it have divine origins?"
+
+artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! Iron Dagger"
+artifact_cfp_iron_dagger_description:0 "There are many like it, but this one is unique. Forged with an iron ingot and a leather strip, this dagger is mostly used to pin notes on tables, eat or... kill a dragon. Eventually."
+
+## Statues
+artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! Ungraceful Effigy of Mary and Jesus"
+artifact_cfp_potato_jesus_description:0 "Sculpted by [maker.GetFullName], the faces don't really look human. It is not even worth displaying in a chapel, but it is still a holy icon and must be shown respect."
+
+artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! Effigy of a Saint"
+artifact_cfp_saint_statue_description:0 "Nicely sculpted by [maker.GetFullName], it looks like a Saint, but no one knows whom. It is a fairly inspiring statue nevertheless."
+
+artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! Mary Effigy"
+artifact_cfp_mary_statue_description:0 "A beautiful statue of Mary, mother of Jesus, sculpted by [maker.GetFullName]. She incarnates wisdom and gives a reassuring feeling. Anyone should be comfortable with her and embrace the faith."

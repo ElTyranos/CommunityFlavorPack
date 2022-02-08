@@ -16,10 +16,13 @@ pdxmesh = {
 entity = {
 	name = "male_headgear_secular_byzantine_pannonian_low_01_entity"
 	pdxmesh = "male_headgear_secular_byzantine_pannonian_low_01_mesh"
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/byzantine/pannonian_low_01/pannonian_low_masks.dds"
-			variation = "byzantine_low_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/byzantine/pannonian_low_01/pannonian_low_masks.dds"
+				variation = "byzantine_low_01"
+			}
 		}
 	}
 }

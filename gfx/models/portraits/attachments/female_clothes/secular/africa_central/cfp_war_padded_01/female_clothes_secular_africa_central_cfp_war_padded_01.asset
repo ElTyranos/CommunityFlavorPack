@@ -24,6 +24,7 @@ pdxmesh = {
 entity = {
 	name = "female_clothes_secular_africa_central_cfp_war_padded_01_entity"
 	pdxmesh = "female_clothes_secular_africa_central_cfp_war_padded_01_mesh"
+	
 	attribute = { name = "bs_body_fat_1" blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_fat" }
 	attribute = { name = "bs_body_muscular_1" blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_muscular" }	
 	attribute = { name = "bs_body_old_1" blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_old" }
@@ -31,10 +32,13 @@ entity = {
 	attribute = { name = "bs_body_pregnant_1"				blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_pregnant" }
 	attribute = { name = "bs_body_breast_size_min"			blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_body_breast_size_min" }
 	attribute = { name = "bs_body_breast_size_max"			blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_body_breast_size_max" }
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks.dds"
-			variation = "cfp_sub_saharan_armor_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks.dds"
+				variation = "cfp_sub_saharan_armor_01"
+			}
 		}
 	}
 }
@@ -42,6 +46,7 @@ entity = {
 entity = {
 	name = "female_clothes_secular_africa_central_cfp_war_padded_02_entity"
 	pdxmesh = "female_clothes_secular_africa_central_cfp_war_padded_01_mesh"
+	
 	attribute = { name = "bs_body_fat_1" blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_fat" }
 	attribute = { name = "bs_body_muscular_1" blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_muscular" }	
 	attribute = { name = "bs_body_old_1" blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_old" }
@@ -49,10 +54,13 @@ entity = {
 	attribute = { name = "bs_body_pregnant_1"				blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_pregnant" }
 	attribute = { name = "bs_body_breast_size_min"			blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_body_breast_size_min" }
 	attribute = { name = "bs_body_breast_size_max"			blend_shape = "female_clothes_secular_africa_central_cfp_war_padded_01_bs_body_breast_size_max" }
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks_alt.dds"
-			variation = "cfp_sub_saharan_armor_02"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks_alt.dds"
+				variation = "cfp_sub_saharan_armor_02"
+			}
 		}
 	}
 }

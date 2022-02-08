@@ -16,10 +16,13 @@ pdxmesh = {
 entity = {
 	name = "female_headgears_secular_turkic_low_nobility_01_entity"
 	pdxmesh = "female_headgears_secular_turkic_low_nobility_01_mesh"
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/female_headgears/secular/turkic/high_nobility_02/female_turkic_high_nobility_02_masks.dds"
-			variation = "steppe_nobility_low_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_headgears/secular/turkic/high_nobility_02/female_turkic_high_nobility_02_masks.dds"
+				variation = "steppe_nobility_low_01"
+			}
 		}
 	}
 }

@@ -1,0 +1,114 @@
+pdxmesh = {
+	name = "cfp_sword_joyeuse_01_mesh"
+	file = "cfp_sword_joyeuse_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_sword_joyeuse_01_diffuse.dds"
+		texture_normal = "cfp_sword_joyeuse_01_normal.dds"
+		texture_specular = "cfp_sword_joyeuse_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_rack_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "cfp_sword_joyeuse_01_diffuse.dds"
+		texture_normal = "cfp_sword_joyeuse_01_normal.dds"
+		texture_specular = "cfp_sword_joyeuse_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_rack_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "cfp_sword_joyeuse_01_diffuse.dds"
+		texture_normal = "cfp_sword_joyeuse_01_normal.dds"
+		texture_specular = "cfp_sword_joyeuse_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	
+	meshsettings = {
+		name = "cfp_sword_joyeuse_01_rack_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_sword_joyeuse_01_entity"
+	pdxmesh = "cfp_sword_joyeuse_01_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_kris_dagger_01_mesh"
+	file = "cfp_kris_dagger_01.mesh"
+
+	meshsettings = {
+		name = "cfp_kris_dagger_01Shape"
+		index = 0
+		texture_diffuse = "cfp_kris_dagger_01_diffuse.dds"
+		texture_normal = "cfp_kris_dagger_01_normal.dds"
+		texture_specular = "cfp_kris_dagger_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_kris_dagger_01_entity"
+	pdxmesh = "cfp_kris_dagger_01_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_western_dagger_01_mesh"
+	file = "cfp_western_dagger_01.mesh"
+
+	meshsettings = {
+		name = "cfp_western_dagger_01Shape"
+		index = 0
+		texture_diffuse = "western_dagger_01_diffuse.dds"
+		texture_normal = "western_dagger_01_normal.dds"
+		texture_specular = "western_dagger_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_western_dagger_01_entity"
+	pdxmesh = "cfp_western_dagger_01_mesh"
+}

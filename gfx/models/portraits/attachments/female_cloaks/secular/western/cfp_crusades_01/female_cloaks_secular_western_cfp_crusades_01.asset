@@ -26,9 +26,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
-			variation = "knights_templar"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
+				variation = "knights_templar"
+			}
 		}
 	}
 }
@@ -42,9 +44,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
-			variation = "knights_hospitaller"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
+				variation = "knights_hospitaller"
+			}
 		}
 	}
 }
@@ -58,9 +62,11 @@ entity = {
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
-			variation = "cfp_western_hoods_common_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/western/cfp_crusades_01/cloaks_secular_western_cfp_crusades_01_masks.dds"
+				variation = "cfp_western_hoods_common_01"
+			}
 		}
 	}
 }

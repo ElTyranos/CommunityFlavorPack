@@ -1,19 +1,19 @@
 ﻿l_spanish:
 
  rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : Cascos de placa completa"
- setting_default_cfp_fullplate_helmets:0 "Default"
+ setting_default_cfp_fullplate_helmets:0 "Por defecto"
  setting_default_cfp_fullplate_helmets_desc:0 "Los personajes en guerra se les permite usar cascos de placas completas que cubren sus rostros."
  setting_never_cfp_fullplate_helmets:1 "#high Exposed faces#!"
  setting_never_cfp_fullplate_helmets_desc:0 "Los personajes nunca usarán un casco de placa completa y su cara siempre será visible."
 
  rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Personajes calvos"
- setting_default_cfp_baldtrait:0 "Default"
+ setting_default_cfp_baldtrait:0 "Por defecto"
  setting_default_cfp_baldtrait_desc:0 "Personajes que se desarrollaron copiando mecanismos debido por el estrés perderán su pelo a medida que envejecen."
  setting_never_cfp_baldtrait:1 "#high Nunca#!"
  setting_never_cfp_baldtrait_desc:0 "Personajes que se desarrollaron copiando mecanismos mantendrán su estilo de peinado."
  
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Acesorios de rasgos"
- setting_default_cfp_trait_accessories:0 "Default"
+ setting_default_cfp_trait_accessories:0 "Por defecto"
  setting_default_cfp_trait_accessories_desc:0 "Los personajes usarán nuevos tipos de accesorios faciales basados en sus rasgos(gafas, joyeria, tatuajes, pintura de guerra)."
  setting_never_cfp_trait_accessories:1 "#high Nunca#!"
  setting_never_cfp_trait_accessories_desc:0 "Los personajes utilizarán unicamente los accesorios incluidos en el juego (vendas, mascara de desfigurado, vendaje de cabeza, parches)."
@@ -23,3 +23,16 @@
  setting_default_cfp_barbershop_unlocks_desc:0 "La barberia esta completamente desbloqueada. Las capas, todos los accesorios y los calzoncillos serán enlistados para el jugador. No afecta al comportamiento de la IA."
  setting_never_cfp_barbershop_unlocks:1 "#high Limitado#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "El comportamiento de la barberia es el mismo que en el juego original. No se pueden personalizar los accesorios, las capas requieren su rango, los calzoncillos permanecen ocultos. No afecta al comportamiento de la IA."
+ 
+ rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Artefactos"
+ setting_default_cfp_artifacts:0 "Por defecto"
+ setting_default_cfp_artifacts_desc:0 "Están disponibles nuevos artefactos personalizados. Estos podrian afectar la experiencia en el juego pero el equilibrio se intenta mantener todo lo posible."
+ setting_never_cfp_artifacts:1 "#high Nunca#!"
+ setting_never_cfp_artifacts_desc:0 "Los artefactos del mod están desactivados y no estarán disponibles."
+ 
+ rule_cfp_events:0 "@cfp_icon! Community Flavor Pack : Eventos"
+ setting_default_cfp_events:0 "Por defecto"
+ setting_default_cfp_events_desc:0 "Están disponibles nuevos eventos . Estos podrian afectar la experiencia en eljuego pero el equilibrio se intenta mantener todo lo posible."
+ setting_never_cfp_events:1 "#high Nunca#!"
+ setting_never_cfp_events_desc:0 "Los eventos del mod estarán desactivados y no estarán disponibles."
+ 

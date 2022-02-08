@@ -1,0 +1,60 @@
+﻿## Games
+cfp_chess_set = {
+	default_type = pedestal
+	icon = "artifact_cfp_chess_set.dds"
+	pedestal = "tall_pillow"
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = mena_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = steppe_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = indian_building }
+			}
+		}
+		reference = cfp_chess_set_01_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = mediterranean_building }
+			}
+		}
+		reference = cfp_chess_set_02_entity
+	}
+}
+
+## Weapons
+cfp_kris_dagger = {
+	icon = "artifact_dagger.dds"
+	default_type = pedestal
+	pedestal = "tall_pillow"
+	asset = cfp_kris_dagger_01_entity
+}
+cfp_iron_dagger = {
+	icon = "artifact_dagger.dds"
+	default_type = pedestal
+	pedestal = "tall_pillow"
+	asset = cfp_western_dagger_01_entity
+}
+
+## Statues
+cfp_potato_jesus = {
+	icon = "artifact_cfp_potato_jesus.dds"
+	default_type = pedestal
+	pedestal = "tall"
+	asset = cfp_potato_jesus_entity
+}
+cfp_saint_statue = {
+	icon = "artifact_cfp_saint_statue.dds"
+	default_type = pedestal
+	pedestal = "tall"
+	asset = cfp_saint_statue_entity
+}
+cfp_mary_statue = {
+	icon = "artifact_cfp_mary_statue.dds"
+	default_type = pedestal
+	pedestal = "tall"
+	asset = cfp_mary_statue_entity
+}

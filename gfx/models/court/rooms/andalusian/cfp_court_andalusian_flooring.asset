@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "cfp_court_andalusian_flooring_mesh"
+	file = "cfp_court_andalusian_flooring.mesh"
+
+	meshsettings = {
+		name = "cfp_court_andalusian_flooringShape"
+		index = 0
+		texture_diffuse = "cfp_materials_andalusian_flooring_diffuse.dds"
+		texture_normal = "cfp_materials_andalusian_flooring_normal.dds"
+		texture_specular = "cfp_materials_andalusian_flooring_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_andalusian_flooring_entity"
+	pdxmesh = "cfp_court_andalusian_flooring_mesh"
+}

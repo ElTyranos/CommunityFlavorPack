@@ -32,9 +32,11 @@ entity = {
 	attribute = { name = "bs_body_no_left_leg"					blend_shape = "male_legwear_secular_western_cfp_pants_01_bs_no_left_leg" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_legwear/secular/western/common_01/male_legwear_secular_western_common_01_masks.dds"
-			variation = "western_legwear_common_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_legwear/secular/western/common_01/male_legwear_secular_western_common_01_masks.dds"
+				variation = "western_legwear_common_01"
+			}
 		}
 	}
 }
