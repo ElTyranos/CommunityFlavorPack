@@ -75,7 +75,7 @@ cfp_historical_artifacts.0001 = {
 				has_dlc_feature = royal_court
 			}
 			while = {
-				count = 10
+				count = 5
 				random_ruler = {
 					limit = {
 						has_royal_court = yes
