@@ -36,9 +36,11 @@ entity = {
 	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_clothes_secular_java_cfp_high_nobility_01_bs_gaunt" }
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/javanese/cfp_royalty_01/female_clothes_secular_java_cfp_royalty_01_masks.dds"
-			variation = "indian_nobility_low_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/javanese/cfp_royalty_01/female_clothes_secular_java_cfp_royalty_01_masks.dds"
+				variation = "indian_nobility_low_01"
+			}
 		}
 	}
 }

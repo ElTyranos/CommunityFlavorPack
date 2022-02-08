@@ -16,13 +16,13 @@ pdxmesh = {
 entity = {
 	name = "male_headgear_secular_fp1_cfp_nobility_01_entity"
 	pdxmesh = "male_headgear_secular_fp1_cfp_nobility_01_mesh"
-	
 
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/female_headgear/secular/fp1/nobility_01/female_headgear_secular_fp1_nobility_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "fp1_low_01"	#A "variation" object in gfx/portraits/accessory_variations/
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_headgear/secular/fp1/nobility_01/female_headgear_secular_fp1_nobility_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "fp1_low_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
 		}
 	}
-	
 }

@@ -1,7 +1,8 @@
 ﻿l_russian:
 
- cfp_iberian_citadel:0 "Пиренейская цитадель"
- cfp_iberian_castle:0 "Пиренейский замок"
- cfp_iberian_walls:0 "Пиренейские стены"
- cfp_gaillard:0 "Distant Château-Gaillard"
- cfp_gaillard_zoomed:0 "Château-Gaillard"
+ cfp_name:0 "Community Flavor Pack"
+ cfp_iberian_citadel:0 "Иберийская цитадель"
+ cfp_iberian_castle:0 "Иберийский замок"
+ cfp_iberian_walls:0 "Иберийские стены"
+ cfp_gaillard:0 "Дальний Шато-Гайар"
+ cfp_gaillard_zoomed:0 "Шато-Гайар"

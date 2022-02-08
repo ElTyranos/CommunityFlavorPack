@@ -27,9 +27,11 @@ entity = {
 	pdxmesh = "male_headgear_secular_indian_cfp_war_timurid_01_mesh"
 	
 	 game_data = {
-	 	portrait_accessory = {
-	 		pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/indian/cfp_war_timurid_01/male_headgear_secular_indian_cfp_war_timurid_01_masks.dds"
-	 		variation = "indian_nobility_low_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/indian/cfp_war_timurid_01/male_headgear_secular_indian_cfp_war_timurid_01_masks.dds"
+				variation = "indian_nobility_low_01"
+			}
 	 	}
 	 }
 }

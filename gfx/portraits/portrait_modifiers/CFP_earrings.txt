@@ -28,6 +28,7 @@
 			base = 0
 			modifier = {
 				add = 101
+				exists = this
 				NOT = { is_male = yes }
 				portrait_african_clothing_trigger = yes
 				OR = {

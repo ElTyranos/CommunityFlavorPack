@@ -42,9 +42,11 @@ entity = {
 		blend_shape = "female_headgear_secular_latin_war_flat_top_01_bs_fat"
 	}
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/latin/war_flat_top_01/latin_war_flat_top_01_masks.dds"
-			variation = "painted_metal_western_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/latin/war_flat_top_01/latin_war_flat_top_01_masks.dds"
+				variation = "painted_metal_western_01"
+			}
 		}
 	}
 }

@@ -1,0 +1,131 @@
+﻿namespace = cfp_historical_artifacts
+# Generation of CFP historical artifacts #
+
+#Historical artifacts generator at game start
+cfp_historical_artifacts.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		#Historical Artifacts
+		random_ruler = {
+			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+				has_dlc_feature = royal_court
+				OR = {
+					AND = {
+						current_year > 1000 # later start
+						has_title = title:k_france
+					}
+					AND = {
+						current_year < 1000 #early start
+						has_title = title:k_lotharingia
+					}
+				}
+			}
+			create_artifact_joyeuse_effect = { OWNER = this }
+		}
+		
+		random_ruler = {
+			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+				has_dlc_feature = royal_court
+				has_title = title:e_hre
+			}
+			create_artifact_cfp_holy_lance_effect = { OWNER = this }
+		}
+		
+		random_ruler = {
+			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+				has_dlc_feature = royal_court
+				has_title = title:k_bulgaria
+			}
+			character:159123 = { save_scope_as = creator }
+			character:70497 = { save_scope_as = deskulled }
+			province:3689 = { save_scope_as = location }
+			create_artifact_cfp_krum_skull_cup_effect = { 
+				OWNER = this
+				CREATOR = scope:creator
+				DESKULLED = scope:deskulled
+				LOCATION = scope:location
+			}
+		}
+		
+		random_ruler = {
+			limit = {
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+				has_dlc_feature = royal_court
+				has_title = title:k_pechenegs
+			}
+			character:pecheneg000001 = { save_scope_as = creator }
+			character:602 = { save_scope_as = deskulled }
+			province:1071 = { save_scope_as = location }
+			create_artifact_cfp_kure_skull_cup_effect = { 
+				OWNER = this
+				CREATOR = scope:creator
+				DESKULLED = scope:deskulled
+				LOCATION = scope:location
+			}
+		}
+		
+		if = {
+			limit = { 
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+				has_dlc_feature = royal_court
+			}
+			while = {
+				count = 5
+				random_ruler = {
+					limit = {
+						has_royal_court = yes
+						NOR = {
+							has_character_flag = seeded_chess_set
+							location = { geographical_region = world_africa_west }
+							location = { geographical_region = world_africa_east }	
+							location = { geographical_region = world_africa_sahara }
+						}
+					}
+					if = {
+						limit = { exists = cp:councillor_marshal }
+						cp:councillor_marshal = { save_scope_as = marshal }
+					}
+					create_artifact_cfp_chess_set_effect = {
+						OWNER = this
+						MAKER = scope:marshal
+					}
+					add_character_flag = {
+						flag = seeded_chess_set
+						days = 1
+					}
+					add_character_flag = {
+						flag = had_event_cfp_artifact_0011
+						days = 3650
+					}
+				}
+			}
+			
+		}
+		
+		if = {
+			limit = { 
+				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+				has_dlc_feature = royal_court
+			}
+			while = {
+				count = 1
+				random_ruler = {
+					limit = {
+						has_royal_court = yes
+						NOT = {	has_character_flag = seeded_cfp_iron_dagger	}
+					}
+					create_artifact_cfp_iron_dagger_effect = { OWNER = this }
+					add_character_flag = {
+						flag = seeded_cfp_iron_dagger
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}

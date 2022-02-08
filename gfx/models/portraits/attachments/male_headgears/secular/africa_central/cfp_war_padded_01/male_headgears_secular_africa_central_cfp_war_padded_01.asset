@@ -1,7 +1,7 @@
 pdxmesh = {
 	name = "male_headgears_secular_africa_central_cfp_war_padded_01_mesh"
 	file = "male_headgears_secular_africa_central_cfp_war_padded_01.mesh"
-
+	
 	meshsettings = {
 		name = "male_headgears_secular_africa_central_cfp_war_padded_01Shape"
 		index = 0
@@ -17,10 +17,13 @@ pdxmesh = {
 entity = {
 	name = "male_headgears_secular_africa_central_cfp_war_padded_01_entity"
 	pdxmesh = "male_headgears_secular_africa_central_cfp_war_padded_01_mesh"
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks.dds"
-			variation = "cfp_sub_saharan_armor_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks.dds"
+				variation = "cfp_sub_saharan_armor_01"
+			}
 		}
 	}
 }
@@ -28,11 +31,13 @@ entity = {
 entity = {
 	name = "male_headgears_secular_africa_central_cfp_war_padded_02_entity"
 	pdxmesh = "male_headgears_secular_africa_central_cfp_war_padded_01_mesh"
+	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks_alt.dds"
-			variation = "cfp_sub_saharan_armor_02"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/africa_central/cfp_war_padded_01/africa_central_cfp_war_padded_01_masks_alt.dds"
+				variation = "cfp_sub_saharan_armor_02"
+			}
 		}
 	}
-	
 }

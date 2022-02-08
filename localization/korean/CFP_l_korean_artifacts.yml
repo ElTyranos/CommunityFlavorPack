@@ -1,0 +1,37 @@
+﻿l_korean:
+
+artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! 주와이외즈"
+
+## Unique
+artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! 텔레 뒤 콩케트"
+artifact_cfp_bayeux_tapestry_description:0 "웅장한 길이의 태피스트리 중 일부를 보여주고 있습니다. 헤이스팅스 지역에서 [owner.GetFullNameRegnal]는(은) 자신의 군대를 규합하기 위해 투구를 벗은 채 지휘했습니다. 그 결과, 그는 승리했고 하느님의 가호 아래에서 잉글랜드의 정복자가 될 수 있었습니다."
+
+artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! 성창"
+artifact_cfp_holy_lance_description:0 "성 롱기누스의 창으로 여겨지는 이 창은 그리스도의 옆구리를 찔렀을 때 흘러나오는 그리스도의 피로 얼룩져있습니다. 창의 끝부분에 박혀있는 못은 그리스도의 십자가형 당시에 사용되었던 못으로 여겨집니다."
+
+artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] 해골 술잔"
+artifact_cfp_krum_skull_cup_description:0 "[location.GetName] 근교의 전투에서 사망한 이후, [killed.GetFullNameNoTooltipRegnal]의 해골은 도금되어 [creator.GetFullNameNoTooltipRegnal]의 술잔으로 사용되었습니다."
+
+artifact_cfp_kure_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] 해골 술잔"
+artifact_cfp_kure_skull_cup_description:0 "키예프 루스의 유명한 크냐즈인 [killed.GetFullNameNoTooltipRegnal]의 두개골을 이용해 만들어진 술잔입니다. [location.GetName] 근교에서 [creator.GetFullNameNoTooltipRegnal]이(가) 주도한 기습을 당한 이후, 그의 두개골은 술잔이 되었습니다."
+
+## Games
+artifact_cfp_chess_set_01_name:0 "@cfp_icon_artifact! 체스 세트"
+artifact_cfp_chess_set_01_description:0 "분쇄된 석영과 점토의 혼합물로 모양을 만든 후, 유약을 발라 마감한 세라믹 체스 세트입니다. 이 게임은 근동지역에서 시작된 것으로 알려져 있으며, 많은 군사적 승리에 도움을 주었다고 합니다. 실제로 체스를 잘 두는 사람일수록, 전장을 잘 운영할 수 있다고 합니다."
+
+## Weapons
+artifact_cfp_kris_dagger_name:0 "@cfp_icon_artifact! 크리스 단검"
+artifact_cfp_kris_dagger_description:0 "자와라고 알려진 지역에서 온 거지 [traveler.GetFullName]이(가) 가지고 있었던 독특한 생김새의 단검입니다. 이 단검을 가져온 거지는 다음날 흔적도 없이 사라졌습니다. 어쩌면, 이 단검이 신의 선물이 아니었을까요?"
+
+artifact_cfp_iron_dagger_name:0 "@cfp_icon_artifact! 철제 단검"
+artifact_cfp_iron_dagger_description:0 "다른 비슷한 모양새를 가진 단검이 많지만, 이 단검은 특별합니다. 철괴와 가죽끈으로 만든 이 단검은 탁자에 메모를 꽂거나, 식기 대용으로 사용되거나...용을 죽이는데 사용되었습니다."
+
+## Statues
+artifact_cfp_potato_jesus_name:0 "@cfp_icon_artifact! 성모자의 볼품없는 조각상"
+artifact_cfp_potato_jesus_description:0 "[maker.GetFullName]에 의해 조각된 조각상으로, 조각상의 얼굴은 사람을 묘사하고 있는 것 같지는 않습니다. 이 조각상은 예배당에 전시할 만큼의 가치는 없지만, 여전히 성스러운 이콘이며 존숭받아야 합니다."
+
+artifact_cfp_saint_statue_name:0 "@cfp_icon_artifact! 성인의 조각상"
+artifact_cfp_saint_statue_description:0 "[maker.GetFullName]에 의해 멋지게 조각된 조각상입니다. 이 조각상은 성인을 묘사하고 있는 것으로 보이지만, 정확히 어떤 이를 묘사하고 있는지는 아무도 모릅니다. 그런데도 이 조각상은 보는 이에게 다양한 영감을 주고 있습니다."
+
+artifact_cfp_mary_statue_name:0 "@cfp_icon_artifact! 성모 마리아 조각상"
+artifact_cfp_mary_statue_description:0 "그리스도의 어머니, 마리아를 묘사한 아름다운 조각상으로 [maker.GetFullName]이(가) 조각한 작품입니다. 그녀를 묘사한 조각상은 마치 지혜가 실체화된 듯하며, 바라보면 편안한 느낌을 주고 있습니다. 이 조각상을 바라본 그 누구든 편안함을 느낄 것이며, 신앙을 받아들일 것입니다."

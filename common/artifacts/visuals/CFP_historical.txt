@@ -1,0 +1,21 @@
+﻿cfp_bayeux_tapestry = {
+	icon = "artifact_cfp_bayeux_tapestry.dds"
+	asset = cfp_bayeux_tapestry_entity
+}
+
+cfp_sword_joyeuse = {
+	icon = "artifact_cfp_joyeuse.dds"
+	asset = cfp_sword_joyeuse_01_entity
+}
+
+cfp_holy_lance = {
+	icon = "artifact_cfp_holy_lance.dds"
+	pedestal = "tall"
+	asset = cfp_holy_lance_entity
+}
+
+cfp_trophy_skull_cup_01 = {
+	icon = "artifact_cfp_skull_cup.dds"
+	pedestal = "tall_pillow"
+	asset = cfp_trophy_skull_cup_01_entity
+}

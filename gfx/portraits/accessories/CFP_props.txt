@@ -1,3 +1,3 @@
-﻿cfp_kris_dagger_01 = {
-	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "portrait_prop_cfp_kris_dagger_01_entity" }
+﻿cfp_kris_dagger_equipped_01 = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "cfp_kris_dagger_01_portrait_entity" }
 }

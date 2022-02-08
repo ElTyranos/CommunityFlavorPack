@@ -1,0 +1,59 @@
+pdxmesh = {
+	name = "cfp_potato_jesus_mesh"
+	file = "cfp_potato_jesus.mesh"
+
+meshsettings = {
+		name = "cfp_potato_jesusShape"
+		index = 0
+		texture_diffuse = "cfp_potato_jesus_diffuse.dds"
+		texture_normal = "cfp_potato_jesus_normal.dds"
+		texture_specular = "cfp_potato_jesus_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_potato_jesus_entity"
+	pdxmesh = "cfp_potato_jesus_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_mary_statue_mesh"
+	file = "cfp_mary_statue.mesh"
+
+meshsettings = {
+		name = "cfp_mary_statueShape"
+		index = 0
+		texture_diffuse = "cfp_mary_statue_diffuse.dds"
+		texture_normal = "cfp_mary_statue_normal.dds"
+		texture_specular = "cfp_mary_statue_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_mary_statue_entity"
+	pdxmesh = "cfp_mary_statue_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_saint_statue_mesh"
+	file = "cfp_saint_statue.mesh"
+
+meshsettings = {
+		name = "cfp_saint_statueShape"
+		index = 0
+		texture_diffuse = "cfp_saint_statue_diffuse.dds"
+		texture_normal = "cfp_saint_statue_normal.dds"
+		texture_specular = "cfp_saint_statue_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_saint_statue_entity"
+	pdxmesh = "cfp_saint_statue_mesh"
+}

@@ -23,3 +23,16 @@
  setting_default_cfp_barbershop_unlocks_desc:0 "Le barbier est totalement débloqué. Les capes, braies et accessoires sont disponnible pour le joueur. Cela n'influence pas la tenue de l'IA."
  setting_never_cfp_barbershop_unlocks:1 "#high Limité#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "Le barbier fonctionne comme le jeu vanilla. Les accessoires ne peuvent pas être customisés, les capes nécessitent un rang minimum, les braies ne peuvent être modifiées. Cela n'influence pas la tenue de l'IA."
+
+ rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Artefacts"
+ setting_default_cfp_artifacts:0 "Par défaut"
+ setting_default_cfp_artifacts_desc:0 "De nouveaux artefacts sont disponnibles. Cela peut affecter l'expérience de jeu mais l'équilibrage est préservé autant que faire se peut."
+ setting_never_cfp_artifacts:1 "#high Jamais#!"
+ setting_never_cfp_artifacts_desc:0 "Les artefacts additionnels sont désactivés et ne seront pas disponnibles."
+ 
+ rule_cfp_events:0 "@cfp_icon! Community Flavor Pack : Events"
+ setting_default_cfp_events:0 "Par défaut"
+ setting_default_cfp_events_desc:0 "De nouveaux événements sont disponnibles. Cela peut affecter l'expérience de jeu mais l'équilibrage est préservé autant que faire se peut."
+ setting_never_cfp_events:1 "#high Jamais#!"
+ setting_never_cfp_events_desc:0 "Les événements additionnels sont désactivés et ne seront pas disponnibles."
+ 

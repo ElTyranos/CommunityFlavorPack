@@ -18,9 +18,11 @@ entity = {
 	pdxmesh = "male_headgear_religious_catholic_cfp_tribal_01_mesh"
 	
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/religious/catholic/cfp_tribal_01/male_cloaks_religious_catholic_cfp_tribal_01_masks.dds"
-			variation = "cfp_catholic_tribal_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/religious/catholic/cfp_tribal_01/male_cloaks_religious_catholic_cfp_tribal_01_masks.dds"
+				variation = "cfp_catholic_tribal_01"
+			}
 		}
 	}
 }

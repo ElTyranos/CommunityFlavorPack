@@ -1,0 +1,61 @@
+﻿l_korean:
+
+ # Bayeux Tapestry
+ cfp_title_event.0001.t:0 "노르만의 권리"
+ cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal]이(가) 평상시처럼 자신감 있게 나에게 다가와 말했다. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], 당신의 통치는 전설로 남을 것입니다! 우리의 영광스러운 정복에 대한 소문이 전 세계로 퍼져나가고 있습니다. 이러한 업적을 제대로 찬양하기 위해서는, 그 무엇보다도 시간의 시험을 이겨낼 수 있는 것이 필요합니다. 정복 과정이 자세하게 묘사될 수 있다면, 당신의 통치가 정당함은 그 누구도 의심하지 않을 것입니다."\n\n그가 위대한 작업을 계획하고 있는지 이해한 순간, 내 주위에서 확실하게 신뢰할 수 있는 이를 찾은 것 같아 기분이 좋아졌습니다."
+ cfp_title_event.0001.a.odo:0 "주께서 [bishop.GetFirstNameNoTooltip]의 계획을 축복하시길!"
+ cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal]이(가) 나에게 다가와 말했다. \n\n""[ROOT.Char.GetTitledFirstNameNoTooltip], 당신은 우리의 적법한 통치자입니다! 당신의 정복에 대한 소문이 전 세계로 퍼졌으니, 당신의 위업은 칭송받아 마땅합니다. 이러한 칭송을 위해서는, 여러 세대에 걸쳐 찬미 될 수 있는 것이 필요합니다. 자세한 내용이 정리되면 다시 찾아뵙겠습니다."\n\n그가 위대한 작업을 계획하고 있다는 것을 이해한 순간, 당신은 그에게 관대함을 보여주어야 할 것 같다는 생각이 들었습니다. 그와 함께, 교황이 자신의 잉글랜드 정복을 승인한 것 같아 기분이 좋습니다."
+ cfp_title_event.0001.a.bishop:0 "주께서 그대의 임무를 축복하실 것이다, [bishop.GetNameNoTooltip]!"
+ 
+ cfp_title_event.0002.t:0 "예술을 통한 통치"
+ cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal]이(가) 다가와 그가 이전에 작업했던 계획에 대해 알려주었습니다. \n\n"저는 나라의 가장 훌륭한 장인과 예술가들에게 태피스트리의 제작을 의뢰했습니다. 그렇게 만들어진 이 태피스트리는 전하께서 잉글랜드를 정복한 과정을 수놓았으며, 이 위대한 승리가 어떠한 과정을 거쳐 이루어졌는지를 보여주고 있습니다.""
+ cfp_title_event.0002.a:0 "참으로 웅장한 태피스트리로다!"
+ 
+ ## A Burmese traveler might forget his Kris Dagger if you invite him
+ cfp_artifact.0001.t:0 "$yearly.1090.t$" # We use vanilla name to confuse experienced players
+ cfp_artifact.0001.desc:0 "알록달록한 로인클로스를 걸친 남자가 나에게 다가왔다.\n\n"제 이름은 [traveler.GetFullNameNoTooltip](으)로, 아주 먼 지역 출신입니다. 당신의 아름다운 성 바깥에서 도적에 시달렸기에, 밖에서 자는 것이 두렵습니다. 부디 저를 오늘 밤 당신의 성 안에서 머무를 수 있게 해주시겠습니까?""
+ cfp_artifact.0001.a:0 "경비병! 당장 이 거지를 내 눈앞에서 치워라!"
+ cfp_artifact.0001.b:0 "물론이지, 자네는 내 지하감옥에서 밤을 보내게 될 걸세."
+ cfp_artifact.0001.c:0 "성에서 머물러도 좋네. 오늘 밤, 자네는 신선한 건초와 함께 따뜻한 마구간에서 자게 될 걸세!"
+ 
+ cfp_artifact.0002.t:0 "사라진 여행자"
+ cfp_artifact.0002.desc:0 "이른 아침, 당신은 마구간을 방문했습니다. 하지만, 그 어디에서도 [traveler.GetFullNameNoTooltip]의 행방은 찾아볼 수 없었습니다. 그저, 납작해진 건초와 작은 옷가지로 포장된 무언가만이 그가 이곳에 있었던 것을 보여주고 있을 뿐입니다."
+ cfp_artifact.0002.a:0 "이것은 또 무엇인가?"
+ 
+ cfp_artifact.0003.desc:0 "이른 아침, 당신은 마구간을 방문했습니다. 하지만, 그 어디에서도 [traveler.GetFullNameNoTooltip]의 행방은 찾아볼 수 없었습니다. 그저, 납작해진 건초만이 남아있었을 뿐입니다. 당신은 그의 행방이 궁금했지만, 이내 다른 중요한 문제를 해결하기 위해 궁정으로 돌아갔습니다."
+ cfp_artifact.0003.a:0 "잘가게, [traveler.GetFullNameNoTooltip]."
+ 
+ ## A local sculptor asks you to kickstart him so he can prove his talent
+ cfp_artifact.0005.t:0 "후원자를 찾는 지역 조각가"
+ cfp_artifact.0005.desc:0 "어려운 삶을 살아가는 것처럼 보이는 한 남자가 알현을 요청했다.\n\n"저의 이름은 [sculptor.GetFullNameNoTooltip]입니다. 아마도 전하의 봉역 내에 위치한 도로의 옆에서 저의 아름다운 조각상을 보셨을지도 모르겠습니다.\n\n당신이 저의 후원자가 될 수 있으리라 생각해 이렇게 찾아오게 되었습니다. 제 이름은 당신의 신민 사이에서 유명한 만큼, 당신이 저를 후원해주시는 것은 후회하지 않으리라 생각합니다.\n\n당신이 저를 후원해 주신다면, 아름다운 조각상을 만들어 당신의 독실함을 전 세계에 알릴 수 있도록 작업해보겠습니다.""
+ cfp_artifact.0005.a:0 "나는 그대에 관한 이야기를 전혀 듣지 못했다. 자네는 그다지 #italic재능있어 보이지는 않는데#!."
+ cfp_artifact.0005.b:0 "좋은 계획이로군. 그대를 후원하도록 하겠네."
+ 
+ cfp_artifact.0006.t:0 "나를 속인 지역 조각가"
+ cfp_artifact.0006.desc:0 "경비병이 당신에게 쪽지가 부착된 바위 하나를 가져왔다. \n\n"멍청한 [ROOT.Char.GetTitledFirstNameNoTooltip],\n\n당신의 관대함은 이 세상에서 따라올 자가 없습니다. 당신이 이 쪽지를 읽게 될 즈음에, 저는 당신의 호구 같음을 알리며 멀리 떠날 것입니다." \n\n이 쪽지는 [sculptor.GetFullNameNoTooltip]이(가) 직접 쓴 것으로 보입니다. 이에 대해 지금 당장 할 수 있는 일은 없어 보입니다."
+ cfp_artifact.0006.a:0 "빌어먹을, 내 명성이 땅에 떨어졌군!"
+ 
+ cfp_artifact.0007.t:0 "재능없는 지역 조각가"
+ cfp_artifact.0007.desc:0 "[sculptor.GetFullNameNoTooltip]이(가) 자신이 노력한 결과물을 가지고 궁정에 찾아왔습니다. 당신은 조각상을 머리부터 발끝까지 하나하나 살펴보았습니다.\n\n마리아의 드레스 주름은 아름답고 깔끔하게 작업 되었습니다. 마리아는 예수를 품에 안고 은혜가 넘치는 행복한 표정을 짓고 있습니다. 당신이 예수님의 얼굴을 볼 때, 당신은 비명을 지르지 않을 수 없었습니다. 눈은 비어있고, 그의 얼굴과 코는 단순하게 선 하나로 표현되어있습니다. 이는 매우 불경스러운 묘사이며, 예수의 거룩함을 모독하는 행위입니다."
+ cfp_artifact.0007.a:0 "내가 네놈의 실력을 진작에 알아차렸어야 했는데, 당장 내 궁정에서 꺼저라!"
+ cfp_artifact.0007.b:0 "내 감옥에서 손톱으로 벽을 조각해 보는 것은 어떤가?"
+  
+ cfp_artifact.0008.t:0 "꽤나 재능있는 지역 조각가"
+ cfp_artifact.0008.desc:0 "[sculptor.GetFullNameNoTooltip]이(가) 자신이 노력한 결과물을 가지고 궁정에 찾아왔습니다. 당신은 조각상을 머리부터 발끝까지 하나하나 살펴보았습니다. \n\n이 조각상은 아마도 성인을 묘사하거나 특정 지역의 주교를 묘사했을 수도 있습니다. 하지만, 굳이 그 이름을 물어볼 필요는 없을 것으로 보입니다. 전체적으로 조각상은 굉장히 곡선과 선으로 아름답게 조각되었습니다. 이 조각상은 분명히 궁정 내에서 강렬한 인상을 줄 것이 분명합니다. 적어도 이 작품을 보건대, 그의 작품을 후원했던 것은 후회스럽지 않은 선택이 될 것 같습니다."
+ cfp_artifact.0008.a:0 "멋지군! 그대가 나의 후원을 받았음을 널리 알리게, [sculptor.GetFullNameNoTooltip]."
+ 
+ cfp_artifact.0009.t:0 "천재적인 재능을 가진 지역 조각가"
+ cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip]이(가) 자신이 노력한 결과물을 가지고 궁정에 찾아왔습니다. 당신은 조각상을 머리부터 발끝까지 하나하나 살펴보았습니다. \n\n이 조각상은 성모 마리아를 묘사하고 있는 것 같습니다. 마리아는 두 눈을 감은 채, 두 손을 모아 기도하고 있습니다. 전체적으로 매우 아름답게 조각되었으며, 아름답게 조각된 베일이 그녀의 머리부터 어깨 위까지 덮고 있습니다. 아마도, 이 조각상을 바라본 모든 이는 성모를 공경하는 마음을 가지게 될 것입니다."
+ cfp_artifact.0009.a:0 "나의 후원을 받으면서 나를 위해 계속 조각해주었으면 좋겠군!"
+ 
+ ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
+ cfp_artifact.0011.t:0 "체스"
+ cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal]이(가) 자문회 회의에서 발언했다.\n\n"병사를 훈련시키는 일은 상당히 진전을 보이고 있습니다. 하지만, 저는 우리의 군대를 이끌 훌륭한 지휘관을 양성하기 위한 혁신적인 게임에 궁정이 투자할 것을 제안하고 싶습니다. 바로 체스입니다. 전략적으로 체스를 플레이하면서, 많은 장군이 전장에서 군대를 운영하는 데 있어 많은 도움을 받았다고 합니다.""
+ cfp_artifact.0011.a:0 "전쟁은 게임이 아니네, 돌아가서 자네의 업무를 보게."
+ cfp_artifact.0011.b:0 "우리 병사를 더 좋게 만드는 혁신은 언제나 옳지."
+ cfp_artifact.0011.c:0 "맞는 말이야. 내가 어렸을 때, 체스를 한두 번 해봤지. 멋진 체스 한 벌에 투자할 필요가 있겠군."
+ 
+ cfp_artifact.0012.desc:0 "주군, 이 체스 세트 한 벌을 지역의 상점에서 찾았습니다. 평범해 보이지만, 부속 중 빠진 것은 없어 보입니다.\n\n이 체스 세트를 판매한 상인의 말을 완전히 이해할 수는 없었습니다만, 대략적인 규칙은 알아낸 것 같습니다. 이 게임이 전투에서 승리하는 데 도움을 줄 수 있으면 좋을 것 같습니다."
+ cfp_artifact.0013.desc:0 "주군, 제 계획이 자문회 회의에서 승인받자마자 저는 외국 장인에게 아름다운 체스 세트 한 벌을 주문했습니다.\n\n체스를 도색하기 위해 필요한 준비 과정 탓에 많은 시간이 걸렸지만, 그 결과물은 매우 훌륭해 보입니다. 저는 장인의 말을 이해할 수 없었고, [steward.GetFullNameNoTooltipRegnal] 역시 통역사를 구하지는 못했습니다만 대략적인 규칙은 이해할 수 있었습니다. \n\n이 게임은 분명히 우리 지휘관의 전쟁 능력 향상에 도움이 되리라 생각합니다."
+ cfp_artifact.0012.a:0 "잘했네, [marshal.GetFirstNameNoTooltip]!"
+ 

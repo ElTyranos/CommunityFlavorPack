@@ -37,9 +37,11 @@ entity = {
 	attribute = { name = "bs_body_breast_size_min"			blend_shape = "female_cloaks_secular_sub_saharan_cfp_apron_01_bs_breast_size_min" }
 			
 	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/sub_saharan/cfp_apron_01/cloaks_secular_sub_saharan_cfp_apron_01_masks.dds"
-			variation = "cfp_sub_saharan_apron_01"
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloaks/secular/sub_saharan/cfp_apron_01/cloaks_secular_sub_saharan_cfp_apron_01_masks.dds"
+				variation = "cfp_sub_saharan_apron_01"
+			}
 		}
 	}
 }
