@@ -1,4 +1,4 @@
-name="Norman_1_g3"
+name="CFP_Norman_1_g3"
 culture="norman"
 visual_culture_level=3
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"

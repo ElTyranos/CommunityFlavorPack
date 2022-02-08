@@ -1,6 +1,6 @@
-name="Andalusian_1_g2"
+name="CFP_Andalusian_1_g3"
 culture="andalusian"
-visual_culture_level=2
+visual_culture_level=3
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_indian.txt"
 audio_culture=4.000000
@@ -1022,6 +1022,26 @@ assets={ {
 		position={ -1370.000000 105.000000 500.000000 }
 		description="Deco - Vase 2"
 		asset="ep1_deco_vase_01_a_entity"
+	}
+ {
+		position={ -925.000000 1.000000 875.000000 }
+		description="Deco - cupboard 1"
+		asset="ep1_deco_cupboard_01_a_entity"
+	}
+ {
+		position={ 925.000000 1.000000 875.000000 }
+		description="Deco - cupboard 2"
+		asset="ep1_deco_cupboard_01_b_entity"
+	}
+ {
+		position={ -927.400024 -2.500000 -331.700012 }
+		description="Carpet 2"
+		asset="ep1_mena_carpet_01_a_entity"
+	}
+ {
+		position={ 927.400024 -2.500000 -331.700012 }
+		description="Carpet 3"
+		asset="ep1_mena_carpet_01_a_entity"
 	}
  {
 		position={ -470.500000 -2.500000 -358.600006 }

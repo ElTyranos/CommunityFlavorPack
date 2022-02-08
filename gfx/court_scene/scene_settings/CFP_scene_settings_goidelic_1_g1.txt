@@ -1,5 +1,5 @@
-name="Norman_1_g1"
-culture="norman"
+name="CFP_Goidelic_1_g1"
+culture="goidelic"
 visual_culture_level=1
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment.txt"
@@ -155,7 +155,7 @@ camera={ {
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
-		description="artifact_bookshelf_2"
+		description="artifact_bookshelf_1"
 		fov=50.000000
 		position={ -39.299999 370.700012 -273.399994 }
 		pitch=35.000000
@@ -163,7 +163,7 @@ camera={ {
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
-		description="artifact_bookshelf_1"
+		description="artifact_bookshelf_2"
 		fov=50.000000
 		position={ 387.000000 236.300003 706.000000 }
 		pitch=25.000000
@@ -620,7 +620,7 @@ characters={ {
 		roles={ spouse }
 	}
  {
-		position={ -153.800003 0.000000 660.000000 }
+		position={ -165.000000 0.000000 660.000000 }
 		direction=-55.999981
 		locator="character_optional_adviser_heir"
 		description="Adviser"
@@ -863,36 +863,36 @@ assets={ {
 		asset="ep1_western_chandelier_01_a_entity"
 	}
  {
-		position={ -50.000000 0.000000 680.000000 }
+		position={ -65.000000 0.000000 680.000000 }
 		direction=0.000010
 		description="Throne"
-		asset="cfp_norman_throne_01_entity"
+		asset="cfp_northern_throne_01_entity"
 		roles=ruler_throne
 	}
  {
-		position={ 50.000000 0.000000 680.000000 }
+		position={ 65².000000 0.000000 680.000000 }
 		direction=0.000010
 		description="Throne"
-		asset="cfp_norman_throne_01_entity"
+		asset="cfp_northern_throne_01_entity"
 		roles=spouse_throne
 	}
  {
 		position={ 0.000000 0.000000 -455.000000 }
 		direction=0.000010
 		description="Wall - Left"
-		asset="cfp_court_norman_sidewall_entity"
+		asset="cfp_court_goidelic_sidewall_entity"
 	}
  {
 		position={ 0.000000 0.000000 -600.000000 }
 		direction=180.000000
 		description="Wall - Center"
-		asset="cfp_court_norman_thronewall_entity"
+		asset="cfp_court_goidelic_thronewall_entity"
 	}
  {
 		position={ 0.000000 0.000000 -600.000000 }
 		direction=180.000000
 		description="Wall - Right"
-		asset="cfp_court_norman_sidewall_entity"
+		asset="cfp_court_goidelic_sidewall_entity"
 	}
  {
 		position={ 0.000000 0.000000 -1500.000000 }
@@ -1042,16 +1042,16 @@ artifacts={ {
 		slot="wall_small_3"
 	}
  {
-		locator="artifact_bookshelf_2"
+		locator="artifact_bookshelf_1"
 		position={ -376.700012 0.000000 -45.000000 }
 		direction=0.000010
-		slot="lectern_2"
+		slot="lectern_1"
 	}
  {
-		locator="artifact_bookshelf_1"
+		locator="artifact_bookshelf_2"
 		position={ 0.000000 0.000000 843.700012 }
 		direction=90.000000
-		slot="lectern_1"
+		slot="lectern_2"
 	}
  {
 		locator="artifact_throne_1"

@@ -1,6 +1,6 @@
-name="Andalusian_1_g1"
+name="CFP_Andalusian_1_g2"
 culture="andalusian"
-visual_culture_level=1
+visual_culture_level=2
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_indian.txt"
 audio_culture=4.000000
@@ -897,6 +897,11 @@ characters={ {
 	}
  }
 assets={ {
+		position={ 0.000000 -2.500000 326.899994 }
+		description="Carpet"
+		asset="ep1_mena_carpet_01_a_entity"
+	}
+ {
 		position={ 0.000058 3.000000 660.000000 }
 		direction=0.000010
 		description="Throne"
@@ -996,6 +1001,39 @@ assets={ {
 		scale=0.550000
 		description="Chandelier 3 Dust"
 		asset="roco_dust_motes_mena"
+	}
+ {
+		position={ 931.400024 1.000000 766.200012 }
+		description="Deco - Pillow carpet 1"
+		asset="ep1_mena_pillowcarpet_01_a_entity"
+	}
+ {
+		position={ -1223.200073 1.000000 500.800018 }
+		direction=85.000000
+		description="Deco - Pillow carpet 2"
+		asset="ep1_mena_pillowcarpet_01_a_entity"
+	}
+ {
+		position={ 1370.000000 105.000000 500.000000 }
+		description="Deco - Vase 1"
+		asset="ep1_deco_vase_01_a_entity"
+	}
+ {
+		position={ -1370.000000 105.000000 500.000000 }
+		description="Deco - Vase 2"
+		asset="ep1_deco_vase_01_a_entity"
+	}
+ {
+		position={ -470.500000 -2.500000 -358.600006 }
+		direction=13.000000
+		description="Stool"
+		asset="ep1_deco_stool_01_a_entity"
+	}
+ {
+		position={ -1290.400024 -2.500000 31.100000 }
+		direction=-90.000000
+		description="Stool"
+		asset="ep1_deco_bench_01_a_entity"
 	}
  }
 artifacts={ {

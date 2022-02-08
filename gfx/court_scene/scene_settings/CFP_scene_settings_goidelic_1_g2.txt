@@ -1,4 +1,4 @@
-name="Goidelic_1_g2"
+name="CFP_Goidelic_1_g2"
 culture="goidelic"
 visual_culture_level=2
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
