@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -1835,17 +1835,7 @@ accessory_genes = {
             girl = female
 		}
 
-		latin_royalty = {
-			index = 118
-			male = {
-				1 = male_headgear_secular_latin_cfp_icol_01
-			}
-			female = {
-				1 = female_headgear_secular_latin_cfp_icol_01
-			}
-			boy = male
-            girl = female
-		}
+		# 118 is free
 		
 		latin_venetian_royalty = {
 			index = 119
