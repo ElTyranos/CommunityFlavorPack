@@ -1255,21 +1255,9 @@ accessory_genes = {
 			index = 78
 			male = {
 				1 = male_headgear_secular_ep1_western_royalty_01
-				# CFP: add western_royalty options or the EP1 crown is displayed 50% of the time
-				1 = male_headgear_secular_western_royalty_01
-				1 = male_headgear_secular_western_royalty_02
-				1 = male_headgear_secular_western_cfp_royalty_03
-				1 = male_headgear_secular_western_cfp_royalty_01
-				1 = male_headgear_secular_western_cfp_royalty_02
 			}
 			female = {
 				1 = female_headgear_secular_ep1_western_royalty_01
-				# CFP: add western_royalty options or the EP1 crown is displayed 50% of the time
-				1 = female_headgear_secular_western_royalty_01
-				1 = female_headgear_secular_western_royalty_02
-				1 = female_headgear_secular_western_cfp_royalty_03
-				1 = female_headgear_secular_western_cfp_royalty_01
-				1 = female_headgear_secular_western_cfp_royalty_02
 			}
 		}
 
