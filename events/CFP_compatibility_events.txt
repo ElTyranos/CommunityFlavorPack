@@ -1,4 +1,4 @@
-namespace = cfp_compatibility
+﻿namespace = cfp_compatibility
 
 
 cfp_compatibility.1 = { # The Catholic Trinity compatibility
