@@ -1816,7 +1816,7 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 20
 				highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
@@ -1863,7 +1863,7 @@ latin_venetian_royalty = {
 				cfp_portrait_burmese_clothing_trigger = yes
 			}
 			modifier = {
-				add = 101
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
@@ -1944,7 +1944,7 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0	
 			modifier = {
-				add = 101
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
 					OR = {

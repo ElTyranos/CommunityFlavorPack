@@ -3277,11 +3277,17 @@ headgear = {
 				template = no_headgear
 				range = { 0 1 } # For the randomness to work correctly
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 89
+				add = 80
+				exists = this
+				portrait_can_use_noble_headgear_trigger = no
+				cfp_portrait_burmese_clothing_trigger = yes
+			}
+			modifier = {
+				add = 20
 				exists = this
 				highest_held_title_tier < tier_county
 				NOR = {
@@ -3314,7 +3320,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 50
 				exists = this
 				OR = {
 					AND = {
@@ -3351,7 +3357,7 @@ headgear = {
 				}
 			}
 			modifier = {
-				add = 101
+				add = 50
 				exists = this
 				OR = {
 					AND = {
@@ -3401,7 +3407,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 50
 				exists = this
 				OR = {
 					AND = {
