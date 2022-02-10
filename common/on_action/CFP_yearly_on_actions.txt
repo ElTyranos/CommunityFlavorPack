@@ -1,22 +1,27 @@
 ﻿random_yearly_playable_pulse = {
-	trigger = {
-		basic_is_valid_for_yearly_events_trigger = yes
-	}
-	
+	on_actions = {
+        cfp_yearly_random_on_action
+    }
+}
+
+cfp_yearly_random_on_action = {
 	random_on_action = {
 		chance_of_no_event = {
 			value = 0
+			if = {
+				limit = { is_ai = yes }
+				add = 15 # AI aren't particularly important
+			}
 			if = {
 				limit = {
 					is_ai = yes
 					highest_held_title_tier < tier_duchy
 				}
-				add = 75 # AI counts aren't particularly important
+				add = 60 # AI counts aren't particularly important
 			}
 		}
 		1 = cfp_artifact_1_on_action
 	}
-	
 }
 
 cfp_artifact_1_on_action = {

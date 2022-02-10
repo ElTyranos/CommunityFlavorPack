@@ -21,7 +21,7 @@
 					1 = male_headgear_secular_western_cfp_war_pixane_01
 				}
 				female = {
-					1 = empty
+					1 = female_headgear_secular_western_cfp_war_pixane_01
 				}
 				boy = male
 				girl = female

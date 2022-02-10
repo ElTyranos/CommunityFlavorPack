@@ -630,7 +630,8 @@ accessory_genes = {
 		western_common_legwear_late = {
 			index = 3
 			male = {
-				1 = male_legwear_secular_western_cfp_pants_01
+				# 1 = male_legwear_secular_western_cfp_pants_01 # model has to be remade
+				1 = male_legwear_secular_western_common_01
 			}
 			female = {}
 			boy = male
@@ -713,7 +714,9 @@ accessory_genes = {
 			male = {
 				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
-			female = {}
+			female = {
+				1 = female_legwear_secular_western_cfp_war_plate_01
+			}
 			boy = male
 			girl = female
 		}

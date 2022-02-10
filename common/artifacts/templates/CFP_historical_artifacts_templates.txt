@@ -23,24 +23,20 @@
 
 cfp_bayeux_tapestry_template = {
 	can_equip = {
-		always = yes
+		has_graphical_norman_culture_group_trigger = yes
+		# we lock the bayeux tapestry to normans so visual glitches are reduced, it needs a smaller models for other courts.
 	}
-
-	# can this character benefit from the full modifiers of the artifact?
 	can_benefit = {
 		OR = {
 			has_culture = culture:norman
 			has_culture = culture:english
 		}
 	}
-
-	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
 	fallback = {
 		court_grandeur_baseline_add = 5
 		monthly_prestige = 1.5
 		monthly_dynasty_prestige_mult = 0.05
 		direct_vassal_opinion = 10
 	}
-
 	unique = yes
 }

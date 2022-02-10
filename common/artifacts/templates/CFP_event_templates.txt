@@ -1,0 +1,8 @@
+﻿cfp_catholic_effigy_template = {
+	can_benefit = {
+		has_religion = religion:christianity_religion
+	}
+	fallback = {
+		monthly_prestige = 0.05
+	}
+}

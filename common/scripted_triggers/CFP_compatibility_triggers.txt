@@ -1,0 +1,5 @@
+﻿# The Catholic Trinity compatibility
+CatholicTrinityCardinalTrigger = { always = no }
+CatholicTrinityCardinalOrAntiPopeTrigger = { always = no }
+CatholicTrinityMercenaryGovernementTrigger = { always = no }
+CatholicTrinityMercenaryTitleTrigger = { always = no }
