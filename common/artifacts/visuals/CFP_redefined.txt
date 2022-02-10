@@ -1,4 +1,10 @@
-﻿wall_shield = {
+﻿pedestal_crown_iron = { # We use CFP model instead
+	icon = "artifact_crown.dds"
+	support_type = "tall_pillow"
+	# asset = male_headgear_secular_ep1_crown_of_lombardy_artifact_entity
+	asset = male_headgear_secular_latin_cfp_icol_01_artifact_entity
+}
+wall_shield = {
 	icon = "artifact_wall_shield.dds"
 	default_type = wall_small
 	asset = {

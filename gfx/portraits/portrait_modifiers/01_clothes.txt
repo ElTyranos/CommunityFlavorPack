@@ -1816,7 +1816,7 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 20
 				highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
@@ -1863,7 +1863,7 @@ latin_venetian_royalty = {
 				cfp_portrait_burmese_clothing_trigger = yes
 			}
 			modifier = {
-				add = 101
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
@@ -1944,7 +1944,7 @@ latin_venetian_royalty = {
 		weight = {
 			base = 0	
 			modifier = {
-				add = 101
+				add = 50
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
@@ -3893,6 +3893,18 @@ latin_venetian_royalty = {
 				NOT = {
 					faith = { has_doctrine_parameter = vows_of_poverty_active }
 				}
+				NOT = { exists = global_var:Trinity_is_loaded } # The Catholic Trinity compatibility
+			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 140
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalTrigger = yes
+				is_male = yes
+				is_adult = yes
+				faith = { religion_tag = christianity_religion }
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
 			}
 	    }
 	}
@@ -3930,6 +3942,13 @@ latin_venetian_royalty = {
 					}
 				}
 	        }
+			modifier = { # The Catholic Trinity compatibility
+				add = 150
+				cfp_era_late_medieval_trigger = yes
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
+			}
 	    }
 	}
 
@@ -3964,6 +3983,12 @@ latin_venetian_royalty = {
 					}
 				}
 	        }
+			modifier = { # The Catholic Trinity compatibility
+				add = 120
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
+			}
 	    }
 	}
 
