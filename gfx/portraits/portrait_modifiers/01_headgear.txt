@@ -7597,7 +7597,14 @@ headgear = {
 				NOT = {
 					faith = { has_doctrine_parameter = vows_of_poverty_active }
 				}
-	        }
+				NOT = { exists = global_var:Trinity_is_loaded } # The Catholic Trinity compatibility
+			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 140
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalTrigger = yes
+			}
 	    }
 	}
 	
@@ -7676,6 +7683,13 @@ headgear = {
 					has_variable = pope_hat
 				}
 			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 140
+				cfp_era_late_medieval_trigger = yes
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
+			}
 		}
 	}
 	
@@ -7709,6 +7723,12 @@ headgear = {
 				any_equipped_character_artifact = {
 					has_variable = pope_hat
 				}
+			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 140
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
 			}
 		}
 	}
