@@ -1,5 +1,5 @@
 ﻿pedestal_crown_iron = { # We use CFP model instead
-	icon = "artifact_crown.dds"
+	icon = "artifact_cfp_crown_iron.dds"
 	support_type = "tall_pillow"
 	# asset = male_headgear_secular_ep1_crown_of_lombardy_artifact_entity
 	asset = male_headgear_secular_latin_cfp_icol_01_artifact_entity
