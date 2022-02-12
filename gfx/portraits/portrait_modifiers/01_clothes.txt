@@ -1020,8 +1020,14 @@ clothes = {
 			morph = {
 				mode = modify_multiply
 				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				value = 1.0 # better for CFP model
 				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0 # better for CFP model
+				template = body_shape_average_clothed
 			}
 		}
 		outfit_tags = { military_outfit }
