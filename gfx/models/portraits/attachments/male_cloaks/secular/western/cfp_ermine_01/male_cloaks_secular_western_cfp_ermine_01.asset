@@ -2,6 +2,7 @@ pdxmesh = {
 	name = "male_cloaks_secular_western_cfp_ermine_01_mesh"
 	file = "male_cloaks_secular_western_cfp_ermine_01.mesh"
 
+	blend_shape = { id = "male_cloaks_secular_western_cfp_ermine_01_bs_infant"		type = "male_cloaks_secular_western_cfp_ermine_01_bs_infant.mesh" }
 	blend_shape = { id = "male_cloaks_secular_western_cfp_ermine_01_bs_fat"		type = "male_cloaks_secular_western_cfp_ermine_01_bs_fat.mesh" }
 	blend_shape = { id = "male_cloaks_secular_western_cfp_ermine_01_bs_gaunt"		type = "male_cloaks_secular_western_cfp_ermine_01_bs_gaunt.mesh" }
 	blend_shape = { id = "male_cloaks_secular_western_cfp_ermine_01_bs_muscular"		type = "male_cloaks_secular_western_cfp_ermine_01_bs_muscular.mesh" }
@@ -22,9 +23,10 @@ entity = {
 	name = "male_cloaks_secular_western_cfp_ermine_01_entity"
 	pdxmesh = "male_cloaks_secular_western_cfp_ermine_01_mesh"
 
+	attribute = { name = "bs_body_infant_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_infant" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_fat" }
 	attribute = { name = "bs_body_gaunt_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_gaunt" }
-	attribute = { name = "bs_body_muscular_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_muscular" }
+	attribute = { name = "bs_body_muscular_1"				blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_muscular" }
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_dwarf" }
 	
 	game_data = {
@@ -41,9 +43,10 @@ entity = {
 	name = "male_cloaks_secular_byzantine_cfp_ermine_01_entity"
 	pdxmesh = "male_cloaks_secular_western_cfp_ermine_01_mesh"
 
+	attribute = { name = "bs_body_infant_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_infant" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_fat" }
 	attribute = { name = "bs_body_gaunt_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_gaunt" }
-	attribute = { name = "bs_body_muscular_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_muscular" }
+	attribute = { name = "bs_body_muscular_1"				blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_muscular" }
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_cloaks_secular_western_cfp_ermine_01_bs_dwarf" }
 	
 	game_data = {
