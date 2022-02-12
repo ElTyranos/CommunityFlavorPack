@@ -473,7 +473,14 @@ cloaks = {
 					portrait_northern_clothing_trigger = yes
 				}
 			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+				}
+			}
 		}
+		
 	}
 	
 	western_crusades_commoner = {
@@ -505,6 +512,12 @@ cloaks = {
 					portrait_northern_clothing_trigger = yes
 				}
 			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+				}
+			}
 		}
 	}	
 	
@@ -528,6 +541,12 @@ cloaks = {
 					is_ruler = yes
 				}
 			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+				}
+			}
 		}
 	}
 	
@@ -549,6 +568,12 @@ cloaks = {
 					religion = religion:christianity_religion
 					has_government = holy_order_government
 					is_ruler = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
 				}
 			}
 		}
@@ -767,6 +792,12 @@ cloaks = {
 					}
 				}
 			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+				}
+			}
 	    }
 	}	
 	
@@ -813,6 +844,12 @@ cloaks = {
 					# }
 				# }
 			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+				}
+			}
 	    }
 	}
 	
@@ -838,6 +875,12 @@ cloaks = {
 					faith = {
 						has_doctrine_parameter = vows_of_poverty_active
 					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
 				}
 			}
 	    }
