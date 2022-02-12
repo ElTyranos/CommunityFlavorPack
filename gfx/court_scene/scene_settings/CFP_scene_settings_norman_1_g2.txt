@@ -1066,7 +1066,7 @@ artifacts={ {
 	}
  {
 		locator="artifact_throne_1"
-		position={ 0.000059 0.000000 680.000000 }
+		position={ -55.000000 0.000000 680.000000 }
 		direction=0.000010
 		slot="throne"
 	}
