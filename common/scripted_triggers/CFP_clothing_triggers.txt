@@ -184,6 +184,7 @@ cfp_portrait_iberian_clothing_spouse_trigger = {
 }
 cfp_portrait_iberian_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_iberian
+	NOT = { has_clothing_gfx = mena_clothing_gfx }
 }
 
 ## MENA
