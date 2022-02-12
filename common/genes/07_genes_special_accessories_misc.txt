@@ -970,6 +970,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		norse_war = {
 			index = 15
