@@ -1,4 +1,4 @@
-@chance_of_nothing_for_count_ais = 99
+﻿@chance_of_nothing_for_count_ais = 99
 @chance_of_nothing_for_dukes_ais = 95
 @chance_of_nothing_for_independent_dukes_ais = 75
 
