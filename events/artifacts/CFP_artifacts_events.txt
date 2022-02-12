@@ -26,6 +26,19 @@ cfp_artifact.0001 = {
 		}
 	}
 	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = -0.95
+			OR = {
+				location = { geographical_region = world_europe }
+				location = { geographical_region = world_steppe }
+				location = { geographical_region = world_asia_minor }
+				location = { geographical_region = world_middle_east }
+			}
+		}
+	}
+	
 	immediate = {
 		create_character = {
 			gender = male

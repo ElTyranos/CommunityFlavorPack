@@ -1,15 +1,12 @@
 ﻿has_graphical_norman_culture_group_trigger = {
 	OR = {
-		has_culture = culture:english
+		capital_county.kingdom = title:k_england
+		capital_county.kingdom = title:k_france
+	}
+	OR = {
 		has_culture = culture:norman
-		AND = {
-			culture = {	has_cultural_pillar = heritage_frankish }
-			capital_county.kingdom = title:k_england
-			NOR = {
-				has_culture = culture:french
-				has_culture = culture:frankish
-				has_culture = culture:occitan
-			}
+		culture = { 
+			any_parent_culture_or_above = { this = culture:norman }
 		}
 	}
 }
@@ -17,14 +14,22 @@
 has_graphical_goidelic_culture_group_trigger = {
 	OR = {
 		has_culture = culture:irish
+		culture = {
+			any_parent_culture_or_above = { this = culture:irish }
+		}
 		has_culture = culture:gaelic
-		culture = {	has_cultural_pillar = heritage_goidelic }
+		culture = { 
+			any_parent_culture_or_above = { this = culture:gaelic }
+		}
 	}
 }
 
 has_graphical_andalusian_culture_group_trigger = {
 	OR = {
 		has_culture = culture:andalusian
+		culture = { 
+			any_parent_culture_or_above = { this = culture:andalusian }
+		}
 		AND = {
 			faith.religion = religion:islam_religion
 			capital_county.kingdom = title:k_andalusia

@@ -2,6 +2,7 @@ pdxmesh = {
 	name = "female_cloaks_secular_western_cfp_crusades_01_mesh"
 	file = "female_cloaks_secular_western_cfp_crusades_01.mesh"
 
+	blend_shape = { id = "female_cloaks_secular_western_cfp_crusades_01_bs_infant"		type = "female_cloaks_secular_western_cfp_crusades_01_bs_infant.mesh" }
 	blend_shape = { id = "female_cloaks_secular_western_cfp_crusades_01_bs_fat"		type = "female_cloaks_secular_western_cfp_crusades_01_bs_fat.mesh" }
 	blend_shape = { id = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt"		type = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt.mesh" }
 	blend_shape = { id = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf"		type = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf.mesh" }
@@ -21,6 +22,7 @@ entity = {
 	name = "female_cloaks_secular_western_cfp_crusades_01_entity"
 	pdxmesh = "female_cloaks_secular_western_cfp_crusades_01_mesh"
 
+	attribute = { name = "bs_body_infant_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_infant" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_fat" }
 	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt" }
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
@@ -39,6 +41,7 @@ entity = {
 	name = "female_cloaks_secular_western_cfp_crusades_02_entity"
 	pdxmesh = "female_cloaks_secular_western_cfp_crusades_01_mesh"
 
+	attribute = { name = "bs_body_infant_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_infant" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_fat" }
 	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt" }
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
@@ -57,6 +60,7 @@ entity = {
 	name = "female_cloaks_secular_western_cfp_crusades_03_entity"
 	pdxmesh = "female_cloaks_secular_western_cfp_crusades_01_mesh"
 
+	attribute = { name = "bs_body_infant_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_infant" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_fat" }
 	attribute = { name = "bs_body_gaunt_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_gaunt" }
 	attribute = { name = "bs_body_dwarf_1"					blend_shape = "female_cloaks_secular_western_cfp_crusades_01_bs_dwarf" }
