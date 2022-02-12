@@ -804,6 +804,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		western_royalty = {
 			index = 1
@@ -813,6 +815,8 @@ accessory_genes = {
 			female = {
 				1 = female_cloaks_secular_western_royalty_01
 			}
+            boy = male
+            girl = female
 		}
 		fp1_cloak = {
 			index = 2
@@ -832,6 +836,8 @@ accessory_genes = {
 				1 = female_furs_secular_fp1_nobility_02
 				1 = female_furs_secular_fp1_nobility_03
 			}
+            boy = male
+            girl = female
 		}
 		fp1_cloak_berserker = {
 			index = 3
@@ -841,6 +847,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		ep1_cloak_adventurer = {
 			index = 4
@@ -850,6 +858,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		western_royalty_ermine = {
 			index = 5
@@ -859,6 +869,8 @@ accessory_genes = {
 			female = {
 				1 = female_cloaks_secular_western_cfp_ermine_01
 			}
+            boy = male
+            girl = female
 		}
 		western_high_nobility_ermine = {
 			index = 6
@@ -870,6 +882,8 @@ accessory_genes = {
 				10 = empty
 				8 = female_cloaks_secular_western_royalty_01
 			}
+            boy = male
+            girl = female
 		}
 		byzantine_royalty = {
 			index = 7
@@ -879,6 +893,8 @@ accessory_genes = {
 			female = {
 				1 = female_cloaks_secular_byzantine_royalty_01
 			}
+            boy = male
+            girl = female
 		}
 		byzantine_royalty_ermine = {
 			index = 8
@@ -888,6 +904,8 @@ accessory_genes = {
 			female = {
 				1 = female_cloaks_secular_byzantine_cfp_ermine_01
 			}
+            boy = male
+            girl = female
 		}
 		western_commoner = {
 			index = 9
@@ -898,6 +916,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		western_crusades_commoner = {
 			index = 10
@@ -907,6 +927,8 @@ accessory_genes = {
 			female = {
 				1 = female_cloaks_secular_western_cfp_crusades_03
 			}
+            boy = male
+            girl = female
 		}
 		western_crusades = {
 			index = 11
@@ -925,6 +947,8 @@ accessory_genes = {
 			female = {
 				1 = female_cloaks_secular_western_cfp_crusades_02
 			}
+            boy = male
+            girl = female
 		}
 		religious_muslim = {
 			index = 13
@@ -935,6 +959,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		berber_high_nobility = {
 			index = 14
@@ -944,6 +970,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		norse_war = {
 			index = 15
@@ -955,6 +983,8 @@ accessory_genes = {
 				1 = empty
 				1 = female_cloaks_secular_northern_war_viking_shield_01
 			}
+            boy = male
+            girl = female
 		}
 		norman_war = {
 			index = 16
@@ -966,6 +996,8 @@ accessory_genes = {
 				1 = empty
 				1 = female_cloaks_secular_western_war_norman_shield_01
 			}
+            boy = male
+            girl = female
 		}
 		african_royalty = {
 			index = 17
@@ -984,6 +1016,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		religious_catholic_high_northern = {
 			index = 19
@@ -993,6 +1027,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 		religious_orthodox_high = {
 			index = 20
@@ -1002,6 +1038,8 @@ accessory_genes = {
 			female = {
 				1 = empty
 			}
+            boy = male
+            girl = female
 		}
 	}
 

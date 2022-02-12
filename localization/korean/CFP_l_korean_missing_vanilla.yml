@@ -46,3 +46,7 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_ep1_jester_01:1 "광대의 다리보호구"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_ep1_jester_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_ep1_jester_01$"
  
+## Cloaks
+ PORTRAIT_MODIFIER_custom_cloaks_girl_empty:1 "$PORTRAIT_MODIFIER_custom_cloaks_male_empty$"
+ PORTRAIT_MODIFIER_custom_cloaks_boy_empty:1 "$PORTRAIT_MODIFIER_custom_cloaks_male_empty$"
+ 
