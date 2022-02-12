@@ -1,4 +1,4 @@
-﻿random_yearly_playable_pulse = {
+random_yearly_playable_pulse = {
 	on_actions = {
         cfp_yearly_random_on_action
     }
@@ -26,7 +26,7 @@ cfp_yearly_random_on_action = {
 
 cfp_artifact_1_on_action = {
 	random_events = {
-		chance_to_happen = 25
+		chance_to_happen = 10
 		300 = 0
 		20 = cfp_artifact.0001 # A Burmese traveler might forget his Kris Dagger if you invite him
 		50 = cfp_artifact.0005 # A local sculptor asks you to kickstart him so he can prove his talent
