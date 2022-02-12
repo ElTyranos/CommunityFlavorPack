@@ -1,5 +1,7 @@
 @chance_of_nothing_for_count_ais = 99
 @chance_of_nothing_for_dukes_ais = 95
+@chance_of_nothing_for_independent_dukes_ais = 75
+
 random_yearly_playable_pulse = {
 	on_actions = {
         cfp_yearly_random_on_action
@@ -25,6 +27,13 @@ cfp_yearly_random_on_action = {
 				}
 				add = @chance_of_nothing_for_dukes_ais
 			}
+			if = {
+				limit = {
+					is_ai = yes
+					is_independent_ruler = yes
+					highest_held_title_tier >= tier_duchy
+				}
+				add = @chance_of_nothing_for_independent_dukes_ais
 			}
 		}
 		1 = cfp_artifact_1_on_action
