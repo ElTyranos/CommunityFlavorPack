@@ -1,0 +1,34 @@
+pdxmesh = {
+	name = "cfp_court_west_african_roofing_mesh"
+	file = "cfp_court_west_african_roofing.mesh"
+
+	meshsettings = {
+		name = "cfp_court_west_african_roofingShape"
+		index = 0
+		texture_diffuse = "ep1_materials_wood_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_wood_01_a_normal.dds"
+		texture_specular = "ep1_materials_wood_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_west_african_roofingShape"
+		index = 1
+		texture_diffuse = "ep1_materials_wood_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_wood_01_a_normal.dds"
+		texture_specular = "ep1_materials_wood_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_west_african_roofing_entity"
+	pdxmesh = "cfp_court_west_african_roofing_mesh"
+	default_state = "default"
+	state = { 
+		name = "default"
+       	event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/2D/courtroom_ambience_walla" } }
+       	event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/2D/courtroom_ambience_baselayer" } }
+    }
+}
