@@ -1,4 +1,4 @@
-cfp_allow_nudity_in_barbershop_trigger = {
+﻿cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
