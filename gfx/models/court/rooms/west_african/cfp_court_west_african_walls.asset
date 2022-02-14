@@ -14,9 +14,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "cfp_court_west_african_wallsShape"
 		index = 1
-		texture_diffuse = "cfp_materials_west_african_wall_stucco_01_diffuse.dds"
-		texture_normal = "cfp_materials_west_african_wall_stucco_01_normal.dds"
-		texture_specular = "cfp_materials_west_african_wall_stucco_01_properties.dds"
+		texture_diffuse = "cfp_materials_west_african_wall_trims_01_diffuse.dds"
+		texture_normal = "cfp_materials_west_african_wall_trims_01_normal.dds"
+		texture_specular = "cfp_materials_west_african_wall_trims_01_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
