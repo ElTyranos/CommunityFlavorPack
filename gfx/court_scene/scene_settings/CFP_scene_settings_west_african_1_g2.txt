@@ -27,9 +27,9 @@ camera={ {
  {
 		description="Default View"
 		fov=50.000000
-		position={ 441.302216 344.786835 -798.230469 }
+		position={ 347.200012 344.786835 -798.230469 }
 		pitch=9.488911
-		yaw=-26.406248
+		yaw=-23.000000
 		camera_near_far={ 70.000000 3000.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_COURT_VIEW_CAMERA"
@@ -67,9 +67,9 @@ camera={ {
  {
 		description="Right Wall View"
 		fov=65.000000
-		position={ -480.000000 480.000000 -153.000000 }
-		pitch=21.527239
-		yaw=59.055500
+		position={ -467.391022 480.000000 -205.338715 }
+		pitch=23.537964
+		yaw=51.000000
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_RIGHT_WALL_VIEW_CAMERA"
@@ -141,56 +141,56 @@ camera={ {
  {
 		description="artifact_sculpture_1"
 		fov=50.000000
-		position={ -39.299999 411.000000 215.900009 }
-		pitch=27.000000
-		yaw=-41.000000
+		position={ -133.400009 330.300018 405.900024 }
+		pitch=31.000000
+		yaw=-42.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_sculpture_2"
 		fov=50.000000
-		position={ 199.700012 315.100006 -219.000000 }
+		position={ 199.699997 315.100006 -219.000000 }
 		pitch=25.000000
-		yaw=47.000000
+		yaw=43.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_bookshelf_1"
 		fov=50.000000
-		position={ -39.299999 411.000000 -461.600006 }
+		position={ -39.299999 411.000000 -622.900024 }
 		pitch=27.000000
-		yaw=-41.000000
+		yaw=-47.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_bookshelf_2"
 		fov=50.000000
-		position={ -39.299999 411.000000 -461.600006 }
+		position={ -39.299999 411.000000 -152.500000 }
 		pitch=27.000000
-		yaw=-41.000000
+		yaw=-49.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_small_1"
 		fov=50.000000
-		position={ -75.000000 580.299988 457.800018 }
-		pitch=22.000000
-		yaw=-16.000000
+		position={ -75.000000 378.700012 457.800018 }
+		pitch=18.000000
+		yaw=-11.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_small_2"
 		fov=50.000000
-		position={ 112.000000 580.000000 445.800018 }
-		pitch=22.000000
-		yaw=29.000000
+		position={ 112.000000 391.800018 445.800018 }
+		pitch=20.000000
+		yaw=34.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_small_3"
 		fov=50.000000
-		position={ -70.000000 553.100037 -280.300018 }
-		pitch=12.000000
+		position={ -70.000000 338.000000 -280.300018 }
+		pitch=1.000000
 		yaw=-48.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
@@ -205,7 +205,7 @@ camera={ {
  {
 		description="artifact_wall_large_1"
 		fov=50.000000
-		position={ -164.800003 514.600037 324.399994 }
+		position={ -164.800003 460.800018 203.400009 }
 		pitch=22.000000
 		yaw=-43.000000
 		camera_near_far={ 10.000000 2570.000000 }
@@ -213,9 +213,9 @@ camera={ {
  {
 		description="artifact_wall_large_2"
 		fov=50.000000
-		position={ 244.500000 420.000000 -162.800003 }
-		pitch=13.000000
-		yaw=47.000000
+		position={ 190.699997 420.000000 65.700005 }
+		pitch=19.000000
+		yaw=60.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -245,7 +245,7 @@ camera={ {
  }
 default_camera=0
 lights={ {
-		description="Window Disc Left"
+		description="Window Disc Throne Left"
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=1.000000
@@ -268,7 +268,7 @@ lights={ {
 		}
 	}
  {
-		description="Window Disc Right"
+		description="Window Disc Throne Right"
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=1.000000
@@ -295,8 +295,8 @@ lights={ {
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
 			affected_by_shadow=no
-			radius=1148.200073
-			intensity=1947.000000
+			radius=812.200012
+			intensity=1365.000000
 			position={ 0.000000 370.000000 132.199997 }
 			pitch=0.000000
 			yaw=0.000000
@@ -365,8 +365,8 @@ lights={ {
 			inner_cone_angle=0.000000
 			affected_by_shadow=no
 			radius=1391.200073
-			intensity=1605.000000
-			position={ 0.000000 633.100037 100.800003 }
+			intensity=1200.000000
+			position={ 0.000000 431.500000 289.000000 }
 			pitch=0.000000
 			yaw=0.000000
 			color={ 1.000000 0.562928 0.273438 }
@@ -378,7 +378,7 @@ lights={ {
 
 		shadow_camera={
 			fov=143.000000
-			position={ 0.000000 633.100037 100.800003 }
+			position={ 0.000000 431.500000 289.000000 }
 			pitch=90.000000
 			yaw=0.000000
 			camera_near_far={ 10.000000 1000.000000 }
@@ -453,6 +453,164 @@ lights={ {
 		shadow_camera={
 			fov=1.000000
 			position={ 667.000000 360.200012 401.300018 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Window Disc Right 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.050000
+			radius=30.000000
+			intensity=177.000000
+			position={ 1650.000000 455.000000 -648.299988 }
+			pitch=150.000000
+			yaw=91.000000
+			color={ 1.000000 0.590081 0.318577 }
+			type=disc_light
+		}
+
+		shadow_camera={
+			fov=108.000000
+			position={ 1650.000000 455.000000 -648.299988 }
+			pitch=15.000000
+			yaw=-90.000000
+			camera_near_far={ 180.000000 2000.000000 }
+		}
+	}
+ {
+		description="Window Disc Right 1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.050000
+			radius=30.000000
+			intensity=177.000000
+			position={ 1650.000000 455.000000 185.000000 }
+			pitch=150.000000
+			yaw=91.000000
+			color={ 1.000000 0.590081 0.318577 }
+			type=disc_light
+		}
+
+		shadow_camera={
+			fov=108.000000
+			position={ 1650.000000 455.000000 185.000000 }
+			pitch=15.000000
+			yaw=-90.000000
+			camera_near_far={ 180.000000 2000.000000 }
+		}
+	}
+ {
+		description="Window Disc Right 3"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.050000
+			radius=30.000000
+			intensity=177.000000
+			position={ 1650.000000 455.000000 -1500.000000 }
+			pitch=150.000000
+			yaw=91.000000
+			color={ 1.000000 0.590081 0.318577 }
+			type=disc_light
+		}
+
+		shadow_camera={
+			fov=108.000000
+			position={ 1650.000000 455.000000 -1500.000000 }
+			pitch=15.000000
+			yaw=-90.000000
+			camera_near_far={ 180.000000 2000.000000 }
+		}
+	}
+ {
+		description="Window Disc Left 3"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.050000
+			radius=30.000000
+			intensity=177.000000
+			position={ -1600.000000 455.000000 -1500.000000 }
+			pitch=150.000000
+			yaw=-90.000000
+			color={ 1.000000 0.590081 0.318577 }
+			type=disc_light
+		}
+
+		shadow_camera={
+			fov=108.000000
+			position={ -1600.000000 455.000000 -1500.000000 }
+			pitch=15.000000
+			yaw=90.000000
+			camera_near_far={ 180.000000 2000.000000 }
+		}
+	}
+ {
+		description="Window Disc Left 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.050000
+			radius=30.000000
+			intensity=177.000000
+			position={ -1600.000000 455.000000 -639.799988 }
+			pitch=150.000000
+			yaw=-90.000000
+			color={ 1.000000 0.590081 0.318577 }
+			type=disc_light
+		}
+
+		shadow_camera={
+			fov=108.000000
+			position={ -1600.000000 455.000000 -639.799988 }
+			pitch=15.000000
+			yaw=90.000000
+			camera_near_far={ 180.000000 2000.000000 }
+		}
+	}
+ {
+		description="Window Disc Left 3"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.050000
+			radius=30.000000
+			intensity=177.000000
+			position={ -1600.000000 455.000000 180.100006 }
+			pitch=150.000000
+			yaw=-90.000000
+			color={ 1.000000 0.590081 0.318577 }
+			type=disc_light
+		}
+
+		shadow_camera={
+			fov=108.000000
+			position={ -1600.000000 455.000000 180.100006 }
+			pitch=15.000000
+			yaw=90.000000
+			camera_near_far={ 180.000000 2000.000000 }
+		}
+	}
+ {
+		description="Oil lamp"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=150.000000
+			intensity=10.000000
+			position={ -537.600037 45.799999 604.799988 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.946180 0.763441 0.380279 }
+			intensity_variation=2.000000
+			intensity_variation_frequency=50.000000
+			animation=yes
+			type=point_light
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -537.600037 45.799999 604.799988 }
 			pitch=90.000000
 			yaw=0.000000
 			camera_near_far={ 0.100000 1000.000000 }
@@ -709,8 +867,8 @@ characters={ {
 		roles={ standing_spouse heir low_prio_lone_courtier }
 	}
  {
-		position={ -486.999969 0.000000 430.000031 }
-		direction=-74.999977
+		position={ -450.000000 0.000000 430.000000 }
+		direction=-75.000000
 		locator="character_councillor_1"
 		description="character_councillor_1"
 		roles={ inspired_person antiquarian low_prio_lone_courtier }
@@ -722,12 +880,6 @@ assets={ {
 		description="Throne"
 		asset="ep1_mena_throne_fancy_01_a_entity"
 		roles=ruler_throne
-	}
- {
-		position={ 0.000000 0.000000 -500.000000 }
-		direction=0.000010
-		description="Wall - Exterior"
-		asset="cfp_court_west_african_exterior_entity"
 	}
  {
 		position={ 0.000070 0.000000 -500.000000 }
@@ -754,19 +906,19 @@ assets={ {
 		asset="cfp_court_west_african_roofing_entity"
 	}
  {
-		position={ -335.000000 410.000000 805.000000 }
+		position={ -300.000000 410.000000 870.000000 }
 		scale=1.100000
 		description="Atmospheric Particle"
 		asset="roco_atmospheric_01"
 	}
  {
-		position={ 225.000000 410.000000 805.000000 }
+		position={ 250.000000 410.000000 870.000000 }
 		scale=1.100000
 		description="Atmospheric Particle"
 		asset="roco_atmospheric_01"
 	}
  {
-		position={ 0.000000 450.000000 231.800003 }
+		position={ 0.000000 450.000000 230.000000 }
 		scale=0.750000
 		description="Chandelier"
 		asset="ep1_mena_chandelier_fancy_entity"
@@ -802,52 +954,129 @@ assets={ {
 		asset="ep1_court_mena_event_group_sounds"
 		roles=dynamic_sound_entity
 		tag=event_group_3	}
+ {
+		position={ 1450.000000 410.000000 173.300003 }
+		direction=90.000000
+		description="Atmospheric Particle Right 1"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ 1450.000000 410.000000 -606.299988 }
+		direction=90.000000
+		description="Atmospheric Particle Right 2"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ 1450.000000 410.000000 -1500.000000 }
+		direction=90.000000
+		description="Atmospheric Particle Right 3"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ -1450.000000 410.000000 -1500.000000 }
+		direction=-90.000000
+		description="Atmospheric Particle Left 3"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ -1450.000000 410.000000 -680.100037 }
+		direction=-90.000000
+		description="Atmospheric Particle Left 2"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ -1450.000000 410.000000 153.199997 }
+		direction=-90.000000
+		description="Atmospheric Particle Left 1"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ -336.100006 0.000000 766.200012 }
+		direction=5.000000
+		description="Pillow Carpet"
+		asset="ep1_mena_pillowcarpet_01_b_entity"
+	}
+ {
+		position={ 10.000000 -4.000000 201.600006 }
+		scale=1.250000
+		description="Carpet Throne"
+		asset="ep1_mena_carpet_01_a_entity"
+	}
+ {
+		position={ -551.000000 15.000000 605.500000 }
+		description="Deco lamp"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ 805.000000 0.000000 806.400024 }
+		scale=2.000000
+		description="Vase R"
+		asset="ep1_deco_vase_01_a_entity"
+	}
+ {
+		position={ -778.100037 0.000000 806.400024 }
+		scale=2.000000
+		description="Vase L"
+		asset="ep1_deco_vase_01_a_entity"
+	}
+ {
+		position={ 430.000000 0.000000 685.600037 }
+		direction=86.000000
+		description="Pillow Carpet"
+		asset="ep1_mena_pillowcarpet_01_b_entity"
+	}
+ {
+		position={ -699.100037 0.000000 -211.000000 }
+		direction=-85.000000
+		description="Pillow Carpet"
+		asset="ep1_mena_pillowcarpet_01_b_entity"
+	}
  }
 artifacts={ {
 		locator="artifact_wall_large_1"
-		position={ -580.999939 408.000000 594.000061 }
-		direction=-89.980209
+		position={ -490.000000 408.000000 395.000000 }
+		direction=-90.000000
 		slot="wall_big_1"
 	}
  {
 		locator="artifact_wall_large_2"
-		position={ 581.000000 403.000000 216.999954 }
-		rotation={ 180.000000 89.980209 180.000000 }
+		position={ 530.000000 408.000000 400.000000 }
+		rotation={ 180.000000 90.000000 180.000000 }
 		slot="wall_big_2"
 	}
  {
 		locator="artifact_wall_large_3"
-		position={ 0.000077 408.000000 885.000000 }
+		position={ 0.000077 408.000000 880.000000 }
 		direction=0.000010
 		slot="wall_big_3"
 	}
  {
 		locator="artifact_wall_small_1"
-		position={ -300.000000 550.000000 785.000000 }
+		position={ -260.000000 275.000000 880.000000 }
 		direction=0.000010
 		slot="wall_small_1"
 	}
  {
 		locator="artifact_wall_small_2"
-		position={ 300.000000 550.000000 785.000000 }
+		position={ 275.000000 275.000000 880.000000 }
 		direction=0.000010
 		slot="wall_small_2"
 	}
  {
 		locator="artifact_wall_small_3"
-		position={ -516.000000 448.000000 9.000045 }
+		position={ -490.000000 408.000000 -20.000000 }
 		direction=-89.980209
 		slot="wall_small_3"
 	}
  {
 		locator="artifact_bookshelf_1"
-		position={ -560.000000 2.000000 -238.999954 }
+		position={ -550.000000 15.000000 -238.999954 }
 		direction=0.000010
 		slot="lectern_1"
 	}
  {
 		locator="artifact_bookshelf_2"
-		position={ -559.999939 2.000000 -83.000046 }
+		position={ -550.000000 15.000000 190.000000 }
 		direction=0.000010
 		slot="lectern_2"
 	}
@@ -859,13 +1088,13 @@ artifacts={ {
 	}
  {
 		locator="artifact_sculpture_1"
-		position={ -529.999939 0.000000 592.000061 }
+		position={ -395.600006 0.000000 618.900024 }
 		direction=-89.980209
 		slot="sculpture_1"
 	}
  {
 		locator="artifact_sculpture_2"
-		position={ 530.000000 0.000000 204.999954 }
+		position={ 503.100006 0.000000 204.999954 }
 		rotation={ 180.000000 89.980209 180.000000 }
 		slot="sculpture_2"
 	}
