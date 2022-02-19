@@ -134,8 +134,8 @@ camera={ {
 		description="artifact_pedestal_locator_4"
 		fov=50.000000
 		position={ 133.113953 249.459457 -597.470703 }
-		pitch=27.770428
-		yaw=-136.911118
+		pitch=30.320428
+		yaw=35.911118
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
