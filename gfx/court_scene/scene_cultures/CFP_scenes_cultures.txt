@@ -1,4 +1,4 @@
-﻿## CFP
+## CFP
 norman = {
 	trigger = {
 		has_graphical_norman_culture_group_trigger = yes
@@ -70,7 +70,7 @@ mena = {
 				has_graphical_steppe_culture_group_trigger = yes
 			}
 		}
-		NOT = { 
+		NOR = {
 			has_graphical_west_african_culture_group_trigger = yes
 			has_graphical_east_african_culture_group_trigger = yes
 		}
