@@ -1,4 +1,4 @@
-﻿has_graphical_norman_culture_group_trigger = {
+has_graphical_norman_culture_group_trigger = {
 	OR = {
 		capital_county.kingdom = title:k_england
 		capital_county.kingdom = title:k_france
@@ -34,10 +34,11 @@ has_graphical_andalusian_culture_group_trigger = {
 			faith.religion = religion:islam_religion
 			capital_county.kingdom = title:k_andalusia
 		}
-		AND = {
-			culture = { has_cultural_pillar = heritage_iberian }
-			capital_county.kingdom = title:k_andalusia
-		}
+		# Led to too many complaints
+		# AND = {
+			# culture = { has_cultural_pillar = heritage_iberian }
+			# capital_county.kingdom = title:k_andalusia
+		# }
 	}
 }
 
