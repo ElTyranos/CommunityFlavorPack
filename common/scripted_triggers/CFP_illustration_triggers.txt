@@ -34,9 +34,32 @@ has_graphical_andalusian_culture_group_trigger = {
 			faith.religion = religion:islam_religion
 			capital_county.kingdom = title:k_andalusia
 		}
-		AND = {
-			culture = { has_cultural_pillar = heritage_iberian }
-			capital_county.kingdom = title:k_andalusia
+		# Led to too many complaints
+		# AND = {
+			# culture = { has_cultural_pillar = heritage_iberian }
+			# capital_county.kingdom = title:k_andalusia
+		# }
+	}
+}
+
+has_graphical_west_african_culture_group_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_west_african
+			has_cultural_pillar = heritage_sahelian
+			has_cultural_pillar = heritage_akan
+			has_cultural_pillar = heritage_yoruba
+			has_cultural_pillar = heritage_senegambian
+		}
+	}
+}
+
+has_graphical_east_african_culture_group_trigger = {
+	NOT = { faith.religion = religion:islam_religion }
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_east_african
+			has_cultural_pillar = heritage_somalian
 		}
 	}
 }
