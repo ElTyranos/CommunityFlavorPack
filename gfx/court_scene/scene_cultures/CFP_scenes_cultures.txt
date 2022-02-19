@@ -17,6 +17,18 @@ andalusian = {
 	}
 }
 
+west_african = {
+	trigger = {
+		has_graphical_west_african_culture_group_trigger = yes
+	}
+}
+
+east_african = {
+	trigger = {
+		has_graphical_east_african_culture_group_trigger = yes
+	}
+}
+
 ## Redefine western to exclude normans and goidelics from it
 western = {
 	trigger = {
@@ -43,6 +55,25 @@ mediterranean = {
 		}
 		NOT = { 
 			has_graphical_andalusian_culture_group_trigger = yes
+		}
+	}
+}
+
+## Redefine MENA to exclude Africans from it
+mena = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_mena_culture_group_trigger = yes
+				has_graphical_african_culture_group_trigger = yes
+				has_graphical_steppe_culture_group_trigger = yes
+			}
+		}
+		NOR = {
+			has_graphical_andalusian_culture_group_trigger = yes
+			has_graphical_west_african_culture_group_trigger = yes
+			has_graphical_east_african_culture_group_trigger = yes
 		}
 	}
 }

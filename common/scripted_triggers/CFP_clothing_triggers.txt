@@ -255,7 +255,10 @@ cfp_portrait_east_africa_clothing_spouse_trigger = {
 	culture = { cfp_portrait_east_africa_clothing_contents_trigger = yes }
 }
 cfp_portrait_east_africa_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_east_african
+	OR = {
+		has_cultural_pillar = heritage_east_african
+		has_cultural_pillar = heritage_somalian
+	}
 }
 
 cfp_portrait_central_africa_clothing_trigger = {
@@ -278,6 +281,9 @@ cfp_portrait_west_africa_clothing_contents_trigger = {
 	OR = {
 		has_cultural_pillar = heritage_west_african
 		has_cultural_pillar = heritage_sahelian
+		has_cultural_pillar = heritage_akan
+		has_cultural_pillar = heritage_yoruba
+		has_cultural_pillar = heritage_senegambian
 	}
 }
 
@@ -394,7 +400,10 @@ portrait_steppe_clothing_contents_trigger = {
 }
 portrait_mena_clothing_contents_trigger = {
 	has_clothing_gfx = mena_clothing_gfx
-	NOT = { has_cultural_pillar = heritage_east_african }	
+	NOR = {
+		has_cultural_pillar = heritage_east_african
+		has_cultural_pillar = heritage_somalian
+	}	
 }
 portrait_african_clothing_contents_trigger = {
 	OR = { 
