@@ -1,0 +1,57 @@
+pdxmesh = {
+	name = "cfp_court_east_african_pillars_mesh"
+	file = "cfp_court_east_african_pillars.mesh"
+
+	meshsettings = {
+		name = "cfp_court_east_african_pillarsShape"
+		index = 0
+		texture_diffuse = "cfp_materials_east_african_stone_01_diffuse.dds"
+		texture_normal = "cfp_materials_east_african_stone_01_normal.dds"
+		texture_specular = "cfp_materials_east_african_stone_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_east_african_pillarsShape"
+		index = 1
+		texture_diffuse = "cfp_materials_east_african_trims_01_diffuse.dds"
+		texture_normal = "cfp_materials_east_african_trims_01_normal.dds"
+		texture_specular = "cfp_materials_east_african_trims_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_east_african_pillars_entity"
+	pdxmesh = "cfp_court_east_african_pillars_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_court_east_african_pillars_g1_mesh"
+	file = "cfp_court_east_african_pillars.mesh"
+
+	meshsettings = {
+		name = "cfp_court_east_african_pillarsShape"
+		index = 0
+		texture_diffuse = "cfp_materials_east_african_stone_01_diffuse.dds"
+		texture_normal = "cfp_materials_east_african_stone_01_normal.dds"
+		texture_specular = "cfp_materials_east_african_stone_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_east_african_pillarsShape"
+		index = 1
+		texture_diffuse = "cfp_materials_east_african_trims_02_diffuse.dds"
+		texture_normal = "cfp_materials_east_african_trims_01_normal.dds"
+		texture_specular = "cfp_materials_east_african_trims_02_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_east_african_pillars_g1_entity"
+	pdxmesh = "cfp_court_east_african_pillars_g1_mesh"
+}

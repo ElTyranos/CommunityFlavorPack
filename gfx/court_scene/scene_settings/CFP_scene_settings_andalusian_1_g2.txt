@@ -897,9 +897,9 @@ characters={ {
 	}
  }
 assets={ {
-		position={ 0.000000 -2.500000 326.899994 }
+		position={ 0.000000 2.500000 326.899994 }
 		description="Carpet"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_andalusian_entity"
 	}
  {
 		position={ 0.000058 3.000000 660.000000 }
