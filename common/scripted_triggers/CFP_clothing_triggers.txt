@@ -1,4 +1,4 @@
-﻿cfp_allow_nudity_in_barbershop_trigger = {
+cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
@@ -280,6 +280,7 @@ cfp_portrait_west_africa_clothing_contents_trigger = {
 		has_cultural_pillar = heritage_sahelian
 		has_cultural_pillar = heritage_akan
 		has_cultural_pillar = heritage_yoruba
+		has_cultural_pillar = heritage_senegambian
 	}
 }
 
