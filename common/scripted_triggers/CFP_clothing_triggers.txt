@@ -278,6 +278,8 @@ cfp_portrait_west_africa_clothing_contents_trigger = {
 	OR = {
 		has_cultural_pillar = heritage_west_african
 		has_cultural_pillar = heritage_sahelian
+		has_cultural_pillar = heritage_akan
+		has_cultural_pillar = heritage_yoruba
 	}
 }
 
