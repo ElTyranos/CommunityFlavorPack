@@ -1,4 +1,4 @@
-﻿has_graphical_norman_culture_group_trigger = {
+has_graphical_norman_culture_group_trigger = {
 	OR = {
 		capital_county.kingdom = title:k_england
 		capital_county.kingdom = title:k_france
@@ -43,15 +43,23 @@ has_graphical_andalusian_culture_group_trigger = {
 }
 
 has_graphical_west_african_culture_group_trigger = {
-	culture = { 
+	culture = {
 		OR = {
 			has_cultural_pillar = heritage_west_african
 			has_cultural_pillar = heritage_sahelian
-			has_cultural_pillar = heritage_central_african
+			has_cultural_pillar = heritage_akan
+			has_cultural_pillar = heritage_yoruba
+			has_cultural_pillar = heritage_senegambian
 		}
 	}
 }
 
 has_graphical_east_african_culture_group_trigger = {
 	culture = { has_cultural_pillar = heritage_east_african }
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_east_african
+			has_cultural_pillar = heritage_somalian
+		}
+	}
 }
