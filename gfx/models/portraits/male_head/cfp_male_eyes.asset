@@ -8,6 +8,7 @@ pdxmesh = {
 		texture_diffuse = "male_eyes_diffuse.dds"
 		texture_normal = "male_eyes_normal.dds"
 		texture_specular = "male_eyes_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
 		shader = "portrait_eye"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -18,6 +19,7 @@ pdxmesh = {
 		texture_diffuse = "male_eyes_blind_diffuse.dds"
 		texture_normal = "male_eyes_normal.dds"
 		texture_specular = "male_eyes_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
 		shader = "portrait_eye"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -33,6 +35,7 @@ pdxmesh = {
 		texture_diffuse = "male_eyes_diffuse.dds"
 		texture_normal = "male_eyes_normal.dds"
 		texture_specular = "male_eyes_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
 		shader = "portrait_eye"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -58,6 +61,7 @@ pdxmesh = {
 		texture_diffuse = "male_eyes_diffuse.dds"
 		texture_normal = "male_eyes_normal.dds"
 		texture_specular = "male_eyes_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
 		shader = "portrait_eye"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -67,12 +71,36 @@ pdxmesh = {
 entity = {
 	name = "cfp_male_one_eyed_eyes_entity"
 	pdxmesh = "cfp_male_one_eyed_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
 }
 entity = {
 	name = "cfp_male_one_eyed_fake_eyes_entity"
 	pdxmesh = "cfp_male_one_eyed_fake_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
 }
 entity = {
 	name = "cfp_male_one_eyed_missing_eyes_entity"
 	pdxmesh = "cfp_male_one_eyed_missing_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
 }

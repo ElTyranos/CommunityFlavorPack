@@ -1,61 +1,61 @@
 ﻿l_simp_chinese:
 
  # Bayeux Tapestry
- cfp_title_event.0001.t:0 "A Norman initiative"
- cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal] approaches me confidently, as is his usual demeanor. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], your reign stands uncontested! The word has spread of our glorious conquest. To rightfully praise such a momentous occasion, we need something unlike anything else, something that will stand the test of time. I’ll return soon, once the details are worked out, and your legitimacy as a ruler will never be challenged." \n\nAs I attempt to grasp what great work he has planned, I’m humbled in knowing this is a person I assuredly can trust."
- cfp_title_event.0001.a.odo:0 "May the Lord bless you in these pursuits [bishop.GetFirstNameNoTooltip]!"
- cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal] approaches me. \n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], you stand as our rightful ruler! The word has spread and such a remarkable feat should be praised. We need something unlike anything else, which will last for many generations to come. I’ll return to you soon, once the details are worked out." \n\nAs I attempt to grasp what great work he has planned, I feel obligated to grant him my lenience. After all, the Pope supported my claim over England."
- cfp_title_event.0001.a.bishop:0 "May god help you to carry out your quest, [bishop.GetNameNoTooltip]!"
+ cfp_title_event.0001.t:0 "一个诺曼的计划"
+ cfp_title_event.0001.odo:1 "[bishop.GetFullNameNoTooltipRegnal]一如既往，自信地走到我身前。\n\n“[ROOT.Char.GetTitledFirstNameNoTooltip]，您在此地的统治是无可争议的！我们那辉煌的战绩，天下皆知。要好好歌颂这重要的时刻的话，我们需要一个独一无二、经得起时间考验的珍品。待细节处理好后，我会再来见您。那时，您作为统治者的权威将永远不受挑战。”\n\n我在思疑他有什么鸿图大计的同时，也庆幸有他这个我可绝对相信之人。"
+ cfp_title_event.0001.a.odo:0 "愿天主祝福你的计划，[bishop.GetFirstNameNoTooltip]！"
+ cfp_title_event.0001.bishop:0 "[bishop.GetFullNameNoTooltipRegnal]走到我身前。\n\n“[ROOT.Char.GetTitledFirstNameNoTooltip]，您是我们真正的的统治者！您的名声，天下皆知。您的成就，也得受天下好好赞颂。我们需要一个独一无二、能世代相传的珍品。待细节处理好后，我会再来见您。”\n\n我在思疑他有什么鸿图大计的同时，也觉得我必须宽容对待他的建议，难以开口拒绝。说到底，教宗也支持了我对英格兰的主张。"
+ cfp_title_event.0001.a.bishop:0 "愿天主祝福你的任务，[bishop.GetNameNoTooltip]！"
  
- cfp_title_event.0002.t:0 "Rule with the Arts"
- cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal] comes to inform me about his project. \n\n"I’ve requested the finest craftsmen and artists throughout the land to weave this tapestry, it features embroidered imagery of your mighty conquest of England and tells the tale of how these magnificent victories came to be. It has been named the Telle du Conquest.""
- cfp_title_event.0002.a:0 "Such a magnificent tapestry!"
+ cfp_title_event.0002.t:0 "以艺术统治人心"
+ cfp_title_event.0002.desc:0 "[bishop.GetFullNameNoTooltipRegnal]前来见我，向我作有关他的计划的报告。\n\n“我征集了全国最好的工匠和艺术家，为您编制这一挂毯。它上面绣上了您征服英格兰的英姿，叙述了这些胜利的伟大故事。它的名字是「征服的故事」。”"
+ cfp_title_event.0002.a:0 "多么宏伟的挂毯！"
  
  ## A Burmese traveler might forget his Kris Dagger if you invite him
  cfp_artifact.0001.t:0 "$yearly.1090.t$" # We use vanilla name to confuse experienced players
- cfp_artifact.0001.desc:0 "A man wearing only a colorful loincloth appears before me. \n\n"My name is [traveler.GetFullNameNoTooltip], I hail from a very distant country. I was accosted by bandits just outside your beautiful castle, and I’m scared to sleep outside. Would you be so kind as to host me tonight?""
- cfp_artifact.0001.a:0 "Guards! Remove this beggar from my sight!"
- cfp_artifact.0001.b:0 "Of course, you’ll spend the night in my dungeon."
- cfp_artifact.0001.c:0 "Come, you shall spend the night comfortably in the stables with some fresh hay!"
+ cfp_artifact.0001.desc:0 "一个男人突然前来见我。他身上只穿着一条色彩缤纷的腰布。\n\n“我叫[traveler.GetFullNameNoTooltip]，来自一处非常遥远的国度。我在您漂亮的城堡前，被一群盗贼洗劫一空。我实在不想在城墙外过一晚，您能否雍容大度，款待我一晚？”"
+ cfp_artifact.0001.a:0 "守卫！把这个乞丐赶走！"
+ cfp_artifact.0001.b:0 "当然，这一晚你就在我牢房过吧。"
+ cfp_artifact.0001.c:0 "来，我让你在我的马槽的新鲜干草上安心睡一晚吧！"
  
- cfp_artifact.0002.t:0 "The traveler has vanished"
- cfp_artifact.0002.desc:0 "You arrive at the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] disappeared without much of a trace. You only spot some flattened hay and a small cloth wrapping."
- cfp_artifact.0002.a:0 "What's this ?"
+ cfp_artifact.0002.t:0 "消失的羇客"
+ cfp_artifact.0002.desc:0 "你早上来到马槽的时候，发现[traveler.GetFullNameNoTooltip]已不见踪影。被睡扁的干草上，遗下了一个小小的布包裹。"
+ cfp_artifact.0002.a:0 "这是什么？"
  
- cfp_artifact.0003.desc:0 "You arrive at the stables early in the morning. It seems [traveler.GetFullNameNoTooltip] disappeared without much of a trace. You spot nothing apart from some flattened hay. You wonder what his story was for a while, but are soon summoned back to other more important affairs."
- cfp_artifact.0003.a:0 "Farewell, [traveler.GetFullNameNoTooltip]."
+ cfp_artifact.0003.desc:0 "你早上来到马槽的时候，发现[traveler.GetFullNameNoTooltip]已不见踪影，马槽内只剩下一堆被睡扁的干草。你思索了他的故事一会后，便被召去处理其他更重要的事务。"
+ cfp_artifact.0003.a:0 "[traveler.GetFullNameNoTooltip]，再会。"
  
  ## A local sculptor asks you to kickstart him so he can prove his talent
- cfp_artifact.0005.t:0 "A local sculptor is looking for a benefactor"
- cfp_artifact.0005.desc:0 "A difficult looking man demands an audience. \n\n"My name is [sculptor.GetFullNameNoTooltip]. You may have encountered my beautiful sculptures on the calvaries next to the roads of your domain.\n\nI thought you might want to become my benefactor. Indeed, as my name has become quite famous among your subjects, both of us could benefit from this partnership. \n\nAs proof of my good faith, I would create a unique and masterful sculpture for you to display wherever you wish, showing your immense piety to the world.""
- cfp_artifact.0005.a:0 "I've never heard of you, and you don't #italic look#! very talented."
- cfp_artifact.0005.b:0 "It sounds like a great opportunity."
+ cfp_artifact.0005.t:0 "本地雕塑家在寻找赞助人"
+ cfp_artifact.0005.desc:0 "一个样貌苛刻的男人想来见我。\n\n“我叫[sculptor.GetFullNameNoTooltip]。您也许在您领地内的道路两旁，看过我漂亮的十字架石刻。\n\n我说，您不如成为我的赞助人吧。老实说，我在你的臣民之中也薄有名声，与我合作的话，我俩一定都受益。\n\n为了表明诚意，我会为您雕塑一个独一无二的艺术杰作，您放在哪都行，让世人都知道你对天主的无比虔诚。”"
+ cfp_artifact.0005.a:0 "我没听说过你，倒是觉得你样貌不似有天赋。"
+ cfp_artifact.0005.b:0 "听起来像是一个不錯的机会。"
  
- cfp_artifact.0006.t:0 "Local sculptor ripped me off"
- cfp_artifact.0006.desc:0 "A guard brings me a rock on which a message is attached. \n\n"To the stupid [ROOT.Char.GetTitledFirstNameNoTooltip], \n\nYour charity has no equal on this earth. When you receive this note, I will be far away, telling the world how gullible you are." \n\nThe message is signed by the hand of [sculptor.GetFullNameNoTooltip]. There is not much you can do now."
- cfp_artifact.0006.a:0 "My reputation is ruined!"
+ cfp_artifact.0006.t:0 "本地雕塑家骗了我钱"
+ cfp_artifact.0006.desc:0 "一个守卫向我展示了一个贴上字条的石头。\n\n“致傻子[ROOT.Char.GetTitledFirstNameNoTooltip]，\n\n你的慈祥心肠，可说是举世无双。你看到这字条时，我已远走高飞，并告诉了每人你这容易上当的性格。”\n\n这字条的下款是[sculptor.GetFullNameNoTooltip]。你还能做的不多。"
+ cfp_artifact.0006.a:0 "我的名声尽毁！"
  
- cfp_artifact.0007.t:0 "Local sculptor has no talent"
- cfp_artifact.0007.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThe folds of Mary's dress fall nicely and soberly. She holds Jesus in her arms and looks happy, full of grace. As your eyes fall on Jesus' face, you can't help but retch. His eye cavities are empty, his face and nose are simple lines. This is a terrible work and an insult to his holiness."
- cfp_artifact.0007.a:0 "I should have known, leave and never come back."
- cfp_artifact.0007.b:0 "How about you sculpt your nails in my dungeon ?"
+ cfp_artifact.0007.t:0 "本地雕塑家缺少天份"
+ cfp_artifact.0007.desc:0 "[sculptor.GetFullNameNoTooltip]向我展示他努力雕塑的成果。你从头到脚检查这尊雕像。\n\n马利亚垂下的长袍，庄重而优雅。她怀内抱着耶稣，表情愉快、姿态秀丽。但当你看到耶稣的面容时，不禁有作呕的感觉。祂的双眼只为空洞，面部轮廓和鼻子则只是简单的直纹。这是一个差劣的美术品，简直是对神圣的祂的一个侮辱。"
+ cfp_artifact.0007.a:0 "我早该知道有这下场。你快走，不要回来。"
+ cfp_artifact.0007.b:0 "你在我的牢房里，雕塑自己的指甲吧！"
  
- cfp_artifact.0008.t:0 "Local sculptor is quite talented"
- cfp_artifact.0008.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is obviously a Saint, or maybe a bishop, but you don't dare to ask whom. The sculpt is sharp with beautiful curves and lines. It will surely impress your court, and the local sculptor will peddle your name alongside his humble but honest art."
- cfp_artifact.0008.a:0 "Nice! Tell them you have my benefice, [sculptor.GetFullNameNoTooltip]."
+ cfp_artifact.0008.t:0 "本地雕塑家不失天份"
+ cfp_artifact.0008.desc:0 "[sculptor.GetFullNameNoTooltip]向我展示他努力雕塑的成果。你从头到脚检查这尊雕像。\n\n这显然是一名圣人的雕像，也可能是一位主教，但你不敢贸然问他是谁。雕塑的手工潇洒利落，有着漂亮的轮廓和线条。你的廷臣必定会对此雕塑印像深刻，而那位雕塑家也必利用你的名字继续兜售他老实谦逊的艺术品。"
+ cfp_artifact.0008.a:0 "很好！你就告诉大家我愿意成为你的赞助人，[sculptor.GetFullNameNoTooltip]。"
  
- cfp_artifact.0009.t:0 "Local sculptor is gifted"
- cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is Virgin Mary. Her hands are joined in prayer and her eyes closed. The sculpting is sharp, with a complex veil covering Mary's head and falling over her shoulders. This is how everyone should see her when listening to the liturgy."
- cfp_artifact.0009.a:0 "I want you at my court so you can promote my name!"
+ cfp_artifact.0009.t:0 "本地雕塑家才华横溢"
+ cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] 向我展示他努力雕塑的成果。你从头到脚检查这尊雕像。\n\n这是圣母玛利亚。她闭上了眼睛，双手在紧扣祈祷。雕塑的手工潇洒利落，还有一块雕工细腻的面纱，从玛利亚的头垂下，盖过她的肩膀。大家在听礼拜仪式时，都应看着这个雕像。"
+ cfp_artifact.0009.a:0 "我要你留在我的宫廷，好让你宣扬我的名气！"
  
  ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
- cfp_artifact.0011.t:0 "A game of chess"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks to the Council. \n\n"I am making decent progress in my task of training our men. However, may I suggest the court invest in a more innovative game in order to provide our armies with excellent commanders? This is a game of chess. Chess is said to have helped many generals achieve victory in battle through strategy.""
- cfp_artifact.0011.a:0 "War is not a game, get back to work."
- cfp_artifact.0011.b:0 "Any innovation that makes our men better should be exploited."
- cfp_artifact.0011.c:0 "It's true, I've played it once or twice during my childhood. We should invest in a nice set."
+ cfp_artifact.0011.t:0 "象棋游戏"
+ cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal]向其他大臣们报告。\n\n“我在训练士兵方面的工作，进度尚算不错。可是，我能冒昧请求各位，能否花费引入一个具创新性的游戏训练，为我军训练出更优秀的军官？这游戏是象棋，据说帮助了不少将军在战场上以筹略打胜仗。”"
+ cfp_artifact.0011.a:0 "战争岂可当作游戏？你别不务正业。"
+ cfp_artifact.0011.b:0 "任何能使我军进步的新想法，也应好好加以利用。"
+ cfp_artifact.0011.c:0 "说得没错。我小时候也有下个两盘棋。我们应该花费买个不错的棋盘。"
  
- cfp_artifact.0012.desc:0 "My liege, I found this chess set at the local market. It looks rather basic but there are no missing pieces. \n\nI did not speak the tongue of the merchant who sold it to me, but I think I've figured out the rules. Hopefully, this game will help us achieve victory in battle."
- cfp_artifact.0013.desc:0 "My liege, as soon as you approved the idea, I managed to order a beautiful chess set from a foreign artisan. \n\nWhile it took a long time to gather the pigment, this chess set looks magnificent. I did not speak the tongue of the man and [steward.GetFullNameNoTooltipRegnal] could not find a translator. \n\nYet, I think I managed to understand the rules. This game will surely help us with the art of war."
- cfp_artifact.0012.a:0 "Good work, [marshal.GetFirstNameNoTooltip]!"
+ cfp_artifact.0012.desc:0 "大人，我在本地市场中找到了这棋盘。它手工没什么特别，但各棋子齐全。\n\n我不能说那店主的语言，但我觉得我能了解它的规则。希望这游戏能为我们在战场上带来胜利。"
+ cfp_artifact.0013.desc:0 "大人，您同意我这念头后，我立刻成功从一名外国的艺术家，买下了一副漂亮的棋盘。虽然为了收集必需的颜料，花了不少时间，但这棋盘看起来实在非常标致。我不能说那艺术家的语言，[steward.GetFullNameNoTooltipRegnal]也为我找不到翻译。\n\n可是，我觉得我能了解它的规则。这游戏必定能令我们兵法有所改善。"
+ cfp_artifact.0012.a:0 "做得好，[marshal.GetFirstNameNoTooltip]！"
  
