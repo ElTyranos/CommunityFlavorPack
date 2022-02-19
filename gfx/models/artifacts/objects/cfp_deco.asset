@@ -53,3 +53,28 @@ pdxmesh = {
 		shader_file = "gfx/FX/court_scene.shader"
 	}
 }
+
+entity = {
+	name = "cfp_carpet_01_east_african_entity"
+	pdxmesh = "cfp_carpet_01_east_african_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_carpet_01_andalusian_mesh"
+	file = "cfp_carpet_01.mesh"
+
+	meshsettings = {
+		name = "cfp_carpet_01Shape"
+		index = 0
+		texture_diffuse = "cfp_carpet_01_andalusian_diffuse.dds"
+		texture_normal = "cfp_carpet_01_andalusian_normal.dds"
+		texture_specular = "cfp_carpet_01_andalusian_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_carpet_01_andalusian_entity"
+	pdxmesh = "cfp_carpet_01_andalusian_mesh"
+}
