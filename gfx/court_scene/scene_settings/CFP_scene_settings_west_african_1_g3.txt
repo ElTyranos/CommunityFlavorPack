@@ -998,80 +998,79 @@ assets={ {
 		asset="ep1_mena_pillowcarpet_01_b_entity"
 	}
  {
-		position={ 362.899994 -4.000000 -349.500000 }
+		position={ 355.600000 -0.250000 -696.700000 }
+		scale=1.0250000
 		description="Carpet 1"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ 362.899994 -4.000000 295.700012 }
-		scale=1.050000
+		position={ 362.899994 -0.250000 295.700012 }
 		description="Carpet 2"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ -342.300018 -4.000000 161.300003 }
+		position={ -329.099213 -0.250000 161.300003 }
 		description="Carpet 3"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ -315.399994 -4.000000 -534.200012 }
-		scale=1.100000
+		position={ -315.399994 -0.250000 -829.900024 }
 		description="Carpet 4"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ 10.000000 -4.000000 201.600006 }
-		scale=1.250000
+		position={ 10.000000 -0.250000 201.600006 }
+		scale=1.100000
 		description="Carpet Throne"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ 805.000000 -2.000000 255.300003 }
+		position={ 805.000000 2.000000 255.300003 }
 		scale=1.100000
 		description="Carpet Corridor R1"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ -772.400024 -2.000000 -470.800018 }
+		position={ -772.400024 2.000000 -833.700012 }
 		scale=1.100000
 		description="Carpet Corridor 2"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ -1269.700073 -2.000000 67.099998 }
+		position={ -1269.700073 2.000000 67.099998 }
 		scale=1.500000
 		description="Carpet Corridor 3"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ -1269.700073 -2.000000 -900.600037 }
+		position={ -1269.700073 2.000000 -1411.400024 }
 		scale=1.500000
 		description="Carpet Corridor 4"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ -772.400024 -2.000000 255.300003 }
+		position={ -772.400024 2.000000 255.300003 }
 		scale=1.100000
 		description="Carpet Corridor 1"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ 805.000000 -2.000000 -457.100006 }
+		position={ 805.000000 2.000000 -820.000000 }
 		scale=1.100000
 		description="Carpet Corridor R2"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ 1311.300049 -2.000000 -900.600037 }
+		position={ 1311.300049 2.000000 -1397.900024 }
 		scale=1.500000
 		description="Carpet Corridor R3"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
-		position={ 1311.300049 -2.000000 80.599998 }
+		position={ 1311.300049 2.000000 80.599998 }
 		scale=1.500000
 		description="Carpet Corridor R4"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
 		position={ -551.000000 15.000000 605.500000 }

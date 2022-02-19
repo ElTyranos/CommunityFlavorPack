@@ -998,10 +998,10 @@ assets={ {
 		asset="ep1_mena_pillowcarpet_01_b_entity"
 	}
  {
-		position={ 10.000000 -4.000000 201.600006 }
-		scale=1.250000
+		position={ 10.000000 -0.250000 201.600006 }
+		scale=1.100000
 		description="Carpet Throne"
-		asset="ep1_mena_carpet_01_a_entity"
+		asset="cfp_carpet_01_west_african_entity"
 	}
  {
 		position={ -551.000000 15.000000 605.500000 }
