@@ -17,3 +17,19 @@ entity = {
 	name = "cfp_norman_bench_01_entity"
 	pdxmesh = "cfp_norman_bench_01_mesh"
 }
+
+## Carpets
+pdxmesh = {
+	name = "cfp_carpet_01_west_african_mesh"
+	file = "cfp_carpet_01.mesh"
+
+	meshsettings = {
+		name = "cfp_carpet_01Shape"
+		index = 0
+		texture_diffuse = "cfp_carpet_01_west_african_diffuse.dds"
+		texture_normal = "cfp_carpet_01_west_african_normal.dds"
+		texture_specular = "cfp_carpet_01_west_african_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
