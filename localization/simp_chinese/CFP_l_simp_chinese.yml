@@ -71,7 +71,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! 中头盔（放下）"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! 中头盔（打开）"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_03:1 "@cfp_icon! 中头盔（无面甲）"
-
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_01:1 "@cfp_icon! 大型中头盔（放下面甲）"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_02:1 "@cfp_icon! 大型中头盔（面甲打开）"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_03:1 "@cfp_icon! 大型中头盔（无面甲）"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01:1 "@cfp_icon! 平顶盔"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_flat_top_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01$"
 
@@ -506,6 +509,8 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! 库尔堡板甲"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! 镶板锁甲"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_03:1 "@cfp_icon! 法式板甲"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_04:1 "@cfp_icon! 披战袍板甲"
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! 阿拉伯锁甲"
  
