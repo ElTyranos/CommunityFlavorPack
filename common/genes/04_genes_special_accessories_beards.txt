@@ -53,6 +53,9 @@ special_genes = {
 					1 = cfp_male_goatee_northern_01
 					1 = cfp_male_goatee_northern_02
 					1 = cfp_male_moustache_slavic_01
+					1 = cfp_male_moustache_slavic_02
+					1 = cfp_male_moustache_slavic_03
+					1 = cfp_male_moustache_hungarian_01
 					1 = male_beard_steppe_01
 					1 = male_beard_steppe_02
 					1 = male_beard_sub_saharan_01
@@ -222,7 +225,10 @@ special_genes = {
 					5 = male_beard_western_03 # Short beard
 					10 = male_beard_western_04 # Short goatee
 					10 = male_beard_western_06 # Big bushy beard
-					5 = cfp_male_moustache_slavic_01
+					5 = cfp_male_moustache_slavic_01 # TODO: reassign ?
+					1 = cfp_male_moustache_slavic_02 # TODO : move somewhere else
+					1 = cfp_male_moustache_slavic_03 # TODO : move somewhere else
+					1 = cfp_male_moustache_hungarian_01 # TODO : move somewhere else
 								
 				}
 				female = {
