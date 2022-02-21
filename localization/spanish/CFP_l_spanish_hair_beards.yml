@@ -1,4 +1,4 @@
-l_spanish:
+﻿l_spanish:
 
 ## Western
  PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "@cfp_icon! Tenedor francés"
@@ -23,6 +23,15 @@ l_spanish:
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! Creciente afro"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! Rastas enroscadas"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! Rastas rectas"
+ 
+## Shaggy
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red! Mostacho de manillar"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_03:0 "@cfp_icon_red!  Moustacho de herradura"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_hungarian_01:0 "@cfp_icon_red! Mostacho Húngaro"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_hungarian_01:0 "@cfp_icon_red! Trenzas Húngaras"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_03:0 "@cfp_icon! Taza liso"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_04:0 "@cfp_icon! Taza rizado"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_celtic_01:0 "@cfp_icon! Trenzas Celtas"
  
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! Patillas"
