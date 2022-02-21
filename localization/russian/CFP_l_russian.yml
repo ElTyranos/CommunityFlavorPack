@@ -72,7 +72,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! Закрытый бацинет"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! Открытый бацинет"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_03:1 "@cfp_icon! Бацинет без забрала"
-
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_01:1 "@cfp_icon! Опущенный большой бацинет"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_02:1 "@cfp_icon! Открытый большой бацинет"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_03:1 "@cfp_icon! Большой бацинет без забрала"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01:1 "@cfp_icon! Топфхелм с плоским верхом"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_flat_top_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01$"
 
@@ -507,6 +510,8 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! Чербургский латный доспех"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! Панцирный латный доспех"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_03:1 "@cfp_icon! Французский пластинчатый доспех"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_04:1 "@cfp_icon! Пластинчатый доспех с накидкой"
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Арабская кольчуга"
 

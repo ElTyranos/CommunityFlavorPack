@@ -1,4 +1,4 @@
-l_russian:
+﻿l_russian:
 
 ## Western
  PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "@cfp_icon! Французская вилка"
@@ -23,6 +23,15 @@ l_russian:
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! Афро-полумесяц"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! Скрученные косички"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! Прямые косички"
+ 
+## Shaggy
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red! Закрученные кверху усы"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_03:0 "@cfp_icon_red! Подковообразные усы"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_hungarian_01:0 "@cfp_icon_red! Венгерские усы"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_hungarian_01:0 "@cfp_icon_red! Венгерские косы"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_03:0 "@cfp_icon! Под горшок"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_04:0 "@cfp_icon! Бурлящее море"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_celtic_01:0 "@cfp_icon! Кельтские косы"
  
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! Бакенбарды"
