@@ -1,4 +1,4 @@
-l_korean:
+﻿l_korean:
 
 ## Western
  PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "@cfp_icon! 프랑스 수염"
@@ -23,6 +23,15 @@ l_korean:
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! 아프로 크레센트"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! 트위스트 콘로우"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! 스트레이트라인 콘로우"
+ 
+## Shaggy
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red!  팔자 수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_03:0 "@cfp_icon_red! 말굽 수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_hungarian_01:0 "@cfp_icon_red! 헝가리 콧수염"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_hungarian_01:0 "@cfp_icon_red! 헝가리 땋은 머리 "
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_03:0 "@cfp_icon! 바가지 머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_04:0 "@cfp_icon! 곱슬 바가지 머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_celtic_01:0 "@cfp_icon! 켈트 땋은 머리"
  
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! 구레나룻"

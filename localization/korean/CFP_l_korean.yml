@@ -72,7 +72,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! 철모 (폐쇄형)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! 철모 (개방형)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_03:1 "@cfp_icon! 철모 (얼굴 가리개 없음)"
-
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_01:1 "@cfp_icon! 대형 철모 (폐쇄형)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_02:1 "@cfp_icon! 대형 철모 (개방형)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_03:1 "@cfp_icon! 대형 철모 (얼굴 가리개 없음)"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01:1 "@cfp_icon! 그레이트 헬름"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_flat_top_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01$"
 
@@ -507,6 +510,8 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! 쿠어부르크 플레이트 아머"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! 브리간딘"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_03:1 "@cfp_icon! 프랑스 플레이트 아머"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_04:1 "@cfp_icon! 플레이트 아머(타바드)"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! 아랍 사슬갑옷"
  
