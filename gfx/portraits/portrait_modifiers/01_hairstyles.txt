@@ -1198,30 +1198,67 @@ hairstyles = {
         weight = {
             base = 0
             modifier = {
-                add = {
-                    subtract = 100
-                }
-                scope:age >= @baby_hair_age
-            }
-            modifier = {
                 add = 100
 				exists = this
-				AND = {
-					is_male = yes
+				culture = { 
 					OR = {
-						portrait_has_trait_trigger = { TRAIT = education_martial_1 }
-						portrait_has_trait_trigger = { TRAIT = education_martial_2 }
-						portrait_has_trait_trigger = { TRAIT = education_martial_3 }
-						portrait_has_trait_trigger = { TRAIT = education_martial_4 }
-					}
-					OR = {
-						cfp_portrait_slavic_clothing_trigger = yes
-						cfp_portrait_hungarian_clothing_trigger = yes
+						has_cultural_pillar = heritage_south_slavic
+						has_cultural_pillar = heritage_west_slavic
+						has_cultural_pillar = heritage_east_slavic
 					}
 				}
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = education_martial_1 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_2 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_3 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_4 }
+				}
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
             }
         }
     }
+	
+    hungarian_warrior = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = hungarian_hairstyles_warrior
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				exists = this
+				culture = { has_cultural_pillar = heritage_magyar }
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = education_martial_1 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_2 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_3 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_4 }
+				}
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+	
+	## / CFP
 	
 	male_hair_rtt_01 = {
 		dna_modifiers = {

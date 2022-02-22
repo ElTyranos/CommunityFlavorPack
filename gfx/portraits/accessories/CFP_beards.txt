@@ -35,6 +35,20 @@ cfp_male_moustache_slavic_01 = {
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head   entity = cfp_male_moustache_slavic_01_entity }	
 }
+cfp_male_moustache_slavic_02 = { #Shaggy90
+	entity = { required_tags = "no_beard"	shared_pose_entity = head }
+	entity = {  shared_pose_entity = head   entity = cfp_male_moustache_slavic_02_entity }	
+}
+cfp_male_moustache_slavic_03 = { #Shaggy90
+	entity = { required_tags = "no_beard"	shared_pose_entity = head }
+	entity = {  shared_pose_entity = head   entity = cfp_male_moustache_slavic_03_entity }	
+}
+
+## Hungarian
+cfp_male_moustache_hungarian_01 = { #Shaggy90
+	entity = { required_tags = "no_beard"	shared_pose_entity = head }
+	entity = {  shared_pose_entity = head   entity = cfp_male_moustache_hungarian_01_entity }	
+}
 
 ## FP1 - Fury of the Northmen ##
 

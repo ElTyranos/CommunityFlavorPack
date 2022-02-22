@@ -72,6 +72,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! Bassinet (Baissé)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! Bassinet (Ouvert)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_03:1 "@cfp_icon! Bassinet (Sans visière)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_01:1 "@cfp_icon! Grand bassinet (Baissé)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_02:1 "@cfp_icon! Grand bassinet (Ouvert)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_03:1 "@cfp_icon! Grand bassinet (Sans visière)"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01:1 "@cfp_icon! Heaume à timbre plat de Croisé"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_flat_top_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01$"
@@ -508,6 +511,9 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! Armure de plates type Churburg"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! Armure de plates et brigandine"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_03:1 "@cfp_icon! Armure de plates Française"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_04:1 "@cfp_icon! Armure de plates et tabard"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_05:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$ 2"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Cotte de maille arabe"
  

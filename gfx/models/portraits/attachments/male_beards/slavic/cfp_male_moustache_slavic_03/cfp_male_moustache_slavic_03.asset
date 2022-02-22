@@ -1,0 +1,36 @@
+pdxmesh = {
+	name = "cfp_male_moustache_slavic_03_mesh"
+	file = "cfp_male_moustache_slavic_03.mesh"
+	
+	blend_shape = { id = "cfp_male_moustache_slavic_03_bs_fat"					type = "cfp_male_moustache_slavic_03_bs_fat.mesh" }
+	blend_shape = { id = "cfp_male_moustache_slavic_03_bs_nose_forward_max"		type = "cfp_male_moustache_slavic_03_bs_nose_forward_max.mesh" }
+	blend_shape = { id = "cfp_male_moustache_slavic_03_bs_nose_forward_min"		type = "cfp_male_moustache_slavic_03_bs_nose_forward_min.mesh" }
+
+	meshsettings = {
+		name = "cfp_male_moustache_slavic_03Shape"
+		index = 0
+		texture_diffuse = "cfp_male_moustache_slavic_03_diffuse.dds"
+		texture_normal = "cfp_male_moustache_slavic_03_normal.dds"
+		texture_specular = "cfp_male_moustache_slavic_03_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "cfp_male_moustache_slavic_03_entity"
+	pdxmesh = "cfp_male_moustache_slavic_03_mesh"
+	
+	attribute = { name = "bs_fat_1"								blend_shape = "cfp_male_moustache_slavic_03_bs_fat" }
+	attribute = { name = "bs_nose_forward_max"					blend_shape = "cfp_male_moustache_slavic_03_bs_nose_forward_max" }
+	attribute = { name = "bs_nose_forward_min"					blend_shape = "cfp_male_moustache_slavic_03_bs_nose_forward_min" }
+	
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+}
