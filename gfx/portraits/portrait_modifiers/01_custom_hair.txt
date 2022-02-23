@@ -186,6 +186,10 @@ custom_hair = {
 	}
 	add_accessory_modifiers = {
 		gene = hairstyles
+		template = hungarian_hairstyles_warrior
+	}
+	add_accessory_modifiers = {
+		gene = hairstyles
 		template = catholic_devoted_hairstyles
 	}
 	## / CFP

@@ -20,9 +20,9 @@
  
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Улучшенная парикмахерская"
  setting_default_cfp_barbershop_unlocks:0 "Разблокировать"
- setting_default_cfp_barbershop_unlocks_desc:0 "Парикмахерская полностью разблокирована. Плащи, чулки и все другие аксессуары будут доступны игроку без ограничений. Это не меняет поведение одежды для ИИ."
+ setting_default_cfp_barbershop_unlocks_desc:0 "Парикмахерская полностью разблокирована. Плащи, поножи и все другие аксессуары будут доступны игроку без ограничений. Это не меняет поведение одежды для ИИ."
  setting_never_cfp_barbershop_unlocks:1 "#high Ограничить#!"
- setting_never_cfp_barbershop_unlocks_desc:0 "Поведение в парикмахерской остается таким же, как в базовой игре. Аксессуары и чулки нельзя изменить, плащи требуют определенного титула. Это не меняет поведение одежды для ИИ."
+ setting_never_cfp_barbershop_unlocks_desc:0 "Настройки парикмахерской, как в базовой игре. Аксессуары и поножи нельзя изменить, плащи требуют определенного титула. Это не меняет поведение одежды для ИИ."
  
  rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Артефакты"
  setting_default_cfp_artifacts:0 "По умолчанию"

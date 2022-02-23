@@ -1,7 +1,15 @@
 ﻿namespace = cfp_compatibility
 
+cfp_compatibility.1 = { # Community Flavor Pack compatibility
+    hidden = yes
+	orphan = yes 
+	trigger = {
+		exists = global_var:cfp_is_loaded
+	}
+	immediate = {}
+}
 
-cfp_compatibility.1 = { # The Catholic Trinity compatibility
+cfp_compatibility.2 = { # The Catholic Trinity compatibility
     hidden = yes
 	orphan = yes 
 	immediate = {

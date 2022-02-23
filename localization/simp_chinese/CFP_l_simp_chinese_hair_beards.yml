@@ -10,12 +10,12 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "@cfp_icon! 诺斯萨迦英雄"
 
 ## Turkic
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "@cfp_icon! 把阿秃儿发辫"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "@cfp_icon_red! 把阿秃儿发辫"
 
 ## Slavic
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "@cfp_icon! 罗斯勇士髭"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon! 带耳环罗斯勇士发绺"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon! 罗斯勇士发绺"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "@cfp_icon_red! 罗斯勇士髭"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon_red! 带耳环罗斯勇士发绺"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon_red! 罗斯勇士发绺"
  
 ## African
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_01:0 "@cfp_icon_yellow! 高渐变爆炸头"
@@ -24,6 +24,15 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! 扭结玉米辫"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! 直玉米辫"
  
+## Shaggy
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red! 八字胡"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_03:0 "@cfp_icon_red! 马蹄胡"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_hungarian_01:0 "@cfp_icon_red! 匈牙利胡"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_hungarian_01:0 "@cfp_icon_red! 匈牙利辫子"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_03:0 "@cfp_icon! 直发蘑菇头"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_04:0 "@cfp_icon! 曲发蘑菇头"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_celtic_01:0 "@cfp_icon! 凯尔特辫子"
+
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! 络腮胡"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! 络腮山羊胡"
@@ -34,16 +43,16 @@
  
 ## Hair vanilla edit
  PORTRAIT_MODIFIER_custom_hair_bald:0 "@cfp_icon! 全秃"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "@cfp_icon! 草原木梳背儿"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon! 秃顶草原骑手"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "@cfp_icon! 无鬓角草原骑手"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "@cfp_icon! 青年草原骑手"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "@cfp_icon! 发辫"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "@cfp_icon! 无珠宝长卷发"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "@cfp_icon! 紧发髻"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "@cfp_icon! 无珠宝绕颈发辫"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "@cfp_icon! 无珠宝波浪卷偏分"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "@cfp_icon! 无耳环冠型卷发"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "@cfp_icon! 无耳环双发辫及绑带"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "@cfp_icon! 无耳环盘绕发辫"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "@cfp_icon_red! 草原木梳背儿"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon_red! 秃顶草原骑手"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "@cfp_icon_red! 无鬓角草原骑手"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "@cfp_icon_red! 青年草原骑手"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "@cfp_icon_green! 发辫"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "@cfp_icon_green! 无珠宝长卷发"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "@cfp_icon_orange! 紧发髻"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "@cfp_icon_orange! 无珠宝绕颈发辫"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "@cfp_icon_orange! 无珠宝波浪卷偏分"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "@cfp_icon_purple! 无耳环冠型卷发"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "@cfp_icon_red! 无耳环双发辫及绑带"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "@cfp_icon_red! 无耳环盘绕发辫"
  

@@ -72,6 +72,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! Bascinet (Lowered)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! Bascinet (Opened)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_03:1 "@cfp_icon! Bascinet (No visor)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_01:1 "@cfp_icon! Great Bascinet (Lowered)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_02:1 "@cfp_icon! Great Bascinet (Opened)"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_great_bascinet_03:1 "@cfp_icon! Great Bascinet (No visor)"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01:1 "@cfp_icon! Flat top helm"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_flat_top_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_flat_top_01$"
@@ -507,6 +510,9 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01:1 "@cfp_icon! Churburg Plate Armour"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! Brigandine Plate Armour"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_03:1 "@cfp_icon! French Plate Armour"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_04:1 "@cfp_icon! Tabard Plate Armour"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_05:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$ 2"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Arabic Chainmail"
  
