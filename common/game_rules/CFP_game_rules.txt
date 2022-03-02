@@ -23,8 +23,3 @@ cfp_artifacts = {
 	default_cfp_artifacts = {}
 	never_cfp_artifacts = {}
 }
-cfp_events = {
-	default = default_cfp_events
-	default_cfp_events = {}
-	never_cfp_events = {}
-}

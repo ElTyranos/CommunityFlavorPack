@@ -30,8 +30,3 @@
  setting_never_cfp_artifacts:1 "#high Отключены#!"
  setting_never_cfp_artifacts_desc:0 "Новые артефакты отключены и не будут доступны в игре."
  
- rule_cfp_events:0 "@cfp_icon! Community Flavor Pack : События"
- setting_default_cfp_events:0 "По умолчанию"
- setting_default_cfp_events_desc:0 "Добавлены в игру новые события. Это может изменить игровой процесс, но игровой баланс будет максимально сохранен."
- setting_never_cfp_events:1 "#high Отключены#!"
- setting_never_cfp_events_desc:0 "Новые события отключены и не будут доступны в игре."
