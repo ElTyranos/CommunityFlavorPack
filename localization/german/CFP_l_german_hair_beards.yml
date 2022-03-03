@@ -25,13 +25,13 @@
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! Gerade Cornrows"
  
 ## Shaggy
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red! Handlebar Moustache"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_03:0 "@cfp_icon_red! Horse Shoe Moustache"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_hungarian_01:0 "@cfp_icon_red! Hungarian Moustache"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_hungarian_01:0 "@cfp_icon_red! Hungarian Braids"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_03:0 "@cfp_icon! Straight Bowl"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_04:0 "@cfp_icon! Curly Bowl"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_celtic_01:0 "@cfp_icon! Celtic Braids"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red! Zwirbelbart"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_03:0 "@cfp_icon_red!  Hufeisenbart"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_hungarian_01:0 "@cfp_icon_red! Ungarischer Bart"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_hungarian_01:0 "@cfp_icon_red! Ungarische Zöpfe"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_03:0 "@cfp_icon! Glatter Topfschnitt"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_04:0 "@cfp_icon! Lockiger Topfschnitt"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_celtic_01:0 "@cfp_icon! Keltische Zöpfe"
  
 ## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! Hammelkoteletts"
