@@ -265,7 +265,10 @@ cfp_portrait_central_africa_clothing_spouse_trigger = {
 	culture = { cfp_portrait_central_africa_clothing_contents_trigger = yes }
 }
 cfp_portrait_central_africa_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_central_african
+	OR = {
+		has_cultural_pillar = heritage_central_african
+		has_cultural_pillar = heritage_yoruba
+	}
 }
 
 cfp_portrait_west_africa_clothing_trigger = {
@@ -279,7 +282,6 @@ cfp_portrait_west_africa_clothing_contents_trigger = {
 		has_cultural_pillar = heritage_west_african
 		has_cultural_pillar = heritage_sahelian
 		has_cultural_pillar = heritage_akan
-		has_cultural_pillar = heritage_yoruba
 		has_cultural_pillar = heritage_senegambian
 	}
 }
