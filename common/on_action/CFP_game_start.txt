@@ -1,4 +1,4 @@
-﻿# Called from code after history generation
+# Called from code after history generation
 # Empty scope
 
 on_game_start = {
@@ -6,13 +6,13 @@ on_game_start = {
 		on_cfp_start
 	}
 	events = {
-		cfp_historical_artifacts.0001			# CFP Historical Artifacts Generator
+		cfp_historical_artifacts.0001 # CFP Historical Artifacts Generator
 	}
 }
 
 on_cfp_start = {
 	effect = {
-        	set_global_variable = {
+        set_global_variable = {
 			name = cfp_is_loaded
 			value = yes
 		}
