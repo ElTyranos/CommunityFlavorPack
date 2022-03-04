@@ -1,4 +1,4 @@
-# Called from code after history generation
+﻿# Called from code after history generation
 # Empty scope
 
 on_game_start = {
@@ -16,5 +16,11 @@ on_cfp_start = {
 			name = cfp_is_loaded
 			value = yes
 		}
+		# to get rid of the errors
+        if = {
+            limit = {
+                exists = global_var:cfp_is_loaded
+            }
+        }
 	}
 }
