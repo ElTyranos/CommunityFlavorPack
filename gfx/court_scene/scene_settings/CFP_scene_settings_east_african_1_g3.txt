@@ -244,6 +244,8 @@ camera={ {
 	}
  }
 default_camera=0
+shadows_fade=1000.000000
+shadows_strength=0.500000
 lights={ {
 		description="Chandelier Light 2"
 		light={
@@ -280,7 +282,7 @@ lights={ {
 			pitch=125.000000
 			yaw=-103.000000
 			color={ 1.000000 0.775233 0.353299 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -304,7 +306,7 @@ lights={ {
 			pitch=125.000000
 			yaw=0.000000
 			color={ 1.000000 0.736614 0.242188 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -326,7 +328,7 @@ lights={ {
 			pitch=40.000000
 			yaw=1.000000
 			color={ 1.000000 0.748902 0.269531 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -349,7 +351,7 @@ lights={ {
 			pitch=28.000000
 			yaw=90.000000
 			color={ 1.000000 0.721436 0.363281 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -621,7 +623,7 @@ lights={ {
 			pitch=148.000000
 			yaw=90.000000
 			color={ 1.000000 0.721436 0.363281 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -669,7 +671,7 @@ lights={ {
 			pitch=125.000000
 			yaw=0.000000
 			color={ 1.000000 0.732542 0.230469 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -692,7 +694,7 @@ lights={ {
 			pitch=125.000000
 			yaw=103.000000
 			color={ 1.000000 0.775233 0.353299 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
