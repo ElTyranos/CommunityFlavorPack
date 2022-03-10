@@ -1,4 +1,4 @@
-# Make sure the weights here match up best as possible with the custom_beards set
+﻿# Make sure the weights here match up best as possible with the custom_beards set
 beards = {
 
 	usage = game
@@ -732,6 +732,7 @@ beards = {
                             exists = controlled_faith
                         }
                     }
+					portrait_has_trait_trigger = { TRAIT = devoted } #CFP
                 }
                 OR = {
                     faith = faith:orthodox
