@@ -244,8 +244,10 @@ camera={ {
 	}
  }
 default_camera=0
+shadows_fade=1000.000000
+shadows_strength=0.500000
 lights={ {
-		description="Window Disc Throne Left"
+	description="Window Disc Throne Left"
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=1.000000
@@ -256,7 +258,7 @@ lights={ {
 			pitch=153.000000
 			yaw=8.000000
 			color={ 1.000000 0.487732 0.148438 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -278,7 +280,7 @@ lights={ {
 			pitch=168.000000
 			yaw=46.000000
 			color={ 1.000000 0.487732 0.148438 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -290,47 +292,23 @@ lights={ {
 		}
 	}
  {
-		description="Chandelier Light 2"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=340.000000
-			intensity=650.000000
-			position={ 0.000000 477.500000 118.800003 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.687469 0.480469 }
-			type=point_light
-		}
-
-		shadow_camera={
-			fov=83.000000
-			position={ 0.000000 477.500000 118.800003 }
-			pitch=180.000000
-			yaw=-180.000000
-			camera_near_far={ 30.000000 1000.000000 }
-		}
-	}
- {
 		description="Chandelier Light Filler"
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
-			affected_by_shadow=no
 			cubemap_shadow=yes
 			radius=1492.000000
 			intensity=1000.000000
-			position={ 0.000000 419.100006 354.800018 }
+			position={ 0.000000 446.000000 93.900002 }
 			pitch=0.000000
 			yaw=0.000000
 			color={ 1.000000 0.676514 0.218750 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
 			fov=135.000000
-			position={ 0.000000 419.100006 354.800018 }
+			position={ 0.000000 446.000000 93.900002 }
 			pitch=90.000000
 			yaw=-180.000000
 			camera_near_far={ 10.000000 2000.000000 }
@@ -348,7 +326,7 @@ lights={ {
 			pitch=0.000000
 			yaw=0.000000
 			color={ 0.907118 0.871671 0.805539 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -364,6 +342,7 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
+			affected_by_shadow=no
 			cubemap_shadow=yes
 			radius=1300.000000
 			intensity=660.000000
@@ -374,7 +353,7 @@ lights={ {
 			intensity_variation=25.000000
 			intensity_variation_frequency=200.000000
 			animation=yes
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -391,6 +370,7 @@ lights={ {
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
 			affected_by_shadow=no
+			cubemap_shadow=yes
 			radius=50.000000
 			intensity=50.000000
 			position={ -718.000000 322.400024 380.399994 }
@@ -400,7 +380,7 @@ lights={ {
 			intensity_variation=1.000000
 			intensity_variation_frequency=200.000000
 			animation=yes
-			type=sphere_light
+			type="sphere_light"
 		}
 
 		shadow_camera={
@@ -420,10 +400,10 @@ lights={ {
 			radius=120.000000
 			intensity=10.000000
 			position={ 0.000000 523.400024 387.100006 }
-			pitch=104.000000
+			pitch=70.000000
 			yaw=0.000000
 			color={ 1.000000 0.941814 0.785156 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -448,7 +428,7 @@ lights={ {
 			color={ 1.000000 0.700775 0.277344 }
 			intensity_variation=1.000000
 			intensity_variation_frequency=200.000000
-			type=sphere_light
+			type="sphere_light"
 		}
 
 		shadow_camera={
@@ -464,18 +444,19 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.050000
+			affected_by_shadow=no
 			radius=30.000000
 			intensity=177.000000
-			position={ 1650.000000 455.000000 -648.299988 }
+			position={ 1500.000000 455.000000 -648.299988 }
 			pitch=150.000000
 			yaw=91.000000
 			color={ 1.000000 0.590081 0.318577 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
 			fov=108.000000
-			position={ 1650.000000 455.000000 -648.299988 }
+			position={ 1500.000000 455.000000 -648.299988 }
 			pitch=15.000000
 			yaw=-90.000000
 			camera_near_far={ 180.000000 2000.000000 }
@@ -486,18 +467,19 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.050000
+			affected_by_shadow=no
 			radius=30.000000
 			intensity=177.000000
-			position={ 1650.000000 455.000000 185.000000 }
+			position={ 1500.000000 455.000000 185.000000 }
 			pitch=150.000000
 			yaw=91.000000
 			color={ 1.000000 0.590081 0.318577 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
 			fov=108.000000
-			position={ 1650.000000 455.000000 185.000000 }
+			position={ 1500.000000 455.000000 185.000000 }
 			pitch=15.000000
 			yaw=-90.000000
 			camera_near_far={ 180.000000 2000.000000 }
@@ -508,18 +490,19 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.050000
+			affected_by_shadow=no
 			radius=30.000000
 			intensity=177.000000
-			position={ 1650.000000 455.000000 -1500.000000 }
+			position={ 1500.000000 455.000000 -1500.000000 }
 			pitch=150.000000
 			yaw=91.000000
 			color={ 1.000000 0.590081 0.318577 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
 			fov=108.000000
-			position={ 1650.000000 455.000000 -1500.000000 }
+			position={ 1500.000000 455.000000 -1500.000000 }
 			pitch=15.000000
 			yaw=-90.000000
 			camera_near_far={ 180.000000 2000.000000 }
@@ -530,18 +513,19 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.050000
+			affected_by_shadow=no
 			radius=30.000000
 			intensity=177.000000
-			position={ -1600.000000 455.000000 -1500.000000 }
+			position={ -1500.000000 455.000000 -1500.000000 }
 			pitch=150.000000
 			yaw=-90.000000
 			color={ 1.000000 0.590081 0.318577 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
 			fov=108.000000
-			position={ -1600.000000 455.000000 -1500.000000 }
+			position={ -1500.000000 455.000000 -1500.000000 }
 			pitch=15.000000
 			yaw=90.000000
 			camera_near_far={ 180.000000 2000.000000 }
@@ -552,18 +536,19 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.050000
+			affected_by_shadow=no
 			radius=30.000000
 			intensity=177.000000
-			position={ -1600.000000 455.000000 -639.799988 }
+			position={ -1500.000000 455.000000 -639.799988 }
 			pitch=150.000000
 			yaw=-90.000000
 			color={ 1.000000 0.590081 0.318577 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
 			fov=108.000000
-			position={ -1600.000000 455.000000 -639.799988 }
+			position={ -1500.000000 455.000000 -639.799988 }
 			pitch=15.000000
 			yaw=90.000000
 			camera_near_far={ 180.000000 2000.000000 }
@@ -574,18 +559,19 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.050000
+			affected_by_shadow=no
 			radius=30.000000
 			intensity=177.000000
-			position={ -1600.000000 455.000000 180.100006 }
+			position={ -1500.000000 455.000000 180.100006 }
 			pitch=150.000000
 			yaw=-90.000000
 			color={ 1.000000 0.590081 0.318577 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
 			fov=108.000000
-			position={ -1600.000000 455.000000 180.100006 }
+			position={ -1500.000000 455.000000 180.100006 }
 			pitch=15.000000
 			yaw=90.000000
 			camera_near_far={ 180.000000 2000.000000 }

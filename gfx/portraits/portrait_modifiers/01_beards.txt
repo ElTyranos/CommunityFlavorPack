@@ -129,11 +129,6 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				cfp_portrait_orthodox_clergy_beard = yes
-            }
         }
     }
 
@@ -179,11 +174,6 @@ beards = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
                 }
-            }
-            modifier = {
-                add = 200
-                exists = this
-				cfp_portrait_orthodox_clergy_beard = yes
             }
         }
     }
@@ -239,17 +229,6 @@ beards = {
                     this = character:33922 # Prophet Muhammad
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					OR = {
-						portrait_mena_clothing_trigger = yes
-						portrait_african_clothing_trigger = yes
-					}
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
@@ -304,17 +283,6 @@ beards = {
                     this = character:33922 # Prophet Muhammad
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					OR = {
-						portrait_mena_clothing_trigger = yes
-						portrait_african_clothing_trigger = yes
-					}
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
@@ -357,14 +325,6 @@ beards = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
                 }
-            }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_indian_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
             }
         }
     }
@@ -409,14 +369,6 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_indian_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
@@ -458,17 +410,6 @@ beards = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
                 }
-            }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_thin_beard
-					}
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
             }
         }
     }
@@ -513,14 +454,6 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
@@ -563,14 +496,6 @@ beards = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
                 }
-            }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
             }
         }
     }
@@ -615,14 +540,6 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_northern_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
@@ -666,14 +583,6 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_northern_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
@@ -709,14 +618,6 @@ beards = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
                 }
-            }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_african_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
             }
         }
     }
@@ -761,14 +662,6 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_fp1_norse_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
@@ -812,16 +705,46 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
-            modifier = {
-                add = 200
-                exists = this
-				AND = {
-					portrait_fp1_norse_clothing_trigger = yes
-					cfp_portrait_orthodox_clergy_beard = yes
-				}
-            }
         }
     }
 
+    orthodox_beards = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = orthodox_beards
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = { # Orthodox priests
+                add = 200
+                exists = this
+                OR = {
+                    has_character_flag = need_priest_outfit
+                    is_theocratic_lessee = yes
+                    AND = { is_ruler = yes has_government = theocracy_government }
+                    AND = { # Orthodox patriarch
+                        exists = primary_title
+                        primary_title = {
+                            exists = controlled_faith
+                        }
+                    }
+					portrait_has_trait_trigger = { TRAIT = devoted } #CFP
+                }
+                OR = {
+                    faith = faith:orthodox
+                    faith = faith:armenian_apostolic
+                    faith = faith:coptic
+                    faith = faith:messalian
+                    faith = faith:bogomilist
+                    faith = faith:paulician
+                    faith = faith:nestorian
+                }
+            }
+        }
+    }
 
 }

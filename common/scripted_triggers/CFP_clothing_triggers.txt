@@ -358,26 +358,6 @@ cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 	}
 }
 
-## BEARDS AND HAIRSTYLES
-cfp_portrait_orthodox_clergy_beard = {
-	AND = {
-		OR = {
-			is_theocratic_lessee = yes
-			AND = { is_ruler = yes has_government = theocracy_government }
-			portrait_has_trait_trigger = { TRAIT = devoted }
-		}
-		OR = {
-			faith = faith:orthodox
-			faith = faith:armenian_apostolic
-			faith = faith:coptic
-			faith = faith:messalian
-			faith = faith:bogomilist
-			faith = faith:paulician
-			faith = faith:nestorian
-		}
-	}
-}
-
 ## ERA OR INNOVATION TRIGGERS
 cfp_era_high_medieval_trigger = {
 	scope:culture = { has_cultural_era_or_later = culture_era_high_medieval }

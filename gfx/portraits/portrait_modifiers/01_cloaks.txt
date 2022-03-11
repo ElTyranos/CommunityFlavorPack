@@ -20,6 +20,7 @@ cloaks = {
 				add = 100
 				OR = {
 					portrait_western_clothing_trigger = yes
+					portrait_dde_hre_clothing_trigger = yes
 					AND = {
 						portrait_northern_clothing_trigger = yes
 						OR = {
