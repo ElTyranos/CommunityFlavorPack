@@ -80,7 +80,7 @@ cfp_historical_artifacts.0001 = {
 					limit = {
 						has_royal_court = yes
 						NOR = {
-							has_character_flag = seeded_chess_set
+							has_character_flag = seeded_cfp_chess_set
 							location = { geographical_region = world_africa_west }
 							location = { geographical_region = world_africa_east }	
 							location = { geographical_region = world_africa_sahara }
@@ -95,16 +95,11 @@ cfp_historical_artifacts.0001 = {
 						MAKER = scope:marshal
 					}
 					add_character_flag = {
-						flag = seeded_chess_set
-						days = 1
-					}
-					add_character_flag = {
-						flag = had_event_cfp_artifact_0011
+						flag = seeded_cfp_chess_set
 						days = 3650
 					}
 				}
 			}
-			
 		}
 		
 		if = {
