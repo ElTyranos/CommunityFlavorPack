@@ -1,4 +1,10 @@
-## CFP
+﻿## CFP
+papal = {
+	trigger = {
+		has_title = title:k_papal_state
+    }
+}
+
 norman = {
 	trigger = {
 		has_graphical_norman_culture_group_trigger = yes
