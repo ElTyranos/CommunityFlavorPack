@@ -1,4 +1,4 @@
-﻿## CFP
+## CFP
 norman = {
 	trigger = {
 		has_graphical_norman_culture_group_trigger = yes
@@ -39,7 +39,7 @@ western = {
 				has_graphical_norse_culture_group_trigger = yes
 			}
 		}
-		NOR = { 
+		NOR = {
 			has_graphical_norman_culture_group_trigger = yes
 			has_graphical_goidelic_culture_group_trigger = yes
 		}
@@ -53,7 +53,7 @@ mediterranean = {
 		capital_county.culture = {
 			has_graphical_mediterranean_culture_group_trigger = yes
 		}
-		NOT = { 
+		NOT = {
 			has_graphical_andalusian_culture_group_trigger = yes
 		}
 	}
