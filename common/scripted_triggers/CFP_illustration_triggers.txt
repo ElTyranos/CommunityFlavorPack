@@ -1,4 +1,8 @@
-﻿has_graphical_norman_culture_group_trigger = {
+﻿has_graphical_papal_trigger = {
+	has_title = title:k_papal_state
+}
+
+has_graphical_norman_culture_group_trigger = {
 	OR = {
 		capital_county.kingdom = title:k_england
 		capital_county.kingdom = title:k_france
