@@ -25,7 +25,7 @@ pdxmesh = {
 		index = 2
 		texture_diffuse = "cfp_materials_papal_fresco_03_diffuse.dds"
 		texture_normal = "cfp_materials_papal_fresco_03_normal.dds"
-		texture_specular = "cfp_materials_papal_fresco_03_properties.dds"
+		texture_specular = "cfp_materials_papal_fresco_01_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
@@ -33,8 +33,8 @@ pdxmesh = {
 		name = "cfp_court_papal_wallsShape"
 		index = 3
 		texture_diffuse = "cfp_materials_papal_fresco_04_diffuse.dds"
-		texture_normal = "cfp_materials_papal_fresco_04_normal.dds"
-		texture_specular = "cfp_materials_papal_fresco_04_properties.dds"
+		texture_normal = "cfp_materials_papal_fresco_03_normal.dds"
+		texture_specular = "cfp_materials_papal_fresco_01_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}

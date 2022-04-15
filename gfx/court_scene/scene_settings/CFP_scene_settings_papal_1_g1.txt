@@ -7,9 +7,9 @@ audio_culture=3.000000
 camera={ {
 		description="Establishing Shot"
 		fov=50.000000
-		position={ 15.800000 164.199997 -1237.099976 }
-		pitch=-2.000000
-		yaw=0.000000
+		position={ -17.110073 175.491730 -955.589844 }
+		pitch=-10.330133
+		yaw=-0.261376
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_ESTABLISHING_VIEW_CAMERA"
@@ -17,9 +17,9 @@ camera={ {
  {
 		description="Wall View"
 		fov=50.000000
-		position={ 136.800003 327.500000 -282.100006 }
-		pitch=13.000000
-		yaw=-52.000000
+		position={ 437.751892 259.225586 -530.720154 }
+		pitch=-12.748149
+		yaw=-34.250004
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_WALL_VIEW_CAMERA"
@@ -27,9 +27,9 @@ camera={ {
  {
 		description="Default View"
 		fov=50.000000
-		position={ 441.302216 344.786835 -798.230469 }
-		pitch=9.488911
-		yaw=-26.406248
+		position={ 406.498932 214.678848 -897.587219 }
+		pitch=-7.296275
+		yaw=-22.281250
 		camera_near_far={ 70.000000 3000.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_COURT_VIEW_CAMERA"
@@ -37,9 +37,9 @@ camera={ {
  {
 		description="Artifact View"
 		fov=50.000000
-		position={ 70.400002 467.000000 -1117.200073 }
-		pitch=11.764049
-		yaw=-3.436406
+		position={ -4.563055 409.960724 -880.344055 }
+		pitch=8.015901
+		yaw=-1.561404
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_ARTIFACT_VIEW_CAMERA"
@@ -48,7 +48,7 @@ camera={ {
 		description="Throne View"
 		fov=50.000000
 		position={ 155.100006 140.000000 310.800018 }
-		pitch=8.000000
+		pitch=6.000000
 		yaw=-17.000000
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
@@ -57,9 +57,9 @@ camera={ {
  {
 		description="Front Wall View"
 		fov=45.000000
-		position={ -44.700001 200.500000 -306.300018 }
-		pitch=5.000000
-		yaw=8.000000
+		position={ -68.175087 182.942139 -381.597443 }
+		pitch=-7.380873
+		yaw=2.008843
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_BACK_WALL_VIEW_CAMERA"
@@ -67,9 +67,9 @@ camera={ {
  {
 		description="Right Wall View"
 		fov=65.000000
-		position={ -522.224609 497.466614 -153.110291 }
-		pitch=21.527239
-		yaw=59.055500
+		position={ -435.006409 248.000000 -189.277206 }
+		pitch=-15.166663
+		yaw=44.624996
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_RIGHT_WALL_VIEW_CAMERA"
@@ -109,7 +109,7 @@ camera={ {
  {
 		description="artifact_pedestal_locator_1"
 		fov=50.000000
-		position={ 42.640984 260.538147 64.525803 }
+		position={ 2.000000 260.538147 64.525803 }
 		pitch=31.311007
 		yaw=-50.810398
 		camera_near_far={ 70.000000 2570.000000 }
@@ -117,7 +117,7 @@ camera={ {
  {
 		description="artifact_pedestal_locator_2"
 		fov=50.000000
-		position={ -10.954546 243.374878 55.648029 }
+		position={ 30.000000 243.374878 55.648029 }
 		pitch=31.646910
 		yaw=70.343948
 		camera_near_far={ 70.000000 2570.000000 }
@@ -125,7 +125,7 @@ camera={ {
  {
 		description="artifact_pedestal_locator_3"
 		fov=50.000000
-		position={ 69.443001 190.235657 -194.984909 }
+		position={ 19.000000 190.235657 -194.984909 }
 		pitch=18.811251
 		yaw=-59.477390
 		camera_near_far={ 70.000000 2570.000000 }
@@ -133,7 +133,7 @@ camera={ {
  {
 		description="artifact_pedestal_locator_4"
 		fov=50.000000
-		position={ -45.960182 232.082947 -203.161362 }
+		position={ -5.000000 232.082947 -203.161362 }
 		pitch=29.452717
 		yaw=77.015648
 		camera_near_far={ 70.000000 2570.000000 }
@@ -141,57 +141,57 @@ camera={ {
  {
 		description="artifact_sculpture_1"
 		fov=50.000000
-		position={ -39.299999 386.800018 -201.600006 }
+		position={ -40.000000 386.800018 -26.900000 }
 		pitch=27.000000
-		yaw=-41.000000
+		yaw=-50.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_sculpture_2"
 		fov=50.000000
-		position={ 199.700012 315.100006 -285.500000 }
+		position={ 185.000000 315.000000 64.000000 }
 		pitch=25.000000
-		yaw=47.000000
-		camera_near_far={ 70.000000 2570.000000 }
-	}
- {
-		description="artifact_bookshelf_1"
-		fov=50.000000
-		position={ -39.299999 411.000000 -461.600006 }
-		pitch=27.000000
-		yaw=-41.000000
+		yaw=80.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_bookshelf_2"
 		fov=50.000000
-		position={ -39.299999 411.000000 264.000000 }
+		position={ -200.000000 265.000000 156.000000 }
+		pitch=20.000000
+		yaw=-20.000000
+		camera_near_far={ 70.000000 2570.000000 }
+	}
+ {
+		description="artifact_bookshelf_1"
+		fov=50.000000
+		position={ 390.000000 265.000000 156.000000 }
 		pitch=27.000000
-		yaw=-41.000000
+		yaw=6.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_small_1"
 		fov=50.000000
-		position={ -123.400002 600.000000 391.300018 }
-		pitch=18.000000
-		yaw=-16.000000
+		position={ -380.000000 600.000000 200.000000 }
+		pitch=10.000000
+		yaw=3.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_small_2"
 		fov=50.000000
-		position={ -123.400002 600.000000 391.000000 }
-		pitch=18.000000
-		yaw=56.000000
+		position={ 380.000000 600.000000 200.000000 }
+		pitch=10.000000
+		yaw=20.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_small_3"
 		fov=50.000000
-		position={ -191.000000 510.700012 -358.899994 }
-		pitch=25.000000
-		yaw=-48.000000
+		position={ -190.000000 510.000000 -360.000000 }
+		pitch=-2.000000
+		yaw=-32.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -205,17 +205,17 @@ camera={ {
  {
 		description="artifact_wall_large_1"
 		fov=50.000000
-		position={ -365.800018 472.300018 451.300018 }
-		pitch=35.000000
-		yaw=-43.000000
+		position={ -365.000000 475.000000 200.000000 }
+		pitch=15.000000
+		yaw=10.000000
 		camera_near_far={ 10.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_large_2"
 		fov=50.000000
-		position={ 268.700012 420.000000 300.300018 }
-		pitch=25.000000
-		yaw=51.000000
+		position={ 365.000000 475.000000 200.000000 }
+		pitch=15.000000
+		yaw=25.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -229,9 +229,9 @@ camera={ {
  {
 		description="artifact_throne_1"
 		fov=50.000000
-		position={ 118.900002 140.000000 310.800018 }
+		position={ 118.900002 200.000000 310.800018 }
 		pitch=8.000000
-		yaw=-17.000000
+		yaw=-5.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -685,49 +685,49 @@ characters={ {
 		roles={ low_prio_prisoners low_prio_clergy low_prio_warriors low_prio_intriguers low_prio_stewards low_prio_diplomats low_prio_courtiers }
 	}
  {
-		position={ -324.000000 0.000000 193.000000 }
+		position={ -374.000000 0.000000 193.000000 }
 		rotation={ 180.000000 -45.000000 180.000000 }
 		locator="character_flavor_courtier_4"
 		description="BG Courtier 4"
 		roles={ inspired_person arguing_councillors schemers flirty_flirts low_prio_courtiers }
 	}
  {
-		position={ -293.000000 0.000000 266.000000 }
+		position={ -343.000000 0.000000 266.000000 }
 		direction=40.000000
 		locator="character_flavor_courtier_5"
 		description="BG Courtier 5"
 		roles={ inspired_person arguing_councillors schemers flirty_flirts low_prio_courtiers }
 	}
  {
-		position={ 224.000000 0.000000 418.000000 }
+		position={ 324.000000 0.000000 418.000000 }
 		direction=5.000000
 		locator="character_flavor_courtier_6"
 		description="BG Courtier 6"
 		roles={ secondary_spouses court_children family low_prio_courtiers }
 	}
  {
-		position={ 270.000000 0.000000 258.000000 }
+		position={ 370.000000 0.000000 258.000000 }
 		rotation={ 180.000000 -20.000000 180.000000 }
 		locator="character_flavor_courtier_7"
 		description="BG Courtier 7"
 		roles={ secondary_spouses court_children family low_prio_courtiers }
 	}
  {
-		position={ 301.000000 0.000000 349.000000 }
+		position={ 401.000000 0.000000 349.000000 }
 		direction=50.000000
 		locator="character_flavor_courtier_8"
 		description="BG Courtier 8"
 		roles={ secondary_spouses court_children family low_prio_courtiers }
 	}
  {
-		position={ 323.000000 0.000000 45.000000 }
+		position={ 423.000000 0.000000 -5.000000 }
 		rotation={ 180.000000 20.000000 180.000000 }
 		locator="character_flavor_courtier_9"
 		description="BG Courtier 9"
 		roles={ low_prio_prisoners low_prio_clergy low_prio_warriors low_prio_intriguers low_prio_stewards low_prio_diplomats low_prio_courtiers }
 	}
  {
-		position={ 280.000000 0.000000 119.000000 }
+		position={ 380.000000 0.000000 69.000000 }
 		direction=-20.000000
 		locator="character_flavor_courtier_10"
 		description="BG Courtier 10"
@@ -741,7 +741,7 @@ characters={ {
 		roles={ heir low_prio_lone_courtier }
 	}
  {
-		position={ -460.100006 0.000000 497.200012 }
+		position={ -487.000000 0.000000 403.100006 }
 		direction=-30.000000
 		locator="character_councillor_1"
 		description="character_councillor_1"
@@ -886,78 +886,78 @@ artifacts={ {
  {
 		locator="artifact_wall_large_3"
 		position={ -505.000000 440.000000 -85.000000 }
-		direction=90.000000
+		direction=-90.000000
 		slot="wall_big_3"
 	}
  {
 		locator="artifact_wall_small_1"
-		position={ -320.000000 530.000000 799.000000 }
+		position={ -425.000000 600.000000 565.000000 }
 		direction=0.000010
 		slot="wall_small_1"
 	}
  {
 		locator="artifact_wall_small_2"
-		position={ 320.000000 530.000000 799.000000 }
+		position={ 425.000000 600.000000 565.000000 }
 		direction=0.000010
 		slot="wall_small_2"
 	}
  {
 		locator="artifact_wall_small_3"
-		position={ -595.000000 340.000000 -97.000000 }
-		direction=-89.980209
+		position={ -505.000000 560.000000 -85.000000 }
+		direction=-90.000000
 		slot="wall_small_3"
 	}
  {
 		locator="artifact_bookshelf_1"
-		position={ -546.999939 0.000000 87.000061 }
-		direction=0.000010
+		position={ 410.000000 0.000000 530.000000 }
+		direction=90.000000
 		slot="lectern_1"
 	}
  {
 		locator="artifact_bookshelf_2"
-		position={ -545.999939 0.000000 628.000061 }
-		direction=0.000010
+		position={ -410.000000 0.000000 530.000000 }
+		direction=90.000000
 		slot="lectern_2"
 	}
  {
 		locator="artifact_throne_1"
-		position={ 0.000059 0.000000 680.000000 }
+		position={ 0.000059 58.000000 750.000000 }
 		direction=0.000010
 		slot="throne"
 	}
  {
 		locator="artifact_sculpture_1"
-		position={ -514.000000 0.000000 237.000046 }
-		direction=-89.980209
+		position={ -600.000000 0.000000 245.000000 }
+		direction=-90.000000
 		slot="sculpture_1"
 	}
  {
 		locator="artifact_sculpture_2"
-		position={ 526.000000 0.000000 153.999954 }
-		rotation={ 180.000000 89.980209 180.000000 }
+		position={ 600.000000 0.000000 245.000000 }
+		rotation={ 180.000000 90.000000 180.000000 }
 		slot="sculpture_2"
 	}
  {
 		locator="artifact_pedestal_locator_1"
-		position={ -192.000000 0.000000 180.000000 }
+		position={ -250.000000 0.000000 180.000000 }
 		direction=180.000000
 		slot="pedestal_1"
 	}
  {
 		locator="artifact_pedestal_locator_2"
-		position={ 192.000000 0.000000 180.000000 }
+		position={ 250.000000 0.000000 180.000000 }
 		direction=1.000000
 		slot="pedestal_2"
 	}
  {
 		locator="artifact_pedestal_locator_3"
-		position={ -192.000000 0.000000 -100.000000 }
+		position={ -250.000000 0.000000 -100.000000 }
 		direction=180.000000
 		slot="pedestal_3"
 	}
  {
 		locator="artifact_pedestal_locator_4"
-		position={ 192.000000 0.000000 -100.000000 }
+		position={ 250.000000 0.000000 -100.000000 }
 		slot="pedestal_4"
 	}
  }
