@@ -276,9 +276,9 @@ lights={ {
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
 			affected_by_shadow=no
-			radius=1713.200073
+			radius=3500.000000
 			intensity=200.000000
-			position={ 0.000000 500.000000 650.000000 }
+			position={ 0.000000 500.000000 510.300018 }
 			pitch=0.000000
 			yaw=0.000000
 			color={ 1.000000 0.933333 0.705882 }
@@ -287,7 +287,7 @@ lights={ {
 
 		shadow_camera={
 			fov=114.000000
-			position={ 0.000000 500.000000 650.000000 }
+			position={ 0.000000 500.000000 510.300018 }
 			pitch=90.000000
 			yaw=180.000000
 			camera_near_far={ 10.000000 1500.000000 }
@@ -414,7 +414,7 @@ lights={ {
 			outer_cone_angle=0.200000
 			inner_cone_angle=0.020000
 			affected_by_shadow=no
-			radius=25.000000
+			radius=40.000000
 			intensity=400.000000
 			position={ 625.700012 1000.000000 -335.500000 }
 			pitch=147.000000
@@ -460,7 +460,7 @@ lights={ {
 			outer_cone_angle=0.200000
 			inner_cone_angle=0.020000
 			affected_by_shadow=no
-			radius=25.000000
+			radius=40.000000
 			intensity=400.000000
 			position={ 625.700012 1000.000000 240.000000 }
 			pitch=147.000000
@@ -497,6 +497,121 @@ lights={ {
 			pitch=90.000000
 			yaw=0.000000
 			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="WIndow L2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=50.000000
+			intensity=20.000000
+			position={ -515.000000 1000.000000 -415.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.759705 0.503906 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -515.000000 1000.000000 -415.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Window L2 Spotlight"
+		light={
+			outer_cone_angle=0.200000
+			inner_cone_angle=0.020000
+			affected_by_shadow=no
+			radius=30.000000
+			intensity=300.000000
+			position={ -625.700012 1000.000000 -335.500000 }
+			pitch=147.000000
+			yaw=-90.000000
+			color={ 1.000000 0.933624 0.707031 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=52.000000
+			position={ -625.700012 1000.000000 -335.500000 }
+			pitch=62.000000
+			yaw=-82.000000
+			camera_near_far={ 10.000000 1000.000000 }
+		}
+	}
+ {
+		description="WIndow L1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=50.000000
+			intensity=20.000000
+			position={ -515.000000 1000.000000 240.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.759705 0.503906 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -515.000000 1000.000000 240.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Window L1 Spotlight"
+		light={
+			outer_cone_angle=0.200000
+			inner_cone_angle=0.020000
+			affected_by_shadow=no
+			radius=30.000000
+			intensity=300.000000
+			position={ -625.700012 1000.000000 240.000000 }
+			pitch=147.000000
+			yaw=-90.000000
+			color={ 1.000000 0.933624 0.707031 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=52.000000
+			position={ -625.700012 1000.000000 240.000000 }
+			pitch=62.000000
+			yaw=-82.000000
+			camera_near_far={ 10.000000 1000.000000 }
+		}
+	}
+ {
+		description="Artificial Filler Top Fresco"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=3500.000000
+			intensity=100.000000
+			position={ 0.000000 970.000000 180.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.933333 0.705882 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=114.000000
+			position={ 0.000000 970.000000 180.000000 }
+			pitch=90.000000
+			yaw=180.000000
+			camera_near_far={ 10.000000 1500.000000 }
 		}
 	}
  }
@@ -749,10 +864,15 @@ characters={ {
 	}
  }
 assets={ {
-		position={ 0.000000 59.000000 750.000000 }
+		position={ 0.000000 47.000000 750.000000 }
 		description="Throne"
 		asset="ep1_mediterranean_throne_basic_01_a_entity"
 		roles=ruler_throne
+	}
+ {
+		position={ 0.000000 0.000000 550.000000 }
+		description="Throne Pillars"
+		asset="cfp_court_papal_throne_entity"
 	}
  {
 		position={ 0.000000 0.000000 550.000000 }
@@ -870,6 +990,20 @@ assets={ {
 		direction=90.000000
 		scale=0.800000
 		description="Sun Window L2"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ -500.000000 1000.000000 212.300003 }
+		direction=90.000000
+		scale=0.750000
+		description="Atmospheric Window Particle R1"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ -500.000000 1000.000000 -392.500000 }
+		direction=90.000000
+		scale=0.750000
+		description="Atmospheric Window Particle R2"
 		asset="roco_atmospheric_01"
 	}
  }
