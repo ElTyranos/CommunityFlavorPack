@@ -1330,12 +1330,24 @@ male_headgear_special_cfp_glasses_01 = {
 female_headgear_special_cfp_glasses_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_cfp_glasses_01_entity 	 }
 }
+male_headgear_special_cfp_glasses_01b = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_01b_entity 	 }
+}
+female_headgear_special_cfp_glasses_01b = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_cfp_glasses_01b_entity 	 }
+}
 
 male_headgear_special_cfp_glasses_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_02_entity 	 }
 }
 female_headgear_special_cfp_glasses_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_cfp_glasses_02_entity 	 }
+}
+male_headgear_special_cfp_glasses_02b = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_cfp_glasses_02b_entity 	 }
+}
+female_headgear_special_cfp_glasses_02b = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_cfp_glasses_02b_entity 	 }
 }
 
 ## Indian
