@@ -1,0 +1,38 @@
+pdxmesh = {
+	name = "cfp_court_papal_flooring_mesh"
+	file = "cfp_court_papal_flooring.mesh"
+
+	meshsettings = {
+		name = "cfp_court_papal_flooringShape"
+		index = 0
+		texture_diffuse = "cfp_materials_papal_floor_01_diffuse.dds"
+		texture_normal = "cfp_materials_papal_floor_01_normal.dds"
+		texture_specular = "cfp_materials_papal_floor_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	
+	meshsettings = {
+		name = "cfp_court_papal_flooringShape"
+		index = 1
+		texture_diffuse = "cfp_materials_papal_floor_02_diffuse.dds"
+		texture_normal = "cfp_materials_papal_floor_02_normal.dds"
+		texture_specular = "cfp_materials_papal_floor_02_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_papal_flooringShape"
+		index = 2
+		texture_diffuse = "cfp_materials_papal_wall_marble_01_diffuse.dds"
+		texture_normal = "cfp_materials_papal_wall_marble_01_normal.dds"
+		texture_specular = "cfp_materials_papal_wall_marble_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_papal_flooring_entity"
+	pdxmesh = "cfp_court_papal_flooring_mesh"
+}

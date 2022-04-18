@@ -828,12 +828,16 @@ special_headgear_blindfold = {
 			eyeglasses = {
 				index = 1
 				male = {
-					1 = male_headgear_special_cfp_glasses_01
-					1 = male_headgear_special_cfp_glasses_02
+					99 = male_headgear_special_cfp_glasses_01
+					1 = male_headgear_special_cfp_glasses_01b
+					99 = male_headgear_special_cfp_glasses_02
+					1 = male_headgear_special_cfp_glasses_02b
 				}
 				female = {
-					1 = female_headgear_special_cfp_glasses_01
-					1 = female_headgear_special_cfp_glasses_02
+					99 = female_headgear_special_cfp_glasses_01
+					1 = female_headgear_special_cfp_glasses_01b
+					99 = female_headgear_special_cfp_glasses_02
+					1 = female_headgear_special_cfp_glasses_02b
 				}
 				boy = male
 				girl = female

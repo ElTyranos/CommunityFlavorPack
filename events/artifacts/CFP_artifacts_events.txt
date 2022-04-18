@@ -15,9 +15,10 @@ cfp_artifact.0001 = {
 		animation = beg
 	}
 	
+	cooldown = { days = 7300 }
+	
 	trigger = {
 		NOR = {
-			has_character_flag = had_event_cfp_artifact_0001
 			has_culture = culture:burmese
 			has_culture = culture:mon
 			location = { geographical_region = world_europe_north }
@@ -51,10 +52,6 @@ cfp_artifact.0001 = {
 			location = root.capital_province
 			save_scope_as = traveler
 			dynasty = none
-		}
-		add_character_flag = {
-			flag = had_event_cfp_artifact_0001
-			days = 7300
 		}
 	}
 	
@@ -307,12 +304,11 @@ cfp_artifact.0005 = {
 		animation = beg
 	}
 	
+	cooldown = { days = 7300 }
+	
 	trigger = {
 		faith = { religion_tag = christianity_religion }
-		NOR = {
-			has_character_flag = had_event_cfp_artifact_0005
-			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
-		}
+		NOT = {	has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 	}
 	
 	immediate = {
@@ -326,10 +322,6 @@ cfp_artifact.0005 = {
 			faith = root.faith
 			save_scope_as = sculptor
 			dynasty = none
-		}
-		add_character_flag = {
-			flag = had_event_cfp_artifact_0005
-			days = 7300
 		}
 	}
 	
@@ -655,6 +647,8 @@ cfp_artifact.0011 = {
 		animation = marshal
 	}
 	
+	cooldown = { days = 3650 }
+	
 	trigger = {
 		exists = cp:councillor_marshal
 		cp:councillor_marshal = { 
@@ -663,8 +657,8 @@ cfp_artifact.0011 = {
 			is_performing_council_task = task_train_commanders
 		}
 		NOR = {
+			has_character_flag = seeded_cfp_chess_set
 			any_character_artifact = { has_variable = cfp_chess_set_var }
-			has_character_flag = had_event_cfp_artifact_0011
 			location = { geographical_region = world_africa }
 			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
 		}
@@ -676,10 +670,6 @@ cfp_artifact.0011 = {
 				exists = cp:councillor_marshal
 			}
 			cp:councillor_marshal = { save_scope_as = marshal }
-		}
-		add_character_flag = {
-			flag = had_event_cfp_artifact_0011
-			days = 3650
 		}
 	}
 	
