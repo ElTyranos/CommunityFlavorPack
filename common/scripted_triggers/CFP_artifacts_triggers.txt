@@ -1,0 +1,53 @@
+﻿# You can catch those triggers in your own mod. E.g. to create artifacts, bind them to event, etc.
+# Just overwrite bellow triggers with your own conditions in your mod files (file name does not have to match, just trigger name).
+#
+# Be aware that:
+# -----------
+# 1: triggers must always be set, I could not leave them empty.
+# 2: it means your mod should be loaded after CFP so your own definition of the trigger is the one running.
+# 3: if trigger = true then item will 100% show-up. 
+#
+# Formatting
+# -----------
+# cfp_force_XXX_trigger
+# replace XXX by a code from the list bellow
+#
+# CK3 Vanilla Available Artifacts
+# -----------
+# ck3_headgear_001 - Reichskrone
+#
+# CFP Available Artifacts
+# -----------
+# cfp_headgear_001 - Iron Crown of Lombardy
+# cfp_headgear_002 - Crown of Zvonimir
+# cfp_headgear_003 - Holy crown of Hungary
+# cfp_headgear_004 - Sutton Hoo helmet
+# cfp_headgear_005 - Monomachus crown
+# cfp_headgear_006 - Komnenos crown
+# cfp_headgear_007 - Sancho IV crown
+# cfp_headgear_008 - Dragon crown
+# cfp_headgear_009 - Dragon helmet
+# cfp_headgear_010 - Skanderbeg crown
+# cfp_headgear_011 - Otton III crown
+# cfp_headgear_012 - Monomakh's Cap
+#
+# cfp_clothes_001 - Plate armour outfit
+# cfp_clothes_002 - Brigandine armour outfit
+
+cfp_force_ck3_headgear_001_trigger = { always = no }
+
+cfp_force_cfp_headgear_001_trigger = { always = no }
+cfp_force_cfp_headgear_002_trigger = { always = no }
+cfp_force_cfp_headgear_003_trigger = { always = no }
+cfp_force_cfp_headgear_004_trigger = { always = no }
+cfp_force_cfp_headgear_005_trigger = { always = no }
+cfp_force_cfp_headgear_006_trigger = { always = no }
+cfp_force_cfp_headgear_007_trigger = { always = no }
+cfp_force_cfp_headgear_008_trigger = { always = no }
+cfp_force_cfp_headgear_009_trigger = { always = no }
+cfp_force_cfp_headgear_010_trigger = { always = no }
+cfp_force_cfp_headgear_011_trigger = { always = no }
+cfp_force_cfp_headgear_012_trigger = { always = no }
+
+cfp_force_cfp_clothes_001_trigger = { always = no }
+cfp_force_cfp_clothes_002_trigger = { always = no }

@@ -1,0 +1,23 @@
+﻿l_english:
+
+## Commission a concert
+cfp_commission_concert_decision:0 "Commission a Concert"
+cfp_commission_concert_decision_has_court_desc:0 "My $court_musician_court_position$ will play a song for the court. Everyone should have a good time."
+cfp_commission_concert_decision_has_no_court_desc:0 "I will pay my liege's $court_musician_court_position$ to play a song at his court."
+cfp_commission_concert_decision_has_court_tooltip:0 "Commission your [GetCourtPositionType('court_musician_court_position').GetName()] for a concert."
+cfp_commission_concert_decision_has_no_court_tooltip:0 "Commission your liege's [GetCourtPositionType('court_musician_court_position').GetName()] for a concert."
+cfp_commission_concert_decision_confirm:0 "Open your ears!"
+cfp_commission_concert_decision_desc_liege_opinion_refuse:0 "Your liege may refuse"
+cfp_commission_concert_decision_desc_liege_opinion_increase:0 "$host_feast_decision_desc_liege_opinion$"
+cfp_commission_concert_decision_desc_vassals_opinion:0 "$host_feast_decision_desc_vassals$"
+
+## Events
+cfp_moc.0110.t:0 "Tuning the Instrument"
+cfp_moc.0110.desc:0 "As the musician needs a while to tune his instrument and the guest gather around him in a palpable excitement, you realize that you are very busy. You can decide to keep your eyes on your scrolls or to look at the musician playing at your court."
+cfp_moc.0110.a:0 "Look at the concert."
+cfp_moc.0110.b:0 "Don't look at the concert."
+cfp_moc.0110.c:0 "I forgot the keys to the hall. At the forecourt everyone!"
+
+cfp_moc.0111.t:0 "Playing music at the court"
+cfp_moc.0111.desc:0 "He is playing at the court at the moment"
+cfp_moc.0111.a:0 "Dismiss the musician"
