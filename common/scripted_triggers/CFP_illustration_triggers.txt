@@ -28,6 +28,11 @@ has_graphical_goidelic_culture_group_trigger = {
 	}
 }
 
+has_graphical_iberian_culture_group_trigger = {
+	culture = { has_cultural_pillar = heritage_iberian }
+	faith.religion = religion:christianity_religion
+}
+
 has_graphical_andalusian_culture_group_trigger = {
 	OR = {
 		has_culture = culture:andalusian

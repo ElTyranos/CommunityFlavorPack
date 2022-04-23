@@ -17,6 +17,12 @@ goidelic = {
 	}
 }
 
+iberian = {
+	trigger = {
+		has_graphical_iberian_culture_group_trigger = yes
+	}
+}
+
 andalusian = {
 	trigger = {
 		has_graphical_andalusian_culture_group_trigger = yes
@@ -62,6 +68,7 @@ mediterranean = {
 		NOR = {
 			has_graphical_papal_trigger = yes
 			has_graphical_andalusian_culture_group_trigger = yes
+			has_graphical_iberian_culture_group_trigger = yes
 		}
 	}
 }
