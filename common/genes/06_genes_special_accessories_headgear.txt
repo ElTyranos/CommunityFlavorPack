@@ -2484,7 +2484,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
-		religious_jewish_common_abdalusian = {
+		religious_jewish_common_andalusian = {
 			index = 169
 			male = {
 				1 = male_headgear_religious_jewish_cfp_judenhut_02

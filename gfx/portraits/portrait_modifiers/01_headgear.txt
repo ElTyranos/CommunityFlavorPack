@@ -7832,7 +7832,7 @@ headgear = {
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = religious_jewish_common_abdalusian
+	            template = religious_jewish_common_andalusian
 	            range = { 0 1 }
 	        }
 	    }
