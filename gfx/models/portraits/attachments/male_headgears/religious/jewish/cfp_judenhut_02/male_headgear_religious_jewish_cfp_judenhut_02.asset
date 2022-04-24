@@ -5,7 +5,7 @@ pdxmesh = {
 	blend_shape = { id = "male_headgear_religious_jewish_cfp_judenhut_02_bs_fat"		type = "male_headgear_religious_jewish_cfp_judenhut_02_bs_fat.mesh" }
 
 	meshsettings = {
-		name = "male_headgear_religious_catholic_cfp_judenhut_02Shape"
+		name = "male_headgear_religious_jewish_cfp_judenhut_02Shape"
 		index = 0
 		texture_diffuse = "male_headgear_religious_jewish_cfp_judenhut_02_diffuse.dds"
 		texture_normal = "male_headgear_religious_jewish_cfp_judenhut_02_normal.dds"
