@@ -1036,7 +1036,10 @@ clothes = {
 			modifier = {
 				add = 1000
 				portrait_wear_armor_trigger = yes
-				portrait_western_clothing_trigger = yes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
 				cfp_innovation_plate_armor_trigger = yes
 			}
 			modifier = {
