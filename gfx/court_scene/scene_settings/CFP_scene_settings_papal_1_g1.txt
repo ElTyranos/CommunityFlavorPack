@@ -244,33 +244,9 @@ camera={ {
 	}
  }
 default_camera=0
-shadows_fade=70.000000
-shadows_strength=-2.000000
+shadows_fade=50.000000
+shadows_strength=-0.500000
 lights={ {
-		description="Middle Room Filler"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			cubemap_shadow=yes
-			radius=750.000000
-			intensity=1347.000000
-			position={ 0.000000 342.800018 233.699997 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 0.271362 0.574761 0.964844 }
-			type="point_light"
-		}
-
-		shadow_camera={
-			fov=170.000000
-			position={ 0.000000 342.800018 233.699997 }
-			pitch=90.000000
-			yaw=-180.000000
-			camera_near_far={ 10.000000 1080.000000 }
-			shadows_fade=35.000000
-		}
-	}
- {
 		description="Artificial Filler"
 		light={
 			outer_cone_angle=1.000000
@@ -294,128 +270,13 @@ lights={ {
 		}
 	}
  {
-		description="Bounced window light"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=1443.599976
-			intensity=200.000000
-			position={ 84.700005 193.600006 -100.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.702942 0.386719 }
-			type="point_light"
-		}
-
-		shadow_camera={
-			fov=1.000000
-			position={ 84.700005 193.600006 -100.000000 }
-			pitch=90.000000
-			yaw=0.000000
-			camera_near_far={ 0.100000 1000.000000 }
-		}
-	}
- {
-		description="Bounced window light mid"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=1443.599976
-			intensity=200.000000
-			position={ 84.700005 193.600006 400.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.702942 0.386719 }
-			type="point_light"
-		}
-
-		shadow_camera={
-			fov=1.000000
-			position={ 84.700005 193.600006 400.000000 }
-			pitch=90.000000
-			yaw=0.000000
-			camera_near_far={ 0.100000 1000.000000 }
-		}
-	}
- {
-		description="Artificial Filler"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=1200.000000
-			intensity=1000.000000
-			position={ 0.000000 700.000000 -400.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.933333 0.705882 }
-			type="point_light"
-		}
-
-		shadow_camera={
-			fov=114.000000
-			position={ 0.000000 700.000000 -400.000000 }
-			pitch=90.000000
-			yaw=180.000000
-			camera_near_far={ 10.000000 1500.000000 }
-		}
-	}
- {
-		description="Artificial Filler"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=1200.000000
-			intensity=1000.000000
-			position={ 0.000000 700.000000 235.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.933333 0.705882 }
-			type="point_light"
-		}
-
-		shadow_camera={
-			fov=114.000000
-			position={ 0.000000 700.000000 235.000000 }
-			pitch=90.000000
-			yaw=180.000000
-			camera_near_far={ 10.000000 1500.000000 }
-		}
-	}
- {
-		description="WIndow R2"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=50.000000
-			intensity=25.000000
-			position={ 515.000000 1000.000000 -415.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.759705 0.503906 }
-			type="sphere_light"
-		}
-
-		shadow_camera={
-			fov=1.000000
-			position={ 515.000000 1000.000000 -415.000000 }
-			pitch=90.000000
-			yaw=0.000000
-			camera_near_far={ 0.100000 1000.000000 }
-		}
-	}
- {
 		description="Window R2 Spotlight"
 		light={
-			outer_cone_angle=0.200000
+			outer_cone_angle=0.150000
 			inner_cone_angle=0.020000
 			affected_by_shadow=no
-			radius=40.000000
-			intensity=400.000000
+			radius=60.000000
+			intensity=300.000000
 			position={ 625.700012 1000.000000 -335.500000 }
 			pitch=147.000000
 			yaw=90.000000
@@ -429,39 +290,16 @@ lights={ {
 			pitch=62.000000
 			yaw=-82.000000
 			camera_near_far={ 10.000000 1000.000000 }
-		}
-	}
- {
-		description="WIndow R1"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=50.000000
-			intensity=25.000000
-			position={ 515.000000 1000.000000 240.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.759705 0.503906 }
-			type="sphere_light"
-		}
-
-		shadow_camera={
-			fov=1.000000
-			position={ 515.000000 1000.000000 240.000000 }
-			pitch=90.000000
-			yaw=0.000000
-			camera_near_far={ 0.100000 1000.000000 }
 		}
 	}
  {
 		description="Window R1 Spotlight"
 		light={
-			outer_cone_angle=0.200000
+			outer_cone_angle=0.150000
 			inner_cone_angle=0.020000
 			affected_by_shadow=no
-			radius=40.000000
-			intensity=400.000000
+			radius=60.000000
+			intensity=300.000000
 			position={ 625.700012 1000.000000 240.000000 }
 			pitch=147.000000
 			yaw=90.000000
@@ -478,6 +316,7 @@ lights={ {
 		}
 	}
  {
+		description="Back light"
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
@@ -500,36 +339,13 @@ lights={ {
 		}
 	}
  {
-		description="WIndow L2"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=50.000000
-			intensity=20.000000
-			position={ -515.000000 1000.000000 -415.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.759705 0.503906 }
-			type="sphere_light"
-		}
-
-		shadow_camera={
-			fov=1.000000
-			position={ -515.000000 1000.000000 -415.000000 }
-			pitch=90.000000
-			yaw=0.000000
-			camera_near_far={ 0.100000 1000.000000 }
-		}
-	}
- {
 		description="Window L2 Spotlight"
 		light={
-			outer_cone_angle=0.200000
+			outer_cone_angle=0.150000
 			inner_cone_angle=0.020000
 			affected_by_shadow=no
-			radius=30.000000
-			intensity=300.000000
+			radius=50.000000
+			intensity=200.000000
 			position={ -625.700012 1000.000000 -335.500000 }
 			pitch=147.000000
 			yaw=-90.000000
@@ -543,39 +359,16 @@ lights={ {
 			pitch=62.000000
 			yaw=-82.000000
 			camera_near_far={ 10.000000 1000.000000 }
-		}
-	}
- {
-		description="WIndow L1"
-		light={
-			outer_cone_angle=1.000000
-			inner_cone_angle=0.000000
-			affected_by_shadow=no
-			radius=50.000000
-			intensity=20.000000
-			position={ -515.000000 1000.000000 240.000000 }
-			pitch=0.000000
-			yaw=0.000000
-			color={ 1.000000 0.759705 0.503906 }
-			type="sphere_light"
-		}
-
-		shadow_camera={
-			fov=1.000000
-			position={ -515.000000 1000.000000 240.000000 }
-			pitch=90.000000
-			yaw=0.000000
-			camera_near_far={ 0.100000 1000.000000 }
 		}
 	}
  {
 		description="Window L1 Spotlight"
 		light={
-			outer_cone_angle=0.200000
+			outer_cone_angle=0.150000
 			inner_cone_angle=0.020000
 			affected_by_shadow=no
-			radius=30.000000
-			intensity=300.000000
+			radius=50.000000
+			intensity=200.000000
 			position={ -625.700012 1000.000000 240.000000 }
 			pitch=147.000000
 			yaw=-90.000000
@@ -592,13 +385,12 @@ lights={ {
 		}
 	}
  {
-		description="Artificial Filler Top Fresco"
+		description="Bounce Top Fresco"
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
-			affected_by_shadow=no
 			radius=3500.000000
-			intensity=100.000000
+			intensity=200.000000
 			position={ 0.000000 970.000000 180.000000 }
 			pitch=0.000000
 			yaw=0.000000
@@ -612,6 +404,75 @@ lights={ {
 			pitch=90.000000
 			yaw=180.000000
 			camera_near_far={ 10.000000 1500.000000 }
+		}
+	}
+ {
+		description="Center Apse C"
+		light={
+			outer_cone_angle=0.120000
+			inner_cone_angle=0.020000
+			cubemap_shadow=yes
+			radius=20.000000
+			intensity=100.000000
+			position={ 0.000000 550.000000 912.100037 }
+			pitch=160.000000
+			yaw=0.000000
+			color={ 1.000000 0.933624 0.707031 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=5.000000
+			position={ 0.000000 550.000000 912.100037 }
+			pitch=0.000000
+			yaw=0.000000
+			camera_near_far={ 500.000000 2000.000000 }
+		}
+	}
+ {
+		description="Center Apse R"
+		light={
+			outer_cone_angle=0.120000
+			inner_cone_angle=0.020000
+			cubemap_shadow=yes
+			radius=30.000000
+			intensity=100.000000
+			position={ 309.100006 550.000000 912.000000 }
+			pitch=160.000000
+			yaw=42.000000
+			color={ 1.000000 0.933624 0.707031 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=5.000000
+			position={ 309.100006 550.000000 912.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			camera_near_far={ 500.000000 2000.000000 }
+		}
+	}
+ {
+		description="Center Apse L"
+		light={
+			outer_cone_angle=0.120000
+			inner_cone_angle=0.020000
+			cubemap_shadow=yes
+			radius=30.000000
+			intensity=100.000000
+			position={ -310.000000 550.000000 912.000000 }
+			pitch=160.000000
+			yaw=-42.000000
+			color={ 1.000000 0.933624 0.707031 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=5.000000
+			position={ -310.000000 550.000000 912.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			camera_near_far={ 500.000000 2000.000000 }
 		}
 	}
  }
