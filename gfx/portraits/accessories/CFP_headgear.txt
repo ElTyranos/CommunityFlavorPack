@@ -1271,6 +1271,10 @@ male_headgear_religious_jewish_cfp_judenhut_01 = {
 	set_tags = "cap,cap_02"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_jewish_cfp_judenhut_01_entity 	 }		
 }
+male_headgear_religious_jewish_cfp_judenhut_02 = {
+	set_tags = "cap,snug_headgear,hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_jewish_cfp_judenhut_02_entity 	 }		
+}
 male_headgear_religious_jewish_cfp_sudra_01 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_religious_jewish_cfp_sudra_01_entity 	 }		

@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -2484,8 +2484,19 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		religious_jewish_common_abdalusian = {
+			index = 169
+			male = {
+				1 = male_headgear_religious_jewish_cfp_judenhut_02
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
 		religious_buddhist_tibetan_mask = {
-            index = 169
+            index = 170
             male = {
                 5 = male_headgear_religious_hindu_cfp_mask_01
             }

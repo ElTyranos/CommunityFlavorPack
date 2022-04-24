@@ -7827,6 +7827,45 @@ headgear = {
 	    }
 	}
 	
+	religious_jewish_common_andalusian = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = religious_jewish_common_abdalusian
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 20
+				exists = this
+				is_male = yes
+				religion = religion:judaism_religion
+				portrait_wear_armor_trigger = no
+				highest_held_title_tier < tier_county
+				OR = {
+					cfp_portrait_andalusian_clothing_trigger = yes
+					cfp_portrait_iberian_clothing_trigger = yes
+				}
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+			}
+	    }
+	}
+	
 	religious_jewish_high_headgear = {
 	    dna_modifiers = {
 	        accessory = {
