@@ -1,7 +1,7 @@
 ﻿## We have to overwrite it completly to add the CFP Kris Dagger
 
 spymaster = {
-    male = { 
+    male = {
     	default = { head = "council_spymaster" torso = "council_spymaster" }
 
 		council_spymaster_hunchbacked = {
@@ -55,15 +55,15 @@ spymaster = {
 					AND = {
 						age >= 10
 						current_weight < 60
-						NOT = { has_trait = dwarf }  
-						NOT = { has_trait = pregnant }						
+						NOT = { has_trait = dwarf }
+						NOT = { has_trait = pregnant }
 				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse 
+				    	culture = culture:norse
 					}
 				}
 			}
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -84,11 +84,11 @@ spymaster = {
 						NOT = { has_trait = pregnant }
 				   	 	has_dlc_feature = the_northern_lords
 				    	culture = culture:norse
-					}					
+					}
 				}
 			}
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -108,12 +108,12 @@ spymaster = {
 						has_trait = dwarf
 						NOT = { has_trait = pregnant }
 				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse                  
-					}					
+				    	culture = culture:norse
+					}
 				}
 			}
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -134,11 +134,11 @@ spymaster = {
 						NOT = { has_trait = pregnant }
 				   	 	has_dlc_feature = the_northern_lords
 				    	culture = culture:norse
-					}					
+					}
 				}
 			}
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -158,11 +158,11 @@ spymaster = {
 						NOT = { has_trait = dwarf }
 				   	 	has_dlc_feature = the_northern_lords
 				    	culture = culture:norse
-					}					
+					}
 				}
 			}
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -182,11 +182,11 @@ spymaster = {
 						has_trait = dwarf
 				   	 	has_dlc_feature = the_northern_lords
 				    	culture = culture:norse
-					}					
+					}
 				}
 			}
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -206,17 +206,17 @@ spymaster = {
 						has_trait = dwarf
 				   	 	has_dlc_feature = the_northern_lords
 				    	culture = culture:norse
-					}					
+					}
 				}
 			}
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
 		}
 
-		
+
 
 		council_spymaster = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
@@ -229,12 +229,12 @@ spymaster = {
 					AND = {
 						#scope:age >= 10
 						scope:current_weight < 60
-						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }             
-						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }             
+						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
+						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
 					}
 				}
 			}
-			
+
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -245,11 +245,11 @@ spymaster = {
 						}
 					}
 				}
-				animations_props = spymaster_burmese_prop 
+				animations_props = spymaster_burmese_prop
 				animations = council_spymaster_decal
 			}
 			#/CFP
-			
+
 			portrait_modifier = {
 				trigger = {
 					culture = {
@@ -257,7 +257,7 @@ spymaster = {
 							this = culture:norse
 							this = culture:burmese
 							this = culture:mon
-						} 
+						}
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
 				}
@@ -279,10 +279,10 @@ spymaster = {
 						scope:current_weight > 60
 						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
 						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
-					}					
+					}
 				}
 			}
-			
+
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -293,19 +293,19 @@ spymaster = {
 						}
 					}
 				}
-				animations_props = spymaster_burmese_prop 
+				animations_props = spymaster_burmese_prop
 				animations = council_spymaster_decal
 			}
 			#/CFP
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				trigger = {
 					culture = {
 						NOR = {
 							this = culture:norse
 							this = culture:burmese
 							this = culture:mon
-						} 
+						}
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
 				}
@@ -326,11 +326,11 @@ spymaster = {
 						#scope:age >= 10
 						scope:current_weight < 35
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }                        
-					}					
+						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
+					}
 				}
 			}
-			
+
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -341,19 +341,19 @@ spymaster = {
 						}
 					}
 				}
-				animations_props = spymaster_burmese_prop 
+				animations_props = spymaster_burmese_prop
 				animations = council_spymaster_decal
 			}
 			#/CFP
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				trigger = {
 					culture = {
 						NOR = {
 							this = culture:norse
 							this = culture:burmese
 							this = culture:mon
-						} 
+						}
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
 				}
@@ -374,11 +374,11 @@ spymaster = {
 						#scope:age >= 10
 						scope:current_weight > 35
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }                        
-					}					
+						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
+					}
 				}
 			}
-			
+
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -389,7 +389,7 @@ spymaster = {
 						}
 					}
 				}
-				animations_props = spymaster_burmese_prop 
+				animations_props = spymaster_burmese_prop
 				animations = council_spymaster_decal
 			}
 			#/CFP
@@ -401,7 +401,7 @@ spymaster = {
 							this = culture:norse
 							this = culture:burmese
 							this = culture:mon
-						} 
+						}
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
 				}
@@ -422,10 +422,10 @@ spymaster = {
 						scope:current_weight < 45
 						portrait_has_trait_trigger = { TRAIT = pregnant }
 						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
-					}					
+					}
 				}
 			}
-			
+
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -436,22 +436,22 @@ spymaster = {
 						}
 					}
 				}
-				animations_props = spymaster_burmese_prop 
+				animations_props = spymaster_burmese_prop
 				animations = council_spymaster_decal
 			}
 			#/CFP
 
-			portrait_modifier = {	
+			portrait_modifier = {
 				trigger = {
 					culture = {
 						NOR = {
 							this = culture:norse
 							this = culture:burmese
 							this = culture:mon
-						} 
+						}
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
-				}						
+				}
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -470,10 +470,10 @@ spymaster = {
 						scope:current_weight < 60
 						portrait_has_trait_trigger = { TRAIT = pregnant }
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-					}					
+					}
 				}
 			}
-			
+
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -484,19 +484,19 @@ spymaster = {
 						}
 					}
 				}
-				animations_props = spymaster_burmese_prop 
+				animations_props = spymaster_burmese_prop
 				animations = council_spymaster_decal
 			}
 			#/CFP
 
-			portrait_modifier = {							
+			portrait_modifier = {
 				trigger = {
 					culture = {
 						NOR = {
 							this = culture:norse
 							this = culture:burmese
 							this = culture:mon
-						} 
+						}
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
 				}
@@ -517,10 +517,10 @@ spymaster = {
 						scope:current_weight > 60
 						portrait_has_trait_trigger = { TRAIT = pregnant }
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-					}					
+					}
 				}
 			}
-			
+
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -531,19 +531,19 @@ spymaster = {
 						}
 					}
 				}
-				animations_props = spymaster_burmese_prop 
+				animations_props = spymaster_burmese_prop
 				animations = council_spymaster_decal
 			}
 			#/CFP
-			
-			portrait_modifier = {							
+
+			portrait_modifier = {
 				trigger = {
 					culture = {
 						NOR = {
 							this = culture:norse
 							this = culture:burmese
 							this = culture:mon
-						} 
+						}
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
 				}
