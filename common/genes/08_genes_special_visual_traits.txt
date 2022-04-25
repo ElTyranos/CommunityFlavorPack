@@ -777,7 +777,7 @@ special_genes = {
 
 		}
 
-special_headgear_blindfold = {
+		special_headgear_blindfold = {
 
 			no_blindfold = {
 				index = 0
