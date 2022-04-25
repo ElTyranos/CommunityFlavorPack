@@ -311,6 +311,7 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
@@ -368,6 +369,7 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
 					NOT = { highest_held_title_tier = tier_duchy }
@@ -395,6 +397,7 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
@@ -426,6 +429,7 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
@@ -476,8 +480,10 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
+					should_be_naked_trigger = yes
 				}
 			}
 		}
@@ -515,8 +521,10 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
+					should_be_naked_trigger = yes
 				}
 			}
 		}
@@ -544,8 +552,10 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
+					should_be_naked_trigger = yes
 				}
 			}
 		}
@@ -573,8 +583,10 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
+					should_be_naked_trigger = yes
 				}
 			}
 		}
@@ -600,10 +612,11 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
 				}
-			}			
+			}
 		}
 	}
 	
@@ -627,6 +640,7 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
 				}
@@ -795,8 +809,10 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
+					should_be_naked_trigger = yes
 				}
 			}
 	    }
@@ -847,8 +863,10 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
+					should_be_naked_trigger = yes
 				}
 			}
 	    }
@@ -880,8 +898,10 @@ cloaks = {
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
+					should_be_naked_trigger = yes
 				}
 			}
 	    }
