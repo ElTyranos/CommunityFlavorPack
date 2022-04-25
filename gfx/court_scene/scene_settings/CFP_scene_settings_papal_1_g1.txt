@@ -157,17 +157,17 @@ camera={ {
  {
 		description="artifact_bookshelf_2"
 		fov=50.000000
-		position={ -200.000000 265.000000 156.000000 }
-		pitch=20.000000
-		yaw=-20.000000
+		position={ -266.996033 190.628326 313.000549 }
+		pitch=24.182556
+		yaw=-19.867264
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_bookshelf_1"
 		fov=50.000000
-		position={ 390.000000 265.000000 156.000000 }
-		pitch=27.000000
-		yaw=6.000000
+		position={ 385.453735 186.368759 330.386169 }
+		pitch=29.770374
+		yaw=17.062399
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -205,25 +205,25 @@ camera={ {
  {
 		description="artifact_wall_large_1"
 		fov=50.000000
-		position={ -365.000000 475.000000 200.000000 }
-		pitch=15.000000
-		yaw=10.000000
+		position={ -365.976013 404.387482 194.244797 }
+		pitch=11.905630
+		yaw=9.249525
 		camera_near_far={ 10.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_large_2"
 		fov=50.000000
-		position={ 365.000000 475.000000 200.000000 }
-		pitch=15.000000
-		yaw=25.000000
+		position={ 365.000000 427.000000 200.000000 }
+		pitch=15.814816
+		yaw=25.000002
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
 		description="artifact_wall_large_3"
 		fov=50.000000
-		position={ 173.000000 525.799988 566.700012 }
-		pitch=27.000000
-		yaw=-16.000000
+		position={ -85.929909 428.064209 -257.282745 }
+		pitch=12.659257
+		yaw=-53.457397
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -898,7 +898,7 @@ artifacts={ {
 	}
  {
 		locator="artifact_wall_small_3"
-		position={ -505.000000 560.000000 -85.000000 }
+		position={ -505.000000 580.000000 -85.000000 }
 		direction=-90.000000
 		slot="wall_small_3"
 	}
