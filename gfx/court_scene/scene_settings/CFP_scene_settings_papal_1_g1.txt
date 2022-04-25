@@ -731,6 +731,13 @@ assets={ {
 		roles=ruler_throne
 	}
  {
+		position={ 0.000000 0.000000 1100.000000 }
+		scale=0.100000
+		description="Throne 2"
+		asset="ep1_mediterranean_throne_basic_01_a_entity"
+		roles=spouse_throne
+	}
+ {
 		position={ 0.000000 0.000000 550.000000 }
 		description="Throne Pillars"
 		asset="cfp_court_papal_throne_entity"
