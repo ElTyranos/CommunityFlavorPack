@@ -1,6 +1,6 @@
 ﻿# Vanilla edits - Western
 cfp_male_clothes_western_bedchamber_01_common = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	male_clothes_situational_western_bedchamber_01_common_entity }
 }
 cfp_female_clothes_western_bedchamber_01_common = {
@@ -129,48 +129,48 @@ female_clothes_secular_africa_east_cfp_war_mail_01 = {
 
 ## Indian
 female_clothes_secular_indian_cfp_nobility_01_common = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_indian_cfp_nobility_01_common_entity }
 }
 female_clothes_secular_indian_cfp_nobility_01_low = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_indian_cfp_nobility_01_low_entity }
 }
 female_clothes_secular_indian_cfp_nobility_01_high = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_indian_cfp_nobility_01_high_entity }
 }
 female_clothes_secular_indian_cfp_nobility_02_common = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_indian_cfp_nobility_02_common_entity }
 }
 female_clothes_secular_indian_cfp_nobility_02_low = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_indian_cfp_nobility_02_low_entity }
 }
 female_clothes_secular_indian_cfp_nobility_02_high = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_indian_cfp_nobility_02_high_entity }
 }
 
 ## Javanese
 male_clothes_secular_java_cfp_royalty_01 = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	male_clothes_secular_java_cfp_royalty_01_entity }
 }
 male_clothes_secular_java_cfp_high_nobility_01 = {
-entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	male_clothes_secular_java_cfp_high_nobility_01_entity }
 }
 female_clothes_secular_java_cfp_royalty_01 = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_java_cfp_royalty_01_entity }
 }
 female_clothes_secular_java_cfp_high_nobility_01 = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_java_cfp_high_nobility_01_entity }
 }
 female_clothes_secular_java_cfp_common_01 = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
+	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_java_cfp_common_01_entity }
 }
