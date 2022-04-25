@@ -1,4 +1,4 @@
-﻿#These special genes will not be part of a character's DNA.
+#These special genes will not be part of a character's DNA.
 #The game can have hardcoded references to them and might use each of them differently
 special_genes = {
 	morph_genes = {
@@ -815,7 +815,7 @@ special_headgear_blindfold = {
 
 		}
 
-		special_headgear_eyeglasses = {
+		special_headgear_spectacles = {
 
 			no_eyeglasses = {
 				index = 0
@@ -825,24 +825,26 @@ special_headgear_blindfold = {
 				girl = female
 			}
 			
-			eyeglasses = {
+			spectacles = {
 				index = 1
 				male = {
-					99 = male_headgear_special_cfp_glasses_01
+					30 = male_headgear_special_spectacles_01
+					30 = male_headgear_special_cfp_glasses_01
 					1 = male_headgear_special_cfp_glasses_01b
-					99 = male_headgear_special_cfp_glasses_02
+					30 = male_headgear_special_cfp_glasses_02
 					1 = male_headgear_special_cfp_glasses_02b
 				}
 				female = {
-					99 = female_headgear_special_cfp_glasses_01
+					30 = female_headgear_special_spectacles_01
+					30 = female_headgear_special_cfp_glasses_01
 					1 = female_headgear_special_cfp_glasses_01b
-					99 = female_headgear_special_cfp_glasses_02
+					30 = female_headgear_special_cfp_glasses_02
 					1 = female_headgear_special_cfp_glasses_02b
 				}
 				boy = male
 				girl = female
 			}
-
+			
 		}
 
 	}
