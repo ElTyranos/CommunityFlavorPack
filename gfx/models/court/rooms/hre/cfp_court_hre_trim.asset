@@ -1,21 +1,21 @@
 pdxmesh = {
-	name = "cfp_court_hre_roofing_mesh"
-	file = "cfp_court_hre_roofing.mesh"
+	name = "cfp_court_hre_trim_mesh"
+	file = "cfp_court_hre_trim.mesh"
 
 	meshsettings = {
-		name = "cfp_court_hre_roofingShape"
+		name = "cfp_court_hre_trimShape"
 		index = 0
-		texture_diffuse = "cfp_materials_papal_fresco_04_diffuse.dds"
-		texture_normal = "cfp_materials_papal_fresco_03_normal.dds"
-		texture_specular = "cfp_materials_papal_fresco_04_properties.dds"
+		texture_diffuse = "cfp_materials_hre_trim_02_diffuse.dds"
+		texture_normal = "cfp_materials_hre_trim_02_normal.dds"
+		texture_specular = "cfp_materials_hre_trim_02_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
 }
 
 entity = {
-	name = "cfp_court_hre_roofing_entity"
-	pdxmesh = "cfp_court_hre_roofing_mesh"
+	name = "cfp_court_hre_trim_entity"
+	pdxmesh = "cfp_court_hre_trim_mesh"
 	default_state = "default"
 	state = { 
 		name = "default"
