@@ -6,6 +6,7 @@ has_graphical_hre_culture_group_trigger = {
 	OR = {
 		has_title = title:e_hre
 		has_title = title:e_france
+	}
 }
 
 has_graphical_norman_culture_group_trigger = {
