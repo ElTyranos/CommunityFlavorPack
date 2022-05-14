@@ -1002,7 +1002,7 @@ assets={ {
  {
 		direction=0.000010
 		description="Floor"
-		asset="cfp_court_hre_flooring_entity"
+		asset="cfp_court_hre_flooring_g2_entity"
 	}
  {
 		direction=0.000010
@@ -1269,26 +1269,6 @@ assets={ {
 		position={ -755.000000 0.000000 1035.000000 }
 		description="Candles 4"
 		asset="ep1_western_candle_01_a_entity"
-	}
- {
-		position={ 0.000000 0.000000 1265.000000 }
-		scale=1.500000
-		description="Cupboard"
-		asset="ep1_deco_cupboard_01_b_entity"
-	}
- {
-		position={ 1265.000000 0.000000 0.000000 }
-		direction=90.000000
-		scale=1.500000
-		description="Cupboard Right"
-		asset="ep1_deco_cupboard_01_a_entity"
-	}
- {
-		position={ -1265.000000 0.000000 0.000000 }
-		direction=-90.000000
-		scale=1.500000
-		description="Cupboard Left"
-		asset="ep1_deco_cupboard_01_c_entity"
 	}
  }
 artifacts={ {
