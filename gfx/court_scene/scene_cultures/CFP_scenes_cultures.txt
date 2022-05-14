@@ -7,7 +7,7 @@ papal = {
 
 hre = {
 	trigger = {
-		has_graphical_hre_trigger = yes
+		has_graphical_hre_culture_group_trigger = yes
     }
 }
 
@@ -52,7 +52,7 @@ western = {
 			}
 		}
 		NOR = {
-			has_graphical_hre_trigger = yes
+			has_graphical_hre_culture_group_trigger = yes
 			has_graphical_norman_culture_group_trigger = yes
 			has_graphical_goidelic_culture_group_trigger = yes
 		}
