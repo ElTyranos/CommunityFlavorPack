@@ -1,6 +1,6 @@
-name="CFP_HRE_1_g1"
+name="CFP_HRE_1_g3"
 culture="hre"
-visual_culture_level=1
+visual_culture_level=3
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment.txt"
 audio_culture=1.000000
@@ -630,6 +630,110 @@ lights={ {
 			shadows_fade=5.000000
 		}
 	}
+ {
+		description="Candles 1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=900.000000
+			intensity=5.000000
+			position={ 755.000000 174.000000 1035.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.772569 0.476694 0.287031 }
+			intensity_variation=0.250000
+			intensity_variation_frequency=150.000000
+			animation=yes
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 755.000000 174.000000 1035.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Candles 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=900.000000
+			intensity=5.000000
+			position={ 1035.000000 174.000000 755.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.772569 0.476694 0.287031 }
+			intensity_variation=0.250000
+			intensity_variation_frequency=150.000000
+			animation=yes
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 1035.000000 174.000000 755.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Candles 3"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=900.000000
+			intensity=5.000000
+			position={ -1035.000000 174.000000 755.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.772569 0.476694 0.287031 }
+			intensity_variation=0.250000
+			intensity_variation_frequency=150.000000
+			animation=yes
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -1035.000000 174.000000 755.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Candles 4"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=900.000000
+			intensity=5.000000
+			position={ -755.000000 174.000000 1035.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.772569 0.476694 0.287031 }
+			intensity_variation=0.250000
+			intensity_variation_frequency=150.000000
+			animation=yes
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -755.000000 174.000000 1035.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
  }
 characters={ {
 		locator="Ruler"
@@ -898,7 +1002,12 @@ assets={ {
  {
 		direction=0.000010
 		description="Floor"
-		asset="cfp_court_hre_flooring_g1_entity"
+		asset="cfp_court_hre_flooring_entity"
+	}
+ {
+		direction=0.000010
+		description="Trim"
+		asset="cfp_court_hre_trim_entity"
 	}
  {
 		position={ -81.599998 277.899994 -189.300003 }
@@ -921,49 +1030,49 @@ assets={ {
  {
 		position={ 0.000070 0.000000 800.000000 }
 		description="Wall_1"
-		asset="cfp_court_hre_walls_g1_entity"
+		asset="cfp_court_hre_walls_entity"
 	}
  {
 		position={ 800.000000 0.000000 0.000000 }
 		direction=90.000000
 		description="Wall_2"
-		asset="cfp_court_hre_walls_g1_entity"
+		asset="cfp_court_hre_walls_entity"
 	}
  {
 		position={ -800.000000 0.000000 0.000000 }
 		direction=-90.000000
 		description="Wall_3"
-		asset="cfp_court_hre_walls_g1_entity"
+		asset="cfp_court_hre_walls_entity"
 	}
  {
 		position={ 0.000070 0.000000 -800.000000 }
 		direction=180.000000
 		description="Wall_4"
-		asset="cfp_court_hre_walls_g1_door_entity"
+		asset="cfp_court_hre_walls_door_entity"
 	}
  {
 		position={ -565.000000 0.000000 -565.000000 }
 		direction=-135.000000
 		description="Wall_5"
-		asset="cfp_court_hre_walls_g1_closed_entity"
+		asset="cfp_court_hre_walls_closed_entity"
 	}
  {
 		position={ 565.000000 0.000000 565.000000 }
 		direction=45.000000
 		description="Wall_6"
-		asset="cfp_court_hre_walls_g1_entity"
+		asset="cfp_court_hre_walls_entity"
 	}
  {
 		position={ 565.000000 0.000000 -565.000000 }
 		direction=135.000000
 		description="Wall_7"
-		asset="cfp_court_hre_walls_g1_closed_entity"
+		asset="cfp_court_hre_walls_closed_entity"
 	}
  {
 		position={ -565.000000 0.000000 565.000000 }
 		direction=-45.000000
 		description="Wall_8"
-		asset="cfp_court_hre_walls_g1_entity"
+		asset="cfp_court_hre_walls_entity"
 	}
  {
 		position={ 0.000070 0.000000 800.000000 }
@@ -1142,9 +1251,44 @@ assets={ {
 		asset="roco_atmospheric_01"
 	}
  {
-		position={ 0.000000 1.000000 268.800018 }
-		description="Carpet"
-		asset="ep1_western_carpet_01_a_entity"
+		position={ 755.000000 0.000000 1035.000000 }
+		description="Candles 1"
+		asset="ep1_western_candle_01_a_entity"
+	}
+ {
+		position={ 1035.000000 0.000000 755.000000 }
+		description="Candles 2"
+		asset="ep1_western_candle_01_a_entity"
+	}
+ {
+		position={ -1035.000000 0.000000 755.000000 }
+		description="Candles 3"
+		asset="ep1_western_candle_01_a_entity"
+	}
+ {
+		position={ -755.000000 0.000000 1035.000000 }
+		description="Candles 4"
+		asset="ep1_western_candle_01_a_entity"
+	}
+ {
+		position={ 0.000000 0.000000 1265.000000 }
+		scale=1.500000
+		description="Cupboard"
+		asset="ep1_deco_cupboard_01_b_entity"
+	}
+ {
+		position={ 1265.000000 0.000000 0.000000 }
+		direction=90.000000
+		scale=1.500000
+		description="Cupboard Right"
+		asset="ep1_deco_cupboard_01_a_entity"
+	}
+ {
+		position={ -1265.000000 0.000000 0.000000 }
+		direction=-90.000000
+		scale=1.500000
+		description="Cupboard Left"
+		asset="ep1_deco_cupboard_01_c_entity"
 	}
  }
 artifacts={ {
