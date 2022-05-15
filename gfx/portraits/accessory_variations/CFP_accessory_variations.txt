@@ -105,6 +105,24 @@ pattern_textures = {
     normal        = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_04_normal.dds"
     properties    = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_04_properties.dds"
 }
+pattern_textures = {
+    name = "cfp_western_05"
+    colormask	  = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_05_masks.dds"
+    normal        = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_05_normal.dds"
+    properties    = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_05_properties.dds"
+}
+pattern_textures = {
+    name = "cfp_western_06"
+    colormask	  = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_06_masks.dds"
+    normal        = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_06_normal.dds"
+    properties    = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_06_properties.dds"
+}
+pattern_textures = {
+    name = "cfp_western_07"
+    colormask	  = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_07_masks.dds"
+    normal        = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_07_normal.dds"
+    properties    = "gfx/portraits/accessory_variations/textures/patterns/cfp_western/cfp_western_07_properties.dds"
+}
 variation = {
 	name = "northern_war_gambeson_01"
 	pattern = {
