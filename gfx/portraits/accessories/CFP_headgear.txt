@@ -996,6 +996,16 @@ female_headgear_secular_andalusian_cfp_war_nasal_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_andalusian_cfp_war_nasal_01_entity 	 }		
 }
 
+male_headgear_secular_andalusian_cfp_war_nasal_02 = {
+	set_tags = "no_hair"
+	set_tags = "hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_andalusian_cfp_war_nasal_02_entity 	 }		
+}
+female_headgear_secular_andalusian_cfp_war_nasal_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_andalusian_cfp_war_nasal_02_entity 	 }		
+}
+
 male_headgear_secular_andalusian_cfp_war_sallet_01 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_andalusian_cfp_war_sallet_01_entity 	 }		

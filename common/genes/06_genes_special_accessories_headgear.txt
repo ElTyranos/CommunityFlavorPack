@@ -2108,6 +2108,7 @@ accessory_genes = {
 			male = {
 				1 = male_headgear_secular_andalusian_cfp_war_turban_01
 				1 = male_headgear_secular_andalusian_cfp_war_nasal_01
+				1 = male_headgear_secular_andalusian_cfp_war_nasal_02
 			}
 			female = {
 				1 = female_headgear_secular_andalusian_cfp_war_turban_01
@@ -2477,6 +2478,7 @@ accessory_genes = {
 			index = 168
 			male = {
 				1 = male_headgear_religious_jewish_cfp_sudra_01
+				1 = male_headgear_religious_jewish_cfp_judenhut_02 # REMOVE
 			}
 			female = {
 				1 = empty
