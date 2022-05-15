@@ -1,4 +1,4 @@
-﻿###################
+###################
 #	Texture sets	#
 ##################
 pattern_textures = {
@@ -194,7 +194,7 @@ pattern_layout = {
 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } }
 }
 pattern_layout = {
-	name = "c"
+	name = "plain_fabric_layout" 
 	scale 		= { min = 0.25	max = 0.25 }
 	rotation 	= { min = 0	max = 0 }
 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } }
