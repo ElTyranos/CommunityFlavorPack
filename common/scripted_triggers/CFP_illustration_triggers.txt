@@ -1,4 +1,4 @@
-﻿has_graphical_papal_trigger = {
+has_graphical_papal_culture_group_trigger = {
 	has_title = title:k_papal_state
 }
 
