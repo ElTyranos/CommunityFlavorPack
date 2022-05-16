@@ -7273,6 +7273,7 @@ headgear = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				OR = {
 					faith = faith:orthodox
@@ -7513,6 +7514,7 @@ headgear = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				NOT = {
 					faith = {
@@ -7547,6 +7549,7 @@ headgear = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				NAND = {
 					faith = faith:catholic

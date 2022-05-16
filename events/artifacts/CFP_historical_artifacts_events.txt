@@ -30,15 +30,6 @@ cfp_historical_artifacts.0001 = {
 			limit = {
 				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
 				has_dlc_feature = royal_court
-				has_title = title:e_hre
-			}
-			create_artifact_cfp_holy_lance_effect = { OWNER = this }
-		}
-		
-		random_ruler = {
-			limit = {
-				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
-				has_dlc_feature = royal_court
 				has_title = title:k_bulgaria
 			}
 			character:159123 = { save_scope_as = creator }

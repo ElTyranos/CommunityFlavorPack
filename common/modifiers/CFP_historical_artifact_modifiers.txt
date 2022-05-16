@@ -3,8 +3,10 @@
 	monthly_prestige = 1
 	monthly_dynasty_prestige_mult = 0.05
 	direct_vassal_opinion = 5
-	anglo_saxon_opinion = 5
-	norman_opinion = 10
+	# anglo_saxon_opinion = 5
+	# norman_opinion = 10
+	different_culture_opinion = 5
+	same_culture_opinion = 10
 }
 
 cfp_holy_lance_modifier = {
@@ -21,7 +23,8 @@ cfp_krum_skull_cup_modifier = {
 	dread_baseline_add = 12
 	monthly_prestige_gain_per_dread_add = 0.04
 	dynasty_opinion = 5
-	greek_opinion = -5
+	# greek_opinion = -5
+	different_culture_opinion = -5
 }
 
 cfp_kure_skull_cup_modifier = {
@@ -30,5 +33,6 @@ cfp_kure_skull_cup_modifier = {
 	dread_baseline_add = 12
 	monthly_prestige_gain_per_dread_add = 0.04
 	dynasty_opinion = 5
-	russian_opinion = -5
+	# russian_opinion = -5
+	different_culture_opinion = -5
 }
