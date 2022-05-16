@@ -1,4 +1,4 @@
-## CFP
+﻿## CFP
 papal = {
 	trigger = {
 		has_graphical_papal_culture_group_trigger = yes
@@ -25,13 +25,21 @@ goidelic = {
 
 iberian = {
 	trigger = {
-		has_graphical_iberian_culture_group_trigger = yes
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_iberian_culture_group_trigger  = yes
+			prev.religion = religion:christianity_religion
+		}
 	}
 }
 
 andalusian = {
 	trigger = {
-		has_graphical_andalusian_culture_group_trigger = yes
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_iberian_culture_group_trigger  = yes
+			prev.religion = religion:islam_religion
+		}
 	}
 }
 
@@ -74,8 +82,6 @@ mediterranean = {
 		}
 		NOR = {
 			has_graphical_papal_culture_group_trigger = yes
-			has_graphical_andalusian_culture_group_trigger = yes
-			has_graphical_iberian_culture_group_trigger = yes
 		}
 	}
 }
@@ -92,7 +98,6 @@ mena = {
 			}
 		}
 		NOR = {
-			has_graphical_andalusian_culture_group_trigger = yes
 			has_graphical_west_african_culture_group_trigger = yes
 			has_graphical_east_african_culture_group_trigger = yes
 		}
