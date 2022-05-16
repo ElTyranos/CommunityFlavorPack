@@ -1,6 +1,0 @@
-﻿##### MAINTHEME
-
-cfp_main_theme_track  = {
-	music = "file:/music/cfp_main_theme.mp3"
-	can_be_interrupted = yes
-}
