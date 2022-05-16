@@ -1216,7 +1216,7 @@ assets={ {
 		asset="roco_atmospheric_01"
 	}
  {
-		position={ 0.000000 1600.000000 620.000000 }
+		position={ 0.000000 1650.000000 620.000000 }
 		rotation={ -10.000000 0.000000 0.000000 }
 		scale=0.750000
 		description="Roof Atmospheric Scattering Top"
@@ -1237,14 +1237,14 @@ assets={ {
 		asset="roco_atmospheric_01"
 	}
  {
-		position={ -600.000000 1500.000000 0.000000 }
+		position={ -600.000000 1650.000000 0.000000 }
 		rotation={ -10.000000 -90.000000 0.000000 }
 		scale=0.750000
 		description="Roof Atmospheric Scattering Left 2"
 		asset="roco_atmospheric_01"
 	}
  {
-		position={ 600.000000 1600.000000 0.000000 }
+		position={ 600.000000 1650.000000 0.000000 }
 		rotation={ -10.000000 90.000000 0.000000 }
 		scale=0.750000
 		description="Roof Atmospheric Scattering Right 2"
