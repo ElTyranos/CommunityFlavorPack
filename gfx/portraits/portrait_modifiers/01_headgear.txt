@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1829,7 +1829,7 @@ headgear = {
 				add = 75
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_iberian_clothing_trigger = yes
+				cfp_portrait_iberian_christian_clothing_trigger = yes
 			}
 			modifier = {
 				add = 10
@@ -1847,7 +1847,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_iberian_clothing_spouse_trigger = yes
+				cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -1878,7 +1878,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						cfp_portrait_iberian_clothing_trigger = yes
+						cfp_portrait_iberian_christian_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -1896,7 +1896,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_iberian_clothing_spouse_trigger = yes
+							cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1930,7 +1930,7 @@ headgear = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						cfp_portrait_iberian_clothing_trigger = yes
+						cfp_portrait_iberian_christian_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -1947,7 +1947,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_iberian_clothing_spouse_trigger = yes
+							cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2061,7 +2061,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_iberian_clothing_trigger = yes
+				cfp_portrait_iberian_christian_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -7852,7 +7852,7 @@ headgear = {
 				portrait_wear_armor_trigger = no
 				highest_held_title_tier < tier_county
 				OR = {
-					cfp_portrait_andalusian_clothing_trigger = yes
+					cfp_portrait_iberian_christian_clothing_trigger = yes
 					cfp_portrait_iberian_clothing_trigger = yes
 				}
 				NOR = {
