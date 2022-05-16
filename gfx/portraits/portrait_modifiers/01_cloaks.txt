@@ -233,7 +233,8 @@ cloaks = {
 				template = ep1_cloak_adventurer
 				range = { 0 1 }
 			}
-		}	
+		}
+		outfit_tags = { ep1_adventurer_cloak }
 		weight = {
 			base = 0
 			modifier = {
@@ -774,7 +775,9 @@ cloaks = {
 				}
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					any_controlled_faith = {
+						this = faith:orthodox
+					}
 				}
 				NOT = {
 					faith = {
@@ -888,7 +891,9 @@ cloaks = {
 				faith = faith:catholic
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					any_controlled_faith = {
+						this = faith:catholic
+					}
 				}
 				NOT = {
 					faith = {
@@ -925,8 +930,9 @@ cloaks = {
 #				NAND = {
 #					is_ruler = yes
 #					primary_title = {
-#						exists = controlled_faith
-#						controlled_faith = faith:catholic
+#						any_controlled_faith = {
+#							this = faith:catholic
+#						}
 #					}
 #				}
 #	        }

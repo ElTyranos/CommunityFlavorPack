@@ -1,7 +1,7 @@
 custom_clothes = {
 	usage = customization
 	interface_position = 0
-	
+
 	add_accessory_modifiers = {
 		gene = clothes
 		template = no_clothes
@@ -9,7 +9,75 @@ custom_clothes = {
 			NOT = { cfp_allow_nudity_in_barbershop_trigger = no }
 		}
 	}
-		
+	
+## FP2 - The Fate of Iberia ##
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_muslim_commoner_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_christian_commoner_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_muslim_low_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_christian_low_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_muslim_high_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_christian_high_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_muslim_war_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_christian_war_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+## FP1 ##
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = fp1_commoner_clothes

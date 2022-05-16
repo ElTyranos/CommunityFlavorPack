@@ -3,7 +3,7 @@
 	interface_position = 5
 
 	add_accessory_modifiers = {
-		gene = special_headgear_eyeglasses
+		gene = special_headgear_spectacles
 		template = no_eyeglasses
 		is_valid_custom = {
 			OR = {
@@ -11,7 +11,6 @@
 				has_trait = administrator
 			}
 			NOT = { has_game_rule = never_cfp_trait_accessories }
-			# NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
 	add_accessory_modifiers = {
@@ -20,7 +19,6 @@
 		is_valid_custom = {
 			has_trait = one_eyed
 			NOT = { should_show_disturbing_portrait_modifiers = no }
-			# NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
 	add_accessory_modifiers = {
@@ -29,7 +27,6 @@
 		is_valid_custom = {
 			has_trait = blind
 			NOT = { should_show_disturbing_portrait_modifiers = no }
-			# NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
 	
