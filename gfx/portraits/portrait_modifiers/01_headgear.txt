@@ -1203,7 +1203,10 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				portrait_western_clothing_trigger = yes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
 				cfp_innovation_plate_armor_trigger = yes
 				
 				NOR = {
@@ -7270,6 +7273,7 @@ headgear = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				OR = {
 					faith = faith:orthodox
@@ -7510,6 +7514,7 @@ headgear = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				NOT = {
 					faith = {
@@ -7544,6 +7549,7 @@ headgear = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				NAND = {
 					faith = faith:catholic

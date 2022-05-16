@@ -25,7 +25,7 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = pectoral_crosses
@@ -41,7 +41,7 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = central_african_low_nobility

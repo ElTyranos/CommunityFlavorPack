@@ -3,7 +3,7 @@
 	usage = game
 	selection_behavior = weighted_random
 	fallback = no_earrings
-	
+
 	no_earrings = {
         dna_modifiers = {
             accessory = {
@@ -12,9 +12,9 @@
                 template = no_earrings
                 range = { 0 1 } # For the randomness to work correctly
             }
-        } 
+        }
     }
-	
+
 	african_low_nobility = {
 		dna_modifiers = {
 			accessory = {

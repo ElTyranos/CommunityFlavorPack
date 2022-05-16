@@ -17,9 +17,9 @@
 			base = 0
 			modifier = {
 				add = 100
-				
+
 				cfp_portrait_afar_clothing_trigger = yes
-				
+
 			}
 		}
 	}
@@ -37,15 +37,15 @@
 			base = 0
 			modifier = {
 				add = 100
-				
+
 				has_trait = blind
 				should_show_disturbing_portrait_modifiers = yes
 				NOT = { has_character_flag = temporarily_blinded }
-				
+
 			}
 		}
 	}
-	
+
 	blind_no_eyes = {
 		dna_modifiers = {
 			accessory = {
@@ -59,7 +59,7 @@
 			base = 0
 			modifier = {
 				add = 200
-				
+
 				AND = {
 					has_trait = blind
 					OR = {
@@ -70,14 +70,14 @@
 						has_trait = education_martial
 					}
 				}
-				
+
 				should_show_disturbing_portrait_modifiers = yes
 				NOT = { has_character_flag = temporarily_blinded }
-				
+
 			}
 		}
 	}
-	
+
 	one_eyed = {
 		dna_modifiers = {
 			accessory = {
@@ -91,15 +91,15 @@
 			base = 0
 			modifier = {
 				add = 100
-				
+
 				has_trait = one_eyed
 				should_show_disturbing_portrait_modifiers = yes
 				NOT = { has_character_flag = wears_fake_eye_patch }
-				
+
 			}
 		}
 	}
-	
+
 	one_eyed_missing = {
 		dna_modifiers = {
 			accessory = {
@@ -113,7 +113,7 @@
 			base = 0
 			modifier = {
 				add = 200
-				
+
 				AND = {
 					has_trait = one_eyed
 					OR = {
@@ -124,10 +124,10 @@
 						has_trait = education_martial
 					}
 				}
-				
+
 				should_show_disturbing_portrait_modifiers = yes
 				NOT = { has_character_flag = wears_fake_eye_patch }
-				
+
 			}
 		}
 	}

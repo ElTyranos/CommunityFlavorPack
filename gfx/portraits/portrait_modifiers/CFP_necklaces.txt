@@ -3,7 +3,7 @@
 	usage = game
 	selection_behavior = weighted_random
 	fallback = no_necklace
-	
+
 	no_necklace = {
         dna_modifiers = {
             accessory = {
@@ -12,9 +12,9 @@
                 template = no_necklace
                 range = { 0 1 } # For the randomness to work correctly
             }
-        } 
+        }
     }
-	
+
 	western_royalty_ermine = {
 		dna_modifiers = {
 			accessory = {
@@ -61,17 +61,17 @@
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
 					has_government = theocracy_government
-					AND = { 
+					AND = {
 						has_government = republic_government
 						NOT = { primary_title = title:k_venice }
 					}
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
 				}
-			}			
+			}
 		}
 	}
-	
+
 	african_low_nobility = {
 		dna_modifiers = {
 			accessory = {
@@ -86,9 +86,9 @@
 			modifier = {
 				add = 101
 				exists = this
-				NOR = { 
+				NOR = {
 					cfp_portrait_central_africa_clothing_trigger = yes
-					is_male = yes 
+					is_male = yes
 				}
 				OR = {
 					cfp_portrait_west_africa_clothing_trigger = yes
@@ -125,10 +125,10 @@
 						}
 					}
 				}
-			}			
+			}
 		}
 	}
-	
+
 	central_african_low_nobility = {
 		dna_modifiers = {
 			accessory = {
@@ -175,10 +175,10 @@
 						}
 					}
 				}
-			}			
+			}
 		}
 	}
-	
+
 	pectoral_crosses = {
 		dna_modifiers = {
 			accessory = {
@@ -217,6 +217,6 @@
 			}
 		}
 	}
-	
-	
+
+
 }

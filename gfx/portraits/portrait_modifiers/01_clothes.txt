@@ -1036,7 +1036,10 @@ clothes = {
 			modifier = {
 				add = 1000
 				portrait_wear_armor_trigger = yes
-				portrait_western_clothing_trigger = yes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
 				cfp_innovation_plate_armor_trigger = yes
 			}
 			modifier = {
@@ -3639,6 +3642,7 @@ latin_venetian_royalty = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				OR = {
 					faith = faith:orthodox
@@ -3785,6 +3789,7 @@ latin_venetian_royalty = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				religion = religion:christianity_religion
 				NAND = {
@@ -3833,6 +3838,7 @@ latin_venetian_royalty = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
 				}
 				NAND = {
 					faith = faith:catholic

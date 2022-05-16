@@ -3,7 +3,7 @@
 	usage = game
 	selection_behavior = weighted_random
 	fallback = no_hands
-	
+
 	no_hands = {
         dna_modifiers = {
             accessory = {
@@ -12,9 +12,9 @@
                 template = no_hands
                 range = { 0 1 } # For the randomness to work correctly
             }
-        } 
+        }
     }
-	
+
 	western_high_nobility_gloves = {
 		dna_modifiers = {
 			accessory = {
@@ -29,9 +29,9 @@
 			modifier = {
 				add = 100
 				exists = this
-				
+
 				cfp_era_high_medieval_trigger = yes
-				
+
 				OR = {
 					AND = {
 						OR = {
