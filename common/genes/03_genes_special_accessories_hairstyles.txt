@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 
@@ -1225,7 +1225,7 @@ special_genes = {
 			}
 			
 			western_hairstyles_aging = {
-				index = 38
+				index = 59
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -1241,7 +1241,7 @@ special_genes = {
 			}
 			
 			slavic_hairstyles_warrior = {
-				index = 39
+				index = 60
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1262,7 +1262,7 @@ special_genes = {
 			}
 			
 			hungarian_hairstyles_warrior = {
-				index = 40
+				index = 61
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07

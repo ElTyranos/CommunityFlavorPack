@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 
@@ -425,7 +425,7 @@ special_genes = {
 			}
 
 			scripted_character_beards_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new beards are added for scripted characters they should be added in a new template.
-				index = 16
+				index = 18
 				male = {
 					1 = empty
 					1 = male_beard_western_01
@@ -465,7 +465,7 @@ special_genes = {
 			}	
 
 			thin_beards_straight = {
-				index = 17
+				index = 19
 
 				male = {
 					# 5 = empty
@@ -479,7 +479,7 @@ special_genes = {
 			}
 
 			orthodox_beards = {
-				index = 18
+				index = 20
 				male = {
 					20 = male_beard_western_01 # Standard full beard
 					5 = male_beard_western_02 # Standard goatee
