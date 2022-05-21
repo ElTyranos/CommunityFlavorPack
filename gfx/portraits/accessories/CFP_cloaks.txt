@@ -12,27 +12,27 @@ male_cloaks_secular_western_cfp_common_01 = {
 }
 
 male_cloaks_secular_western_cfp_crusades_hood_01 = {
-	set_tags = "cap,cap_02"
+	set_tags = "hood,snug_headgear"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_cloaks_secular_western_cfp_crusades_hood_01_entity }
 }
 female_cloaks_secular_western_cfp_crusades_hood_01 = {
-	set_tags = "cap,cap_02"
+	set_tags = "hood,snug_headgear"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_cloaks_secular_western_cfp_crusades_hood_01_entity }
 }
 male_cloaks_secular_western_cfp_crusades_hood_02 = {
-	set_tags = "cap,cap_02"
+	set_tags = "hood,snug_headgear"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_cloaks_secular_western_cfp_crusades_hood_02_entity }
 }
 female_cloaks_secular_western_cfp_crusades_hood_02 = {
-	set_tags = "cap,cap_02"
+	set_tags = "hood,snug_headgear"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_cloaks_secular_western_cfp_crusades_hood_02_entity }
 }
 male_cloaks_secular_western_cfp_crusades_hood_03 = {
-	set_tags = "cap,cap_02"
+	set_tags = "hood,snug_headgear"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_cloaks_secular_western_cfp_crusades_hood_03_entity }
 }
 female_cloaks_secular_western_cfp_crusades_hood_03 = {
-	set_tags = "cap,cap_02"
+	set_tags = "hood,snug_headgear"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_cloaks_secular_western_cfp_crusades_hood_03_entity }
 }
 
