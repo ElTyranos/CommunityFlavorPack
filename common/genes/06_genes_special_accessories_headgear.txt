@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -1733,10 +1733,12 @@ accessory_genes = {
 			index = 101
 			male = {
 				1 = male_headgear_secular_fp2_iberian_muslim_war_nobility_01
+				1 = male_headgear_secular_andalusian_cfp_war_nasal_02
 			}
 			
 			female = {
 				1 = female_headgear_secular_fp2_iberian_muslim_war_nobility_01
+				1 = female_headgear_secular_andalusian_cfp_war_nasal_02
 			}
 			boy = male
 			girl = female
@@ -2447,7 +2449,6 @@ accessory_genes = {
 			male = {
 				1 = male_headgear_secular_andalusian_cfp_war_turban_01
 				1 = male_headgear_secular_andalusian_cfp_war_nasal_01
-				1 = male_headgear_secular_andalusian_cfp_war_nasal_02
 			}
 			female = {
 				1 = female_headgear_secular_andalusian_cfp_war_turban_01
