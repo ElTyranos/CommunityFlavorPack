@@ -1697,8 +1697,6 @@ special_genes = {
 				girl = female
 
 				}
-				
-	}	
 
 			## Western
 
@@ -1922,5 +1920,5 @@ special_genes = {
 			}
 		
 		}
-}
+	}
 }
