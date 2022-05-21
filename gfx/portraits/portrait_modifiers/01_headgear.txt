@@ -1004,12 +1004,13 @@ headgear = {
 					}
 				}
 			}
-			modifier = {
-				factor = 0
-				NOT = {
-					has_ep1_dlc_trigger = yes
-				}
-			}
+			# CFP: we remove the DLC check as the model is overwritten
+			# modifier = {
+				# factor = 0
+				# NOT = {
+					# has_ep1_dlc_trigger = yes
+				# }
+			# }
 		}
 	}
 
