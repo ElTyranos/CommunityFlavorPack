@@ -19,7 +19,7 @@ entity = {
         portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/iberian/cfp_bonnet_low_01/iberian_cfp_bonnet_low_01_masks.dds"
-				variation = "western_nobility_low_01"
+				variation = "fp2_iberian_christian_low_headgear_01"
 			}
 		}
 	}
