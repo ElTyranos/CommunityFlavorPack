@@ -1198,13 +1198,7 @@ headgear = {
                 # template = nose_forward_neg                
                 # value = 1.0
             # }
-            morph = {
-                mode = add
-                gene = gene_bs_ear_outward
-                template = ear_outward_neg
-                value = 1.0
-            }
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
