@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -6221,7 +6221,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_fp2_iberian_christian_clothing_trigger = yes
+							cfp_portrait_iberian_christian_clothing_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
 						}
 						AND = {
 							exists = primary_spouse
@@ -6236,14 +6236,14 @@ headgear = {
 								}
 								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 								NOT = { has_government = republic_government }
-								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
+								cfp_portrait_iberian_christian_clothing_spouse_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier = tier_kingdom
-					portrait_fp2_iberian_christian_clothing_trigger = yes
+					cfp_portrait_iberian_christian_clothing_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
 				}
 			}
 		}

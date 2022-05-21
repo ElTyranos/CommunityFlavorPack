@@ -36,9 +36,10 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = fp2_christian_royalty
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
+		# FP2 model is overwritten by CFP
+		# is_valid_custom = {
+			# has_fp2_dlc_trigger = yes
+		# }
 	}
 
 	add_accessory_modifiers = {
@@ -309,10 +310,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = iberian_high_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iberian_castilian_royalty
 	}
 	add_accessory_modifiers = {
 		gene = headgear
