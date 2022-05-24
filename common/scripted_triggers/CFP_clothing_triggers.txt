@@ -349,6 +349,77 @@ cfp_portrait_tibetan_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_tibetan
 }
 
+## JEWISH
+portrait_jewish_western_clothing_trigger = {
+	is_male = yes
+	is_landed = no
+	OR = {
+		religion = religion:judaism_religion
+		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+	}
+	OR = {
+		trigger_if = {
+			limit = { exists = host.capital_province }
+			host.capital_province = { geographical_region = world_europe_west }
+		}
+		trigger_if = {
+			limit = { exists = liege.capital_province }
+			liege.capital_province = { geographical_region = world_europe_west  }
+		}
+		trigger_if = {
+			limit = { exists = location.province_owner.capital_province }
+			location.province_owner.capital_province = { geographical_region = world_europe_west }
+		}
+	}
+}
+portrait_jewish_mena_clothing_trigger = {
+	is_male = yes
+	is_landed = no
+	OR = {
+		religion = religion:judaism_religion
+		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+	}
+	OR = {
+		trigger_if = {
+			limit = { exists = host.capital_province }
+			host.capital_province = { geographical_region = world_middle_east }
+		}
+		trigger_if = {
+			limit = { exists = liege.capital_province }
+			liege.capital_province = { geographical_region = world_middle_east  }
+		}
+		trigger_if = {
+			limit = { exists = location.province_owner.capital_province }
+			location.province_owner.capital_province = { geographical_region = world_middle_east }
+		}
+	}
+}
+portrait_jewish_andalusian_clothing_trigger = {
+	is_male = yes
+	is_landed = no
+	OR = {
+		religion = religion:judaism_religion
+		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+	}
+	OR = {
+		trigger_if = {
+			limit = { exists = host.capital_province }
+			host.capital_province = { geographical_region = world_europe_west_iberia }
+		}
+		trigger_if = {
+			limit = { exists = liege.capital_province }
+			liege.capital_province = { geographical_region = world_europe_west_iberia  }
+		}
+		trigger_if = {
+			limit = { exists = location.province_owner.capital_province }
+			location.province_owner.capital_province = { geographical_region = world_europe_west_iberia }
+		}
+	}
+}
+portrait_jewish_clothing_contents_trigger = {
+	has_cultural_pillar = heritage_israelite
+}
+
 ## wear_helmet_trigger but for dukes
 cfp_portrait_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	exists = this
