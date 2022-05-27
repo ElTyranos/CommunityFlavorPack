@@ -1860,7 +1860,7 @@ headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = iberian_nobility
+				template = iberian_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}

@@ -268,6 +268,7 @@ accessory_genes = {
 				1 = male_headgear_secular_western_cfp_royalty_03
 				1 = male_headgear_secular_western_cfp_royalty_01
 				1 = male_headgear_secular_western_cfp_royalty_02
+				1 = male_headgear_secular_western_cfp_royalty_04
 			}
 			female = {
 				1 = female_headgear_secular_western_royalty_01
@@ -275,6 +276,7 @@ accessory_genes = {
 				1 = female_headgear_secular_western_cfp_royalty_03
 				1 = female_headgear_secular_western_cfp_royalty_01
 				1 = female_headgear_secular_western_cfp_royalty_02
+				1 = female_headgear_secular_western_cfp_royalty_04
 			}
 			boy = male
             girl = female
@@ -2214,7 +2216,7 @@ accessory_genes = {
             girl = female
 		}
 
-		iberian_nobility = {
+		iberian_low_nobility = {
 			index = 132
 			male = {
 				1 = male_headgear_secular_iberian_cfp_bonnet_low_01
