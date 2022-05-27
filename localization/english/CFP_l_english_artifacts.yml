@@ -6,9 +6,6 @@ artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
 artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Telle du Conquest"
 artifact_cfp_bayeux_tapestry_description:0 "Merely a few meters from a tapestry of much magnificence. In a place named Hastings he removed his helmet to rally his troops. So [owner.GetFullNameRegnal] prevailed and became the Conqueror of England, his rightful heritage under God."
 
-artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Holy Lance"
-artifact_cfp_holy_lance_description:0 "Said to belong to Saint Longinus, this spear pierced Christ's side and is stained with his holy blood. The nail embedded in the tip was used for his Crucificion."
-
 artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Skull Cup"
 artifact_cfp_krum_skull_cup_description:0 "After his death in battle near [location.GetName], [killed.GetFullNameNoTooltipRegnal] had his skull lined with gold and used as a drinking cup by [creator.GetFullNameNoTooltipRegnal]."
 

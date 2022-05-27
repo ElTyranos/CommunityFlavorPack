@@ -9,14 +9,6 @@
 	same_culture_opinion = 10
 }
 
-cfp_holy_lance_modifier = {
-	court_grandeur_baseline_add = 6
-	domain_tax_same_faith_mult = 0.15
-	clergy_opinion = 5
-	monthly_dynasty_prestige_mult = 0.05
-	monthly_piety = 2
-}
-
 cfp_krum_skull_cup_modifier = {
 	court_grandeur_baseline_add = 3
 	monthly_dynasty_prestige_mult = 0.05

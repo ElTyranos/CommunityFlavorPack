@@ -6,9 +6,6 @@ artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! 주와이외즈"
 artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! 텔레 뒤 콩케트"
 artifact_cfp_bayeux_tapestry_description:0 "웅장한 길이의 태피스트리 중 일부를 보여주고 있습니다. 헤이스팅스 지역에서 [owner.GetFullNameRegnal]는(은) 자신의 군대를 규합하기 위해 투구를 벗은 채 지휘했습니다. 그 결과, 그는 승리했고 하느님의 가호 아래에서 잉글랜드의 정복자가 될 수 있었습니다."
 
-artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! 성창"
-artifact_cfp_holy_lance_description:0 "성 롱기누스의 창으로 여겨지는 이 창은 그리스도의 옆구리를 찔렀을 때 흘러나오는 그리스도의 피로 얼룩져있습니다. 창의 끝부분에 박혀있는 못은 그리스도의 십자가형 당시에 사용되었던 못으로 여겨집니다."
-
 artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] 해골 술잔"
 artifact_cfp_krum_skull_cup_description:0 "[location.GetName] 근교의 전투에서 사망한 이후, [killed.GetFullNameNoTooltipRegnal]의 해골은 도금되어 [creator.GetFullNameNoTooltipRegnal]의 술잔으로 사용되었습니다."
 
