@@ -47,15 +47,3 @@
  cfp_artifact.0009.t:0 "Le sculpteur local a un don"
  cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] revient vous présenter le fruit de son labeur. Vous inspectez la statue des pieds à la tête. \n\nIl s'agit de la vierge Marie. Ses mains sont jointes dans la prière, ses yeux fermés. La sculpture est belle, avec un voile complexe qui couvre sa tête et tombe sur ses épaules. C'est ainsi que tout le monde devrait la voir en écoutant la liturgie."
  cfp_artifact.0009.a:0 "Je vous veux à ma cour pour que nos noms soient liés !"
- 
- ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
- cfp_artifact.0011.t:0 "Un jeu d'échecs"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] parle lors du conseil. \n\n"Je réalise des progrès dans ma tâche de former nos hommes. Cependant, puis-je suggérer que la cour investisse dans un jeu innovant afin de fournir à nos armées d'excellents commandants ? C'est le jeu d'échecs. On dit qu'il a aidé de nombreux généraux à l'emporter par la stratégie.""
- cfp_artifact.0011.a:0 "La guerre n'est pas un jeu, retournez au travail."
- cfp_artifact.0011.b:0 "Toute innovation qui rend nos hommes meilleurs et bonne à prendre."
- cfp_artifact.0011.c:0 "C'est vrai, j'y ai joué une ou deux fois enfant, je veux un bel échiquier."
- 
- cfp_artifact.0012.desc:0 "Monseigneur, j'ai trouvé cet échiquier au marché. Il est plutôt fruste mais il ne manque pas de pièces. \n\nJe ne parlais pas la langue du vendeur qui me l'a vendu, mais je crois que j'ai compris les règles. Avec de la chance, ce jeu nous aidera à l'emporter à la bataille."
- cfp_artifact.0013.desc:0 "Monseigneur, dès que vous avez approuvé l'idée, j'ai commandé un échiquier à un artisan étranger. \n\nBien qu'il ait fallu du temps pour acquérir les pigments nécessaires, ce jeu est magnifique. Je ne parlais pas la langue de cet homme et [steward.GetFullNameNoTooltipRegnal] ne parvenait pas à trouver un interprète. \n\nPourtant, je crois que j'ai compris les règles. Ce jeu nous aidera surement quant à l'art de guerroyer."
- cfp_artifact.0012.a:0 "Bon travail, [marshal.GetFirstNameNoTooltip] !"
- 

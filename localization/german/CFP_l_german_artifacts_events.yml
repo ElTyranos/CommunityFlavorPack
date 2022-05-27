@@ -47,15 +47,3 @@
  cfp_artifact.0009.t:0 "Örtlicher Bildhauer ist talentiert"
  cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] kommt mit dem Ergebnis seiner Arbeit zurück. Du untersuchst die Statue von Kopf bis Fuß. \n\nEs ist die Jungfrau Maria. Ihre Hände sind im Gebet verschränkt und ihre Augen geschlossen. Die Skulptur ist präzise gestaltet, mit einem komplexen Schleier, der Marias Kopf bedeckt und über ihre Schultern fällt. So sollte sie jeder wahrnehmen, wenn er der Liturgie lauscht."
  cfp_artifact.0009.a:0 "Ich werde dich an meinem Hof holen, damit du für meinen Namen werben kannst!"
- 
- ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
- cfp_artifact.0011.t:0 "Ein Schachspiel"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] spricht mit dem Rat. \n\n"Ich mache ordentliche Fortschritte bei meiner Aufgabe, unsere Männer zu schulen. Dürfte ich dem Hof jedoch vielleicht vorschlagen, in ein etwas innovativeres Spiel zu investieren, um unsere Armeen mit hervorragenden Generälen auszustatten? Das hier ist ein Schachspiel. Es heißt, dass Schach vielen Generälen geholfen hat, durch Strategie den Sieg in der Schlacht zu erringen.""
- cfp_artifact.0011.a:0 "Krieg ist kein Spiel, zurück an die Arbeit."
- cfp_artifact.0011.b:0 "Jegliche Innovation die unsere Männer besser macht sollte ausgenutzt werden."
- cfp_artifact.0011.c:0 "Es stimmt. Ich habe es selbst ein oder zweimal während meiner Kindheit gespielt. Wir sollten in ein gutes Schachspiel investieren."
- 
- cfp_artifact.0012.desc:0 "Mein Herr, ich habe dieses Schachspiel auf dem örtlichen Markt gefunden. Es sieht ziemlich unscheinbar aus, aber es fehlen keine Figuren. \n\nIch habe zwar nicht die Sprache des Händlers gesprochen, der es mir verkauft hat, aber ich glaube, ich habe die Regeln begriffen. Hoffentlich wird dieses Spiel dazu beitragen, den Sieg in der Schlacht zu erringen."
- cfp_artifact.0013.desc:0 "Mein Herr, sobald Sie die Idee gebilligt hatten, gelang es mir ein wunderschönes Schachspiel bei einem ausländischen Kunsthandwerker bestellen. \n\nEs hat zwar lange gedauert, die Pigmente zu beschaffen, aber dieses Schachspiel sieht prachtvoll aus. Ich habe nicht die Sprache des Mannes gesprochen und [steward.GetFullNameNoTooltipRegnal] konnte keinen Übersetzer finden. \n\nDennoch glaube ich, dass ich es geschafft habe die Regeln zu begreifen. Dieses Spiel wird uns sicherlich in der Kunst des Krieges unterstützen."
- cfp_artifact.0012.a:0 "Gute Arbeit, [marshal.GetFirstNameNoTooltip]!"
- 

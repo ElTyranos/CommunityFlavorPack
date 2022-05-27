@@ -47,15 +47,3 @@
  cfp_artifact.0009.t:0 "Local Sculptor is Gifted"
  cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] comes back with the product of his labor. You inspect the statue from head to toe. \n\nThis is Virgin Mary. Her hands are joined in prayer and her eyes closed. The sculpting is sharp, with a complex veil covering Mary's head and falling over her shoulders. This is how everyone should see her when listening to the liturgy."
  cfp_artifact.0009.a:0 "I want you at my court so you can promote my name!"
- 
- ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
- cfp_artifact.0011.t:0 "A Game of Chess"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] speaks to the Council. \n\n"I am making decent progress in my task of training our men. However, may I suggest the court invest in a more innovative game in order to provide our armies with excellent commanders? This is a game of chess. Chess is said to have helped many generals achieve victory in battle through strategy.""
- cfp_artifact.0011.a:0 "War is not a game, get back to work."
- cfp_artifact.0011.b:0 "Any innovation that makes our men better should be exploited."
- cfp_artifact.0011.c:0 "It's true, I've played it once or twice during my childhood. We should invest in a nice set."
- 
- cfp_artifact.0012.desc:0 "My liege, I found this chess set at the local market. It looks rather basic but there are no missing pieces. \n\nI did not speak the tongue of the merchant who sold it to me, but I think I've figured out the rules. Hopefully, this game will help us achieve victory in battle."
- cfp_artifact.0013.desc:0 "My liege, as soon as you approved the idea, I managed to order a beautiful chess set from a foreign artisan. \n\nWhile it took a long time to gather the pigment, this chess set looks magnificent. I did not speak the tongue of the man and [steward.GetFullNameNoTooltipRegnal] could not find a translator. \n\nYet, I think I managed to understand the rules. This game will surely help us with the art of war."
- cfp_artifact.0012.a:0 "Good work, [marshal.GetFirstNameNoTooltip]!"
- 
