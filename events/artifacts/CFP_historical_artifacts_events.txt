@@ -66,39 +66,6 @@ cfp_historical_artifacts.0001 = {
 				has_dlc_feature = royal_court
 			}
 			while = {
-				count = 5
-				random_ruler = {
-					limit = {
-						has_royal_court = yes
-						NOR = {
-							has_character_flag = seeded_cfp_chess_set
-							location = { geographical_region = world_africa_west }
-							location = { geographical_region = world_africa_east }	
-							location = { geographical_region = world_africa_sahara }
-						}
-					}
-					if = {
-						limit = { exists = cp:councillor_marshal }
-						cp:councillor_marshal = { save_scope_as = marshal }
-					}
-					create_artifact_cfp_chess_set_effect = {
-						OWNER = this
-						MAKER = scope:marshal
-					}
-					add_character_flag = {
-						flag = seeded_cfp_chess_set
-						days = 3650
-					}
-				}
-			}
-		}
-		
-		if = {
-			limit = { 
-				NOT = { has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
-				has_dlc_feature = royal_court
-			}
-			while = {
 				count = 1
 				random_ruler = {
 					limit = {

@@ -1,4 +1,38 @@
-﻿pedestal_crown_iron = { # We use CFP model instead
+fp2_2p_chess_board = { # We add existing CFP model to vanilla chess system
+	icon = "artifact_icons_2way_chessboard.dds"
+	pedestal = "short"
+	# asset = fp2_chessboard_01_a_entity
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = iberian_building }
+			}
+		}
+		reference = fp2_chessboard_01_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = mena_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = steppe_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = indian_building }
+			}
+		}
+		reference = cfp_chess_set_01_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = mediterranean_building }
+			}
+		}
+		reference = cfp_chess_set_02_entity
+	}
+}
+
+pedestal_crown_iron = { # We use CFP model instead
 	icon = "artifact_cfp_crown_iron.dds"
 	support_type = "tall_pillow"
 	# asset = male_headgear_secular_ep1_crown_of_lombardy_artifact_entity

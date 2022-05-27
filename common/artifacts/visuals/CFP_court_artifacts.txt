@@ -1,31 +1,4 @@
-﻿## Games
-cfp_chess_set = {
-	default_type = pedestal
-	icon = "artifact_cfp_chess_set.dds"
-	pedestal = "tall_pillow"
-	asset = {
-		trigger = {
-			OR = {
-				artifact_should_use_gfx_type_trigger = { TYPE = mena_building }
-				artifact_should_use_gfx_type_trigger = { TYPE = steppe_building }
-				artifact_should_use_gfx_type_trigger = { TYPE = indian_building }
-			}
-		}
-		reference = cfp_chess_set_01_entity
-	}
-	asset = {
-		trigger = {
-			OR = {
-				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
-				artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
-				artifact_should_use_gfx_type_trigger = { TYPE = mediterranean_building }
-			}
-		}
-		reference = cfp_chess_set_02_entity
-	}
-}
-
-## Weapons
+﻿## Weapons
 cfp_kris_dagger = {
 	icon = "artifact_dagger.dds"
 	default_type = pedestal
