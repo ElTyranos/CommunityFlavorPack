@@ -16,6 +16,12 @@
 			has_fp2_dlc_trigger = yes
 		}
 	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = iberian_common
+	}
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -24,6 +30,12 @@
 			has_fp2_dlc_trigger = yes
 		}
 	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = iberian_low_nobility 
+	}
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -31,6 +43,12 @@
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
+	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = iberian_high_nobility
 	}
 
 	add_accessory_modifiers = {
@@ -41,6 +59,18 @@
 			# has_fp2_dlc_trigger = yes
 		# }
 	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = iberian_aragonese_royalty
+	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = iberian_war_aragonese_royalty
+	}
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -48,6 +78,12 @@
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
+	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = iberian_war
 	}
 
 	add_accessory_modifiers = {
@@ -88,6 +124,18 @@
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
+	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = andalusian_war
+	}
+	
+	add_accessory_modifiers = {
+		# CFP
+		gene = headgear
+		template = andalusian_war_high_nobility
 	}
 	
 	### EP1 ###
@@ -299,30 +347,6 @@
 		gene = headgear
 		template = latin_war
 	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iberian_common
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iberian_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iberian_high_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iberian_aragonese_royalty
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iberian_war_aragonese_royalty
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iberian_war
-	}
 	### /CFP ###
 
 	add_accessory_modifiers = {
@@ -476,14 +500,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = mena_war_high_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = andalusian_war
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = andalusian_war_high_nobility
 	}
 	add_accessory_modifiers = {
 		gene = headgear
