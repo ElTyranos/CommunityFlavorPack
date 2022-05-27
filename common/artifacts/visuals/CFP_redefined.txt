@@ -1,4 +1,4 @@
-fp2_2p_chess_board = { # We add existing CFP model to vanilla chess system
+﻿fp2_2p_chess_board = { # We add existing CFP model to vanilla chess system
 	icon = "artifact_icons_2way_chessboard.dds"
 	pedestal = "short"
 	# asset = fp2_chessboard_01_a_entity
@@ -38,7 +38,8 @@ pedestal_crown_iron = { # We use CFP model instead
 	# asset = male_headgear_secular_ep1_crown_of_lombardy_artifact_entity
 	asset = male_headgear_secular_latin_cfp_icol_01_artifact_entity
 }
-wall_shield = {
+
+wall_shield = { # We add new shields
 	icon = "artifact_wall_shield.dds"
 	default_type = wall_small
 	asset = {
@@ -47,6 +48,7 @@ wall_shield = {
 				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
 				# artifact_should_use_gfx_type_trigger = { TYPE = norse_building } # Redefined bellow
 				artifact_should_use_gfx_type_trigger = { TYPE = mediterranean_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = iberian_building }
 			}
 		}
 		reference = ep1_western_shield_01_a_entity
