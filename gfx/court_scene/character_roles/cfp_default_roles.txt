@@ -1,0 +1,52 @@
+﻿jester = {
+	effect = {
+		random = {
+			chance = 85
+			scope:ruler = {
+				if = {
+					limit = {
+						employs_court_position = court_jester_court_position
+						any_court_position_holder = {
+				        	type = court_jester_court_position
+							is_available_healthy_ai_adult = yes
+			        	}
+		        	}
+					random_court_position_holder = {
+						type = court_jester_court_position
+						limit = {
+							is_available_healthy_ai_adult = yes
+						}
+						add_to_list = characters
+					}
+				}
+			}
+		}
+		random = {
+			chance = 85
+			scope:ruler = {
+				if = {
+					limit = {
+						employs_court_position = court_musician_court_position
+						any_court_position_holder = {
+				        	type = court_musician_court_position
+							is_available_healthy_ai_adult = yes
+			        	}
+		        	}
+					random_court_position_holder = {
+						type = court_musician_court_position
+						limit = {
+							is_available_healthy_ai_adult = yes
+						}
+						add_to_list = characters
+					}
+				}
+			}
+		}
+	}
+	scripted_animation = { 
+		triggered_animation = {
+			trigger = { always = yes }
+			animation = { throne_room_bow_3 personality_irrational happiness shame throne_room_applaud_1 }
+		}
+	}
+}

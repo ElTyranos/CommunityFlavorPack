@@ -6,9 +6,6 @@ artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
 artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Teppich von Bayeux"
 artifact_cfp_bayeux_tapestry_description:0 "Lediglich ein paar Meter von dem Wandteppich von großer Pracht, an einem Ort namens Hastings setzte er seinen Helm ab, um seine Truppen zu sammeln. So setzte sich [owner.GetFullNameRegnal] durch und wurde zum Eroberer Englands, seinem rechtmäßigen Erbe unter Gott."
 
-artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Heilige Lanze"
-artifact_cfp_holy_lance_description:0 "Sie soll einst dem Heiligen Longinus gehört haben. Dieser Speer stach in Christus Körper und ist befleckt mit seinem heiligen Blut. Der in die Spitze eingearbeitete Nagel wurde für seine Kreuzigung genutzt."
-
 artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! [killed.GetTitledFirstNamePossessiveNoTooltip] Schädelbecher"
 artifact_cfp_krum_skull_cup_description:0 "Nach dem Tod in der Schlacht von [location.GetName], ließ [creator.GetFullNameNoTooltipRegnal] den Schädel von [killed.GetFullNameNoTooltipRegnal] mit Gold verzieren und nutzte ihn daraufhin als Trinkbecher."
 

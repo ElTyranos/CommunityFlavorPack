@@ -47,15 +47,3 @@
  cfp_artifact.0009.t:0 "El escultor local está dotado"
  cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] vuelve con el producto de su trabajo. Inspeccionas la estatua de pies a cabeza. \n\nEs la virgen María. Sus manos están unidas en oración y sus ojos cerrados. La escultura es nítida, con un complejo velo que cubre la cabeza de María y cae sobre sus hombros. Así es como todos deben verla al escuchar la liturgia."
  cfp_artifact.0009.a:0 "¡Te quiero en mi corte para que puedas promocionar mi nombre!"
- 
- ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
- cfp_artifact.0011.t:0 "Un juego de ajedrez"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal] habla al Consejo. \n\n"Estoy haciendo un progreso decente en mi tarea de entrenar a nuestros hombres. Sin embargo, ¿Puedo sugerir que la corte invierta en un juego más innovador para proporcionar a nuestros ejércitos excelentes comandantes? Este es un juego de ajedrez. Se dice que el ajedrez ayudó a muchos generales a lograr la victoria en la batalla a través de la estrategia.""
- cfp_artifact.0011.a:0 "La guerra no es un juego, volved al trabajo."
- cfp_artifact.0011.b:0 "Cualquier innovación que mejore a nuestros hombres debe ser explotada."
- cfp_artifact.0011.c:0 "Es cierto, lo he jugado una o dos veces durante mi infancia. Deberíamos invertir en un buen conjunto."
- 
- cfp_artifact.0012.desc:0 "Mi señor, encontré este juego de ajedrez en el mercado local. Parece bastante básico, pero no faltan piezas. \n\nNo hablo la lengua del comerciante que me lo vendió, pero creo que me he dado cuenta de las reglas. Con suerte, este juego nos ayudará a lograr la victoria en la batalla."
- cfp_artifact.0013.desc:0 "Mi señor, tan pronto como usted aprobó la idea, logré encargar un hermoso juego de ajedrez a un artesano extranjero. \n\nSi bien tomó mucho tiempo recolectar el pigmento, este juego de ajedrez se ve magnífico. No hablo la lengua del hombre y[steward.GetFullNameNoTooltipRegnal] no pudo encontrar un traductor. \n\nSin embargo, creo que logré entender las reglas. Este juego seguro que nos ayudará con el arte de la guerra."
- cfp_artifact.0012.a:0 "Buen trabajo, [marshal.GetFirstNameNoTooltip]!"
- 

@@ -47,15 +47,3 @@
  cfp_artifact.0009.t:0 "本地雕塑家才华横溢"
  cfp_artifact.0009.desc:0 "[sculptor.GetFullNameNoTooltip] 向我展示他努力雕塑的成果。你从头到脚检查这尊雕像。\n\n这是圣母玛利亚。她闭上了眼睛，双手在紧扣祈祷。雕塑的手工潇洒利落，还有一块雕工细腻的面纱，从玛利亚的头垂下，盖过她的肩膀。大家在听礼拜仪式时，都应看着这个雕像。"
  cfp_artifact.0009.a:0 "我要你留在我的宫廷，好让你宣扬我的名气！"
- 
- ## Your marshal thinks that a chess set would help, and you can prove yourself worthy
- cfp_artifact.0011.t:0 "象棋游戏"
- cfp_artifact.0011.desc:0 "[marshal.GetFullNameNoTooltipRegnal]向其他大臣们报告。\n\n“我在训练士兵方面的工作，进度尚算不错。可是，我能冒昧请求各位，能否花费引入一个具创新性的游戏训练，为我军训练出更优秀的军官？这游戏是象棋，据说帮助了不少将军在战场上以筹略打胜仗。”"
- cfp_artifact.0011.a:0 "战争岂可当作游戏？你别不务正业。"
- cfp_artifact.0011.b:0 "任何能使我军进步的新想法，也应好好加以利用。"
- cfp_artifact.0011.c:0 "说得没错。我小时候也有下个两盘棋。我们应该花费买个不错的棋盘。"
- 
- cfp_artifact.0012.desc:0 "大人，我在本地市场中找到了这棋盘。它手工没什么特别，但各棋子齐全。\n\n我不能说那店主的语言，但我觉得我能了解它的规则。希望这游戏能为我们在战场上带来胜利。"
- cfp_artifact.0013.desc:0 "大人，您同意我这念头后，我立刻成功从一名外国的艺术家，买下了一副漂亮的棋盘。虽然为了收集必需的颜料，花了不少时间，但这棋盘看起来实在非常标致。我不能说那艺术家的语言，[steward.GetFullNameNoTooltipRegnal]也为我找不到翻译。\n\n可是，我觉得我能了解它的规则。这游戏必定能令我们兵法有所改善。"
- cfp_artifact.0012.a:0 "做得好，[marshal.GetFirstNameNoTooltip]！"
- 

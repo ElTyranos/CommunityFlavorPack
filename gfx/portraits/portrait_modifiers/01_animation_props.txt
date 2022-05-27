@@ -16,6 +16,17 @@
 	
 	## /CFP
 
+	chancellor_fp2_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = fp2_iberian_muslim_scroll
+				value = 1.0
+			}
+		}
+	}
+
 	chancellor_fp1_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -38,6 +49,28 @@
 		}	
 	}
 
+	marshal_fp2_muslim_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = fp2_iberian_muslim_sword
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_fp2_christian_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = fp2_iberian_christian_sword
+				value = 1.0
+			}
+		}
+	}
+
 	marshal_fp1_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -58,6 +91,17 @@
 				value = 1.0
 			}
 		}	
+	}
+
+	spymaster_fp2_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = fp2_iberian_muslim_dagger
+				value = 1.0
+			}
+		}
 	}
 
 	spymaster_fp1_prop = {
@@ -104,6 +148,17 @@
 		}	
 	}
 
+	steward_fp2_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = fp2_steward_pouch
+				value = 1.0
+			}
+		}
+	}
+
 	steward_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -113,6 +168,28 @@
 				value = 1.0
 			}
 		}	
+	}
+
+	fp2_chess_piece_prop_left_hand = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = fp2_chess_piece_left_hand
+				value = 1.0
+			}
+		}
+	}
+
+	fp2_chess_piece_prop_right_hand = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = fp2_chess_piece_right_hand
+				value = 1.0
+			}
+		}
 	}
 
 	arrest_prop = {

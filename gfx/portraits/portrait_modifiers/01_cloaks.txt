@@ -233,7 +233,8 @@ cloaks = {
 				template = ep1_cloak_adventurer
 				range = { 0 1 }
 			}
-		}	
+		}
+		outfit_tags = { ep1_adventurer_cloak }
 		weight = {
 			base = 0
 			modifier = {
@@ -460,6 +461,7 @@ cloaks = {
 				NOR = {
 					portrait_wear_armor_trigger = yes
 					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
 					portrait_has_trait_trigger = { TRAIT = devoted }
 					AND = {
 						exists = primary_spouse
@@ -774,7 +776,9 @@ cloaks = {
 				}
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					any_controlled_faith = {
+						this = faith:orthodox
+					}
 				}
 				NOT = {
 					faith = {
@@ -787,6 +791,7 @@ cloaks = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				OR = {
@@ -839,6 +844,7 @@ cloaks = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
 					AND = { is_ruler = yes has_government = theocracy_government }
 				}
 				NAND = {
@@ -888,7 +894,7 @@ cloaks = {
 				faith = faith:catholic
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 				NOT = {
 					faith = {
@@ -925,8 +931,9 @@ cloaks = {
 #				NAND = {
 #					is_ruler = yes
 #					primary_title = {
-#						exists = controlled_faith
-#						controlled_faith = faith:catholic
+#						any_controlled_faith = {
+#							this = faith:catholic
+#						}
 #					}
 #				}
 #	        }

@@ -173,15 +173,59 @@ cfp_portrait_latin_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_latin
 }
 
-cfp_portrait_iberian_clothing_trigger = {
-	scope:culture = { cfp_portrait_iberian_clothing_contents_trigger = yes }
+## IBERIA
+cfp_portrait_iberian_christian_clothing_trigger = {
+	OR = {
+		scope:culture = { portrait_fp2_iberian_christian_clothing_contents_trigger = yes }
+		AND = {
+			is_landed = yes
+			religion = religion:christianity_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
+		}
+	}
 }
-cfp_portrait_iberian_clothing_spouse_trigger = {
-	culture = { cfp_portrait_iberian_clothing_contents_trigger = yes }
+cfp_portrait_iberian_christian_clothing_spouse_trigger = {
+	OR = {
+		culture = {
+			portrait_fp2_iberian_christian_clothing_contents_trigger = yes
+		}
+		AND = {
+			is_landed = yes
+			religion = religion:christianity_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
+		}
+	}
 }
-cfp_portrait_iberian_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_iberian
-	NOT = { has_clothing_gfx = mena_clothing_gfx }
+
+cfp_portrait_iberian_muslim_clothing_trigger = {
+	OR = {
+		scope:culture = { portrait_fp2_iberian_muslim_clothing_contents_trigger = yes }
+		AND = {
+			is_landed = yes
+			religion = religion:islam_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
+		}
+	}
+}
+cfp_portrait_iberian_muslim_clothing_spouse_trigger = {
+	OR = {
+		culture = {
+			portrait_fp2_iberian_muslim_clothing_contents_trigger = yes
+		}
+		AND = {
+			is_landed = yes
+			religion = religion:islam_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
+		}
+	}
 }
 
 ## MENA
@@ -203,19 +247,6 @@ cfp_portrait_berber_clothing_spouse_trigger = {
 }
 cfp_portrait_berber_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_berber
-}
-
-cfp_portrait_andalusian_clothing_trigger = {
-	scope:culture = { cfp_portrait_andalusian_clothing_contents_trigger = yes }
-}
-cfp_portrait_andalusian_clothing_spouse_trigger = {
-	culture = { cfp_portrait_andalusian_clothing_contents_trigger = yes }
-}
-cfp_portrait_andalusian_clothing_contents_trigger = {
-	OR = {
-		this = culture:andalusian
-		any_parent_culture_or_above = { this = culture:andalusian }
-	}
 }
 
 cfp_portrait_bedouin_clothing_trigger = {
@@ -316,6 +347,77 @@ cfp_portrait_tibetan_clothing_spouse_trigger = {
 }
 cfp_portrait_tibetan_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_tibetan
+}
+
+## JEWISH
+portrait_jewish_western_clothing_trigger = {
+	is_male = yes
+	is_landed = no
+	OR = {
+		religion = religion:judaism_religion
+		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+	}
+	OR = {
+		trigger_if = {
+			limit = { exists = host.capital_province }
+			host.capital_province = { geographical_region = world_europe_west }
+		}
+		trigger_if = {
+			limit = { exists = liege.capital_province }
+			liege.capital_province = { geographical_region = world_europe_west  }
+		}
+		trigger_if = {
+			limit = { exists = location.province_owner.capital_province }
+			location.province_owner.capital_province = { geographical_region = world_europe_west }
+		}
+	}
+}
+portrait_jewish_mena_clothing_trigger = {
+	is_male = yes
+	is_landed = no
+	OR = {
+		religion = religion:judaism_religion
+		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+	}
+	OR = {
+		trigger_if = {
+			limit = { exists = host.capital_province }
+			host.capital_province = { geographical_region = world_middle_east }
+		}
+		trigger_if = {
+			limit = { exists = liege.capital_province }
+			liege.capital_province = { geographical_region = world_middle_east  }
+		}
+		trigger_if = {
+			limit = { exists = location.province_owner.capital_province }
+			location.province_owner.capital_province = { geographical_region = world_middle_east }
+		}
+	}
+}
+portrait_jewish_andalusian_clothing_trigger = {
+	is_male = yes
+	is_landed = no
+	OR = {
+		religion = religion:judaism_religion
+		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+	}
+	OR = {
+		trigger_if = {
+			limit = { exists = host.capital_province }
+			host.capital_province = { geographical_region = world_europe_west_iberia }
+		}
+		trigger_if = {
+			limit = { exists = liege.capital_province }
+			liege.capital_province = { geographical_region = world_europe_west_iberia  }
+		}
+		trigger_if = {
+			limit = { exists = location.province_owner.capital_province }
+			location.province_owner.capital_province = { geographical_region = world_europe_west_iberia }
+		}
+	}
+}
+portrait_jewish_clothing_contents_trigger = {
+	has_cultural_pillar = heritage_israelite
 }
 
 ## wear_helmet_trigger but for dukes

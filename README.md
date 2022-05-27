@@ -7,7 +7,7 @@ Community Flavor Pack aims to add a lot of historical portrait accessories for y
 
 
 ### [Download on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2220098919)
-### [Download on Paradox Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=2220098919)
+### [Download on Paradox Mods](https://mods.paradoxplaza.com/mods/12560/Any)
 
 ## Useful links
 * [Wiki](https://wiki.communityflavorpack.com/)
@@ -16,9 +16,9 @@ Community Flavor Pack aims to add a lot of historical portrait accessories for y
 * [Discord](https://discord.gg/tmb7cXT)
 
 ## Licence:
-* No diffusion
+* No Diffusion
 * No Derivative Works
-* No modification
-* Non commercial
+* No Modification
+* Non Commercial
 
 [More informations about the licence in the wiki](http://wiki.communityflavorpack.com/pages/licence)

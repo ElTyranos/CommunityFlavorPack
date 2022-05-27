@@ -105,6 +105,14 @@ headgear = {
 				# Should still wear armor when going to war
 				NOT = { portrait_wear_armor_trigger = yes }
 			}
+			# No headgear for characters who sold their crown
+			modifier = {
+				add = 100
+				exists = this
+				has_character_flag = sold_crown_charmod
+				# Should still wear armor when going to war
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
 		}
 	}
 
@@ -996,12 +1004,13 @@ headgear = {
 					}
 				}
 			}
-			modifier = {
-				factor = 0
-				NOT = {
-					has_ep1_dlc_trigger = yes
-				}
-			}
+			# CFP: we remove the DLC check as the model is overwritten
+			# modifier = {
+				# factor = 0
+				# NOT = {
+					# has_ep1_dlc_trigger = yes
+				# }
+			# }
 		}
 	}
 
@@ -1189,13 +1198,7 @@ headgear = {
                 # template = nose_forward_neg                
                 # value = 1.0
             # }
-            morph = {
-                mode = add
-                gene = gene_bs_ear_outward
-                template = ear_outward_neg
-                value = 1.0
-            }
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
@@ -1822,32 +1825,32 @@ headgear = {
 				template = iberian_common
 				range = { 0 1 } # For the randomness to work correctly
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 75
+				add = 80
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_iberian_clothing_trigger = yes
+				cfp_portrait_iberian_christian_clothing_trigger = yes
 			}
 			modifier = {
-				add = 10
-				highest_held_title_tier < tier_county
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
+				add = 41 # Slightly higher
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
 						}
+					 	has_government = republic_government
+					 	AND = { is_ruler = yes has_government = theocracy_government }
 					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				cfp_portrait_iberian_clothing_spouse_trigger = yes
+				cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -1857,49 +1860,28 @@ headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = iberian_nobility
+				template = iberian_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 75
-				exists = this
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						highest_held_title_tier = tier_county
-						NOR = {
-							# has_dynasty = no
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 1
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					NOR = {
+						# has_dynasty = no
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
 						}
-						cfp_portrait_iberian_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
-							highest_held_title_tier = tier_county
-							NOR = {
-								# has_dynasty = no
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							cfp_portrait_iberian_clothing_spouse_trigger = yes
-						}
+						AND = { is_ruler = yes has_government = theocracy_government }
 					}
 				}
+				scope:highest_held_title_tier = tier_county
+				cfp_portrait_iberian_christian_clothing_trigger = yes
 			}
 		}
 	}
@@ -1912,33 +1894,16 @@ headgear = {
 				template = iberian_high_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 75
-				exists = this
-				portrait_can_use_noble_headgear_trigger = yes
-				OR = {
-					AND = {
-						OR = {
-							highest_held_title_tier = tier_duchy
-							AND = {
-								has_government = republic_government
-								primary_title.tier > 2
-							}
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						cfp_portrait_iberian_clothing_trigger = yes
-					}
-					AND = {
-						exists = primary_spouse
-						OR = {
-							is_ruler = no
-							highest_held_title_tier = tier_barony
-						}
-						primary_spouse = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
@@ -1947,38 +1912,32 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_iberian_clothing_spouse_trigger = yes
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							cfp_portrait_iberian_christian_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 2
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
+							}
 						}
 					}
 				}
-			}
-		}
-	}
-
-	iberian_castilian_royalty = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = iberian_castilian_royalty
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				exists = this
-				OR = {
-					AND = {
-						exists = primary_title
-						primary_title = title:k_castille
-					}
-					AND = {
-						exists = primary_title
-						primary_title = title:e_spain
-						has_title = title:k_castille
-					}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					cfp_portrait_iberian_christian_clothing_trigger = yes
 				}
 			}
 		}
@@ -2057,11 +2016,26 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 101 # slightly higher 
 				exists = this
-				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
-				portrait_wear_helmet_trigger = yes
-				cfp_portrait_iberian_clothing_trigger = yes
+				portrait_can_use_noble_headgear_trigger = yes
+				OR = { 
+					AND = {
+						has_council_position = councillor_marshal
+						OR = {
+							is_landed = no
+							primary_title.tier >= tier_duchy
+						}
+					}
+					AND = {
+						is_commanding_army = yes
+						AND = {
+							exists = primary_title
+							primary_title.tier >= tier_duchy
+						}
+					}
+				}
+				cfp_portrait_iberian_christian_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -2499,6 +2473,35 @@ headgear = {
 				            }
 				        }
 				    }
+				}
+			}
+		}
+	}
+
+	western_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { 
+			western_stealth
+			western_stealth_hood 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				has_character_flag = use_stealth_clothes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_mena_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
 				}
 			}
 		}
@@ -4038,11 +4041,11 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_andalusian_clothing_trigger = yes
+				cfp_portrait_iberian_muslim_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -4102,7 +4105,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				cfp_portrait_wear_helmet_high_noble_trigger = yes
-				cfp_portrait_andalusian_clothing_trigger = yes
+				cfp_portrait_iberian_muslim_clothing_trigger = yes
 				cfp_era_late_medieval_trigger = yes
 				
 				NOR = {
@@ -4628,9 +4631,36 @@ headgear = {
 			}
 		}
 	}
-	
 
-	
+	mena_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { 
+			mena_stealth
+			mena_stealth_hood 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				has_character_flag = use_stealth_clothes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
 ## DDE ABBASID ##
 
 	dde_abbasid_commoners = {
@@ -5752,6 +5782,514 @@ headgear = {
 		}
 	}
 
+## FP2 Iberian ##
+	fp2_iberian_muslim_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_muslim_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				exists = this
+				portrait_can_use_noble_headgear_trigger = no
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
+			modifier = {
+				add = 41 # Slightly higher
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
+						}
+					 	has_government = republic_government
+					 	AND = { is_ruler = yes has_government = theocracy_government }
+					}
+				}
+				portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
+			}
+		}
+	}
+
+	fp2_iberian_muslim_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_muslim_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					NOR = {
+						# has_dynasty = no
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
+				}
+				scope:highest_held_title_tier = tier_county
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
+		}
+	}
+
+	fp2_iberian_muslim_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_muslim_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_fp2_iberian_muslim_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 2
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					portrait_fp2_iberian_muslim_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	fp2_iberian_muslim_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_muslim_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_fp2_iberian_muslim_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_kingdom
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+								NOT = { has_government = republic_government }
+								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_kingdom
+					portrait_fp2_iberian_muslim_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	fp2_iberian_muslim_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_muslim_war_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101 # slightly higher 
+				exists = this
+				portrait_can_use_noble_headgear_trigger = yes
+				OR = { 
+					AND = {
+						has_council_position = councillor_marshal
+						OR = {
+							is_landed = no
+							primary_title.tier >= tier_duchy
+						}
+					}
+					AND = {
+						is_commanding_army = yes
+						AND = {
+							exists = primary_title
+							primary_title.tier >= tier_duchy
+						}
+					}
+				}
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+
+	fp2_iberian_christian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_christian_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { iberian_christian_shrimp_wrap }	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				exists = this
+				portrait_can_use_noble_headgear_trigger = no
+				portrait_fp2_iberian_christian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 41 # Slightly higher
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
+						}
+					 	has_government = republic_government
+					 	AND = { is_ruler = yes has_government = theocracy_government }
+					}
+				}
+				portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
+			}
+		}
+	}
+
+	fp2_iberian_christian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_christian_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					NOR = {
+						# has_dynasty = no
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
+				}
+				scope:highest_held_title_tier = tier_county
+				portrait_fp2_iberian_christian_clothing_trigger = yes
+			}
+		}
+	}
+
+	fp2_iberian_christian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_christian_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_fp2_iberian_christian_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_duchy
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 2
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_duchy
+					portrait_fp2_iberian_christian_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	fp2_iberian_christian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_christian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					portrait_can_use_noble_headgear_trigger = yes
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							cfp_portrait_iberian_christian_clothing_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_kingdom
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+								NOT = { has_government = republic_government }
+								cfp_portrait_iberian_christian_clothing_spouse_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_kingdom
+					cfp_portrait_iberian_christian_clothing_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
+				}
+			}
+		}
+	}
+
+	fp2_iberian_christian_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_christian_war_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101 # slightly higher 
+				exists = this
+				portrait_can_use_noble_headgear_trigger = yes
+				OR = { 
+					AND = {
+						has_council_position = councillor_marshal
+						OR = {
+							is_landed = no
+							primary_title.tier >= tier_duchy
+						}
+					}
+					AND = {
+						is_commanding_army = yes
+						AND = {
+							exists = primary_title
+							primary_title.tier >= tier_duchy
+						}
+					}
+				}
+				portrait_fp2_iberian_christian_clothing_trigger = yes
+				
+				NOR = {
+				    AND = {
+				        religion = religion:christianity_religion
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:christianity_religion
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+	
 ## FP1 NORSE ##
 
 	fp1_norse_commoners = {
@@ -7287,8 +7825,9 @@ headgear = {
 				NAND = {	
 					is_ruler = yes
 					primary_title = {
-						exists = controlled_faith
-						controlled_faith = faith:orthodox
+						any_controlled_faith = {
+							this = faith:orthodox
+						}
 					}
 				}
 				NOT = {
@@ -7318,7 +7857,7 @@ headgear = {
 				faith = faith:orthodox
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 				NOT = {
 					faith = {
@@ -7464,8 +8003,9 @@ headgear = {
 				cfp_era_late_medieval_trigger = yes
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
-					controlled_faith = faith:catholic
+					any_controlled_faith = {
+						this = faith:catholic
+					}
 				}
 				NOT = {
 					faith = {
@@ -7509,7 +8049,7 @@ headgear = {
 	        modifier = {
 	            add = 100
 				exists = this
-				faith = { religion_tag = christianity_religion }
+				religion = religion:christianity_religion
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
@@ -7544,7 +8084,7 @@ headgear = {
 					portrait_northern_clothing_trigger = yes
 					cfp_portrait_anglo_saxon_clothing_trigger = yes
 				}
-				faith = { religion_tag = christianity_religion }
+				religion = religion:christianity_religion
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
@@ -7598,7 +8138,7 @@ headgear = {
 				is_male = yes
 				is_adult = yes
 				current_date >= 1245.1.1
-				faith = { religion_tag = christianity_religion }
+				religion = religion:christianity_religion
 				OR = {
 					AND = {
 						is_vassal_of = title:k_papal_state.holder
@@ -7691,7 +8231,7 @@ headgear = {
 				religion = religion:christianity_religion
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 			}
 			modifier = {
@@ -7733,7 +8273,7 @@ headgear = {
 				religion = religion:christianity_religion
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 			}
 			modifier = {
@@ -7768,28 +8308,8 @@ headgear = {
 	        modifier = {
 				add = 20
 				exists = this
-				is_male = yes
-				religion = religion:judaism_religion
 				portrait_wear_armor_trigger = no
-				highest_held_title_tier < tier_county
-				OR = {
-					portrait_western_clothing_trigger = yes
-					portrait_northern_clothing_trigger = yes
-					portrait_byzantine_clothing_trigger = yes
-				}
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
-						}
-					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
-				}
+				portrait_jewish_western_clothing_trigger = yes
 			}
 	    }
 	}
@@ -7808,27 +8328,28 @@ headgear = {
 	        modifier = {
 				add = 20
 				exists = this
-				is_male = yes
-				religion = religion:judaism_religion
 				portrait_wear_armor_trigger = no
-				highest_held_title_tier < tier_county
-				OR = {
-					portrait_mena_clothing_trigger = yes
-					portrait_byzantine_clothing_trigger = yes
-				}
-				NOR = {
-					AND = {
-						exists = primary_spouse
-						primary_spouse = {
-							highest_held_title_tier > tier_county
-						}
-					}
-					AND = {
-						has_government = republic_government
-						primary_title.tier > 1
-					}
-					AND = { is_ruler = yes has_government = theocracy_government }
-				}
+				portrait_jewish_mena_clothing_trigger = yes
+			}
+	    }
+	}
+	
+	religious_jewish_common_andalusian = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = religious_jewish_common_andalusian
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 20
+				exists = this
+				portrait_wear_armor_trigger = no
+				portrait_jewish_andalusian_clothing_trigger = yes
 			}
 	    }
 	}
@@ -7890,7 +8411,7 @@ headgear = {
 				faith.religion = religion:judaism_religion
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 	        }
 	    }

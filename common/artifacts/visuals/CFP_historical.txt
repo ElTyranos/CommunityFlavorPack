@@ -8,12 +8,6 @@ cfp_sword_joyeuse = {
 	asset = cfp_sword_joyeuse_01_entity
 }
 
-cfp_holy_lance = {
-	icon = "artifact_cfp_holy_lance.dds"
-	pedestal = "tall"
-	asset = cfp_holy_lance_entity
-}
-
 cfp_trophy_skull_cup_01 = {
 	icon = "artifact_cfp_skull_cup.dds"
 	pedestal = "tall_pillow"

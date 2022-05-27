@@ -21,7 +21,7 @@ entity = {
         portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/andalusian/cfp_war_turban_01/andalusian_cfp_war_turban_01_masks.dds"
-				variation = "mena_common_01"
+				variation = "fp2_iberian_muslim_low_headgear_female_01"
 			}
 		}
 	}

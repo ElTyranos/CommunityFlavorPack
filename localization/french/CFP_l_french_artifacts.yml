@@ -6,9 +6,6 @@ artifact_cfp_joyeuse_name:0 "@cfp_icon_artifact! Joyeuse"
 artifact_cfp_bayeux_tapestry_name:0 "@cfp_icon_artifact! Telle du Conquest"
 artifact_cfp_bayeux_tapestry_description:0 "Seuls quelques mètres d'une tapisserie d'une grande beauté. Dans un lieu nommé Hastings, il retira son heaume pour rallier ses troupes. Alors [owner.GetFullNameRegnal] vainquit et devint le Conquérant de l'Angleterre, son héritage légitime devant Dieu."
 
-artifact_cfp_holy_lance_name:0 "@cfp_icon_artifact! Sainte Lance"
-artifact_cfp_holy_lance_description:0 "Elle aurait appartenu à Saint Longinus. Cette lance a percé le flanc du Christ et est maculée de son sang sacré. Le clou fiché dans la pointe a servi à sa crucifixion."
-
 artifact_cfp_krum_skull_cup_name:0 "@cfp_icon_artifact! Coupe en crâne de [killed.GetTitledFirstNamePossessiveNoTooltip]"
 artifact_cfp_krum_skull_cup_description:0 "Après sa mort au combat près de [location.GetName], [killed.GetFullNameNoTooltipRegnal] eut son crâne plaqué d'or et utilisé comme une coupe à boire [creator.GetFullNameNoTooltipRegnal]."
 
