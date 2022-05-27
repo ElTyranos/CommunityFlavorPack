@@ -89,6 +89,16 @@ texticon = {
 }
 
 texticon = {
+	icon = cfp_icon_ocher
+	iconsize = {
+		texture = "gfx/interface/icons/icon_cfp_ocher.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = cfp_icon_remove
 	iconsize = {
 		texture = "gfx/interface/icons/icon_cfp_remove.dds"
