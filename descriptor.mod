@@ -1,4 +1,4 @@
-version="3.0.9"
+version="3.1.0"
 tags={
 	"Historical"
 	"Portraits"
@@ -6,5 +6,5 @@ tags={
 }
 name="Community Flavor Pack"
 picture="thumbnail.png"
-supported_version="1.5.*"
+supported_version="1.6.*"
 remote_file_id="2220098919"
