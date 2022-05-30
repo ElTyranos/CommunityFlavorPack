@@ -1689,6 +1689,7 @@ accessory_genes = {
 			}
 			female = {
 				1 = female_headgear_secular_fp2_iberian_muslim_common_01
+				1 = female_headgear_secular_andalusian_cfp_common_01
 			}
 			boy = male
 			girl = female
@@ -1701,8 +1702,9 @@ accessory_genes = {
 				1 = male_headgear_secular_fp2_iberian_muslim_common_01_high
 			}
 			female = {
-				1 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low
-				1 = female_headgear_secular_fp2_iberian_muslim_nobility_01
+				2 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low
+				1 = female_headgear_secular_andalusian_cfp_low_01
+				2 = female_headgear_secular_fp2_iberian_muslim_nobility_01
 			}
 			boy = male
 			girl = female
@@ -1714,8 +1716,8 @@ accessory_genes = {
 				1 = male_headgear_secular_fp2_iberian_muslim_high_nobility_01
 			}
 			female = {
-				
-				1 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high
+				4 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high
+				1 = female_headgear_secular_andalusian_cfp_high_01
 			}
 			boy = male
 			girl = female

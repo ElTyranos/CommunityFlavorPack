@@ -312,6 +312,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_andalusian_cfp_war_nasal_02:1 "@cfp_icon_ocher! 장식된 안달루시아 투구(터번 없음)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_andalusian_cfp_war_nasal_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_andalusian_cfp_war_nasal_02$"
  
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_andalusian_cfp_common_01:0 "@cfp_icon_ocher! 안달루시아 머리밴드"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_andalusian_cfp_low_01:0 "@cfp_icon_ocher! 고귀한 안달루시아 머리띠"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_andalusian_cfp_high_01:0 "@cfp_icon_ocher! 자수 안달루시아 헤어밴드"
+ 
 ## Iranian
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_mail_coif_01:1 "@cfp_icon_green! 이란 미그하"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iranian_cfp_war_mail_coif_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_mail_coif_01$"

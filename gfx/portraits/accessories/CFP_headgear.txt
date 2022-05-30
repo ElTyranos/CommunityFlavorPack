@@ -969,6 +969,19 @@ female_headgear_secular_andalusian_cfp_war_sallet_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_andalusian_cfp_war_sallet_01_entity 	 }
 }
 
+female_headgear_secular_andalusian_cfp_common_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_andalusian_cfp_common_01_entity 	 }
+}
+female_headgear_secular_andalusian_cfp_low_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_andalusian_cfp_low_01_entity 	 }
+}
+female_headgear_secular_andalusian_cfp_high_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_andalusian_cfp_high_01_entity 	 }
+}
+
 ## Iranian
 male_headgear_secular_iranian_cfp_panel_common_01 = {
 	set_tags = "cap"
