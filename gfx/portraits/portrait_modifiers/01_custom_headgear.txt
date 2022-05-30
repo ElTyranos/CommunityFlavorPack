@@ -968,8 +968,9 @@
 		}
 	}
 
-	add_accessory_modifiers = {
-		gene = special_headgear_spectacles
-		template = spectacles
-	}
+	# CFP: why redundancy and list cluttering?
+	# add_accessory_modifiers = {
+		# gene = special_headgear_spectacles
+		# template = spectacles
+	# }
 }
