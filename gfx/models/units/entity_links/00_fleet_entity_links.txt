@@ -1,4 +1,4 @@
-default_fleet = {
+﻿default_fleet = {
 	type = fleet
 	entity = "unit_western_ship_01_cog_entity"
 }
@@ -28,7 +28,7 @@ cfp_byzantine_fleet = {
 
 cfp_mena_fleet = {
 	type = fleet
-	graphical_cultures = { mena_unit_gfx }
+	graphical_cultures = { sub_sahran_unit_gfx indian_unit_gfx }
 	entity = unit_mena_ship_01_dhow_entity
 }
 
