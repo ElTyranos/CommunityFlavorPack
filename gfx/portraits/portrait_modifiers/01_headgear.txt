@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -6211,6 +6211,16 @@ headgear = {
 					scope:highest_held_title_tier = tier_kingdom
 					cfp_portrait_iberian_christian_clothing_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
 				}
+			}
+			modifier = {
+				add = 101 # force Sancho crown for k_castille
+				exists = this
+				has_primary_title = title:k_castille
+			}
+			modifier = {
+				add = -101 # disable randomness if k_castille exists
+				exists = title:k_castille
+				NOT = { has_primary_title = title:k_castille }
 			}
 		}
 	}
