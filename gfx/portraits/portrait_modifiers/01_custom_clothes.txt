@@ -14,23 +14,7 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = fp2_muslim_commoner_clothes
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
 		template = fp2_christian_commoner_clothes
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = fp2_muslim_low_nobility_clothes
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
@@ -46,14 +30,6 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = fp2_muslim_high_nobility_clothes
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
 		template = fp2_christian_high_nobility_clothes
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
@@ -62,7 +38,15 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = fp2_muslim_war_nobility_clothes
+		template = fp2_christian_war_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_muslim_commoner_clothes
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
@@ -70,7 +54,23 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = fp2_christian_war_nobility_clothes
+		template = fp2_muslim_low_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_muslim_high_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_muslim_war_nobility_clothes
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
