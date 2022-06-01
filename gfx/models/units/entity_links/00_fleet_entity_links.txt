@@ -1,4 +1,4 @@
-﻿default_fleet = {
+default_fleet = {
 	type = fleet
 	entity = "unit_western_ship_01_cog_entity"
 }
@@ -9,25 +9,25 @@ fp1_norse_fleet = {
 	graphical_cultures = { norse_unit_gfx }
 	# graphical_cultures = { danish_coa_gfx norwegian_coa_gfx swedish_coa_gfx norse_coa_gfx }
 	# COAs are higher priority than norse_unit_gfx, setting them here allows a fall back on cfp_northern_fleet if DLC is not active
-	entity = "unit_fp1_ship_01_knarr_entity"
+	entity = unit_fp1_ship_01_knarr_entity
 }
 
 cfp_northern_fleet = {
 	type = fleet
 	graphical_cultures = { northern_unit_gfx }
 	# graphical_cultures = { norse_unit_gfx norman_coa_gfx anglo_saxon_coa_gfx }
-	entity = "unit_northern_ship_01_drakkar_entity"
+	entity = unit_northern_ship_01_drakkar_entity
 }
 
 cfp_byzantine_fleet = {
 	type = fleet
 	graphical_cultures = { eastern_unit_gfx }
 	# graphical_cultures = { byzantine_group_coa_gfx }
-	entity = "unit_byzantine_ship_01_dromon_entity"
+	entity = unit_byzantine_ship_01_dromon_entity
 }
 
 cfp_mena_fleet = {
 	type = fleet
 	graphical_cultures = { mena_unit_gfx }
-	entity = "unit_mena_ship_01_dhow_entity"
+	entity = unit_mena_ship_01_dhow_entity
 }
