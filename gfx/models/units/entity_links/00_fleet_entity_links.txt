@@ -31,3 +31,17 @@ cfp_mena_fleet = {
 	graphical_cultures = { mena_unit_gfx }
 	entity = unit_mena_ship_01_dhow_entity
 }
+
+fp2_mediterranean_fleet = {
+	requires_dlc_flag = the_fate_of_iberia
+	type = fleet
+	graphical_cultures = { iberian_christian_unit_gfx }
+	entity = unit_fp2_mediterranean_ship_01_entity
+}
+
+fp2_mena_fleet = {
+	requires_dlc_flag = the_fate_of_iberia
+	type = fleet
+	graphical_cultures = { mena_unit_gfx iberian_muslim_unit_gfx }
+	entity = unit_fp2_mena_ship_01_entity
+}
