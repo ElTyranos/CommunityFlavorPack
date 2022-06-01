@@ -6219,7 +6219,7 @@ headgear = {
 			}
 			modifier = {
 				add = -101 # disable randomness if k_castille exists
-				exists = title:k_castille
+				exists = title:k_castille.holder
 				NOT = { has_primary_title = title:k_castille }
 			}
 		}
