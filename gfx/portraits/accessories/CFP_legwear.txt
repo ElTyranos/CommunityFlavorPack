@@ -1,11 +1,14 @@
 ﻿## Western
 male_legwear_secular_western_cfp_war_plate_01 = {
+	set_tags = "shrink_legs"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_legwear_secular_western_cfp_war_plate_01_entity }
 }
 female_legwear_secular_western_cfp_war_plate_01 = {
+	set_tags = "shrink_legs"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_legwear_secular_western_cfp_war_plate_01_entity }
 }
 male_legwear_secular_western_cfp_pants_01 = {
+	set_tags = "shrink_legs"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_legwear_secular_western_cfp_pants_01_entity }
 }
 
