@@ -1662,7 +1662,7 @@ accessory_genes = {
 				1 = male_headgear_secular_iberian_cfp_castilian_royalty_01
 			}
 			female = {
-				# 1 = female_headgear_secular_fp2_iberian_christian_royalty_01
+				1 = female_headgear_secular_fp2_iberian_christian_royalty_01
 				1 = female_headgear_secular_iberian_cfp_castilian_royalty_01
 			}
 			boy = male
