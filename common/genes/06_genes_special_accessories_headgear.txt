@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -2741,6 +2741,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_catholic_cardinal = {
 			index = 171
 			male = {
@@ -2752,6 +2753,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_catholic_high_northern = {
 			index = 172
 			male = {
@@ -2763,6 +2765,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_catholic_pilgrim = {
 			index = 173
 			male = {
@@ -2775,6 +2778,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_orthodox_devoted = {
 			index = 174
 			male = {
@@ -2786,6 +2790,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_muslim_high_turkic = {
 			index = 175
 			male = {
@@ -2797,6 +2802,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_jewish_common_western = {
 			index = 176
 			male = {
@@ -2808,6 +2814,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_jewish_common_mena = {
 			index = 177
 			male = {
@@ -2820,6 +2827,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_jewish_common_andalusian = {
 			index = 178
 			male = {
@@ -2831,6 +2839,7 @@ accessory_genes = {
 			boy = male
             girl = female
 		}
+		
 		religious_buddhist_tibetan_mask = {
             index = 179
             male = {
