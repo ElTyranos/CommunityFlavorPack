@@ -553,7 +553,12 @@
  
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_common_01:0 "@cfp_icon_orange! Javanisch (Gemeine)"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothing_secular_western_cfp_war_nobility_01:1 "@cfp_icon! Westliche Rüstung (Keine Handschuhe)"
+ 
+ NO_MITTENS:1 "(Keine Handschuhe)"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01:1 "@cfp_icon_ocher! $PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_war_nobility_01$ $NO_MITTENS$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01:1 "@cfp_icon_ocher! $PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_war_nobility_01$ $NO_MITTENS$"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothing_secular_western_cfp_war_nobility_01:1 "@cfp_icon! $PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_nobility_01_low$ $NO_MITTENS$"
+ 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_cfp_devoted_01:1 "@cfp_icon_white! Benediktiner Kukulle"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_muslim_cfp_caliph_01:1 "@cfp_icon_white! Schwarze Imams Robe"
  
