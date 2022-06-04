@@ -1,4 +1,4 @@
-﻿# Tags:
+# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1959,16 +1959,21 @@ headgear = {
 				exists = this
 				OR = {
 					AND = {
-						exists = primary_title
-						has_title = title:k_aragon
+						exists = this
+						has_primary_title = title:k_aragon
 					}
 					AND = {
 						exists = primary_title
-						primary_title = title:e_spain
+						has_primary_title = title:e_spain
 						has_title = title:k_aragon
 					}
 				}
 			}
+			# modifier = {
+				# add = -101 # disable randomness if k_aragon exists
+				# exists = title:k_aragon.holder
+				# NOT = { has_primary_title = title:k_aragon }
+			# }
 		}
 	}
 
@@ -1991,12 +1996,12 @@ headgear = {
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				OR = {
 					AND = {
-						exists = primary_title
-						has_title = title:k_aragon
+						exists = this
+						has_primary_title = title:k_aragon
 					}
 					AND = {
 						exists = primary_title
-						primary_title = title:e_spain
+						has_primary_title = title:e_spain
 						has_title = title:k_aragon
 					}
 				}
