@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -1940,6 +1940,40 @@ headgear = {
 					cfp_portrait_iberian_christian_clothing_trigger = yes
 				}
 			}
+		}
+	}
+
+	iberian_castilian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = iberian_castilian_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				OR = {
+					AND = {
+						exists = this
+						has_primary_title = title:k_castille
+					}
+					AND = {
+						exists = primary_title
+						has_primary_title = title:e_spain
+						has_title = title:k_castille
+					}
+				}
+			}
+			# modifier = {
+				# add = -101 # disable randomness if k_castille exists
+				# exists = title:k_castille.holder
+				# NOT = { has_primary_title = title:k_castille }
+			# }
 		}
 	}
 
@@ -6192,7 +6226,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							cfp_portrait_iberian_christian_clothing_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
+							portrait_fp2_iberian_christian_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -6207,25 +6241,15 @@ headgear = {
 								}
 								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
 								NOT = { has_government = republic_government }
-								cfp_portrait_iberian_christian_clothing_spouse_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
+								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier = tier_kingdom
-					cfp_portrait_iberian_christian_clothing_trigger = yes # CFP: we overwrite FP2 trigger because we use our own model
+					portrait_fp2_iberian_christian_clothing_trigger = yes
 				}
-			}
-			modifier = {
-				add = 101 # force Sancho crown for k_castille
-				exists = this
-				has_primary_title = title:k_castille
-			}
-			modifier = {
-				add = -101 # disable randomness if k_castille exists
-				exists = title:k_castille.holder
-				NOT = { has_primary_title = title:k_castille }
 			}
 		}
 	}
