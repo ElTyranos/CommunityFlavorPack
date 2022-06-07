@@ -1658,7 +1658,8 @@ accessory_genes = {
 		fp2_christian_royalty = {
 			index = 95
 			male = {
-				1 = male_headgear_secular_fp2_iberian_christian_royalty_01
+				# 1 = male_headgear_secular_fp2_iberian_christian_royalty_01 # we replace sancho crown by Don's Crown
+				1 = male_headgear_secular_fp2_iberian_christian_cfp_royalty_01
 			}
 			female = {
 				1 = female_headgear_secular_fp2_iberian_christian_royalty_01
