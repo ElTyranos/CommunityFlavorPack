@@ -2253,7 +2253,7 @@ accessory_genes = {
             girl = female
 		}
 		
-		iberian_castilan_royalty = {
+		iberian_castilian_royalty = {
 			index = 135
 			male = {
 				1 = male_headgear_secular_iberian_cfp_castilian_royalty_01

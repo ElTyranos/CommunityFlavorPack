@@ -62,7 +62,7 @@
 	add_accessory_modifiers = {
 		# CFP
 		gene = headgear
-		template = iberian_castilan_royalty
+		template = iberian_castilian_royalty
 	}
 	
 	add_accessory_modifiers = {
