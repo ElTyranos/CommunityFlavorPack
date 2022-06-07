@@ -1367,7 +1367,7 @@ latin_venetian_royalty = {
 				add = 101
 				exists = this				
 				NOT = { is_female = yes }
-				primary_title = title:k_venice
+				has_primary_title = title:k_venice
 			}
 		}
 	}

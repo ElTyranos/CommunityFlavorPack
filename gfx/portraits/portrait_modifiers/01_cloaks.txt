@@ -53,7 +53,7 @@ cloaks = {
 					has_government = theocracy_government
 					AND = { 
 						has_government = republic_government
-						NOT = { primary_title = title:k_venice }
+						NOT = { has_primary_title = title:k_venice }
 					}
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
@@ -319,7 +319,7 @@ cloaks = {
 					has_government = theocracy_government
 					AND = { 
 						has_government = republic_government
-						NOT = { primary_title = title:k_venice }
+						NOT = { has_primary_title = title:k_venice }
 					}
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes

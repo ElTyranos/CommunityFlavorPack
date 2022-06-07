@@ -1747,8 +1747,8 @@ headgear = {
 				exists = this
 				NOT = { is_female = yes }
 				AND = { 
-					exists = primary_title
-					primary_title = title:k_venice
+					exists = this
+					has_primary_title = title:k_venice
 				}
 			}
 		}
@@ -2397,12 +2397,12 @@ headgear = {
 				cfp_era_late_medieval_trigger = yes
 				OR = {
 					AND = {
-						exists = primary_title
-					primary_title = title:d_dyrrachion
+						exists = this
+						has_primary_title = title:d_dyrrachion
 					}
 					AND = {
-						exists = primary_title
-					primary_title = title:k_epirus
+						exists = this
+						has_primary_title = title:k_epirus
 					}
 				}
 			}
@@ -6692,8 +6692,8 @@ headgear = {
 					culture = { has_cultural_era_or_later = culture_era_early_medieval }
 				}
 				AND = {
-					exists = primary_title
-					primary_title = title:d_norfolk # East Anglia
+					exists = this
+					has_primary_title = title:d_norfolk # East Anglia
 				}
 			}
 		}
