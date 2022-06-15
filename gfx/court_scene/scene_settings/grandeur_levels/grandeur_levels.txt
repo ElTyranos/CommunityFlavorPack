@@ -70,7 +70,7 @@ cultures={ {
 	}
  {
 		culture="hre"
-		max_visual_culture_level = 1
+		max_visual_culture_level = 3
 		levels={ 
             {
                 grandeur_level = 20
