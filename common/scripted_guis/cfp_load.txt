@@ -1,0 +1,18 @@
+﻿clear_loaded_mods = {
+    effect = {
+        clear_global_variable_list = loaded_mods
+    }
+}
+
+cfp_load = {
+    effect = {
+        add_to_global_variable_list = {
+            name = loaded_mods
+            target = flag:cfp
+        }
+        if = {
+            limit = { exists = flag:cfp }
+        }
+        # this is to supress an error about a flag being set but not used
+    }
+}
