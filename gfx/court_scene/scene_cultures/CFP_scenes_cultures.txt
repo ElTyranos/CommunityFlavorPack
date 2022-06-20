@@ -11,6 +11,12 @@ hre = {
     }
 }
 
+byzantine = {
+	trigger = {
+		has_graphical_byzantine_culture_group_trigger = yes
+    }
+}
+
 norman = {
 	trigger = {
 		has_graphical_norman_culture_group_trigger = yes
@@ -82,6 +88,7 @@ mediterranean = {
 		}
 		NOR = {
 			has_graphical_papal_culture_group_trigger = yes
+			has_graphical_byzantine_culture_group_trigger = yes
 		}
 	}
 }

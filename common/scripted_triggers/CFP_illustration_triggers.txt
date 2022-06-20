@@ -9,6 +9,10 @@ has_graphical_hre_culture_group_trigger = {
 	}
 }
 
+has_graphical_byzantine_culture_group_trigger = {
+	has_title = title:e_byzantium
+}
+
 has_graphical_norman_culture_group_trigger = {
 	OR = {
 		capital_county.kingdom = title:k_england

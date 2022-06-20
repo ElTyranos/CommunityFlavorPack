@@ -83,6 +83,20 @@ cultures={ {
          }
 	}
  {
+		culture="byzantine"
+		max_visual_culture_level = 3
+		levels={ 
+            {
+                grandeur_level = 20
+                visual_culture_level = 1
+            }
+            {
+                grandeur_level = 50
+                visual_culture_level = 2
+            }
+         }
+	}
+ {
 		culture="norman"
 		max_visual_culture_level = 3
 		levels={ 
