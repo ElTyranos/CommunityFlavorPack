@@ -78,7 +78,16 @@ mediterranean = {
 	trigger = {
 		exists = capital_county
 		capital_county.culture = {
-			has_graphical_mediterranean_culture_group_trigger = yes
+			OR = {
+				has_graphical_mediterranean_culture_group_trigger = yes
+				AND = {
+					has_graphical_iberian_culture_group_trigger  = yes
+					NOR = {
+						prev.religion = religion:christianity_religion
+						prev.religion = religion:islam_religion
+					}
+				}
+			}
 		}
 		NOR = {
 			has_graphical_papal_culture_group_trigger = yes
