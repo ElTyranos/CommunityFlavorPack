@@ -3474,7 +3474,8 @@ latin_venetian_royalty = {
 				template = bust_clothes
 			}
 
-		}	
+		}
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -3504,7 +3505,8 @@ latin_venetian_royalty = {
 				template = bust_clothes
 			}
 
-		}	
+		}
+		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
