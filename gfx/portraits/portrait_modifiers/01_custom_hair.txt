@@ -22,6 +22,12 @@ custom_hair = {
                 exists = character:easteregg_joe_parkin
                 this = character:easteregg_joe_parkin
             }
+            modifier = {
+                add = 200
+                exists = this
+                exists = character:easteregg_alessandro_bragalini
+                this = character:easteregg_alessandro_bragalini
+            }
 		}
 	}
 
