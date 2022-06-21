@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -144,7 +144,7 @@ accessory_genes = {
                 1 = female_headgear_secular_dde_abbasid_high_nobility_01
                 1 = female_headgear_secular_dde_abbasid_common_02
                 1 = female_headgear_secular_dde_abbasid_war_nobility_01
-                1 = female_headgear_secular_dde_abbasid_royalty_01
+               	1 = female_headgear_secular_dde_abbasid_royalty_01
                 1 = female_headgear_secular_northern_war_nobility_01
                 1 = female_headgear_secular_northern_common_01
                 1 = female_headgear_secular_byzantine_high_nobility_01
