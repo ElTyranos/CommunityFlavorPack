@@ -1,7 +1,7 @@
 l_english:
 
 ## Headgears
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Pearl crown"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_01:1 "Pearl Crown"
  
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_imperial_01$"
  
@@ -16,7 +16,7 @@ l_english:
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_cfp_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_royalty_01$"
  
 ## Clothes
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:1 "No clothes"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:1 "No Clothes"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01$"
  
  PORTRAIT_MODIFIER_custom_clothes_cfp_male_clothes_western_bedchamber_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common$"
