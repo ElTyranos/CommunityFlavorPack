@@ -30,8 +30,7 @@
 
 ## Vanilla edits
 male_headgear_secular_northern_war_nobility_02 = {
-	set_tags = "no_hair"
-	set_tags = "hood_beard"
+	set_tags = "no_hair,hood_beard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nobility_02_entity 	 }
 }
 female_headgear_secular_northern_war_nobility_02 = {
