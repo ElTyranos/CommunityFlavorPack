@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -357,11 +357,11 @@ accessory_genes = {
 		western_stealth = {
 			index = 8
 			male = {
-				1 = male_clothes_situational_western_stealth_hood_01_common	
+				1 = male_clothes_situational_western_stealth_hood_01
 
 			}
 			female = {
-				1 = female_clothes_situational_western_stealth_hood_01_common
+				1 = female_clothes_situational_western_stealth_hood_01
 				
 			}
 			boy = male
@@ -484,11 +484,11 @@ accessory_genes = {
 		mena_stealth = {
 			index = 16
 			male = {
-				1 = male_clothes_situational_mena_stealth_hood_01_common
+				1 = male_clothes_situational_mena_stealth_hood_01
 				
 			}
 			female = {
-				1 = female_clothes_situational_mena_stealth_hood_01_common
+				1 = female_clothes_situational_mena_stealth_hood_01
 				
 			}
 			boy = male
@@ -640,10 +640,12 @@ accessory_genes = {
             index = 27
             male = {
                 1 = male_headgear_secular_dde_abbasid_high_nobility_01
+				# 1 = male_headgear_secular_dde_abbasid_common_01_high
             }
             female = {
             	1 = female_headgear_secular_mena_nobility_01
                 1 = female_headgear_secular_dde_abbasid_high_nobility_01
+				# 1 = female_headgear_secular_dde_abbasid_high_nobility_02
             }
         }	
 
