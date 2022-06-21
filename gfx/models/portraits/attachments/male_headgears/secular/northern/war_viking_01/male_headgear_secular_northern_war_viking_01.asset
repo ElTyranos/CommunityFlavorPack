@@ -18,7 +18,7 @@ pdxmesh = {
 		texture_diffuse = "male_headgear_secular_fp1_war_nobility_01_diffuse.dds"
 		texture_normal = "male_headgear_secular_fp1_war_nobility_01_normal.dds"
 		texture_specular = "male_headgear_secular_fp1_war_nobility_01_properties.dds"
-		shader = "portrait_attachment"
+		shader = "portrait_attachment_pattern"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 }
@@ -26,4 +26,13 @@ pdxmesh = {
 entity = {
 	name = "male_headgear_secular_northern_war_viking_01_entity"
 	pdxmesh = "male_headgear_secular_northern_war_viking_01_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/fp1/war_nobility_01/male_headgear_secular_fp1_war_nobility_01_masks.dds"
+				variation = "fp1_war_noble_01"	
+			}
+        }
+	}
 }
