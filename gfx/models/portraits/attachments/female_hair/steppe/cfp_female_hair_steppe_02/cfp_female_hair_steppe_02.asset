@@ -2,6 +2,14 @@ pdxmesh = {
 	name = "cfp_female_hair_steppe_02_mesh"
 	file = "cfp_female_hair_steppe_02.mesh"
 
+#	blend_shape = { id = "cfp_female_hair_steppe_02_bs_fat"					type = "cfp_female_hair_steppe_02_bs_fat.mesh" }
+	blend_shape = { id = "cfp_female_hair_steppe_02_bs_crown"				type = "cfp_female_hair_steppe_02_bs_crown.mesh" }
+	blend_shape = { id = "cfp_female_hair_steppe_02_bs_hat"					type = "cfp_female_hair_steppe_02_bs_hat.mesh" }
+	blend_shape = { id = "cfp_female_hair_steppe_02_bs_cap"					type = "cfp_female_hair_steppe_02_bs_cap.mesh" }
+	blend_shape = { id = "cfp_female_hair_steppe_02_bs_helmet"				type = "cfp_female_hair_steppe_02_bs_helmet.mesh" }	
+	blend_shape = { id = "cfp_female_hair_steppe_02_bs_hood"				type = "cfp_female_hair_steppe_02_bs_hood.mesh" }
+	blend_shape = { id = "cfp_female_hair_steppe_02_bs_chinstrap"			type = "cfp_female_hair_steppe_02_bs_chinstrap.mesh" }
+
 	meshsettings = {
 		name = "cfp_female_hair_steppe_02Shape"
 		index = 0
@@ -18,34 +26,13 @@ entity = {
 	name = "cfp_female_hair_steppe_02_entity"
 	pdxmesh = "cfp_female_hair_steppe_02_mesh"
 
-	game_data = {
-		portrait_entity_user_data = {
-			color_mask_remap_interval = {
-				interval = {0.0 1.0}
-			}
-		}
-	}
-}
-
-pdxmesh = {
-	name = "cfp_female_hair_steppe_02_cap_mesh"
-	file = "cfp_female_hair_steppe_02_cap.mesh"
-
-	meshsettings = {
-		name = "cfp_female_hair_steppe_02_capShape"
-		index = 0
-		texture_diffuse = "female_hair_steppe_02_diffuse.dds"
-		texture_normal = "female_hair_steppe_02_normal.dds"
-		texture_specular = "female_hair_steppe_02_properties.dds"
-		texture = { file = "black_ssao_color.dds" index = 3 }
-		shader = "portrait_hair"
-		shader_file = "gfx/FX/jomini/portrait.shader"
-	}
-}
-
-entity = {
-	name = "cfp_female_hair_steppe_02_cap_entity"
-	pdxmesh = "cfp_female_hair_steppe_02_cap_mesh"
+#	attribute = { name = "bs_fat_1_body"						blend_shape = "cfp_female_hair_steppe_02_bs_fat" }
+	attribute = { name = "bs_crown"								blend_shape = "cfp_female_hair_steppe_02_bs_crown" }
+	attribute = { name = "bs_hat"								blend_shape = "cfp_female_hair_steppe_02_bs_hat" }
+	attribute = { name = "bs_cap"								blend_shape = "cfp_female_hair_steppe_02_bs_cap" }
+	attribute = { name = "bs_helmet"							blend_shape = "cfp_female_hair_steppe_02_bs_helmet" }
+	attribute = { name = "bs_hood"								blend_shape = "cfp_female_hair_steppe_02_bs_hood" }
+	attribute = { name = "bs_chinstrap"							blend_shape = "cfp_female_hair_steppe_02_bs_chinstrap" }
 
 	game_data = {
 		portrait_entity_user_data = {

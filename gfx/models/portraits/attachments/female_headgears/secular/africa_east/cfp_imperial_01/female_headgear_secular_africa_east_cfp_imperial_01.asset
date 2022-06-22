@@ -30,7 +30,7 @@ entity = {
         portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/female_headgear/secular/western/nobility_03/female_headgear_secular_western_nobility_03_masks.dds"
-				variation = "western_nobility_high_01"
+				variation = "sub_saharan_nobility_high_headgear01"
 			}
 		}
 	}

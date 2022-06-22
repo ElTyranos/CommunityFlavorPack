@@ -241,9 +241,23 @@ cfp_portrait_iranian_clothing_contents_trigger = {
 
 cfp_portrait_berber_clothing_trigger = {
 	scope:culture = { cfp_portrait_berber_clothing_contents_trigger = yes }
+	NAND = {
+		is_landed = yes
+		religion = religion:islam_religion
+		capital_province = {
+			geographical_region = world_europe_west_iberia
+		}
+	}
 }
 cfp_portrait_berber_clothing_spouse_trigger = {
 	culture = { cfp_portrait_berber_clothing_contents_trigger = yes }
+	NAND = {
+		is_landed = yes
+		religion = religion:islam_religion
+		capital_province = {
+			geographical_region = world_europe_west_iberia
+		}
+	}
 }
 cfp_portrait_berber_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_berber

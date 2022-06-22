@@ -417,6 +417,23 @@
 			has_dlc = "Fashion of the Abbasid Court"
 		}
 	}
+	
+	## CFP Unlocked vanilla
+	add_accessory_modifiers = {
+		gene = clothes
+		template = mena_stealth
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = western_stealth
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+	
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes

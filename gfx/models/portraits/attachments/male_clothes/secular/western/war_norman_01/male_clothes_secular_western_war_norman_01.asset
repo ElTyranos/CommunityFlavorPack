@@ -35,7 +35,7 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/northern/war_nobility_01/male_clothes_secular_northern_war_nobility_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/western/war_norman_01/norman_armor_masks.dds"	
 				variation = "western_nobility_low_01"
 			}
 		}

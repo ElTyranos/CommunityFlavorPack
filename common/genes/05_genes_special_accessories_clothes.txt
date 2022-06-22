@@ -24,14 +24,14 @@ special_genes = {
 					1 = male_clothes_secular_western_nobility_02_common
 					1 = male_clothes_secular_western_nobility_03_high
 					1 = male_clothes_secular_western_nobility_03_low
-					1 = male_clothes_secular_western_nobility_03_common
+					1 = male_clothes_secular_western_nobility_03_common 
 					1 = male_clothes_secular_dde_hre_nobility_01_common
 					1 = male_clothes_secular_dde_hre_nobility_01_low
 					1 = male_clothes_secular_dde_hre_nobility_01_high
 					1 = male_clothes_secular_western_war_nobility_01_low
 					1 = male_clothes_situational_western_bedchamber_01_common
 					1 = male_clothes_situational_western_prison_01_common
-					1 = male_clothes_situational_western_stealth_cloak_01_common
+					1 = male_clothes_situational_western_stealth_cloak_01
 					1 = male_clothes_secular_crusades_western_war_nobility_01_common
 					1 = male_clothes_secular_crusades_western_war_nobility_02_common
 					1 = male_clothes_secular_crusades_western_war_nobility_03_common
@@ -103,10 +103,10 @@ special_genes = {
 					1 = male_clothes_religious_catholic_head_01
 					1 = male_clothes_religious_northern_high_01_common
 					1 = male_clothes_religious_african_high_01_common
-					1 = male_clothes_religious_hindu_devoted_01_common
-					1 = male_clothes_religious_buddhist_high_01_common
-					1 = male_clothes_religious_zoroastrian_high_01_common
-					1 = male_clothes_religious_jewish_head_01_common
+					1 = male_clothes_religious_hindu_devoted_01
+					1 = male_clothes_religious_buddhist_high_01
+					1 = male_clothes_religious_zoroastrian_high_01
+					1 = male_clothes_religious_jewish_head_01
 					1 = male_clothes_religious_steppe_high_01_common
 					1 = male_clothes_secular_fp1_common_01
 					1 = male_clothes_secular_fp1_common_02
@@ -140,14 +140,13 @@ special_genes = {
 					1 = female_clothes_secular_western_nobility_03_high
 					1 = female_clothes_secular_western_nobility_03_low
 					1 = female_clothes_secular_western_nobility_03_common
-					1 = female_clothes_secular_western_nobility_03_common
 					1 = female_clothes_secular_dde_hre_nobility_01_common
 					1 = female_clothes_secular_dde_hre_nobility_01_low	
 					1 = female_clothes_secular_dde_hre_nobility_01_high
 					1 = female_clothes_secular_western_war_nobility_01_low
 					1 = female_clothes_situational_western_bedchamber_01_common
 					1 = female_clothes_situational_western_prison_01_common
-					1 = female_clothes_situational_western_stealth_cloak_01_common
+					1 = female_clothes_situational_western_stealth_cloak_01
 					1 = female_clothes_secular_crusades_western_war_nobility_01_common
 					1 = female_clothes_secular_crusades_western_war_nobility_02_common
 					1 = female_clothes_secular_crusades_western_war_nobility_03_common
@@ -210,8 +209,8 @@ special_genes = {
 					1 = female_clothes_religious_catholic_devoted_01_common
 					1 = female_clothes_religious_northern_high_01_common
 					1 = female_clothes_religious_african_high_01_common
-					1 = female_clothes_religious_hindu_devoted_01_common
-					1 = female_clothes_religious_zoroastrian_high_01_common
+					1 = female_clothes_religious_hindu_devoted_01
+					1 = female_clothes_religious_zoroastrian_high_01
 					1 = female_clothes_religious_steppe_high_01_common
 					1 = female_clothes_secular_fp1_common_01
 					1 = female_clothes_secular_fp1_common_02
@@ -233,7 +232,6 @@ special_genes = {
 					1 = female_clothes_secular_fp2_iberian_christian_nobility_02_high
 					1 = female_clothes_secular_fp2_iberian_muslim_war_nobility_01
 					1 = female_clothes_secular_fp2_iberian_christian_war_nobility_01
-
 				}
 				
 				boy = male
@@ -420,11 +418,11 @@ special_genes = {
 				index = 10
 
 				male = {
-					1 = male_clothes_situational_western_stealth_cloak_01_common			
+					1 = male_clothes_situational_western_stealth_cloak_01			
 				}
 
 				female = {
-					1 = female_clothes_situational_western_stealth_cloak_01_common
+					1 = female_clothes_situational_western_stealth_cloak_01
 				}
 
 				boy = male
@@ -816,11 +814,11 @@ special_genes = {
 				index = 31
 
 				male = {
-					1 = male_clothes_situational_mena_stealth_01_common
+					1 = male_clothes_situational_mena_stealth_01
 				}
 
 				female = {
-					1 = female_clothes_situational_mena_stealth_01_common
+					1 = female_clothes_situational_mena_stealth_01
 				}
 
 				boy = male
@@ -1324,12 +1322,12 @@ special_genes = {
 				index = 59
 
 				male = {
-					1 = male_clothes_religious_northern_high_01_common
+					1 = male_clothes_religious_northern_high_01
 					
 				}
 
 				female = {
-					1 = female_clothes_religious_northern_high_01_common
+					1 = female_clothes_religious_northern_high_01
 				}
 
 				boy = male
@@ -1343,12 +1341,12 @@ special_genes = {
 				index = 60
 
 				male = {
-					1 = male_clothes_religious_hindu_devoted_01_common
+					1 = male_clothes_religious_hindu_devoted_01
 					
 				}
 
 				female = {
-					1 = female_clothes_religious_hindu_devoted_01_common
+					1 = female_clothes_religious_hindu_devoted_01
 				}
 
 				boy = male
@@ -1362,12 +1360,12 @@ special_genes = {
 				index = 61
 
 				male = {
-					1 = male_clothes_religious_hindu_devoted_01_common
+					1 = male_clothes_religious_hindu_devoted_01
 					
 				}
 
 				female = {
-					1 = female_clothes_religious_hindu_devoted_01_common
+					1 = female_clothes_religious_hindu_devoted_01
 				}
 
 				boy = male
@@ -1381,12 +1379,12 @@ special_genes = {
 				index = 62
 
 				male = {
-					1 = male_clothes_religious_buddhist_high_01_common
+					1 = male_clothes_religious_buddhist_high_01
 					
 				}
 
 				female = {
-					1 = female_clothes_religious_hindu_devoted_01_common
+					1 = female_clothes_religious_hindu_devoted_01
 				}
 
 				boy = male
@@ -1400,12 +1398,12 @@ special_genes = {
 				index = 63
 
 				male = {
-					1 = male_clothes_religious_zoroastrian_high_01_common
+					1 = male_clothes_religious_zoroastrian_high_01
 					
 				}
 
 				female = {
-					1 = female_clothes_religious_zoroastrian_high_01_common
+					1 = female_clothes_religious_zoroastrian_high_01
 				}
 
 				boy = male
@@ -1419,12 +1417,12 @@ special_genes = {
 				index = 64
 
 				male = {
-					1 = male_clothes_religious_jewish_head_01_common
+					1 = male_clothes_religious_jewish_head_01
 					
 				}
 
 				female = {
-					1 = female_clothes_religious_zoroastrian_high_01_common
+					1 = female_clothes_religious_zoroastrian_high_01
 				}
 
 				boy = male
@@ -1435,12 +1433,12 @@ special_genes = {
 				index = 65
 
 				male = {
-					1 = male_clothes_religious_jewish_high_01_common
+					1 = male_clothes_religious_jewish_high_01
 					
 				}
 
 				female = {
-					1 = female_clothes_religious_zoroastrian_high_01_common
+					1 = female_clothes_religious_zoroastrian_high_01
 				}
 
 				boy = male
