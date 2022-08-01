@@ -481,6 +481,7 @@ cloaks = {
 				highest_held_title_tier < tier_county
 				NOR = {
 					portrait_wear_armor_trigger = yes
+					has_court_position = court_jester_court_position
 					is_theocratic_lessee = yes
 					has_council_position = councillor_court_chaplain
 					portrait_has_trait_trigger = { TRAIT = devoted }
