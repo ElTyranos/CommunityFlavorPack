@@ -14,6 +14,34 @@ hre = {
 byzantine = {
 	trigger = {
 		has_graphical_byzantine_culture_group_trigger = yes
+		religion = religion:christianity_religion
+		NOT = { faith = faith:iconoclast }
+    }
+}
+
+byzantine_mena = {
+	trigger = {
+		has_graphical_byzantine_culture_group_trigger = yes
+		religion = religion:islam_religion
+    }
+}
+
+byzantine_pagan = {
+	trigger = {
+		has_graphical_byzantine_culture_group_trigger = yes
+		OR = { 
+			NOR = {
+				AND = {
+					religion = religion:christianity_religion
+					NOT = { faith = faith:iconoclast }
+				}
+				religion = religion:islam_religion
+			}
+			AND = {
+				religion = religion:christianity_religion
+				faith = faith:iconoclast
+			}
+		}
     }
 }
 
