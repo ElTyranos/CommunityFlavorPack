@@ -2041,6 +2041,10 @@ latin_venetian_royalty = {
 				}
 				portrait_dde_abbasid_clothing_trigger = yes
 			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
 		}
 	}
 
@@ -2114,6 +2118,10 @@ latin_venetian_royalty = {
 					portrait_dde_abbasid_clothing_trigger = yes
 				}
 			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
 		}
 	}
 
@@ -2186,6 +2194,10 @@ latin_venetian_royalty = {
 					portrait_dde_abbasid_clothing_trigger = yes
 				}
 			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
 		}
 	}
 
@@ -2219,6 +2231,10 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
 				portrait_wear_armor_currently_in_army_trigger = yes
+			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
 			}
 		}
 	}
@@ -2262,6 +2278,10 @@ latin_venetian_royalty = {
 				}
 				portrait_mena_clothing_trigger = yes
 			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
 		}
 	}
 
@@ -2288,6 +2308,10 @@ latin_venetian_royalty = {
 				scope:highest_held_title_tier < tier_county
 				scope:government = flag:republic_government
 				portrait_mena_clothing_trigger = yes
+			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
 			}
 		}
 	}
@@ -2363,6 +2387,10 @@ latin_venetian_royalty = {
 				}
 
 			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
 		}
 	}
 
@@ -2435,6 +2463,10 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 				}
 			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
 		}
 	}
 
@@ -2465,6 +2497,10 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
 				portrait_wear_armor_currently_in_army_trigger = yes
+			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
 			}
 		}
 	}
