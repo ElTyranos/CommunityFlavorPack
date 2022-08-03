@@ -2309,10 +2309,6 @@ latin_venetian_royalty = {
 				scope:government = flag:republic_government
 				portrait_mena_clothing_trigger = yes
 			}
-			modifier = {
-				add = -100
-				portrait_fp2_iberian_muslim_clothing_trigger = yes
-			}
 		}
 	}
 
