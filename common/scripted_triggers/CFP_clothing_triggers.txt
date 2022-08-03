@@ -274,6 +274,7 @@ cfp_portrait_bedouin_clothing_contents_trigger = {
 		this = culture:bedouin
 		any_parent_culture_or_above = { this = culture:bedouin }
 	}
+	NOT = { any_parent_culture_or_above = { this = culture:visigothic } }
 }
 
 cfp_portrait_egyptian_clothing_trigger = {

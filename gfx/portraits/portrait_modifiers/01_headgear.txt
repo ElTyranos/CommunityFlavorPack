@@ -4314,6 +4314,10 @@ headgear = {
 				}
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
 		}
 	}
 
@@ -4371,6 +4375,10 @@ headgear = {
 					}
 				}
 
+			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
 			}
 		}
 	}
