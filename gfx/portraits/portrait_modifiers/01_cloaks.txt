@@ -72,7 +72,8 @@ cloaks = {
 				template = no_cloak
 				range = { 0 1 }
 			}
-		}	
+		}
+		outfit_tags = { no_clothes }
 		weight = {
 			base = 0
 			modifier = {

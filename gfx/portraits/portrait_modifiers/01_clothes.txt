@@ -48,7 +48,7 @@ clothes = {
 			}
 
 		}
-		outfit_tags = { no_clothes }
+		outfit_tags = { no_clothes nightgown }
 		weight = {
 			base = 0
 			modifier = {
@@ -85,7 +85,7 @@ clothes = {
 			}
 
 		}	
-		outfit_tags = { no_clothes }
+		outfit_tags = { no_clothes nightgown }
 		weight = {
 			base = 0
 			modifier = {
@@ -1104,7 +1104,7 @@ clothes = {
 			}
 
 		}
-		outfit_tags = { western_crusades_white military_outfit }
+		outfit_tags = { western_crusades_white }
 		weight = {
 			base = 0
 			modifier = {
@@ -1172,7 +1172,7 @@ clothes = {
 			}
 
 		}
-		outfit_tags = { western_crusades_black military_outfit }
+		outfit_tags = { western_crusades_black }
 		weight = {
 			base = 0
 			modifier = {

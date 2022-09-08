@@ -730,9 +730,45 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			bp1_lantern = {
+				index = 59
+				male = {
+					1 = bp1_lantern
+				}
+				female = {
+					1 = bp1_lantern	
+				}
+				boy = male
+				girl = female
+			}
+
+			bp1_tankard = {
+				index = 60
+				male = {
+					1 = bp1_tankard
+				}
+				female = {
+					1 = bp1_tankard
+				}
+				boy = male
+				girl = female
+			}
+
+			bp1_goblet = {
+				index = 61
+				male = {
+					1 = bp1_goblet
+				}
+				female = {
+					1 = bp1_goblet
+				}
+				boy = male
+				girl = female
+			}
 			
 			javanese_spymasters_dagger = {
-				index = 59
+				index = 62
 				male = {
 					1 = cfp_kris_dagger_equipped_01
 				}
