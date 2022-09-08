@@ -1,4 +1,4 @@
-# We add existing CFP model to vanilla chess system
+﻿# We add existing CFP model to vanilla chess system
 fp2_2p_chess_board = {
 	icon = "artifact_icons_2way_chessboard.dds"
 	pedestal = "short"
@@ -77,4 +77,12 @@ wall_shield = {
 		trigger = {	artifact_should_use_gfx_type_trigger = { TYPE = norman_coa_gfx } }
 		reference = cfp_norman_shield_01_entity
 	}
+}
+
+# We add existing CFP model to vanilla class
+skull_goblet = {
+	icon = "artifact_goblet.dds"
+	asset = ep1_trophy_skull_goblet_entity
+	asset = cfp_trophy_skull_cup_01_entity
+	pedestal = "tall"
 }
