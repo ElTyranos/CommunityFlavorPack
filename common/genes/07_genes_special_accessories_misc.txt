@@ -1,4 +1,4 @@
-﻿
+
 
 special_genes = {
 
@@ -27,15 +27,15 @@ special_genes = {
 				}
 			}
 
-			grid = {
-				index = 1
-				male = {
-					1 = debug_grid_01
-				}
-				female = male
-				boy = male
-				girl = male
-			}
+	        grid = {
+	            index = 1
+	            male = {
+	                1 = debug_grid_01
+	            }
+	            female = male
+	            boy = male
+	            girl = male
+	        }
 
 			prison_shackles = {
 				index = 2
@@ -784,11 +784,11 @@ special_genes = {
 
 
 
-	#####################################
-	#									#
-	# 		  	   LEGWEAR 		        #
-	#									#
-	#####################################
+		#####################################
+		#									#
+		# 		  	   LEGWEAR 		        #
+		#									#
+		#####################################
 
 
 		
@@ -1010,6 +1010,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
 			western_royalty = {
 				index = 1
 				male = {
@@ -1064,7 +1065,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			all_cloaks = {
 				index = 5
 				male = {
