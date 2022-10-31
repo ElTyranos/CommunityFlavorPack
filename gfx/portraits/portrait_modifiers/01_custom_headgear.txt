@@ -1,4 +1,4 @@
-custom_headgear = {
+﻿custom_headgear = {
 	usage = customization
 	interface_position = 1
 
@@ -358,6 +358,13 @@ custom_headgear = {
 		gene = headgear
 		template = northern_common
 	}
+
+	########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = northern_high_nobility
+	}
+	########## /CFP ###########
 
 	add_accessory_modifiers = {
 		gene = headgear

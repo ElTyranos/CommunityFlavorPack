@@ -1349,12 +1349,14 @@ accessory_genes = {
 			male = {
 				3 = male_headgear_religious_northern_high_01
 				1 = male_headgear_secular_fp1_cfp_nobility_01
+				1 = male_headgear_secular_northern_cfp_high_nobility_01
 
 			}
 			female = {
 				1 = female_headgear_secular_fp1_nobility_01
 				1 = female_headgear_secular_fp1_nobility_02
 				1 = female_headgear_secular_fp1_nobility_03		
+				1 = female_headgear_secular_northern_cfp_high_nobility_01
 
 			}
 		}
@@ -2855,6 +2857,18 @@ accessory_genes = {
             }
             female = {
 				1 = female_headgear_secular_slavic_cfp_royalty_02
+            }
+            boy = male
+            girl = female
+        }
+		
+		northern_high_nobility = {
+            index = 182
+            male = {
+				1 = male_headgear_secular_northern_cfp_high_nobility_01
+            }
+            female = {
+				1 = female_headgear_secular_northern_cfp_high_nobility_01
             }
             boy = male
             girl = female

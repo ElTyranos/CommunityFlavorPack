@@ -118,6 +118,15 @@ female_headgear_secular_northern_war_viking_04 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_viking_04_entity 	 }
 }
 
+male_headgear_secular_northern_cfp_high_nobility_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_cfp_high_nobility_01_entity 	 }
+}
+female_headgear_secular_northern_cfp_high_nobility_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_cfp_high_nobility_01_entity 	 }
+}
+
 
 ## Nasals
 male_headgear_secular_northern_war_nasal_01 = {

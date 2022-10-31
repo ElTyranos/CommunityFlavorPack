@@ -1,4 +1,4 @@
-# Tags:
+﻿# Tags:
 # rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
 
 
@@ -5731,6 +5731,58 @@ headgear = {
 			}
 		}
 	}
+
+	northern_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = northern_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				exists = this
+				portrait_can_use_noble_headgear_trigger = yes
+				portrait_northern_clothing_trigger = yes
+				
+				
+				OR = {
+					highest_held_title_tier = tier_duchy
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							cfp_portrait_slavic_clothing_spouse_trigger = yes
+						}
+					}
+				}
+				
+				NOR = {
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+			}
+		}
+	}
+
 
 	northern_war = {
 		dna_modifiers = {
