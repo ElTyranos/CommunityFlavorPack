@@ -18,6 +18,12 @@ cfp_barbershop_unlocks = {
 	default_cfp_barbershop_unlocks = {}
 	never_cfp_barbershop_unlocks = {}
 }
+cfp_fantasy = {
+	default = default_cfp_fantasy
+	default_cfp_fantasy = {}
+	barbershop_cfp_fantasy = {}
+	ai_cfp_fantasy = {}
+}
 cfp_artifacts = {
 	default = default_cfp_artifacts
 	default_cfp_artifacts = {}
