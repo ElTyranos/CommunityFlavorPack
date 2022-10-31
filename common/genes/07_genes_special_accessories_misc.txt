@@ -767,7 +767,7 @@ special_genes = {
 				girl = female
 			}
 			
-			javanese_spymasters_dagger = {
+			cfp_javanese_dagger = {
 				index = 62
 				male = {
 					1 = cfp_kris_dagger_equipped_01
