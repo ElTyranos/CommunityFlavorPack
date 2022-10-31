@@ -1,3 +1,31 @@
 ﻿cfp_kris_dagger_equipped_01 = {
 	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "cfp_kris_dagger_01_portrait_entity" }
 }
+
+# Regalia
+cfp_globus_01 = {
+	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "portrait_prop_cfp_globus_01_entity" }
+}
+cfp_globus_02 = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "portrait_prop_cfp_globus_02_entity" }
+}
+cfp_scepter_01 = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "portrait_prop_cfp_scepter_01_entity" }
+}
+cfp_scepter_02 = {
+	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "portrait_prop_cfp_scepter_02_entity" }
+}
+
+# Fantasy
+cfp_potion_01 = {
+	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "portrait_prop_cfp_potion_01_entity" }
+}
+cfp_broom_01 = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "portrait_prop_cfp_broom_01_entity" }
+}
+cfp_cauldron_01 = {
+	entity = {	required_tags = ""        node = "bn_r_ftToe"		entity = "portrait_prop_cfp_cauldron_01_entity" }
+}
+cfp_bonfire_01 = {
+	entity = {	required_tags = ""        node = "bn_r_ftToe"		entity = "portrait_prop_cfp_bonfire_01_entity" }
+}

@@ -1,4 +1,4 @@
-﻿
+
 
 special_genes = {
 
@@ -778,6 +778,91 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			cfp_globus = {
+				index = 63
+				male = {
+					1 = cfp_globus_01
+				}
+				female = {
+					1 = cfp_globus_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_scepter = {
+				index = 64
+				male = {
+					1 = cfp_scepter_01
+				}
+				female = {
+					1 = cfp_scepter_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_scepter_regalia = {
+				index = 66
+				male = {
+					1 = cfp_scepter_02
+				}
+				female = {
+					1 = cfp_scepter_02
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_potion = {
+				index = 67
+				male = {
+					1 = cfp_potion_01
+				}
+				female = {
+					1 = cfp_potion_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_cauldron = {
+				index = 68
+				male = {
+					1 = cfp_cauldron_01
+				}
+				female = {
+					1 = cfp_cauldron_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_bonfire = {
+				index = 69
+				male = {
+					1 = cfp_bonfire_01
+				}
+				female = {
+					1 = cfp_bonfire_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_broom = {
+				index = 70
+				male = {
+					1 = cfp_broom_01
+				}
+				female = {
+					1 = cfp_broom_01
+				}
+				boy = male
+				girl = female
+			}
+			
 		}
 
 

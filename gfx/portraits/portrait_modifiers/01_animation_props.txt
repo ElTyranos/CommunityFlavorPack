@@ -3,12 +3,95 @@
 
 	## CFP
 	
-	spymaster_burmese_prop = {
+	cfp_javanese_dagger_prop = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = props
-				template = javanese_spymasters_dagger
+				template = cfp_javanese_dagger
+				value = 1.0
+			}
+		}
+	}
+
+	cfp_globus_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = cfp_globus
+				value = 1.0
+			}
+		}
+	}
+	
+	cfp_scepter_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = cfp_scepter
+				value = 1.0
+			}
+		}
+	}
+	
+	cfp_regalia_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = cfp_scepter_regalia
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_2
+				template = cfp_globus_regalia
+				value = 1.0
+			}
+		}
+	}
+	
+	cfp_potion_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = cfp_potion
+				value = 1.0
+			}
+		}
+	}
+	
+	cfp_cauldron_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = cfp_cauldron
+				value = 1.0
+			}
+		}
+	}
+	
+	cfp_bonfire_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = cfp_bonfire
+				value = 1.0
+			}
+		}
+	}
+		
+	cfp_broom_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = cfp_broom
 				value = 1.0
 			}
 		}
