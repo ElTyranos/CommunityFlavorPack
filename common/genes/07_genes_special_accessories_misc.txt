@@ -1377,6 +1377,18 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			cfp_globus_regalia = {
+				index = 1
+				male = {
+					1 = cfp_globus_02
+				}
+				female = {
+					1 = cfp_globus_02
+				}
+				boy = male
+				girl = female
+			}
 
 		}		
 	}
