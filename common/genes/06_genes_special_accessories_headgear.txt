@@ -2814,7 +2814,6 @@ accessory_genes = {
 			index = 178
 			male = {
 				1 = male_headgear_religious_jewish_cfp_sudra_01
-				1 = male_headgear_religious_jewish_cfp_judenhut_02 # REMOVE
 			}
 			female = {
 				1 = empty
