@@ -1,0 +1,26 @@
+﻿cfp_add_pose_to_list = {
+	# add the pose to a sublist
+	add_to_global_variable_list = {
+		name = $list$_poses_list
+		target = flag:$pose$
+	}
+	# add the sublist to the big list
+	if = {
+		limit = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = pose_categories
+					target = flag:$list$_poses_list
+				}
+			}
+		}
+		add_to_global_variable_list = {
+			name = pose_categories
+			target = flag:$list$_poses_list
+		}
+	}
+	#this prevent errors about variable being set but not used
+	if = {
+		limit = { exists = flag:$pose$ }
+	}
+}
