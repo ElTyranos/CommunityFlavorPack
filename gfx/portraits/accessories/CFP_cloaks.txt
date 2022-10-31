@@ -54,6 +54,24 @@ male_cloaks_secular_western_cfp_crusades_03 = {
 female_cloaks_secular_western_cfp_crusades_03 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_western_cfp_crusades_03_entity }
 }
+male_cloaks_secular_western_cfp_crusades_04 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_crusades_04_entity }
+}
+female_cloaks_secular_western_cfp_crusades_04 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_western_cfp_crusades_04_entity }
+}
+male_cloaks_secular_western_cfp_crusades_05 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_crusades_05_entity }
+}
+female_cloaks_secular_western_cfp_crusades_05 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_western_cfp_crusades_05_entity }
+}
+male_cloaks_secular_western_cfp_crusades_06 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_crusades_06_entity }
+}
+female_cloaks_secular_western_cfp_crusades_06 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_western_cfp_crusades_06_entity }
+}
 
 male_cloaks_secular_western_cfp_ermine_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_ermine_01_entity }

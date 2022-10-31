@@ -1,4 +1,4 @@
-
+﻿
 
 special_genes = {
 
@@ -1224,11 +1224,13 @@ special_genes = {
 			western_commoner = {
 				index = 10
 				male = {
-					4 = empty
+					8 = empty
 					1 = male_cloaks_secular_western_cfp_common_01
+					1 = male_cloaks_secular_western_cfp_crusades_06
 				}
 				female = {
-					1 = empty
+					8 = empty
+					2 = female_cloaks_secular_western_cfp_crusades_06
 				}
 				boy = male
 				girl = female
@@ -1237,9 +1239,11 @@ special_genes = {
 				index = 11
 				male = {
 					1 = male_cloaks_secular_western_cfp_crusades_03
+					# 1 = male_cloaks_secular_western_cfp_crusades_06
 				}
 				female = {
 					1 = female_cloaks_secular_western_cfp_crusades_03
+					# 1 = female_cloaks_secular_western_cfp_crusades_06
 				}
 				boy = male
 				girl = female
@@ -1248,18 +1252,22 @@ special_genes = {
 				index = 12
 				male = {
 					1 = male_cloaks_secular_western_cfp_crusades_01
+					# 1 = male_cloaks_secular_western_cfp_crusades_04
 				}
 				female = {
 					1 = female_cloaks_secular_western_cfp_crusades_01
+					# 1 = female_cloaks_secular_western_cfp_crusades_04
 				}
 			}
 			western_crusades_black = {
 				index = 13
 				male = {
 					1 = male_cloaks_secular_western_cfp_crusades_02
+					# 1 = male_cloaks_secular_western_cfp_crusades_05
 				}
 				female = {
 					1 = female_cloaks_secular_western_cfp_crusades_02
+					# 1 = female_cloaks_secular_western_cfp_crusades_05
 				}
 				boy = male
 				girl = female
