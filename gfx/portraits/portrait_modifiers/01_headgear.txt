@@ -2409,6 +2409,31 @@ headgear = {
 		}
 	}
 
+	croatian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = croatian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				religion = religion:christianity_religion
+				has_primary_title = title:k_croatia
+			}
+			# modifier = {
+				# add = -101 # disable randomness if k_croatia exists
+				# exists = title:k_croatia.holder
+				# NOT = { has_primary_title = title:k_croatia }
+			# }
+		}
+	}
+
 	slavic_imperial = {
 		dna_modifiers = {
 			accessory = {

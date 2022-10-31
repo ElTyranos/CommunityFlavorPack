@@ -2845,6 +2845,19 @@ accessory_genes = {
             boy = male
             girl = female
         }
+		
+		croatian_royalty = {
+            index = 181
+            male = {
+				1 = male_headgear_secular_slavic_cfp_royalty_02
+            }
+            female = {
+				1 = female_headgear_secular_slavic_cfp_royalty_02
+            }
+            boy = male
+            girl = female
+        }
+		
 		fantasy_witches = {
             index = 183
             male = {

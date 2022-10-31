@@ -407,6 +407,10 @@ custom_headgear = {
 	}
 	add_accessory_modifiers = {
 		gene = headgear
+		template = croatian_royalty
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = slavic_war
 	}
 	########### /CFP ###########
