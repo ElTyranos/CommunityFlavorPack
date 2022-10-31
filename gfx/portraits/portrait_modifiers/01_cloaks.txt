@@ -542,7 +542,10 @@ cloaks = {
 				}
 				OR = {
 					portrait_western_clothing_trigger = yes
-					portrait_northern_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						NOT = { is_theocratic_lessee = yes }
+					}
 				}
 			}
 			modifier = {

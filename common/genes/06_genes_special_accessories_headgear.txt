@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -272,6 +272,7 @@ accessory_genes = {
 				1 = male_headgear_secular_western_cfp_royalty_02
 				1 = male_headgear_secular_western_cfp_royalty_04
 				1 = male_headgear_secular_western_cfp_royalty_05
+				1 = male_headgear_secular_western_cfp_royalty_06
 				1 = male_headgear_secular_western_cfp_royalty_07
 			}
 			female = {
@@ -282,6 +283,7 @@ accessory_genes = {
 				1 = female_headgear_secular_western_cfp_royalty_02
 				1 = female_headgear_secular_western_cfp_royalty_04
 				1 = female_headgear_secular_western_cfp_royalty_05
+				1 = female_headgear_secular_western_cfp_royalty_06
 				1 = female_headgear_secular_western_cfp_royalty_07
 			}
 			boy = male
