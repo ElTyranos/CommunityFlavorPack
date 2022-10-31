@@ -236,6 +236,15 @@ female_headgear_secular_western_nobility_06 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_nobility_06_entity 	 }
 }
 
+male_headgear_secular_western_cfp_high_nobility_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_high_nobility_01_entity 	 }
+}
+female_headgear_secular_western_cfp_high_nobility_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_high_nobility_01_entity 	 }
+}
+
 male_headgear_secular_western_high_nobility_04 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_high_nobility_04_entity 	 }

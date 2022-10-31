@@ -247,12 +247,14 @@ accessory_genes = {
 			index = 3
 			male = {
 				10 = male_headgear_secular_western_high_nobility_01
+				8 = male_headgear_secular_western_cfp_high_nobility_01
 				8 = male_headgear_secular_western_high_nobility_04
 				4 = male_headgear_secular_slavic_high_nobility_01
 				2 = male_headgear_secular_western_pillbox_low_01
 			}
 			female = {
 				10 = female_headgear_secular_western_high_nobility_01
+				8 = female_headgear_secular_western_cfp_high_nobility_01
 				8 = female_headgear_secular_western_high_nobility_04
 				4 = female_headgear_secular_slavic_high_nobility_01
 			}
