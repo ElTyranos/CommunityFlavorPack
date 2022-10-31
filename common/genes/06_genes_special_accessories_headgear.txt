@@ -2852,6 +2852,7 @@ accessory_genes = {
                 1 = male_headgear_fantasy_cfp_enchanter_hat_01
             }
             female = {
+                1 = female_headgear_fantasy_cfp_celtic_circlet_01
                 1 = female_headgear_fantasy_cfp_wizard_hat_01
                 1 = female_headgear_fantasy_cfp_enchanter_hat_01
             }

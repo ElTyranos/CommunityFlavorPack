@@ -1,4 +1,8 @@
-## Headgears
+﻿## Headgears
+female_headgear_fantasy_cfp_celtic_circlet_01 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_fantasy_cfp_celtic_circlet_01_entity 	 }
+}
 
 male_headgear_fantasy_cfp_enchanter_hat_01 = {
 	set_tags = "no_hair,hood_beard"
