@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -1861,15 +1861,10 @@ accessory_genes = {
 		hungarian_high_nobility = {
 			index = 109
 			male = {
-				10 = male_headgear_secular_hungarian_high_nobility_01
-				4 = male_headgear_secular_western_high_nobility_01
-				2 = male_headgear_secular_slavic_high_nobility_01
-				1 = male_headgear_secular_western_pillbox_low_01
+				1 = male_headgear_secular_hungarian_high_nobility_01
 			}
 			female = {
-				3 = female_headgear_secular_hungarian_high_nobility_01
-				1 = female_headgear_secular_slavic_high_nobility_01
-				1 = female_headgear_secular_western_high_nobility_01
+				1 = female_headgear_secular_hungarian_high_nobility_01
 			}
 			boy = male
             girl = female
@@ -1878,16 +1873,10 @@ accessory_genes = {
 		hungarian_royalty = {
 			index = 110
 			male = {
-				5 = male_headgear_secular_hungarian_royalty_01
-				2 = male_headgear_secular_byzantine_royalty_01
-				1 = male_headgear_secular_western_royalty_01
-				1 = male_headgear_secular_western_royalty_02
+				1 = male_headgear_secular_hungarian_royalty_01
 			}
 			female = {
-				5 = female_headgear_secular_hungarian_royalty_01
-				2 = female_headgear_secular_byzantine_royalty_01
-				1 = female_headgear_secular_western_royalty_01
-				1 = female_headgear_secular_western_royalty_02
+				1 = female_headgear_secular_hungarian_royalty_01
 			}
 			boy = male
             girl = female
@@ -2052,13 +2041,10 @@ accessory_genes = {
         slavic_high_nobility = {
             index = 120
 			male = {
-				5 = male_headgear_secular_slavic_high_nobility_01
-				2 = male_headgear_secular_western_high_nobility_01
-				1 = male_headgear_secular_western_pillbox_low_01
+				1 = male_headgear_secular_slavic_high_nobility_01
 			}
 			female = {
-				5 = female_headgear_secular_slavic_high_nobility_01
-				3 = female_headgear_secular_western_high_nobility_01
+				1 = female_headgear_secular_slavic_high_nobility_01
 			}
             boy = male
             girl = female
@@ -2067,14 +2053,10 @@ accessory_genes = {
         slavic_royalty = {
             index = 121
 			male = {
-				5 = male_headgear_secular_slavic_royalty_01
-				1 = male_headgear_secular_western_royalty_01
-				1 = male_headgear_secular_western_royalty_02
+				1 = male_headgear_secular_slavic_royalty_01
 			}
 			female = {
-				5 = female_headgear_secular_slavic_royalty_01
-				1 = female_headgear_secular_western_royalty_01
-				1 = female_headgear_secular_western_royalty_02
+				1 = female_headgear_secular_slavic_royalty_01
 			}
             boy = male
             girl = female
