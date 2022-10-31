@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "female_headgear_secular_western_cfp_royalty_06_mesh"
+	file = "female_headgear_secular_western_cfp_royalty_06.mesh"
+
+	meshsettings = {
+		name = "female_headgear_secular_western_cfp_royalty_06Shape"
+		index = 0
+		texture_diffuse = "male_headgear_secular_western_cfp_royalty_06_diffuse.dds"
+		texture_normal = "male_headgear_secular_western_cfp_royalty_06_normal.dds"
+		texture_specular = "male_headgear_secular_western_cfp_royalty_06_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "female_headgear_secular_western_cfp_royalty_06Shape"
+		index = 1
+		texture_diffuse = "male_headgear_secular_western_cfp_royalty_06_diffuse.dds"
+		texture_normal = "male_headgear_secular_western_cfp_royalty_06_normal.dds"
+		texture_specular = "male_headgear_secular_western_cfp_royalty_06_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_western_cfp_royalty_06_entity"
+	pdxmesh = "female_headgear_secular_western_cfp_royalty_06_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/western/cfp_royalty_06/male_headgear_secular_western_cfp_royalty_06_masks.dds"
+				variation = "western_nobility_high_01"
+			}
+		}
+	}
+}

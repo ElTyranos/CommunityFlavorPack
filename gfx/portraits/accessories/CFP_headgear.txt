@@ -225,6 +225,14 @@ female_headgear_secular_western_cfp_royalty_05 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_05_entity 	 }
 }
+male_headgear_secular_western_cfp_royalty_06 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_06_entity 	 }
+}
+female_headgear_secular_western_cfp_royalty_06 = {
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_06_entity 	 }
+}
 
 male_headgear_secular_western_headband_common_01 = {
 	set_tags = "crown"
