@@ -536,7 +536,8 @@ cloaks = {
 					}
 					AND = {
 						portrait_has_trait_trigger = { TRAIT = witch }
-						highest_held_title_tier < tier_county
+						is_landed = no
+						is_lowborn = yes
 					}
 				}
 				OR = {
