@@ -107,3 +107,13 @@ texticon = {
 		fontsize = 16
 	}
 }
+
+texticon = {
+	icon = cfp_icon_fantasy
+	iconsize = {
+		texture = "gfx/interface/icons/icon_cfp_fantasy.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
