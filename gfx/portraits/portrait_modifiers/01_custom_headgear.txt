@@ -1,4 +1,4 @@
-﻿custom_headgear = {
+custom_headgear = {
 	usage = customization
 	interface_position = 1
 
@@ -972,10 +972,19 @@
 			base = 0
 		}
 	}
-
+	
 	# CFP: why redundancy and list cluttering?
 	# add_accessory_modifiers = {
 		# gene = special_headgear_spectacles
 		# template = spectacles
 	# }
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fantasy_witches
+		is_valid_custom = {
+			NOT = { has_game_rule = default_cfp_fantasy }
+		}
+	}
+
 }
