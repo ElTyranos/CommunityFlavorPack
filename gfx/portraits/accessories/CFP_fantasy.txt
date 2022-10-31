@@ -1,4 +1,13 @@
-﻿## Headgears
+## Headgears
+
+male_headgear_fantasy_cfp_enchanter_hat_01 = {
+	set_tags = "no_hair,hood_beard"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_fantasy_cfp_enchanter_hat_01_entity 	 }
+}
+female_headgear_fantasy_cfp_enchanter_hat_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_fantasy_cfp_enchanter_hat_01_entity 	 }
+}
 
 male_headgear_fantasy_cfp_wizard_hat_01 = {
 	set_tags = "cap"

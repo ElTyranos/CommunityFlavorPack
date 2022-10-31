@@ -2849,9 +2849,11 @@ accessory_genes = {
             index = 183
             male = {
                 1 = male_headgear_fantasy_cfp_wizard_hat_01
+                1 = male_headgear_fantasy_cfp_enchanter_hat_01
             }
             female = {
                 1 = female_headgear_fantasy_cfp_wizard_hat_01
+                1 = female_headgear_fantasy_cfp_enchanter_hat_01
             }
             boy = male
             girl = female
