@@ -1,4 +1,4 @@
-# These assets are then used in the genes (game/common/genes/..) at the bottom of the file.
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file.
 
 	# set_tags = ""
 	# set_tags = "cap"
@@ -232,6 +232,14 @@ male_headgear_secular_western_cfp_royalty_06 = {
 female_headgear_secular_western_cfp_royalty_06 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_06_entity 	 }
+}
+male_headgear_secular_western_cfp_royalty_07 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_07_entity 	 }
+}
+female_headgear_secular_western_cfp_royalty_07 = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_07_entity 	 }
 }
 
 male_headgear_secular_western_headband_common_01 = {
