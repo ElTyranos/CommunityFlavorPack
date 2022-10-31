@@ -8928,4 +8928,33 @@ headgear = {
 	        }
         }
 	}
+	
+	# CFP Fantasy
+	cfp_fantasy_witches = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fantasy_witches
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				has_trait = witch
+				has_game_rule = ai_cfp_fantasy
+				OR = {
+					portrait_western_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						NOT = { is_theocratic_lessee = yes }
+					}
+				}
+			}
+		}
+	}
+	
 }
