@@ -24,6 +24,14 @@
  setting_never_cfp_barbershop_unlocks:1 "#high Limited#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "Barbershop behaviour remains the same as vanilla. Accessories and legwear can't be customized, cloaks have rank requirement. This does not change AI clothing behaviour."
  
+ rule_cfp_fantasy:0 "@cfp_icon! Community Flavor Pack : Fantasy"
+ setting_default_cfp_fantasy:0 "Default"
+ setting_default_cfp_fantasy_desc:0 "Community Flavor Pack remains historically authentic."
+ setting_barbershop_cfp_fantasy:1 "#high Barbershop Only#!"
+ setting_barbershop_cfp_fantasy_desc:0 "Fantasy accessories are available via the barbershop (at the end of the list). AI will not use fantasy assets."
+ setting_ai_cfp_fantasy:1 "#high Barbershop and AI#!"
+ setting_ai_cfp_fantasy_desc:0 "AI will use fantasy assets and they will be available in the barbershop."
+ 
  rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Artifacts"
  setting_default_cfp_artifacts:0 "Default"
  setting_default_cfp_artifacts_desc:0 "New custom artifacts are available. This may change gameplay experience but game balance is preserved as much as possible."
