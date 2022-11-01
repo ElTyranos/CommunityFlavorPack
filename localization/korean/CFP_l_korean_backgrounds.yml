@@ -6,3 +6,13 @@
  cfp_iberian_walls:0 "이베리아 성벽"
  cfp_gaillard:0 "멀리 있는 샤토 가이야르"
  cfp_gaillard_zoomed:0 "샤토 가이야르"
+
+ ## Animations
+ cfp_poses_list_name:0 "$cfp_name$"
+ cfp_regalia_name:0 "레갈리아"
+ cfp_globus_name:0 "십자가 보주"
+ cfp_scepter_name:0 "정의의 손"
+ cfp_bonfire_name:0 "모닥불"
+ cfp_broom_name:0 "빗자루"
+ cfp_potion_name:0 "물약"
+ cfp_cauldron_name:0 "솥"

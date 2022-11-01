@@ -24,6 +24,14 @@
  setting_never_cfp_barbershop_unlocks:1 "#high 제한#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "이발소의 기능은 바닐라와 같을 것입니다. 악세사리와 레그웨어는 커스터마이징 할 수 없으며, 망토는 특정 계급을 요구합니다. 이것은 AI의 옷 입는 행동을 바꾸지는 않습니다."
  
+ rule_cfp_fantasy:0 "@cfp_icon! Community Flavor Pack : 판타지 요소"
+ setting_default_cfp_fantasy:0 "기본"
+ setting_default_cfp_fantasy_desc:0 "CFP는 역사적인 요소만을 가질 것입니다."
+ setting_barbershop_cfp_fantasy:1 "#high 오직 이발소에서만#!"
+ setting_barbershop_cfp_fantasy_desc:0 "판타지 요소는 이발소에서만 사용가능합니다.(가장 끝에 위치할 예정) AI는 판타지 요소를 사용하지 않습니다."
+ setting_ai_cfp_fantasy:1 "#high 이발소와 AI만#!"
+ setting_ai_cfp_fantasy_desc:0 "AI는 판타지 요소를 사용하며, 플레이어는 이발소에서 사용할 수 있습니다."
+ 
  rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : 유물"
  setting_default_cfp_artifacts:0 "기본"
  setting_default_cfp_artifacts_desc:0 "CFP에서 추가된 유물이 등장합니다. 이는 실제 게임 진행에 영향을 미칠 수 있지만, CFP는 가능한 한 게임의 밸런스를 유지하기 위해 노력할 것입니다."

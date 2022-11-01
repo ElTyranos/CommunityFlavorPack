@@ -34,6 +34,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03:1 "@cfp_icon! 코받이 투구 (부족)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nasal_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03$"
 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01:1 "@cfp_icon! 노르드 청동 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01$"
+
 ## Anglo-Saxon
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01:1 "@cfp_icon! 앵글로-색슨 투구 (서튼 후)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
@@ -57,6 +60,15 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04:1 "@cfp_icon! 손상된 백합 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05:1 "@cfp_icon! 소관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_05:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_06:1 "@cfp_icon! 걸개관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_06:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_06$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_07:1 "@cfp_icon! 초기 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_07:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_07$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! 약통 모자 (귀족)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! 약통 모자 (평민)"
  
@@ -71,6 +83,9 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_04:1 "@cfp_icon! 들쭉날쭉한 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_high_nobility_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_04$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_high_nobility_01:1 "@cfp_icon! 클로버 장식 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01$"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! 철모 (폐쇄형)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! 철모 (개방형)"
@@ -242,6 +257,9 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01:1 "@cfp_icon_red! 슬라브 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_royalty_02:1 "@cfp_icon_red! 크로아티아 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_royalty_02$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon_red! 알바니아 왕관"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_skanderbeg_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01$"
@@ -496,6 +514,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03:1 "@cfp_icon_white! 기사단 후드 (보급형)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03$"
  
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_06:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01$ 2"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_06:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_06$"
+ 
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_01:1 "@cfp_icon_green! 타일라산"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_02:1 "@cfp_icon_green! 타일라산 (민무늬)"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_double_harness_01:1 "@cfp_icon_green! 이중 하네스"
@@ -592,3 +613,15 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_common_01:1 "@cfp_icon_orange! 자바 평민 레그웨어"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_high_nobility_01:1 "@cfp_icon_orange! 자바 귀족 레그웨어"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_royalty_01:1 "@cfp_icon_orange! 자바 왕족 레그웨어"
+ 
+ ## Fantasy
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01:0 "@cfp_icon_fantasy! 마법사의 뾰족한 모자"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_wizard_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01:0 "@cfp_icon_fantasy! 마법부여가의 뿔달린 모자"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_enchanter_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01$"
+
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_celtic_circlet_01:0 "@cfp_icon_fantasy! 드루이드 왕관"
+ 
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01:0 "@cfp_icon_fantasy! 폴란드 후사르 날개 장식"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fantasy_cfp_wings_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01$"
