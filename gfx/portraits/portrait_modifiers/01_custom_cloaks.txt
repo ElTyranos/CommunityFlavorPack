@@ -1,4 +1,4 @@
-﻿custom_cloaks = {
+custom_cloaks = {
 	usage = customization
 	interface_position = 4
 	
@@ -143,7 +143,7 @@
 			OR = {
 				AND = {
 					has_game_rule = never_cfp_barbershop_unlocks
-					portrait_mena_clothing_trigger = yes
+					cfp_portrait_berber_clothing_trigger = yes
 				}
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
 			}
@@ -157,7 +157,7 @@
 			OR = {
 				AND = {
 					has_game_rule = never_cfp_barbershop_unlocks
-					portrait_mena_clothing_trigger = yes
+					portrait_western_clothing_trigger = yes
 				}
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
 			}
@@ -171,7 +171,7 @@
 			OR = {
 				AND = {
 					has_game_rule = never_cfp_barbershop_unlocks
-					portrait_mena_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
 				}
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
 			}
@@ -199,7 +199,7 @@
 			OR = {
 				AND = {
 					has_game_rule = never_cfp_barbershop_unlocks
-					portrait_mena_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
 				}
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
 			}
@@ -214,7 +214,7 @@
 			OR = {
 				AND = {
 					has_game_rule = never_cfp_barbershop_unlocks
-					portrait_mena_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
 				}
 				NOT = { has_game_rule = never_cfp_barbershop_unlocks } 
 			}
