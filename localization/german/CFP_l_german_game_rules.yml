@@ -24,6 +24,14 @@
  setting_never_cfp_barbershop_unlocks:1 "#high Begrenzt#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "Der Barbier verhält sich wie im vanilla Spiel. Accessoires können nicht individualisiert werden, Mäntel haben eine Rangvorraussetzung, Der Spieler kann Religiöse Kleidung nicht anlegen. Dies beeinflusst nicht das Verhalten der KI."
  
+ rule_cfp_fantasy:0 "@cfp_icon! Community Flavor Pack : Fantasy"
+ setting_default_cfp_fantasy:0 "Standardmäßig"
+ setting_default_cfp_fantasy_desc:0 "Community Flavor Pack bleibt historisch authentisch."
+ setting_barbershop_cfp_fantasy:1 "#high Barbershop#!"
+ setting_barbershop_cfp_fantasy_desc:0 "Fantasy Accessoires sind über den Barbershop verfügbar (am Ende der Liste). Die KI wird diese nicht nutzen."
+ setting_ai_cfp_fantasy:1 "#high Barbershop & KI#!"
+ setting_ai_cfp_fantasy_desc:0 "Die KI wird Fantasy Gegenstände nutzen und sie werden im Barbershop verfügbar sein."
+ 
  rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Artefakte"
  setting_default_cfp_artifacts:0 "Standardmäßig"
  setting_default_cfp_artifacts_desc:0 "Neue zusätzliche Artefakte sind verfügbar. Dies könnte die Spielerfahrung verändern. Die Spielbalance bleibt jedoch so weit wie möglich unverändert."

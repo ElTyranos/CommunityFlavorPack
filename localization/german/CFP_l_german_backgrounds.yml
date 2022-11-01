@@ -6,3 +6,14 @@
  cfp_iberian_walls:0 "Iberische Mauer"
  cfp_gaillard:0 "Entferntes Château-Gaillard"
  cfp_gaillard_zoomed:0 "Château-Gaillard"
+
+ ## Animations
+ cfp_poses_list_name:0 "$cfp_name$"
+ cfp_regalia_name:0 "Insignien"
+ cfp_globus_name:0 "Globus Cruciger"
+ cfp_scepter_name:0 "Hand der Gerechtigkeit"
+ cfp_bonfire_name:0 "Lagerfeuer"
+ cfp_broom_name:0 "Besen"
+ cfp_potion_name:0 "Trank"
+ cfp_cauldron_name:0 "Kessel"
+ 
