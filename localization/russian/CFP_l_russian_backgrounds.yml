@@ -6,3 +6,14 @@
  cfp_iberian_walls:0 "Иберийские стены"
  cfp_gaillard:0 "Дальний Шато-Гайар"
  cfp_gaillard_zoomed:0 "Шато-Гайар"
+ 
+ ## Animations
+ cfp_poses_list_name:0 "$cfp_name$"
+ cfp_regalia_name:0 "Регалия"
+ cfp_globus_name:0 "Держава"
+ cfp_scepter_name:0 "Рука правосудия"
+ cfp_bonfire_name:0 "Костёр"
+ cfp_broom_name:0 "Метла"
+ cfp_potion_name:0 "Зелье"
+ cfp_cauldron_name:0 "Котёл"
+ 
