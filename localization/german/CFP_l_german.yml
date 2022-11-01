@@ -34,7 +34,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03:1 "@cfp_icon! Nasalhelm (Stammes)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nasal_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03$"
 
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01:1 "@cfp_icon! Nordische Bronzekrone"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01:1 "@cfp_icon! Nordischer Bronzereif"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01$"
 
 ## Anglo-Saxon
@@ -60,7 +60,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04:1 "@cfp_icon! Beschädigte Lilienkrone"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05:1 "@cfp_icon! Königliches Krönchen"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05:1 "@cfp_icon! Königliche Krone"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_05:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_06:1 "@cfp_icon! Geschlossene Krone"
@@ -624,5 +624,5 @@
 
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_celtic_circlet_01:0 "@cfp_icon_fantasy! Druidinnen Diadem"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01:0 "@cfp_icon_fantasy! Polnischer Flügelhusaren"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01:0 "@cfp_icon_fantasy! Polnische Flügelhusaren"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fantasy_cfp_wings_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01$"
