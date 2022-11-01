@@ -32,6 +32,9 @@
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03:1 "@cfp_icon! 护鼻盔（部落）"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nasal_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03$"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01:1 "@cfp_icon! Norse Bronze Circlet"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01$"
  
 ## Anglo-Saxon
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01:1 "@cfp_icon! 盎格鲁-撒克逊头盔（萨顿胡）"
@@ -56,6 +59,15 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04:1 "@cfp_icon! Damaged Fleur-de-lis Crown"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05:1 "@cfp_icon! Royal Coronet"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_05:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_06:1 "@cfp_icon! Closed Crown"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_06:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_06$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_07:1 "@cfp_icon! Early Royal Crown"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_07:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_07$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! 平顶小圆帽（贵族）"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! 平顶小圆帽（平民）"
  
@@ -70,6 +82,9 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_04:1 "@cfp_icon! 锯齿头环"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_high_nobility_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_04$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_high_nobility_01:1 "@cfp_icon! Clover Circlet"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01$"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! 中头盔（放下）"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! 中头盔（打开）"
@@ -241,6 +256,9 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01:1 "@cfp_icon_red! 斯拉夫王冠"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_royalty_02:1 "@cfp_icon_red! Croatian Royal Crown"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_royalty_02:0 
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon_red! 阿尔巴尼亚王冠"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_skanderbeg_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01$"
@@ -495,6 +513,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03:1 "@cfp_icon_white! 圣骑士团兜帽（平民）"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03$"
  
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_06:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01$ 2"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_06:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_06$"
+ 
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_01:1 "@cfp_icon_green! 泰拉桑披巾"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_02:1 "@cfp_icon_green! 泰拉桑披巾（素色）"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_double_harness_01:1 "@cfp_icon_green! 双背带"
@@ -591,3 +612,15 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_common_01:1 "@cfp_icon_orange! 爪哇平民袜"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_high_nobility_01:1 "@cfp_icon_orange! 爪哇贵族袜"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_java_cfp_royalty_01:1 "@cfp_icon_orange! 爪哇王室袜"
+ 
+ ## Fantasy
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01:0 "@cfp_icon_fantasy! Wizard Pointy Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_wizard_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01:0 "@cfp_icon_fantasy! Enchanter Horned Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_enchanter_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01$"
+
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_celtic_circlet_01:0 "@cfp_icon_fantasy! Druidess Circlet"
+ 
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01:0 "@cfp_icon_fantasy! Polish Winged Hussar"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fantasy_cfp_wings_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01$"

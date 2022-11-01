@@ -24,6 +24,14 @@
  setting_never_cfp_barbershop_unlocks:1 "#high 受限#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "理发店的表现与原版一致。配饰与袜子不能自定义，披风有头衔等级要求。这不会影响AI的着装表现。"
  
+ rule_cfp_fantasy:0 "@cfp_icon! Community Flavor Pack : Fantasy"
+ setting_default_cfp_fantasy:0 "Default"
+ setting_default_cfp_fantasy_desc:0 "Community Flavor Pack remains historically authentic."
+ setting_barbershop_cfp_fantasy:1 "#high Barbershop Only#!"
+ setting_barbershop_cfp_fantasy_desc:0 "Fantasy accessories are available via the barbershop (at the end of the list). AI will not use fantasy assets."
+ setting_ai_cfp_fantasy:1 "#high Barbershop and AI#!"
+ setting_ai_cfp_fantasy_desc:0 "AI will use fantasy assets and they will be available in the barbershop."
+ 
  rule_cfp_artifacts:0 "@cfp_icon! 社区风味包：宝物"
  setting_default_cfp_artifacts:0 "默认"
  setting_default_cfp_artifacts_desc:0 "风味包所加的宝物会在游戏中登场。这可能会使游戏体验有所不同，游戏平衡则尽可能维持不变。"
