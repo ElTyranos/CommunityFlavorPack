@@ -24,6 +24,14 @@
  setting_never_cfp_barbershop_unlocks:1 "#high Limitado#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "El comportamiento de la barberia es el mismo que en el juego original. No se pueden personalizar los accesorios, las capas requieren su rango, los calzoncillos permanecen ocultos. No afecta al comportamiento de la IA."
  
+ rule_cfp_fantasy:0 "@cfp_icon! Community Flavor Pack : Fantasia"
+ setting_default_cfp_fantasy:0 "Por defecto"
+ setting_default_cfp_fantasy_desc:0 "Community Flavor Pack permanece históricamente correcto."
+ setting_barbershop_cfp_fantasy:1 "#high Barbería#!"
+ setting_barbershop_cfp_fantasy_desc:0 "Los accesorios de fantasía están presentes en la Barbería (al final de la lista). La IA no utilizará elementos de fantasía."
+ setting_ai_cfp_fantasy:1 "#high Barbería y AI#!"
+ setting_ai_cfp_fantasy_desc:0 "La IA utilizará los elementos de fantasía presentes en la Barbería."
+ 
  rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Artefactos"
  setting_default_cfp_artifacts:0 "Por defecto"
  setting_default_cfp_artifacts_desc:0 "Están disponibles nuevos artefactos personalizados. Estos podrian afectar la experiencia en el juego pero el equilibrio se intenta mantener todo lo posible."

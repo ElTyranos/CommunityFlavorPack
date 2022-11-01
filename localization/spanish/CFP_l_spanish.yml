@@ -34,6 +34,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03:1 "@cfp_icon! Yelmo nasal (Tribal)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nasal_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nasal_03$"
 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01:1 "@cfp_icon! Aro nórdico de bronce"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_cfp_high_nobility_01$"
+
 ## Anglo-Saxon
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01:1 "@cfp_icon! Yelmo anglosajón (Sutton Hoo)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_royalty_suttonhoo_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_royalty_suttonhoo_01$"
@@ -57,6 +60,15 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04:1 "@cfp_icon! Corona con flores de lis Dañada"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_04$"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05:1 "@cfp_icon! Coroneta real"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_05:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_05$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_06:1 "@cfp_icon! Corona cerrada"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_06:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_06$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_07:1 "@cfp_icon! Corona real antigua"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_07:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_07$"
+ 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_low_01:1 "@cfp_icon! Sombrero redondo sin ala (Noble)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_pillbox_common_01:1 "@cfp_icon! Sombrero redondo sin ala (Común)"
  
@@ -71,6 +83,9 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_04:1 "@cfp_icon! Aro dentado"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_high_nobility_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_04$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_high_nobility_01:1 "@cfp_icon! Círculo de trévoles"
+ PORTRAIT_MODIFIER_custom_headgear_feale_headgear_secular_western_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01$"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_01:1 "@cfp_icon! Bascinete (Bajado)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_war_bascinet_02:1 "@cfp_icon! Bascinete (Abierto)"
@@ -243,7 +258,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01:1 "@cfp_icon_red! Corona eslava"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_royalty_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon_red! Corona Real de Albania"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_royalty_02:1 "@cfp_icon_red! Corona real Croata"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_royalty_02$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon_red! Corona real de Albania"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_skanderbeg_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_high_nobility_01:1 "@cfp_icon_red! Tiara eslava"
@@ -496,6 +514,9 @@
  PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03:1 "@cfp_icon_white! Capucha de orden religiosa (Común)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03$"
  
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_06:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01$ 2"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_06:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_06$"
+ 
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_01:1 "@cfp_icon_green! Taylasan"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_taylasan_02:1 "@cfp_icon_green! Taylasan (Plano)"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_mena_cfp_double_harness_01:1 "@cfp_icon_green! Harnés doble"
@@ -592,3 +613,16 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_common_01:1 "@mmjm_icon! Calzas Comunes Javanesas"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_high_nobility_01:1 "@mmjm_icon! Calzas Nobles Javanesas"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_royalty_01:1 "@mmjm_icon! Calzas Reales Javanesas"
+ 
+ ## Fantasy
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01:0 "@cfp_icon_fantasy! Sombrero apuntado de Mago"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_wizard_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01:0 "@cfp_icon_fantasy! Sombrero cornudo de encantador"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_enchanter_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01$"
+
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_celtic_circlet_01:0 "@cfp_icon_fantasy! Diadema de Druidesa"
+ 
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01:0 "@cfp_icon_fantasy! Alas de Húsar Alado"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fantasy_cfp_wings_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01$"
+ 
