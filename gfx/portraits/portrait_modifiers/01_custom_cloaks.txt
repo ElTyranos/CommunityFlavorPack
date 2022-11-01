@@ -1,4 +1,4 @@
-custom_cloaks = {
+﻿custom_cloaks = {
 	usage = customization
 	interface_position = 4
 	
@@ -220,6 +220,23 @@ custom_cloaks = {
 			}
 		}
 		template = african_royalty
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			OR = {
+				AND = {
+					has_game_rule = never_cfp_barbershop_unlocks
+					cfp_portrait_slavic_clothing_trigger = yes
+				}
+				NOR = {
+					has_game_rule = default_cfp_fantasy
+					has_game_rule = never_cfp_barbershop_unlocks
+				} 
+			}
+		}
+		template = fantasy_cloaks
 	}
 	
 }

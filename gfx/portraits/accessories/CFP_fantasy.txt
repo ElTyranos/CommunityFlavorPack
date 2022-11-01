@@ -21,3 +21,10 @@ female_headgear_fantasy_cfp_wizard_hat_01 = {
 	set_tags = "cap"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_fantasy_cfp_wizard_hat_01_entity 	 }
 }
+
+male_cloaks_secular_fantasy_cfp_wings_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = male_cloaks_secular_fantasy_cfp_wings_01_entity 	 }
+}
+female_cloaks_secular_fantasy_cfp_wings_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = female_cloaks_secular_fantasy_cfp_wings_01_entity 	 }
+}

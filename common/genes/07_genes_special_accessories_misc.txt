@@ -1363,6 +1363,17 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			fantasy_cloaks = {
+				index = 22
+				male = {
+					1 = male_cloaks_secular_fantasy_cfp_wings_01
+				}
+				female = {
+					1 = female_cloaks_secular_fantasy_cfp_wings_01
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 
