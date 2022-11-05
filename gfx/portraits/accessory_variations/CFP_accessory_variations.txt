@@ -165,7 +165,7 @@ variation = {
 		b = { textures = "mena_silk_trim_01" layout = "small_trim_layout" }
 		a = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
 	}
-
+	
 	pattern = {
 		weight = 1
 		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
@@ -202,7 +202,7 @@ variation = {
 
 variation = {
 	name = "painted_metal_01"
-
+	
 	pattern = {
 		weight = 1
 		r = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }
@@ -215,7 +215,7 @@ variation = {
 
 variation = {
 	name = "painted_metal_western_01"
-
+	
 	pattern = {
 		weight = 1
 		r = { textures = "all_painted_metal_plain_rough_01" layout = "plain_fabric_layout" }

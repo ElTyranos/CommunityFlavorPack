@@ -5,7 +5,7 @@
 random_yearly_playable_pulse = {
 	on_actions = {
         cfp_yearly_random_on_action
-    }
+	}
 }
 
 cfp_yearly_random_on_action = {

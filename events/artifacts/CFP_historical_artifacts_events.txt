@@ -5,7 +5,7 @@
 cfp_historical_artifacts.0001 = {
 	type = empty
 	hidden = yes
-
+	
 	immediate = {
 		#Historical Artifacts
 		random_ruler = {

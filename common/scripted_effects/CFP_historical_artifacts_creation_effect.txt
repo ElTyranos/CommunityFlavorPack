@@ -1,8 +1,8 @@
 ﻿create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
-
+	
 	$OWNER$ = { save_scope_as = owner } # Get the character the artifact is being made for.
 	set_artifact_rarity_illustrious = yes # Not really used, but if we don't set the scopes we get errors in the feature selection
-
+	
 	# Create the artifact
 	create_artifact = {
 		name = artifact_cfp_joyeuse_name
@@ -22,7 +22,7 @@
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
-
+	
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = joyeuse
@@ -47,11 +47,11 @@
 		}
 		save_scope_as = epic
 	}
-
+	
 }
 
 create_artifact_cfp_bayeux_tapestry_effect = { 
-
+	
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
 	
@@ -73,7 +73,7 @@ create_artifact_cfp_bayeux_tapestry_effect = {
 				decaying = no
 			}
 		}
-
+		
 		scope:newly_created_artifact = {
 			set_artifact_description = artifact_cfp_bayeux_tapestry_description
 			set_variable = { name = historical_unique_artifact value = yes }
@@ -83,14 +83,14 @@ create_artifact_cfp_bayeux_tapestry_effect = {
 }
 
 create_artifact_cfp_krum_skull_cup_effect = { 
-
+	
 	$OWNER$ = { save_scope_as = owner }
 	$CREATOR$ = { save_scope_as = creator }
 	$DESKULLED$ = { save_scope_as = killed }
 	$LOCATION$ = { save_scope_as = location }
 	
 	set_artifact_rarity_famed = yes
-
+	
 	create_artifact = {
 		name = artifact_cfp_krum_skull_cup_name
 		description = artifact_cfp_krum_skull_cup_description
@@ -109,7 +109,7 @@ create_artifact_cfp_krum_skull_cup_effect = {
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
-
+	
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		# set_variable = joyeuse
@@ -124,21 +124,21 @@ create_artifact_cfp_krum_skull_cup_effect = {
 			recipient = character:159123 # Krum of Bulgaria
 			location = province:3689 #Preslav
 		}
-				
+		
 		save_scope_as = epic
 	}
-
+	
 }
 
 create_artifact_cfp_kure_skull_cup_effect = { 
-
+	
 	$OWNER$ = { save_scope_as = owner }
 	$CREATOR$ = { save_scope_as = creator }
 	$DESKULLED$ = { save_scope_as = killed }
 	$LOCATION$ = { save_scope_as = location }
 	
 	set_artifact_rarity_famed = yes
-
+	
 	create_artifact = {
 		name = artifact_cfp_kure_skull_cup_name
 		description = artifact_cfp_kure_skull_cup_description
@@ -157,7 +157,7 @@ create_artifact_cfp_kure_skull_cup_effect = {
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
-
+	
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		# set_variable = joyeuse
@@ -172,8 +172,8 @@ create_artifact_cfp_kure_skull_cup_effect = {
 			recipient = character:pecheneg000001 # Küre of Pechenegs
 			location = province:1071 #river_dnieper
 		}
-				
+		
 		save_scope_as = epic
 	}
-
+	
 }

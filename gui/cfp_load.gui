@@ -1,15 +1,15 @@
 widget = {
 	name = cfp_load
 	datacontext = "[GetScriptedGui('cfp_load')]"
-
+	
 	state = {
 		name = clear_loaded_mods
 		trigger_on_create = yes
 		on_start = "[GetScriptedGui('clear_loaded_mods').Execute( GuiScope.End )]"
-
+		
 		next = load
 	}
-
+	
 	state = {
 		name = load
 		on_start = "[ScriptedGui.Execute( GuiScope.End )]"

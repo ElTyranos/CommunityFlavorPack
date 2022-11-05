@@ -49,22 +49,22 @@ template "cfp_bg_buttons"
 		ignoreinvisible = yes
         spacing = -2
 		min_width = 200
-
+		
         widget = {
             size = { 0 12 }
-        }
-
+		}
+		
 		button_category = {
 			blockoverride "text" {
 				raw_text = "Community Flavor Pack"
 				# margin_left = 5
 			}
 		}
-
+		
         widget = {
             size = { 0 12 }
-        }
-
+		}
+		
         bg_button = {
             text = "cfp_iberian_citadel"
 			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_iberian_citadel_bg')]"
@@ -73,7 +73,7 @@ template "cfp_bg_buttons"
 			}
 			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
-        }
+		}
         bg_button = {
             text = "cfp_iberian_castle"
 			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_iberian_castle_bg')]"
@@ -82,7 +82,7 @@ template "cfp_bg_buttons"
 			}
 			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
-        }
+		}
         bg_button = {
             text = "cfp_iberian_walls"
 			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_iberian_walls_bg')]"
@@ -91,7 +91,7 @@ template "cfp_bg_buttons"
 			}
 			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
-        }
+		}
         bg_button = {
             text = "cfp_gaillard_zoomed"
 			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_gaillard_zoomed_bg')]"
@@ -100,7 +100,7 @@ template "cfp_bg_buttons"
 			}
 			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
-        }
+		}
         bg_button = {
             text = "cfp_gaillard"
 			onclick = "[GetVariableSystem.Set('barber_bg', 'cfp_gaillard_bg')]"
@@ -109,6 +109,6 @@ template "cfp_bg_buttons"
 			}
 			# blockoverride "light" { onclick = "[GetVariableSystem.Set('environment', 'environment_event_farms')]" }
 			onclick = "[GetVariableSystem.Set(AddTextIf(Not(GetVariableSystem.Exists('lighting')), 'environment'), 'environment_event_farms')]"
-        }
-    }
+		}
+	}
 }

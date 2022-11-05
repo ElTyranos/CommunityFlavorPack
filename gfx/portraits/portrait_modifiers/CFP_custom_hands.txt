@@ -1,7 +1,7 @@
 ﻿custom_hands = {
 	usage = customization
 	interface_position = 8
-
+	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
 		template = fp1_rings
@@ -10,7 +10,7 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
 		template = rings
@@ -18,7 +18,7 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
 		template = western_high_nobility_gloves
@@ -26,7 +26,7 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
 		template = dde_abbasid_rings
@@ -35,7 +35,7 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
 		template = dde_hre_rings
@@ -44,5 +44,5 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-
+	
 }

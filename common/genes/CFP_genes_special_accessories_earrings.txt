@@ -1,8 +1,8 @@
 ﻿special_genes = {
 	accessory_genes = {
-
+		
 		special_accessories_earrings = {
-
+			
 			no_earrings = {
 				index = 0
 				male = {
@@ -14,7 +14,7 @@
 				boy = male
 				girl = female
 			}
-
+			
 			western_low_nobility = {
 				index = 1
 				male = {
@@ -109,8 +109,8 @@
 				girl = female
 			}
 			
-
+			
 		}
-
+		
 	}
 }

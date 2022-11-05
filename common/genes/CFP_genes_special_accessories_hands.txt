@@ -1,8 +1,8 @@
 ﻿special_genes = {
 	accessory_genes = {
-
+		
 		special_accessories_hands = {
-
+			
 			no_hands = {
 				index = 0
 				male = {
@@ -14,7 +14,7 @@
 				boy = male
 				girl = female
 			}
-
+			
 			fp1_rings = {
 				index = 1
 				male = {
@@ -53,7 +53,7 @@
 				boy = male
 				girl = female
 			}
-
+			
 			rings = {
 				index = 4
 				male = {
@@ -69,7 +69,7 @@
 				boy = male
 				girl = female
 			}
-
+			
 			western_high_nobility_gloves = {
 				index = 5
 				male = {
@@ -85,8 +85,8 @@
 				boy = male
 				girl = female
 			}
-
+			
 		}
-
+		
 	}
 }

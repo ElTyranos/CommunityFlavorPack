@@ -20,7 +20,7 @@ on_cfp_start = {
         if = {
             limit = {
                 exists = global_var:cfp_is_loaded
-            }
-        }
+			}
+		}
 	}
 }

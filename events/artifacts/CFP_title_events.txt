@@ -60,7 +60,7 @@ cfp_title_event.0001 = {
 			days =  { 180 365 } # 6 months to 1 year
 		}
 	}
-		
+	
 	option = {
 		name = cfp_title_event.0001.a.bishop
 		trigger = {	NOT = { character:148 = { is_alive = yes } } }

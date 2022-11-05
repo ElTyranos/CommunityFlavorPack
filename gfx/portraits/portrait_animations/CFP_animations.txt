@@ -9,10 +9,10 @@ cfp_regalia = {
 		
 		throneRoom_writer_basic = {
 			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdle1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -24,13 +24,13 @@ cfp_regalia = {
 			}
 		}
 #### throneRoom_writer_fat doesn't work for some reason it goes to a broken animation in the sequence in the male body asset. i have not idea why so i just put in fat dwarf.
-
+		
 		throneRoom_writer_fat = {
 			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdleFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -41,13 +41,13 @@ cfp_regalia = {
 				}
 			}
 		}
-
+		
 		throneRoom_writer_dwarf = {
 			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdleFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -58,13 +58,13 @@ cfp_regalia = {
 				}
 			}
 		}
-
+		
 		throneRoom_writer_fat_dwarf = {
 			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdleFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -75,15 +75,15 @@ cfp_regalia = {
 				}
 			}
 		}
-
-
-
+		
+		
+		
 		throneRoom_writer_pregnant_dwarf = {
 			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdleFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -94,13 +94,13 @@ cfp_regalia = {
 				}
 			}
 		}
-
+		
 		throneRoom_writer_pregnant_fat_dwarf = {
 			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdleFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -112,7 +112,7 @@ cfp_regalia = {
 			}
 		}
 	}
-
+	
 	female = male
 	girl = male
 	boy = male
@@ -121,53 +121,53 @@ cfp_regalia = {
 cfp_globus = {
     male = { 
     	default = { head = "council_steward" torso = "council_steward" } 
-
+		
 		cfp_globus_hunchbacked = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 110
 					portrait_has_trait_trigger = { TRAIT = hunchbacked }
 				}
 			}
 		}
-
+		
 		council_chancellor_infant = {
 			animation = { head = "idle" torso = "idleInfant_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					scope:age <= 5
 				}
 			}
 		}
-
+		
 		council_chancellor_child = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					always = no #scope:age <= 9
-
+					
 				}
 			}
 		}
-
+		
 		cfp_globus = {
 			animation = { head = "council_steward" torso = "council_steward" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -178,19 +178,19 @@ cfp_globus = {
 					}
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_globus_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_globus_fat = {
 			animation = { head = "council_steward" torso = "council_steward" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -201,19 +201,19 @@ cfp_globus = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_globus_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_globus_dwarf = {
 			animation = { head = "council_steward" torso = "council_stewardFatDwarf" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -224,19 +224,19 @@ cfp_globus = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_globus_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_globus_fat_dwarf = {
 			animation = { head = "council_steward" torso = "council_stewardFatDwarf" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -247,19 +247,19 @@ cfp_globus = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_globus_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_globus_pregnant = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnant_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -269,18 +269,18 @@ cfp_globus = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations = emotion_happy_decal
 			}
 		}
-
+		
 		cfp_globus_pregnant_dwarf = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFat_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -290,18 +290,18 @@ cfp_globus = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations = emotion_happy_decal
 			}
 		}
-
+		
 		cfp_globus_pregnant_fat_dwarf = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFatDwarf_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -311,13 +311,13 @@ cfp_globus = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations = emotion_happy_decal
 			}
 		}
-    }
-
+	}
+	
     boy = male
     female = male
     girl = male
@@ -326,13 +326,13 @@ cfp_globus = {
 cfp_scepter = {
 	male = { 
 		default = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassive1_entry" } 
-
+		
 		throneRoom_one_handed_passive_1_hunchbacked = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassive1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 110
 					has_trait = hunchbacked
@@ -343,54 +343,54 @@ cfp_scepter = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_infant = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					age <= 1
 				}
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_child_1 = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					age <= 4
-
+					
 				}
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_child_2 = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					age <= 10
-
+					
 				}
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_basic = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassive1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -405,13 +405,13 @@ cfp_scepter = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_fat = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFat1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -426,13 +426,13 @@ cfp_scepter = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFat1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -447,13 +447,13 @@ cfp_scepter = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_fat_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -468,13 +468,13 @@ cfp_scepter = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_pregnant = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -489,13 +489,13 @@ cfp_scepter = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_pregnant_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -510,13 +510,13 @@ cfp_scepter = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_pregnant_fat_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -532,7 +532,7 @@ cfp_scepter = {
 			}
 		}
 	}
-
+	
 	female = male
 	girl = male
 	boy = male
@@ -556,53 +556,53 @@ cfp_cauldron = {
 cfp_potion = {
     male = { 
     	default = { head = "council_steward" torso = "council_steward" } 
-
+		
 		cfp_potion_hunchbacked = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 110
 					portrait_has_trait_trigger = { TRAIT = hunchbacked }
 				}
 			}
 		}
-
+		
 		council_chancellor_infant = {
 			animation = { head = "idle" torso = "idleInfant_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					scope:age <= 5
 				}
 			}
 		}
-
+		
 		council_chancellor_child = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					always = no #scope:age <= 9
-
+					
 				}
 			}
 		}
-
+		
 		cfp_potion = {
 			animation = { head = "council_steward" torso = "council_steward" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -613,19 +613,19 @@ cfp_potion = {
 					}
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_potion_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_potion_fat = {
 			animation = { head = "council_steward" torso = "council_steward" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -636,19 +636,19 @@ cfp_potion = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_potion_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_potion_dwarf = {
 			animation = { head = "council_steward" torso = "council_stewardFatDwarf" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -659,19 +659,19 @@ cfp_potion = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_potion_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_potion_fat_dwarf = {
 			animation = { head = "council_steward" torso = "council_stewardFatDwarf" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -682,19 +682,19 @@ cfp_potion = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {							
 				animations_props = cfp_potion_prop
 				animations = council_steward_decal
 			}
 		}
-
+		
 		cfp_potion_pregnant = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnant_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -704,18 +704,18 @@ cfp_potion = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations = emotion_happy_decal
 			}
 		}
-
+		
 		cfp_potion_pregnant_dwarf = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFat_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -725,18 +725,18 @@ cfp_potion = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations = emotion_happy_decal
 			}
 		}
-
+		
 		cfp_potion_pregnant_fat_dwarf = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFatDwarf_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -746,13 +746,13 @@ cfp_potion = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations = emotion_happy_decal
 			}
 		}
-    }
-
+	}
+	
     boy = male
     female = male
     girl = male
@@ -761,53 +761,53 @@ cfp_potion = {
 cfp_bonfire = {
 	male = {
 		default = { head = "emotion_sadness_entry" torso = "emotion_sadness_entry" }
-
+		
 		emotion_sadness_hunchbacked = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 110
 					portrait_has_trait_trigger = { TRAIT = hunchbacked }
 				}
 			}
 		}
-
+		
 		emotion_sadness_infant = {
 			animation = { head = "idle" torso = "idleInfant_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					scope:age <= 5
 				}
 			}
 		}
-
+		
 		emotion_sadness_child = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					always = no #scope:age <= 9
-
+					
 				}
 			}
 		}
-
+		
 		emotion_sadness = {
 			animation = { head = "emotion_sadness_entry" torso = "emotion_sadness_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -818,19 +818,19 @@ cfp_bonfire = {
 					}
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations_props = cfp_bonfire_prop
 				animations = emotion_sadness_decal
 			}
 		}
-
+		
 		emotion_sadness_fat = {
 			animation = { head = "emotion_sadness_entry" torso = "emotion_sadnessFat_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -841,19 +841,19 @@ cfp_bonfire = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations_props = cfp_bonfire_prop
 				animations = emotion_sadness_decal
 			}
 		}
-
+		
 		emotion_sadness_dwarf = {
 			animation = { head = "emotion_sadness_entry" torso = "emotion_sadnessFat_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -863,19 +863,19 @@ cfp_bonfire = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations_props = cfp_bonfire_prop
 				animations = emotion_sadness_decal
 			}
 		}
-
+		
 		emotion_sadness_fat_dwarf = {
 			animation = { head = "emotion_sadness_entry" torso = "emotion_sadnessFatDwarf_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -885,19 +885,19 @@ cfp_bonfire = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations_props = cfp_bonfire_prop
 				animations = emotion_sadness_decal
 			}
 		}
-
+		
 		emotion_sadness_pregnant = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnant_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -907,19 +907,19 @@ cfp_bonfire = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations_props = cfp_bonfire_prop
 				animations = emotion_happy_decal
 			}
 		}
-
+		
 		emotion_sadness_pregnant_dwarf = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFat_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -929,19 +929,19 @@ cfp_bonfire = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations_props = cfp_bonfire_prop
 				animations = emotion_happy_decal
 			}
 		}
-
+		
 		emotion_sadness_pregnant_fat_dwarf = {
 			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFatDwarf_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -951,14 +951,14 @@ cfp_bonfire = {
 					}					
 				}
 			}
-
+			
 			portrait_modifier = {
 				animations_props = cfp_bonfire_prop
 				animations = emotion_happy_decal
 			}
 		}
 	}
-
+	
 	boy = male
 	female = male
 	girl = male	
@@ -967,13 +967,13 @@ cfp_bonfire = {
 cfp_broom = {
 	male = { 
 		default = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassive1_entry" } 
-
+		
 		throneRoom_one_handed_passive_1_hunchbacked = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassive1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 110
 					has_trait = hunchbacked
@@ -984,54 +984,54 @@ cfp_broom = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_infant = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					age <= 1
 				}
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_child_1 = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					age <= 4
-
+					
 				}
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_child_2 = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					age <= 10
-
+					
 				}
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_basic = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassive1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -1046,13 +1046,13 @@ cfp_broom = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_fat = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFat1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -1067,13 +1067,13 @@ cfp_broom = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFat1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -1088,13 +1088,13 @@ cfp_broom = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_fat_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -1109,13 +1109,13 @@ cfp_broom = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_pregnant = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -1130,13 +1130,13 @@ cfp_broom = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_pregnant_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -1151,13 +1151,13 @@ cfp_broom = {
 				animations = council_marshal_decal
 			}
 		}
-
+		
 		throneRoom_one_handed_passive_1_pregnant_fat_dwarf = {
 			animation = { head = "throneRoom_oneHandedPassive1_entry" torso = "throneRoom_oneHandedPassiveFatDwarf1_entry" }
-
+			
 			weight = {
 				base = 0
-
+				
 				modifier = {
 					add = 100
 					AND = {
@@ -1173,7 +1173,7 @@ cfp_broom = {
 			}
 		}
 	}
-
+	
 	female = male
 	girl = male
 	boy = male
