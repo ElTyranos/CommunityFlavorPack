@@ -83,27 +83,6 @@
 		}
 	}
 	
-	western_legwear_late = {
-
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = legwear
-				template = western_common_legwear_late
-				range = { 0 1 }
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				portrait_western_clothing_trigger = yes
-				cfp_era_late_medieval_trigger = yes
-				is_male = yes
-			}
-		}
-	}
-
 	western_war_legwear = {
 
 		dna_modifiers = {

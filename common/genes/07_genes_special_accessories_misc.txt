@@ -986,19 +986,8 @@ special_genes = {
 				girl = female
 			}
 			
-			western_common_legwear_late = {
-				index = 10
-				male = {
-					# 1 = male_legwear_secular_western_cfp_pants_01 # model has to be remade
-					1 = male_legwear_secular_western_common_01
-				}
-				female = {}
-				boy = male
-				girl = female
-			}
-			
 			western_war_legwear_late = {
-				index = 11
+				index = 9
 				male = {
 					1 = male_legwear_secular_western_cfp_war_plate_01
 				}
@@ -1010,7 +999,7 @@ special_genes = {
 			}
 			
 			sub_saharan_common_legwear = {
-				index = 12
+				index = 10
 				male = {
 					1 = male_legwear_secular_sub_saharan_cfp_common_01
 				}
@@ -1022,7 +1011,7 @@ special_genes = {
 			}
 			
 			javanese_common_legwear = {
-				index = 13
+				index = 11
 				male = {
 					1 = male_legwear_secular_java_cfp_common_01
 				}
@@ -1034,7 +1023,7 @@ special_genes = {
 			}
 			
 			javanese_nobility_legwear = {
-				index = 14
+				index = 12
 				male = {
 					1 = male_legwear_secular_java_cfp_high_nobility_01
 				}
@@ -1046,7 +1035,7 @@ special_genes = {
 			}
 			
 			javanese_royalty_legwear = {
-				index = 15
+				index = 13
 				male = {
 					1 = male_legwear_secular_java_cfp_royalty_01
 				}

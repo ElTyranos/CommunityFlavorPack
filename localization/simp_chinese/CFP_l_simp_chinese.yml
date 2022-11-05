@@ -603,9 +603,7 @@
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! 板甲袜"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01$"
- 
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! 中世纪后期袜"
- 
+  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! 非洲袜"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_sub_saharan_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01$"
 

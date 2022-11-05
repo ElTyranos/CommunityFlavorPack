@@ -7,7 +7,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_02:1 "@cfp_icon_purple! Byzantine Helmet (no neck guard)"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nobility_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_02$"
 
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "@cfp_icon_yellow! Crown without Turban"
+PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "@cfp_icon_yellow! Crown without Turban"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "@cfp_icon_yellow! Imperial Crown without Headwrap"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_02:0 "@cfp_icon_orange! Dazzling Crown"
@@ -604,9 +604,7 @@
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Plate Armour Legwear"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01$"
- 
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_pants_01:1 "@cfp_icon! Late Medieval Legwear"
- 
+  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! African Legwear"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_sub_saharan_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01$"
 
