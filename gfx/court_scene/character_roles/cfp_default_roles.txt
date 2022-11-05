@@ -9,8 +9,8 @@
 						any_court_position_holder = {
 				        	type = court_jester_court_position
 							is_available_healthy_ai_adult = yes
-			        	}
-		        	}
+						}
+					}
 					random_court_position_holder = {
 						type = court_jester_court_position
 						limit = {
@@ -30,8 +30,8 @@
 						any_court_position_holder = {
 				        	type = court_musician_court_position
 							is_available_healthy_ai_adult = yes
-			        	}
-		        	}
+						}
+					}
 					random_court_position_holder = {
 						type = court_musician_court_position
 						limit = {

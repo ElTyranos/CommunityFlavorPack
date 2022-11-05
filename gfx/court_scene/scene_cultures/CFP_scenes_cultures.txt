@@ -2,13 +2,13 @@
 papal = {
 	trigger = {
 		has_graphical_papal_culture_group_trigger = yes
-    }
+	}
 }
 
 hre = {
 	trigger = {
 		has_graphical_hre_culture_group_trigger = yes
-    }
+	}
 }
 
 byzantine = {
@@ -16,14 +16,14 @@ byzantine = {
 		has_graphical_byzantine_culture_group_trigger = yes
 		religion = religion:christianity_religion
 		NOT = { faith = faith:iconoclast }
-    }
+	}
 }
 
 byzantine_mena = {
 	trigger = {
 		has_graphical_byzantine_culture_group_trigger = yes
 		religion = religion:islam_religion
-    }
+	}
 }
 
 byzantine_pagan = {
@@ -42,7 +42,7 @@ byzantine_pagan = {
 				faith = faith:iconoclast
 			}
 		}
-    }
+	}
 }
 
 norman = {
