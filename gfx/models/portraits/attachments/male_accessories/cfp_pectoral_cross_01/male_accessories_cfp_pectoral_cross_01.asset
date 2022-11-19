@@ -5,7 +5,7 @@ pdxmesh = {
 	blend_shape = { id = "male_accessories_cfp_pectoral_cross_01_bs_fat"				type = "male_accessories_cfp_pectoral_cross_01_bs_fat.mesh" }
 	blend_shape = { id = "male_accessories_cfp_pectoral_cross_01_bs_dwarf"				type = "male_accessories_cfp_pectoral_cross_01_bs_dwarf.mesh" }
 	blend_shape = { id = "male_accessories_cfp_pectoral_cross_01_bs_gaunt"				type = "male_accessories_cfp_pectoral_cross_01_bs_gaunt.mesh" }
-	blend_shape = { id = "male_accessories_cfp_pectoral_cross_01_bs_muscular"				type = "male_accessories_cfp_pectoral_cross_01_bs_muscular.mesh" }
+	blend_shape = { id = "male_accessories_cfp_pectoral_cross_01_bs_muscular"			type = "male_accessories_cfp_pectoral_cross_01_bs_muscular.mesh" }
 
 	meshsettings = {
 		name = "male_accessories_cfp_pectoral_cross_01Shape"
@@ -25,5 +25,5 @@ entity = {
 	attribute = { name = "bs_body_fat_1"								blend_shape = "male_accessories_cfp_pectoral_cross_01_bs_fat" }
 	attribute = { name = "bs_body_dwarf_1"								blend_shape = "male_accessories_cfp_pectoral_cross_01_bs_dwarf" }
 	attribute = { name = "bs_body_gaunt_1"								blend_shape = "male_accessories_cfp_pectoral_cross_01_bs_gaunt" }
-	attribute = { name = "bs_body_muscular_1"								blend_shape = "male_accessories_cfp_pectoral_cross_01_bs_muscular" }
+	attribute = { name = "bs_body_muscular_1"							blend_shape = "male_accessories_cfp_pectoral_cross_01_bs_muscular" }
 }
