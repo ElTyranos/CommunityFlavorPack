@@ -1,4 +1,4 @@
-﻿# Vanilla edits
+# Vanilla edits
 male_accessories_cfp_fp1_rings_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_accessories_cfp_fp1_rings_01_entity }
 }
@@ -53,6 +53,13 @@ male_accessories_cfp_african_necklace_02 = {
 }
 female_accessories_cfp_african_necklace_02 = {
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_accessories_cfp_african_necklace_02_entity }
+}
+
+male_accessories_cfp_reliquary_pendant_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_accessories_cfp_reliquary_pendant_01_entity }
+}
+female_accessories_cfp_reliquary_pendant_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_accessories_cfp_reliquary_pendant_01_entity }
 }
 
 male_accessories_cfp_pectoral_cross_01 = {

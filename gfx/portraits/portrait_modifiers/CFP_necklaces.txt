@@ -80,6 +80,43 @@ cfp_necklaces = {
 		}
 	}
 	
+	western_high_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_accessories_necklace
+				template = western_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				highest_held_title_tier >= tier_duchy # for dukes and above
+				religion = religion:christianity_religion
+				portrait_western_clothing_trigger = yes
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = zealous }
+					portrait_has_trait_trigger = { TRAIT = theologian }
+					portrait_has_trait_trigger = { TRAIT = faith_warrior }
+					portrait_has_trait_trigger = { TRAIT = devoted }
+				}
+				NOR = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+	
 	african_low_nobility = {
 		dna_modifiers = {
 			accessory = {

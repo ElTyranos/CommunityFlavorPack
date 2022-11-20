@@ -86,6 +86,19 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			western_high_nobility = {
+				index = 8
+				male = {
+					1 = empty
+					1 = male_accessories_cfp_reliquary_pendant_01
+				}
+				female = {
+					1 = empty
+					1 = female_accessories_cfp_reliquary_pendant_01
+				}
+				boy = male
+				girl = female
+			}
 			
 		}
 		

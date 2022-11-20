@@ -36,6 +36,14 @@ custom_necklace = {
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
+		template = religious_catholic_cross
+		is_valid_custom = {
+			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = special_accessories_necklace
 		template = african_low_nobility
 		is_valid_custom = {
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }

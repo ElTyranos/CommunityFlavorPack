@@ -1,4 +1,4 @@
-﻿l_german:
+l_german:
  PORTRAIT_MODIFIER_custom_necklace:0 "Halskette"
  
  PORTRAIT_MODIFIER_custom_necklace_male_empty:1 "Keine Halskette"
@@ -24,4 +24,7 @@
  
  PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_pectoral_cross_01:1 "@cfp_icon_white! Angelsächsisches Pektorale"
  PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_pectoral_cross_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_pectoral_cross_01$"
+ 
+ PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_reliquary_pendant_01:1 "@cfp_icon! Reliquienanhänger"
+ PORTRAIT_MODIFIER_custom_necklace_female_accessories_cfp_reliquary_pendant_01:1 "$PORTRAIT_MODIFIER_custom_necklace_male_accessories_cfp_reliquary_pendant_01$"
  
