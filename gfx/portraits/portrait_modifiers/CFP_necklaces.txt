@@ -1,4 +1,4 @@
-﻿cfp_necklaces = {
+cfp_necklaces = {
 	
 	usage = game
 	selection_behavior = weighted_random
@@ -179,12 +179,12 @@
 		}
 	}
 	
-	pectoral_crosses = {
+	religious_catholic_cross = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = pectoral_crosses
+				template = religious_catholic_cross
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}

@@ -75,7 +75,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			pectoral_crosses = {
+			religious_catholic_cross = {
 				index = 6
 				male = {
 					1 = male_accessories_cfp_pectoral_cross_01
