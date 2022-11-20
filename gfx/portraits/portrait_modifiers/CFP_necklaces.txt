@@ -13,6 +13,14 @@ cfp_necklaces = {
                 range = { 0 1 } # For the randomness to work correctly
 			}
 		}
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_character_flag = single_combat_duel_armor
+			}	
+		}
 	}
 	
 	western_royalty_ermine = {
