@@ -1,4 +1,4 @@
-﻿special_genes = {
+special_genes = {
 	accessory_genes = {
 		
 		special_accessories_necklace = {
@@ -59,7 +59,7 @@
 					1 = empty
 				}
 				female = {
-					3 = female_accessories_cfp_african_necklace_01
+					1 = female_accessories_cfp_african_necklace_01
 				}
 				boy = male
 				girl = female
@@ -70,7 +70,7 @@
 					1 = male_accessories_cfp_african_necklace_02
 				}
 				female = {
-					3 = female_accessories_cfp_african_necklace_02
+					1 = female_accessories_cfp_african_necklace_02
 				}
 				boy = male
 				girl = female
