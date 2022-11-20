@@ -1,4 +1,4 @@
-cfp_necklaces = {
+﻿cfp_necklaces = {
 	
 	usage = game
 	selection_behavior = weighted_random
@@ -263,5 +263,49 @@ cfp_necklaces = {
 		}
 	}
 	
+	religious_catholic_pilgrim = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_accessories_necklace
+				template = religious_catholic_pilgrim
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				religion = religion:christianity_religion
+				portrait_western_clothing_trigger = yes
+				OR = {	
+					AND = {
+						portrait_has_trait_trigger = { TRAIT = pilgrim }
+						highest_held_title_tier <= tier_county
+					}
+					OR = {
+						has_character_modifier = pilgrimage_divine_protection_modifier
+						has_character_modifier = new_pilgrimage_companions_modifier
+						has_character_modifier = pilgrimage_completely_lost_modifier
+						has_character_modifier = dedicated_to_pilgrimage_modifier
+						has_character_modifier = pilgrimage_worldly_modifier
+						has_character_modifier = pilgrimage_rest_and_good_health_modifier
+						# has_character_modifier = pilgrimage_armed_pilgrimages_modifier # determined pilgrim is gained by 99.9% of AIs, we want the hat to appear unique
+					}
+				}
+				NOR = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
 	
 }

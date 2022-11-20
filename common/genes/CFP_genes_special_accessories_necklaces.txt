@@ -1,4 +1,4 @@
-special_genes = {
+﻿special_genes = {
 	accessory_genes = {
 		
 		special_accessories_necklace = {
@@ -82,6 +82,19 @@ special_genes = {
 				}
 				female = {
 					1 = female_accessories_cfp_pectoral_cross_01
+				}
+				boy = male
+				girl = female
+			}
+			religious_catholic_pilgrim = {
+				index = 7
+				male = {
+					1 = empty
+					1 = male_accessories_cfp_pilgrim_ampoule_01
+				}
+				female = {
+					1 = empty
+					1 = female_accessories_cfp_pilgrim_ampoule_01
 				}
 				boy = male
 				girl = female
