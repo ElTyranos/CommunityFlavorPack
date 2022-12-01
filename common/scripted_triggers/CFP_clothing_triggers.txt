@@ -177,11 +177,14 @@ cfp_portrait_latin_clothing_contents_trigger = {
 cfp_portrait_iberian_christian_clothing_trigger = {
 	OR = {
 		scope:culture = { portrait_fp2_iberian_christian_clothing_contents_trigger = yes }
-		AND = {
-			is_landed = yes
-			religion = religion:christianity_religion
-			capital_province = {
-				geographical_region = world_europe_west_iberia
+		trigger_if = {
+			limit = { exists = this	}
+			AND = {
+				is_landed = yes
+				religion = religion:christianity_religion
+				capital_province = {
+					geographical_region = world_europe_west_iberia
+				}
 			}
 		}
 	}
@@ -204,11 +207,14 @@ cfp_portrait_iberian_christian_clothing_spouse_trigger = {
 cfp_portrait_iberian_muslim_clothing_trigger = {
 	OR = {
 		scope:culture = { portrait_fp2_iberian_muslim_clothing_contents_trigger = yes }
-		AND = {
-			is_landed = yes
-			religion = religion:islam_religion
-			capital_province = {
-				geographical_region = world_europe_west_iberia
+		trigger_if = {
+			limit = { exists = this	}
+			AND = {
+				is_landed = yes
+				religion = religion:islam_religion
+				capital_province = {
+					geographical_region = world_europe_west_iberia
+				}
 			}
 		}
 	}
