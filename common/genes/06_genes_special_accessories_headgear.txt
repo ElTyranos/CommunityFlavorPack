@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 accessory_genes = {
@@ -1410,8 +1410,7 @@ accessory_genes = {
 		fp1_royalty = {
 			index = 75
 			male = {
-				3 = male_headgear_secular_fp1_royalty_01
-				1 = male_headgear_secular_fp1_cfp_royalty_01
+				1 = male_headgear_secular_fp1_royalty_01
 
 			}
 			female = {
