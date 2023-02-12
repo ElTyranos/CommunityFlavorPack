@@ -339,6 +339,7 @@ cloaks = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
 					has_government = theocracy_government
+					portrait_wear_armor_trigger = yes
 					AND = { 
 						has_government = republic_government
 						NOT = { has_primary_title = title:k_venice }
@@ -457,6 +458,7 @@ cloaks = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
 					has_government = theocracy_government
+					portrait_wear_armor_trigger = yes
 					has_government = republic_government
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
