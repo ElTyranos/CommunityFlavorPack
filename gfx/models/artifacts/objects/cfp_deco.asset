@@ -78,3 +78,80 @@ entity = {
 	name = "cfp_carpet_01_andalusian_entity"
 	pdxmesh = "cfp_carpet_01_andalusian_mesh"
 }
+
+## Norse Table
+pdxmesh = {
+	name = "cfp_norse_table_01_mesh"
+	file = "cfp_norse_table_01.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_table_01Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_table_01_diffuse.dds"
+		texture_normal = "cfp_norse_table_01_normal.dds"
+		texture_specular = "cfp_norse_table_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_norse_table_01Shape"
+		index = 1
+		texture_diffuse = "ep1_generic_animal_hide_big_01_d_diffuse.dds"
+		texture_normal = "ep1_generic_animal_hide_medium_01_a_normal.dds"
+		texture_specular = "ep1_generic_animal_hide_medium_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_norse_table_01Shape"
+		index = 2
+		texture_diffuse = "ep1_generic_animal_hide_big_01_b_diffuse.dds"
+		texture_normal = "ep1_generic_animal_hide_medium_01_a_normal.dds"
+		texture_specular = "ep1_generic_animal_hide_medium_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_norse_table_01_entity"
+	pdxmesh = "cfp_norse_table_01_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_norse_table_02_mesh"
+	file = "cfp_norse_table_01.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_table_01Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_table_01_diffuse.dds"
+		texture_normal = "cfp_norse_table_01_normal.dds"
+		texture_specular = "cfp_norse_table_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_norse_table_01Shape"
+		index = 1
+		texture_diffuse = "ep1_generic_animal_hide_big_01_b_diffuse.dds"
+		texture_normal = "ep1_generic_animal_hide_medium_01_a_normal.dds"
+		texture_specular = "ep1_generic_animal_hide_medium_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_norse_table_01Shape"
+		index = 2
+		texture_diffuse = "ep1_generic_animal_hide_big_01_d_diffuse.dds"
+		texture_normal = "ep1_generic_animal_hide_medium_01_a_normal.dds"
+		texture_specular = "ep1_generic_animal_hide_medium_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_norse_table_02_entity"
+	pdxmesh = "cfp_norse_table_02_mesh"
+}
