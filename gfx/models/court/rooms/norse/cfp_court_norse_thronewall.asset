@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "cfp_court_norse_thronewall_mesh"
+	file = "cfp_court_norse_thronewall.mesh"
+
+	meshsettings = {
+		name = "cfp_court_norse_thronewallShape"
+		index = 0
+		texture_diffuse = "cfp_materials_norse_oak_02_diffuse.dds"
+		texture_normal = "cfp_materials_norse_oak_02_normal.dds"
+		texture_specular = "cfp_materials_norse_oak_02_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_court_norse_thronewall_entity"
+	pdxmesh = "cfp_court_norse_thronewall_mesh"
+}
