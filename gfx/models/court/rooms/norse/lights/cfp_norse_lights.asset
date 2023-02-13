@@ -1,0 +1,77 @@
+pdxmesh = {
+	name = "cfp_norse_oil_lamp_01_mesh"
+	file = "cfp_norse_oil_lamp_01.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_oil_lamp_01Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_oil_lamp_01_diffuse.dds"
+		texture_normal = "cfp_norse_oil_lamp_01_normal.dds"
+		texture_specular = "cfp_norse_oil_lamp_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "cfp_norse_fireplace_01_mesh"
+	file = "cfp_norse_fireplace_01.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_fireplace_01Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_fireplace_01_diffuse.dds"
+		texture_normal = "cfp_norse_fireplace_01_normal.dds"
+		texture_specular = "cfp_norse_fireplace_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_norse_fireplace_01Shape"
+		index = 1
+		texture_diffuse = "fireplace_logs_diffuse.dds"
+		texture_normal = "fireplace_logs_normal.dds"
+		texture_specular = "fireplace_logs_properties.dds"
+		shader = "court_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_norse_fireplace_01Shape"
+		index = 2
+		texture_diffuse = "portrait_prop_cfp_cauldron_01_diffuse.dds"
+		texture_normal = "portrait_prop_cfp_cauldron_01_normal.dds"
+		texture_specular = "portrait_prop_cfp_cauldron_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_norse_oil_lamp_01_entity"
+	pdxmesh = "cfp_norse_oil_lamp_01_mesh"
+
+	default_state = "idle"
+	state =	{
+		name = "idle" state_time = 5 looping = yes
+		event = {
+			time = 0
+			node = "Oil_lamp_flame"
+			particle = "roco_lamp_flame"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event = { trigger_once = yes time = 0.0 sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/chandelier" }}
+	}
+
+}
+
+entity = {
+	name = "cfp_norse_fireplace_01_entity"
+	pdxmesh = "cfp_norse_fireplace_01_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle" state_time = 5 looping = yes
+		event = { trigger_once = yes time = 0.0 sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/fireplace" }}
+	}
+}
