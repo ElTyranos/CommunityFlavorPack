@@ -89,3 +89,31 @@ entity = {
 		}
 	}
 }
+
+pdxmesh = {
+	name = "cfp_norse_throne_01_mesh"
+	file = "cfp_norse_throne_01.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_throne_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_throne_01_diffuse.dds"
+		texture_normal = "cfp_norse_throne_01_normal.dds"
+		texture_specular = "cfp_norse_throne_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_norse_throne_01_entity"
+	pdxmesh = "cfp_norse_throne_01_mesh"
+	locator = { name = ruler_locator position = { 0 65 -18 } }
+	
+	game_data = {
+		throne_entity_user_data = {
+			animation = throne_room_ruler
+			use_throne_transform = yes
+		}
+	}
+}
