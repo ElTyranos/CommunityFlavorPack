@@ -642,6 +642,10 @@ male_headgear_secular_slavic_cfp_ruthenian_royalty_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_ruthenian_royalty_01_entity 	 }
 }
+male_headgear_secular_slavic_cfp_ruthenian_low_01 = {
+	set_tags = "no_hair,snug_headgear"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_ruthenian_low_01_entity 	 }
+}
 
 male_headgear_secular_slavic_cfp_skanderbeg_01 = {
 	set_tags = "cap"
