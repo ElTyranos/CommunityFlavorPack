@@ -1,4 +1,4 @@
-
+﻿
 special_genes = {
 
 accessory_genes = {
@@ -2075,6 +2075,7 @@ accessory_genes = {
             index = 122
 			male = {
 				5 = male_headgear_secular_slavic_cfp_ruthenian_royalty_01
+				5 = male_headgear_secular_slavic_cfp_ruthenian_high_01
 				5 = male_headgear_secular_slavic_cfp_ruthenian_low_01
 				5 = male_headgear_secular_slavic_royalty_01
 				1 = male_headgear_secular_western_royalty_01
