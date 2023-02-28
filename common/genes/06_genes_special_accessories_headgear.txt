@@ -2087,6 +2087,7 @@ accessory_genes = {
 			}
 			female = {
 				5 = female_headgear_secular_ruthenian_cfp_imperial_01
+				5 = female_headgear_secular_ruthenian_cfp_royalty_01
 				1 = female_headgear_secular_slavic_royalty_01
 			}
             boy = male
