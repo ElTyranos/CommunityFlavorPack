@@ -638,21 +638,21 @@ female_headgear_secular_slavic_cfp_royalty_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_cfp_royalty_02_entity 	 }
 }
 
-male_headgear_secular_slavic_cfp_ruthenian_royalty_01 = {
+male_headgear_secular_ruthenian_cfp_royalty_01 = {
 	set_tags = "crown"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_ruthenian_royalty_01_entity 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_ruthenian_cfp_royalty_01_entity 	 }
 }
-male_headgear_secular_slavic_cfp_ruthenian_high_01 = {
+male_headgear_secular_ruthenian_cfp_high_01 = {
 	set_tags = "cap"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_ruthenian_high_01_entity 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_ruthenian_cfp_high_01_entity 	 }
 }
-male_headgear_secular_slavic_cfp_ruthenian_low_01 = {
+male_headgear_secular_ruthenian_cfp_low_01 = {
 	set_tags = "no_hair,snug_headgear"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_ruthenian_low_01_entity 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_ruthenian_cfp_low_01_entity 	 }
 }
-male_headgear_secular_slavic_cfp_ruthenian_war_01 = {
+male_headgear_secular_ruthenian_cfp_war_01 = {
 	set_tags = "no_hair,snug_headgear,hood_beard"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_cfp_ruthenian_war_01_entity 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_ruthenian_cfp_war_01_entity 	 }
 }
 
 male_headgear_secular_slavic_cfp_skanderbeg_01 = {
