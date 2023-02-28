@@ -2074,6 +2074,7 @@ accessory_genes = {
         slavic_royalty = {
             index = 122
 			male = {
+				5 = male_headgear_secular_ruthenian_cfp_imperial_01
 				5 = male_headgear_secular_ruthenian_cfp_royalty_01
 				5 = male_headgear_secular_ruthenian_cfp_high_01
 				5 = male_headgear_secular_ruthenian_cfp_low_01
@@ -2084,6 +2085,7 @@ accessory_genes = {
 				1 = male_headgear_secular_western_royalty_02
 			}
 			female = {
+				5 = female_headgear_secular_ruthenian_cfp_imperial_01
 				1 = female_headgear_secular_slavic_royalty_01
 			}
             boy = male
