@@ -2060,37 +2060,27 @@ accessory_genes = {
 		}
 		
         slavic_high_nobility = {
-            index = 121
+            index = 123
 			male = {
 				1 = male_headgear_secular_slavic_high_nobility_01
+				1 = male_headgear_secular_ruthenian_cfp_high_01
 			}
 			female = {
 				1 = female_headgear_secular_slavic_high_nobility_01
+				1 = female_headgear_secular_ruthenian_cfp_high_01
 			}
             boy = male
             girl = female
         }
 		
         slavic_royalty = {
-            index = 122
-			male = {
-				5 = male_headgear_secular_ruthenian_cfp_imperial_01
-				5 = male_headgear_secular_ruthenian_cfp_royalty_01
-				5 = male_headgear_secular_ruthenian_cfp_high_01
-				5 = male_headgear_secular_ruthenian_cfp_low_01
-				5 = male_headgear_secular_ruthenian_cfp_common_01
-				5 = male_headgear_secular_ruthenian_cfp_war_01
-				
-				5 = male_headgear_secular_slavic_royalty_01
-				1 = male_headgear_secular_western_royalty_01
-				1 = male_headgear_secular_western_royalty_02
+            index = 124
+			male = {				
+				1 = male_headgear_secular_ruthenian_cfp_royalty_01
+				1 = male_headgear_secular_slavic_royalty_01
 			}
 			female = {
-				5 = female_headgear_secular_ruthenian_cfp_imperial_01
-				5 = female_headgear_secular_ruthenian_cfp_royalty_01
-				5 = female_headgear_secular_ruthenian_cfp_common_01
-				5 = female_headgear_secular_ruthenian_cfp_war_01
-				
+				1 = female_headgear_secular_ruthenian_cfp_royalty_01
 				1 = female_headgear_secular_slavic_royalty_01
 			}
             boy = male
@@ -2098,30 +2088,32 @@ accessory_genes = {
         }
 		
         slavic_imperial = {
-            index = 123
+            index = 125
 			male = {
 				5 = male_headgear_secular_slavic_cfp_monomakh_01
+				5 = male_headgear_secular_ruthenian_cfp_imperial_01
 			}
 			female = {
 				5 = female_headgear_secular_slavic_cfp_monomakh_01
+				5 = female_headgear_secular_ruthenian_cfp_imperial_01
 			}
             boy = male
             girl = female
         }
 		
 		slavic_war = {
-			index = 124
+			index = 126
 			male = {
 				4 = male_headgears_secular_slavic_war_helmet_01
 				4 = male_headgears_secular_slavic_war_helmet_02
-				1 = male_headgears_secular_hungarian_war_helmet_01
-				1 = male_headgear_secular_slavic_cfp_war_type4_01
+				4 = male_headgear_secular_ruthenian_cfp_war_01
+				2 = male_headgear_secular_slavic_cfp_war_type4_01
 			}
 			female = {
 				4 = female_headgears_secular_slavic_war_helmet_01
 				4 = female_headgears_secular_slavic_war_helmet_02
-				1 = female_headgears_secular_hungarian_war_helmet_01
-				1 = female_headgear_secular_slavic_cfp_war_type4_01
+				4 = female_headgear_secular_ruthenian_cfp_war_01
+				2 = female_headgear_secular_slavic_cfp_war_type4_01
 			}
 			boy = male
             girl = female
