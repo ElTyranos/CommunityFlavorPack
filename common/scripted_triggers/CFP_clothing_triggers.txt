@@ -159,6 +159,7 @@ cfp_portrait_slavic_clothing_contents_trigger = {
 		has_cultural_pillar = heritage_south_slavic
 		has_cultural_pillar = heritage_west_slavic
 		has_cultural_pillar = heritage_east_slavic
+		has_cultural_pillar = heritage_baltic
 	}
 }
 
