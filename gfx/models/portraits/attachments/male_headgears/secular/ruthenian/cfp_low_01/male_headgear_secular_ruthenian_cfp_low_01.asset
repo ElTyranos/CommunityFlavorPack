@@ -20,7 +20,7 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/ruthenian/ruthenian_cfp_low_01/male_headgear_secular_ruthenian_cfp_low_01_masks.dds"
+				pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/ruthenian/cfp_low_01/male_headgear_secular_ruthenian_cfp_low_01_masks.dds"
 				variation = "northern_low_01"
 			}
         }
