@@ -2371,6 +2371,98 @@ headgear = {
 
 ## Slavic
 
+	slavic_commoners = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = slavic_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				exists = this
+				portrait_can_use_noble_headgear_trigger = no
+				cfp_portrait_slavic_clothing_trigger = yes
+			}
+			modifier = {
+				add = 20
+				exists = this
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				cfp_portrait_slavic_clothing_spouse_trigger = yes
+			}
+		}
+	}
+
+	slavic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = slavic_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				exists = this
+				portrait_can_use_noble_headgear_trigger = yes
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {	# OR is a typo from paradox, should be NOR
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						cfp_portrait_slavic_clothing_trigger = yes
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							cfp_portrait_slavic_clothing_spouse_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
 	slavic_high_nobles = {
 		dna_modifiers = {
 			accessory = {

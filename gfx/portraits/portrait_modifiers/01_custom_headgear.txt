@@ -406,6 +406,14 @@
 	}
 	add_accessory_modifiers = {
 		gene = headgear
+		template = slavic_commoner
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = slavic_low_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
 		template = slavic_high_nobility
 	}
 	add_accessory_modifiers = {
