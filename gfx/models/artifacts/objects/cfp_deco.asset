@@ -175,3 +175,60 @@ entity = {
 	name = "cfp_norse_table_02_entity"
 	pdxmesh = "cfp_norse_table_02_mesh"
 }
+
+## Norse jars
+pdxmesh = {
+	name = "cfp_norse_jar_01_mesh"
+	file = "cfp_norse_jar_01.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_jar_01Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_jars_diffuse.dds"
+		texture_normal = "cfp_norse_jars_normal.dds"
+		texture_specular = "cfp_norse_jars_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+pdxmesh = {
+	name = "cfp_norse_jar_02_mesh"
+	file = "cfp_norse_jar_02.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_jar_02Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_jars_diffuse.dds"
+		texture_normal = "cfp_norse_jars_normal.dds"
+		texture_specular = "cfp_norse_jars_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+pdxmesh = {
+	name = "cfp_norse_jar_03_mesh"
+	file = "cfp_norse_jar_03.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_jar_03Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_jars_diffuse.dds"
+		texture_normal = "cfp_norse_jars_normal.dds"
+		texture_specular = "cfp_norse_jars_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_norse_jar_01_entity"
+	pdxmesh = "cfp_norse_jar_01_mesh"
+}
+entity = {
+	name = "cfp_norse_jar_02_entity"
+	pdxmesh = "cfp_norse_jar_02_mesh"
+}
+entity = {
+	name = "cfp_norse_jar_03_entity"
+	pdxmesh = "cfp_norse_jar_03_mesh"
+}
