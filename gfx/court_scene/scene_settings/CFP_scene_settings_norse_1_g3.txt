@@ -37,9 +37,9 @@ camera={ {
  {
 		description="Artifact View"
 		fov=50.000000
-		position={ 65.614037 222.591934 -497.293884 }
-		pitch=6.316417
-		yaw=-10.031260
+		position={ 86.208656 237.198090 -506.500183 }
+		pitch=10.872617
+		yaw=-11.315304
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_ARTIFACT_VIEW_CAMERA"
@@ -149,9 +149,9 @@ camera={ {
  {
 		description="artifact_sculpture_2"
 		fov=50.000000
-		position={ 81.282196 240.699997 557.544128 }
-		pitch=20.917665
-		yaw=141.186600
+		position={ 166.222717 286.403748 -49.598423 }
+		pitch=21.080631
+		yaw=47.436604
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -808,13 +808,13 @@ assets={ {
  {
 		position={ 290.000000 30.000000 24.200001 }
 		description="Table 01"
-		asset="cfp_norse_table_02_entity"
+		asset="cfp_norse_table_01b_entity"
 	}
  {
 		position={ -290.000000 30.000000 -508.100006 }
 		direction=180.000000
 		description="Table 04"
-		asset="cfp_norse_table_02_entity"
+		asset="cfp_norse_table_01b_entity"
 	}
  {
 		position={ 290.000000 30.000000 -520.200012 }

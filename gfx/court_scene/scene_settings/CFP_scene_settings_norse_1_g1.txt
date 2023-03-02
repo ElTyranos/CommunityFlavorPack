@@ -37,9 +37,9 @@ camera={ {
  {
 		description="Artifact View"
 		fov=50.000000
-		position={ 65.614037 222.591934 -497.293884 }
-		pitch=6.316417
-		yaw=-10.031260
+		position={ 86.208656 237.198090 -506.500183 }
+		pitch=10.872617
+		yaw=-11.315304
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_ARTIFACT_VIEW_CAMERA"
@@ -149,9 +149,9 @@ camera={ {
  {
 		description="artifact_sculpture_2"
 		fov=50.000000
-		position={ 81.282196 240.699997 557.544128 }
-		pitch=20.917665
-		yaw=141.186600
+		position={ 166.222717 286.403748 -49.598423 }
+		pitch=21.080631
+		yaw=47.436604
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -730,24 +730,24 @@ assets={ {
  {
 		position={ 0.000000 -14.000000 -230.000000 }
 		description="Wall - Center"
-		asset="cfp_court_norse_sidewalls_entity"
+		asset="cfp_court_norse_sidewalls_g1_entity"
 	}
  {
 		position={ 0.000000 -14.000000 -230.000000 }
 		description="Wall - Center"
-		asset="cfp_court_norse_thronewall_entity"
+		asset="cfp_court_norse_thronewall_g1_entity"
 	}
  {
 		position={ 0.000000 -14.000000 -230.000000 }
 		direction=0.000010
 		description="Floor"
-		asset="cfp_court_norse_flooring_entity"
+		asset="cfp_court_norse_flooring_g1_entity"
 	}
  {
 		position={ 0.000000 -14.000000 -230.000000 }
 		direction=0.000010
 		description="Roof"
-		asset="cfp_court_norse_roofing_entity"
+		asset="cfp_court_norse_roofing_g1_entity"
 	}
  {
 		position={ -81.599998 277.899994 -189.300003 }
@@ -798,64 +798,6 @@ assets={ {
 		position={ 0.000000 40.000000 -675.000000 }
 		description="Fire particles"
 		asset="roco_fireplace"
-	}
- {
-		position={ -290.000000 30.000000 24.200001 }
-		direction=180.000000
-		description="Table 01"
-		asset="cfp_norse_table_01_entity"
-	}
- {
-		position={ 290.000000 30.000000 24.200001 }
-		description="Table 01"
-		asset="cfp_norse_table_02_entity"
-	}
- {
-		position={ -290.000000 30.000000 -508.100006 }
-		direction=180.000000
-		description="Table 04"
-		asset="cfp_norse_table_02_entity"
-	}
- {
-		position={ 290.000000 30.000000 -520.200012 }
-		description="Table 03"
-		asset="cfp_norse_table_01_entity"
-	}
- {
-		position={ -480.000000 262.100006 -483.899994 }
-		direction=-90.000000
-		description="Hide 01"
-		asset="ep1_generic_animal_hide_big_01_b_entity"
-	}
- {
-		position={ -490.000000 250.000000 -641.100037 }
-		direction=-90.000000
-		description="Hide 02"
-		asset="ep1_generic_animal_hide_big_03_a_entity"
-	}
- {
-		position={ 490.000000 250.000000 -641.100037 }
-		direction=90.000000
-		description="Hide 03"
-		asset="ep1_generic_animal_hide_big_01_b_entity"
-	}
- {
-		position={ 490.000000 298.399994 -375.000000 }
-		direction=90.000000
-		description="Hide 04"
-		asset="ep1_generic_animal_hide_big_02_a_entity"
-	}
- {
-		position={ 490.000000 250.000000 -100.000000 }
-		direction=90.000000
-		description="Hide 05"
-		asset="ep1_generic_animal_hide_big_03_b_entity"
-	}
- {
-		position={ -490.000000 250.000000 -314.500000 }
-		direction=-90.000000
-		description="Hide 01"
-		asset="ep1_generic_animal_hide_big_03_b_entity"
 	}
  {
 		position={ 0.000000 404.800018 0.000000 }

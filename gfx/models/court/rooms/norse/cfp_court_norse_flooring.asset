@@ -14,25 +14,82 @@ pdxmesh = {
 	meshsettings = {
 		name = "cfp_court_norse_flooringShape"
 		index = 1
-		texture_diffuse = "ep1_materials_wall_trimsheet_01_a_diffuse.dds"
-		texture_normal = "ep1_materials_wall_trimsheet_01_a_normal.dds"
-		texture_specular = "ep1_materials_wall_trimsheet_01_a_properties.dds"
+		texture_diffuse = "cfp_materials_dirt_01_diffuse.dds"
+		texture_normal = "cfp_materials_dirt_01_normal.dds"
+		texture_specular = "cfp_materials_dirt_01_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
 	meshsettings = {
 		name = "cfp_court_norse_flooringShape"
 		index = 2
-		texture_diffuse = "cfp_materials_west_african_floor_dirt_01_diffuse.dds"
-		texture_normal = "cfp_materials_west_african_floor_dirt_01_normal.dds"
-		texture_specular = "cfp_materials_west_african_floor_dirt_01_properties.dds"
+		texture_diffuse = "cfp_materials_norse_oak_02_diffuse.dds"
+		texture_normal = "cfp_materials_norse_oak_02_normal.dds"
+		texture_specular = "cfp_materials_norse_oak_02_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "cfp_court_norse_flooring_g1_mesh"
+	file = "cfp_court_norse_flooring_g1.mesh"
+
+	meshsettings = {
+		name = "cfp_court_norse_flooring_g1Shape"
+		index = 0
+		texture_diffuse = "cfp_materials_norse_floor_01_g1_diffuse.dds"
+		texture_normal = "cfp_materials_norse_floor_01_normal.dds"
+		texture_specular = "cfp_materials_norse_floor_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_norse_flooring_g1Shape"
+		index = 1
+		texture_diffuse = "cfp_materials_dirt_01_diffuse.dds"
+		texture_normal = "cfp_materials_dirt_01_normal.dds"
+		texture_specular = "cfp_materials_dirt_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_norse_flooring_g1Shape"
+		index = 2
+		texture_diffuse = "cfp_materials_norse_oak_02_g1_diffuse.dds"
+		texture_normal = "cfp_materials_norse_oak_02_normal.dds"
+		texture_specular = "cfp_materials_norse_oak_02_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "cfp_court_norse_flooring_g2_mesh"
+	file = "cfp_court_norse_flooring.mesh"
+
+	meshsettings = {
+		name = "cfp_court_norse_flooringShape"
+		index = 0
+		texture_diffuse = "cfp_materials_norse_floor_01_g1_diffuse.dds"
+		texture_normal = "cfp_materials_norse_floor_01_normal.dds"
+		texture_specular = "cfp_materials_norse_floor_01_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
 	meshsettings = {
 		name = "cfp_court_norse_flooringShape"
-		index = 3
-		texture_diffuse = "cfp_materials_norse_oak_02_diffuse.dds"
+		index = 1
+		texture_diffuse = "cfp_materials_dirt_01_diffuse.dds"
+		texture_normal = "cfp_materials_dirt_01_normal.dds"
+		texture_specular = "cfp_materials_dirt_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "cfp_court_norse_flooringShape"
+		index = 2
+		texture_diffuse = "cfp_materials_norse_oak_02_g1_diffuse.dds"
 		texture_normal = "cfp_materials_norse_oak_02_normal.dds"
 		texture_specular = "cfp_materials_norse_oak_02_properties.dds"
 		shader = "court"
@@ -43,6 +100,24 @@ pdxmesh = {
 entity = {
 	name = "cfp_court_norse_flooring_entity"
 	pdxmesh = "cfp_court_norse_flooring_mesh"
+	default_state = "default"
+    state = { name = "default"
+       	event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/2D/courtroom_ambience_walla" } }
+       	event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/2D/courtroom_ambience_baselayer" } }
+    }
+}
+entity = {
+	name = "cfp_court_norse_flooring_g1_entity"
+	pdxmesh = "cfp_court_norse_flooring_g1_mesh"
+	default_state = "default"
+    state = { name = "default"
+       	event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/2D/courtroom_ambience_walla" } }
+       	event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/2D/courtroom_ambience_baselayer" } }
+    }
+}
+entity = {
+	name = "cfp_court_norse_flooring_g2_entity"
+	pdxmesh = "cfp_court_norse_flooring_g2_mesh"
 	default_state = "default"
     state = { name = "default"
        	event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/2D/courtroom_ambience_walla" } }
