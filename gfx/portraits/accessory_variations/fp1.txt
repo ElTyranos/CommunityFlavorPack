@@ -284,6 +284,15 @@ variation = {
 		b = { textures = "northern_wool_02" 	layout = "small_trim_layout" }
 		a = { textures = "northern_wool_04"		layout = "small_trim_layout" }
 	}
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "cfp_northern_04" 		layout = "cfp_l" }
+		g = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
+		b = { textures = "fp1_silk_trim_03" 	layout = "medium_trim_layout" }
+		a = { textures = "northern_silk_trim_04"		layout = "small_trim_layout" }
+	}
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
@@ -350,6 +359,7 @@ variation = {
 		b = { textures = "fp1_wool_trim_03" 	layout = "medium_trim_layout" }
 		a = { textures = "fp1_wool_trim_02"		layout = "small_trim_layout" }
 	}
+	
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
@@ -449,14 +459,6 @@ variation = {
 		g = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
 		b = { textures = "northern_silk_trim_02" 	layout = "medium_trim_layout" }
 		a = { textures = "northern_silk_trim_02"		layout = "small_trim_layout" }
-	}
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "cfp_northern_04" 		layout = "cfp_m" }
-		g = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
-		b = { textures = "fp1_silk_trim_03" 	layout = "medium_trim_layout" }
-		a = { textures = "northern_silk_trim_04"		layout = "small_trim_layout" }
 	}
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
