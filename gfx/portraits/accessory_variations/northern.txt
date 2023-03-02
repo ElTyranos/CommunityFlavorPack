@@ -173,12 +173,12 @@ pattern_layout = {
 # 	rotation 	= { min = 0	max = 0 }	
 # 	offset 		= { x = { min = 0	max = 0 }    y = { min = -0.02	max = -0.02 } } 
 # }
-pattern_layout = {
-	name = "western_silk_brocade_01_layout"	
-	scale 		= { min = 0.2	max = 0.2 }
-	rotation 	= { min = 0	max = 0 }	
-	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
-}
+#pattern_layout = {
+#	name = "western_silk_brocade_01_layout"	
+#	scale 		= { min = 0.2	max = 0.2 }
+#	rotation 	= { min = 0	max = 0 }	
+#	offset 		= { x = { min = -0.1	max = -0.1 }    y = { min = 0	max = 0 } } 
+#}
 # pattern_layout = {
 # 	name = "western_silk_brocade_03_layout"	
 # 	scale 		= { min = 0.3	max = 0.3 }
