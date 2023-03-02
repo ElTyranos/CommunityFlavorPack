@@ -119,7 +119,7 @@ entity = {
 }
 
 pdxmesh = {
-	name = "cfp_norse_table_02_mesh"
+	name = "cfp_norse_table_01b_mesh"
 	file = "cfp_norse_table_01.mesh"
 
 	meshsettings = {
@@ -146,6 +146,26 @@ pdxmesh = {
 		texture_diffuse = "ep1_generic_animal_hide_big_01_d_diffuse.dds"
 		texture_normal = "ep1_generic_animal_hide_medium_01_a_normal.dds"
 		texture_specular = "ep1_generic_animal_hide_medium_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cfp_norse_table_01b_entity"
+	pdxmesh = "cfp_norse_table_01b_mesh"
+}
+
+pdxmesh = {
+	name = "cfp_norse_table_02_mesh"
+	file = "cfp_norse_table_02.mesh"
+
+	meshsettings = {
+		name = "cfp_norse_table_02Shape"
+		index = 0
+		texture_diffuse = "cfp_norse_table_01_diffuse.dds"
+		texture_normal = "cfp_norse_table_01_normal.dds"
+		texture_specular = "cfp_norse_table_01_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
