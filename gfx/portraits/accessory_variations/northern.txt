@@ -323,6 +323,15 @@ variation = {
 		b = { textures = "northern_wool_trim_02" 	layout = "small_trim_layout" }
 		a = { textures = "northern_wool_trim_03"		layout = "small_trim_layout" }
 	}	
+
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
+		g = { textures = "northern_wool_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "northern_wool_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "northern_wool_trim_03"		layout = "small_trim_layout" }
+	}	
 		
 	pattern = { 
 		weight = 1
@@ -337,14 +346,6 @@ variation = {
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
 		r = { textures = "northern_wool_02" 		layout = "plain_fabric_layout" }
-		g = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
-		b = { textures = "northern_wool_trim_02" 	layout = "small_trim_layout" }
-		a = { textures = "northern_wool_trim_04"		layout = "small_trim_layout" }
-	}
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "cfp_northern_12" 		layout = "cfp_m" }
 		g = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
 		b = { textures = "northern_wool_trim_02" 	layout = "small_trim_layout" }
 		a = { textures = "northern_wool_trim_04"		layout = "small_trim_layout" }
