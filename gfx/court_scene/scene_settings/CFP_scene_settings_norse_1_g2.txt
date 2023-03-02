@@ -800,24 +800,24 @@ assets={ {
 		asset="roco_fireplace"
 	}
  {
-		position={ -290.000000 30.000000 24.200001 }
+		position={ -290.000000 28.000000 24.200001 }
 		direction=180.000000
 		description="Table 01"
 		asset="cfp_norse_table_02_entity"
 	}
  {
-		position={ 290.000000 30.000000 24.200001 }
+		position={ 290.000000 28.000000 24.200001 }
 		description="Table 01"
 		asset="cfp_norse_table_02_entity"
 	}
  {
-		position={ -290.000000 30.000000 -508.100006 }
+		position={ -290.000000 28.000000 -508.100006 }
 		direction=180.000000
 		description="Table 04"
 		asset="cfp_norse_table_02_entity"
 	}
  {
-		position={ 290.000000 30.000000 -520.200012 }
+		position={ 290.000000 28.000000 -520.200012 }
 		description="Table 03"
 		asset="cfp_norse_table_02_entity"
 	}
@@ -840,6 +840,12 @@ assets={ {
 		scale=0.750000
 		description="God Ray"
 		asset="roco_atmospheric_01"
+	}
+ {
+		position={ -280.000000 28.000000 261.500000 }
+		direction=49.000000
+		description="Jar"
+		asset="cfp_norse_jar_01_entity"
 	}
  }
 artifacts={ {
@@ -880,13 +886,13 @@ artifacts={ {
 	}
  {
 		locator="artifact_bookshelf_2"
-		position={ -375.000000 30.000000 800.000000 }
+		position={ -375.000000 28.000000 800.000000 }
 		direction=90.000000
 		slot="lectern_2"
 	}
  {
 		locator="artifact_bookshelf_1"
-		position={ 375.000000 30.000000 800.000000 }
+		position={ 375.000000 28.000000 800.000000 }
 		direction=90.000000
 		slot="lectern_1"
 	}
@@ -898,13 +904,13 @@ artifacts={ {
 	}
  {
 		locator="artifact_sculpture_1"
-		position={ -430.000000 30.000000 305.000000 }
+		position={ -430.000000 28.000000 305.000000 }
 		direction=-90.000000
 		slot="sculpture_1"
 	}
  {
 		locator="artifact_sculpture_2"
-		position={ 430.000000 30.000000 305.000000 }
+		position={ 430.000000 28.000000 305.000000 }
 		direction=90.000000
 		slot="sculpture_2"
 	}
