@@ -692,8 +692,8 @@ characters={ {
 		roles={ low_prio_prisoners low_prio_clergy low_prio_warriors low_prio_intriguers low_prio_stewards low_prio_diplomats low_prio_courtiers }
 	}
  {
-		position={ 280.000000 0.000000 118.999977 }
-		direction=-19.999985
+		position={ 425.200000 30.000000 118.999977 }
+		direction=-2.000000
 		locator="character_flavor_courtier_10"
 		description="BG Courtier 10"
 		roles={ low_prio_prisoners low_prio_clergy low_prio_warriors low_prio_intriguers low_prio_stewards low_prio_diplomats low_prio_courtiers }
