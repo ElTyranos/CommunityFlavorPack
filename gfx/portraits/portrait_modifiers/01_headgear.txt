@@ -2640,24 +2640,22 @@ headgear = {
 						NOT = { has_government = republic_government }
 						cfp_portrait_slavic_clothing_trigger = yes
 					}
-					# Not for the spouse, only title holder
-					
-					# AND = {
-						# exists = primary_spouse
-						# OR = {
-							# is_ruler = no
-							# highest_held_title_tier = tier_barony
-						# }
-						# primary_spouse = {
-							# OR = {
-								# highest_held_title_tier = tier_empire
-								# AND = { is_ruler = yes has_government = theocracy_government }
-							# }
-							# NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							# NOT = { has_government = republic_government }
-							# cfp_portrait_slavic_clothing_spouse_trigger = yes
-						# }
-					# }
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_empire
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							cfp_portrait_slavic_clothing_spouse_trigger = yes
+						}
+					}
 				}
 			}
 		}
