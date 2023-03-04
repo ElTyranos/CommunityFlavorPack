@@ -2437,7 +2437,10 @@ headgear = {
 							}
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						cfp_portrait_slavic_clothing_trigger = yes
+						AND = {
+							cfp_portrait_slavic_clothing_trigger = yes
+							portrait_northern_clothing_trigger = yes # limited to northern slavic
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -2455,7 +2458,10 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_slavic_clothing_spouse_trigger = yes
+							AND = {
+								cfp_portrait_slavic_clothing_spouse_trigger = yes
+								portrait_northern_clothing_spouse_trigger = yes # limited to northern slavic
+							}
 						}
 					}
 				}
@@ -2489,7 +2495,10 @@ headgear = {
 							AND = { is_ruler = yes has_government = theocracy_government }
 						}
 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						cfp_portrait_slavic_clothing_trigger = yes
+						AND = {
+							cfp_portrait_slavic_clothing_trigger = yes
+							portrait_northern_clothing_trigger = yes # limited to northern slavic
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -2506,7 +2515,10 @@ headgear = {
 								}
 								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							cfp_portrait_slavic_clothing_spouse_trigger = yes
+							AND = {
+								cfp_portrait_slavic_clothing_spouse_trigger = yes
+								portrait_northern_clothing_spouse_trigger = yes # limited to northern slavic
+							}
 						}
 					}
 				}
@@ -2623,7 +2635,7 @@ headgear = {
 				template = slavic_imperial
 				range = { 0 1 } # For the randomness to work correctly
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
