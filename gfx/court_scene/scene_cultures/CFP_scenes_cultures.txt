@@ -70,7 +70,10 @@ iberian = {
 		exists = capital_county
 		capital_county.culture = {
 			has_graphical_iberian_culture_group_trigger  = yes
-			prev.religion = religion:christianity_religion
+			OR = {
+				prev.religion = religion:christianity_religion
+				prev.religion = religion:basque_religion
+			}
 		}
 	}
 }
@@ -132,6 +135,7 @@ mediterranean = {
 					NOR = {
 						prev.religion = religion:christianity_religion
 						prev.religion = religion:islam_religion
+						prev.religion = religion:basque_religion
 					}
 				}
 			}
