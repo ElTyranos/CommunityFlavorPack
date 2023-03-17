@@ -327,4 +327,4 @@ cfp_disfigured = {
 			should_show_disturbing_portrait_modifiers = no
 		}
 	}
-	
+}
