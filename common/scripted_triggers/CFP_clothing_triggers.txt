@@ -378,7 +378,7 @@ portrait_cfp_jewish_western_clothing_trigger = {
 	is_landed = no
 	OR = {
 		religion = religion:judaism_religion
-		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+		scope:culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
 	}
 	OR = {
 		trigger_if = {
@@ -400,7 +400,7 @@ portrait_cfp_jewish_mena_clothing_trigger = {
 	is_landed = no
 	OR = {
 		religion = religion:judaism_religion
-		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+		scope:culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
 	}
 	OR = {
 		trigger_if = {
@@ -422,7 +422,7 @@ portrait_cfp_jewish_andalusian_clothing_trigger = {
 	is_landed = no
 	OR = {
 		religion = religion:judaism_religion
-		scope:culture = { portrait_jewish_clothing_contents_trigger = yes }
+		scope:culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
 	}
 	OR = {
 		trigger_if = {
