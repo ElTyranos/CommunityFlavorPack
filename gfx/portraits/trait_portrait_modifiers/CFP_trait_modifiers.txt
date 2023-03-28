@@ -35,8 +35,8 @@
 					portrait_indian_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_norse_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_norse_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 				}
 			}
 		}

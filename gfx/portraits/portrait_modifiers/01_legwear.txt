@@ -156,7 +156,7 @@
 					portrait_indian_clothing_trigger = yes
 					# portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 				}
 			}
 		}
@@ -193,7 +193,7 @@
 								portrait_mena_clothing_trigger = yes
 								portrait_indian_clothing_trigger = yes
 								# portrait_african_clothing_trigger = yes
-								cfp_portrait_turkic_clothing_trigger = yes
+								portrait_cfp_turkic_clothing_trigger = yes
 								portrait_steppe_clothing_trigger = yes
 							}
 						}
@@ -228,7 +228,7 @@
 						portrait_mena_clothing_trigger = yes
 						portrait_indian_clothing_trigger = yes
 						# portrait_african_clothing_trigger = yes
-						cfp_portrait_turkic_clothing_trigger = yes
+						portrait_cfp_turkic_clothing_trigger = yes
 						portrait_steppe_clothing_trigger = yes
 					}
 				}
@@ -257,7 +257,7 @@
 					portrait_indian_clothing_trigger = yes
 					# portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 				}
 			}
 		}
@@ -369,7 +369,7 @@
 						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
-				cfp_portrait_burmese_clothing_trigger = yes
+				portrait_cfp_burmese_clothing_trigger = yes
 			}
 		}
 	}
@@ -397,7 +397,7 @@
 						amenity_level = { type = court_fashion value = 5 }
 					}
 				}
-				cfp_portrait_burmese_clothing_trigger = yes
+				portrait_cfp_burmese_clothing_trigger = yes
 			}
 			modifier = {
 				add = 101
@@ -418,7 +418,7 @@
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-							cfp_portrait_burmese_clothing_trigger = yes
+							portrait_cfp_burmese_clothing_trigger = yes
 						}
 						# Countess
 						AND = {
@@ -437,7 +437,7 @@
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_burmese_clothing_spouse_trigger = yes
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
 							}
 						}
 						# Duchess
@@ -456,14 +456,14 @@
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_burmese_clothing_spouse_trigger = yes
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier > tier_county
-					cfp_portrait_burmese_clothing_trigger = yes
+					portrait_cfp_burmese_clothing_trigger = yes
 				}
 			}
 		}
@@ -495,7 +495,7 @@
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_burmese_clothing_trigger = yes
+							portrait_cfp_burmese_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -512,14 +512,14 @@
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_burmese_clothing_spouse_trigger = yes
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier > tier_kingdom
-					cfp_portrait_burmese_clothing_trigger = yes
+					portrait_cfp_burmese_clothing_trigger = yes
 				}
 			}
 		}

@@ -18,7 +18,7 @@
 			modifier = {
 				add = 100
 				
-				cfp_portrait_afar_clothing_trigger = yes
+				portrait_cfp_afar_clothing_trigger = yes
 				
 			}
 		}

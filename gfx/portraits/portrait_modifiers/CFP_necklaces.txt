@@ -44,7 +44,7 @@
 						portrait_northern_clothing_trigger = yes
 						OR = {
 							portrait_fp1_norse_clothing_trigger = no
-							cfp_portrait_norse_clothing_trigger = no
+							portrait_cfp_norse_clothing_trigger = no
 							AND = {
 								portrait_fp1_norse_clothing_trigger = yes
 								NOR = {
@@ -53,7 +53,7 @@
 								}
 							}
 							AND = {
-								cfp_portrait_norse_clothing_trigger = yes
+								portrait_cfp_norse_clothing_trigger = yes
 								NOR = {
 									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
@@ -132,12 +132,12 @@
 				add = 101
 				exists = this
 				NOR = {
-					cfp_portrait_central_africa_clothing_trigger = yes
+					portrait_cfp_central_africa_clothing_trigger = yes
 					is_male = yes
 				}
 				OR = {
-					cfp_portrait_west_africa_clothing_trigger = yes
-					cfp_portrait_east_africa_clothing_trigger = yes
+					portrait_cfp_west_africa_clothing_trigger = yes
+					portrait_cfp_east_africa_clothing_trigger = yes
 				}
 				OR = {
 					AND = {
@@ -188,7 +188,7 @@
 			modifier = {
 				add = 101
 				exists = this
-				cfp_portrait_central_africa_clothing_trigger = yes
+				portrait_cfp_central_africa_clothing_trigger = yes
 				OR = {
 					AND = {
 						highest_held_title_tier >= tier_county # and above

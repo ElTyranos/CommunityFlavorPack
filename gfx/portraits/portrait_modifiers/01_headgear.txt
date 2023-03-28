@@ -552,7 +552,7 @@ headgear = {
 								}
 							}
 							AND = {
-								cfp_portrait_norse_clothing_trigger = yes
+								portrait_cfp_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
 								NOR = {
 									government_has_flag = government_is_tribal
@@ -591,7 +591,7 @@ headgear = {
 										}
 									}
 									AND = {
-										cfp_portrait_norse_clothing_spouse_trigger = yes
+										portrait_cfp_norse_clothing_spouse_trigger = yes
 										has_fp1_dlc_trigger = no
 										NOR = {
 											government_has_flag = government_is_tribal
@@ -622,7 +622,7 @@ headgear = {
 				add = 50
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
-				cfp_portrait_wear_helmet_high_noble_trigger = yes
+				portrait_cfp_wear_helmet_high_noble_trigger = yes
 				portrait_western_clothing_trigger = yes
 				is_male = yes # because there's no women versions
 				
@@ -653,7 +653,7 @@ headgear = {
 								}
 							}
 							AND = {
-								cfp_portrait_norse_clothing_trigger = yes
+								portrait_cfp_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
 								NOR = {
 									government_has_flag = government_is_tribal
@@ -692,7 +692,7 @@ headgear = {
 										}
 									}
 									AND = {
-										cfp_portrait_norse_clothing_spouse_trigger = yes
+										portrait_cfp_norse_clothing_spouse_trigger = yes
 										has_fp1_dlc_trigger = no
 										NOR = {
 											government_has_flag = government_is_tribal
@@ -1427,7 +1427,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_norman_clothing_trigger = yes
+				portrait_cfp_norman_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -1493,7 +1493,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_norman_sicily_clothing_trigger = yes
+				portrait_cfp_norman_sicily_clothing_trigger = yes
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				
 				NOR = {
@@ -1700,7 +1700,7 @@ headgear = {
 				add = 80
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_latin_clothing_trigger = yes
+				portrait_cfp_latin_clothing_trigger = yes
 				is_male = yes # because latin women have no specific hat
 			}
 			modifier = {
@@ -1720,7 +1720,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				cfp_portrait_latin_clothing_spouse_trigger = yes
+				portrait_cfp_latin_clothing_spouse_trigger = yes
 				is_male = yes # because latin women have no specific hat
 			}
 		}
@@ -1753,7 +1753,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_latin_clothing_trigger = yes
+						portrait_cfp_latin_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -1771,7 +1771,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_latin_clothing_spouse_trigger = yes
+							portrait_cfp_latin_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1805,7 +1805,7 @@ headgear = {
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-						cfp_portrait_latin_clothing_trigger = yes
+						portrait_cfp_latin_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -1822,7 +1822,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_latin_clothing_spouse_trigger = yes
+							portrait_cfp_latin_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -1869,7 +1869,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_latin_clothing_trigger = yes
+				portrait_cfp_latin_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -1931,7 +1931,7 @@ headgear = {
 				add = 80
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_iberian_christian_clothing_trigger = yes
+				portrait_cfp_iberian_christian_clothing_trigger = yes
 			}
 			modifier = {
 				add = 41 # Slightly higher
@@ -1949,7 +1949,7 @@ headgear = {
 					 	AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
-				cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
+				portrait_cfp_iberian_christian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -1980,7 +1980,7 @@ headgear = {
 					}
 				}
 				scope:highest_held_title_tier = tier_county
-				cfp_portrait_iberian_christian_clothing_trigger = yes
+				portrait_cfp_iberian_christian_clothing_trigger = yes
 			}
 		}
 	}
@@ -2012,7 +2012,7 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-							cfp_portrait_iberian_christian_clothing_trigger = yes
+							portrait_cfp_iberian_christian_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -2029,14 +2029,14 @@ headgear = {
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
+								portrait_cfp_iberian_christian_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier = tier_duchy
-					cfp_portrait_iberian_christian_clothing_trigger = yes
+					portrait_cfp_iberian_christian_clothing_trigger = yes
 				}
 			}
 		}
@@ -2164,7 +2164,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_iberian_christian_clothing_trigger = yes
+				portrait_cfp_iberian_christian_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -2237,7 +2237,7 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						OR = {
-							cfp_portrait_hungarian_clothing_trigger = yes
+							portrait_cfp_hungarian_clothing_trigger = yes
 						}
 					}
 					AND = {
@@ -2256,7 +2256,7 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							OR = {
-								cfp_portrait_hungarian_clothing_spouse_trigger = yes
+								portrait_cfp_hungarian_clothing_spouse_trigger = yes
 							}
 						}
 					}
@@ -2289,7 +2289,7 @@ headgear = {
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						NOT = { government_has_flag = government_is_republic }
 						OR = {
-							cfp_portrait_hungarian_clothing_trigger = yes
+							portrait_cfp_hungarian_clothing_trigger = yes
 						}
 					}
 					AND = {
@@ -2302,7 +2302,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							NOT = { government_has_flag = government_is_republic }
-							cfp_portrait_hungarian_clothing_spouse_trigger = yes
+							portrait_cfp_hungarian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2331,7 +2331,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_hungarian_clothing_trigger = yes
+				portrait_cfp_hungarian_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -2393,7 +2393,7 @@ headgear = {
 				add = 80
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_slavic_clothing_trigger = yes
+				portrait_cfp_slavic_clothing_trigger = yes
 			}
 			modifier = {
 				add = 20
@@ -2412,7 +2412,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				cfp_portrait_slavic_clothing_spouse_trigger = yes
+				portrait_cfp_slavic_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -2444,7 +2444,7 @@ headgear = {
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						AND = {
-							cfp_portrait_slavic_clothing_trigger = yes
+							portrait_cfp_slavic_clothing_trigger = yes
 							portrait_northern_clothing_trigger = yes # limited to northern slavic
 						}
 					}
@@ -2465,7 +2465,7 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							AND = {
-								cfp_portrait_slavic_clothing_spouse_trigger = yes
+								portrait_cfp_slavic_clothing_spouse_trigger = yes
 								portrait_northern_clothing_spouse_trigger = yes # limited to northern slavic
 							}
 						}
@@ -2502,7 +2502,7 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						AND = {
-							cfp_portrait_slavic_clothing_trigger = yes
+							portrait_cfp_slavic_clothing_trigger = yes
 							portrait_northern_clothing_trigger = yes # limited to northern slavic
 						}
 					}
@@ -2522,7 +2522,7 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							AND = {
-								cfp_portrait_slavic_clothing_spouse_trigger = yes
+								portrait_cfp_slavic_clothing_spouse_trigger = yes
 								portrait_northern_clothing_spouse_trigger = yes # limited to northern slavic
 							}
 						}
@@ -2555,7 +2555,7 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						NOT = { government_has_flag = government_is_republic }
-						cfp_portrait_slavic_clothing_trigger = yes
+						portrait_cfp_slavic_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -2570,7 +2570,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							NOT = { government_has_flag = government_is_republic }
-							cfp_portrait_slavic_clothing_spouse_trigger = yes
+							portrait_cfp_slavic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2592,7 +2592,7 @@ headgear = {
 			modifier = {
 				add = 101
 				exists = this
-				cfp_portrait_slavic_clothing_trigger = yes
+				portrait_cfp_slavic_clothing_trigger = yes
 				cfp_era_late_medieval_trigger = yes
 				OR = {
 					AND = {
@@ -2656,7 +2656,7 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						NOT = { government_has_flag = government_is_republic }
-						cfp_portrait_slavic_clothing_trigger = yes
+						portrait_cfp_slavic_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -2671,7 +2671,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							NOT = { government_has_flag = government_is_republic }
-							cfp_portrait_slavic_clothing_spouse_trigger = yes
+							portrait_cfp_slavic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -2695,7 +2695,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_slavic_clothing_trigger = yes
+				portrait_cfp_slavic_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -3558,7 +3558,7 @@ headgear = {
 				add = 80
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_burmese_clothing_trigger = yes
+				portrait_cfp_burmese_clothing_trigger = yes
 			}
 			modifier = {
 				add = 20
@@ -3577,7 +3577,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				cfp_portrait_burmese_clothing_trigger = yes
+				portrait_cfp_burmese_clothing_trigger = yes
 			}
 		}
 	}
@@ -3607,7 +3607,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_burmese_clothing_trigger = yes
+						portrait_cfp_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -3625,7 +3625,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_burmese_clothing_spouse_trigger = yes
+							portrait_cfp_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3644,7 +3644,7 @@ headgear = {
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-						cfp_portrait_burmese_clothing_trigger = yes
+						portrait_cfp_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -3661,7 +3661,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_burmese_clothing_spouse_trigger = yes
+							portrait_cfp_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -3693,7 +3693,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_burmese_clothing_trigger = yes
+						portrait_cfp_burmese_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -3710,7 +3710,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_burmese_clothing_spouse_trigger = yes
+							portrait_cfp_burmese_clothing_spouse_trigger = yes
 						}
 					}
 				}			
@@ -4246,7 +4246,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_mena_clothing_trigger = yes
-				cfp_portrait_wear_helmet_high_noble_trigger = yes
+				portrait_cfp_wear_helmet_high_noble_trigger = yes
 				OR = {
 					portrait_era3_armor_trigger = yes
 					portrait_era4_armor_trigger = yes
@@ -4312,7 +4312,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_iberian_muslim_clothing_trigger = yes
+				portrait_cfp_iberian_muslim_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -4371,8 +4371,8 @@ headgear = {
 				add = 101
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
-				cfp_portrait_wear_helmet_high_noble_trigger = yes
-				cfp_portrait_iberian_muslim_clothing_trigger = yes
+				portrait_cfp_wear_helmet_high_noble_trigger = yes
+				portrait_cfp_iberian_muslim_clothing_trigger = yes
 				cfp_era_late_medieval_trigger = yes
 				
 				NOR = {
@@ -4435,7 +4435,7 @@ headgear = {
 				exists = this
 				is_male = yes
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_egyptian_clothing_trigger = yes
+				portrait_cfp_egyptian_clothing_trigger = yes
 			}
 			modifier = {
 				add = 40
@@ -4452,7 +4452,7 @@ headgear = {
 					government_has_flag = government_is_republic
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				cfp_portrait_egyptian_clothing_spouse_trigger = yes
+				portrait_cfp_egyptian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -4481,8 +4481,8 @@ headgear = {
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				OR = {
-					cfp_portrait_bedouin_clothing_trigger = yes
-					cfp_portrait_berber_clothing_trigger = yes				
+					portrait_cfp_bedouin_clothing_trigger = yes
+					portrait_cfp_berber_clothing_trigger = yes				
 				}
 				AND = {
 					exists = primary_spouse
@@ -4501,8 +4501,8 @@ headgear = {
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						OR = {
-							cfp_portrait_bedouin_clothing_spouse_trigger = yes
-							cfp_portrait_berber_clothing_spouse_trigger = yes				
+							portrait_cfp_bedouin_clothing_spouse_trigger = yes
+							portrait_cfp_berber_clothing_spouse_trigger = yes				
 						}
 						NOT = { has_game_rule = never_cfp_fullplate_helmets }
 					}
@@ -4515,8 +4515,8 @@ headgear = {
 				highest_held_title_tier < tier_county
 				government_has_flag = government_is_republic
 				OR = {
-					cfp_portrait_bedouin_clothing_trigger = yes
-					cfp_portrait_berber_clothing_trigger = yes				
+					portrait_cfp_bedouin_clothing_trigger = yes
+					portrait_cfp_berber_clothing_trigger = yes				
 				}
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 			}
@@ -4526,8 +4526,8 @@ headgear = {
 				is_male = yes
 				portrait_can_use_noble_headgear_trigger = no
 				OR = {
-					cfp_portrait_bedouin_clothing_trigger = yes
-					cfp_portrait_berber_clothing_trigger = yes				
+					portrait_cfp_bedouin_clothing_trigger = yes
+					portrait_cfp_berber_clothing_trigger = yes				
 				}
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 			}
@@ -4547,8 +4547,8 @@ headgear = {
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				OR = {
-					cfp_portrait_bedouin_clothing_spouse_trigger = yes
-					cfp_portrait_berber_clothing_spouse_trigger = yes				
+					portrait_cfp_bedouin_clothing_spouse_trigger = yes
+					portrait_cfp_berber_clothing_spouse_trigger = yes				
 				}
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 			}
@@ -4586,8 +4586,8 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						OR = {
-							cfp_portrait_bedouin_clothing_trigger = yes
-							cfp_portrait_berber_clothing_trigger = yes				
+							portrait_cfp_bedouin_clothing_trigger = yes
+							portrait_cfp_berber_clothing_trigger = yes				
 						}
 					}
 					AND = {
@@ -4606,8 +4606,8 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							OR = {
-								cfp_portrait_bedouin_clothing_spouse_trigger = yes
-								cfp_portrait_berber_clothing_spouse_trigger = yes				
+								portrait_cfp_bedouin_clothing_spouse_trigger = yes
+								portrait_cfp_berber_clothing_spouse_trigger = yes				
 							}
 						}
 					}
@@ -4638,7 +4638,7 @@ headgear = {
 				add = 80
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_iranian_clothing_trigger = yes
+				portrait_cfp_iranian_clothing_trigger = yes
 			}
 			modifier = {
 				add = 60
@@ -4653,7 +4653,7 @@ headgear = {
 					government_has_flag = government_is_republic
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				cfp_portrait_iranian_clothing_spouse_trigger = yes
+				portrait_cfp_iranian_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -4674,7 +4674,7 @@ headgear = {
 				exists = this
 				highest_held_title_tier < tier_county
 				government_has_flag = government_is_republic
-				cfp_portrait_iranian_clothing_trigger = yes
+				portrait_cfp_iranian_clothing_trigger = yes
 			}
 		}
 	}
@@ -4705,7 +4705,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_iranian_clothing_trigger = yes
+						portrait_cfp_iranian_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -4723,7 +4723,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_iranian_clothing_spouse_trigger = yes
+							portrait_cfp_iranian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4760,7 +4760,7 @@ headgear = {
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-						cfp_portrait_iranian_clothing_trigger = yes
+						portrait_cfp_iranian_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -4777,7 +4777,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_iranian_clothing_spouse_trigger = yes
+							portrait_cfp_iranian_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -4802,7 +4802,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_iranian_clothing_trigger = yes
+				portrait_cfp_iranian_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -4862,7 +4862,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_iranian_clothing_trigger = yes
+				portrait_cfp_iranian_clothing_trigger = yes
 				OR = {
 					portrait_era3_armor_trigger = yes
 					portrait_era4_armor_trigger = yes
@@ -5112,7 +5112,7 @@ headgear = {
 				exists = this
 				portrait_mena_clothing_trigger = yes
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
-				cfp_portrait_wear_helmet_high_noble_trigger = yes
+				portrait_cfp_wear_helmet_high_noble_trigger = yes
 				NOR = {
 				    AND = {
 				        religion = religion:christianity_religion
@@ -5467,7 +5467,7 @@ headgear = {
 				add = 80
 				exists = this
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_turkic_clothing_trigger = yes
+				portrait_cfp_turkic_clothing_trigger = yes
 			}
 			modifier = {
 				add = 20
@@ -5486,7 +5486,7 @@ headgear = {
 					}
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				cfp_portrait_turkic_clothing_spouse_trigger = yes
+				portrait_cfp_turkic_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -5517,7 +5517,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_turkic_clothing_trigger = yes
+						portrait_cfp_turkic_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -5535,7 +5535,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_turkic_clothing_spouse_trigger = yes
+							portrait_cfp_turkic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5570,7 +5570,7 @@ headgear = {
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-						cfp_portrait_turkic_clothing_trigger = yes
+						portrait_cfp_turkic_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -5587,7 +5587,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_turkic_clothing_spouse_trigger = yes
+							portrait_cfp_turkic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5619,7 +5619,7 @@ headgear = {
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						NOT = { government_has_flag = government_is_republic }
-						cfp_portrait_turkic_clothing_trigger = yes
+						portrait_cfp_turkic_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -5634,7 +5634,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							NOT = { government_has_flag = government_is_republic }
-							cfp_portrait_turkic_clothing_spouse_trigger = yes
+							portrait_cfp_turkic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5659,7 +5659,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_turkic_clothing_trigger = yes
+				portrait_cfp_turkic_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -5718,7 +5718,7 @@ headgear = {
 				add = 45
 				exists = this
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_turkic_clothing_trigger = yes
+				portrait_cfp_turkic_clothing_trigger = yes
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				
 				NOR = {
@@ -5789,7 +5789,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_oghuz_clothing_trigger = yes
+						portrait_cfp_oghuz_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -5807,7 +5807,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_oghuz_clothing_spouse_trigger = yes
+							portrait_cfp_oghuz_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5842,7 +5842,7 @@ headgear = {
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-						cfp_portrait_oghuz_clothing_trigger = yes
+						portrait_cfp_oghuz_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -5859,7 +5859,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_oghuz_clothing_spouse_trigger = yes
+							portrait_cfp_oghuz_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -5973,7 +5973,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_slavic_clothing_spouse_trigger = yes
+							portrait_cfp_slavic_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -6067,7 +6067,7 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				AND = {
-					cfp_portrait_norse_clothing_trigger = yes
+					portrait_cfp_norse_clothing_trigger = yes
 					has_fp1_dlc_trigger = no
 				}
 				NOR = {
@@ -6948,7 +6948,7 @@ headgear = {
 			modifier = {
 				add = 101
 				exists = this
-				cfp_portrait_anglo_saxon_clothing_trigger = yes
+				portrait_cfp_anglo_saxon_clothing_trigger = yes
 				NOR = { 
 					has_game_rule = never_cfp_fullplate_helmets
 					culture = { has_cultural_era_or_later = culture_era_early_medieval }
@@ -7328,7 +7328,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_west_africa_clothing_trigger = yes
+						portrait_cfp_west_africa_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -7346,7 +7346,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_west_africa_clothing_spouse_trigger = yes
+							portrait_cfp_west_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -7382,7 +7382,7 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-							cfp_portrait_west_africa_clothing_trigger = yes
+							portrait_cfp_west_africa_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -7399,14 +7399,14 @@ headgear = {
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_west_africa_clothing_spouse_trigger = yes
+								portrait_cfp_west_africa_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier = tier_duchy
-					cfp_portrait_west_africa_clothing_spouse_trigger = yes
+					portrait_cfp_west_africa_clothing_spouse_trigger = yes
 				}
 			}
 		}
@@ -7428,7 +7428,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_west_africa_clothing_trigger = yes
+				portrait_cfp_west_africa_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -7486,7 +7486,7 @@ headgear = {
 			modifier = {
 				add = 60
 				portrait_can_use_noble_headgear_trigger = no
-				cfp_portrait_east_africa_clothing_trigger = yes
+				portrait_cfp_east_africa_clothing_trigger = yes
 				is_female = yes # nothing for males
 			}
 			modifier = {
@@ -7510,7 +7510,7 @@ headgear = {
 						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
-				cfp_portrait_east_africa_clothing_spouse_trigger = yes
+				portrait_cfp_east_africa_clothing_spouse_trigger = yes
 			}
 		}
 	}
@@ -7540,7 +7540,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_east_africa_clothing_trigger = yes
+						portrait_cfp_east_africa_clothing_trigger = yes
 						is_female = yes # nothing for males
 					}
 					AND = {
@@ -7559,7 +7559,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_east_africa_clothing_spouse_trigger = yes
+							portrait_cfp_east_africa_clothing_spouse_trigger = yes
 							is_female = yes # nothing for males
 						}
 					}
@@ -7596,7 +7596,7 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-							cfp_portrait_east_africa_clothing_trigger = yes
+							portrait_cfp_east_africa_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -7613,14 +7613,14 @@ headgear = {
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_east_africa_clothing_spouse_trigger = yes
+								portrait_cfp_east_africa_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier = tier_duchy
-					cfp_portrait_east_africa_clothing_trigger = yes
+					portrait_cfp_east_africa_clothing_trigger = yes
 				}
 			}
 		}
@@ -7650,7 +7650,7 @@ headgear = {
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							NOT = { government_has_flag = government_is_republic }
-							cfp_portrait_east_africa_clothing_trigger = yes
+							portrait_cfp_east_africa_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -7665,7 +7665,7 @@ headgear = {
 								}
 								NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 								NOT = { government_has_flag = government_is_republic }
-								cfp_portrait_east_africa_clothing_spouse_trigger = yes
+								portrait_cfp_east_africa_clothing_spouse_trigger = yes
 							}
 						}
 					}
@@ -7702,7 +7702,7 @@ headgear = {
 					}
 				}
 				scope:highest_held_title_tier = tier_empire
-				cfp_portrait_east_africa_clothing_trigger = yes
+				portrait_cfp_east_africa_clothing_trigger = yes
 			}
 		}
 	}
@@ -7723,7 +7723,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_east_africa_clothing_trigger = yes
+				portrait_cfp_east_africa_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -7792,7 +7792,7 @@ headgear = {
 							}
 							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						cfp_portrait_central_africa_clothing_trigger = yes
+						portrait_cfp_central_africa_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -7810,7 +7810,7 @@ headgear = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_central_africa_clothing_spouse_trigger = yes
+							portrait_cfp_central_africa_clothing_spouse_trigger = yes
 						}
 					}
 				}
@@ -7846,7 +7846,7 @@ headgear = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-							cfp_portrait_central_africa_clothing_trigger = yes
+							portrait_cfp_central_africa_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -7863,14 +7863,14 @@ headgear = {
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_central_africa_clothing_spouse_trigger = yes
+								portrait_cfp_central_africa_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier = tier_duchy
-					cfp_portrait_central_africa_clothing_trigger = yes
+					portrait_cfp_central_africa_clothing_trigger = yes
 				}
 			}
 		}
@@ -7892,7 +7892,7 @@ headgear = {
 				exists = this
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
-				cfp_portrait_central_africa_clothing_trigger = yes
+				portrait_cfp_central_africa_clothing_trigger = yes
 				
 				NOR = {
 				    AND = {
@@ -8025,7 +8025,7 @@ headgear = {
 						portrait_byzantine_clothing_trigger = yes
 						AND = {
 							portrait_northern_clothing_trigger = yes
-							NOT = { cfp_portrait_norse_clothing_trigger = yes }
+							NOT = { portrait_cfp_norse_clothing_trigger = yes }
 						}
 					}
 				}
@@ -8383,7 +8383,7 @@ headgear = {
 				exists = this
 				OR = {
 					portrait_northern_clothing_trigger = yes
-					cfp_portrait_anglo_saxon_clothing_trigger = yes
+					portrait_cfp_anglo_saxon_clothing_trigger = yes
 				}
 				religion = religion:christianity_religion
 				OR = {
@@ -8611,7 +8611,7 @@ headgear = {
 				add = 20
 				exists = this
 				portrait_wear_armor_trigger = no
-				portrait_jewish_western_clothing_trigger = yes
+				portrait_cfp_jewish_western_clothing_trigger = yes
 			}
 	    }
 	}
@@ -8631,7 +8631,7 @@ headgear = {
 				add = 20
 				exists = this
 				portrait_wear_armor_trigger = no
-				portrait_jewish_mena_clothing_trigger = yes
+				portrait_cfp_jewish_mena_clothing_trigger = yes
 			}
 	    }
 	}
@@ -8651,7 +8651,7 @@ headgear = {
 				add = 20
 				exists = this
 				portrait_wear_armor_trigger = no
-				portrait_jewish_andalusian_clothing_trigger = yes
+				portrait_cfp_jewish_andalusian_clothing_trigger = yes
 			}
 	    }
 	}
@@ -8763,8 +8763,8 @@ headgear = {
 				add = 120
 				exists = this
 				OR = {
-					cfp_portrait_turkic_clothing_trigger = yes
-					cfp_portrait_iranian_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
+					portrait_cfp_iranian_clothing_trigger = yes
 				}
 				OR = {
 					has_character_flag = need_priest_outfit
@@ -8939,7 +8939,7 @@ headgear = {
 	        modifier = {
 				add = 110
 				exists = this
-				cfp_portrait_tibetan_clothing_trigger = yes
+				portrait_cfp_tibetan_clothing_trigger = yes
 				OR = {
 					portrait_has_trait_trigger = { TRAIT = lunatic }
 					portrait_has_trait_trigger = { TRAIT = possessed }
