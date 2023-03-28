@@ -1,15 +1,13 @@
 ﻿## We have to overwrite it completly to add the CFP Kris Dagger
 
 spymaster = {
-    male = {
-    	default = { head = "council_spymaster" torso = "council_spymaster" }
+    male = { 
+		default = { head = "council_spymaster" torso = "council_spymaster" }
 
 		council_spymaster_hunchbacked = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 110
 					portrait_has_trait_trigger = { TRAIT = hunchbacked }
@@ -19,10 +17,8 @@ spymaster = {
 
 		council_spymaster_infant = {
 			animation = { head = "idle" torso = "idleInfant_entry" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					scope:age <= 5
@@ -32,10 +28,8 @@ spymaster = {
 
 		council_spymaster_child = {
 			animation = { head = "idle_entry" torso = "idle_entry" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					always = no #scope:age <= 9
@@ -46,35 +40,30 @@ spymaster = {
 
 		council_fp1_spymaster = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						age >= 10
 						current_weight < 60
-						NOT = { has_trait = dwarf }
-						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse
+						NOT = { has_trait = dwarf }  
+						NOT = { has_trait = pregnant }						
+						has_dlc_feature = the_northern_lords
+						culture = culture:norse 
 					}
 				}
 			}
-
-			portrait_modifier = {
+			portrait_modifier = {							
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
 		}
 
 		council_fp1_spymaster_fat = {
-			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
+			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -82,13 +71,12 @@ spymaster = {
 						current_weight > 60
 						NOT = { has_trait = dwarf }
 						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse
-					}
+						has_dlc_feature = the_northern_lords
+						culture = culture:norse 
+					}					
 				}
 			}
-
-			portrait_modifier = {
+			portrait_modifier = {							
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -96,10 +84,8 @@ spymaster = {
 
 		council_fp1_spymaster_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -107,13 +93,12 @@ spymaster = {
 						current_weight < 35
 						has_trait = dwarf
 						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse
-					}
+						has_dlc_feature = the_northern_lords
+						culture = culture:norse                 
+					}					
 				}
 			}
-
-			portrait_modifier = {
+			portrait_modifier = {							
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -121,10 +106,8 @@ spymaster = {
 
 		council_fp1_spymaster_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -132,13 +115,12 @@ spymaster = {
 						current_weight > 35
 						has_trait = dwarf
 						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse
-					}
+						has_dlc_feature = the_northern_lords
+						culture = culture:norse 
+					}					
 				}
 			}
-
-			portrait_modifier = {
+			portrait_modifier = {							
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -146,47 +128,42 @@ spymaster = {
 
 		council_fp1_spymaster_pregnant = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						current_weight < 45
 						has_trait = pregnant
 						NOT = { has_trait = dwarf }
-				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse
-					}
+						has_dlc_feature = the_northern_lords
+						culture = culture:norse 
+					}					
 				}
 			}
-
-			portrait_modifier = {
+			portrait_modifier = {							
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
 		}
 
+
 		council_fp1_spymaster_pregnant_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						current_weight < 60
 						has_trait = pregnant
 						has_trait = dwarf
-				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse
-					}
+						has_dlc_feature = the_northern_lords
+						culture = culture:norse 
+					}					
 				}
 			}
-
-			portrait_modifier = {
+			portrait_modifier = {							
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
@@ -194,35 +171,29 @@ spymaster = {
 
 		council_fp1_spymaster_pregnant_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						current_weight > 60
 						has_trait = pregnant
 						has_trait = dwarf
-				   	 	has_dlc_feature = the_northern_lords
-				    	culture = culture:norse
-					}
+						has_dlc_feature = the_northern_lords
+						culture = culture:norse 
+					}					
 				}
 			}
-
-			portrait_modifier = {
+			portrait_modifier = {							
 				animations_props = spymaster_fp1_prop
 				animations = council_spymaster_decal
 			}
 		}
 
-
 		council_fp2_spymaster = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -230,18 +201,17 @@ spymaster = {
 						current_weight < 60
 						NOT = { has_trait = dwarf }
 						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_fate_of_iberia
-			    		OR = {
-				    		culture = { has_unit_gfx = iberian_muslim_unit_gfx }
-				    		culture = { has_unit_gfx = iberian_christian_unit_gfx }
-				    		any_character_struggle = {
-				    			is_struggle_type = iberian_struggle
-				    		}
-				   	 	}
+						has_dlc_feature = the_fate_of_iberia
+						OR = {
+							culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+							culture = { has_unit_gfx = iberian_christian_unit_gfx }
+							any_character_struggle = {
+								is_struggle_type = iberian_struggle
+							}
+						}
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_fp2_prop
 				animations = council_spymaster_decal
@@ -250,10 +220,8 @@ spymaster = {
 
 		council_fp2_spymaster_fat = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -261,18 +229,17 @@ spymaster = {
 						current_weight > 60
 						NOT = { has_trait = dwarf }
 						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_fate_of_iberia
-			    		OR = {
-				    		culture = { has_unit_gfx = iberian_muslim_unit_gfx }
-				    		culture = { has_unit_gfx = iberian_christian_unit_gfx }
-				    		any_character_struggle = {
-				    			is_struggle_type = iberian_struggle
-				    		}
-				   	 	}
+						has_dlc_feature = the_fate_of_iberia
+						OR = {
+							culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+							culture = { has_unit_gfx = iberian_christian_unit_gfx }
+							any_character_struggle = {
+								is_struggle_type = iberian_struggle
+							}
+						}
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_fp2_prop
 				animations = council_spymaster_decal
@@ -281,10 +248,8 @@ spymaster = {
 
 		council_fp2_spymaster_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -292,18 +257,17 @@ spymaster = {
 						current_weight < 35
 						has_trait = dwarf
 						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_fate_of_iberia
-			    		OR = {
-				    		culture = { has_unit_gfx = iberian_muslim_unit_gfx }
-				    		culture = { has_unit_gfx = iberian_christian_unit_gfx }
-				    		any_character_struggle = {
-				    			is_struggle_type = iberian_struggle
-				    		}
-				   	 	}
+						has_dlc_feature = the_fate_of_iberia
+						OR = {
+							culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+							culture = { has_unit_gfx = iberian_christian_unit_gfx }
+							any_character_struggle = {
+								is_struggle_type = iberian_struggle
+							}
+						}
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_fp2_prop
 				animations = council_spymaster_decal
@@ -312,10 +276,8 @@ spymaster = {
 
 		council_fp2_spymaster_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -323,18 +285,17 @@ spymaster = {
 						current_weight > 35
 						has_trait = dwarf
 						NOT = { has_trait = pregnant }
-				   	 	has_dlc_feature = the_fate_of_iberia
-			    		OR = {
-				    		culture = { has_unit_gfx = iberian_muslim_unit_gfx }
-				    		culture = { has_unit_gfx = iberian_christian_unit_gfx }
-				    		any_character_struggle = {
-				    			is_struggle_type = iberian_struggle
-				    		}
-				   	 	}
+						has_dlc_feature = the_fate_of_iberia
+						OR = {
+							culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+							culture = { has_unit_gfx = iberian_christian_unit_gfx }
+							any_character_struggle = {
+								is_struggle_type = iberian_struggle
+							}
+						}
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_fp2_prop
 				animations = council_spymaster_decal
@@ -343,28 +304,25 @@ spymaster = {
 
 		council_fp2_spymaster_pregnant = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						current_weight < 45
 						has_trait = pregnant
 						NOT = { has_trait = dwarf }
-				   	 	has_dlc_feature = the_fate_of_iberia
-			    		OR = {
-				    		culture = { has_unit_gfx = iberian_muslim_unit_gfx }
-				    		culture = { has_unit_gfx = iberian_christian_unit_gfx }
-				    		any_character_struggle = {
-				    			is_struggle_type = iberian_struggle
-				    		}
-				   	 	}
+						has_dlc_feature = the_fate_of_iberia
+						OR = {
+							culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+							culture = { has_unit_gfx = iberian_christian_unit_gfx }
+							any_character_struggle = {
+								is_struggle_type = iberian_struggle
+							}
+						}
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_fp2_prop
 				animations = council_spymaster_decal
@@ -374,28 +332,25 @@ spymaster = {
 
 		council_fp2_spymaster_pregnant_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						current_weight < 60
 						has_trait = pregnant
 						has_trait = dwarf
-				   	 	has_dlc_feature = the_fate_of_iberia
-			    		OR = {
-				    		culture = { has_unit_gfx = iberian_muslim_unit_gfx }
-				    		culture = { has_unit_gfx = iberian_christian_unit_gfx }
-				    		any_character_struggle = {
-				    			is_struggle_type = iberian_struggle
-				    		}
-				   	 	}
+						has_dlc_feature = the_fate_of_iberia
+						OR = {
+							culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+							culture = { has_unit_gfx = iberian_christian_unit_gfx }
+							any_character_struggle = {
+								is_struggle_type = iberian_struggle
+							}
+						}
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_fp2_prop
 				animations = council_spymaster_decal
@@ -404,28 +359,25 @@ spymaster = {
 
 		council_fp2_spymaster_pregnant_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						current_weight > 60
 						has_trait = pregnant
 						has_trait = dwarf
-				   	 	has_dlc_feature = the_fate_of_iberia
-			    		OR = {
-				    		culture = { has_unit_gfx = iberian_muslim_unit_gfx }
-				    		culture = { has_unit_gfx = iberian_christian_unit_gfx }
-				    		any_character_struggle = {
-				    			is_struggle_type = iberian_struggle
-				    		}
-				   	 	}
+						has_dlc_feature = the_fate_of_iberia
+						OR = {
+							culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+							culture = { has_unit_gfx = iberian_christian_unit_gfx }
+							any_character_struggle = {
+								is_struggle_type = iberian_struggle
+							}
+						}
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_fp2_prop
 				animations = council_spymaster_decal
@@ -434,10 +386,8 @@ spymaster = {
 
 		council_mena_spymaster = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -449,7 +399,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_mena_prop
 				animations = council_spymaster_decal
@@ -458,10 +407,8 @@ spymaster = {
 
 		council_mena_spymaster_fat = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -473,7 +420,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_mena_prop
 				animations = council_spymaster_decal
@@ -482,10 +428,8 @@ spymaster = {
 
 		council_mena_spymaster_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -497,7 +441,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_mena_prop
 				animations = council_spymaster_decal
@@ -506,10 +449,8 @@ spymaster = {
 
 		council_mena_spymaster_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -521,7 +462,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_mena_prop
 				animations = council_spymaster_decal
@@ -530,10 +470,8 @@ spymaster = {
 
 		council_mena_spymaster_pregnant = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -544,7 +482,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_mena_prop
 				animations = council_spymaster_decal
@@ -554,10 +491,8 @@ spymaster = {
 
 		council_mena_spymaster_pregnant_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -568,7 +503,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_mena_prop
 				animations = council_spymaster_decal
@@ -577,10 +511,8 @@ spymaster = {
 
 		council_mena_spymaster_pregnant_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -591,7 +523,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_mena_prop
 				animations = council_spymaster_decal
@@ -600,10 +531,8 @@ spymaster = {
 
 		council_indian_spymaster = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -615,7 +544,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_indian_prop
 				animations = council_spymaster_decal
@@ -624,10 +552,8 @@ spymaster = {
 
 		council_indian_spymaster_fat = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -639,7 +565,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_indian_prop
 				animations = council_spymaster_decal
@@ -648,10 +573,8 @@ spymaster = {
 
 		council_indian_spymaster_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -663,7 +586,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_indian_prop
 				animations = council_spymaster_decal
@@ -672,10 +594,8 @@ spymaster = {
 
 		council_indian_spymaster_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -687,7 +607,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_indian_prop
 				animations = council_spymaster_decal
@@ -696,10 +615,8 @@ spymaster = {
 
 		council_indian_spymaster_pregnant = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -710,20 +627,16 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_indian_prop
 				animations = council_spymaster_decal
 			}
 		}
 
-
 		council_indian_spymaster_pregnant_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -734,7 +647,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_indian_prop
 				animations = council_spymaster_decal
@@ -743,10 +655,8 @@ spymaster = {
 
 		council_indian_spymaster_pregnant_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -757,7 +667,6 @@ spymaster = {
 					}
 				}
 			}
-
 			portrait_modifier = {
 				animations_props = spymaster_indian_prop
 				animations = council_spymaster_decal
@@ -766,21 +675,18 @@ spymaster = {
 
 		council_spymaster = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						#scope:age >= 10
 						scope:current_weight < 60
-						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
-						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
+						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }             
+						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }             
 					}
 				}
 			}
-
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -795,7 +701,6 @@ spymaster = {
 				animations = council_spymaster_decal
 			}
 			#/CFP
-
 			portrait_modifier = {
 				trigger = {
 					culture = {
@@ -814,10 +719,8 @@ spymaster = {
 
 		council_spymaster_fat = {
 			animation = { head = "council_spymaster" torso = "council_spymaster" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
@@ -825,10 +728,9 @@ spymaster = {
 						scope:current_weight > 60
 						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
 						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
-					}
+					}					
 				}
 			}
-
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -843,7 +745,6 @@ spymaster = {
 				animations = council_spymaster_decal
 			}
 			#/CFP
-
 			portrait_modifier = {
 				trigger = {
 					culture = {
@@ -862,18 +763,16 @@ spymaster = {
 
 		council_spymaster_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						#scope:age >= 10
 						scope:current_weight < 35
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
-					}
+						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }                        
+					}					
 				}
 			}
 
@@ -891,7 +790,6 @@ spymaster = {
 				animations = council_spymaster_decal
 			}
 			#/CFP
-
 			portrait_modifier = {
 				trigger = {
 					culture = {
@@ -910,21 +808,18 @@ spymaster = {
 
 		council_spymaster_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						#scope:age >= 10
 						scope:current_weight > 35
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
-					}
+						NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }                        
+					}					
 				}
 			}
-
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -939,7 +834,6 @@ spymaster = {
 				animations = council_spymaster_decal
 			}
 			#/CFP
-
 			portrait_modifier = {
 				trigger = {
 					culture = {
@@ -958,17 +852,15 @@ spymaster = {
 
 		council_spymaster_pregnant = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						scope:current_weight < 45
 						portrait_has_trait_trigger = { TRAIT = pregnant }
 						NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
-					}
+					}					
 				}
 			}
 
@@ -1003,23 +895,19 @@ spymaster = {
 			}
 		}
 
-
 		council_spymaster_pregnant_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						scope:current_weight < 60
 						portrait_has_trait_trigger = { TRAIT = pregnant }
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-					}
+					}					
 				}
 			}
-
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -1053,20 +941,17 @@ spymaster = {
 
 		council_spymaster_pregnant_fat_dwarf = {
 			animation = { head = "council_spymaster" torso = "council_spymasterFatDwarf" }
-
 			weight = {
 				base = 0
-
 				modifier = {
 					add = 100
 					AND = {
 						scope:current_weight > 60
 						portrait_has_trait_trigger = { TRAIT = pregnant }
 						portrait_has_trait_trigger = { TRAIT = dwarf }
-					}
+					}					
 				}
 			}
-
 			#CFP
 			portrait_modifier = {
 				trigger = {
@@ -1081,7 +966,6 @@ spymaster = {
 				animations = council_spymaster_decal
 			}
 			#/CFP
-
 			portrait_modifier = {
 				trigger = {
 					culture = {
@@ -1098,7 +982,6 @@ spymaster = {
 			}
 		}
     }
-
     boy = male
     female = male
     girl = male
