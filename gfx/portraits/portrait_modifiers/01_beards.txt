@@ -54,7 +54,7 @@ beards = {
 					}
 					OR = {
 						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						has_council_position = councillor_court_chaplain
 						portrait_has_trait_trigger = { TRAIT = devoted }
 					}
@@ -77,7 +77,7 @@ beards = {
 					}
 					OR = {
 						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						has_council_position = councillor_court_chaplain
 						portrait_has_trait_trigger = { TRAIT = devoted }
 					}
@@ -825,7 +825,7 @@ beards = {
                 OR = {
                     has_character_flag = need_priest_outfit
                     is_theocratic_lessee = yes
-                    AND = { is_ruler = yes has_government = theocracy_government }
+                    AND = { is_ruler = yes government_has_flag = government_is_theocracy }
                     AND = { # Orthodox patriarch
                         exists = primary_title
                         primary_title = {

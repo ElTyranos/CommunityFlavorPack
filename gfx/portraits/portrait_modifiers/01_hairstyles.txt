@@ -1010,7 +1010,7 @@ hairstyles = {
 					}
 					OR = {
 						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						has_council_position = councillor_court_chaplain
 						portrait_has_trait_trigger = { TRAIT = devoted }
 					}
@@ -1437,7 +1437,7 @@ fp2_hairstyles_iberian_muslim_curly_commoners = {
 				AND ={
 					OR = {
 						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						portrait_has_trait_trigger = { TRAIT = devoted }
 					}
 				}

@@ -307,10 +307,10 @@ clothes = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_dde_hre_clothing_trigger = yes
@@ -351,10 +351,10 @@ clothes = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_dde_hre_clothing_trigger = yes
 						}
@@ -369,10 +369,10 @@ clothes = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_dde_hre_clothing_spouse_trigger = yes
 							}
@@ -432,12 +432,12 @@ clothes = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_dde_hre_clothing_trigger = yes
 						}
 						AND = {
@@ -450,10 +450,10 @@ clothes = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_dde_hre_clothing_spouse_trigger = yes
 							}
@@ -535,10 +535,10 @@ clothes = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_western_clothing_trigger = yes
@@ -583,10 +583,10 @@ clothes = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -601,10 +601,10 @@ clothes = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_western_clothing_spouse_trigger = yes
 							}
@@ -662,12 +662,12 @@ clothes = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_western_clothing_trigger = yes
 						}
 						AND = {
@@ -680,10 +680,10 @@ clothes = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_western_clothing_spouse_trigger = yes
 							}
@@ -725,10 +725,10 @@ clothes = {
 							highest_held_title_tier = tier_kingdom
 							NOR = {
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -742,10 +742,10 @@ clothes = {
 								highest_held_title_tier = tier_kingdom
 								NOR = {
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_western_clothing_spouse_trigger = yes
 							}
@@ -787,10 +787,10 @@ clothes = {
 							highest_held_title_tier = tier_empire
 							NOR = {
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -804,10 +804,10 @@ clothes = {
 								highest_held_title_tier = tier_empire
 								NOR = {
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_western_clothing_spouse_trigger = yes
 							}
@@ -867,12 +867,12 @@ clothes = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_western_clothing_trigger = yes
 						}
 						AND = {
@@ -885,10 +885,10 @@ clothes = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_western_clothing_spouse_trigger = yes
 							}
@@ -911,10 +911,10 @@ clothes = {
 							highest_held_title_tier = tier_kingdom
 							NOR = {
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -928,10 +928,10 @@ clothes = {
 								highest_held_title_tier = tier_kingdom
 								NOR = {
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_western_clothing_spouse_trigger = yes
 							}
@@ -954,10 +954,10 @@ clothes = {
 							highest_held_title_tier = tier_empire
 							NOR = {
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_western_clothing_trigger = yes
 						}
@@ -971,10 +971,10 @@ clothes = {
 								highest_held_title_tier = tier_empire
 								NOR = {
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_western_clothing_spouse_trigger = yes
 							}
@@ -1379,10 +1379,10 @@ latin_venetian_royalty = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_byzantine_clothing_spouse_trigger = yes
@@ -1427,10 +1427,10 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_byzantine_clothing_trigger = yes
 						}
@@ -1445,10 +1445,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_byzantine_clothing_spouse_trigger = yes
 							}
@@ -1499,12 +1499,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_byzantine_clothing_trigger = yes
 						}
 						AND = {
@@ -1517,10 +1517,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_byzantine_clothing_spouse_trigger = yes
 							}
@@ -1599,10 +1599,10 @@ latin_venetian_royalty = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_indian_clothing_trigger = yes
@@ -1647,10 +1647,10 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_indian_clothing_trigger = yes
 						}
@@ -1665,10 +1665,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_indian_clothing_spouse_trigger = yes
 							}
@@ -1719,12 +1719,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_indian_clothing_trigger = yes
 						}
 						AND = {
@@ -1737,10 +1737,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_indian_clothing_spouse_trigger = yes
 							}
@@ -1812,10 +1812,10 @@ latin_venetian_royalty = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				cfp_portrait_burmese_clothing_trigger = yes
@@ -1859,12 +1859,12 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							cfp_portrait_burmese_clothing_trigger = yes
 						}
 						# Countess
@@ -1879,10 +1879,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_burmese_clothing_spouse_trigger = yes
 							}
@@ -1898,10 +1898,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_burmese_clothing_spouse_trigger = yes
 							}
@@ -1936,10 +1936,10 @@ latin_venetian_royalty = {
 							highest_held_title_tier >= tier_kingdom
 							NOR = {
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_burmese_clothing_trigger = yes
 						}
@@ -1953,10 +1953,10 @@ latin_venetian_royalty = {
 								highest_held_title_tier >= tier_kingdom
 								NOR = {
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_burmese_clothing_spouse_trigger = yes
 							}
@@ -2003,8 +2003,8 @@ latin_venetian_royalty = {
 								highest_held_title_tier > tier_county
 							}
 						}
-						has_government = republic_government
-						AND = { is_ruler = yes has_government = theocracy_government }
+						government_has_flag = government_is_republic
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_dde_abbasid_clothing_trigger = yes
@@ -2053,10 +2053,10 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_dde_abbasid_clothing_trigger = yes
 						}
@@ -2071,10 +2071,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_dde_abbasid_clothing_spouse_trigger = yes
 							}
@@ -2129,12 +2129,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_dde_abbasid_clothing_trigger = yes
 						}
 						AND = {
@@ -2147,10 +2147,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_dde_abbasid_clothing_spouse_trigger = yes
 							}
@@ -2240,8 +2240,8 @@ latin_venetian_royalty = {
 								highest_held_title_tier > tier_county
 							}
 						}
-						has_government = republic_government
-						AND = { is_ruler = yes has_government = theocracy_government }
+						government_has_flag = government_is_republic
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_mena_clothing_trigger = yes
@@ -2274,7 +2274,7 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 50
 				scope:highest_held_title_tier < tier_county
-				scope:government = flag:republic_government
+				scope:government = flag:government_is_republic
 				portrait_mena_clothing_trigger = yes
 			}
 		}
@@ -2317,10 +2317,10 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_mena_clothing_trigger = yes
 						}
@@ -2335,10 +2335,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_mena_clothing_spouse_trigger = yes
 							}
@@ -2394,12 +2394,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_mena_clothing_trigger = yes
 						}
 						AND = {
@@ -2412,10 +2412,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_mena_clothing_spouse_trigger = yes
 							}
@@ -2633,10 +2633,10 @@ latin_venetian_royalty = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 					OR = {
 						portrait_steppe_clothing_trigger = yes
@@ -2684,10 +2684,10 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							OR = {
 								portrait_steppe_clothing_trigger = yes
@@ -2705,10 +2705,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								OR = {
 									portrait_steppe_clothing_spouse_trigger = yes
@@ -2762,12 +2762,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							OR = {
 								portrait_steppe_clothing_trigger = yes
 								cfp_portrait_turkic_clothing_trigger = yes
@@ -2783,10 +2783,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								OR = {
 									portrait_steppe_clothing_spouse_trigger = yes
@@ -2901,10 +2901,10 @@ latin_venetian_royalty = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_northern_clothing_trigger = yes
@@ -2949,10 +2949,10 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_northern_clothing_trigger = yes
 						}
@@ -2967,10 +2967,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_northern_clothing_spouse_trigger = yes
 							}
@@ -3021,12 +3021,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_northern_clothing_trigger = yes
 						}
 						AND = {
@@ -3039,10 +3039,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_northern_clothing_spouse_trigger = yes
 							}
@@ -3119,10 +3119,10 @@ latin_venetian_royalty = {
 								highest_held_title_tier > tier_county
 							}
 						}
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						AND = {
 							is_ruler = yes
-							has_government = theocracy_government
+							government_has_flag = government_is_theocracy
 						}
 					}
 				}
@@ -3161,10 +3161,10 @@ latin_venetian_royalty = {
 								highest_held_title_tier > tier_county
 							}
 						}
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						AND = {
 							is_ruler = yes
-							has_government = theocracy_government
+							government_has_flag = government_is_theocracy
 						}
 					}
 				}
@@ -3211,12 +3211,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier = tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp2_iberian_christian_clothing_trigger = yes
 						}
 						AND = {
@@ -3229,10 +3229,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier = tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
 							}
@@ -3284,12 +3284,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp2_iberian_christian_clothing_trigger = yes
 						}
 						AND = {
@@ -3302,10 +3302,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
 							}
@@ -3356,12 +3356,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier = tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp2_iberian_muslim_clothing_trigger = yes
 						}
 						AND = {
@@ -3374,10 +3374,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier = tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
 							}
@@ -3428,12 +3428,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp2_iberian_muslim_clothing_trigger = yes
 						}
 						AND = {
@@ -3446,10 +3446,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
 							}
@@ -3559,8 +3559,8 @@ latin_venetian_royalty = {
 								highest_held_title_tier > tier_county
 							}
 						}
-						has_government = republic_government
-						AND = { is_ruler = yes has_government = theocracy_government }
+						government_has_flag = government_is_republic
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_fp1_norse_clothing_trigger = yes
@@ -3605,10 +3605,10 @@ latin_venetian_royalty = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_fp1_norse_clothing_trigger = yes
 						}
@@ -3623,10 +3623,10 @@ latin_venetian_royalty = {
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp1_norse_clothing_spouse_trigger = yes
 							}
@@ -3677,12 +3677,12 @@ latin_venetian_royalty = {
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp1_norse_clothing_trigger = yes
 						}
 						AND = {
@@ -3695,10 +3695,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp1_norse_clothing_spouse_trigger = yes
 							}
@@ -3777,10 +3777,10 @@ latin_venetian_royalty = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_african_clothing_trigger = yes
@@ -3825,10 +3825,10 @@ latin_venetian_royalty = {
 							NOR = {
 								has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_african_clothing_trigger = yes
 						}
@@ -3843,10 +3843,10 @@ latin_venetian_royalty = {
 								NOR = {
 									has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_african_clothing_spouse_trigger = yes
 							}
@@ -3899,12 +3899,12 @@ latin_venetian_royalty = {
 
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_african_clothing_trigger = yes
 						}
 						AND = {
@@ -3917,10 +3917,10 @@ latin_venetian_royalty = {
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_african_clothing_spouse_trigger = yes
 							}
@@ -4048,7 +4048,7 @@ latin_venetian_royalty = {
 								}
 							}
 							is_theocratic_lessee = yes
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 				}
@@ -4090,7 +4090,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -4203,7 +4203,7 @@ latin_venetian_royalty = {
 								}
 							}
 							is_theocratic_lessee = yes
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 				}
@@ -4237,7 +4237,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				religion = religion:christianity_religion
@@ -4286,7 +4286,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				NAND = {
@@ -4341,7 +4341,7 @@ latin_venetian_royalty = {
 				OR = {
 					AND = {
 						is_vassal_of = title:k_papal_state.holder
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 					AND = {
 						is_councillor_of = title:k_papal_state.holder
@@ -4481,7 +4481,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -4576,7 +4576,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				religion = religion:islam_religion
@@ -4612,7 +4612,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				religion = religion:islam_religion
@@ -4679,7 +4679,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -4722,7 +4722,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -4796,7 +4796,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -4864,7 +4864,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -4904,7 +4904,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -4975,7 +4975,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -5032,7 +5032,7 @@ latin_venetian_royalty = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -5275,10 +5275,10 @@ latin_venetian_royalty = {
 	# 					}
 	# 				}
 	# 				AND = {
-	# 					has_government = republic_government
+	# 					government_has_flag = government_is_republic
 	# 					primary_title.tier > 1
 	# 				}
-	# 				AND = { is_ruler = yes has_government = theocracy_government }
+	# 				AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 	# 			}
 	# 			portrait_northern_clothing_trigger = yes
 	# 		}

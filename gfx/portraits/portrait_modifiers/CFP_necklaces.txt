@@ -48,14 +48,14 @@
 							AND = {
 								portrait_fp1_norse_clothing_trigger = yes
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
 							AND = {
 								cfp_portrait_norse_clothing_trigger = yes
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
@@ -68,9 +68,9 @@
 				OR = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
-					has_government = theocracy_government
+					government_has_flag = government_is_theocracy
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						NOT = { primary_title = title:k_venice }
 					}
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
@@ -145,10 +145,10 @@
 						NOR = {
 							has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 					AND = {
@@ -162,10 +162,10 @@
 							NOR = {
 								has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 						}
 					}
@@ -195,10 +195,10 @@
 						NOR = {
 							has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 					AND = {
@@ -212,10 +212,10 @@
 							NOR = {
 								has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 						}
 					}
