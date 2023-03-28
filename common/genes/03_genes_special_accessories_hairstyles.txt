@@ -80,6 +80,8 @@ special_genes = {
 					1 = male_hair_fp2_iberian_christian_01 
 					1 = male_hair_fp2_iberian_christian_02
 					1 = male_hair_fp2_iberian_christian_03
+					1 = m_hair_ep2_western_01
+					1 = m_hair_ep2_western_02
 				}
 
 				female = {
@@ -137,6 +139,8 @@ special_genes = {
 					1 = female_hair_fp2_iberian_christian_01 
 					1 = female_hair_fp2_iberian_christian_02
 					1 = female_hair_fp2_iberian_christian_03
+					1 = f_hair_ep2_western_01
+					1 = f_hair_ep2_western_02
 				}
 				boy = male
 				girl = female
@@ -1095,6 +1099,35 @@ special_genes = {
 				girl = female
 			}
 
+			ep2_hairstyles_western = {
+				index = 59
+				male = {
+					2 = m_hair_ep2_western_01
+					2 = m_hair_ep2_western_02
+				}
+
+				female = {
+					2 = f_hair_ep2_western_01
+					2 = f_hair_ep2_western_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_hairstyles_western_common = { # Without jewelry for use by commoners
+				index = 60
+				male = {
+					2 = m_hair_ep2_western_01
+					2 = m_hair_ep2_western_02
+				}
+
+				female = {
+					2 = f_hair_ep2_western_01
+					2 = f_hair_ep2_western_02
+				}
+				boy = male
+				girl = female
+			}
 
 			scripted_character_hairstyles_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new hairstyles are added for scripted characters they should be added in a new template.
 				index = 40
@@ -1225,7 +1258,7 @@ special_genes = {
 			}
 			
 			western_hairstyles_aging = {
-				index = 59
+				index = 61
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -1241,7 +1274,7 @@ special_genes = {
 			}
 			
 			slavic_hairstyles_warrior = {
-				index = 60
+				index = 62
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1262,7 +1295,7 @@ special_genes = {
 			}
 			
 			hungarian_hairstyles_warrior = {
-				index = 61
+				index = 63
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
