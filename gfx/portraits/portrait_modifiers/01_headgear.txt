@@ -169,10 +169,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_dde_hre_clothing_spouse_trigger = yes
 			}
@@ -200,10 +200,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						portrait_dde_hre_clothing_trigger = yes
 					}
@@ -218,10 +218,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
@@ -251,12 +251,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_dde_hre_clothing_trigger = yes
 					}
 					AND = {
@@ -269,10 +269,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
@@ -301,10 +301,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_dde_hre_clothing_trigger = yes
 					}
 					AND = {
@@ -316,10 +316,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_dde_hre_clothing_spouse_trigger = yes
 						}
 					}
@@ -448,10 +448,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_western_clothing_spouse_trigger = yes
 			}
@@ -479,10 +479,10 @@ headgear = {
 						NOR = {	# OR is a typo from paradox, should be NOR
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						portrait_western_clothing_trigger = yes
 					}
@@ -497,10 +497,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_western_clothing_spouse_trigger = yes
 						}
@@ -530,12 +530,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						OR = {
 							portrait_western_clothing_trigger = yes
 							AND = {
@@ -545,7 +545,7 @@ headgear = {
 									AND = {
 										portrait_fp1_norse_clothing_trigger = yes
 										NOR = {
-											has_government = tribal_government
+											government_has_flag = government_is_tribal
 											religion = religion:germanic_religion
 										}
 									}
@@ -555,7 +555,7 @@ headgear = {
 								cfp_portrait_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
@@ -575,10 +575,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							OR = {
 								OR = {
@@ -586,7 +586,7 @@ headgear = {
 									AND = {
 										portrait_fp1_norse_clothing_spouse_trigger = yes
 										NOR = {
-											has_government = tribal_government
+											government_has_flag = government_is_tribal
 											religion = religion:germanic_religion
 										}
 									}
@@ -594,7 +594,7 @@ headgear = {
 										cfp_portrait_norse_clothing_spouse_trigger = yes
 										has_fp1_dlc_trigger = no
 										NOR = {
-											has_government = tribal_government
+											government_has_flag = government_is_tribal
 											religion = religion:germanic_religion
 										}
 									}
@@ -631,12 +631,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						OR = {
 							portrait_western_clothing_trigger = yes
 							AND = {
@@ -646,7 +646,7 @@ headgear = {
 									AND = {
 										portrait_fp1_norse_clothing_trigger = yes
 										NOR = {
-											has_government = tribal_government
+											government_has_flag = government_is_tribal
 											religion = religion:germanic_religion
 										}
 									}
@@ -656,7 +656,7 @@ headgear = {
 								cfp_portrait_norse_clothing_trigger = yes
 								has_fp1_dlc_trigger = no
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
@@ -676,10 +676,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							OR = {
 								OR = {
@@ -687,7 +687,7 @@ headgear = {
 									AND = {
 										portrait_fp1_norse_clothing_spouse_trigger = yes
 										NOR = {
-											has_government = tribal_government
+											government_has_flag = government_is_tribal
 											religion = religion:germanic_religion
 										}
 									}
@@ -695,7 +695,7 @@ headgear = {
 										cfp_portrait_norse_clothing_spouse_trigger = yes
 										has_fp1_dlc_trigger = no
 										NOR = {
-											has_government = tribal_government
+											government_has_flag = government_is_tribal
 											religion = religion:germanic_religion
 										}
 									}
@@ -766,15 +766,15 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							AND = {
 								highest_held_title_tier = tier_empire
 								portrait_northern_clothing_trigger = yes
 								portrait_fp1_norse_clothing_trigger = no
 							}
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						OR = {
 							portrait_western_clothing_trigger = yes
 							AND = {
@@ -784,7 +784,7 @@ headgear = {
 							AND = {
 								portrait_fp1_norse_clothing_trigger = yes
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
@@ -799,15 +799,15 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								AND = {
 									highest_held_title_tier = tier_empire
 									portrait_northern_clothing_spouse_trigger = yes
 									portrait_fp1_norse_clothing_spouse_trigger = no
 								}
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							OR = {
 								portrait_western_clothing_spouse_trigger = yes
 								AND = {
@@ -817,7 +817,7 @@ headgear = {
 								AND = {
 									portrait_fp1_norse_clothing_spouse_trigger = yes
 									NOR = {
-										has_government = tribal_government
+										government_has_flag = government_is_tribal
 										religion = religion:germanic_religion
 									}
 								}
@@ -850,15 +850,15 @@ headgear = {
 					# AND = {
 						# OR = {
 							# highest_held_title_tier = tier_kingdom
-							# AND = { is_ruler = yes has_government = theocracy_government }
+							# AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							# AND = {
 								# highest_held_title_tier = tier_empire
 								# portrait_northern_clothing_trigger = yes
 								# portrait_fp1_norse_clothing_trigger = no
 							# }
 						# }
-						# NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						# NOT = { has_government = republic_government }
+						# NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						# NOT = { government_has_flag = government_is_republic }
 						# OR = {
 							# portrait_western_clothing_trigger = yes
 							# AND = {
@@ -868,7 +868,7 @@ headgear = {
 							# AND = {
 								# portrait_fp1_norse_clothing_trigger = yes
 								# NOR = {
-									# has_government = tribal_government
+									# government_has_flag = government_is_tribal
 									# religion = religion:germanic_religion
 								# }
 							# }
@@ -883,15 +883,15 @@ headgear = {
 						# primary_spouse = {
 							# OR = {
 								# highest_held_title_tier = tier_kingdom
-								# AND = { is_ruler = yes has_government = theocracy_government }
+								# AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								# AND = {
 									# highest_held_title_tier = tier_empire
 									# portrait_northern_clothing_spouse_trigger = yes
 									# portrait_fp1_norse_clothing_spouse_trigger = no
 								# }
 							# }
-							# NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							# NOT = { has_government = republic_government }
+							# NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							# NOT = { government_has_flag = government_is_republic }
 							# OR = {
 								# portrait_western_clothing_spouse_trigger = yes
 								# AND = {
@@ -901,7 +901,7 @@ headgear = {
 								# AND = {
 									# portrait_fp1_norse_clothing_spouse_trigger = yes
 									# NOR = {
-										# has_government = tribal_government
+										# government_has_flag = government_is_tribal
 										# religion = religion:germanic_religion
 									# }
 								# }
@@ -939,15 +939,15 @@ headgear = {
 	#				AND = {
 	#					OR = {
 	#						highest_held_title_tier = tier_kingdom
-	#						AND = { is_ruler = yes has_government = theocracy_government }
+	#						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 	#						AND = {
 	#							highest_held_title_tier = tier_empire
 	#							portrait_northern_clothing_trigger = yes
 	#							portrait_fp1_norse_clothing_trigger = no
 	#						}
 	#					}
-	#					NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-	#					NOT = { has_government = republic_government }
+	#					NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+	#					NOT = { government_has_flag = government_is_republic }
 	#					OR = {
 	#						portrait_western_clothing_trigger = yes
 	#						AND = {
@@ -957,7 +957,7 @@ headgear = {
 	#						AND = {
 	#							portrait_fp1_norse_clothing_trigger = yes
 	#							NOR = {
-	#								has_government = tribal_government
+	#								government_has_flag = government_is_tribal
 	#								religion = religion:germanic_religion
 	#							}
 	#						}
@@ -972,15 +972,15 @@ headgear = {
 	#					primary_spouse = {
 	#						OR = {
 	#							highest_held_title_tier = tier_kingdom
-	#							AND = { is_ruler = yes has_government = theocracy_government }
+	#							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 	#							AND = {
 	#								highest_held_title_tier = tier_empire
 	#								portrait_northern_clothing_spouse_trigger = yes
 	#								portrait_fp1_norse_clothing_spouse_trigger = no
 	#							}
 	#						}
-	#						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-	#						NOT = { has_government = republic_government }
+	#						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+	#						NOT = { government_has_flag = government_is_republic }
 	#						OR = {
 	#							portrait_western_clothing_spouse_trigger = yes
 	#							AND = {
@@ -990,7 +990,7 @@ headgear = {
 	#							AND = {
 	#								portrait_fp1_norse_clothing_spouse_trigger = yes
 	#								NOR = {
-	#									has_government = tribal_government
+	#									government_has_flag = government_is_tribal
 	#									religion = religion:germanic_religion
 	#								}
 	#							}
@@ -1027,15 +1027,15 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							AND = {
 								highest_held_title_tier = tier_empire
 								portrait_northern_clothing_trigger = yes
 								portrait_fp1_norse_clothing_trigger = no
 							}
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						OR = {
 							portrait_western_clothing_trigger = yes
 							AND = {
@@ -1045,7 +1045,7 @@ headgear = {
 							AND = {
 								portrait_fp1_norse_clothing_trigger = yes
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
@@ -1060,15 +1060,15 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								AND = {
 									highest_held_title_tier = tier_empire
 									portrait_northern_clothing_spouse_trigger = yes
 									portrait_fp1_norse_clothing_spouse_trigger = no
 								}
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							OR = {
 								portrait_western_clothing_spouse_trigger = yes
 								AND = {
@@ -1078,7 +1078,7 @@ headgear = {
 								AND = {
 									portrait_fp1_norse_clothing_spouse_trigger = yes
 									NOR = {
-										has_government = tribal_government
+										government_has_flag = government_is_tribal
 										religion = religion:germanic_religion
 									}
 								}
@@ -1124,10 +1124,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_empire
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_western_clothing_trigger = yes
 					}
 					AND = {
@@ -1139,10 +1139,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_empire
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_western_clothing_spouse_trigger = yes
 						}
 					}
@@ -1715,10 +1715,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				cfp_portrait_latin_clothing_spouse_trigger = yes
 				is_male = yes # because latin women have no specific hat
@@ -1748,10 +1748,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_latin_clothing_trigger = yes
 					}
@@ -1766,10 +1766,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_latin_clothing_spouse_trigger = yes
 						}
@@ -1799,12 +1799,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						cfp_portrait_latin_clothing_trigger = yes
 					}
 					AND = {
@@ -1817,10 +1817,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_latin_clothing_spouse_trigger = yes
 						}
@@ -1945,8 +1945,8 @@ headgear = {
 								highest_held_title_tier > tier_county
 							}
 						}
-					 	has_government = republic_government
-					 	AND = { is_ruler = yes has_government = theocracy_government }
+					 	government_has_flag = government_is_republic
+					 	AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
@@ -1973,10 +1973,10 @@ headgear = {
 					NOR = {
 						# has_dynasty = no
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				scope:highest_held_title_tier = tier_county
@@ -2006,12 +2006,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							cfp_portrait_iberian_christian_clothing_trigger = yes
 						}
 						AND = {
@@ -2024,10 +2024,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_iberian_christian_clothing_spouse_trigger = yes
 							}
@@ -2230,12 +2230,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						OR = {
 							cfp_portrait_hungarian_clothing_trigger = yes
 						}
@@ -2250,10 +2250,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							OR = {
 								cfp_portrait_hungarian_clothing_spouse_trigger = yes
@@ -2284,10 +2284,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						OR = {
 							cfp_portrait_hungarian_clothing_trigger = yes
 						}
@@ -2298,10 +2298,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							cfp_portrait_hungarian_clothing_spouse_trigger = yes
 						}
 					}
@@ -2407,10 +2407,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				cfp_portrait_slavic_clothing_spouse_trigger = yes
 			}
@@ -2438,10 +2438,10 @@ headgear = {
 						NOR = {	# OR is a typo from paradox, should be NOR
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						AND = {
 							cfp_portrait_slavic_clothing_trigger = yes
@@ -2459,10 +2459,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							AND = {
 								cfp_portrait_slavic_clothing_spouse_trigger = yes
@@ -2495,12 +2495,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						AND = {
 							cfp_portrait_slavic_clothing_trigger = yes
 							portrait_northern_clothing_trigger = yes # limited to northern slavic
@@ -2516,10 +2516,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							AND = {
 								cfp_portrait_slavic_clothing_spouse_trigger = yes
@@ -2551,10 +2551,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						cfp_portrait_slavic_clothing_trigger = yes
 					}
 					AND = {
@@ -2566,10 +2566,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							cfp_portrait_slavic_clothing_spouse_trigger = yes
 						}
 					}
@@ -2652,10 +2652,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_empire
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						cfp_portrait_slavic_clothing_trigger = yes
 					}
 					AND = {
@@ -2667,10 +2667,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_empire
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							cfp_portrait_slavic_clothing_spouse_trigger = yes
 						}
 					}
@@ -2800,10 +2800,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_byzantine_clothing_spouse_trigger = yes
 			}
@@ -2831,10 +2831,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						portrait_byzantine_clothing_trigger = yes
 					}
@@ -2849,10 +2849,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_byzantine_clothing_spouse_trigger = yes
 						}
@@ -2883,12 +2883,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_byzantine_clothing_trigger = yes
 					}
 					AND = {
@@ -2901,10 +2901,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_byzantine_clothing_spouse_trigger = yes
 						}
@@ -2934,10 +2934,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_byzantine_clothing_trigger = yes
 					}
 					AND = {
@@ -2946,7 +2946,7 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier >= tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_byzantine_clothing_spouse_trigger = yes
 						}
@@ -2976,10 +2976,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_empire
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_byzantine_clothing_trigger = yes
 					}
 					#AND = {
@@ -2988,10 +2988,10 @@ headgear = {
 					#	primary_spouse = {
 					#		OR = {
 					#			highest_held_title_tier = tier_empire
-					#			AND = { is_ruler = yes has_government = theocracy_government }
+					#			AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					#		}
-					#		NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-					#		NOT = { has_government = republic_government }
+					#		NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+					#		NOT = { government_has_flag = government_is_republic }
 					#		portrait_byzantine_clothing_spouse_trigger = yes
 					#	}
 					#}
@@ -3020,10 +3020,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_empire
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_byzantine_clothing_trigger = yes
 					}
 					#AND = {
@@ -3032,10 +3032,10 @@ headgear = {
 					#	primary_spouse = {
 					#		OR = {
 					#			highest_held_title_tier = tier_empire
-					#			AND = { is_ruler = yes has_government = theocracy_government }
+					#			AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					#		}
-					#		NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-					#		NOT = { has_government = republic_government }
+					#		NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+					#		NOT = { government_has_flag = government_is_republic }
 					#		portrait_byzantine_clothing_trigger = yes
 					#	}
 					#}
@@ -3158,10 +3158,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_indian_clothing_spouse_trigger = yes
 			}
@@ -3189,10 +3189,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						portrait_indian_clothing_trigger = yes
 					}
@@ -3207,10 +3207,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_indian_clothing_spouse_trigger = yes
 						}
@@ -3241,12 +3241,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_indian_clothing_trigger = yes
 					}
 					AND = {
@@ -3259,10 +3259,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_indian_clothing_spouse_trigger = yes
 						}
@@ -3292,10 +3292,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_indian_clothing_trigger = yes
 					}
 					AND = {
@@ -3307,10 +3307,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
@@ -3323,10 +3323,10 @@ headgear = {
 				has_ep1_dlc_trigger = yes
 				OR = {
 					highest_held_title_tier = tier_kingdom
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-				NOT = { has_government = republic_government }
+				NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+				NOT = { government_has_flag = government_is_republic }
 				culture = {
 					has_cultural_pillar = heritage_burman
 				}
@@ -3351,10 +3351,10 @@ headgear = {
 				portrait_can_use_noble_headgear_trigger = yes
 				OR = {
 					highest_held_title_tier = tier_kingdom
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-				NOT = { has_government = republic_government }
+				NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+				NOT = { government_has_flag = government_is_republic }
 				portrait_indian_clothing_trigger = yes				
 
 			}
@@ -3386,10 +3386,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_empire
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_indian_clothing_trigger = yes
 					}
 					AND = {
@@ -3401,10 +3401,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_empire
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
@@ -3417,10 +3417,10 @@ headgear = {
 				has_ep1_dlc_trigger = yes
 				OR = {
 					highest_held_title_tier = tier_empire
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-				NOT = { has_government = republic_government }
+				NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+				NOT = { government_has_flag = government_is_republic }
 				culture = {
 					has_cultural_pillar = heritage_burman
 				}
@@ -3447,10 +3447,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_empire
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_indian_clothing_trigger = yes
 					}
 					AND = {
@@ -3462,10 +3462,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_empire
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_indian_clothing_spouse_trigger = yes
 						}
 					}
@@ -3572,10 +3572,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				cfp_portrait_burmese_clothing_trigger = yes
 			}
@@ -3602,10 +3602,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_burmese_clothing_trigger = yes
 					}
@@ -3620,10 +3620,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
@@ -3638,12 +3638,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						cfp_portrait_burmese_clothing_trigger = yes
 					}
 					AND = {
@@ -3656,10 +3656,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
@@ -3688,10 +3688,10 @@ headgear = {
 						highest_held_title_tier >= tier_kingdom
 						NOR = {
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_burmese_clothing_trigger = yes
 					}
@@ -3705,10 +3705,10 @@ headgear = {
 							highest_held_title_tier >= tier_kingdom
 							NOR = {
 								AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_burmese_clothing_spouse_trigger = yes
 						}
@@ -3758,8 +3758,8 @@ headgear = {
 							highest_held_title_tier > tier_county
 						}
 					}
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_mena_clothing_spouse_trigger = yes
 			}
@@ -3781,7 +3781,7 @@ headgear = {
 				add = 60
 				exists = this
 				highest_held_title_tier < tier_county
-				has_government = republic_government
+				government_has_flag = government_is_republic
 				portrait_mena_clothing_trigger = yes
 			}
 		}
@@ -3808,10 +3808,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						portrait_mena_clothing_trigger = yes
 					}
@@ -3826,10 +3826,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_mena_clothing_spouse_trigger = yes
 						}
@@ -3860,12 +3860,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_mena_clothing_trigger = yes
 					}
 					AND = {
@@ -3878,10 +3878,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_mena_clothing_spouse_trigger = yes
 						}
@@ -3911,10 +3911,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_mena_clothing_trigger = yes
 					}
 					AND = {
@@ -3926,10 +3926,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_mena_clothing_spouse_trigger = yes
 						}
 					}
@@ -3942,10 +3942,10 @@ headgear = {
 				has_ep1_dlc_trigger = yes
 				OR = {
 					highest_held_title_tier = tier_kingdom
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-				NOT = { has_government = republic_government }
+				NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+				NOT = { government_has_flag = government_is_republic }
 				AND = {
 					culture = {
 						has_cultural_pillar = heritage_east_african
@@ -3977,10 +3977,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_mena_clothing_trigger = yes
 					}
 					AND = {
@@ -3993,10 +3993,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_mena_clothing_spouse_trigger = yes
 						}
 					}
@@ -4009,10 +4009,10 @@ headgear = {
 				has_ep1_dlc_trigger = yes
 				OR = {
 					highest_held_title_tier = tier_kingdom
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-				NOT = { has_government = republic_government }
+				NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+				NOT = { government_has_flag = government_is_republic }
 				AND = {
 					culture = {
 						has_cultural_pillar = heritage_east_african
@@ -4048,9 +4048,9 @@ headgear = {
 				portrait_can_use_noble_headgear_trigger = yes
 				highest_held_title_tier = tier_empire
 				NOR = {
-					AND = { is_ruler = yes has_government = mercenary_government  }
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_mena_clothing_trigger = yes
 			}
@@ -4060,10 +4060,10 @@ headgear = {
 				has_ep1_dlc_trigger = yes
 				OR = {
 					highest_held_title_tier = tier_empire
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-				NOT = { has_government = republic_government }
+				NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+				NOT = { government_has_flag = government_is_republic }
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -4091,9 +4091,9 @@ headgear = {
 				portrait_can_use_noble_headgear_trigger = yes
 				highest_held_title_tier = tier_empire
 				NOR = {
-					AND = { is_ruler = yes has_government = mercenary_government  }
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_mena_clothing_trigger = yes
 			}
@@ -4449,8 +4449,8 @@ headgear = {
 							highest_held_title_tier > tier_county
 						}
 					}
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				cfp_portrait_egyptian_clothing_spouse_trigger = yes
 			}
@@ -4478,7 +4478,7 @@ headgear = {
 				highest_held_title_tier <= tier_county
 				NOR = {
 					has_game_rule = never_cfp_fullplate_helmets
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				OR = {
 					cfp_portrait_bedouin_clothing_trigger = yes
@@ -4495,10 +4495,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						OR = {
 							cfp_portrait_bedouin_clothing_spouse_trigger = yes
@@ -4513,7 +4513,7 @@ headgear = {
 				exists = this
 				is_male = yes
 				highest_held_title_tier < tier_county
-				has_government = republic_government
+				government_has_flag = government_is_republic
 				OR = {
 					cfp_portrait_bedouin_clothing_trigger = yes
 					cfp_portrait_berber_clothing_trigger = yes				
@@ -4543,8 +4543,8 @@ headgear = {
 							highest_held_title_tier > tier_county
 						}
 					}
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				OR = {
 					cfp_portrait_bedouin_clothing_spouse_trigger = yes
@@ -4579,12 +4579,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						OR = {
 							cfp_portrait_bedouin_clothing_trigger = yes
 							cfp_portrait_berber_clothing_trigger = yes				
@@ -4600,10 +4600,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							OR = {
 								cfp_portrait_bedouin_clothing_spouse_trigger = yes
@@ -4650,8 +4650,8 @@ headgear = {
 							highest_held_title_tier > tier_county
 						}
 					}
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				cfp_portrait_iranian_clothing_spouse_trigger = yes
 			}
@@ -4673,7 +4673,7 @@ headgear = {
 				add = 60
 				exists = this
 				highest_held_title_tier < tier_county
-				has_government = republic_government
+				government_has_flag = government_is_republic
 				cfp_portrait_iranian_clothing_trigger = yes
 			}
 		}
@@ -4700,10 +4700,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_iranian_clothing_trigger = yes
 					}
@@ -4718,10 +4718,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_iranian_clothing_spouse_trigger = yes
 						}
@@ -4754,12 +4754,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						cfp_portrait_iranian_clothing_trigger = yes
 					}
 					AND = {
@@ -4772,10 +4772,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_iranian_clothing_spouse_trigger = yes
 						}
@@ -4963,8 +4963,8 @@ headgear = {
 							highest_held_title_tier > tier_county
 						}
 					}
-				 	has_government = republic_government
-				 	AND = { is_ruler = yes has_government = theocracy_government }
+				 	government_has_flag = government_is_republic
+				 	AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_dde_abbasid_clothing_spouse_trigger = yes
 			}
@@ -4991,12 +4991,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_dde_abbasid_clothing_trigger = yes
 					}
 					AND = {
@@ -5009,10 +5009,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_dde_abbasid_clothing_spouse_trigger = yes
 						}
@@ -5042,10 +5042,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier = tier_kingdom
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_dde_abbasid_clothing_trigger = yes
 					}
 					AND = {
@@ -5057,10 +5057,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_dde_abbasid_clothing_spouse_trigger = yes
 						}
 					}
@@ -5087,9 +5087,9 @@ headgear = {
 				portrait_can_use_noble_headgear_trigger = yes
 				highest_held_title_tier = tier_empire
 				NOR = {
-					AND = { is_ruler = yes has_government = mercenary_government  }
-					has_government = republic_government
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_dde_abbasid_clothing_trigger = yes
 			}
@@ -5197,10 +5197,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_steppe_clothing_spouse_trigger = yes
 			}
@@ -5227,12 +5227,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_steppe_clothing_trigger = yes
 					}
 					AND = {
@@ -5245,10 +5245,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_steppe_clothing_spouse_trigger = yes
 						}
@@ -5279,12 +5279,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_steppe_clothing_trigger = yes
 					}
 					AND = {
@@ -5297,10 +5297,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_steppe_clothing_spouse_trigger = yes
 						}
@@ -5330,10 +5330,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier > tier_duchy
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						portrait_steppe_clothing_trigger = yes
 					}
 					AND = {
@@ -5345,10 +5345,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_duchy
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_steppe_clothing_spouse_trigger = yes
 						}
 					}
@@ -5375,10 +5375,10 @@ headgear = {
 				portrait_can_use_noble_headgear_trigger = yes
 				OR = {
 					highest_held_title_tier > tier_duchy
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
-				NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-				NOT = { has_government = republic_government }
+				NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+				NOT = { government_has_flag = government_is_republic }
 				portrait_steppe_clothing_trigger = yes
 			}
 			modifier = {
@@ -5481,10 +5481,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				cfp_portrait_turkic_clothing_spouse_trigger = yes
 			}
@@ -5512,10 +5512,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_turkic_clothing_trigger = yes
 					}
@@ -5530,10 +5530,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_turkic_clothing_spouse_trigger = yes
 						}
@@ -5564,12 +5564,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						cfp_portrait_turkic_clothing_trigger = yes
 					}
 					AND = {
@@ -5582,10 +5582,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_turkic_clothing_spouse_trigger = yes
 						}
@@ -5615,10 +5615,10 @@ headgear = {
 					AND = {
 						OR = {
 							highest_held_title_tier > tier_duchy
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-						NOT = { has_government = republic_government }
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+						NOT = { government_has_flag = government_is_republic }
 						cfp_portrait_turkic_clothing_trigger = yes
 					}
 					AND = {
@@ -5630,10 +5630,10 @@ headgear = {
 						primary_spouse = {
 							OR = {
 								highest_held_title_tier > tier_duchy
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							cfp_portrait_turkic_clothing_spouse_trigger = yes
 						}
 					}
@@ -5784,10 +5784,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_oghuz_clothing_trigger = yes
 					}
@@ -5802,10 +5802,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_oghuz_clothing_spouse_trigger = yes
 						}
@@ -5836,12 +5836,12 @@ headgear = {
 						OR = {
 							highest_held_title_tier = tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 2
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						cfp_portrait_oghuz_clothing_trigger = yes
 					}
 					AND = {
@@ -5854,10 +5854,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_oghuz_clothing_spouse_trigger = yes
 						}
@@ -5899,10 +5899,10 @@ headgear = {
 						}
 					}
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_northern_clothing_spouse_trigger = yes
 			}
@@ -5928,10 +5928,10 @@ headgear = {
 				NOR = {
 					# has_dynasty = no
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 				portrait_northern_clothing_trigger = yes
 			}
@@ -5968,10 +5968,10 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_slavic_clothing_spouse_trigger = yes
 						}
@@ -5980,10 +5980,10 @@ headgear = {
 				
 				NOR = {
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						primary_title.tier > 1
 					}
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 				}
 			}
 		}
@@ -6142,8 +6142,8 @@ headgear = {
 								highest_held_title_tier > tier_county
 							}
 						}
-					 	has_government = republic_government
-					 	AND = { is_ruler = yes has_government = theocracy_government }
+					 	government_has_flag = government_is_republic
+					 	AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
@@ -6170,10 +6170,10 @@ headgear = {
 					NOR = {
 						# has_dynasty = no
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				scope:highest_held_title_tier = tier_county
@@ -6203,12 +6203,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp2_iberian_muslim_clothing_trigger = yes
 						}
 						AND = {
@@ -6221,10 +6221,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
 							}
@@ -6259,10 +6259,10 @@ headgear = {
 						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_fp2_iberian_muslim_clothing_trigger = yes
 						}
 						AND = {
@@ -6274,10 +6274,10 @@ headgear = {
 							primary_spouse = {
 								OR = {
 									highest_held_title_tier = tier_kingdom
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-								NOT = { has_government = republic_government }
+								NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+								NOT = { government_has_flag = government_is_republic }
 								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
 							}
 						}
@@ -6381,8 +6381,8 @@ headgear = {
 								highest_held_title_tier > tier_county
 							}
 						}
-					 	has_government = republic_government
-					 	AND = { is_ruler = yes has_government = theocracy_government }
+					 	government_has_flag = government_is_republic
+					 	AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
@@ -6409,10 +6409,10 @@ headgear = {
 					NOR = {
 						# has_dynasty = no
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				scope:highest_held_title_tier = tier_county
@@ -6442,12 +6442,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp2_iberian_christian_clothing_trigger = yes
 						}
 						AND = {
@@ -6460,10 +6460,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
 							}
@@ -6498,10 +6498,10 @@ headgear = {
 						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_fp2_iberian_christian_clothing_trigger = yes
 						}
 						AND = {
@@ -6513,10 +6513,10 @@ headgear = {
 							primary_spouse = {
 								OR = {
 									highest_held_title_tier = tier_kingdom
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-								NOT = { has_government = republic_government }
+								NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+								NOT = { government_has_flag = government_is_republic }
 								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
 							}
 						}
@@ -6621,8 +6621,8 @@ headgear = {
 								highest_held_title_tier > tier_county
 							}
 						}
-					 	has_government = republic_government
-					 	AND = { is_ruler = yes has_government = theocracy_government }
+					 	government_has_flag = government_is_republic
+					 	AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_fp1_norse_clothing_spouse_trigger = yes
@@ -6649,10 +6649,10 @@ headgear = {
 					NOR = {
 						# has_dynasty = no
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				scope:highest_held_title_tier = tier_county
@@ -6682,12 +6682,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_fp1_norse_clothing_trigger = yes
 						}
 						AND = {
@@ -6700,10 +6700,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_fp1_norse_clothing_spouse_trigger = yes
 							}
@@ -6738,10 +6738,10 @@ headgear = {
 						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_fp1_norse_clothing_trigger = yes
 						}
 						AND = {
@@ -6753,10 +6753,10 @@ headgear = {
 							primary_spouse = {
 								OR = {
 									highest_held_title_tier = tier_kingdom
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-								NOT = { has_government = republic_government }
+								NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+								NOT = { government_has_flag = government_is_republic }
 								portrait_fp1_norse_clothing_spouse_trigger = yes
 							}
 						}
@@ -6787,9 +6787,9 @@ headgear = {
 					limit = { exists = this }
 					portrait_can_use_noble_headgear_trigger = yes
 					NOR = {
-						AND = { is_ruler = yes has_government = mercenary_government  }
-						has_government = republic_government
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+						government_has_flag = government_is_republic
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				scope:highest_held_title_tier = tier_empire
@@ -7004,10 +7004,10 @@ headgear = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_african_clothing_spouse_trigger = yes
@@ -7022,10 +7022,10 @@ headgear = {
 					NOR = {
 						# has_dynasty = no
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				portrait_african_clothing_spouse_trigger = yes
@@ -7054,12 +7054,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							portrait_african_clothing_trigger = yes
 						}
 						AND = {
@@ -7072,10 +7072,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								portrait_african_clothing_spouse_trigger = yes
 							}
@@ -7110,10 +7110,10 @@ headgear = {
 						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							portrait_african_clothing_trigger = yes
 						}
 						AND = {
@@ -7125,10 +7125,10 @@ headgear = {
 							primary_spouse = {
 								OR = {
 									highest_held_title_tier = tier_kingdom
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-								NOT = { has_government = republic_government }
+								NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+								NOT = { government_has_flag = government_is_republic }
 								portrait_african_clothing_spouse_trigger = yes
 							}
 						}
@@ -7163,10 +7163,10 @@ headgear = {
 						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							OR = {
 								portrait_african_clothing_trigger = yes
 								AND = {
@@ -7188,10 +7188,10 @@ headgear = {
 							primary_spouse = {
 								OR = {
 									highest_held_title_tier = tier_kingdom
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-								NOT = { has_government = republic_government }
+								NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+								NOT = { government_has_flag = government_is_republic }
 								portrait_african_clothing_spouse_trigger = yes
 							}
 						}
@@ -7229,9 +7229,9 @@ headgear = {
 					limit = { exists = this }
 					portrait_can_use_noble_headgear_trigger = yes
 					NOR = {
-						AND = { is_ruler = yes has_government = mercenary_government  }
-						has_government = republic_government
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+						government_has_flag = government_is_republic
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				scope:highest_held_title_tier = tier_empire
@@ -7323,10 +7323,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_west_africa_clothing_trigger = yes
 					}
@@ -7341,10 +7341,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_west_africa_clothing_spouse_trigger = yes
 						}
@@ -7376,12 +7376,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							cfp_portrait_west_africa_clothing_trigger = yes
 						}
 						AND = {
@@ -7394,10 +7394,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_west_africa_clothing_spouse_trigger = yes
 							}
@@ -7504,10 +7504,10 @@ headgear = {
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				cfp_portrait_east_africa_clothing_spouse_trigger = yes
@@ -7535,10 +7535,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_east_africa_clothing_trigger = yes
 						is_female = yes # nothing for males
@@ -7554,10 +7554,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_east_africa_clothing_spouse_trigger = yes
 							is_female = yes # nothing for males
@@ -7590,12 +7590,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							cfp_portrait_east_africa_clothing_trigger = yes
 						}
 						AND = {
@@ -7608,10 +7608,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_east_africa_clothing_spouse_trigger = yes
 							}
@@ -7646,10 +7646,10 @@ headgear = {
 						AND = {
 							OR = {
 								highest_held_title_tier = tier_kingdom
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							NOT = { has_government = republic_government }
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							NOT = { government_has_flag = government_is_republic }
 							cfp_portrait_east_africa_clothing_trigger = yes
 						}
 						AND = {
@@ -7661,10 +7661,10 @@ headgear = {
 							primary_spouse = {
 								OR = {
 									highest_held_title_tier = tier_kingdom
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-								NOT = { has_government = republic_government }
+								NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+								NOT = { government_has_flag = government_is_republic }
 								cfp_portrait_east_africa_clothing_spouse_trigger = yes
 							}
 						}
@@ -7696,9 +7696,9 @@ headgear = {
 					limit = { exists = this }
 					portrait_can_use_noble_headgear_trigger = yes
 					NOR = {
-						AND = { is_ruler = yes has_government = mercenary_government  }
-						has_government = republic_government
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+						government_has_flag = government_is_republic
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				scope:highest_held_title_tier = tier_empire
@@ -7787,10 +7787,10 @@ headgear = {
 						NOR = {
 							# has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 						cfp_portrait_central_africa_clothing_trigger = yes
 					}
@@ -7805,10 +7805,10 @@ headgear = {
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_central_africa_clothing_spouse_trigger = yes
 						}
@@ -7840,12 +7840,12 @@ headgear = {
 							OR = {
 								highest_held_title_tier = tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 2
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							cfp_portrait_central_africa_clothing_trigger = yes
 						}
 						AND = {
@@ -7858,10 +7858,10 @@ headgear = {
 								OR = {
 									highest_held_title_tier = tier_duchy
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 2
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_central_africa_clothing_spouse_trigger = yes
 							}
@@ -7954,7 +7954,7 @@ headgear = {
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				OR = {
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -7986,8 +7986,8 @@ headgear = {
 				exists = this
 				portrait_has_trait_trigger = { TRAIT = augustus }
 				AND = {
-					NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-					NOT = { has_government = republic_government }
+					NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+					NOT = { government_has_flag = government_is_republic }
 				}
 			}
 		}
@@ -8075,7 +8075,7 @@ headgear = {
 								}
 							}
 							is_theocratic_lessee = yes
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 				}
@@ -8111,7 +8111,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -8260,7 +8260,7 @@ headgear = {
 								}
 							}
 							is_theocratic_lessee = yes
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 				}
@@ -8354,7 +8354,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				NOT = {
@@ -8389,7 +8389,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				NAND = {
@@ -8444,7 +8444,7 @@ headgear = {
 				OR = {
 					AND = {
 						is_vassal_of = title:k_papal_state.holder
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 					AND = {
 						is_councillor_of = title:k_papal_state.holder
@@ -8486,7 +8486,7 @@ headgear = {
 	#            OR = {
 	#            	AND = {
 	#                	is_theocratic_lessee = no
-	#                	NOT = { AND = { is_ruler = yes has_government = theocracy_government } }
+	#                	NOT = { AND = { is_ruler = yes government_has_flag = government_is_theocracy } }
 	#                	NOT = { faith.religious_head = root }
 	#                }
 	#                NOT = { faith = { religion_tag = christianity_religion } }
@@ -8674,7 +8674,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -8739,7 +8739,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				religion = religion:islam_religion
@@ -8769,7 +8769,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				religion = religion:islam_religion
@@ -8799,7 +8799,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -8835,7 +8835,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -8907,7 +8907,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -8995,7 +8995,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -9025,7 +9025,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -9081,7 +9081,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -9131,7 +9131,7 @@ headgear = {
 				OR = {
 					has_character_flag = need_priest_outfit
 					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					has_council_position = councillor_court_chaplain
 				}
 				OR = {
@@ -9205,7 +9205,7 @@ headgear = {
 						is_female = yes
 	        		}
 	        		AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						highest_held_title_tier <= tier_barony
 	        		}
 	        	}

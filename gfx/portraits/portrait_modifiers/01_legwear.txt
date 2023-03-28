@@ -14,7 +14,7 @@
 				value = 0
 			}
 		}
-		outfit_tags = { no_clothes }
+        outfit_tags = { no_clothes }
 		weight = {
 			base = 0
 			modifier = {
@@ -82,7 +82,7 @@
 			}
 		}
 	}
-	
+
 	western_war_legwear = {
 
 		dna_modifiers = {
@@ -183,12 +183,12 @@
 							OR = {
 								highest_held_title_tier > tier_county
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							OR = {
 								portrait_mena_clothing_trigger = yes
 								portrait_indian_clothing_trigger = yes
@@ -207,10 +207,10 @@
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								OR = {
 									portrait_mena_clothing_spouse_trigger = yes
@@ -363,10 +363,10 @@
 							}
 						}
 						AND = {
-							has_government = republic_government
+							government_has_flag = government_is_republic
 							primary_title.tier > 1
 						}
-						AND = { is_ruler = yes has_government = theocracy_government }
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
 				cfp_portrait_burmese_clothing_trigger = yes
@@ -412,12 +412,12 @@
 							NOR = {
 								# has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							cfp_portrait_burmese_clothing_trigger = yes
 						}
 						# Countess
@@ -432,10 +432,10 @@
 								NOR = {
 									# has_dynasty = no
 									AND = {
-										has_government = republic_government
+										government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_burmese_clothing_spouse_trigger = yes
 							}
@@ -451,10 +451,10 @@
 								OR = {
 									highest_held_title_tier > tier_county
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_burmese_clothing_spouse_trigger = yes
 							}
@@ -490,10 +490,10 @@
 							highest_held_title_tier >= tier_kingdom
 							NOR = {
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							cfp_portrait_burmese_clothing_trigger = yes
 						}
@@ -507,10 +507,10 @@
 								highest_held_title_tier >= tier_kingdom
 								NOR = {
 									AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 										primary_title.tier > 1
 									}
-									AND = { is_ruler = yes has_government = theocracy_government }
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
 								cfp_portrait_burmese_clothing_spouse_trigger = yes
 							}
