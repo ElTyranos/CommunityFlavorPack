@@ -1233,7 +1233,7 @@ clothes = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -1818,7 +1818,7 @@ latin_venetian_royalty = {
 						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 					}
 				}
-				cfp_portrait_burmese_clothing_trigger = yes
+				portrait_cfp_burmese_clothing_trigger = yes
 			}
 		}
 	}
@@ -1844,7 +1844,7 @@ latin_venetian_royalty = {
 						amenity_level = { type = court_fashion value = 5 }
 					}
 				}
-				cfp_portrait_burmese_clothing_trigger = yes
+				portrait_cfp_burmese_clothing_trigger = yes
 			}
 			modifier = {
 				add = 50
@@ -1865,7 +1865,7 @@ latin_venetian_royalty = {
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-							cfp_portrait_burmese_clothing_trigger = yes
+							portrait_cfp_burmese_clothing_trigger = yes
 						}
 						# Countess
 						AND = {
@@ -1884,7 +1884,7 @@ latin_venetian_royalty = {
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_burmese_clothing_spouse_trigger = yes
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
 							}
 						}
 						# Duchess
@@ -1903,14 +1903,14 @@ latin_venetian_royalty = {
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_burmese_clothing_spouse_trigger = yes
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier > tier_county
-					cfp_portrait_burmese_clothing_trigger = yes
+					portrait_cfp_burmese_clothing_trigger = yes
 				}
 			}
 		}
@@ -1941,7 +1941,7 @@ latin_venetian_royalty = {
 								}
 								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
-							cfp_portrait_burmese_clothing_trigger = yes
+							portrait_cfp_burmese_clothing_trigger = yes
 						}
 						AND = {
 							exists = primary_spouse
@@ -1958,14 +1958,14 @@ latin_venetian_royalty = {
 									}
 									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 								}
-								cfp_portrait_burmese_clothing_spouse_trigger = yes
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
 							}
 						}
 					}
 				}
 				trigger_else = {
 					scope:highest_held_title_tier > tier_kingdom
-					cfp_portrait_burmese_clothing_trigger = yes
+					portrait_cfp_burmese_clothing_trigger = yes
 				}
 			}
 		}
@@ -2193,7 +2193,7 @@ latin_venetian_royalty = {
 				portrait_wear_armor_trigger = yes
 				OR = {
 					portrait_dde_abbasid_clothing_trigger = yes
-					cfp_portrait_dde_turkic_clothing_trigger = yes
+					portrait_cfp_dde_turkic_clothing_trigger = yes
 				}
 			}
 			modifier = {
@@ -2508,7 +2508,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -2521,7 +2521,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -2557,7 +2557,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -2592,7 +2592,7 @@ latin_venetian_royalty = {
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
-					cfp_portrait_turkic_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
 			}
@@ -2640,7 +2640,7 @@ latin_venetian_royalty = {
 					}
 					OR = {
 						portrait_steppe_clothing_trigger = yes
-						cfp_portrait_turkic_clothing_trigger = yes
+						portrait_cfp_turkic_clothing_trigger = yes
 					}
 				}
 			}
@@ -2691,7 +2691,7 @@ latin_venetian_royalty = {
 							}
 							OR = {
 								portrait_steppe_clothing_trigger = yes
-								cfp_portrait_turkic_clothing_trigger = yes
+								portrait_cfp_turkic_clothing_trigger = yes
 							}
 						}
 						AND = {
@@ -2712,7 +2712,7 @@ latin_venetian_royalty = {
 								}
 								OR = {
 									portrait_steppe_clothing_spouse_trigger = yes
-									cfp_portrait_turkic_clothing_spouse_trigger = yes
+									portrait_cfp_turkic_clothing_spouse_trigger = yes
 								}
 							}
 						}
@@ -2770,7 +2770,7 @@ latin_venetian_royalty = {
 							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 							OR = {
 								portrait_steppe_clothing_trigger = yes
-								cfp_portrait_turkic_clothing_trigger = yes
+								portrait_cfp_turkic_clothing_trigger = yes
 							}
 						}
 						AND = {
@@ -2790,7 +2790,7 @@ latin_venetian_royalty = {
 								}
 								OR = {
 									portrait_steppe_clothing_spouse_trigger = yes
-									cfp_portrait_turkic_clothing_spouse_trigger = yes
+									portrait_cfp_turkic_clothing_spouse_trigger = yes
 								}
 							}
 						}
@@ -2859,7 +2859,7 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
-				cfp_portrait_turkic_clothing_trigger = yes
+				portrait_cfp_turkic_clothing_trigger = yes
 			}
 			modifier = {
 				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
@@ -3963,8 +3963,8 @@ latin_venetian_royalty = {
 				add = 101
 				portrait_wear_armor_trigger = yes
 				OR = { 
-					cfp_portrait_central_africa_clothing_trigger = yes
-					cfp_portrait_west_africa_clothing_trigger = yes
+					portrait_cfp_central_africa_clothing_trigger = yes
+					portrait_cfp_west_africa_clothing_trigger = yes
 				}
 			}
 			modifier = {
@@ -4000,7 +4000,7 @@ latin_venetian_royalty = {
 			modifier = {
 				add = 101
 				portrait_wear_armor_trigger = yes
-				cfp_portrait_east_africa_clothing_trigger = yes
+				portrait_cfp_east_africa_clothing_trigger = yes
 			}
 			modifier = {
 				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
@@ -4280,7 +4280,7 @@ latin_venetian_royalty = {
 				exists = this
 				OR = {
 					portrait_northern_clothing_trigger = yes
-					cfp_portrait_anglo_saxon_clothing_trigger = yes
+					portrait_cfp_anglo_saxon_clothing_trigger = yes
 				}
 				faith = { religion_tag = christianity_religion }
 				OR = {
@@ -4606,8 +4606,8 @@ latin_venetian_royalty = {
 				add = 120
 				exists = this
 				OR = {
-					cfp_portrait_turkic_clothing_trigger = yes
-					cfp_portrait_iranian_clothing_trigger = yes
+					portrait_cfp_turkic_clothing_trigger = yes
+					portrait_cfp_iranian_clothing_trigger = yes
 				}
 				OR = {
 					has_character_flag = need_priest_outfit
