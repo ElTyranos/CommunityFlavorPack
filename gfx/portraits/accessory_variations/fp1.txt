@@ -620,7 +620,7 @@ variation = {
 		r = { textures = "northern_wool_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
 		b = { textures = "northern_silk_trim_01" 	layout = "small_trim_layout" }
-		a = { textures = "western_chainmail"		layout = "plain_fabric_layout" }
+		a = { textures = "western_chainmail_01"		layout = "plain_fabric_layout" }
 	}
 
 	pattern = { 
@@ -629,7 +629,7 @@ variation = {
 		r = { textures = "northern_wool_03" 		layout = "plain_fabric_layout" }
 		g = { textures = "northern_wool_02" 		layout = "plain_fabric_layout" }
 		b = { textures = "northern_silk_trim_01" 	layout = "small_trim_layout" }
-		a = { textures = "western_chainmail"		layout = "plain_fabric_layout" }
+		a = { textures = "western_chainmail_01"		layout = "plain_fabric_layout" }
 	}	
 
 	pattern = { 
@@ -638,7 +638,7 @@ variation = {
 		r = { textures = "northern_wool_04" 		layout = "plain_fabric_layout" }
 		g = { textures = "northern_wool_02" 		layout = "plain_fabric_layout" }
 		b = { textures = "northern_silk_trim_02" 	layout = "small_trim_layout" }
-		a = { textures = "western_chainmail"		layout = "plain_fabric_layout" }
+		a = { textures = "western_chainmail_01"		layout = "plain_fabric_layout" }
 	}
 
 	# Color palette textures are 16-wide and N-high.
