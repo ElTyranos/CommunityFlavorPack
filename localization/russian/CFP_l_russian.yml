@@ -563,12 +563,6 @@
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Арабская кольчуга"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low:0 "@cfp_icon_green! Арабский кожаный доспех"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_02_low$"
-
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_02_low:0 "@cfp_icon_green! Аббасидский кожаный доспех"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_war_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_02_low$"
-
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_02:0 "@cfp_icon_green! Арабский стёганый доспех"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_gambeson_02:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_02$"
 
@@ -611,8 +605,6 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_common:1 "@cfp_icon_orange! Индийская станапатта простолюдина"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_low:1 "@cfp_icon_orange! Индийская станапатта низшего дворянства"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! Индийская станапатта высшего дворянства"
-
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_cfp_war_nobility_01:1 "@cfp_icon_purple! Византийский золотой доспех"
 
 ## Legwear
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Латные поножи"
