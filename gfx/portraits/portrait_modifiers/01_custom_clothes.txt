@@ -210,7 +210,7 @@
 		gene = clothes
 		template = northern_war_nobility_clothes
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = clothes
 		template = byzantine_commoner_clothes
@@ -456,7 +456,7 @@
 		gene = clothes
 		template = religious_catholic_devoted_clothes
 	}
-		
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_catholic_high_clothes
@@ -494,7 +494,7 @@
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = religious_jain_high_clothes
+		template = religious_jain_devoted_clothes
 	}
 	
 	add_accessory_modifiers = {
