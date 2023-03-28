@@ -1230,7 +1230,10 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_western_clothing_trigger = yes
-				cfp_era_high_medieval_trigger = yes
+				OR = {
+					portrait_era3_armor_trigger = yes
+					portrait_era4_armor_trigger = yes
+				}
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				
 				NOR = {
@@ -2124,7 +2127,10 @@ headgear = {
 				add = 101
 				exists = this
 				portrait_wear_helmet_trigger = yes
-				cfp_era_high_medieval_trigger = yes
+				OR = {
+					portrait_era3_armor_trigger = yes
+					portrait_era4_armor_trigger = yes
+				}
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				religion = religion:christianity_religion
 				OR = {
@@ -4177,7 +4183,10 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				portrait_mena_clothing_trigger = yes
-				cfp_era_high_medieval_trigger = yes
+				OR = {
+					portrait_era3_armor_trigger = yes
+					portrait_era4_armor_trigger = yes
+				}
 				
 				NOR = {
 				    AND = {
@@ -4238,7 +4247,10 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_mena_clothing_trigger = yes
 				cfp_portrait_wear_helmet_high_noble_trigger = yes
-				cfp_era_high_medieval_trigger = yes
+				OR = {
+					portrait_era3_armor_trigger = yes
+					portrait_era4_armor_trigger = yes
+				}
 				
 				NOR = {
 				    AND = {
@@ -4851,7 +4863,10 @@ headgear = {
 				portrait_wear_armor_trigger = yes # PDX did not add it, but it avoids characters with no armor still wearing a helmet while wearing civilian clothes under certain conditions
 				portrait_wear_helmet_trigger = yes
 				cfp_portrait_iranian_clothing_trigger = yes
-				cfp_era_high_medieval_trigger = yes
+				OR = {
+					portrait_era3_armor_trigger = yes
+					portrait_era4_armor_trigger = yes
+				}
 				
 				NOR = {
 				    AND = {
@@ -8382,7 +8397,8 @@ headgear = {
 					faith.religious_head = this
 				}
 				NOR = {
-					cfp_era_high_medieval_trigger = yes
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
 					faith = faith:coptic

@@ -30,7 +30,7 @@
 				add = 100
 				exists = this
 				
-				cfp_era_high_medieval_trigger = yes
+				portrait_era3_trigger = yes
 				
 				OR = {
 					AND = {

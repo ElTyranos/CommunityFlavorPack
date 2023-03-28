@@ -4326,7 +4326,8 @@ latin_venetian_royalty = {
 					faith.religious_head = this
 				}
 				NOR = {
-					cfp_era_high_medieval_trigger = yes
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
 					faith = faith:coptic
