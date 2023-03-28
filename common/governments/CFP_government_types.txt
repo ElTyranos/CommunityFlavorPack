@@ -15,5 +15,8 @@ theocracy_government = {
 	}
 	
 	vassal_contract = { theocracy_government_obligations }
+	
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flag = government_is_theocracy
 	color = hsv{ 0.00 0.00 0.78 }
 }
