@@ -446,26 +446,63 @@ portrait_cfp_jewish_clothing_contents_trigger = {
 ## wear_helmet_trigger but for dukes
 portrait_cfp_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
 	exists = this
-	OR = {
-		AND = { 
-			exists = primary_title
-			primary_title.tier = tier_duchy
-		}
-		AND = {
-			exists = primary_title
-			primary_title.tier >= tier_duchy
-			portrait_mena_clothing_trigger = yes
+	trigger_if = {
+		limit = { exists = involved_activity }
+		involved_activity = {
+			NOR = {
+				has_activity_type = activity_hunt
+				has_activity_type = activity_pilgrimage
+			}
 		}
 	}
 	OR = {
-		is_commanding_army = yes
-		has_council_position = councillor_marshal
-		has_character_flag = single_combat_duel_armor
+		# Commanding Duke
+		AND = {
+			is_commanding_army = yes
+			OR = {
+				is_landed = no
+				AND = {
+					exists = primary_title
+					primary_title.tier = tier_duchy
+				}
+			}
+		}
+		# Non-Council Knight Duke and liege is at war
 		AND = {
 			is_knight = yes
 			is_councillor = no
+			OR = {
+				is_landed = no
+				AND = {
+					exists = primary_title
+					primary_title.tier = tier_duchy
+					liege = { is_at_war = yes }
+				}
+			}
+		}
+		# Marshal Duke
+		AND = {
+			has_council_position = councillor_marshal
+			primary_title.tier = tier_duchy
+		}
+		# In a Duel
+		AND = { 
+			has_character_flag = wear_armor
+			primary_title.tier = tier_duchy
+			has_character_flag = single_combat_duel_armor
+		}
+		# In a Tournament
+		AND = { 
+			has_character_flag = wear_armor
+			primary_title.tier = tier_duchy
+			activity_tournament_armor_trigger = yes
 		}
 	}
+	NOR = {
+		activity_tournament_shirtless_trigger = yes
+		has_character_flag = no_hat
+	}
+	# Not peasants leading revolts
 	NAND = {
 		has_trait = peasant_leader
 		OR = {
@@ -475,8 +512,8 @@ portrait_cfp_wear_helmet_high_noble_trigger = { # Different from Armor, as Count
 				is_ruler = yes
 				is_landed = no
 				OR = {
-					has_government = feudal_government
-					has_government = clan_government
+					government_has_flag = government_is_feudal
+					government_has_flag = government_is_clan
 				}
 			}
 		}
