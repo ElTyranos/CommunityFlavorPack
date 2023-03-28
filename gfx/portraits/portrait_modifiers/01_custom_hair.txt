@@ -142,14 +142,12 @@ custom_hair = {
 			portrait_western_clothing_modifier = yes
 		}
 	}
-
 	## CFP
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = western_hairstyles_aging
 	}
 	## /CFP
-
 
 	add_accessory_modifiers = {
 		gene = hairstyles
@@ -255,7 +253,6 @@ custom_hair = {
 		template = catholic_devoted_hairstyles
 	}
 	## / CFP
-
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = steppe_hairstyles_straight

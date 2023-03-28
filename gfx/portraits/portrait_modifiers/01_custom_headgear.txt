@@ -44,13 +44,12 @@
 			has_fp2_dlc_trigger = yes
 		}
 	}
-	
+	### CFP ###
 	add_accessory_modifiers = {
-		# CFP
 		gene = headgear
 		template = iberian_high_nobility
 	}
-
+	### /CFP ###
 	add_accessory_modifiers = {
 		gene = headgear
 		template = fp2_christian_royalty
@@ -58,25 +57,20 @@
 			has_fp2_dlc_trigger = yes
 		}
 	}
-	
+	### CFP ###
 	add_accessory_modifiers = {
-		# CFP
 		gene = headgear
 		template = iberian_castilian_royalty
 	}
-	
 	add_accessory_modifiers = {
-		# CFP
 		gene = headgear
 		template = iberian_aragonese_royalty
 	}
-	
 	add_accessory_modifiers = {
-		# CFP
 		gene = headgear
 		template = iberian_war_aragonese_royalty
 	}
-
+	### /CFP ###
 	add_accessory_modifiers = {
 		gene = headgear
 		template = fp2_christian_war_nobility
@@ -437,7 +431,6 @@
 		template = slavic_war
 	}
 	########### /CFP ###########
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = byzantine_common
@@ -478,12 +471,10 @@
 		template = trait_laurel
 	}
 	########### /CFP ###########
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = mena_common
 	}
-	
 	########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
@@ -554,7 +545,6 @@
 		template = iranian_war_high_medieval
 	}
 	########### /CFP ###########
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = steppe_common
@@ -684,7 +674,6 @@
 		template = east_african_war
 	}
 ###########/CFP ###########
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = indian_common
@@ -714,7 +703,6 @@
 		gene = headgear
 		template = indian_war
 	}
-	
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = headgear
@@ -785,7 +773,7 @@
 		is_valid_custom = {
 			has_dlc = "Fashion of the Abbasid Court"
 		}
-	}	
+	}
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -872,14 +860,13 @@
 		gene = headgear
 		template = catholic_head
 	}
-	
+
 	## CFP
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_orthodox_devoted
 	}
 	##
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_orthodox_high
@@ -909,7 +896,6 @@
 		template = religious_jewish_common_mena
 	}
 	##
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_jewish_high
@@ -924,7 +910,6 @@
 		gene = headgear
 		template = religious_muslim_high
 	}
-	
 	## CFP
 	add_accessory_modifiers = {
 		gene = headgear
@@ -948,7 +933,6 @@
 		template = african_religious_masks
 	}
 	##
-	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_steppe_high
@@ -962,7 +946,7 @@
 	#add_accessory_modifiers = {
 	#	gene = hairstyles
 	#	template = rtt_hairstyles
-	#	
+	#
 	#	is_valid_custom = {
 	#		monarchs_journey_unlock = 1
 	#	}
@@ -976,7 +960,7 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = monarchs_journey_low
-		
+
 		weight = {
 			base = 0
 		}
@@ -985,7 +969,7 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = monarchs_journey_high
-		
+
 		weight = {
 			base = 0
 		}
@@ -994,23 +978,9 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = ep1_jester
-		
+
 		weight = {
 			base = 0
-		}
-	}
-	
-	# CFP: why redundancy and list cluttering?
-	# add_accessory_modifiers = {
-		# gene = special_headgear_spectacles
-		# template = spectacles
-	# }
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = fantasy_witches
-		is_valid_custom = {
-			NOT = { has_game_rule = default_cfp_fantasy }
 		}
 	}
 

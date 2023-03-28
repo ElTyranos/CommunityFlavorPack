@@ -421,7 +421,6 @@
 			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
 		}
 	}
-	
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
@@ -462,7 +461,6 @@
 		gene = clothes
 		template = religious_catholic_high_clothes
 	}
-	
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
