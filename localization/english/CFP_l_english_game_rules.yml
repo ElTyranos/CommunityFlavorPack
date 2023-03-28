@@ -1,5 +1,7 @@
 ﻿l_english:
-
+ 
+ game_rule_category_cfp: "@cfp_icon! $cfp_name$"
+ 
  rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : Full Plate Helmets"
  setting_default_cfp_fullplate_helmets:0 "Default"
  setting_default_cfp_fullplate_helmets_desc:0 "Characters at war are allowed to use full plate helmets that cover their faces."

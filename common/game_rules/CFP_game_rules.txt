@@ -1,30 +1,36 @@
 ﻿cfp_fullplate_helmets = {
+	categories = { cfp tweaks flavor }
 	default = default_cfp_fullplate_helmets
 	default_cfp_fullplate_helmets = {}
 	never_cfp_fullplate_helmets = {}
 }
 cfp_baldtrait = {
+	categories = { cfp tweaks flavor }
 	default = default_cfp_baldtrait
 	default_cfp_baldtrait = {}
 	never_cfp_baldtrait = {}
 }
 cfp_trait_accessories = {
+	categories = { cfp tweaks flavor }
 	default = default_cfp_trait_accessories
 	default_cfp_trait_accessories = {}
 	never_cfp_trait_accessories = {}
 }
 cfp_barbershop_unlocks = {
+	categories = { cfp tweaks flavor }
 	default = default_cfp_barbershop_unlocks
 	default_cfp_barbershop_unlocks = {}
 	never_cfp_barbershop_unlocks = {}
 }
 cfp_fantasy = {
+	categories = { cfp tweaks historicity }
 	default = default_cfp_fantasy
 	default_cfp_fantasy = {}
 	barbershop_cfp_fantasy = {}
 	ai_cfp_fantasy = {}
 }
 cfp_artifacts = {
+	categories = { cfp tweaks game_modes }
 	default = default_cfp_artifacts
 	default_cfp_artifacts = {}
 	never_cfp_artifacts = {}

@@ -1,4 +1,6 @@
 ﻿l_french:
+ 
+ game_rule_category_cfp: "@cfp_icon! $cfp_name$"
 
  rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : Heaumes intégraux"
  setting_default_cfp_fullplate_helmets:0 "Par défaut"
