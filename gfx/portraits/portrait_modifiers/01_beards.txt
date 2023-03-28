@@ -42,6 +42,12 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
+			modifier = {
+				add = 666
+				exists = this
+				exists = character:easteregg_daan_broekhof
+				this = character:easteregg_daan_broekhof
+			}
             portrait_clean_shaven_clothing_modifier = yes
 			
             modifier = {
@@ -848,4 +854,78 @@ beards = {
         }
     }
 
+    ultimate_beards = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = rtt_beards
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 2000
+                exists = this
+				OR = {
+					has_nickname = nick_the_beautiful_beard
+					has_nickname = nick_the_bearded
+					has_character_flag = mystic_beard_var
+				}
+            }
+        }
+    }
+
+    ### EP2 beards ###
+
+    ep2_beards_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = ep2_beards
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }
+                }
+                portrait_western_clothing_trigger = yes
+                has_ep2_dlc_trigger = yes
+            }
+            modifier = {
+                add = 20
+                portrait_era1_trigger = yes
+            }
+            modifier = {
+                add = -20
+                portrait_era2_trigger = yes
+            }
+            modifier = {
+                add = -40
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }                
+            }
+        }
+    }
 }
+
+
+
+
+

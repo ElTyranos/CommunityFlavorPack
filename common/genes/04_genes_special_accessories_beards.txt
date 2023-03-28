@@ -131,19 +131,18 @@ special_genes = {
 					5 = male_beard_western_05 # Mustache
 					10 = male_beard_western_06 # Big bushy beard
 					10 = male_beard_western_07 # Chin strap
-					5 = cfp_male_sideburns_western_01
+						5 = cfp_male_sideburns_western_01
 					10 = male_beard_western_08 # Big with fancy mustache
-					2 = cfp_male_moustache_western_01 # Imperial Moustache
-					2 = cfp_male_moustache_slavic_01 # Rus Warrior Moustache
-					2 = cfp_male_moustache_slavic_02 # Handlebar Moustache
-					1 = cfp_male_moustache_slavic_03 # Horse Shoe Moustache
-					2 = cfp_male_moustache_hungarian_01 # Hungarian Moustache
+						2 = cfp_male_moustache_western_01 # Imperial Moustache
+						2 = cfp_male_moustache_slavic_01 # Rus Warrior Moustache
+						2 = cfp_male_moustache_slavic_02 # Handlebar Moustache
+						1 = cfp_male_moustache_slavic_03 # Horse Shoe Moustache
+						2 = cfp_male_moustache_hungarian_01 # Hungarian Moustache
 					10 = male_beard_western_09 # Pointy beard
 					10 = male_beard_western_10 # Chin goatee
 					15 = male_beard_mena_04 # Short stylish
-					5 = cfp_male_sideburns_western_02
-					10 = cfp_male_frenchfork_western_01
-					
+						5 = cfp_male_sideburns_western_02
+						10 = cfp_male_frenchfork_western_01
 				}
 				female = {
 					1 = empty
@@ -419,8 +418,8 @@ special_genes = {
 					5 = male_beard_fp2_iberian_muslim_02 # Scholar's beard
 					5 = male_beard_fp2_iberian_muslim_03 # Forked beard
 					5 = male_beard_fp2_iberian_christian_03 # Caballero's beard
-								
 				}
+
 				female = {
 					1 = empty
 				}
@@ -478,7 +477,8 @@ special_genes = {
 				female = {
 					1 = empty
 				}
-			}	
+			}
+
 
 			thin_beards_straight = {
 				index = 20
@@ -512,7 +512,6 @@ special_genes = {
 					1 = empty
 				}
 			}
-
 			scripted_character_beards_02 = {
 				index = 22
 				male = {
@@ -530,8 +529,7 @@ special_genes = {
 					1 = empty
 				}
 			}
-			
-			scripted_character_beards_03 = {
+		scripted_character_beards_03 = {
 				index = 23
 				male = {
 					1 = m_beard_ep2_western_01
@@ -543,7 +541,8 @@ special_genes = {
 					1 = empty
 				}
 			}
-			
+
+
 		}
 
 	}
