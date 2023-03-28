@@ -545,7 +545,6 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01:1 "@cfp_icon! 北境铠甲（软甲）"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_gambeson_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01$"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_norman_01:1 "@cfp_icon! 诺曼铠甲"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_latin_cfp_venetian_doge_01:1 "@cfp_icon! 威尼斯总督长袍"
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common:1 "@cfp_icon_white! 条顿骑士"

@@ -546,7 +546,6 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01:1 "@cfp_icon! Armadura del norte (Gambeson)"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_gambeson_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01$"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_norman_01:1 "@cfp_icon! Armadura normanda"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_latin_cfp_venetian_doge_01:1 "@cfp_icon! Túnica del Dogo Veneciano"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_05_common:1 "@cfp_icon_white! Orden Teutónica"

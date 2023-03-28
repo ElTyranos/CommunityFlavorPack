@@ -211,13 +211,6 @@
 		template = northern_war_nobility_clothes
 	}
 	
-########### CFP ###########
-	add_accessory_modifiers = {
-		gene = clothes
-		template = norman_war_nobility_clothes
-	}
-########### /CFP ###########
-	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = byzantine_commoner_clothes
