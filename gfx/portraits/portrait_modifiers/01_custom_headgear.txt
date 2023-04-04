@@ -1,6 +1,6 @@
 ﻿custom_headgear = {
 	usage = customization
-	interface_position = 1
+	interface_position = 5
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -304,14 +304,6 @@
 		# 	highest_held_title_tier >= tier_kingdom
 		# }
 		template = western_royalty
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = reward_western_royalty
-		is_valid_custom = {
-			has_reward_item = newsletter_crown
-		}
 	}
 
 	add_accessory_modifiers = {
@@ -999,12 +991,37 @@
 			base = 0
 		}
 	}
-	
+
 	# CFP: why redundancy and list cluttering?
 	# add_accessory_modifiers = {
 		# gene = special_headgear_spectacles
 		# template = spectacles
 	# }
+	
+	add_accessory_modifiers = {
+		gene = headgear
+
+		template = reward_western_royalty
+		is_valid_custom = {
+			has_reward_item = newsletter_crown
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sp2_western_imperial
+		is_valid_custom = {
+			has_dlc_feature = elegance_of_the_empire
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sp2_western_high_nobility
+		is_valid_custom = {
+			has_dlc_feature = elegance_of_the_empire
+		}
+	}
 	
 	add_accessory_modifiers = {
 		gene = headgear

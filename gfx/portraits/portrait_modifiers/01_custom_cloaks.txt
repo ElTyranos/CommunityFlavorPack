@@ -42,7 +42,16 @@
 		template = ep1_cloak_adventurer
 	}
 
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = sp2_cloak_imperial
+		is_valid_custom = {
+			has_dlc_feature = elegance_of_the_empire
+		}
+	}
+
 	## CFP
+	
 	add_accessory_modifiers = {
 		gene = cloaks
 		is_valid_custom = {

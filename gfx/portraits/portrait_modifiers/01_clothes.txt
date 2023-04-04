@@ -518,7 +518,7 @@ clothes = {
 				template = bust_clothes
 			}
 
-		}
+		}	
 		outfit_tags = { western_commoner_outfit }
 		weight = {
 			base = 0
@@ -817,6 +817,68 @@ clothes = {
 				trigger_else = {
 					scope:highest_held_title_tier = tier_empire
 					portrait_western_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	sp2_western_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = sp2_western_royalty_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							highest_held_title_tier = tier_empire
+							NOR = {
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_sp2_western_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_empire
+								NOR = {
+									AND = {
+									has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_sp2_western_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_empire
+					portrait_sp2_western_clothing_spouse_trigger = yes
 				}
 			}
 		}
@@ -2256,7 +2318,7 @@ latin_venetian_royalty = {
 				template = bust_clothes
 			}
 
-		}	
+		}
 		outfit_tags = { mena_commoner_clothes }
 		weight = {
 			base = 0
@@ -2328,6 +2390,7 @@ latin_venetian_royalty = {
 			}
 
 		}	
+
 		weight = {
 			base = 0
 			modifier = {
@@ -2612,7 +2675,7 @@ latin_venetian_royalty = {
 				template = bust_clothes
 			}
 
-		}	
+		}
 		outfit_tags = { mena_stealth }
 		weight = {
 			base = 0
@@ -3558,7 +3621,7 @@ latin_venetian_royalty = {
 			}
 		}
 	}
-	
+
 ## FP1 NORSE ##
 
 	fp1_norse_commoners = {
@@ -3908,8 +3971,8 @@ latin_venetian_royalty = {
 				template = bust_clothes
 			}
 
-		}		
-		outfit_tags = { sub_saharan_high_nobility_clothes }
+		}
+		outfit_tags = { sub_saharan_high_nobility_clothes }		
 		weight = {
 			base = 0
 			modifier = {
@@ -5132,7 +5195,27 @@ latin_venetian_royalty = {
 	# 			}
 	#         }
 	#     }
-	# }
+	# }	
+
+	william_the_bastard = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = western_high_nobility_clothes
+				value = 0.7
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = this
+				exists = character:140 # William the bastard
+				this = character:140 # William the bastard
+			}
+		}
+	}
 
 	debbie_lane = { # To make sure Debbie gets the nicer looking clothes!
 		dna_modifiers = {
@@ -5160,6 +5243,7 @@ latin_venetian_royalty = {
 			}
 		}
 	}
+
 	isabella_welch = { # To make sure Isabella gets the nicer looking clothes!
 		dna_modifiers = {
 			accessory = {
@@ -5185,8 +5269,8 @@ latin_venetian_royalty = {
 				this = character:easteregg_isabella_welch
 			}
 		}
-	}	
-
+	}
+	
 	stella_carrick = { # To make sure Stella gets the nicer looking clothes!
 		dna_modifiers = {
 			accessory = {
@@ -5245,7 +5329,7 @@ latin_venetian_royalty = {
             }
 		}
 	}
-	
+
 	easteregg_hugo_cortell = {
 		dna_modifiers = {
 			accessory = {
@@ -5271,7 +5355,7 @@ latin_venetian_royalty = {
 			}
 		}
 	}
-	
+
 	# northern_commoners = {
 	# 	dna_modifiers = {
 	# 		accessory = {

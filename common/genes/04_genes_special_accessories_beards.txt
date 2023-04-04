@@ -76,6 +76,7 @@ special_genes = {
 					1 = male_beard_fp2_iberian_muslim_01 # Thick Groomed Beard
 					1 = male_beard_fp2_iberian_muslim_02 # Scholar's beard
 					1 = male_beard_fp2_iberian_muslim_03 # Forked beard
+					1 = m_beard_sp2_western_01 # The Ultimate Moustache 
 					
 				}
 				female = {
@@ -141,7 +142,6 @@ special_genes = {
 					15 = male_beard_mena_04 # Short stylish
 					5 = cfp_male_sideburns_western_02
 					10 = cfp_male_frenchfork_western_01
-					
 				}
 				female = {
 					1 = empty
@@ -186,6 +186,7 @@ special_genes = {
 					20 = male_beard_mena_02 # Big with small mustache
 					20 = male_beard_mena_03 # Big chin strap 
 					20 = male_beard_mena_04 # Short stylish
+
 					
 				}
 				female = {
@@ -424,8 +425,20 @@ special_genes = {
 				}
 			}
 
-			scripted_character_beards_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new beards are added for scripted characters they should be added in a new template.
+			sp2_beards_straight = {
 				index = 18
+
+				male = {
+					5 = m_beard_sp2_western_01	# The Ultimate Moustache	
+				}
+
+				female = {
+					1 = empty
+				}
+			}
+
+			scripted_character_beards_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new beards are added for scripted characters they should be added in a new template.
+				index = 19
 				male = {
 					1 = empty
 					1 = male_beard_western_01
@@ -462,10 +475,11 @@ special_genes = {
 				female = {
 					1 = empty
 				}
-			}	
+			}
+
 
 			thin_beards_straight = {
-				index = 19
+				index = 20
 
 				male = {
 					# 5 = empty
@@ -479,7 +493,7 @@ special_genes = {
 			}
 
 			orthodox_beards = {
-				index = 20
+				index = 21
 				male = {
 					20 = male_beard_western_01 # Standard full beard
 					5 = male_beard_western_02 # Standard goatee
@@ -496,9 +510,8 @@ special_genes = {
 					1 = empty
 				}
 			}
-
 			scripted_character_beards_02 = {
-				index = 21
+				index = 22
 				male = {
 					1 = male_beard_fp2_iberian_christian_01 # Short Well-Kept Beard
 					1 = male_beard_fp2_iberian_christian_02 # Iberian goatee
@@ -514,6 +527,8 @@ special_genes = {
 					1 = empty
 				}
 			}
+
+
 		}
 
 	}

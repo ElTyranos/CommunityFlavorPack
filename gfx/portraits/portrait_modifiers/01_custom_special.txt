@@ -34,7 +34,7 @@
 		gene = special_headgear_spectacles
 		template = spectacles
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = special_headgear_eye_patch
 		template = eye_patch

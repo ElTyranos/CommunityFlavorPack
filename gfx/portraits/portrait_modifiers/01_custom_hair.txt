@@ -11,7 +11,7 @@ custom_hair = {
 				gene = hairstyles
 				template = no_hairstyles
 				value = 0
-				}
+			}
 		}
 
 		weight = {
@@ -30,8 +30,7 @@ custom_hair = {
             }
 		}
 	}
-
-### FP2 Hair ###
+	### FP2 Hair ###
 
 	add_accessory_modifiers = {
 		gene = hairstyles
@@ -86,7 +85,7 @@ custom_hair = {
 	}
 
 	### FP1 Hair ###
-	
+
 	add_accessory_modifiers = {
 		gene = hairstyles
 		is_valid_custom = {
@@ -149,8 +148,6 @@ custom_hair = {
 		template = western_hairstyles_aging
 	}
 	## /CFP
-
-
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = mena_hairstyles_straight
@@ -255,7 +252,6 @@ custom_hair = {
 		template = catholic_devoted_hairstyles
 	}
 	## / CFP
-
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = steppe_hairstyles_straight
@@ -386,7 +382,7 @@ custom_hair = {
 			portrait_frankish_unique_haircut = yes
 		}
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = special_hairstyles

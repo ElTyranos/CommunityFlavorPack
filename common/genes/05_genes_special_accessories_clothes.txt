@@ -504,7 +504,7 @@ special_genes = {
 
 				female = {
 					1 = female_clothes_secular_indian_nobility_01_low	
-					1 = female_clothes_secular_indian_nobility_02_low		
+					1 = female_clothes_secular_indian_nobility_02_low			
 					1 = female_clothes_secular_indian_cfp_nobility_01_low
 					1 = female_clothes_secular_indian_cfp_nobility_02_low	
 				}
@@ -1560,7 +1560,6 @@ special_genes = {
 
 				boy = male
 				girl = female
-
 			}
 
 	## FP2 - The Fate of Iberia ##
@@ -1679,7 +1678,7 @@ special_genes = {
 				boy = male
 				girl = female
 				
-				}
+			}
 			
 			fp2_christian_war_nobility_clothes = {
 				index = 80
@@ -1696,12 +1695,28 @@ special_genes = {
 				boy = male
 				girl = female
 
+			}
+			
+			sp2_western_royalty_clothes = {
+				index = 81
+
+				male = {
+					1 = m_clothes_sec_sp2_western_imp_01
 				}
+
+				female = {
+				 	1 = f_clothes_sec_sp2_western_imp_01
+				}
+
+				boy = male
+				girl = female
+
+			}
 
 			## Western
 
 			cfp_bedchamber = {
-				index = 81
+				index = 82
 
 				male = {
 					1 = cfp_male_clothes_western_bedchamber_01_common
@@ -1717,7 +1732,7 @@ special_genes = {
 			
 			
 			western_high_nobility_clothes_late = {
-				index = 82
+				index = 83
 				male = {
 					1 = male_clothes_secular_western_cfp_doublet_01
 					1 = male_clothes_secular_western_cfp_doublet_02
@@ -1728,7 +1743,7 @@ special_genes = {
 			}
 
 			western_war_late = {
-				index = 83
+				index = 84
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_05
@@ -1744,7 +1759,7 @@ special_genes = {
 			}
 
 			western_crusades_black = {
-				index = 84
+				index = 85
 
 				male = {
 					1 = male_clothes_secular_crusades_western_war_nobility_02_common
@@ -1761,7 +1776,7 @@ special_genes = {
 			## Normans ##
 
 			norman_war_nobility_clothes = {
-				index = 85
+				index = 86
 
 				male = {
 					3 = male_clothes_secular_northern_war_nobility_01_common
@@ -1780,7 +1795,7 @@ special_genes = {
 			## Turkic ##
 
 			turkic_war_nobility_clothes = {
-				index = 86
+				index = 87
 
 				male = {
 					1 = male_clothes_secular_mena_war_nobility_01_low
@@ -1798,7 +1813,7 @@ special_genes = {
 			## Latin ##
 
 			latin_venetian_royalty_clothes = {
-				index = 87
+				index = 88
 
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
@@ -1812,7 +1827,7 @@ special_genes = {
 			
 			
 			east_african_war_nobility_clothes = {
-				index = 88
+				index = 89
 
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
@@ -1828,7 +1843,7 @@ special_genes = {
 			## Javanese ## 
 			
 			javanese_common = {
-				index = 89
+				index = 90
 
 				male = {	
 					1 = male_clothes_secular_western_nudity_01
@@ -1842,7 +1857,7 @@ special_genes = {
 			}
 			
 			javanese_nobility = {
-				index = 90
+				index = 91
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_high_nobility_01
@@ -1856,7 +1871,7 @@ special_genes = {
 			}
 			
 			javanese_royalty = {
-				index = 91
+				index = 92
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
@@ -1872,7 +1887,7 @@ special_genes = {
 			## Religious
 			
 			religious_catholic_head_early_clothes = {
-				index = 92
+				index = 93
 				male = {	
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -1884,7 +1899,7 @@ special_genes = {
 			}
 		
 			religious_catholic_cardinal_clothes = {
-				index = 93
+				index = 94
 				male = {	
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -1896,7 +1911,7 @@ special_genes = {
 			}
 		
 			religious_orthodox_devoted_clothes = {
-				index = 94
+				index = 95
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -1908,7 +1923,7 @@ special_genes = {
 			}
 		
 			religious_muslim_high_turkic_clothes = {
-				index = 95
+				index = 96
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
