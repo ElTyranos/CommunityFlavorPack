@@ -3,6 +3,150 @@ cloaks = {
 
 	usage = game
 
+    ep2_western_era2_low_nobles_cloaks = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = ep2_cloak_western_era1_low_nobility
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+	                portrait_low_nobles_trigger = { 
+	                    CULTURE_INPUT = western
+	                }   
+                	portrait_high_nobles_trigger = { 
+	                    CULTURE_INPUT = western
+	                }               
+                }
+				NAND = {
+					is_ruler = yes
+					government_has_flag = government_is_theocracy
+				}
+                has_ep2_dlc_trigger = yes   
+                portrait_era1_trigger = yes     
+            }
+            modifier = {
+                add = 30
+                OR = {
+	                portrait_low_nobles_trigger = { 
+	                    CULTURE_INPUT = western
+	                }   
+                	portrait_high_nobles_trigger = { 
+	                    CULTURE_INPUT = western
+	                }               
+                }
+				NAND = {
+					is_ruler = yes
+					government_has_flag = government_is_theocracy
+				}
+                has_ep2_dlc_trigger = yes   
+                portrait_era2_trigger = yes     
+            }
+        }
+    }
+    
+    ep2_western_era2_high_nobles_cloaks = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = ep2_cloak_western_era1_high_nobility
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {   
+                	portrait_high_nobles_trigger = { 
+	                    CULTURE_INPUT = western
+	                }               
+                }
+				NAND = {
+					is_ruler = yes
+					government_has_flag = government_is_theocracy
+				}
+                has_ep2_dlc_trigger = yes   
+                portrait_era1_trigger = yes     
+            }
+            modifier = {
+                add = 30
+                OR = { 
+                	portrait_high_nobles_trigger = { 
+	                    CULTURE_INPUT = western
+	                }               
+                }
+				NAND = {
+					is_ruler = yes
+					government_has_flag = government_is_theocracy
+				}
+                has_ep2_dlc_trigger = yes   
+                portrait_era2_trigger = yes     
+            }
+        }
+    }
+
+	ep2_western_travel_cloak = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = ep2_cloak_western_travel
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { travel_cloak }
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				has_ep2_dlc_trigger = yes
+				OR = {
+					portrait_ep2_western_travel_cloak_trigger = yes
+					portrait_ep2_western_cloak_duel_trigger = yes
+				}
+			}
+			#modifier = {
+			#	factor = 0 
+			#	portrait_wear_armor_trigger = yes
+			#}
+		}
+	}
+
+	ep2_mena_travel_cloak = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = ep2_cloak_mena_travel
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { travel_cloak }
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				has_ep2_dlc_trigger = yes
+				OR = {
+					portrait_ep2_mena_travel_cloak_trigger = yes
+					portrait_ep2_mena_cloak_duel_trigger = yes
+				}
+			}
+			#modifier = {
+			#	factor = 0 
+			#	portrait_wear_armor_trigger = yes
+			#}		
+		}
+	}
+
 	western_kings = {
 		# outfit_tags = { rank_headgear } 
 		dna_modifiers = {
@@ -17,7 +161,7 @@ cloaks = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 1000
 				OR = {
 					portrait_western_clothing_trigger = yes
 					portrait_dde_hre_clothing_trigger = yes
@@ -58,6 +202,9 @@ cloaks = {
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
+					portrait_wear_armor_trigger = yes
+					is_travelling = yes
+					involved_activity ?= { has_activity_type = activity_hunt }
 				}
 			}			
 		}
@@ -72,10 +219,15 @@ cloaks = {
 				template = no_cloak
 				range = { 0 1 }
 			}
-		}
-		outfit_tags = { no_clothes }
+		}	
+        outfit_tags = { no_clothes nightgown }
 		weight = {
 			base = 0
+			modifier = {
+				add = 30
+				has_ep2_dlc_trigger = yes
+				portrait_western_clothing_trigger = yes
+			}	
 			modifier = {
 				add = 60
 				portrait_fp1_norse_clothing_trigger = yes
@@ -124,8 +276,11 @@ cloaks = {
 			}
 			modifier = {
 				add = 200
-				has_character_flag = single_combat_duel_armor
-			}	
+				OR = {
+					portrait_wear_armor_trigger = yes
+					activity_tournament_shirtless_trigger = yes
+				}
+			}
 		}
 	}
 
@@ -161,6 +316,7 @@ cloaks = {
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
+					portrait_wear_armor_trigger = yes
 				}
 			}			
 		}
@@ -196,7 +352,7 @@ cloaks = {
 			}			
 		}
 	}
-	
+
 	stella_carrick = { # To make sure Stella gets the nicer looking clothes!
 		dna_modifiers = {
 			accessory = {
@@ -217,7 +373,8 @@ cloaks = {
 			}
 		}
 	}
-	
+
+
 	easteregg_elisabeth_gangenes = {
 		dna_modifiers = {
 			accessory = {
@@ -245,6 +402,7 @@ cloaks = {
 			}
 		}
 	}
+
 
 	ep1_adventurer_cloak = {
 		dna_modifiers = {
