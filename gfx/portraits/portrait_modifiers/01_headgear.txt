@@ -2605,6 +2605,7 @@ headgear = {
 				add = 60
 				exists = this
 				portrait_can_use_noble_headgear_trigger = yes
+				religion = religion:christianity_religion
 				OR = {
 					AND = {
 						OR = {
