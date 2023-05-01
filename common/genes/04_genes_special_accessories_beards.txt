@@ -426,8 +426,21 @@ special_genes = {
 				}
 			}
 
-			ep2_beards = {
+			sp2_beards_straight = {
 				index = 18
+
+				male = {
+					5 = m_beard_sp2_western_01	# The Ultimate Moustache	
+				}
+
+				female = {
+					1 = empty
+				}
+			}
+
+
+			ep2_beards = {
+				index = 19
 
 				male = {
 					5 = m_beard_ep2_western_01 # Tidy short beard with slightly pointy mustache
@@ -441,7 +454,7 @@ special_genes = {
 			}
 
 			scripted_character_beards_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new beards are added for scripted characters they should be added in a new template.
-				index = 19
+				index = 20
 				male = {
 					1 = empty
 					1 = male_beard_western_01
@@ -482,7 +495,7 @@ special_genes = {
 
 
 			thin_beards_straight = {
-				index = 20
+				index = 21
 
 				male = {
 					# 5 = empty
@@ -496,7 +509,7 @@ special_genes = {
 			}
 
 			orthodox_beards = {
-				index = 21
+				index = 22
 				male = {
 					20 = male_beard_western_01 # Standard full beard
 					5 = male_beard_western_02 # Standard goatee
@@ -514,7 +527,7 @@ special_genes = {
 				}
 			}
 			scripted_character_beards_02 = {
-				index = 22
+				index = 23
 				male = {
 					1 = male_beard_fp2_iberian_christian_01 # Short Well-Kept Beard
 					1 = male_beard_fp2_iberian_christian_02 # Iberian goatee
@@ -531,7 +544,7 @@ special_genes = {
 				}
 			}
 		scripted_character_beards_03 = {
-				index = 23
+				index = 24
 				male = {
 					1 = m_beard_ep2_western_01
 					1 = m_beard_ep2_western_02
