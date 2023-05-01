@@ -1403,6 +1403,7 @@ accessory_genes = {
 				1 = female_cloaks_secular_western_royalty_01
 			}
 		}
+
 		fp1_cloak = {
 			index = 2
 			male = {
@@ -1422,6 +1423,7 @@ accessory_genes = {
 				1 = female_furs_secular_fp1_nobility_03
 			}
 		}
+
 		fp1_cloak_berserker = {
 			index = 3
 			male = {
@@ -1431,6 +1433,7 @@ accessory_genes = {
 				1 = empty
 			}
 		}
+
 		ep1_cloak_adventurer = {
 			index = 4
 			male = {
@@ -1440,6 +1443,7 @@ accessory_genes = {
 				1 = empty
 			}
 		}
+
 		ep2_cloak_western_travel = {
 			index = 5
 			male = {
@@ -1451,6 +1455,7 @@ accessory_genes = {
 			boy = male 
 			girl = female
 		}
+
 		ep2_cloak_mena_travel = {
 			index = 6
 			male = {
@@ -1462,6 +1467,7 @@ accessory_genes = {
 			boy = male 
 			girl = female
 		}
+
 		ep2_cloak_western_era1_low_nobility = {
 			index = 7
 			male = {
@@ -1471,6 +1477,7 @@ accessory_genes = {
 				1 = empty
 			}
 		}
+
 		ep2_cloak_western_era1_high_nobility = {
 			index = 8
 			male = {
@@ -1825,6 +1832,7 @@ accessory_genes = {
 			male = {
 				1 = ep2_falcon_peregrine_01
 			}
+			
 			female = {
 				1 = ep2_falcon_peregrine_01
 			}

@@ -187,7 +187,6 @@ special_genes = {
 					20 = male_beard_mena_02 # Big with small mustache
 					20 = male_beard_mena_03 # Big chin strap 
 					20 = male_beard_mena_04 # Short stylish
-					
 				}
 				female = {
 					1 = empty
@@ -233,6 +232,7 @@ special_genes = {
 					1 = cfp_male_moustache_slavic_02 # Handlebar Moustache
 					1 = cfp_male_moustache_slavic_03 # Horse Shoe Moustache
 					1 = cfp_male_moustache_hungarian_01 # Hungarian Moustache
+
 								
 				}
 				female = {
@@ -404,6 +404,7 @@ special_genes = {
 					
 								
 				}
+				
 				female = {
 					1 = empty
 				}
