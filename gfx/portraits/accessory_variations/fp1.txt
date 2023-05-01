@@ -359,7 +359,6 @@ variation = {
 		b = { textures = "fp1_wool_trim_03" 	layout = "medium_trim_layout" }
 		a = { textures = "fp1_wool_trim_02"		layout = "small_trim_layout" }
 	}
-	
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
