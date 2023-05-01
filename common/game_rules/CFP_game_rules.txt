@@ -16,12 +16,12 @@ cfp_trait_accessories = {
 	default_cfp_trait_accessories = {}
 	never_cfp_trait_accessories = {}
 }
-cfp_barbershop_unlocks = {
-	categories = { cfp tweaks flavor }
-	default = default_cfp_barbershop_unlocks
-	default_cfp_barbershop_unlocks = {}
-	never_cfp_barbershop_unlocks = {}
-}
+# cfp_barbershop_unlocks = {
+	# categories = { cfp tweaks flavor }
+	# default = default_cfp_barbershop_unlocks
+	# default_cfp_barbershop_unlocks = {}
+	# never_cfp_barbershop_unlocks = {}
+# }
 cfp_fantasy = {
 	categories = { cfp tweaks historicity }
 	default = default_cfp_fantasy
