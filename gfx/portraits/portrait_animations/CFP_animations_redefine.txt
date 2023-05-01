@@ -977,7 +977,7 @@ spymaster = {
 						# CFP - we avoid the "Animation triggered has no valid state properties" error log spam
 					}
 				}
-				animations_props = spymaster_fp1_prop
+				animations_props = spymaster_prop
 				animations = council_spymaster_decal
 			}
 		}
