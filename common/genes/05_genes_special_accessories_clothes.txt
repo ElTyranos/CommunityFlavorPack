@@ -489,8 +489,8 @@ special_genes = {
 					1 = m_clothes_sec_crusades_western_war_nob_01_hospitaller
 					1 = m_clothes_sec_crusades_western_war_nob_01_jerusalem
 					1 = m_clothes_sec_crusades_western_war_nob_01_common
-					1 = male_clothes_secular_crusades_western_war_nobility_05_common
-					1 = male_clothes_secular_crusades_western_war_nobility_06_common
+					1 = m_clothes_sec_crusades_western_war_nob_01_teutonic
+					1 = m_clothes_sec_crusades_western_war_nob_01_santiago
 				}
 
 				female = {
@@ -498,8 +498,8 @@ special_genes = {
 					1 = f_clothes_sec_crusades_western_war_nob_01_hospitaller
 					1 = f_clothes_sec_crusades_western_war_nob_01_jerusalem
 					1 = f_clothes_sec_crusades_western_war_nob_01_common
-					1 = female_clothes_secular_crusades_western_war_nobility_05_common
-					1 = female_clothes_secular_crusades_western_war_nobility_06_common
+					1 = f_clothes_sec_crusades_western_war_nob_01_teutonic
+					1 = f_clothes_sec_crusades_western_war_nob_01_santiago
 
 				}
 
