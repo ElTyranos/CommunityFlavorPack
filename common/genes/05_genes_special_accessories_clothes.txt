@@ -408,7 +408,6 @@ special_genes = {
 				male = {
 					1 = m_clothes_sec_western_war_nob_01_lo
 					1 = m_clothes_sec_western_war_nob_01_hi
-					1 = male_clothing_secular_western_cfp_war_nobility_01 # No mittens
 				}
 
 				female = {
@@ -1110,7 +1109,6 @@ special_genes = {
 				male = {
 					1 = m_clothes_sec_dde_hre_war_nob_01_lo
 					1 = m_clothes_sec_dde_hre_war_nob_01_hi
-					1 = male_clothing_secular_western_cfp_war_nobility_01 # No mittens
 				}
 
 				female = {
@@ -1736,13 +1734,11 @@ special_genes = {
 				male = {
 					1 = m_clothes_sec_fp2_iberian_christian_war_nob_01_lo
 					1 = m_clothes_sec_fp2_iberian_christian_war_nob_01_hi
-					1 = male_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01 # No mittens
 				}
 
 				female = {
 					1 = f_clothes_sec_fp2_iberian_christian_war_nob_01_lo
 					1 = f_clothes_sec_fp2_iberian_christian_war_nob_01_hi
-					1 = female_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01 # No mittens
 				}
 				boy = male
 				girl = female

@@ -29,24 +29,6 @@
 # set_tags = "helmet,mask_hat"
 
 ## Vanilla edits
-male_headgear_secular_northern_war_nobility_02 = {
-	set_tags = "no_hair,hood_beard"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_war_nobility_02_entity 	 }
-}
-female_headgear_secular_northern_war_nobility_02 = {
-	set_tags = "no_hair"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_war_nobility_02_entity 	 }
-}
-
-male_headgear_secular_byzantine_war_nobility_02 = {
-	set_tags = "no_hair,snug_headgear,hood_beard"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_byzantine_war_nobility_02_entity 	 }
-}
-female_headgear_secular_byzantine_war_nobility_02 = {
-	set_tags = "no_hair,snug_headgear"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_byzantine_war_nobility_02_entity 	 }
-}
-
 female_headgear_secular_western_imperial_01 = {
 	set_tags = "crown"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_imperial_01_entity 	 }

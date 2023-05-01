@@ -1,12 +1,6 @@
 ﻿l_french:
 
 ## Vanilla Edit
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02:1 "@cfp_icon! Casque conique à nasal (sans couvre-nuque)"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nobility_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_02$"
- 
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_02:1 "@cfp_icon_purple! Heaume byzantin (sans couvre-nuque)"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nobility_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_02$"
-
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_02:0 "@cfp_icon_yellow! Couronne sans turban"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02:0 "@cfp_icon_yellow! Couronne impériale sans voile"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_imperial_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_02$"
@@ -583,12 +577,7 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_java_cfp_high_nobility_01$"
  
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_common_01:0 "@cfp_icon_orange! Robe de roturière Javanaise"
- 
- NO_MITTENS:1 "(sans mitaines)"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01:1 "@cfp_icon_ocher! $PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_war_nobility_01$ $NO_MITTENS$"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01:1 "@cfp_icon_ocher! $PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_war_nobility_01$ $NO_MITTENS$"
- PORTRAIT_MODIFIER_custom_clothes_male_clothing_secular_western_cfp_war_nobility_01:1 "@cfp_icon! $PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_nobility_01_low$ $NO_MITTENS$"
- 
+  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_cfp_devoted_01:1 "@cfp_icon_white! Robe de moine Bénédictin"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_muslim_cfp_caliph_01:1 "@cfp_icon_white! Robe d'imam noire"
  

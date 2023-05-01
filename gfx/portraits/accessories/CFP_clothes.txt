@@ -61,20 +61,6 @@ male_clothes_religious_muslim_cfp_caliph_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_religious_muslim_cfp_caliph_01_entity }
 }
-male_clothing_secular_western_cfp_war_nobility_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothing_secular_western_cfp_war_nobility_01_entity }
-}
-
-# Vanilla edits - FP2
-male_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01_entity }
-}
-female_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01_entity }
-}
 
 # Vanilla edits - MENA
 male_clothes_secular_mena_cfp_war_common_01 = {
