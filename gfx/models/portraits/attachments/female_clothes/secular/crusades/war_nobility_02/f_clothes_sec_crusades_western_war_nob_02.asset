@@ -27,7 +27,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "f_clothes_sec_crusades_western_war_nob_01_templar_entity"
+	name = "f_clothes_sec_crusades_western_war_nob_01_teutonic_entity"
 	pdxmesh = "female_clothes_secular_crusades_western_war_nobility_cfp_mesh"
 
 	attribute = { name = "bs_body_infant_1"					blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_infant" }
@@ -52,7 +52,7 @@ entity = {
 }
 
 entity = {
-	name = "f_clothes_sec_crusades_western_war_nob_01_hospitaller_entity"
+	name = "f_clothes_sec_crusades_western_war_nob_01_santiago_entity"
 	pdxmesh = "female_clothes_secular_crusades_western_war_nobility_cfp_mesh"
 
 	attribute = { name = "bs_body_infant_1"					blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_infant" }
