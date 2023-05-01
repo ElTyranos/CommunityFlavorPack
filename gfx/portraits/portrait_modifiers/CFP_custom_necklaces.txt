@@ -5,73 +5,46 @@
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = no_necklace
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = western_war_late
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = western_royalty_ermine
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = western_high_nobility
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = religious_catholic_cross
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = religious_catholic_pilgrim
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = african_low_nobility
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = central_african_low_nobility
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = byzantine_high_nobility
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	
 }
