@@ -532,10 +532,6 @@ cfp_innovation_ermine_cloaks_trigger = {
 }
 
 ## OVERWRITTING DEFAULT CLASSES
-portrait_steppe_clothing_contents_trigger = {
-	has_clothing_gfx = mongol_clothing_gfx
-	NOT = {	has_cultural_pillar = heritage_turkic }
-}
 portrait_mena_clothing_contents_trigger = {
 	has_clothing_gfx = mena_clothing_gfx
 	NOR = {
