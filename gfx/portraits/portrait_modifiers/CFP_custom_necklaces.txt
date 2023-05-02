@@ -9,12 +9,12 @@
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = western_war_late
+		template = cfp_western_war_late
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = western_royalty_ermine
+		template = cfp_western_royalty_ermine
 	}
 	
 	add_accessory_modifiers = {

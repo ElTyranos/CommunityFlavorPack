@@ -15,7 +15,7 @@
 				girl = female
 			}
 			
-			western_war_late = {
+			cfp_western_war_late = {
 				index = 1
 				male = {
 					1 = male_headgear_secular_western_cfp_war_pixane_01
@@ -27,7 +27,7 @@
 				girl = female
 			}
 			
-			western_royalty_ermine = {
+			cfp_western_royalty_ermine = {
 				index = 2
 				male = {
 					1 = empty

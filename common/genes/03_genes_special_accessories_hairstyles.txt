@@ -1274,7 +1274,11 @@ special_genes = {
 				girl = female
 			}
 			
-			western_hairstyles_aging = {
+			########################################
+			## Community Flavor Pack - new groups ##
+			########################################
+			
+			cfp_western_hairstyles_aging = {
 				index = 61
 				male = {
 					1 = bald
@@ -1290,7 +1294,7 @@ special_genes = {
 				girl = female
 			}
 			
-			slavic_hairstyles_warrior = {
+			cfp_slavic_hairstyles_warrior = {
 				index = 62
 				male = {
 					5 = male_hair_western_04
@@ -1311,7 +1315,7 @@ special_genes = {
 				girl = female
 			}
 			
-			hungarian_hairstyles_warrior = {
+			cfp_hungarian_hairstyles_warrior = {
 				index = 63
 				male = {
 					5 = male_hair_western_04
