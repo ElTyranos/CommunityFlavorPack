@@ -2200,16 +2200,16 @@ special_genes = {
 			cfp_norse_war = {
 				index = 127
 				male = {
-					10 = male_headgear_secular_northern_war_viking_01
-					10 = male_headgear_secular_northern_war_viking_02
-					10 = male_headgear_secular_northern_war_viking_03
-					10 = male_headgear_secular_northern_war_viking_04
+					1 = male_headgear_secular_northern_war_viking_01
+					1 = male_headgear_secular_northern_war_viking_02
+					1 = male_headgear_secular_northern_war_viking_03
+					1 = male_headgear_secular_northern_war_viking_04
 				}
 				female = {
-					10 = female_headgear_secular_northern_war_viking_01
-					10 = female_headgear_secular_northern_war_viking_02
-					10 = female_headgear_secular_northern_war_viking_03
-					10 = female_headgear_secular_northern_war_viking_04	
+					1 = female_headgear_secular_northern_war_viking_01
+					1 = female_headgear_secular_northern_war_viking_02
+					1 = female_headgear_secular_northern_war_viking_03
+					1 = female_headgear_secular_northern_war_viking_04	
 				}
 				boy = male
 				girl = female
