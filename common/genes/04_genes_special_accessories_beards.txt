@@ -78,7 +78,8 @@ special_genes = {
 					1 = male_beard_fp2_iberian_muslim_03 # Forked beard
 					1 = m_beard_ep2_western_01
 					1 = m_beard_ep2_western_02
-					
+					1 = m_beard_ep2_western_03
+					1 = m_beard_sp2_western_01 # The Ultimate Moustache 
 				}
 				female = {
 					1 = empty
@@ -398,11 +399,7 @@ special_genes = {
 					5 = male_beard_fp2_iberian_christian_03 # Caballero's beard
 					5 = male_beard_fp2_iberian_christian_04 # Droopy moustache
 					5 = male_beard_fp2_iberian_muslim_01 # Thick Groomed Beard
-					5 = male_beard_fp2_iberian_muslim_02 # Scholar's beard
-					
-
-					
-								
+					5 = male_beard_fp2_iberian_muslim_02 # Scholar's beard		
 				}
 				
 				female = {

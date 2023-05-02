@@ -34,7 +34,7 @@
 		gene = special_headgear_spectacles
 		template = spectacles
 	}
-	
+
 	add_accessory_modifiers = {
 		gene = special_headgear_eye_patch
 		template = eye_patch
@@ -53,6 +53,22 @@
 	add_accessory_modifiers = {
 		gene = special_headgear_head_bandage
 		template = head_bandage
+	}
+
+	add_accessory_modifiers = {
+		gene = secondary_headgears
+		template = western_wedding
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = secondary_headgears
+		template = coa_crest
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
 	}
 
 }

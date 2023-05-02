@@ -1,9 +1,10 @@
 ﻿# Make sure the weights here match up best as possible with the hairstyles set
 custom_hair = {
 	usage = customization
-	interface_position = 2
+	interface_position = 0
 	priority = 5
-	
+	user_data = "colorpicker_hair"
+
 	no_hair = {
 		dna_modifiers = {
 			accessory = {
@@ -30,8 +31,16 @@ custom_hair = {
             }
 		}
 	}
+	### EP2 Hair ###
 
-### FP2 Hair ###
+	add_accessory_modifiers = {
+		gene = hairstyles
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+		template = ep2_hairstyles_western
+	}
+	### FP2 Hair ###
 
 	add_accessory_modifiers = {
 		gene = hairstyles
