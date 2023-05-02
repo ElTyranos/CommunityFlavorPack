@@ -467,7 +467,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_western_war_high_fullplate
+		template = cfp_western_era3_war_nobility
 	}
 	
 	add_accessory_modifiers = {

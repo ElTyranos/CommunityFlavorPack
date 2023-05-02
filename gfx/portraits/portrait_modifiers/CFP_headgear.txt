@@ -81,12 +81,12 @@ cfp_headgear = {
 		}
 	}
 	
-	cfp_western_war_high_fullplate = {
+	cfp_western_era3_war_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_war_high_fullplate
+				template = cfp_western_era3_war_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}

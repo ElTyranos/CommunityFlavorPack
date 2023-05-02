@@ -2151,7 +2151,7 @@ special_genes = {
 			## Community Flavor Pack - new groups ##
 			########################################
 			
-			cfp_western_war_high_fullplate = {
+			cfp_western_era3_war_nobility = {
 				index = 124
 				male = {
 					4 = male_headgear_secular_western_war_flat_top_01
@@ -2167,19 +2167,15 @@ special_genes = {
 				girl = female
 			}
 			
-			cfp_western_war_late = {
-				index = 125
+			cfp_western_war_high_nobility = {
+				index = 129
 				male = {
-					10 = male_headgear_secular_western_cfp_war_pixane_01
-					5 = male_headgear_secular_western_cfp_war_bascinet_02
-					5 = male_headgear_secular_western_cfp_war_bascinet_03
-					10 = male_headgear_secular_western_cfp_war_great_bascinet_02
-					10 = male_headgear_secular_western_cfp_war_great_bascinet_03
+					4 = male_headgear_secular_western_war_high_nobility_01
+					# HRE lock was not required anymore as DLC content in the models was replaced by CFP
+					1 = male_headgear_secular_dde_hre_war_high_nobility_01
+					2 = male_headgear_secular_dde_hre_war_high_nobility_02
 				}
-				female = {
-					5 = female_headgear_secular_western_cfp_war_pixane_01
-					
-				}
+				female = {}
 				boy = male
 				girl = female
 			}
@@ -2223,19 +2219,6 @@ special_genes = {
 				female = {
 					1 = female_headgear_secular_northern_royalty_suttonhoo_01
 				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_western_war_high_nobility = {
-				index = 129
-				male = {
-					4 = male_headgear_secular_western_war_high_nobility_01
-					# HRE lock was not required anymore as DLC content in the models was replaced by CFP
-					1 = male_headgear_secular_dde_hre_war_high_nobility_01
-					2 = male_headgear_secular_dde_hre_war_high_nobility_02
-				}
-				female = {}
 				boy = male
 				girl = female
 			}
