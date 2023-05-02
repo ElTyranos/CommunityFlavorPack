@@ -474,12 +474,7 @@
 		gene = headgear
 		template = cfp_western_war_late
 	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_western_war_late_fullplate
-	}
-	
+		
 	add_accessory_modifiers = {
 		gene = headgear
 		template = cfp_latin_common

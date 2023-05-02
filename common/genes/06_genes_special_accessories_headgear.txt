@@ -2180,19 +2180,24 @@ special_genes = {
 				girl = female
 			}
 			
-			cfp_western_war_late_fullplate = {
-				index = 126
+			cfp_western_war_late = {
+				index = 125
 				male = {
-					5 = male_headgear_secular_western_cfp_war_great_bascinet_01
-					10 = male_headgear_secular_western_cfp_war_bascinet_01
+					1 = male_headgear_secular_western_cfp_war_great_bascinet_01 # fullplate
+					2 = male_headgear_secular_western_cfp_war_bascinet_01 # fullplate
+					2 = male_headgear_secular_western_cfp_war_pixane_01
+					1 = male_headgear_secular_western_cfp_war_bascinet_02
+					1 = male_headgear_secular_western_cfp_war_bascinet_03
+					2 = male_headgear_secular_western_cfp_war_great_bascinet_02
+					2 = male_headgear_secular_western_cfp_war_great_bascinet_03
 				}
 				female = {
-					5 = female_headgear_secular_western_cfp_war_pixane_01
+					1 = female_headgear_secular_western_cfp_war_pixane_01
 				}
 				boy = male
 				girl = female
 			}
-			
+						
 			cfp_norse_war = {
 				index = 127
 				male = {

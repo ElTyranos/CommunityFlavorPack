@@ -110,7 +110,7 @@ cfp_headgear = {
 				mode = add
 				gene = headgear
 				template = cfp_western_war_late
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0.27 1.0 } # For the randomness to work correctly
 			}
 		}
         outfit_tags = { military_outfit }
@@ -132,8 +132,8 @@ cfp_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_war_late_fullplate
-				range = { 0 1 } # For the randomness to work correctly
+				template = cfp_western_war_late
+				range = { 0 0.26 } # For the randomness to work correctly
 			}
 		}
         outfit_tags = { military_outfit }
