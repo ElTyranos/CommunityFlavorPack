@@ -77,7 +77,7 @@
 	}
 
 ## FP1 ##
-	
+
 	add_accessory_modifiers = {
 		gene = clothes
 		template = fp1_commoner_clothes
@@ -130,7 +130,7 @@
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = western_high_nobility_clothes_late
+		template = cfp_western_high_nobility_clothes_late
 	}
 
 	add_accessory_modifiers = {
@@ -148,7 +148,7 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = western_war_late
+		template = cfp_western_war_late
 	}
 
 	# add_accessory_modifiers = {
@@ -187,7 +187,7 @@
 	}
 	add_accessory_modifiers = {
 		gene = clothes
-		template = latin_venetian_royalty_clothes
+		template = cfp_latin_venetian_royalty_clothes
 	}
 ########### /CFP ###########
 	
@@ -293,17 +293,17 @@
 ########### CFP ###########
 	add_accessory_modifiers = {
 		gene = clothes
-		template = javanese_common
+		template = cfp_javanese_common
 	}
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = javanese_nobility
+		template = cfp_javanese_nobility
 	}
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = javanese_royalty
+		template = cfp_javanese_royalty
 	}
 ########### /CFP ###########
 	
@@ -332,7 +332,7 @@
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
-		template = east_african_war_nobility_clothes
+		template = cfp_east_african_war_nobility_clothes
 	}
 	## /CFP
 
@@ -418,7 +418,7 @@
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
-		template = religious_orthodox_devoted_clothes
+		template = cfp_religious_orthodox_devoted_clothes
 	}
 	##
 	add_accessory_modifiers = {
@@ -438,7 +438,7 @@
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
-		template = religious_muslim_high_turkic_clothes
+		template = cfp_religious_muslim_high_turkic_clothes
 	}
 	##	
 	add_accessory_modifiers = {
@@ -458,11 +458,11 @@
 	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
-		template = religious_catholic_cardinal_clothes
+		template = cfp_religious_catholic_cardinal_clothes
 	}
 	add_accessory_modifiers = {
 		gene = clothes
-		template = religious_catholic_head_early_clothes
+		template = cfp_religious_catholic_head_early_clothes
 	}
 	##
 	
