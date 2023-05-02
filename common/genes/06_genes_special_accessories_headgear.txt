@@ -2060,22 +2060,35 @@ special_genes = {
 			}
 
 
-			## SP2 - Imperial Splendor ##
+		## SP2 - Elegance of the Empire ##
 
-			reward_western_royalty = {
-				index = 115
+
+			sp2_western_imperial = {
+				index = 117
 				male = {
-					1 = male_headgear_secular_western_royalty_03
+					1 = m_headgear_sec_sp2_western_imp_01
 				}
 				female = {
-					1 = female_headgear_secular_western_royalty_03
+					1 = f_headgear_sec_sp2_western_imp_01
 				}
 				boy = male
-				girl = male
+				girl = female
+			}
+			
+			sp2_western_high_nobility = {
+				index = 118
+				male = {
+					1 = m_headgear_sec_sp2_western_hi_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_sp2_western_hi_nob_01
+				}
+				boy = male
+				girl = female
 			}
 		
 			sp2_western_royalty = {
-				index = 116
+				index = 119
 				male = {
 					1 = m_headgear_sec_sp2_western_roy_01
 				}
