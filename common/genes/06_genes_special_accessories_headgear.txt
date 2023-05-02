@@ -3158,22 +3158,12 @@ special_genes = {
 				girl = female
 			}
 			
-			religious_jewish_common_western = {
-				index = 196
+			cfp_religious_jewish_common = {
+				index = 200
 				male = {
-					1 = male_headgear_religious_jewish_cfp_judenhut_01
-				}
-				female = {
-					1 = empty
-				}
-				boy = male
-				girl = female
-			}
-			
-			religious_jewish_common_mena = {
-				index = 197
-				male = {
-					1 = male_headgear_religious_jewish_cfp_sudra_01
+					1 = male_headgear_religious_jewish_cfp_judenhut_01 # western
+					1 = male_headgear_religious_jewish_cfp_sudra_01 # mena
+					1 = male_headgear_religious_jewish_cfp_judenhut_02 # andalusian
 				}
 				female = {
 					1 = empty
