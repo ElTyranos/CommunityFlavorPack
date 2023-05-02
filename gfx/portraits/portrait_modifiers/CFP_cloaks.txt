@@ -286,10 +286,9 @@ cfp_cloaks = {
 			base = 0
 			modifier = {
 				add = 100
-				AND = {
-					portrait_cfp_norse_clothing_trigger = yes
-					portrait_wear_armor_trigger = yes
-				}
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = cfp_norse
+                }
 			}
 			modifier = {
 				factor = 0
@@ -314,10 +313,9 @@ cfp_cloaks = {
 			base = 0
 			modifier = {
 				add = 100
-				AND = {
-					portrait_cfp_norman_clothing_trigger = yes
-					portrait_wear_armor_trigger = yes
-				}
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = cfp_norman
+                }
 			}
 			modifier = {
 				factor = 0
