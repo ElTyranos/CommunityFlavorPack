@@ -150,34 +150,6 @@ cfp_headgear = {
 			}
 		}
 	}
-		
-	cfp_norman_sicily_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_norman_sicily_war
-				range = { 0 1 } # For the randomness to work correctly
-			}
-            morph = {
-                mode = add                
-                gene = gene_bs_nose_forward
-                template = nose_forward_neg                
-                value = 1.0
-            }
-		}
-        outfit_tags = { military_outfit }
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				portrait_war_nobles_helmet_trigger = {
-					CULTURE_INPUT = cfp_norman_sicily 
-				}
-				NOT = { has_game_rule = never_cfp_fullplate_helmets }
-			}
-		}
-	}
 	
 ## Crusader hood
 	cfp_crusades_western_commoner = {
@@ -1466,6 +1438,57 @@ cfp_headgear = {
                 portrait_war_nobles_helmet_trigger = {
                     CULTURE_INPUT = cfp_norse
                 }
+			}
+		}
+	}
+
+## Normans ##
+
+	cfp_norman_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = northern_war
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = cfp_norman
+                }
+                has_ep2_dlc_trigger = yes # to match cfp_norman_war clothing rule
+			}
+		}
+	}
+	
+	cfp_norman_sicily_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_norman_sicily_war
+				range = { 0 1 }
+			}
+            morph = {
+                mode = add
+                gene = gene_bs_nose_forward
+                template = nose_forward_neg                
+                value = 1.0
+            }
+		}
+        outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 102 # slightly higher than cfp_norman_war
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = cfp_norman_sicily 
+				}
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 			}
 		}
 	}

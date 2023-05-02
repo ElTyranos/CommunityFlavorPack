@@ -213,6 +213,29 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 		}
 	}
 
+## Normans ##
+
+	cfp_norman_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ep2_western_era2_war_nobility_clothes
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = cfp_norman
+                }
+                has_ep2_dlc_trigger = yes
+			}
+		}
+	}
+
 ## Javanese ##
 
 	burmese_commoners = {
