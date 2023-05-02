@@ -124,17 +124,6 @@ portrait_cfp_turkic_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_turkic
 }
 
-portrait_cfp_dde_turkic_clothing_trigger = {
-	scope:culture = { portrait_cfp_dde_turkic_clothing_contents_trigger = yes }
-}
-portrait_cfp_dde_turkic_clothing_spouse_trigger = {
-	culture = { portrait_cfp_dde_turkic_clothing_contents_trigger = yes }
-}
-portrait_cfp_dde_turkic_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_turkic
-	has_dlc = "Fashion of the Abbasid Court" # required to assign DLC armors to Cumans
-}
-
 portrait_cfp_oghuz_clothing_trigger = {
 	scope:culture = { portrait_cfp_oghuz_clothing_contents_trigger = yes }
 }
@@ -444,83 +433,6 @@ portrait_cfp_jewish_andalusian_clothing_trigger = {
 }
 portrait_cfp_jewish_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_israelite
-}
-
-## wear_helmet_trigger but for dukes
-portrait_cfp_wear_helmet_high_noble_trigger = { # Different from Armor, as Counts+ should show their crowns!
-	exists = this
-	trigger_if = {
-		limit = { exists = involved_activity }
-		involved_activity = {
-			NOR = {
-				has_activity_type = activity_hunt
-				has_activity_type = activity_pilgrimage
-			}
-		}
-	}
-	OR = {
-		# Commanding Duke
-		AND = {
-			is_commanding_army = yes
-			OR = {
-				is_landed = no
-				AND = {
-					exists = primary_title
-					primary_title.tier = tier_duchy
-				}
-			}
-		}
-		# Non-Council Knight Duke and liege is at war
-		AND = {
-			is_knight = yes
-			is_councillor = no
-			OR = {
-				is_landed = no
-				AND = {
-					exists = primary_title
-					primary_title.tier = tier_duchy
-					liege = { is_at_war = yes }
-				}
-			}
-		}
-		# Marshal Duke
-		AND = {
-			has_council_position = councillor_marshal
-			primary_title.tier = tier_duchy
-		}
-		# In a Duel
-		AND = { 
-			has_character_flag = wear_armor
-			primary_title.tier = tier_duchy
-			has_character_flag = single_combat_duel_armor
-		}
-		# In a Tournament
-		AND = { 
-			has_character_flag = wear_armor
-			primary_title.tier = tier_duchy
-			activity_tournament_armor_trigger = yes
-		}
-	}
-	NOR = {
-		activity_tournament_shirtless_trigger = yes
-		has_character_flag = no_hat
-	}
-	# Not peasants leading revolts
-	NAND = {
-		has_trait = peasant_leader
-		OR = {
-			is_ruler = no
-			is_leading_faction_type = peasant_faction
-			AND = {
-				is_ruler = yes
-				is_landed = no
-				OR = {
-					government_has_flag = government_is_feudal
-					government_has_flag = government_is_clan
-				}
-			}
-		}
-	}
 }
 
 ## ERA OR INNOVATION TRIGGERS
