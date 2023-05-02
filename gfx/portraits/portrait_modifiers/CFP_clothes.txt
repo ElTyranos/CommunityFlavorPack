@@ -1,0 +1,735 @@
+﻿# Valid culture inputs
+
+# CULTURE_INPUT = dde_abbasid
+# CULTURE_INPUT = dde_hre
+# CULTURE_INPUT = byzantine
+# CULTURE_INPUT = indian
+# CULTURE_INPUT = mena
+# CULTURE_INPUT = northern
+# CULTURE_INPUT = western
+# CULTURE_INPUT = western_era1
+# CULTURE_INPUT = western_era2
+# CULTURE_INPUT = western_era3
+# CULTURE_INPUT = western_era4
+# CULTURE_INPUT = steppe
+
+# CULTURE_INPUT = fp1_norse
+# CULTURE_INPUT = fp2_iberian_christian
+# CULTURE_INPUT = fp2_iberian_muslim
+
+# Valid CFP culture inputs
+
+# CULTURE_INPUT = cfp_norse
+# CULTURE_INPUT = cfp_anglo_saxon
+# CULTURE_INPUT = cfp_norman
+# CULTURE_INPUT = cfp_norman_sicily
+# CULTURE_INPUT = cfp_hungarian
+# CULTURE_INPUT = cfp_turkic
+# CULTURE_INPUT = cfp_dde_turkic
+# CULTURE_INPUT = cfp_oghuz
+# CULTURE_INPUT = cfp_slavic
+# CULTURE_INPUT = cfp_latin
+# CULTURE_INPUT = cfp_iberian_christian
+# CULTURE_INPUT = cfp_iberian_muslim
+# CULTURE_INPUT = cfp_iranian
+# CULTURE_INPUT = cfp_berber
+# CULTURE_INPUT = cfp_bedouin
+# CULTURE_INPUT = cfp_egyptian
+# CULTURE_INPUT = cfp_east_africa
+# CULTURE_INPUT = cfp_central_africa
+# CULTURE_INPUT = cfp_west_africa
+# CULTURE_INPUT = cfp_afar
+# CULTURE_INPUT = cfp_burmese
+# CULTURE_INPUT = cfp_tibetan
+# CULTURE_INPUT = cfp_tibetan
+# CULTURE_INPUT = cfp_jewish_western
+# CULTURE_INPUT = cfp_jewish_mena
+# CULTURE_INPUT = cfp_jewish_andalusian
+# CULTURE_INPUT = cfp_jewish
+
+cfp_clothes = { # Special group for the ruler designer only. The game expects this to be named "clothes"
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 5
+	
+	western_high_nobles_late = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cfp_western_high_nobility_clothes_late
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0 # better for CFP model
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0 # better for CFP model
+				template = body_shape_average_clothed
+			}
+		}
+        weight = {
+            base = 0
+		    modifier = {
+		        add = 50
+		        court_fashion_level_5_trigger = {
+		            CULTURE_INPUT = western
+		        }
+		        has_ep2_dlc_trigger = yes 
+                OR = {
+                	portrait_era3_trigger = yes  
+                	portrait_era4_trigger = yes  
+                } 
+		    }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+                has_ep2_dlc_trigger = yes  
+                OR = {
+                	portrait_era3_trigger = yes  
+                	portrait_era4_trigger = yes  
+                }    
+            }
+        }
+	}
+
+    cfp_western_war_late = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = cfp_western_war_late #TODO
+                range = { 0 0.49 } # For the randomness to work correctly
+            }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0 # better for CFP model
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0 # better for CFP model
+				template = body_shape_average_clothed
+			}
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 60
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = western
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = western
+                    }
+                }
+                cfp_innovation_plate_armor_trigger = yes 
+            }
+            modifier = {
+                add = 21
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = { 
+                        CULTURE_INPUT = western
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = { 
+                        CULTURE_INPUT = western
+                    }
+                }
+                cfp_innovation_plate_armor_trigger = yes  
+            }
+            modifier = {
+                add = 60
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = western
+                }
+                cfp_innovation_plate_armor_trigger = yes 
+            }
+            modifier = {
+                add = 21
+                portrait_high_nobles_armor_in_army_trigger = {
+                    CULTURE_INPUT = western
+                }
+                cfp_innovation_plate_armor_trigger = yes  
+            }
+        }
+    }
+
+    western_crusades_black = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = western_crusades
+				range = { 0 1 } # For the randomness to work correctly
+                # accessory = m_clothes_sec_dde_hre_war_nob_01_lo
+            }
+        }
+        outfit_tags = { western_crusades_black }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_western_crusades_trigger = yes
+            }
+			# Broken
+            # modifier = {
+                # add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                # portrait_armored_priest_trigger = {
+                    # RELIGION = christianity_religion
+                # }
+            # }
+        }
+    }
+	
+	cfp_latin_venetian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cfp_latin_venetian_royalty_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this				
+				NOT = { is_female = yes }
+				has_primary_title = title:k_venice
+			}
+		}
+	}
+
+## Javanese ##
+
+	burmese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cfp_javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
+						}
+						AND = {
+							government_has_flag = government_is_republic
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+					}
+				}
+				portrait_cfp_burmese_clothing_trigger = yes
+			}
+		}
+	}
+
+	burmese_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cfp_javanese_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					OR = {
+						amenity_level = { type = court_fashion value >= 4 }
+						amenity_level = { type = court_fashion value = 5 }
+					}
+				}
+				portrait_cfp_burmese_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_county
+								highest_held_title_tier = tier_duchy # include high nobles
+							}
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									government_has_flag = government_is_republic
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+							}
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							portrait_cfp_burmese_clothing_trigger = yes
+						}
+						# Countess
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										government_has_flag = government_is_republic
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+								}
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
+							}
+						}
+						# Duchess
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+									government_has_flag = government_is_republic
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+								}
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_cfp_burmese_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	burmese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cfp_javanese_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0	
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							highest_held_title_tier >= tier_kingdom
+							NOR = {
+								AND = {
+									government_has_flag = government_is_republic
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+							}
+							portrait_cfp_burmese_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier >= tier_kingdom
+								NOR = {
+									AND = {
+									government_has_flag = government_is_republic
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+								}
+								portrait_cfp_burmese_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier > tier_kingdom
+					portrait_cfp_burmese_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+## Sub-Saharan Africans ##
+
+    sub_saharan_war_low_nobles = {# west and central african war
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = sub_saharan_war_nobility_clothes
+                # accessory = m_clothes_sec_mena_war_nob_01_lo
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 60       # slightly stronger than western war
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = cfp_central_africa
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = cfp_central_africa
+                    }
+                }
+            }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = { 
+                        CULTURE_INPUT = cfp_central_africa
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = { 
+                        CULTURE_INPUT = cfp_central_africa
+                    }
+                }
+            }
+            modifier = {
+                add = 60       # slightly stronger than western war
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = cfp_west_africa
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = cfp_west_africa
+                    }
+                }
+            }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = { 
+                        CULTURE_INPUT = cfp_west_africa
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = { 
+                        CULTURE_INPUT = cfp_west_africa
+                    }
+                }
+            }
+        }
+    }
+	
+	# TODO : check
+    sub_saharan_war_high_nobles = { # east african war
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = cfp_east_african_war_nobility_clothes
+                # accessory = m_clothes_sec_mena_war_nob_01_hi
+                range = { 0 1 } # For the randomness to work correctly
+            }
+	    morph = {
+		mode = modify_multiply
+		gene = gene_bs_bust
+		value = 1.0 # better for CFP armor
+		template = bust_clothes
+	    }
+	    morph = {
+		mode = modify_multiply
+		gene = gene_bs_body_shape
+		value = 1.0 # better for CFP armor
+		template = body_shape_average_clothed
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 60       # slightly stronger than western war
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = cfp_east_africa
+                }
+            }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_high_nobles_armor_in_army_trigger = {
+                    CULTURE_INPUT = cfp_east_africa
+                }
+            }
+        }
+    }
+
+## Orthodox ##
+
+	cfp_religious_orthodox_devoted_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cfp_religious_orthodox_devoted_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				is_male = yes
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = devoted }
+					AND = {
+						faith = {
+							has_doctrine_parameter = vows_of_poverty_active
+						}
+						OR = {
+							AND = {
+								has_council_position = councillor_court_chaplain
+								faith = {
+									has_doctrine = doctrine_theocracy_lay_clergy
+								}
+							}
+							is_theocratic_lessee = yes
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+					}
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+			}
+		}
+	}
+	
+    cfp_religious_orthodox_head_clothes = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+	            # template = religious_orthodox_head_clothes # not historical
+	            template = religious_orthodox_high_clothes
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                portrait_religious_head_trigger = yes
+                portrait_religious_orthodox_trigger = yes
+            }
+        }
+    }  
+
+## Catholic ##  
+
+    religious_catholic_head_clothes = { # The Pope
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_catholic_head_clothes
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 120
+				portrait_era4_trigger = yes
+                portrait_religious_head_trigger = yes
+                portrait_religious_catholic_trigger = yes
+            }
+			modifier = { # The Catholic Trinity compatibility
+				add = 150
+				portrait_era4_trigger = yes
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
+			}
+        }
+    }
+
+	cfp_religious_catholic_head_early_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = cfp_religious_catholic_head_early_clothes
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+                add = 120
+                portrait_religious_head_trigger = yes
+                portrait_religious_catholic_trigger = yes
+	        }
+			modifier = { # The Catholic Trinity compatibility
+				add = 120
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
+			}
+	    }
+	}
+
+    religious_catholic_high_northern_clothes = { # Catholic Bishops and Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = northern_low_nobility_clothes
+                range = { 0 1 }
+            }
+        }
+        outfit_tags = { priest_outfit bishop_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+				OR = {
+					portrait_northern_clothing_trigger = yes
+					portrait_cfp_anglo_saxon_clothing_trigger = yes
+				}
+                portrait_religious_high_trigger = yes
+                portrait_religious_christian_trigger = yes
+            }
+        }
+    }
+
+	cfp_religious_catholic_cardinal_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = cfp_religious_catholic_cardinal_clothes
+	            range = { 0 1 }
+	        }
+	    }
+	    outfit_tags = { cardinal_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 140
+				exists = this
+				is_male = yes
+				is_adult = yes
+				current_date >= 1245.1.1
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					AND = {
+						is_vassal_of = title:k_papal_state.holder
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+					}
+					AND = {
+						is_councillor_of = title:k_papal_state.holder
+						is_theocratic_lessee = yes
+					}
+					AND = {
+						exists = title:k_papal_state.holder
+						is_courtier_of = title:k_papal_state.holder
+					}
+				}
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
+				NOT = { exists = global_var:Trinity_is_loaded } # The Catholic Trinity compatibility
+			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 140
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalTrigger = yes
+				is_male = yes
+				is_adult = yes
+				faith = { religion_tag = christianity_religion }
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
+			}
+	    }
+	}
+
+## Muslim ##
+
+	cfp_religious_muslim_high_turkic_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = cfp_religious_muslim_high_turkic_clothes
+	            range = { 0 1 }
+	        }
+	    }
+	    outfit_tags = { priest_outfit }
+	    weight = {
+	        base = 0
+            modifier = {
+                add = 111
+				OR = {
+					portrait_cfp_turkic_clothing_trigger = yes
+					portrait_cfp_iranian_clothing_trigger = yes
+				}
+                portrait_religious_high_trigger = yes
+                portrait_religious_muslim_trigger = yes
+            }
+	    }
+	}
+
+}

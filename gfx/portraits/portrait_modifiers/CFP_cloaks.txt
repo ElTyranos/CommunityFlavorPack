@@ -1,0 +1,593 @@
+﻿
+cfp_cloaks = {
+
+	usage = game
+
+	cfp_k_venice = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = western_royalty
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_primary_title = title:k_venice
+			}
+		}
+	}
+
+	cfp_western_kings_ermine = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_western_ermine
+				accessory = male_cloaks_secular_western_cfp_ermine_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				cfp_innovation_ermine_cloaks_trigger = yes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						OR = {
+							portrait_fp1_norse_clothing_trigger = no
+							portrait_cfp_norse_clothing_trigger = no
+							AND = {
+								portrait_fp1_norse_clothing_trigger = yes
+								NOR = {
+									government_has_flag = government_is_tribal
+									religion = religion:germanic_religion
+								}
+							}
+							AND = {
+								portrait_cfp_norse_clothing_trigger = yes
+								NOR = {
+									government_has_flag = government_is_tribal
+									religion = religion:germanic_religion
+								}
+							}
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					highest_held_title_tier < tier_kingdom
+					government_has_flag = government_is_theocracy
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+					portrait_wear_armor_trigger = yes
+					is_travelling = yes
+					involved_activity ?= { has_activity_type = activity_hunt }
+					AND = { 
+						government_has_flag = government_is_republic
+						NOT = { has_primary_title = title:k_venice }
+					}
+				}
+			}
+		}
+	}
+		
+	cfp_byzantine_kings_ermine = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_western_ermine
+				accessory = male_cloaks_secular_byzantine_cfp_ermine_01
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_byzantine_clothing_trigger = yes
+				cfp_innovation_ermine_cloaks_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					highest_held_title_tier < tier_kingdom
+					government_has_flag = government_is_theocracy
+					government_has_flag = government_is_republic
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+					portrait_wear_armor_trigger = yes
+					is_travelling = yes
+					involved_activity ?= { has_activity_type = activity_hunt }
+				}
+			}			
+		}
+	}
+	
+	cfp_western_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_western_commoner
+				range = { 0 1 } 
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				highest_held_title_tier < tier_county
+				NOR = {
+					portrait_wear_armor_trigger = yes
+					has_court_position = court_jester_court_position
+					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
+					portrait_has_trait_trigger = { TRAIT = devoted }
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						government_has_flag = government_is_republic
+						primary_title.tier > 1
+					}
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+				}
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+					portrait_wear_armor_trigger = yes
+				}
+			}
+		}
+		
+	}
+	
+	cfp_western_crusades_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_western_crusades_commoner
+				range = { 0 1 } 
+			}
+		}
+		outfit_tags = { western_crusades_commoner }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				OR = {
+					AND = {
+						has_council_position = councillor_spymaster
+						highest_held_title_tier < tier_county
+					}
+					AND = {
+						portrait_has_trait_trigger = { TRAIT = witch }
+						is_landed = no
+						is_lowborn = yes
+					}
+				}
+				OR = {
+					portrait_western_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						NOT = { is_theocratic_lessee = yes }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}
+		}
+	}	
+	
+	cfp_western_crusades = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_western_crusades
+				range = { 0 0.49 } 
+			}
+		}	
+		outfit_tags = { western_crusades_white }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					government_has_flag = government_is_holy_order
+					is_ruler = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}
+		}
+	}
+	
+	cfp_western_crusades_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_western_crusades
+				range = { 0.51 1.0 } 
+			}
+		}	
+		outfit_tags = { western_crusades_black }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					religion = religion:christianity_religion
+					government_has_flag = government_is_holy_order
+					is_ruler = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}
+		}
+	}
+	
+	cfp_norse_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_norse_war
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_cfp_norse_clothing_trigger = yes
+					portrait_wear_armor_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+				}
+			}
+		}
+	}
+	
+	cfp_norman_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_norman_war
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_cfp_norman_clothing_trigger = yes
+					portrait_wear_armor_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+				}
+			}			
+		}
+	}
+
+	cfp_berber_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_berber_high_nobility
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_cfp_berber_clothing_trigger = yes
+				OR = {
+					is_independent_ruler = yes
+					highest_held_title_tier >= tier_duchy
+				}
+				NOR = {
+					is_adult = no
+					portrait_wear_armor_trigger = yes
+					government_has_flag = government_is_theocracy
+					government_has_flag = government_is_republic
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+				}
+			}
+		}
+	}
+
+	cfp_african_kings = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = cfp_african_royalty
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_african_clothing_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					highest_held_title_tier < tier_kingdom
+					government_has_flag = government_is_theocracy
+					government_has_flag = government_is_republic
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	cfp_religious_muslim = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = cfp_religious_muslim
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 111
+				portrait_mena_clothing_trigger = yes
+				religion = religion:islam_religion
+				OR = {
+					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+					portrait_has_trait_trigger = { TRAIT = devoted }
+					portrait_has_trait_trigger = { TRAIT = theologian }
+				}
+				NOR = {
+					is_adult = no
+					# portrait_wear_armor_trigger = yes
+					government_has_flag = government_is_theocracy
+					government_has_flag = government_is_republic
+					has_character_modifier = vow_of_poverty_modifier
+					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
+					should_be_naked_trigger = yes
+					# doesnt fit nicely to eastern imams
+					portrait_cfp_turkic_clothing_trigger = yes
+					portrait_cfp_iranian_clothing_trigger = yes
+				}
+			}
+	    }
+	}
+	
+	cfp_religious_orthodox_high = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = cfp_religious_orthodox_high
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = { # head
+	            add = 150
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				exists = primary_title
+				primary_title = {
+					any_controlled_faith = {
+						this = faith:orthodox
+					}
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+	        }
+			modifier = { # high
+				add = 120
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+				}
+				OR = {
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				NOT = {
+					faith.religious_head = this
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}
+	    }
+	}	
+	
+	cfp_religious_catholic_high_northern = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = cfp_religious_catholic_high_northern
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 150
+				OR = {
+					portrait_northern_clothing_trigger = yes
+					portrait_cfp_anglo_saxon_clothing_trigger = yes
+				}
+				faith = { religion_tag = christianity_religion }
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					has_council_position = councillor_court_chaplain
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+				}
+				NAND = {
+					faith = faith:catholic
+					faith.religious_head = this
+				}
+				NOR = {
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
+					faith = faith:orthodox
+					faith = faith:armenian_apostolic
+					faith = faith:coptic
+					faith = faith:messalian
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:nestorian
+				}
+				# NOT = {
+					# faith = {
+						# has_doctrine_parameter = vows_of_poverty_active
+					# }
+				# }
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}
+	    }
+	}
+	
+	cfp_religious_catholic_head = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = cfp_religious_catholic_head
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 120
+				faith = faith:catholic
+				exists = primary_title
+				primary_title = {
+					is_head_of_faith = yes
+				}
+				NOT = {
+					faith = {
+						has_doctrine_parameter = vows_of_poverty_active
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}
+	    }
+	}
+
+}

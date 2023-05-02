@@ -1,6 +1,6 @@
 ﻿custom_clothes = {
 	usage = customization
-	interface_position = 0
+	interface_position = 2
 
 	add_accessory_modifiers = {
 		gene = clothes
@@ -128,39 +128,15 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = fp2_christian_commoner_clothes
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = fp2_christian_low_nobility_clothes
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = fp2_christian_high_nobility_clothes
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = fp2_christian_war_nobility_clothes
-		is_valid_custom = {
-			has_fp2_dlc_trigger = yes
-		}
-	}
-	
-	add_accessory_modifiers = {
-		gene = clothes
 		template = fp2_muslim_commoner_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_christian_commoner_clothes
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
@@ -176,6 +152,14 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
+		template = fp2_christian_low_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
 		template = fp2_muslim_high_nobility_clothes
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
@@ -184,7 +168,23 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
+		template = fp2_christian_high_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
 		template = fp2_muslim_war_nobility_clothes
+		is_valid_custom = {
+			has_fp2_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp2_christian_war_nobility_clothes
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
@@ -518,16 +518,10 @@
 	add_accessory_modifiers = {
 		gene = clothes
 		template = mena_stealth
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	add_accessory_modifiers = {
 		gene = clothes
 		template = western_stealth
-		is_valid_custom = {
-			NOT = { has_game_rule = never_cfp_barbershop_unlocks }
-		}
 	}
 	## CFP
 	add_accessory_modifiers = {
