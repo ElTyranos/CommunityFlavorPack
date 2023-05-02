@@ -5,7 +5,7 @@
 
 # NORTH
 portrait_cfp_norse_clothing_trigger = {
-	scope:culture = { portrait_cfp_norse_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_norse_clothing_contents_trigger = yes }
 }
 portrait_cfp_norse_clothing_spouse_trigger = {
 	culture = { portrait_cfp_norse_clothing_contents_trigger = yes }
@@ -15,7 +15,7 @@ portrait_cfp_norse_clothing_contents_trigger = {
 }
 
 portrait_cfp_anglo_saxon_clothing_trigger = {
-	scope:culture = { portrait_cfp_anglo_saxon_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_anglo_saxon_clothing_contents_trigger = yes }
 }
 portrait_cfp_anglo_saxon_clothing_spouse_trigger = {
 	culture = { portrait_cfp_anglo_saxon_clothing_contents_trigger = yes }
@@ -28,7 +28,7 @@ portrait_cfp_anglo_saxon_clothing_contents_trigger = {
 }
 
 portrait_cfp_norman_clothing_trigger = {
-	scope:culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
 }
 portrait_cfp_norman_clothing_spouse_trigger = {
 	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
@@ -41,7 +41,7 @@ portrait_cfp_norman_clothing_contents_trigger = {
 }
 
 portrait_cfp_norman_sicily_clothing_trigger = {
-	scope:culture = { portrait_cfp_norman_sicily_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_norman_sicily_clothing_contents_trigger = yes }
 	trigger_if = {
 		limit = { exists = capital_province }
 		capital_province = { geographical_region = world_europe_south_italy }
@@ -105,7 +105,7 @@ portrait_cfp_norman_sicily_clothing_contents_trigger = {
 
 ## EAST
 portrait_cfp_hungarian_clothing_trigger = {
-	scope:culture = { portrait_cfp_hungarian_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_hungarian_clothing_contents_trigger = yes }
 }
 portrait_cfp_hungarian_clothing_spouse_trigger = {
 	culture = { portrait_cfp_hungarian_clothing_contents_trigger = yes }
@@ -115,7 +115,7 @@ portrait_cfp_hungarian_clothing_contents_trigger = {
 }
 
 portrait_cfp_turkic_clothing_trigger = {
-	scope:culture = { portrait_cfp_turkic_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_turkic_clothing_contents_trigger = yes }
 }
 portrait_cfp_turkic_clothing_spouse_trigger = {
 	culture = { portrait_cfp_turkic_clothing_contents_trigger = yes }
@@ -125,7 +125,7 @@ portrait_cfp_turkic_clothing_contents_trigger = {
 }
 
 portrait_cfp_oghuz_clothing_trigger = {
-	scope:culture = { portrait_cfp_oghuz_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_oghuz_clothing_contents_trigger = yes }
 }
 portrait_cfp_oghuz_clothing_spouse_trigger = {
 	culture = { portrait_cfp_oghuz_clothing_contents_trigger = yes }
@@ -138,7 +138,7 @@ portrait_cfp_oghuz_clothing_contents_trigger = {
 }
 
 portrait_cfp_slavic_clothing_trigger = {
-	scope:culture = { portrait_cfp_slavic_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_slavic_clothing_contents_trigger = yes }
 }
 portrait_cfp_slavic_clothing_spouse_trigger = {
 	culture = { portrait_cfp_slavic_clothing_contents_trigger = yes }
@@ -155,7 +155,7 @@ portrait_cfp_slavic_clothing_contents_trigger = {
 
 ## WESTERN
 portrait_cfp_latin_clothing_trigger = {
-	scope:culture = { portrait_cfp_latin_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_latin_clothing_contents_trigger = yes }
 }
 portrait_cfp_latin_clothing_spouse_trigger = {
 	culture = { portrait_cfp_latin_clothing_contents_trigger = yes }
@@ -167,7 +167,7 @@ portrait_cfp_latin_clothing_contents_trigger = {
 ## IBERIA
 portrait_cfp_iberian_christian_clothing_trigger = {
 	OR = {
-		scope:culture = { portrait_fp2_iberian_christian_clothing_contents_trigger = yes }
+		culture = { portrait_fp2_iberian_christian_clothing_contents_trigger = yes }
 		trigger_if = {
 			limit = { exists = this	}
 			AND = {
@@ -197,7 +197,7 @@ portrait_cfp_iberian_christian_clothing_spouse_trigger = {
 
 portrait_cfp_iberian_muslim_clothing_trigger = {
 	OR = {
-		scope:culture = { portrait_fp2_iberian_muslim_clothing_contents_trigger = yes }
+		culture = { portrait_fp2_iberian_muslim_clothing_contents_trigger = yes }
 		trigger_if = {
 			limit = { exists = this	}
 			AND = {
@@ -227,7 +227,7 @@ portrait_cfp_iberian_muslim_clothing_spouse_trigger = {
 
 ## MENA
 portrait_cfp_iranian_clothing_trigger = {
-	scope:culture = { portrait_cfp_iranian_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_iranian_clothing_contents_trigger = yes }
 }
 portrait_cfp_iranian_clothing_spouse_trigger = {
 	culture = { portrait_cfp_iranian_clothing_contents_trigger = yes }
@@ -237,7 +237,7 @@ portrait_cfp_iranian_clothing_contents_trigger = {
 }
 
 portrait_cfp_berber_clothing_trigger = {
-	scope:culture = { portrait_cfp_berber_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_berber_clothing_contents_trigger = yes }
 	NAND = {
 		is_landed = yes
 		religion = religion:islam_religion
@@ -261,7 +261,7 @@ portrait_cfp_berber_clothing_contents_trigger = {
 }
 
 portrait_cfp_bedouin_clothing_trigger = {
-	scope:culture = { portrait_cfp_bedouin_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_bedouin_clothing_contents_trigger = yes }
 }
 portrait_cfp_bedouin_clothing_spouse_trigger = {
 	culture = { portrait_cfp_bedouin_clothing_contents_trigger = yes }
@@ -275,7 +275,7 @@ portrait_cfp_bedouin_clothing_contents_trigger = {
 }
 
 portrait_cfp_egyptian_clothing_trigger = {
-	scope:culture = { portrait_cfp_egyptian_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_egyptian_clothing_contents_trigger = yes }
 }
 portrait_cfp_egyptian_clothing_spouse_trigger = {
 	culture = { portrait_cfp_egyptian_clothing_contents_trigger = yes }
@@ -289,7 +289,7 @@ portrait_cfp_egyptian_clothing_contents_trigger = {
 
 ## AFRICA
 portrait_cfp_east_africa_clothing_trigger = {
-	scope:culture = { portrait_cfp_east_africa_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_east_africa_clothing_contents_trigger = yes }
 }
 portrait_cfp_east_africa_clothing_spouse_trigger = {
 	culture = { portrait_cfp_east_africa_clothing_contents_trigger = yes }
@@ -302,7 +302,7 @@ portrait_cfp_east_africa_clothing_contents_trigger = {
 }
 
 portrait_cfp_central_africa_clothing_trigger = {
-	scope:culture = { portrait_cfp_central_africa_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_central_africa_clothing_contents_trigger = yes }
 }
 portrait_cfp_central_africa_clothing_spouse_trigger = {
 	culture = { portrait_cfp_central_africa_clothing_contents_trigger = yes }
@@ -315,7 +315,7 @@ portrait_cfp_central_africa_clothing_contents_trigger = {
 }
 
 portrait_cfp_west_africa_clothing_trigger = {
-	scope:culture = { portrait_cfp_west_africa_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_west_africa_clothing_contents_trigger = yes }
 }
 portrait_cfp_west_africa_clothing_spouse_trigger = {
 	culture = { portrait_cfp_west_africa_clothing_contents_trigger = yes }
@@ -330,7 +330,7 @@ portrait_cfp_west_africa_clothing_contents_trigger = {
 }
 
 portrait_cfp_afar_clothing_trigger = {
-	scope:culture = { portrait_cfp_afar_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_afar_clothing_contents_trigger = yes }
 	# only for teeth so no spouse trigger is needed yet
 }
 portrait_cfp_afar_clothing_contents_trigger = {
@@ -342,7 +342,7 @@ portrait_cfp_afar_clothing_contents_trigger = {
 
 ## INDIA
 portrait_cfp_burmese_clothing_trigger = {
-	scope:culture = { portrait_cfp_burmese_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_burmese_clothing_contents_trigger = yes }
 }
 portrait_cfp_burmese_clothing_spouse_trigger = {
 	culture = { portrait_cfp_burmese_clothing_contents_trigger = yes }
@@ -352,7 +352,7 @@ portrait_cfp_burmese_clothing_contents_trigger = {
 }
 
 portrait_cfp_tibetan_clothing_trigger = {
-	scope:culture = { portrait_cfp_tibetan_clothing_contents_trigger = yes }
+	culture = { portrait_cfp_tibetan_clothing_contents_trigger = yes }
 }
 portrait_cfp_tibetan_clothing_spouse_trigger = {
 	culture = { portrait_cfp_tibetan_clothing_contents_trigger = yes }
@@ -368,7 +368,7 @@ portrait_cfp_jewish_western_clothing_trigger = {
 	portrait_wear_armor_trigger = no
 	OR = {
 		religion = religion:judaism_religion
-		scope:culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
+		culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
 	}
 	OR = {
 		trigger_if = {
@@ -391,7 +391,7 @@ portrait_cfp_jewish_mena_clothing_trigger = {
 	portrait_wear_armor_trigger = no
 	OR = {
 		religion = religion:judaism_religion
-		scope:culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
+		culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
 	}
 	OR = {
 		trigger_if = {
@@ -414,7 +414,7 @@ portrait_cfp_jewish_andalusian_clothing_trigger = {
 	portrait_wear_armor_trigger = no
 	OR = {
 		religion = religion:judaism_religion
-		scope:culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
+		culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
 	}
 	OR = {
 		trigger_if = {
@@ -437,10 +437,10 @@ portrait_cfp_jewish_clothing_contents_trigger = {
 
 ## ERA OR INNOVATION TRIGGERS
 cfp_innovation_plate_armor_trigger = {
-	scope:culture = { has_innovation = innovation_plate_armor }
+	culture = { has_innovation = innovation_plate_armor }
 }
 cfp_innovation_ermine_cloaks_trigger = {
-	scope:culture = { has_innovation = innovation_ermine_cloaks }
+	culture = { has_innovation = innovation_ermine_cloaks }
 }
 
 ## OVERWRITTING DEFAULT CLASSES
