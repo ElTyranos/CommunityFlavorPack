@@ -1,12 +1,4 @@
-﻿## Vanilla variants
-male_cloaks_secular_byzantine_royalty_01 = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_byzantine_royalty_01_entity }
-}
-female_cloaks_secular_byzantine_royalty_01 = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_byzantine_royalty_01_entity }
-}
-
-## Cloaks
+﻿## Cloaks
 male_cloaks_secular_western_cfp_common_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_cfp_common_01_entity }
 }
