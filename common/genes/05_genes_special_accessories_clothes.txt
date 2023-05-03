@@ -2035,11 +2035,11 @@ special_genes = {
 
 			}
 
-			########################################
-			## Community Flavor Pack - new groups ##
-			########################################
+		########################################
+		## Community Flavor Pack - new groups ##
+		########################################
 
-			## Western
+		## Western
 
 			cfp_bedchamber = {
 				index = 97
@@ -2083,7 +2083,7 @@ special_genes = {
 				girl = female
 			}
 
-			## Latin ##
+		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
 				index = 101
@@ -2098,8 +2098,7 @@ special_genes = {
 				girl = female
 			}
 			
-			## African ##
-			
+		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
 				index = 102
@@ -2115,7 +2114,7 @@ special_genes = {
 				girl = female
 			}
 			
-			## Javanese ## 
+		## Javanese ## 
 			
 			cfp_javanese_common = {
 				index = 103
@@ -2159,11 +2158,11 @@ special_genes = {
 				girl = female
 			}
 		
-			## Religious
+		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
 				index = 106
-				male = {	
+				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
 				female = {
@@ -2175,7 +2174,7 @@ special_genes = {
 		
 			cfp_religious_catholic_cardinal_clothes = {
 				index = 107
-				male = {	
+				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
 				female = {
@@ -2208,6 +2207,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+		
 		}
 	}
 }

@@ -1057,6 +1057,10 @@ accessory_genes = {
 			girl = female
 		}
 		
+		########################################
+		## Community Flavor Pack - new groups ##
+		########################################
+		
 		cfp_javanese_dagger = {
 			index = 94
 			male = {
@@ -1068,7 +1072,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_globus = {
 			index = 95
 			male = {
@@ -1080,7 +1083,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_scepter = {
 			index = 96
 			male = {
@@ -1092,7 +1094,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_scepter_regalia = {
 			index = 97
 			male = {
@@ -1104,7 +1105,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_potion = {
 			index = 98
 			male = {
@@ -1116,7 +1116,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_cauldron = {
 			index = 99
 			male = {
@@ -1128,7 +1127,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_bonfire = {
 			index = 100
 			male = {
@@ -1140,7 +1138,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_broom = {
 			index = 101
 			male = {
@@ -1295,11 +1292,11 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-			
+		
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
-			
+		
 		cfp_western_war_legwear_late = {
 			index = 10
 			male = {
@@ -1555,7 +1552,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		cfp_western_commoner = {
 			index = 12
 			male = {

@@ -1220,21 +1220,6 @@ special_genes = {
 				girl = female
 			}
 
-
-			#religious_dde_catholic = {
-			#	index = 59
-			#	male = {
-			#		1 = male_headgear_religious_dde_catholic_high_01
-			#		
-			#	}
-			#	female = {
-			#	#	1 = female_headgear_religious_dde_catholic_high_01
-			#		
-			#	}
-			#	boy = male
-			#    girl = female
-			#}
-
 			religious_catholic_devoted = {
 				index = 60
 				male = {
@@ -1346,20 +1331,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
-			#religious_dde_muslim_high = {
-			#	index = 68
-			#	male = {
-			#		1 = male_headgear_religious_dde_muslim_high_01
-			#		
-			#	}
-			#	female = {
-			#		1 = female_headgear_secular_mena_royalty_01
-			#		
-			#	}
-			#	boy = male
-			#    girl = female
-			#}
 
 			religious_african_high = {
 				index = 69
