@@ -1468,6 +1468,7 @@ cfp_headgear = {
                 portrait_war_nobles_helmet_trigger = {
                     CULTURE_INPUT = cfp_norman
                 }
+				portrait_era2_armor_trigger = yes
                 has_ep2_dlc_trigger = yes # to match cfp_norman_war clothing rule
 			}
 		}

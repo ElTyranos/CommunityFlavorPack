@@ -249,17 +249,36 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				template = ep2_western_era2_war_nobility_clothes
 				range = { 0 1 }
 			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-                portrait_war_nobles_helmet_trigger = {
-                    CULTURE_INPUT = cfp_norman
-                }
-                has_ep2_dlc_trigger = yes
-			}
 		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 60
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = cfp_norman
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = cfp_norman
+                    }
+                }
+				portrait_era2_armor_trigger = yes
+                has_ep2_dlc_trigger = yes
+            }
+            modifier = {
+                add = 21
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = { 
+                        CULTURE_INPUT = cfp_norman
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = { 
+                        CULTURE_INPUT = cfp_norman
+                    }
+                }
+				portrait_era2_armor_trigger = yes
+                has_ep2_dlc_trigger = yes
+            }
+        }
 	}
 
 ## Javanese ##
