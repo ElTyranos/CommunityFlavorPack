@@ -131,7 +131,22 @@ cfp_cloaks = {
 			modifier = {
 				add = 100
 				highest_held_title_tier < tier_county
-				NOR = {
+				OR = {
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = western
+					}				
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = northern
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				exists = this
+				OR = {
+					is_adult = no
+					portrait_western_crusades_trigger = yes
+					should_be_naked_trigger = yes
 					portrait_wear_armor_trigger = yes
 					has_court_position = court_jester_court_position
 					is_theocratic_lessee = yes
@@ -148,19 +163,6 @@ cfp_cloaks = {
 						primary_title.tier > 1
 					}
 					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-				}
-				OR = {
-					portrait_western_clothing_trigger = yes
-					portrait_northern_clothing_trigger = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				exists = this
-				OR = {
-					is_adult = no
-					should_be_naked_trigger = yes
-					portrait_wear_armor_trigger = yes
 				}
 			}
 		}
