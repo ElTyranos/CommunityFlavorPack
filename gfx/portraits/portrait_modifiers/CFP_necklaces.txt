@@ -2,14 +2,14 @@
 	
 	usage = game
 	selection_behavior = weighted_random
-	fallback = no_necklace
+	fallback = cfp_no_necklace
 	
-	no_necklace = {
+	cfp_no_necklace = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = special_accessories_necklace
-                template = no_necklace
+                template = cfp_no_necklace
                 range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -80,12 +80,12 @@
 		}
 	}
 	
-	western_high_nobility = {
+	cfp_western_high_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = western_high_nobility
+				template = cfp_western_high_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -117,12 +117,12 @@
 		}
 	}
 	
-	african_low_nobility = {
+	cfp_african_low_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = african_low_nobility
+				template = cfp_african_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -174,12 +174,12 @@
 		}
 	}
 	
-	central_african_low_nobility = {
+	cfp_central_african_low_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = central_african_low_nobility
+				template = cfp_central_african_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -224,12 +224,12 @@
 		}
 	}
 	
-	religious_catholic_cross = {
+	cfp_religious_catholic_cross = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = religious_catholic_cross
+				template = cfp_religious_catholic_cross
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -263,12 +263,12 @@
 		}
 	}
 	
-	religious_catholic_pilgrim = {
+	cfp_religious_catholic_pilgrim = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = religious_catholic_pilgrim
+				template = cfp_religious_catholic_pilgrim
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}

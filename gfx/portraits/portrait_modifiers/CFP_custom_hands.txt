@@ -4,7 +4,7 @@
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
-		template = fp1_rings
+		template = cfp_fp1_rings
 		is_valid_custom = {
 			has_fp1_dlc_trigger = yes
 		}
@@ -12,17 +12,17 @@
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
-		template = rings
+		template = cfp_rings
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
-		template = western_high_nobility_gloves
+		template = cfp_western_high_nobility_gloves
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
-		template = dde_abbasid_rings
+		template = cfp_dde_abbasid_rings
 		is_valid_custom = {
 			has_dlc = "Fashion of the Abbasid Court"
 		}
@@ -30,7 +30,7 @@
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_hands
-		template = dde_hre_rings
+		template = cfp_dde_hre_rings
 		is_valid_custom = {
 			has_dlc = "Garments of the Holy Roman Empire"
 		}

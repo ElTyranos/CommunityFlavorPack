@@ -3,7 +3,7 @@
 		
 		special_accessories_necklace = {
 			
-			no_necklace = {
+			cfp_no_necklace = {
 				index = 0
 				male = {
 					100 = empty
@@ -41,7 +41,7 @@
 				girl = female
 			}
 			
-			byzantine_high_nobility = {
+			cfp_byzantine_high_nobility = {
 				index = 3
 				male = {
 					1 = empty
@@ -53,7 +53,7 @@
 				girl = female
 			}
 			
-			african_low_nobility = {
+			cfp_african_low_nobility = {
 				index = 4
 				male = {
 					1 = empty
@@ -64,7 +64,8 @@
 				boy = male
 				girl = female
 			}
-			central_african_low_nobility = {
+			
+			cfp_central_african_low_nobility = {
 				index = 5
 				male = {
 					1 = male_accessories_cfp_african_necklace_02
@@ -75,7 +76,8 @@
 				boy = male
 				girl = female
 			}
-			religious_catholic_cross = {
+			
+			cfp_religious_catholic_cross = {
 				index = 6
 				male = {
 					1 = male_accessories_cfp_pectoral_cross_01
@@ -86,7 +88,8 @@
 				boy = male
 				girl = female
 			}
-			religious_catholic_pilgrim = {
+			
+			cfp_religious_catholic_pilgrim = {
 				index = 7
 				male = {
 					1 = empty
@@ -99,7 +102,8 @@
 				boy = male
 				girl = female
 			}
-			western_high_nobility = {
+			
+			cfp_western_high_nobility = {
 				index = 8
 				male = {
 					1 = empty

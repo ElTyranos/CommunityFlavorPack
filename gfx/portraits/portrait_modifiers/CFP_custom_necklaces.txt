@@ -4,7 +4,7 @@
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = no_necklace
+		template = cfp_no_necklace
 	}
 	
 	add_accessory_modifiers = {
@@ -19,32 +19,32 @@
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = western_high_nobility
+		template = cfp_western_high_nobility
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = religious_catholic_cross
+		template = cfp_religious_catholic_cross
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = religious_catholic_pilgrim
+		template = cfp_religious_catholic_pilgrim
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = african_low_nobility
+		template = cfp_african_low_nobility
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = central_african_low_nobility
+		template = cfp_central_african_low_nobility
 	}
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = byzantine_high_nobility
+		template = cfp_byzantine_high_nobility
 	}
 	
 }
