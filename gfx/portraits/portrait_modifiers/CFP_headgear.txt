@@ -1458,7 +1458,7 @@ cfp_headgear = {
 				mode = add
 				gene = headgear
 				template = northern_war
-				range = { 0 1 }
+				range = { 0 0.84 } # let's avoid coppergate helmet
 			}
 		}	
 		weight = {

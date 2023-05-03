@@ -764,10 +764,10 @@ special_genes = {
 					5 = male_headgear_secular_northern_war_nasal_01
 					5 = male_headgear_secular_northern_war_nasal_02
 					5 = male_headgear_secular_northern_war_nasal_03
-					10 = male_headgear_secular_northern_cfp_war_coppergate_01
 					10 = male_headgear_secular_western_war_mail_coif_01
 					10 = male_headgear_secular_western_war_mail_coif_02
 					10 = male_headgear_secular_western_war_padded_hood_01
+					10 = male_headgear_secular_northern_cfp_war_coppergate_01
 				
 					}
 				female = {
@@ -776,10 +776,10 @@ special_genes = {
 					5 = female_headgear_secular_northern_war_nasal_01
 					5 = female_headgear_secular_northern_war_nasal_02
 					5 = female_headgear_secular_northern_war_nasal_03
-					10 = female_headgear_secular_northern_cfp_war_coppergate_01
 					10 = female_headgear_secular_western_war_mail_coif_01
 					10 = female_headgear_secular_western_war_mail_coif_02
 					10 = female_headgear_secular_western_war_padded_hood_01
+					10 = female_headgear_secular_northern_cfp_war_coppergate_01
 					
 				}
 				boy = male
