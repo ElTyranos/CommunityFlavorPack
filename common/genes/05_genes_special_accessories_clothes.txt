@@ -2086,7 +2086,7 @@ special_genes = {
 		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
-				index = 101
+				index = 100
 
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
@@ -2101,7 +2101,7 @@ special_genes = {
 		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
-				index = 102
+				index = 101
 
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
@@ -2117,7 +2117,7 @@ special_genes = {
 		## Javanese ## 
 			
 			cfp_javanese_common = {
-				index = 103
+				index = 102
 
 				male = {	
 					1 = male_clothes_secular_western_nudity_01
@@ -2131,7 +2131,7 @@ special_genes = {
 			}
 			
 			cfp_javanese_nobility = {
-				index = 104
+				index = 103
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_high_nobility_01
@@ -2145,7 +2145,7 @@ special_genes = {
 			}
 			
 			cfp_javanese_royalty = {
-				index = 105
+				index = 104
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
@@ -2161,7 +2161,7 @@ special_genes = {
 		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
-				index = 106
+				index = 105
 				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -2173,7 +2173,7 @@ special_genes = {
 			}
 		
 			cfp_religious_catholic_cardinal_clothes = {
-				index = 107
+				index = 106
 				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -2185,7 +2185,7 @@ special_genes = {
 			}
 		
 			cfp_religious_orthodox_devoted_clothes = {
-				index = 108
+				index = 107
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -2197,7 +2197,7 @@ special_genes = {
 			}
 		
 			cfp_religious_muslim_high_turkic_clothes = {
-				index = 109
+				index = 108
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
