@@ -710,7 +710,7 @@ cfp_headgear = {
 				}
                 portrait_royalty_trigger = {
                     CULTURE_INPUT = cfp_slavic
-                }   
+                }
 			}
 		}
 	}
@@ -731,7 +731,7 @@ cfp_headgear = {
 				portrait_byzantine_clothing_trigger = yes
                 portrait_royalty_trigger = {
                     CULTURE_INPUT = cfp_slavic
-                }   
+                }
 			}
 		}
 	}
