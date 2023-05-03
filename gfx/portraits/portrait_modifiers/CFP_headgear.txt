@@ -580,15 +580,20 @@ cfp_headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
-                portrait_royalty_trigger = {
-                    CULTURE_INPUT = cfp_hungarian
-                }   
-			}
-			modifier = {
 				add = 101
 				exists = this
-				has_primary_title = title:k_hungary
+				portrait_religious_christian_trigger = yes
+				OR = {
+					AND = {
+						exists = this
+						has_primary_title = title:k_hungary
+					}
+					AND = {
+						exists = primary_title
+						has_primary_title = title:e_carpathia
+						has_title = title:k_hungary
+					}
+				}
 			}
 		}
 	}
