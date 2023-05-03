@@ -107,7 +107,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 mode = add
                 gene = clothes
                 template = cfp_western_war_late
-                range = { 0 0.49 } # For the randomness to work correctly
+                range = { 0 1 } # For the randomness to work correctly
             }
 			morph = {
 				mode = modify_multiply
