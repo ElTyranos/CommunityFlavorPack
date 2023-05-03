@@ -1520,7 +1520,7 @@ special_genes = {
 				}
 				female = {
 					0 = female_headgear_secular_ep1_western_royalty_01 # CFP : we get rid of vanilla model
-					1 = male_headgear_secular_western_cfp_imperial_01
+					1 = female_headgear_secular_western_cfp_imperial_01
 				}
 				boy = male
 				girl = female
