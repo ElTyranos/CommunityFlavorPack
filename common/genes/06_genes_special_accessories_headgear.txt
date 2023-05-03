@@ -887,14 +887,14 @@ special_genes = {
 			byzantine_imperial = {
 				index = 39
 				male = {
-					3 = male_headgear_secular_byzantine_imperial_01
-					6 = male_headgear_secular_byzantine_imperial_02
-					3 = male_headgear_secular_byzantine_monomachus_01
+					1 = male_headgear_secular_byzantine_imperial_01
+					1 = male_headgear_secular_byzantine_imperial_02
+					1 = male_headgear_secular_byzantine_monomachus_01
 				}
 				female = {
-					6 = female_headgear_secular_byzantine_imperial_01
-					3 = female_headgear_secular_byzantine_imperial_02
-					3 = female_headgear_secular_byzantine_monomachus_01
+					1 = female_headgear_secular_byzantine_imperial_01
+					1 = female_headgear_secular_byzantine_imperial_02
+					1 = female_headgear_secular_byzantine_monomachus_01
 				}
 				boy = male
 				girl = female
@@ -1651,18 +1651,18 @@ special_genes = {
 			ep1_byzantine_imperial = {
 				index = 89
 				male = {
-					6 = male_headgear_secular_ep1_crown_of_justinian
+					1 = male_headgear_secular_ep1_crown_of_justinian
 					# CFP: add byzantine_imperial options or the EP1 crown is displayed 50% of the time
-					3 = male_headgear_secular_byzantine_imperial_01
-					6 = male_headgear_secular_byzantine_imperial_02
-					6 = male_headgear_secular_byzantine_monomachus_01
+					1 = male_headgear_secular_byzantine_imperial_01
+					1 = male_headgear_secular_byzantine_imperial_02
+					1 = male_headgear_secular_byzantine_monomachus_01
 				}
 				female = {
-					6 = female_headgear_secular_ep1_crown_of_justinian
+					1 = female_headgear_secular_ep1_crown_of_justinian
 					# CFP: add byzantine_imperial options or the EP1 crown is displayed 50% of the time
-					3 = female_headgear_secular_byzantine_imperial_01
-					6 = female_headgear_secular_byzantine_imperial_02
-					6 = female_headgear_secular_byzantine_monomachus_01
+					1 = female_headgear_secular_byzantine_imperial_01
+					1 = female_headgear_secular_byzantine_imperial_02
+					1 = female_headgear_secular_byzantine_monomachus_01
 				}
 				boy = male
 				girl = female
