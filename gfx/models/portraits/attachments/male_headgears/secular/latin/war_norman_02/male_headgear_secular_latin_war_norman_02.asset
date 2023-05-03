@@ -1,10 +1,7 @@
 pdxmesh = {
 	name = "male_headgear_secular_latin_war_norman_02_mesh"
 	file = "male_headgear_secular_latin_war_norman_02.mesh"
-	blend_shape = {
-		id = "male_headgear_secular_latin_war_norman_02_bs_fat"
-		type = "male_headgear_secular_latin_war_norman_02_bs_fat.mesh"
-	}
+	
 	meshsettings = {
 		name = "male_headgear_secular_latin_war_norman_02Shape"
 		index = 0
@@ -37,8 +34,4 @@ pdxmesh = {
 entity = {
 	name = "male_headgear_secular_latin_war_norman_02_entity"
 	pdxmesh = "male_headgear_secular_latin_war_norman_02_mesh"
-	attribute = {
-		name = "bs_fat_1"
-		blend_shape = "male_headgear_secular_latin_war_norman_02_bs_fat"
-	}
 }
