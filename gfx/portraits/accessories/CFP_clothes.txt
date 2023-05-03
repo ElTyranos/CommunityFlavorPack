@@ -86,10 +86,6 @@ male_clothes_secular_western_cfp_war_plate_03 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_war_plate_03_entity }
 }
-male_clothes_secular_western_cfp_war_plate_04 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_war_plate_04_entity }
-}
 male_clothes_secular_western_cfp_war_plate_05 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_war_plate_05_entity }
