@@ -462,12 +462,6 @@ portrait_african_clothing_contents_trigger = {
 }
 
 # I was unhappy with dates
-portrait_era1_trigger = {
-	current_year > 0
-	current_year < 1100
-	scope:year_of_birth >= 1
-	scope:year_of_birth < 975
-}
 portrait_era2_armor_trigger = {
 	current_year >= 1000
 	current_year < 1170
