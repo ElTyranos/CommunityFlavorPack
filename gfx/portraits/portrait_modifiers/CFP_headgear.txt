@@ -1992,6 +1992,7 @@ cfp_headgear = {
 				}
 				portrait_religious_christian_trigger = yes
 				portrait_religious_high_trigger = yes
+				# NOT = { portrait_religious_head_trigger = yes }
 	        }
 	    }
 	}
@@ -2063,7 +2064,7 @@ cfp_headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 120
+				add = 160
 				portrait_era4_trigger = yes
 				portrait_religious_head_trigger = yes
 				portrait_religious_catholic_trigger = yes	
@@ -2085,7 +2086,7 @@ cfp_headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 120
+				add = 160
 				portrait_religious_head_trigger = yes
 				portrait_religious_catholic_trigger = yes	
 			}
@@ -2106,12 +2107,12 @@ cfp_headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 140
+				add = 160
 				portrait_era4_trigger = yes
 				portrait_religious_head_popes_trigger = yes
 			}
 			modifier = { # The Catholic Trinity compatibility
-				add = 140
+				add = 160
 				portrait_era4_trigger = yes
 				faith = faith:catholic
 				exists = global_var:Trinity_is_loaded
