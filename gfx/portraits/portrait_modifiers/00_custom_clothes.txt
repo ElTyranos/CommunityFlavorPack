@@ -303,7 +303,6 @@
 		gene = clothes
 		template = cfp_latin_venetian_royalty_clothes
 	}
-########### /CFP ###########
 	
 	add_accessory_modifiers = {
 		gene = clothes
@@ -404,7 +403,6 @@
 		template = indian_war_nobility_clothes
 	}
 
-########### CFP ###########
 	add_accessory_modifiers = {
 		gene = clothes
 		template = cfp_javanese_common
@@ -418,10 +416,7 @@
 	add_accessory_modifiers = {
 		gene = clothes
 		template = cfp_javanese_royalty
-	}
-########### /CFP ###########
-	
-	
+	}	
 
 	add_accessory_modifiers = {
 		gene = clothes
@@ -443,13 +438,11 @@
 		template = sub_saharan_war_nobility_clothes
 	}
 	
-	## CFP
 	add_accessory_modifiers = {
 		gene = clothes
 		template = cfp_east_african_war_nobility_clothes
 	}
-	## /CFP
-
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = dde_hre_commoner_clothes
@@ -514,21 +507,23 @@
 		}
 	}
 	
-	## CFP Unlocked vanilla
 	add_accessory_modifiers = {
+		## CFP Unlocked vanilla
 		gene = clothes
 		template = mena_stealth
 	}
+	
 	add_accessory_modifiers = {
+		## CFP Unlocked vanilla
 		gene = clothes
 		template = western_stealth
 	}
-	## CFP
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = cfp_religious_orthodox_devoted_clothes
 	}
-	##
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_orthodox_high_clothes
@@ -543,12 +538,12 @@
 		gene = clothes
 		template = religious_muslim_high_clothes
 	}
-	## CFP
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = cfp_religious_muslim_high_turkic_clothes
 	}
-	##	
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = religious_muslim_head_clothes
@@ -563,16 +558,16 @@
 		gene = clothes
 		template = religious_catholic_high_clothes
 	}
-	## CFP
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = cfp_religious_catholic_cardinal_clothes
 	}
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = cfp_religious_catholic_head_early_clothes
 	}
-	##
 	
 	add_accessory_modifiers = {
 		gene = clothes
