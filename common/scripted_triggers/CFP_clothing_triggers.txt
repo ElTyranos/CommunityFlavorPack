@@ -464,13 +464,13 @@ portrait_african_clothing_contents_trigger = {
 # I was unhappy with dates
 portrait_era2_armor_trigger = {
 	current_year >= 1000
-	current_year < 1170
+	current_year < 1150
 }
 portrait_era3_armor_trigger = {
-	current_year >= 1150
-	current_year < 1320
+	current_year >= 1130
+	current_year < 1300
 }
 portrait_era4_armor_trigger = {
-	current_year >= 1300
+	current_year >= 1280
 }
 
