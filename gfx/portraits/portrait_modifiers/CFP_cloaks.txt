@@ -225,19 +225,8 @@ cfp_cloaks = {
 			base = 0
 			modifier = {
 				add = 110
-				AND = {
-					religion = religion:christianity_religion
-					government_has_flag = government_is_holy_order
-					is_ruler = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				exists = this
-				OR = {
-					is_adult = no
-					should_be_naked_trigger = yes
-				}
+                portrait_western_crusades_trigger = yes
+				NOT = { portrait_wear_helmet_trigger = yes }
 			}
 		}
 	}
@@ -256,19 +245,8 @@ cfp_cloaks = {
 			base = 0
 			modifier = {
 				add = 110
-				AND = {
-					religion = religion:christianity_religion
-					government_has_flag = government_is_holy_order
-					is_ruler = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				exists = this
-				OR = {
-					is_adult = no
-					should_be_naked_trigger = yes
-				}
+                portrait_western_crusades_trigger = yes
+				NOT = { portrait_wear_helmet_trigger = yes }
 			}
 		}
 	}

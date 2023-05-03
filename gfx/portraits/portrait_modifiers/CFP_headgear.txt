@@ -195,7 +195,7 @@ cfp_headgear = {
 				mode = add
 				gene = headgear
 				template = cfp_crusades_western
-				range = { 0 1 }
+				range = { 0 0.49 }
 			}
 		}	
 		outfit_tags = { western_crusades_white }
@@ -204,6 +204,10 @@ cfp_headgear = {
 			modifier = {
 				add = 110
 				portrait_western_crusades_trigger = yes
+				NOR = {
+					highest_held_title_tier > tier_county
+					portrait_wear_helmet_trigger = yes
+				}
 			}
 		}
 	}
@@ -213,8 +217,8 @@ cfp_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_crusades_western_black
-				range = { 0 1 }
+				template = cfp_crusades_western
+				range = { 0.51 1.0 }
 			}
 		}	
 		outfit_tags = { western_crusades_black }
@@ -223,6 +227,10 @@ cfp_headgear = {
 			modifier = {
 				add = 110
 				portrait_western_crusades_trigger = yes
+				NOR = {
+					highest_held_title_tier > tier_county
+					portrait_wear_helmet_trigger = yes
+				}
 			}
 		}
 	}

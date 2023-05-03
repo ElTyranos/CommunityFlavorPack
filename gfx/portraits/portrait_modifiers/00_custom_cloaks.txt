@@ -91,11 +91,6 @@
 
 	add_accessory_modifiers = {
 		gene = cloaks
-		template = cfp_western_crusades_black
-	}
-
-	add_accessory_modifiers = {
-		gene = cloaks
 		template = cfp_norse_war
 	}
 

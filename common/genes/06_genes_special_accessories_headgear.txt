@@ -2712,26 +2712,14 @@ special_genes = {
 					2 = male_cloaks_secular_western_cfp_crusades_hood_01
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_01
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_03
+					2 = male_cloaks_secular_western_cfp_crusades_hood_02 # black
+					1 = male_headgear_secular_western_pillbox_cfp_crusades_02 # black
+					1 = male_headgear_secular_western_pillbox_cfp_crusades_04 # black
 					
 				}
 				female = {
 					1 = female_cloaks_secular_western_cfp_crusades_hood_01
-					
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_crusades_western_black = {
-				index = 164
-				male = {
-					2 = male_cloaks_secular_western_cfp_crusades_hood_02
-					1 = male_headgear_secular_western_pillbox_cfp_crusades_02
-					1 = male_headgear_secular_western_pillbox_cfp_crusades_04
-					
-				}
-				female = {
-					1 = female_cloaks_secular_western_cfp_crusades_hood_02
+					1 = female_cloaks_secular_western_cfp_crusades_hood_02 # black
 					
 				}
 				boy = male
