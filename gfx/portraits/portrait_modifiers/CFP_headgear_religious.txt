@@ -1,0 +1,447 @@
+﻿cfp_headgear_religious = {
+
+	usage = game
+	selection_behavior = weighted_random
+	priority = 5
+	
+## Africans ##
+
+	cfp_african_religious_masks = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = cfp_african_religious_masks
+	            range = { 0 1 }
+	        }
+	    }
+	    outfit_tags = { priest_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 150 ## overwrite default class if rule is active
+				exists = this
+				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+				OR = {
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+					has_council_position = councillor_court_chaplain
+				}
+				OR = {
+					religion = religion:akom_religion
+					religion = religion:waaqism_religion
+					religion = religion:west_african_religion
+					religion = religion:west_african_bori_religion
+					religion = religion:west_african_roog_religion
+					religion = religion:kushitism_religion
+				}
+			}
+	    }
+	}
+	
+## Orthodox ##
+
+	cfp_religious_orthodox_devoted = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_religious_orthodox_devoted
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_religious_devoted_trigger = yes
+				portrait_religious_orthodox_trigger = yes
+			}
+		}
+	}
+
+	cfp_religious_orthodox_no_headgear = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = no_headgear # Orthodox had no headgear before 1500s
+	            range = { 0 1 }
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				# religious_orthodox_high
+				add = 1000
+				portrait_religious_orthodox_trigger = yes
+				portrait_religious_high_headgear_trigger = {
+					FAITH_INPUT = orthodox
+				}
+			}
+			modifier = {
+				# religious_orthodox_head
+				add = 1000
+				portrait_religious_head_trigger = yes
+				faith = faith:orthodox
+			}
+	    }
+	}
+
+## Catholic ##
+
+	cfp_catholic_pilgrim = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_religious_catholic_pilgrim
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				exists = this
+				portrait_religious_christian_trigger = yes
+				portrait_western_clothing_trigger = yes
+				is_male = yes
+				exists = current_travel_plan.travel_plan_activity
+				current_travel_plan = {
+					travel_plan_activity = {
+						has_activity_type = activity_pilgrimage
+					}
+				}
+			}
+		}
+	}
+	
+	cfp_religious_catholic_high_northern = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_religious_catholic_high_northern
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { priest_outfit bishop_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 150
+				exists = this
+				OR = {
+					portrait_northern_clothing_trigger = yes
+					portrait_cfp_anglo_saxon_clothing_trigger = yes
+				}
+				portrait_religious_christian_trigger = yes
+				portrait_religious_high_trigger = yes
+	        }
+	    }
+	}
+
+	cfp_catholic_cardinal = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_religious_catholic_cardinal
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { cardinal_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+	            add = 140
+				exists = this
+				is_male = yes
+				is_adult = yes
+				current_date >= 1245.1.1
+				portrait_religious_christian_trigger = yes
+				OR = {
+					AND = {
+						is_vassal_of = title:k_papal_state.holder
+						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+					}
+					AND = {
+						is_councillor_of = title:k_papal_state.holder
+						is_theocratic_lessee = yes
+					}
+					AND = {
+						exists = title:k_papal_state.holder
+						is_courtier_of = title:k_papal_state.holder
+					}
+				}
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
+				NOT = { exists = global_var:Trinity_is_loaded } # The Catholic Trinity compatibility
+			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 140
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalTrigger = yes
+			}
+	    }
+	}
+	
+	cfp_catholic_head = {
+		outfit_tags = { rank_headgear }
+		usage = game
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = catholic_head
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 160
+				portrait_era4_trigger = yes
+				portrait_religious_head_trigger = yes
+				portrait_religious_catholic_trigger = yes	
+			}
+		}
+	}
+	
+	cfp_catholic_head_early = {
+		outfit_tags = { rank_headgear }
+		usage = game
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_religious_catholic_head_early
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 160
+				portrait_religious_head_trigger = yes
+				portrait_religious_catholic_trigger = yes	
+			}
+		}
+	}
+	
+	cfp_popes = {
+		outfit_tags = { rank_headgear }
+		usage = game
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = catholic_head
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 160
+				portrait_era4_trigger = yes
+				portrait_religious_head_popes_trigger = yes
+			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 160
+				portrait_era4_trigger = yes
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
+			}
+		}
+	}
+	
+	cfp_popes_early = {
+		outfit_tags = { rank_headgear }
+		usage = game
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_religious_catholic_head_early
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 140
+				portrait_religious_head_popes_trigger = yes
+			}
+			modifier = { # The Catholic Trinity compatibility
+				add = 140
+				faith = faith:catholic
+				exists = global_var:Trinity_is_loaded
+				CatholicTrinityCardinalOrAntiPopeTrigger = yes
+			}
+		}
+	}
+
+## Jewish ##
+
+	cfp_religious_jewish_common_western = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = cfp_religious_jewish_common
+	            accessory = male_headgear_religious_jewish_cfp_judenhut_01
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 20
+				exists = this
+				portrait_cfp_jewish_western_clothing_trigger = yes
+			}
+	    }
+	}
+	
+	cfp_religious_jewish_common_mena = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = cfp_religious_jewish_common
+	            accessory = male_headgear_religious_jewish_cfp_sudra_01
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 20
+				exists = this
+				portrait_cfp_jewish_mena_clothing_trigger = yes
+			}
+	    }
+	}
+	
+	cfp_religious_jewish_common_andalusian = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = cfp_religious_jewish_common
+	            accessory = male_headgear_religious_jewish_cfp_judenhut_02
+	        }
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 20
+				exists = this
+				portrait_cfp_jewish_andalusian_clothing_trigger = yes
+			}
+	    }
+	}
+	
+## Muslim ##
+	
+	cfp_religious_muslim_high_turkic_headgear = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = headgear
+	            template = cfp_religious_muslim_high_turkic
+	            range = { 0 1 }
+	        }
+	    }
+	    outfit_tags = { priest_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 120
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_muslim_trigger = yes
+				OR = {
+					portrait_cfp_turkic_clothing_trigger = yes
+					portrait_cfp_iranian_clothing_trigger = yes
+				}
+			}
+	    }
+	}
+
+## Buddhist
+
+	cfp_religious_buddhist_tibetan_mask = {
+	    dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_religious_buddhist_tibetan_mask
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				range = { 0 1 } # For the randomness to work correctly
+			}
+	    }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 110
+				exists = this
+				portrait_cfp_tibetan_clothing_trigger = yes
+				OR = {
+					has_trait = lunatic
+					has_trait = possessed
+				}
+				OR = {
+					religion = religion:buddhism_religion
+					religion = religion:bon_religion
+					religion = religion:taoism_religion
+				}
+			}
+	    }
+	}
+
+## Hinduist ##
+
+	cfp_religious_hindu_devoted_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				OR = {
+					scope:faith.religion = religion:hinduism_religion
+				}
+			}
+		}
+	}
+
+}
