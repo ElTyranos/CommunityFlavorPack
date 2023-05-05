@@ -9,7 +9,7 @@
 	
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
-		template = cfp_western_war_late
+		template = cfp_western_war_plate_armor
 	}
 	
 	add_accessory_modifiers = {

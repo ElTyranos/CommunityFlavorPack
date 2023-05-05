@@ -15,7 +15,7 @@
 				girl = female
 			}
 			
-			cfp_western_war_late = {
+			cfp_western_war_plate_armor = {
 				index = 1
 				male = {
 					1 = male_headgear_secular_western_cfp_war_pixane_01

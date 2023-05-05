@@ -101,12 +101,12 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
         }
 	}
 
-    cfp_western_war_late = {
+    cfp_western_war_plate_armor = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = cfp_western_war_late
+                template = cfp_western_war_plate_armor
                 range = { 0 1 } # For the randomness to work correctly
             }
 			morph = {
