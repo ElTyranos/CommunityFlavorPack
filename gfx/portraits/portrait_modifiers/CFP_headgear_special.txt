@@ -235,7 +235,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				exists = this
 				NOR = {
 					portrait_wear_no_headgear_trigger = yes
@@ -262,7 +262,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				exists = this
 				NOR = {
 					portrait_wear_no_headgear_trigger = yes

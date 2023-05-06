@@ -181,7 +181,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_latin } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = cfp_latin 
                 }
@@ -201,7 +201,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_latin
                 }
@@ -251,7 +251,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_iberian_christian } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = cfp_iberian_christian 
                 }
@@ -271,7 +271,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_iberian_christian
                 }   
@@ -293,7 +293,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_hungarian
                 }   
@@ -343,7 +343,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_slavic } 
 			modifier = {
-				add = 50
+				add = 60
 				portrait_northern_clothing_trigger = yes
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = cfp_slavic 
@@ -364,7 +364,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				portrait_northern_clothing_trigger = yes
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_slavic
@@ -385,7 +385,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				OR = {
 					portrait_northern_clothing_trigger = yes
 					portrait_western_clothing_trigger = yes
@@ -409,7 +409,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				portrait_byzantine_clothing_trigger = yes
                 portrait_royalty_trigger = {
                     CULTURE_INPUT = cfp_slavic
@@ -430,7 +430,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				portrait_imperial_trigger = {
                     CULTURE_INPUT = cfp_slavic 
                 }
@@ -478,13 +478,13 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = cfp_burmese 
                 }
 			}
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_burmese
                 }   
@@ -504,7 +504,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_royalty_trigger = {
                     CULTURE_INPUT = cfp_burmese
                 }   
@@ -556,7 +556,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_bedouin } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = cfp_bedouin 
                 }
@@ -576,7 +576,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_bedouin
                 }   
@@ -655,7 +655,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_iranian } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_iranian
                 }
@@ -675,7 +675,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_iranian
                 }   
@@ -735,7 +735,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_turkic } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_turkic
                 }
@@ -755,7 +755,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_turkic
                 }   
@@ -775,7 +775,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
 				OR = {
 					portrait_imperial_trigger = {
 						CULTURE_INPUT = cfp_turkic
@@ -801,7 +801,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_oghuz } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_oghuz
                 }
@@ -821,7 +821,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_oghuz
                 }   
@@ -844,7 +844,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_west_africa } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_west_africa
                 }
@@ -864,7 +864,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_west_africa
                 }
@@ -917,7 +917,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_east_africa } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_east_africa
                 }
@@ -937,7 +937,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_east_africa
                 }   
@@ -957,7 +957,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_imperial_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_east_africa 
                 }
@@ -978,7 +978,7 @@ cfp_headgear_base = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = mena } 
 			modifier = {
-				add = 50
+				add = 60
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_central_africa
                 }
@@ -998,7 +998,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_central_africa
                 }   
