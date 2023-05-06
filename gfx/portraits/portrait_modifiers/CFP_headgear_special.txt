@@ -20,7 +20,10 @@
 			modifier = {
 				add = 101
 				exists = this
-				NOT = { portrait_wear_no_headgear_trigger = yes }
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
 				portrait_religious_christian_trigger = yes
 				OR = {
 					AND = {
@@ -51,7 +54,10 @@
 			modifier = {
 				add = 101
 				exists = this
-				NOT = { portrait_wear_no_headgear_trigger = yes }
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
 				portrait_era4_trigger = yes
 				OR = {
 					AND = {
@@ -81,7 +87,10 @@
 			modifier = {
 				add = 101
 				exists = this
-				NOT = { portrait_wear_no_headgear_trigger = yes }
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
 				portrait_religious_christian_trigger = yes
 				has_primary_title = title:k_croatia
 			}
@@ -104,6 +113,7 @@
 				exists = this
 				NOR = {
 					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
 					has_game_rule = never_cfp_fullplate_helmets
 					culture = { has_cultural_era_or_later = culture_era_early_medieval }
 				}
@@ -133,6 +143,7 @@
 				NOR = { 
 					is_female = yes
 					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
 				}
 				AND = { 
 					exists = this
@@ -156,7 +167,10 @@
 			modifier = {
 				add = 101
 				exists = this
-				NOT = { portrait_wear_no_headgear_trigger = yes }
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
 				portrait_religious_christian_trigger = yes
 				OR = {
 					AND = {
@@ -187,7 +201,10 @@
 			modifier = {
 				add = 101
 				exists = this
-				NOT = { portrait_wear_no_headgear_trigger = yes }
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
 				portrait_religious_christian_trigger = yes
 				OR = {
 					AND = {
@@ -220,6 +237,10 @@
 			modifier = {
 				add = 50
 				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
 				portrait_has_trait_trigger = { TRAIT = augustus }
 				AND = {
 					NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
@@ -243,6 +264,11 @@
 			modifier = {
 				add = 50
 				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+					government_has_flag = government_is_theocracy
+				}
 				OR = {
 					AND = {
 						portrait_has_trait_trigger = { TRAIT = scholar }
@@ -263,7 +289,6 @@
 						}
 					}
 				}
-				NOT = { government_has_flag = government_is_theocracy }
 			}
 		}
 	}
