@@ -557,7 +557,10 @@
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_norman_sicily 
 				}
-				NOT = { has_game_rule = never_cfp_fullplate_helmets }
+				NOR = {
+					has_game_rule = never_cfp_fullplate_helmets
+					portrait_era4_armor_trigger = yes
+				}
 			}
 		}
 	}
