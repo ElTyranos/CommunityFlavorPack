@@ -12,7 +12,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_hungarian_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -46,7 +46,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_albanian_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -79,7 +79,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_croatian_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -103,7 +103,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_anglo_saxon_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -132,7 +132,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_latin_venetian_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -229,7 +229,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_rre_imperial
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -256,7 +256,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_trait_laurel
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {

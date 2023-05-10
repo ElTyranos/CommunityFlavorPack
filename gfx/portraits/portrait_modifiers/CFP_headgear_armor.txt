@@ -10,7 +10,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_western_war_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
         outfit_tags = { military_outfit }
@@ -58,7 +58,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_western_war_plate_armor
-				range = { 0.27 1.0 } # For the randomness to work correctly
+				range = { 0.27 1.0 }
 			}
 		}
         outfit_tags = { military_outfit }
@@ -81,7 +81,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_western_war_plate_armor
-				range = { 0 0.26 } # For the randomness to work correctly
+				range = { 0 0.26 }
 			}
 		}
         outfit_tags = { military_outfit }
@@ -98,7 +98,7 @@
 			}
 		}
 	}
-	
+
 ## Latin
 
 	cfp_latin_war = {
@@ -107,7 +107,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_latin_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -189,7 +189,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_hungarian_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -212,7 +212,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_slavic_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -235,7 +235,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_mena_war_high_medieval
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
         outfit_tags = { military_outfit }
@@ -260,7 +260,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_mena_war_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
         outfit_tags = { military_outfit }
@@ -278,7 +278,7 @@
         }
 	}
 
-## Andalusians
+## Andalusian
 
 	cfp_andalusian_war = {
 		dna_modifiers = {
@@ -286,7 +286,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_andalusian_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -326,7 +326,7 @@
         }
 	}
 
-##  Iranians ##
+## Iranian
 
 	cfp_iranian_war = {
 		dna_modifiers = {
@@ -334,7 +334,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_iranian_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
         outfit_tags = { military_outfit }
@@ -374,7 +374,7 @@
 		}
 	}
 
-## turkic ##
+## Turkic
 
 	cfp_turkic_war = {
 		dna_modifiers = {
@@ -382,7 +382,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_turkic_war
-				range = { 0.51 1.0 } # For the randomness to work correctly
+				range = { 0.51 1.0 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -403,7 +403,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_turkic_war
-				range = { 0 0.49 } # For the randomness to work correctly
+				range = { 0 0.49 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -419,7 +419,7 @@
 		}
 	}
 
-## Northern Pagans ##
+## Northern Pagans
 
 	cfp_norse_war_common = {
 		dna_modifiers = {
@@ -427,7 +427,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_norse_war
-				range = { 0 0.74 } # For the randomness to work correctly
+				range = { 0 0.74 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -448,7 +448,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_norse_war
-				range = { 0.76 1.0 } # For the randomness to work correctly
+				range = { 0.76 1.0 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -464,7 +464,7 @@
 		}
 	}
 
-## Normans ##
+## Norman
 
 	cfp_norman_war = {
 		dna_modifiers = {
@@ -516,7 +516,7 @@
 		}
 	}
 
-## Africans ##
+## African
 
 	cfp_west_african_war = {
 		dna_modifiers = {
@@ -524,7 +524,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_west_african_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -545,7 +545,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_east_african_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -566,7 +566,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_central_african_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }

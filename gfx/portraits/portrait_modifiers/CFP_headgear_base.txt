@@ -62,7 +62,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_crusades_western_commoner
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		outfit_tags = { western_crusades_commoner }
@@ -148,7 +148,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_latin_common
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -174,7 +174,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_latin_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -195,7 +195,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_latin_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -208,7 +208,7 @@ cfp_headgear_base = {
 			}
 		}
 	}
-
+	
 ## Iberian
 
 	cfp_iberian_commoners = {
@@ -218,7 +218,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_iberian_common
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -244,7 +244,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_iberian_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -265,7 +265,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_iberian_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -287,7 +287,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_hungarian_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -310,7 +310,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_slavic_commoner
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -336,7 +336,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_slavic_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -358,7 +358,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_slavic_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -424,7 +424,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_slavic_imperial
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -446,7 +446,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = no_headgear
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -472,7 +472,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_javanese_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -498,7 +498,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_javanese_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -520,7 +520,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_egyptian_common
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -549,7 +549,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_bedouin_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -570,7 +570,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_bedouin_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}		
 		weight = {
@@ -596,7 +596,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_iranian_common
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -628,7 +628,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_iranian_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -648,7 +648,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_iranian_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -669,7 +669,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_iranian_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}		
 		weight = {
@@ -691,7 +691,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_turkic_common
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -728,7 +728,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_turkic_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -749,7 +749,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_turkic_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -769,7 +769,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_turkic_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -794,7 +794,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_oghuz_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -815,7 +815,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_oghuz_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -837,7 +837,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_west_african_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -858,7 +858,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_west_african_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -878,7 +878,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_east_african_common
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -910,7 +910,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_east_african_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -931,7 +931,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_east_african_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -951,7 +951,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_east_african_imperial
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -971,7 +971,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_central_african_low_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		weight = {
@@ -992,7 +992,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_central_african_high_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}		
 		weight = {

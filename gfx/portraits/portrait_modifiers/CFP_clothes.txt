@@ -59,7 +59,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				mode = add
 				gene = clothes
 				template = cfp_western_high_nobility_clothes_late
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 			morph = {
 				mode = modify_multiply
@@ -101,7 +101,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 mode = add
                 gene = clothes
                 template = cfp_western_war_plate_armor
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 1 }
             }
 			morph = {
 				mode = modify_multiply
@@ -165,7 +165,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 mode = add
                 gene = clothes
                 template = western_crusades
-				range = { 0 0.82 } # For the randomness to work correctly
+				range = { 0 0.82 }
             }
         }
         outfit_tags = { western_crusades_black }
@@ -191,7 +191,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 mode = add
                 gene = clothes
                 template = western_crusades
-				range = { 0.83 1 } # For the randomness to work correctly
+				range = { 0.83 1 }
                 # accessory = m_clothes_sec_dde_hre_war_nob_01_lo
             }
         }
@@ -218,7 +218,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				mode = add
 				gene = clothes
 				template = cfp_latin_venetian_royalty_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 
 		}
@@ -283,7 +283,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				mode = add
 				gene = clothes
 				template = cfp_javanese_common
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -318,7 +318,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				mode = add
 				gene = clothes
 				template = cfp_javanese_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -411,7 +411,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				mode = add
 				gene = clothes
 				template = cfp_javanese_royalty
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}		
 		weight = {
@@ -469,7 +469,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 gene = clothes
                 template = sub_saharan_war_nobility_clothes
                 # accessory = m_clothes_sec_mena_war_nob_01_lo
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 1 }
             }
         }
         outfit_tags = { military_outfit }
@@ -528,7 +528,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				mode = add
 				gene = clothes
 				template = cfp_east_african_war_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 			morph = {
 				mode = modify_multiply
@@ -571,7 +571,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				mode = add
 				gene = clothes
 				template = cfp_religious_orthodox_devoted_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 			morph = {
 				mode = modify_multiply
