@@ -795,15 +795,17 @@ special_genes = {
 			northern_high_nobility = {
 				index = 34
 				male = {
-					1 = male_headgear_secular_western_high_nobility_01
+					# 1 = male_headgear_secular_western_high_nobility_01
+					1 = male_headgear_secular_northern_cfp_high_nobility_01
 				}
 				female = {
-					1 = female_headgear_secular_western_high_nobility_01
+					# 1 = female_headgear_secular_western_high_nobility_01
+					1 = female_headgear_secular_northern_cfp_high_nobility_01
 				}
 				boy = male
 				girl = female
 			}
-
+			
 			northern_royalty = {
 				index = 35
 				male = {
