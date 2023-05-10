@@ -894,28 +894,22 @@ special_genes = {
 					10 = m_headgear_sec_byzantine_war_nob_01_lo
 					10 = m_headgear_sec_byzantine_war_nob_01_hi
 					10 = m_headgear_sec_byzantine_war_nob_01_roy
-					10 = male_headgear_secular_byzantine_war_roman_01
-					10 = male_headgear_secular_byzantine_war_roman_02
-					10 = male_headgear_secular_byzantine_war_kettle_hat_01
-					10 = male_headgear_secular_byzantine_war_nasal_01
-					4 = male_headgear_secular_western_war_mail_coif_01
-					4 = male_headgear_secular_western_war_mail_coif_03
-					4 = male_headgear_secular_western_war_padded_hood_01
-					8 = male_headgears_secular_hungarian_war_helmet_01
+					10 = male_headgear_secular_byzantine_war_kettle_hat_01 # CFP kettle hat
+					10 = male_headgear_secular_byzantine_war_nasal_01 # CFP Varangian
+					# <era2
+					10 = male_headgear_secular_byzantine_war_roman_01 #CFP Roman helmet
+					10 = male_headgear_secular_byzantine_war_roman_02 #CFP Roman helmet
 					
 				}
 				female = {
 					10 = f_headgear_sec_byzantine_war_nob_01_lo
 					10 = f_headgear_sec_byzantine_war_nob_01_hi
 					10 = f_headgear_sec_byzantine_war_nob_01_roy
-					10 = female_headgear_secular_byzantine_war_roman_01
-					10 = female_headgear_secular_byzantine_war_roman_02
-					10 = female_headgear_secular_byzantine_war_kettle_hat_01
-					10 = female_headgear_secular_byzantine_war_nasal_01
-					4 = female_headgear_secular_western_war_mail_coif_01
-					4 = female_headgear_secular_western_war_mail_coif_03
-					4 = female_headgear_secular_western_war_padded_hood_01
-					8 = female_headgears_secular_hungarian_war_helmet_01
+					10 = female_headgear_secular_byzantine_war_kettle_hat_01 # CFP kettle hat
+					10 = female_headgear_secular_byzantine_war_nasal_01 # CFP Varangian
+					# <era2
+					10 = female_headgear_secular_byzantine_war_roman_01 #CFP Roman helmet
+					10 = female_headgear_secular_byzantine_war_roman_02 #CFP Roman helmet
 					
 				}
 				boy = male
