@@ -201,6 +201,7 @@
 			modifier = {
 				add = 101
 				exists = this
+				portrait_era4_trigger = yes
 				NOR = {
 					portrait_wear_no_headgear_trigger = yes
 					portrait_wear_helmet_trigger = yes

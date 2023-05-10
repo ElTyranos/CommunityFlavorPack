@@ -139,10 +139,7 @@
 				add = 101
 				exists = this
 				portrait_wear_helmet_trigger = yes
-				OR = {
-					portrait_era3_armor_trigger = yes
-					portrait_era4_armor_trigger = yes
-				}
+				portrait_era4_armor_trigger = yes
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				portrait_religious_christian_trigger = yes
 				OR = {
