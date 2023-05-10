@@ -364,9 +364,6 @@ special_genes = {
 				index = 7
 				male = {
 					5 = m_headgear_sec_western_war_nob_01
-					5 = male_headgear_secular_western_war_kettle_hat_01
-					5 = male_headgear_secular_western_war_kettle_hat_02
-					5 = male_headgear_secular_western_war_kettle_hat_03
 					4 = male_headgear_secular_western_war_mail_coif_01
 					4 = male_headgear_secular_western_war_mail_coif_02
 					4 = male_headgear_secular_western_war_mail_coif_03
@@ -377,9 +374,6 @@ special_genes = {
 				}
 				female = {
 					5 = f_headgear_sec_western_war_nob_01
-					5 = female_headgear_secular_western_war_kettle_hat_01
-					5 = female_headgear_secular_western_war_kettle_hat_02
-					5 = female_headgear_secular_western_war_kettle_hat_03
 					4 = female_headgear_secular_western_war_mail_coif_01
 					4 = female_headgear_secular_western_war_mail_coif_02
 					4 = female_headgear_secular_western_war_mail_coif_03
@@ -2128,11 +2122,19 @@ special_genes = {
 					4 = male_headgear_secular_western_war_flat_top_01
 					4 = male_headgear_secular_western_war_topf_01
 					1 = male_headgear_secular_western_war_sugarloaf_01
+					# era4
+					5 = male_headgear_secular_western_war_kettle_hat_01
+					5 = male_headgear_secular_western_war_kettle_hat_02
+					5 = male_headgear_secular_western_war_kettle_hat_03
 				}
 				female = {
 					4 = female_headgear_secular_western_war_flat_top_01
 					4 = female_headgear_secular_western_war_topf_01
 					1 = female_headgear_secular_western_war_sugarloaf_01
+					# era4
+					5 = male_headgear_secular_western_war_kettle_hat_01
+					5 = male_headgear_secular_western_war_kettle_hat_02
+					5 = male_headgear_secular_western_war_kettle_hat_03
 				}
 				boy = male
 				girl = female
