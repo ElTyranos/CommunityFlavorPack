@@ -202,6 +202,7 @@ cfp_headgear_base = {
 			base = 0
 			modifier = {
 				add = 60
+				portrait_era2_trigger = yes
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_latin
                 }
