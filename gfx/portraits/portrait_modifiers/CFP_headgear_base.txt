@@ -513,6 +513,31 @@ cfp_headgear_base = {
 		}
 	}
 
+## Indians
+
+
+	cfp_indian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_indian_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				NOT = { is_female = yes }
+				portrait_era4_trigger = yes
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = indian
+                }   
+			}
+		}
+	}
+
 ## Egyptians
 
 	cfp_egyptian_commoners = {
