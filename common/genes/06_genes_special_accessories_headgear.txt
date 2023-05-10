@@ -488,9 +488,6 @@ special_genes = {
 					1 = m_headgear_sec_crusades_mena_war_nob_01_lo
 					1 = m_headgear_sec_mena_war_nob_01_hi
 					1 = m_headgear_sec_crusades_mena_war_nob_01_hi
-					1 = male_headgear_secular_mena_cfp_war_mail_coif_01
-					1 = male_headgear_secular_mena_cfp_war_mail_coif_02
-					1 = male_headgear_secular_mena_cfp_war_striped_01
 					
 				}
 				female = {
@@ -498,9 +495,6 @@ special_genes = {
 					1 = f_headgear_sec_crusades_mena_war_nob_01_lo
 					1 = f_headgear_sec_mena_war_nob_01_hi
 					1 = f_headgear_sec_crusades_mena_war_nob_01_hi
-					1 = female_headgear_secular_mena_cfp_war_mail_coif_01
-					1 = female_headgear_secular_mena_cfp_war_mail_coif_02
-					1 = female_headgear_secular_mena_cfp_war_striped_01
 				}
 				boy = male
 				girl = female
@@ -2606,123 +2600,20 @@ special_genes = {
 				girl = female
 			}
 			
-			cfp_iranian_common = {
-				index = 156
+			# MENA
+			
+			cfp_mena_war = {
+				index = 200
 				male = {
-					5 = empty
-					10 = male_headgear_secular_iranian_cfp_panel_common_01
+					1 = male_headgear_secular_mena_cfp_war_mail_coif_01
+					1 = male_headgear_secular_mena_cfp_war_mail_coif_02
+					1 = male_headgear_secular_mena_cfp_war_striped_01
 					
 				}
 				female = {
-					10 = empty
-					10 = female_headgear_secular_iranian_cfp_panel_common_01
-					
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_iranian_low_nobility = {
-				index = 157
-				male = {
-					5 = empty
-					10 = male_headgear_secular_iranian_cfp_panel_low_01
-					10 = male_headgear_secular_iranian_cfp_qalansuwah_low_01
-					10 = male_headgear_secular_iranian_cfp_qalansuwah_low_02
-				}
-				female = {
-					15 = empty
-					10 = female_headgear_secular_iranian_cfp_panel_low_01
-				}
-				boy = male
-				girl = female
-			}	
-			
-			cfp_iranian_high_nobility = {
-				index = 158
-				male = {
-					10 = male_headgear_secular_iranian_cfp_qalansuwah_high_01
-				}
-				female = {}
-				boy = male
-				girl = female
-			}	
-			
-			cfp_iranian_war = {
-				index = 159
-				male = {
-					1 = male_headgear_secular_iranian_cfp_war_mail_coif_01
-					1 = male_headgear_secular_iranian_cfp_war_quilted_01
-					1 = male_headgear_secular_iranian_cfp_war_quilted_02
-					1 = male_headgear_secular_iranian_cfp_war_leather_01
-				}
-				female = {
-					1 = female_headgear_secular_iranian_cfp_war_mail_coif_01
-					1 = female_headgear_secular_iranian_cfp_war_quilted_01
-					1 = female_headgear_secular_iranian_cfp_war_quilted_02
-					1 = female_headgear_secular_iranian_cfp_war_leather_01
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_iranian_war_high_medieval = {
-				index = 160
-				male = {
-					1 = male_headgear_secular_iranian_cfp_war_khud_01
-					1 = male_headgear_secular_iranian_cfp_war_khud_02
-					1 = male_headgear_secular_iranian_cfp_war_ilkanate_01
-				}
-				female = {
-					1 = female_headgear_secular_iranian_cfp_war_khud_01
-					1 = female_headgear_secular_iranian_cfp_war_khud_02
-					1 = female_headgear_secular_iranian_cfp_war_ilkanate_01
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_albanian_royalty = {
-				index = 161
-				male = {
-					1 = male_headgear_secular_slavic_cfp_skanderbeg_01
-				}
-				female = {
-					1 = female_headgear_secular_slavic_cfp_skanderbeg_01
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_crusades_western_commoner = {
-				index = 162
-				male = {
-					1 = male_cloaks_secular_western_cfp_crusades_hood_03
-					
-				}
-				female = {
-					1 = female_cloaks_secular_western_cfp_crusades_hood_03
-					
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_crusades_western = {
-				index = 163
-				male = {
-					2 = male_cloaks_secular_western_cfp_crusades_hood_01
-					1 = male_headgear_secular_western_pillbox_cfp_crusades_01
-					1 = male_headgear_secular_western_pillbox_cfp_crusades_03
-					2 = male_cloaks_secular_western_cfp_crusades_hood_02 # black
-					1 = male_headgear_secular_western_pillbox_cfp_crusades_02 # black
-					1 = male_headgear_secular_western_pillbox_cfp_crusades_04 # black
-					
-				}
-				female = {
-					1 = female_cloaks_secular_western_cfp_crusades_hood_01
-					1 = female_cloaks_secular_western_cfp_crusades_hood_02 # black
-					
+					1 = female_headgear_secular_mena_cfp_war_mail_coif_01
+					1 = female_headgear_secular_mena_cfp_war_mail_coif_02
+					1 = female_headgear_secular_mena_cfp_war_striped_01
 				}
 				boy = male
 				girl = female

@@ -665,6 +665,11 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
+		template = cfp_mena_war
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
 		template = cfp_mena_war_high_medieval
 	}
 	add_accessory_modifiers = {
