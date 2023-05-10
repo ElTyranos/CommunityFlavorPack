@@ -778,16 +778,14 @@ special_genes = {
 				index = 33
 				male = {
 					1 = empty
-					1 = male_headgear_secular_northern_common_01
-					1 = male_headgear_secular_western_pillbox_common_01
-					1 = male_headgear_secular_western_pillbox_common_02
+					4 = male_headgear_secular_northern_common_01
 					1 = male_headgear_secular_western_headband_common_01
 					
 				}
 				female = {
 					10 = empty
 					2 = female_headgear_secular_northern_common_01
-					2 = female_headgear_secular_western_headband_common_01
+					1 = female_headgear_secular_western_headband_common_01
 					
 				}
 				boy = male
