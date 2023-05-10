@@ -128,6 +128,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                         CULTURE_INPUT = western
                     }
                 }
+				portrait_era4_armor_trigger = yes
                 cfp_innovation_plate_armor_trigger = yes 
             }
             modifier = {
@@ -140,6 +141,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                         CULTURE_INPUT = western
                     }
                 }
+				portrait_era4_armor_trigger = yes
                 cfp_innovation_plate_armor_trigger = yes  
             }
             modifier = {
@@ -147,6 +149,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 portrait_high_nobles_armor_trigger = {
                     CULTURE_INPUT = western
                 }
+				portrait_era4_armor_trigger = yes
                 cfp_innovation_plate_armor_trigger = yes 
             }
             modifier = {
@@ -154,6 +157,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 portrait_high_nobles_armor_in_army_trigger = {
                     CULTURE_INPUT = western
                 }
+				portrait_era4_armor_trigger = yes
                 cfp_innovation_plate_armor_trigger = yes  
             }
         }

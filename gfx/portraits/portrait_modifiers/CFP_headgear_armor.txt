@@ -95,6 +95,7 @@
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = western 
 				}
+				portrait_era4_armor_trigger = yes
 				cfp_innovation_plate_armor_trigger = yes
 			}
 		}
@@ -118,6 +119,7 @@
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = western 
 				}
+				portrait_era4_armor_trigger = yes
 				cfp_innovation_plate_armor_trigger = yes
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 			}
