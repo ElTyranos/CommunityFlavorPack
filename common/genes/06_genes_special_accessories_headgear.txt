@@ -1074,8 +1074,6 @@ special_genes = {
 				index = 51
 				male = {
 					5 = male_headgear_secular_indian_high_nobility_01
-					1 = male_headgear_secular_indian_cfp_high_nobility_01
-					1 = male_headgear_secular_indian_cfp_high_nobility_02
 				}
 				female = {
 					5 = female_headgear_secular_indian_nobility_02
@@ -1083,7 +1081,7 @@ special_genes = {
 				}
 				boy = male
 				girl = female
-			}	
+			}
 
 			indian_nobility = {
 				index = 52
@@ -1158,16 +1156,12 @@ special_genes = {
 					5 = m_headgear_sec_indian_war_nob_01_lo
 					5 = m_headgear_sec_indian_war_nob_01_hi
 					5 = m_headgear_sec_indian_war_nob_01_roy
-					5 = male_headgear_secular_indian_cfp_war_tibetan_01
-					5 = male_headgear_secular_indian_cfp_war_timurid_01
 					
 				}
 				female = {
 					5 = f_headgear_sec_indian_war_nob_01_lo
 					5 = f_headgear_sec_indian_war_nob_01_hi
 					5 = f_headgear_sec_indian_war_nob_01_roy
-					5 = female_headgear_secular_indian_cfp_war_tibetan_01
-					5 = female_headgear_secular_indian_cfp_war_timurid_01
 					
 				}
 				boy = male
@@ -2164,7 +2158,43 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-						
+			
+			cfp_crusades_western_commoner = {
+				index = 162
+				male = {
+					1 = male_cloaks_secular_western_cfp_crusades_hood_03
+					
+				}
+				female = {
+					1 = female_cloaks_secular_western_cfp_crusades_hood_03
+					
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_crusades_western = {
+				index = 163
+				male = {
+					2 = male_cloaks_secular_western_cfp_crusades_hood_01
+					1 = male_headgear_secular_western_pillbox_cfp_crusades_01
+					1 = male_headgear_secular_western_pillbox_cfp_crusades_03
+					2 = male_cloaks_secular_western_cfp_crusades_hood_02 # black
+					1 = male_headgear_secular_western_pillbox_cfp_crusades_02 # black
+					1 = male_headgear_secular_western_pillbox_cfp_crusades_04 # black
+					
+				}
+				female = {
+					1 = female_cloaks_secular_western_cfp_crusades_hood_01
+					1 = female_cloaks_secular_western_cfp_crusades_hood_02 # black
+					
+				}
+				boy = male
+				girl = female
+			}
+			
+			# North
+			
 			cfp_norse_war = {
 				index = 125
 				male = {
@@ -2194,6 +2224,22 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			cfp_norman_sicily_war = {
+				index = 130
+				male = {
+					1 = male_headgear_secular_latin_war_norman_01
+					1 = male_headgear_secular_latin_war_norman_02
+				}
+				female = {
+					1 = female_headgear_secular_latin_war_norman_01
+					1 = female_headgear_secular_latin_war_norman_02
+				}
+				boy = male
+				girl = female
+			}
+			
+			# Greek
 			
 			cfp_hungarian_high_nobility = {
 				index = 127
@@ -2237,19 +2283,7 @@ special_genes = {
 				girl = female
 			}
 			
-			cfp_norman_sicily_war = {
-				index = 130
-				male = {
-					1 = male_headgear_secular_latin_war_norman_01
-					1 = male_headgear_secular_latin_war_norman_02
-				}
-				female = {
-					1 = female_headgear_secular_latin_war_norman_01
-					1 = female_headgear_secular_latin_war_norman_02
-				}
-				boy = male
-				girl = female
-			}
+			# Steppe
 			
 			cfp_turkic_high_nobility = {
 				index = 131
@@ -2332,6 +2366,8 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			# Slavic
 			
 			cfp_slavic_commoner = {
 				index = 136
@@ -2417,31 +2453,31 @@ special_genes = {
 				girl = female
 			}
 			
-			cfp_rre_imperial = {
-				index = 142
+			cfp_albanian_royalty = {
+				index = 161
 				male = {
-					1 = male_headgear_secular_rre_laurelwreath_02
-					1 = male_headgear_secular_rre_laurelwreath_03
+					1 = male_headgear_secular_slavic_cfp_skanderbeg_01
 				}
 				female = {
-					1 = female_headgear_secular_rre_laurelwreath_02
-					1 = female_headgear_secular_rre_laurelwreath_03
+					1 = female_headgear_secular_slavic_cfp_skanderbeg_01
 				}
 				boy = male
 				girl = female
 			}
 			
-			cfp_trait_laurel = {
-				index = 143
+			cfp_croatian_royalty = {
+				index = 196
 				male = {
-					1 = male_headgear_secular_rre_laurelwreath_01
+					1 = male_headgear_secular_slavic_cfp_royalty_02
 				}
 				female = {
-					1 = female_headgear_secular_rre_laurelwreath_01
+					1 = female_headgear_secular_slavic_cfp_royalty_02
 				}
 				boy = male
 				girl = female
 			}
+			
+			# Latin
 			
 			cfp_latin_common = {
 				index = 144
@@ -2513,6 +2549,8 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			## Iberian
 			
 			cfp_iberian_common = {
 				index = 149
@@ -2726,6 +2764,84 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			cfp_iranian_common = {
+				index = 156
+				male = {
+					5 = empty
+					10 = male_headgear_secular_iranian_cfp_panel_common_01
+					
+				}
+				female = {
+					10 = empty
+					10 = female_headgear_secular_iranian_cfp_panel_common_01
+					
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_iranian_low_nobility = {
+				index = 157
+				male = {
+					5 = empty
+					10 = male_headgear_secular_iranian_cfp_panel_low_01
+					10 = male_headgear_secular_iranian_cfp_qalansuwah_low_01
+					10 = male_headgear_secular_iranian_cfp_qalansuwah_low_02
+				}
+				female = {
+					15 = empty
+					10 = female_headgear_secular_iranian_cfp_panel_low_01
+				}
+				boy = male
+				girl = female
+			}	
+			
+			cfp_iranian_high_nobility = {
+				index = 158
+				male = {
+					10 = male_headgear_secular_iranian_cfp_qalansuwah_high_01
+				}
+				female = {}
+				boy = male
+				girl = female
+			}	
+			
+			cfp_iranian_war = {
+				index = 159
+				male = {
+					1 = male_headgear_secular_iranian_cfp_war_mail_coif_01
+					1 = male_headgear_secular_iranian_cfp_war_quilted_01
+					1 = male_headgear_secular_iranian_cfp_war_quilted_02
+					1 = male_headgear_secular_iranian_cfp_war_leather_01
+				}
+				female = {
+					1 = female_headgear_secular_iranian_cfp_war_mail_coif_01
+					1 = female_headgear_secular_iranian_cfp_war_quilted_01
+					1 = female_headgear_secular_iranian_cfp_war_quilted_02
+					1 = female_headgear_secular_iranian_cfp_war_leather_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_iranian_war_high_medieval = {
+				index = 160
+				male = {
+					1 = male_headgear_secular_iranian_cfp_war_khud_01
+					1 = male_headgear_secular_iranian_cfp_war_khud_02
+					1 = male_headgear_secular_iranian_cfp_war_ilkanate_01
+				}
+				female = {
+					1 = female_headgear_secular_iranian_cfp_war_khud_01
+					1 = female_headgear_secular_iranian_cfp_war_khud_02
+					1 = female_headgear_secular_iranian_cfp_war_ilkanate_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			# CFP African
 			
 			cfp_african_religious_masks = {
 				index = 173
@@ -3055,32 +3171,10 @@ special_genes = {
 				girl = female
 			}
 			
-			cfp_croatian_royalty = {
-				index = 196
-				male = {
-					1 = male_headgear_secular_slavic_cfp_royalty_02
-				}
-				female = {
-					1 = female_headgear_secular_slavic_cfp_royalty_02
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_northern_high_nobility = {
-				index = 197
-				male = {
-					1 = male_headgear_secular_northern_cfp_high_nobility_01
-				}
-				female = {
-					1 = female_headgear_secular_northern_cfp_high_nobility_01
-				}
-				boy = male
-				girl = female
-			}
+			# Misc
 			
 			cfp_fantasy_witches = {
-				index = 198
+				index = 197
 				male = {
 					1 = male_headgear_fantasy_cfp_wizard_hat_01
 					1 = male_headgear_fantasy_cfp_enchanter_hat_01
@@ -3089,6 +3183,32 @@ special_genes = {
 					1 = female_headgear_fantasy_cfp_celtic_circlet_01
 					1 = female_headgear_fantasy_cfp_wizard_hat_01
 					1 = female_headgear_fantasy_cfp_enchanter_hat_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_rre_imperial = {
+				index = 142
+				male = {
+					1 = male_headgear_secular_rre_laurelwreath_02
+					1 = male_headgear_secular_rre_laurelwreath_03
+				}
+				female = {
+					1 = female_headgear_secular_rre_laurelwreath_02
+					1 = female_headgear_secular_rre_laurelwreath_03
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_trait_laurel = {
+				index = 143
+				male = {
+					1 = male_headgear_secular_rre_laurelwreath_01
+				}
+				female = {
+					1 = female_headgear_secular_rre_laurelwreath_01
 				}
 				boy = male
 				girl = female
