@@ -879,6 +879,11 @@
 	
 	add_accessory_modifiers = {
 		gene = headgear
+		template = cfp_indian_war
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = cfp_javanese_nobility
 	}
 	

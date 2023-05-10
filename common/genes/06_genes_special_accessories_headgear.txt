@@ -2940,6 +2940,22 @@ special_genes = {
 				girl = female
 			}
 			
+			cfp_indian_war = {
+				index = 199
+				male = {
+					5 = male_headgear_secular_indian_cfp_war_tibetan_01
+					5 = male_headgear_secular_indian_cfp_war_timurid_01
+				}
+				female = {
+					5 = female_headgear_secular_indian_cfp_war_tibetan_01
+					5 = female_headgear_secular_indian_cfp_war_timurid_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			# Religious
+			
 			cfp_religious_catholic_head_early = {
 				index = 188
 				male = {
