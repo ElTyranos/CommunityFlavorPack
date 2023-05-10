@@ -35,7 +35,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_western_era3_war_nobility
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 0.36 } # Fullplate helms
 			}
 		}
         outfit_tags = { military_outfit }
@@ -188,7 +188,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_iberian_war
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -401,7 +401,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_iranian_war_high_medieval
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0 1 }
 			}
 		}
         outfit_tags = { military_outfit }
