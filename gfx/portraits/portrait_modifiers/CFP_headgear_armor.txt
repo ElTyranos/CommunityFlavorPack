@@ -199,7 +199,21 @@
 			modifier = {
 				add = 60
 				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = western 
+				}
+				portrait_commoner_armor_trigger = {
 					CULTURE_INPUT = cfp_iberian_christian
+				}
+				AND = {
+					NOT = { has_ep2_dlc_trigger = yes }
+					OR = {
+						portrait_commoner_armor_trigger = { 
+							CULTURE_INPUT = fp2_iberian_christian
+						}
+						portrait_low_nobles_armor_trigger = { 
+							CULTURE_INPUT = fp2_iberian_christian
+						}
+					}
 				}
 			}
 		}
