@@ -261,8 +261,8 @@ special_genes = {
 					10 = male_headgear_secular_dde_hre_common_02
 					10 = male_headgear_secular_western_nobility_03
 					10 = male_headgear_secular_western_nobility_04
-					5 = male_headgear_secular_western_pillbox_common_01
-					5 = male_headgear_secular_western_pillbox_common_02
+					2 = male_headgear_secular_western_pillbox_common_01
+					2 = male_headgear_secular_western_pillbox_common_02
 				}
 				female = {
 					30 = empty
@@ -285,7 +285,7 @@ special_genes = {
 					8 = male_headgear_secular_western_cfp_high_nobility_01
 					8 = male_headgear_secular_western_high_nobility_04
 					8 = male_headgear_secular_slavic_high_nobility_01
-					2 = male_headgear_secular_western_pillbox_low_01
+					1 = male_headgear_secular_western_pillbox_low_01
 				}
 				female = {
 					10 = female_headgear_secular_western_high_nobility_01
@@ -328,11 +328,11 @@ special_genes = {
 			western_common = {
 				index = 5
 				male = {
-					1 = male_headgear_secular_western_common_01
-					1 = male_headgear_secular_western_common_02
+					5 = male_headgear_secular_western_common_01
+					5 = male_headgear_secular_western_common_02
 					1 = male_headgear_secular_western_pillbox_common_01
 					1 = male_headgear_secular_western_pillbox_common_02
-					1 = male_headgear_secular_western_headband_common_01
+					2 = male_headgear_secular_western_headband_common_01
 				}
 				female = {
 					35 = empty
@@ -2170,10 +2170,10 @@ special_genes = {
 			cfp_crusades_western = {
 				index = 163
 				male = {
-					2 = male_cloaks_secular_western_cfp_crusades_hood_01
+					4 = male_cloaks_secular_western_cfp_crusades_hood_01
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_01
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_03
-					2 = male_cloaks_secular_western_cfp_crusades_hood_02 # black
+					4 = male_cloaks_secular_western_cfp_crusades_hood_02 # black
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_02 # black
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_04 # black
 					
