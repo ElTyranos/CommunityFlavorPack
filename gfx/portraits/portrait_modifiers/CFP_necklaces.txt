@@ -2,14 +2,14 @@
 	
 	usage = game
 	selection_behavior = weighted_random
-	fallback = no_necklace
+	fallback = cfp_no_necklace
 	
-	no_necklace = {
+	cfp_no_necklace = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = special_accessories_necklace
-                template = no_necklace
+                template = cfp_no_necklace
                 range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -23,12 +23,12 @@
 		}
 	}
 	
-	western_royalty_ermine = {
+	cfp_western_royalty_ermine = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = western_royalty_ermine
+				template = cfp_western_royalty_ermine
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -44,18 +44,18 @@
 						portrait_northern_clothing_trigger = yes
 						OR = {
 							portrait_fp1_norse_clothing_trigger = no
-							cfp_portrait_norse_clothing_trigger = no
+							portrait_cfp_norse_clothing_trigger = no
 							AND = {
 								portrait_fp1_norse_clothing_trigger = yes
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
 							AND = {
-								cfp_portrait_norse_clothing_trigger = yes
+								portrait_cfp_norse_clothing_trigger = yes
 								NOR = {
-									has_government = tribal_government
+									government_has_flag = government_is_tribal
 									religion = religion:germanic_religion
 								}
 							}
@@ -68,9 +68,9 @@
 				OR = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
-					has_government = theocracy_government
+					government_has_flag = government_is_theocracy
 					AND = {
-						has_government = republic_government
+						government_has_flag = government_is_republic
 						NOT = { primary_title = title:k_venice }
 					}
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
@@ -80,12 +80,12 @@
 		}
 	}
 	
-	western_high_nobility = {
+	cfp_western_high_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = western_high_nobility
+				template = cfp_western_high_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -117,12 +117,12 @@
 		}
 	}
 	
-	african_low_nobility = {
+	cfp_african_low_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = african_low_nobility
+				template = cfp_african_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -132,12 +132,12 @@
 				add = 101
 				exists = this
 				NOR = {
-					cfp_portrait_central_africa_clothing_trigger = yes
+					portrait_cfp_central_africa_clothing_trigger = yes
 					is_male = yes
 				}
 				OR = {
-					cfp_portrait_west_africa_clothing_trigger = yes
-					cfp_portrait_east_africa_clothing_trigger = yes
+					portrait_cfp_west_africa_clothing_trigger = yes
+					portrait_cfp_east_africa_clothing_trigger = yes
 				}
 				OR = {
 					AND = {
@@ -145,10 +145,10 @@
 						NOR = {
 							has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 					AND = {
@@ -162,10 +162,10 @@
 							NOR = {
 								has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 						}
 					}
@@ -174,12 +174,12 @@
 		}
 	}
 	
-	central_african_low_nobility = {
+	cfp_central_african_low_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = central_african_low_nobility
+				template = cfp_central_african_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -188,17 +188,17 @@
 			modifier = {
 				add = 101
 				exists = this
-				cfp_portrait_central_africa_clothing_trigger = yes
+				portrait_cfp_central_africa_clothing_trigger = yes
 				OR = {
 					AND = {
 						highest_held_title_tier >= tier_county # and above
 						NOR = {
 							has_dynasty = no
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
 					}
 					AND = {
@@ -212,10 +212,10 @@
 							NOR = {
 								has_dynasty = no
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 						}
 					}
@@ -224,12 +224,12 @@
 		}
 	}
 	
-	religious_catholic_cross = {
+	cfp_religious_catholic_cross = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = religious_catholic_cross
+				template = cfp_religious_catholic_cross
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -263,46 +263,28 @@
 		}
 	}
 	
-	religious_catholic_pilgrim = {
+	cfp_religious_catholic_pilgrim = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_necklace
-				template = religious_catholic_pilgrim
+				template = cfp_religious_catholic_pilgrim
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 101
+				add = 80
 				exists = this
-				religion = religion:christianity_religion
+				portrait_religious_christian_trigger = yes
 				portrait_western_clothing_trigger = yes
-				OR = {	
-					AND = {
-						portrait_has_trait_trigger = { TRAIT = pilgrim }
-						highest_held_title_tier <= tier_county
+				is_male = yes
+				exists = current_travel_plan.travel_plan_activity
+				current_travel_plan = {
+					travel_plan_activity = {
+						has_activity_type = activity_pilgrimage
 					}
-					OR = {
-						has_character_modifier = pilgrimage_divine_protection_modifier
-						has_character_modifier = new_pilgrimage_companions_modifier
-						has_character_modifier = pilgrimage_completely_lost_modifier
-						has_character_modifier = dedicated_to_pilgrimage_modifier
-						has_character_modifier = pilgrimage_worldly_modifier
-						has_character_modifier = pilgrimage_rest_and_good_health_modifier
-						# has_character_modifier = pilgrimage_armed_pilgrimages_modifier # determined pilgrim is gained by 99.9% of AIs, we want the hat to appear unique
-					}
-				}
-				NOR = {
-					faith = { has_doctrine_parameter = vows_of_poverty_active }
-					faith = faith:orthodox
-					faith = faith:armenian_apostolic
-					faith = faith:coptic
-					faith = faith:messalian
-					faith = faith:bogomilist
-					faith = faith:paulician
-					faith = faith:nestorian
 				}
 			}
 		}

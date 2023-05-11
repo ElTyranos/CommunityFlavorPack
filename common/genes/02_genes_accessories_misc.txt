@@ -65,14 +65,14 @@ accessory_genes = {
 			boy = {}
 			girl = {}
 		}
-		one_eyed_eyes = {
+		cfp_one_eyed_eyes = {
 			index = 7
 			male = { 1 = "cfp_male_one_eyed_eyes" }
 			female = { 1 = "cfp_female_one_eyed_eyes" }
 			boy = male
 			girl = female
 		}
-		one_eyed_missing_eyes = {
+		cfp_one_eyed_missing_eyes = {
 			index = 8
 			male = {
 				1 = "cfp_male_one_eyed_missing_eyes"
@@ -130,14 +130,14 @@ accessory_genes = {
 			boy = {}
 			girl = {}
 		}
-		afar_teeth = {
+		cfp_afar_teeth = {
 			index = 2
 			male = {
 				1 = "male_teeth_normal"
 			}
 			female = {
-				2 = "female_teeth_normal"
-				2 = "cfp_afar_female_teeth_pointy"
+				1 = "female_teeth_normal"
+				1 = "cfp_afar_female_teeth_pointy"
 			}
 			boy = {
 				1 = "boy_teeth_normal"

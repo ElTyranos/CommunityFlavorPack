@@ -3,7 +3,7 @@ create_artifact_cfp_kris_dagger_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	
-	hidden_effect_new_artifact = {
+	hidden_effect = {
 		# Intrigue education gives a nicer dagger
 		if = {
 			limit = {
@@ -68,7 +68,7 @@ create_artifact_cfp_iron_dagger_effect = {
 	
 	$OWNER$ = { save_scope_as = owner }
 	
-	hidden_effect_new_artifact = {
+	hidden_effect = {
 		
 		set_artifact_rarity_illustrious = yes
 		
@@ -105,7 +105,7 @@ create_artifact_cfp_potato_jesus_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
 	
-	hidden_effect_new_artifact = {
+	hidden_effect = {
 		
 		set_artifact_rarity_common = yes
 		
@@ -139,7 +139,7 @@ create_artifact_cfp_saint_statue_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
 	
-	hidden_effect_new_artifact = {
+	hidden_effect = {
 		
 		set_artifact_rarity_masterwork = yes
 		
@@ -173,7 +173,7 @@ create_artifact_cfp_mary_statue_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
 	
-	hidden_effect_new_artifact = {
+	hidden_effect = {
 		
 		set_artifact_rarity_famed = yes
 		

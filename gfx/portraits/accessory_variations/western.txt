@@ -92,6 +92,12 @@ pattern_textures = {
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/western/western_wool_plain_01_properties.dds"
 }
 pattern_textures = {
+	name = "western_wool_plain_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/western/western_wool_plain_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/western/western_wool_plain_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/western/western_wool_plain_02_properties.dds"
+}
+pattern_textures = {
 	name = "western_wool_trim_01"
 	colormask	= "gfx/portraits/accessory_variations/textures/patterns/western/western_wool_trim_01_masks.dds"
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/western/western_wool_trim_01_normal.dds"
@@ -128,10 +134,10 @@ pattern_textures = {
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/western/western_wool_belt_01_properties.dds"
 }
 pattern_textures = {
-	name = "western_leather_plain_01"
-	colormask	= "gfx/portraits/accessory_variations/textures/patterns/western/western_leather_plain_01_masks.dds"
-	normal		= "gfx/portraits/accessory_variations/textures/patterns/western/western_leather_plain_01_normal.dds"
-	properties	= "gfx/portraits/accessory_variations/textures/patterns/western/western_leather_plain_01_properties.dds"
+	name = "leather_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/all/leather_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/all/leather_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/all/leather_plain_01_properties.dds"
 }
 pattern_textures = {
 	name = "western_gold_plain_01"
@@ -148,7 +154,7 @@ pattern_textures = {
 }
 
 pattern_textures = {
-	name = "western_chainmail"
+	name = "western_chainmail_01"
 	colormask	= "gfx/portraits/accessory_variations/textures/patterns/all/chainmail_plain_01_masks.dds"
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/all/chainmail_plain_01_normal.dds"
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/all/chainmail_plain_01_properties.dds"
@@ -336,85 +342,85 @@ variation = {
 	}
 	
 	#----------------------------------- VANILLA -------------------------------
-	pattern = {
+	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_01" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_01" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_02" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_02" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_03" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_03" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_04" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_04" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_02" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_02" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_plain_01" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_plain_01" 	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 		
 	# Color palette textures are 16-wide and N-high.
@@ -433,34 +439,34 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}			
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}			
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
@@ -478,34 +484,34 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
 	}			
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_02" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
 	}			
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
@@ -523,34 +529,34 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "big_trim_layout_01" }
+		r = { textures = "western_silk_brocade_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}			
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_02" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "big_trim_layout_01" }
+		r = { textures = "western_silk_brocade_02" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_02" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_03" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "big_trim_layout_01" }
+		r = { textures = "western_silk_brocade_03" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_04" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"	layout = "big_trim_layout_01" }
+		r = { textures = "western_silk_brocade_04" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}			
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
@@ -568,34 +574,34 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}		
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}		
 		
 	# Color palette textures are 16-wide and N-high.
@@ -614,42 +620,42 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_01" 	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_02" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_02" 	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_03" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_03" 	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_04" 	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 2
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_plain_01" 	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
 	}	
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
@@ -667,34 +673,34 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_01" 	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01"	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
 	}	
 		
 	# Color palette textures are 16-wide and N-high.
@@ -713,17 +719,17 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_wool_trim_big_01" layout = "big_trim_layout_01" }
-		b = { textures = "western_wool_trim_03" layout = "small_trim_layout" }
+		b = { textures = "western_wool_trim_03" 	layout = "small_trim_layout" }
 		a = { textures = "western_linen_trim_01"	layout = "edge_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01"	layout = "plain_fabric_layout" }
 		g = { textures = "western_wool_trim_big_01" layout = "big_trim_layout_01" }
-		b = { textures = "western_wool_trim_04" layout = "small_trim_layout" }
+		b = { textures = "western_wool_trim_04" 	layout = "small_trim_layout" }
 		a = { textures = "western_linen_trim_02"	layout = "edge_trim_layout" }
 	}	
 		
@@ -751,34 +757,34 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_02" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_02"	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_03" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_03"	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_04" 	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 2
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_plain_01" 	layout = "western_silk_brocade_01_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
@@ -796,34 +802,34 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_silk_trim_big_01"	layout = "big_trim_layout_01" } 
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01" layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01" 	layout = "small_trim_layout" }
 	}	
 		
 	# Color palette textures are 16-wide and N-high.
@@ -842,18 +848,18 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_wool_trim_big_01" layout = "big_trim_layout_01" }
-		b = { textures = "western_wool_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		b = { textures = "western_wool_trim_03" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_wool_trim_big_01" layout = "big_trim_layout_01" }
-		b = { textures = "western_wool_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
+		b = { textures = "western_wool_trim_04" 	layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}	
 		
 	# Color palette textures are 16-wide and N-high.
@@ -863,50 +869,7 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_common_big_trim_01.dds" }	
 }
 
-variation = {
-	name = "western_surcoats_01"
-	
-	# patterns are sampled using UV-set 2
-	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
-	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
-	}			
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_02" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
-	}	
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
-	}	
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_belt_01"	layout = "small_trim_layout" }
-	}			
-	# Color palette textures are 16-wide and N-high.
-	# Shaders will chose a row in the texture at random, and each column will be sampled once.
-	# First column will be masked by the red channel in the masks, second by the green, etc.
-	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_surcoats_01.dds" }	
-}
+
 
 variation = {
 	name = "western_legwear_common_01"
@@ -917,7 +880,7 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		g = { textures = "western_leather_plain_01" layout = "plain_fabric_layout" }
 		b = { textures = "western_leather_plain_01" layout = "plain_fabric_layout" }
 		a = { textures = "western_linen_plain_01"	layout = "plain_fabric_layout" }
@@ -939,9 +902,9 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_plain_01" 	layout = "plain_fabric_layout" }
 		a = { textures = "western_wool_plain_01"	layout = "small_trim_layout" }
 	}			
 		
@@ -961,9 +924,9 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
 		a = { textures = "western_linen_plain_01"	layout = "small_trim_layout" }
 	}			
 		
@@ -983,9 +946,9 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
 		a = { textures = "western_linen_plain_01"	layout = "small_trim_layout" }
 	}		
 	pattern = { 
@@ -1013,9 +976,9 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
 		a = { textures = "all_silver_plain_rough_01"	layout = "plain_fabric_layout" }
 	}		
 		
@@ -1036,58 +999,58 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_01" layout = "medium_trim_layout" }
-		a = { textures = "western_silk_trim_02"	layout = "medium_trim_layout" }
+		r = { textures = "western_silk_brocade_01"	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_silk_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_01" 	layout = "medium_trim_layout" }
+		a = { textures = "western_silk_trim_02"		layout = "medium_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_02" layout = "medium_trim_layout" }
-		a = { textures = "western_silk_trim_04"	layout = "medium_trim_layout" }
+		r = { textures = "western_silk_brocade_01"	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_silk_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_02" 	layout = "medium_trim_layout" }
+		a = { textures = "western_silk_trim_04"		layout = "medium_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_02" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_03" layout = "medium_trim_layout" }
-		a = { textures = "western_silk_trim_01"	layout = "medium_trim_layout" }
+		r = { textures = "western_silk_brocade_02"	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_silk_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "medium_trim_layout" }
+		a = { textures = "western_silk_trim_01"		layout = "medium_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_03" layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_04" layout = "medium_trim_layout" }
-		a = { textures = "western_silk_trim_01"	layout = "medium_trim_layout" }
+		r = { textures = "western_silk_brocade_03"	layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "medium_trim_layout" }
+		a = { textures = "western_silk_trim_01"		layout = "medium_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_04" layout = "medium_trim_layout" }
-		a = { textures = "western_silk_trim_01"	layout = "medium_trim_layout" }
+		r = { textures = "western_silk_brocade_04"	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_silk_plain_01"	layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_04" 	layout = "medium_trim_layout" }
+		a = { textures = "western_silk_trim_01"		layout = "medium_trim_layout" }
 	}	
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_04" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_03" layout = "medium_trim_layout" }
-		a = { textures = "western_silk_trim_01"	layout = "medium_trim_layout" }
+		r = { textures = "western_silk_brocade_04"	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_silk_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_03" 	layout = "medium_trim_layout" }
+		a = { textures = "western_silk_trim_01"		layout = "medium_trim_layout" }
 	}
 	pattern = { 
 		weight = 3
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_01" layout = "medium_trim_layout" }
-		a = { textures = "western_silk_trim_02"	layout = "medium_trim_layout" }
+		r = { textures = "western_silk_plain_01"	layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_silk_plain_01"	layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_01"		layout = "medium_trim_layout" }
+		a = { textures = "western_silk_trim_02"		layout = "medium_trim_layout" }
 	}	
 
 
@@ -1108,10 +1071,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_plain_01" layout = "small_trim_layout" }
-		a = { textures = "western_gold_plain_01"	layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_fine_plain_01"	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_fine_plain_01"	layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_plain_01"		layout = "small_trim_layout" }
+		a = { textures = "western_gold_plain_01"		layout = "plain_fabric_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1119,44 +1082,6 @@ variation = {
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_headgear_nobility_veil_01.dds" }	
-}
-
-variation = {
-	name = "hre_veil_01"
-	
-	# patterns are sampled using UV-set 2
-	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
-	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_gold_plain_01"	layout = "plain_fabric_layout" }
-	}
-		pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_gold_plain_01"	layout = "plain_fabric_layout" }
-	}
-		pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_fine_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_gold_plain_01"	layout = "plain_fabric_layout" }
-	}			
-		
-	# Color palette textures are 16-wide and N-high.
-	# Shaders will chose a row in the texture at random, and each column will be sampled once.
-	# First column will be masked by the red channel in the masks, second by the green, etc.
-	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_hre_veil_01.dds" }	
 }
 
 variation = {
@@ -1168,10 +1093,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_plain_01" layout = "small_trim_layout" }
-		a = { textures = "western_gold_plain_01"	layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_gold_plain_01"		layout = "plain_fabric_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1190,10 +1115,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_wool_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_trim_04" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_plain_01"		layout = "small_trim_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1212,10 +1137,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
-		g = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_brocade_01" 		layout = "western_silk_brocade_01_layout" }
+		g = { textures = "western_silk_brocade_01" 		layout = "western_silk_brocade_01_layout" }
+		b = { textures = "western_silk_trim_04" 		layout = "small_trim_layout" }
+		a = { textures = "western_silk_brocade_01" 		layout = "western_silk_brocade_01_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1235,10 +1160,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
-		b = { textures = "western_silk_trim_04" layout = "small_trim_layout" }
-		a = { textures = "western_silk_brocade_01" layout = "western_silk_brocade_01_layout" }
+		r = { textures = "western_silk_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_brocade_01" 		layout = "western_silk_brocade_01_layout" }
+		b = { textures = "western_silk_trim_04" 		layout = "small_trim_layout" }
+		a = { textures = "western_silk_brocade_01" 		layout = "western_silk_brocade_01_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1257,10 +1182,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_plain_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_plain_01" layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_plain_01" 		layout = "small_trim_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1280,10 +1205,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_wool_plain_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_plain_01" layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_plain_01" 		layout = "small_trim_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1415,10 +1340,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_leather_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_leather_plain_01" layout = "plain_fabric_layout" }
-		a = { textures = "western_wool_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "western_leather_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "western_leather_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1437,10 +1362,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_silk_plain_01"	layout = "plain_fabric_layout" }
+		r = { textures = "western_silk_brocade_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
+		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_silk_plain_01"		layout = "plain_fabric_layout" }
 	}			
 			
 	# Color palette textures are 16-wide and N-high.
@@ -1459,10 +1384,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_wool_trim_01" layout = "small_trim_layout" }
-		b = { textures = "western_wool_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_silk_plain_01"	layout = "plain_fabric_layout" }
+		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_trim_01" 		layout = "small_trim_layout" }
+		b = { textures = "western_wool_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_silk_plain_01"		layout = "plain_fabric_layout" }
 	}			
 			
 	# Color palette textures are 16-wide and N-high.
@@ -1483,28 +1408,28 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_wool_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_wool_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_wool_trim_02"			layout = "small_trim_layout" }
+		a = { textures = "western_wool_plain_01"		layout = "small_trim_layout" }
 	}			
 		
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_wool_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_wool_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_wool_trim_03" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_plain_01"		layout = "small_trim_layout" }
 	}	
 
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_trim_01" layout = "edge_trim_layout" }
-		b = { textures = "western_wool_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_wool_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_wool_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01"		layout = "edge_trim_layout" }
+		b = { textures = "western_wool_trim_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_wool_plain_01"		layout = "small_trim_layout" }
 	}	
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
@@ -1522,28 +1447,28 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_plain_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_01" layout = "small_trim_layout" }
-		a = { textures = "western_silk_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_01"		layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_silk_plain_01"		layout = "small_trim_layout" }
 	}			
 		
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_02" layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_plain_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_02" layout = "small_trim_layout" }
-		a = { textures = "western_silk_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_02" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_silk_plain_01"		layout = "small_trim_layout" }
 	}	
 
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_brocade_03" layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_plain_01" layout = "edge_trim_layout" }
-		b = { textures = "western_silk_trim_03" layout = "small_trim_layout" }
-		a = { textures = "western_silk_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_silk_brocade_03" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_silk_plain_01" 		layout = "edge_trim_layout" }
+		b = { textures = "western_silk_trim_03" 		layout = "small_trim_layout" }
+		a = { textures = "western_silk_plain_01"		layout = "small_trim_layout" }
 	}	
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
@@ -1551,6 +1476,7 @@ variation = {
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_headgear_nobility_low_01.dds" }	
 }
+
 
 
 variation = {
@@ -1562,10 +1488,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_plain_01" layout = "plain_fabric_layout" }
-		b = { textures = "western_linen_plain_01" layout = "small_trim_layout" }
-		a = { textures = "western_linen_plain_01"	layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_plain_01"		layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01"		layout = "small_trim_layout" }
+		a = { textures = "western_linen_plain_01"		layout = "small_trim_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
@@ -1576,7 +1502,7 @@ variation = {
 }
 
 variation = {
-	name = "western_war_noble_01"
+	name = "western_war_coa_01_low"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1584,27 +1510,263 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01"			 layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_trim_01"	 			layout = "small_trim_layout" }
-		b = { textures = "western_silk_trim_01" 				layout = "small_trim_layout" }
-		a = { textures = "western_chainmail"				layout = "plain_fabric_layout" }
-	}
-
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01"			 layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_trim_02"	 			layout = "small_trim_layout" }
-		b = { textures = "western_silk_trim_01" 				layout = "small_trim_layout" }
-		a = { textures = "western_chainmail"				layout = "plain_fabric_layout" }
-	}
-
+		r = { textures = "western_wool_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_wool_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}			
 		
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_nobles_01.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_coa_low_01.dds" }	
+}
+
+
+variation = {
+	name = "western_war_coa_01_high"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}			
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}		
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_coa_high_01.dds" }	
+}
+
+variation = {
+	name = "western_war_noble_01_low"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_linen_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}			
+		
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_low_01.dds" }	
+}
+
+
+variation = {
+	name = "western_war_noble_01_high"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}			
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_02"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_03"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_03" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}		
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_high_01.dds" }	
+}
+
+variation = {
+	name = "western_war_noble_01_royal"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}			
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_02"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_03"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_03" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}		
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_high_01.dds" }	
+}
+
+variation = {
+	name = "dde_hre_war_noble_01_low"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}			
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_02"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_03"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_03" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
+	}		
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_low_01.dds" }	
+}
+
+
+
+variation = {
+	name = "dde_hre_war_noble_01_high"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_01"			layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 				layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_big_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"				layout = "western_silk_brocade_01_layout" }
+	}			
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_02"			layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 				layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_big_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"				layout = "western_silk_brocade_01_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_03"			layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 				layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_big_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"				layout = "western_silk_brocade_01_layout" }
+	}		
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_high_01.dds" }	
+}
+
+variation = {
+	name = "dde_hre_war_noble_01_royal"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_01"			layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 				layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_big_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"				layout = "western_silk_brocade_01_layout" }
+	}			
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_02"			layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 				layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_big_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"				layout = "western_silk_brocade_01_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_silk_brocade_03"			layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 				layout = "plain_fabric_layout" }
+		b = { textures = "western_silk_trim_big_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"				layout = "western_silk_brocade_01_layout" }
+	}		
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_high_01.dds" }	
 }
 
 variation = {
@@ -1616,34 +1778,17 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_wool_plain_01"	 layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_trim_01"	 	layout = "small_trim_layout" }
-		b = { textures = "western_chainmail" 		layout = "western_silk_brocade_01_layout" }
-		a = { textures = "western_chainmail"		layout = "small_trim_layout" }
+		r = { textures = "western_linen_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "leather_plain_01"	 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_chainmail_01"			layout = "western_silk_brocade_01_layout" }
 	}			
 		
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_silk_plain_01"	 layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_trim_01"	 	layout = "small_trim_layout" }
-		b = { textures = "western_chainmail" 		layout = "western_silk_brocade_01_layout" }
-		a = { textures = "western_chainmail"		layout = "small_trim_layout" }
-	}
-
-	pattern = { 
-		weight = 1
-		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01"	 layout = "plain_fabric_layout" }
-		g = { textures = "western_silk_trim_01"	 	layout = "small_trim_layout" }
-		b = { textures = "western_chainmail" 		layout = "western_silk_brocade_01_layout" }
-		a = { textures = "western_chainmail"		layout = "small_trim_layout" }
-	}
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_nobles_01.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_low_01.dds" }	
 }
 
 variation = {
@@ -1655,17 +1800,17 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "western_linen_plain_01"	 	layout = "plain_fabric_layout" }
-		g = { textures = "western_linen_plain_01"	 		layout = "small_trim_layout" }
-		b = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
-		a = { textures = "western_linen_plain_01"		layout = "plain_fabric_layout" }
+		r = { textures = "western_linen_plain_01"		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_plain_01"	 	layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 		layout = "small_trim_layout" }
+		a = { textures = "western_linen_plain_01"		layout = "western_silk_brocade_01_layout" }
 	}			
 		
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_stealth_01.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_war_noble_low_01.dds" }	
 }
 
 variation = {

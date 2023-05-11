@@ -1,0 +1,1035 @@
+﻿# Tags:
+# rank_headgear: any headgear that signifies a certain title. crowns, pope hat etc.
+
+# Valid culture inputs
+
+# CULTURE_INPUT = dde_abbasid
+# CULTURE_INPUT = dde_hre
+# CULTURE_INPUT = byzantine
+# CULTURE_INPUT = indian
+# CULTURE_INPUT = mena
+# CULTURE_INPUT = northern
+# CULTURE_INPUT = western
+# CULTURE_INPUT = western_era1
+# CULTURE_INPUT = western_era2
+# CULTURE_INPUT = western_era3
+# CULTURE_INPUT = western_era4
+# CULTURE_INPUT = steppe
+# CULTURE_INPUT = fp1_norse
+# CULTURE_INPUT = fp2_iberian_christian
+# CULTURE_INPUT = fp2_iberian_muslim
+
+# Valid CFP culture inputs
+
+# CULTURE_INPUT = cfp_norse
+# CULTURE_INPUT = cfp_anglo_saxon
+# CULTURE_INPUT = cfp_norman
+# CULTURE_INPUT = cfp_norman_sicily
+# CULTURE_INPUT = cfp_hungarian
+# CULTURE_INPUT = cfp_turkic
+# CULTURE_INPUT = cfp_dde_turkic
+# CULTURE_INPUT = cfp_oghuz
+# CULTURE_INPUT = cfp_slavic
+# CULTURE_INPUT = cfp_latin
+# CULTURE_INPUT = cfp_iberian_christian
+# CULTURE_INPUT = cfp_iberian_muslim
+# CULTURE_INPUT = cfp_iranian
+# CULTURE_INPUT = cfp_berber
+# CULTURE_INPUT = cfp_bedouin
+# CULTURE_INPUT = cfp_egyptian
+# CULTURE_INPUT = cfp_east_africa
+# CULTURE_INPUT = cfp_central_africa
+# CULTURE_INPUT = cfp_west_africa
+# CULTURE_INPUT = cfp_afar
+# CULTURE_INPUT = cfp_burmese
+# CULTURE_INPUT = cfp_tibetan
+# CULTURE_INPUT = cfp_tibetan
+# CULTURE_INPUT = cfp_jewish_western
+# CULTURE_INPUT = cfp_jewish_mena
+# CULTURE_INPUT = cfp_jewish_andalusian
+# CULTURE_INPUT = cfp_jewish
+
+cfp_headgear_base = {
+
+	usage = game
+	selection_behavior = weighted_random
+	priority = 1
+
+## Crusader hood
+	cfp_crusades_western_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_crusades_western_commoner
+				range = { 0 1 }
+			}
+		}	
+		outfit_tags = { western_crusades_commoner }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				OR = {
+					AND = {
+						has_council_position = councillor_spymaster
+						highest_held_title_tier < tier_county
+					}
+					AND = {
+						portrait_has_trait_trigger = { TRAIT = witch }
+						is_landed = no
+						is_lowborn = yes
+					}
+				}
+				OR = {
+					portrait_western_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						NOT = { is_theocratic_lessee = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	cfp_crusades_western = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_crusades_western
+				range = { 0 0.49 }
+			}
+		}	
+		outfit_tags = { western_crusades_white }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_western_crusades_trigger = yes
+				NOR = {
+					highest_held_title_tier > tier_county
+					portrait_wear_helmet_trigger = yes
+				}
+			}
+		}
+	}
+	
+	cfp_crusades_western_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_crusades_western
+				range = { 0.51 1.0 }
+			}
+		}	
+		outfit_tags = { western_crusades_black }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_western_crusades_trigger = yes
+				NOR = {
+					highest_held_title_tier > tier_county
+					portrait_wear_helmet_trigger = yes
+				}
+			}
+		}
+	}
+
+## Latin
+
+	cfp_latin_commoners = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_latin_common
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = cfp_latin
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = cfp_latin
+				}
+			}
+		}
+	}
+
+	cfp_latin_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_latin_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_latin } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = cfp_latin 
+                }
+			}
+		}
+	}
+
+	cfp_latin_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_latin_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_era2_trigger = yes
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_latin
+                }
+			}
+		}
+	}
+	
+## Iberian
+
+	cfp_iberian_commoners = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iberian_common
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = cfp_iberian_christian
+                }
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = cfp_iberian_christian
+                }
+			}
+		}
+	}
+
+	cfp_iberian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iberian_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_iberian_christian } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = cfp_iberian_christian 
+                }
+			}
+		}
+	}
+
+	cfp_iberian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iberian_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_iberian_christian
+                }   
+			}
+		}
+	}
+
+## Hungarian
+
+	cfp_hungarian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_hungarian_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_hungarian
+                }   
+			}
+		}
+	}
+	
+## Slavic
+
+	cfp_slavic_commoners = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_slavic_commoner
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = cfp_slavic
+                }
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = cfp_slavic
+                }
+			}
+		}
+	}
+
+	cfp_slavic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_slavic_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_slavic } 
+			modifier = {
+				add = 60
+				portrait_northern_clothing_trigger = yes
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = cfp_slavic 
+                }
+			}
+		}
+	}
+
+	cfp_slavic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_slavic_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_northern_clothing_trigger = yes
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_slavic
+                }   
+			}
+		}
+	}
+
+	cfp_slavic_royalty_north = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_slavic_royalty
+				range = { 0.51 1.0 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				OR = {
+					portrait_northern_clothing_trigger = yes
+					portrait_western_clothing_trigger = yes
+				}
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = cfp_slavic
+                }
+			}
+		}
+	}
+	
+	cfp_slavic_royalty_south = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_slavic_royalty
+				range = { 0 0.49 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_byzantine_clothing_trigger = yes
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = cfp_slavic
+                }
+			}
+		}
+	}
+
+	cfp_slavic_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_slavic_imperial
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_imperial_trigger = {
+                    CULTURE_INPUT = cfp_slavic 
+                }
+			}
+		}
+	}
+
+## JAVANESE ##
+
+	cfp_burmese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = cfp_burmese
+                }
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = cfp_burmese
+                }
+			}
+		}
+	}
+
+	cfp_burmese_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_javanese_nobility
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = cfp_burmese 
+                }
+			}
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_burmese
+                }   
+			}
+		}
+	}
+
+	cfp_burmese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_javanese_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = cfp_burmese
+                }   
+			}
+		}
+	}
+
+## Indians
+
+
+	cfp_indian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_indian_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				NOT = { is_female = yes }
+				portrait_era4_trigger = yes
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = indian
+                }   
+			}
+		}
+	}
+
+## Egyptians
+
+	cfp_egyptian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_egyptian_common
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = cfp_egyptian
+                }
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = cfp_egyptian
+                }
+			}
+		}
+	}
+
+
+## Bedouins
+
+	cfp_bedouin_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_bedouin_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_bedouin } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = cfp_bedouin 
+                }
+			}
+		}
+	}
+
+	cfp_bedouin_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_bedouin_high_nobility
+				range = { 0 1 }
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_bedouin
+                }   
+			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
+		}
+	}
+
+##  Iranians ##
+
+	cfp_iranian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iranian_common
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = cfp_iranian
+                }
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+                portrait_jester_trigger = {  
+                    CULTURE_INPUT = cfp_iranian 
+                }
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = cfp_iranian
+                }
+			}
+		}
+	}
+
+	cfp_iranian_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iranian_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_mayor_headgear_trigger = {
+					CULTURE_INPUT = cfp_iranian
+				}
+			}
+		}
+	}
+
+	cfp_iranian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iranian_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_iranian } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_iranian
+                }
+			}
+		}
+	}
+
+	cfp_iranian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iranian_high_nobility
+				range = { 0 1 }
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_iranian
+                }   
+			}
+		}
+	}
+
+## turkic ##
+
+	cfp_turkic_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_turkic_common
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = cfp_turkic
+                }
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+                portrait_jester_trigger = {  
+                    CULTURE_INPUT = cfp_turkic 
+                }
+				NOR = {
+					portrait_western_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {  
+                    CULTURE_INPUT = cfp_turkic 
+                }
+			}
+		}
+	}
+
+	cfp_turkic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_turkic_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_turkic } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_turkic
+                }
+			}
+		}
+	}
+
+	cfp_turkic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_turkic_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_turkic
+                }   
+			}
+		}
+	}
+
+	cfp_turkic_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_turkic_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = cfp_turkic
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = cfp_turkic
+					}   
+				}
+			}
+		}
+	}
+
+	cfp_oghuz_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_oghuz_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_oghuz } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_oghuz
+                }
+			}
+		}
+	}
+
+	cfp_oghuz_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_oghuz_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_oghuz
+                }   
+			}
+		}
+	}
+
+## Africans ##
+
+	cfp_west_african_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_west_african_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_west_africa } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_west_africa
+                }
+			}
+		}
+	}
+
+	cfp_west_african_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_west_african_high_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_west_africa
+                }
+			}
+		}
+	}
+
+	cfp_east_african_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_east_african_common
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = cfp_east_africa
+                }
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+                portrait_jester_trigger = {  
+                    CULTURE_INPUT = cfp_east_africa 
+                }
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = cfp_east_africa
+                }
+			}
+		}
+	}
+
+	cfp_east_african_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_east_african_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_east_africa } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_east_africa
+                }
+			}
+		}
+	}
+
+	cfp_east_african_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_east_african_high_nobility
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_east_africa
+                }   
+			}
+		}
+	}
+
+	cfp_east_african_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_east_african_imperial
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_imperial_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_east_africa 
+                }
+			}
+		}
+	}
+
+	cfp_central_african_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_central_african_low_nobility
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = mena } 
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_central_africa
+                }
+			}
+		}
+	}
+
+	cfp_central_african_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_central_african_high_nobility
+				range = { 0 1 }
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_central_africa
+                }   
+			}
+		}
+	}
+
+}

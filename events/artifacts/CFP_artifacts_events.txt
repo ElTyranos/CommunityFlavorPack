@@ -237,7 +237,7 @@ cfp_artifact.0002 = { # Don't forget
 	title = cfp_artifact.0002.t
 	desc = cfp_artifact.0002.desc
 	theme = court
-	override_background = { event_background = courtyard }
+	override_background = { reference = courtyard }
 	left_portrait = {
 		character = root
 		animation = disbelief
@@ -272,7 +272,7 @@ cfp_artifact.0003 = { # Forget
 	title = cfp_artifact.0002.t
 	desc = cfp_artifact.0003.desc
 	theme = court
-	override_background = { event_background = courtyard }
+	override_background = { reference = courtyard }
 	left_portrait = {
 		character = root
 		animation = disbelief

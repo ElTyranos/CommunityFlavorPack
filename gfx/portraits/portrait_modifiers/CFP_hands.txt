@@ -2,25 +2,25 @@
 	
 	usage = game
 	selection_behavior = weighted_random
-	fallback = no_hands
+	fallback = cfp_no_hands
 	
-	no_hands = {
+	cfp_no_hands = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = special_accessories_hands
-                template = no_hands
+                template = cfp_no_hands
                 range = { 0 1 } # For the randomness to work correctly
 			}
 		}
 	}
 	
-	western_high_nobility_gloves = {
+	cfp_western_high_nobility_gloves = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = special_accessories_hands
-				template = western_high_nobility_gloves
+				template = cfp_western_high_nobility_gloves
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -30,19 +30,19 @@
 				add = 100
 				exists = this
 				
-				cfp_era_high_medieval_trigger = yes
+				portrait_era3_trigger = yes
 				
 				OR = {
 					AND = {
 						OR = {
 							highest_held_title_tier >= tier_duchy
 							AND = {
-								has_government = republic_government
+								government_has_flag = government_is_republic
 								primary_title.tier > 1
 							}
-							AND = { is_ruler = yes has_government = theocracy_government }
+							AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 						}
-						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
 						portrait_western_clothing_trigger = yes
 					}
 					AND = {
@@ -55,10 +55,10 @@
 							OR = {
 								highest_held_title_tier >= tier_duchy
 								AND = {
-									has_government = republic_government
+									government_has_flag = government_is_republic
 									primary_title.tier > 1
 								}
-								AND = { is_ruler = yes has_government = theocracy_government }
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
 							}
 							portrait_western_clothing_trigger = yes
 						}

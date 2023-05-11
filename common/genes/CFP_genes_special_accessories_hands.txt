@@ -3,7 +3,7 @@
 		
 		special_accessories_hands = {
 			
-			no_hands = {
+			cfp_no_hands = {
 				index = 0
 				male = {
 					100 = empty
@@ -15,7 +15,7 @@
 				girl = female
 			}
 			
-			fp1_rings = {
+			cfp_fp1_rings = {
 				index = 1
 				male = {
 					1 = empty
@@ -28,7 +28,7 @@
 				girl = female
 			}
 			
-			dde_hre_rings = {
+			cfp_dde_hre_rings = {
 				index = 2
 				male = {
 					1 = empty
@@ -41,7 +41,7 @@
 				girl = female
 			}
 			
-			dde_abbasid_rings = {
+			cfp_dde_abbasid_rings = {
 				index = 3
 				male = {
 					1 = empty
@@ -54,7 +54,7 @@
 				girl = female
 			}
 			
-			rings = {
+			cfp_rings = {
 				index = 4
 				male = {
 					1 = empty
@@ -70,7 +70,7 @@
 				girl = female
 			}
 			
-			western_high_nobility_gloves = {
+			cfp_western_high_nobility_gloves = {
 				index = 5
 				male = {
 					10 = empty

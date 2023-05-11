@@ -1,4 +1,6 @@
 ﻿l_korean:
+ 
+ game_rule_category_cfp: "@cfp_icon! $cfp_name$"
 
  rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : 풀 플레이트 헬멧"
  setting_default_cfp_fullplate_helmets:0 "기본"

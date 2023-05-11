@@ -1,0 +1,326 @@
+﻿cfp_headgear_special = {
+
+	usage = game
+	selection_behavior = weighted_random
+	priority = 6
+
+## Crowns for specific titles
+
+	cfp_hungarian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_hungarian_royalty
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				portrait_religious_christian_trigger = yes
+				OR = {
+					AND = {
+						exists = this
+						has_primary_title = title:k_hungary
+					}
+					AND = {
+						exists = primary_title
+						has_primary_title = title:e_carpathia
+						has_title = title:k_hungary
+					}
+				}
+			}
+		}
+	}
+	
+	cfp_albanian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_albanian_royalty
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				portrait_era4_trigger = yes
+				OR = {
+					AND = {
+						exists = this
+						has_primary_title = title:d_dyrrachion
+					}
+					AND = {
+						exists = this
+						has_primary_title = title:k_epirus
+					}
+				}
+			}
+		}
+	}
+
+	cfp_croatian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_croatian_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				portrait_religious_christian_trigger = yes
+				has_primary_title = title:k_croatia
+			}
+		}
+	}
+	
+	cfp_anglo_saxon_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_anglo_saxon_royalty
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+					has_game_rule = never_cfp_fullplate_helmets
+					culture = { has_cultural_era_or_later = culture_era_early_medieval }
+				}
+				portrait_cfp_anglo_saxon_clothing_trigger = yes
+				AND = {
+					exists = this
+					has_primary_title = title:d_norfolk # East Anglia
+				}
+			}
+		}
+	}
+	
+	cfp_latin_venetian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_latin_venetian_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOR = { 
+					is_female = yes
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				AND = { 
+					exists = this
+					has_primary_title = title:k_venice
+				}
+			}
+		}
+	}
+	
+	cfp_iberian_castilian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iberian_castilian_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				portrait_religious_christian_trigger = yes
+				OR = {
+					AND = {
+						exists = this
+						has_primary_title = title:k_castille
+					}
+					AND = {
+						exists = primary_title
+						has_primary_title = title:e_spain
+						has_title = title:k_castille
+					}
+				}
+			}
+		}
+	}
+
+	cfp_iberian_aragonese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_iberian_aragonese_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				portrait_era4_trigger = yes
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				portrait_religious_christian_trigger = yes
+				OR = {
+					AND = {
+						exists = this
+						has_primary_title = title:k_aragon
+					}
+					AND = {
+						exists = primary_title
+						has_primary_title = title:e_spain
+						has_title = title:k_aragon
+					}
+				}
+			}
+		}
+	}
+
+## Traits ##
+	
+	cfp_rre_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_rre_imperial
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				portrait_has_trait_trigger = { TRAIT = augustus }
+				AND = {
+					NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+					NOT = { government_has_flag = government_is_republic }
+				}
+			}
+		}
+	}
+
+	cfp_trait_laurel_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_trait_laurel
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+					government_has_flag = government_is_theocracy
+				}
+				OR = {
+					AND = {
+						portrait_has_trait_trigger = { TRAIT = scholar }
+						learning >= 20
+					}
+					AND = {
+						portrait_has_trait_trigger = { TRAIT = august }
+						diplomacy >= 15
+					}
+				}
+				AND = {
+					OR = {
+						portrait_western_clothing_trigger = yes
+						portrait_byzantine_clothing_trigger = yes
+						AND = {
+							portrait_northern_clothing_trigger = yes
+							NOT = { portrait_cfp_norse_clothing_trigger = yes }
+						}
+					}
+				}
+			}
+		}
+	}
+
+## CFP Fantasy ##
+
+	cfp_fantasy_witches = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_fantasy_witches
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				portrait_has_trait_trigger = { TRAIT = witch }
+				has_game_rule = ai_cfp_fantasy
+				OR = {
+					portrait_western_clothing_trigger = yes
+					AND = {
+						portrait_northern_clothing_trigger = yes
+						NOT = { is_theocratic_lessee = yes }
+					}
+				}
+			}
+		}
+	}
+	
+}

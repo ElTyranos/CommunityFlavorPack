@@ -23,26 +23,24 @@ female_clothes_secular_northern_war_gambeson_02 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_northern_war_gambeson_02_entity }
 }
-male_clothes_secular_western_war_norman_01 = {
+
+m_clothes_sec_crusades_western_war_nob_01_teutonic = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_war_norman_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_crusades_western_war_nob_01_teutonic_entity }
 }
-male_clothes_secular_crusades_western_war_nobility_05_common = {
+f_clothes_sec_crusades_western_war_nob_01_teutonic = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_crusades_western_war_nobility_05_common_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_crusades_western_war_nob_01_teutonic_entity }
 }
-female_clothes_secular_crusades_western_war_nobility_05_common = {
+m_clothes_sec_crusades_western_war_nob_01_santiago = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_crusades_western_war_nobility_05_common_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_crusades_western_war_nob_01_santiago_entity }
 }
-male_clothes_secular_crusades_western_war_nobility_06_common = {
+f_clothes_sec_crusades_western_war_nob_01_santiago = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_crusades_western_war_nobility_06_common_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_crusades_western_war_nob_01_santiago_entity }
 }
-female_clothes_secular_crusades_western_war_nobility_06_common = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_crusades_western_war_nobility_06_common_entity }
-}
+
 male_clothes_secular_latin_cfp_venetian_doge_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_latin_cfp_venetian_doge_01_entity }
@@ -63,47 +61,11 @@ male_clothes_religious_muslim_cfp_caliph_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_religious_muslim_cfp_caliph_01_entity }
 }
-male_clothing_secular_western_cfp_war_nobility_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothing_secular_western_cfp_war_nobility_01_entity }
-}
-
-# Vanilla edits - FP2
-male_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01_entity }
-}
-female_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_fp2_iberian_christian_cfp_war_nobility_01_entity }
-}
 
 # Vanilla edits - MENA
 male_clothes_secular_mena_cfp_war_common_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_mena_cfp_war_common_01_entity }
-}
-male_clothes_secular_mena_war_nobility_02_low = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_mena_war_nobility_02_low_entity }
-}
-female_clothes_secular_mena_war_nobility_02_low = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_mena_war_nobility_02_low_entity }
-}
-male_clothes_secular_dde_abbasid_war_nobility_02_low = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_dde_abbasid_war_nobility_02_low_entity }
-}
-female_clothes_secular_dde_abbasid_war_nobility_02_low = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_dde_abbasid_war_nobility_02_low_entity }
-}
-
-# Vanilla edits - Byzantine
-male_clothes_secular_byzantine_cfp_war_nobility_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_byzantine_cfp_war_nobility_01_entity }
 }
 
 # CFP
@@ -123,10 +85,6 @@ male_clothes_secular_western_cfp_war_plate_02 = {
 male_clothes_secular_western_cfp_war_plate_03 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_war_plate_03_entity }
-}
-male_clothes_secular_western_cfp_war_plate_04 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_western_cfp_war_plate_04_entity }
 }
 male_clothes_secular_western_cfp_war_plate_05 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"

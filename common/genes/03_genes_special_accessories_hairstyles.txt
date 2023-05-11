@@ -80,6 +80,8 @@ special_genes = {
 					1 = male_hair_fp2_iberian_christian_01 
 					1 = male_hair_fp2_iberian_christian_02
 					1 = male_hair_fp2_iberian_christian_03
+					1 = m_hair_ep2_western_01
+					1 = m_hair_ep2_western_02
 				}
 
 				female = {
@@ -137,6 +139,9 @@ special_genes = {
 					1 = female_hair_fp2_iberian_christian_01 
 					1 = female_hair_fp2_iberian_christian_02
 					1 = female_hair_fp2_iberian_christian_03
+					1 = f_hair_ep2_western_01
+					1 = f_hair_ep2_western_02
+
 				}
 				boy = male
 				girl = female
@@ -798,7 +803,7 @@ special_genes = {
 
 				female = {
 					2 = female_hair_western_05 # Behind head wavy
-					2 = female_hair_indian_03 # Let out wavy with jewelry
+					2 = female_hair_indian_03 # Let out wavy with jewelry					
 					1 = cfp_female_hair_indian_03					
 				}
 				boy = male
@@ -1051,7 +1056,7 @@ special_genes = {
 				girl = female
 			}
 
-				fp2_hairstyles_iberian_muslim_straight_common = {
+			fp2_hairstyles_iberian_muslim_straight_common = {
 				index = 56
 				male = {
 					2 = male_hair_fp2_iberian_muslim_01 # Medium short wavy
@@ -1095,10 +1100,39 @@ special_genes = {
 				girl = female
 			}
 
+			ep2_hairstyles_western = {
+				index = 59
+				male = {
+					2 = m_hair_ep2_western_01
+					2 = m_hair_ep2_western_02
+				}
+
+				female = {
+					2 = f_hair_ep2_western_01
+					2 = f_hair_ep2_western_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_hairstyles_western_common = { # Without jewelry for use by commoners
+				index = 60
+				male = {
+					2 = m_hair_ep2_western_01
+					2 = m_hair_ep2_western_02
+				}
+
+				female = {
+					2 = f_hair_ep2_western_01
+					2 = f_hair_ep2_western_02
+				}
+				boy = male
+				girl = female
+			}
 
 			scripted_character_hairstyles_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new hairstyles are added for scripted characters they should be added in a new template.
 				index = 40
-				male = {
+			male = {
 					#weight = <object in gfx/portrait/accessories/>
 					1 = male_hair_western_01
 					1 = male_hair_western_02
@@ -1175,6 +1209,7 @@ special_genes = {
 					1 = female_hair_fp1_04 # Crown braid with ribbon
 					1 = female_hair_fp1_05 # Twin tails on chest, let out in back
 					1 = female_hair_fp1_06 # Let out fluffy straight
+
 				}
 				boy = male
 				girl = female
@@ -1223,9 +1258,28 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			scripted_character_hairstyles_04 = {
+				index = 44
+				male = {
+					1 = m_hair_ep2_western_01
+					1 = m_hair_ep2_western_02
+
+				}
+				female = {
+					1 = f_hair_ep2_western_01
+					1 = f_hair_ep2_western_02
+				}
+
+				boy = male
+				girl = female
+			}
 			
-			western_hairstyles_aging = {
-				index = 59
+			########################################
+			## Community Flavor Pack - new groups ##
+			########################################
+			
+			cfp_western_hairstyles_aging = {
+				index = 61
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -1240,8 +1294,8 @@ special_genes = {
 				girl = female
 			}
 			
-			slavic_hairstyles_warrior = {
-				index = 60
+			cfp_slavic_hairstyles_warrior = {
+				index = 62
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1261,8 +1315,8 @@ special_genes = {
 				girl = female
 			}
 			
-			hungarian_hairstyles_warrior = {
-				index = 61
+			cfp_hungarian_hairstyles_warrior = {
+				index = 63
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1280,7 +1334,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-		
 		}
 
 	}

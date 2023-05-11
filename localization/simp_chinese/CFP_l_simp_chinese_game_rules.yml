@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+ 
+ game_rule_category_cfp: "@cfp_icon! $cfp_name$"
 
  rule_cfp_fullplate_helmets:0 "@cfp_icon! 社区风味包：完全板甲头盔"
  setting_default_cfp_fullplate_helmets:0 "默认"

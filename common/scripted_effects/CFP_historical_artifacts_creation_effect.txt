@@ -55,7 +55,7 @@ create_artifact_cfp_bayeux_tapestry_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	$MAKER$ = { save_scope_as = maker }
 	
-	hidden_effect_new_artifact = {
+	hidden_effect = {
 		set_artifact_rarity_illustrious = yes
 		
 		scope:owner = {

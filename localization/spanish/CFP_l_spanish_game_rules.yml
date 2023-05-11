@@ -1,4 +1,6 @@
 ﻿l_spanish:
+ 
+ game_rule_category_cfp: "@cfp_icon! $cfp_name$"
 
  rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : Cascos de placa completa"
  setting_default_cfp_fullplate_helmets:0 "Por defecto"
