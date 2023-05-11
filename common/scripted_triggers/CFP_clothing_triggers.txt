@@ -474,3 +474,65 @@ portrait_era4_armor_trigger = {
 	current_year >= 1280
 }
 
+# Fixing crusaders armor everywhere
+portrait_armored_priest_trigger = {
+	portrait_wear_armor_currently_in_army_trigger = yes
+	religion = religion:$RELIGION$
+	OR = {
+		portrait_religious_devoted_trigger = yes
+		portrait_religious_high_trigger = yes
+		is_clergy = yes
+	}
+}
+
+portrait_wear_armor_trigger = {
+	exists = this
+	trigger_if = {
+		limit = { exists = involved_activity }
+		involved_activity = {
+			NOR = {
+				has_activity_type = activity_hunt
+				has_activity_type = activity_pilgrimage
+			}
+		}
+	}
+	OR = {
+		AND = {
+			is_ruler = yes
+			government_has_flag = government_is_holy_order
+		}
+		has_trait = order_member
+		
+		AND = {
+			is_ruler = yes
+			government_has_flag = government_is_mercenary
+		}
+		is_commanding_army = yes
+		exists = knight_army
+		AND = {
+			OR = {
+				is_knight = yes
+				has_court_position = bodyguard_court_position
+				has_court_position = champion_court_position
+				has_court_position = garuda_court_position
+			}
+			is_councillor = no
+			OR = {
+				is_landed = no
+				liege = { is_at_war = yes }
+			}
+		}
+		AND = {
+			has_council_position = councillor_marshal
+			OR = {
+				is_landed = no
+				primary_title.tier < tier_kingdom
+			}
+		}
+		has_character_flag = wear_armor
+		has_character_flag = is_currently_varangian
+		has_character_flag = single_combat_duel_armor
+		has_character_flag = forced_knight_armor
+		activity_tournament_armor_trigger = yes
+	}
+}
