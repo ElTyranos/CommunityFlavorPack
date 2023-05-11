@@ -15,7 +15,7 @@ cfp_beards = {
             }
         }   
         weight = {
-            base = 30 
+            base = 0
             modifier = {
                 add = 101
                 exists = this
