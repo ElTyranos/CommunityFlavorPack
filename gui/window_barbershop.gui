@@ -1561,7 +1561,6 @@ window = {
 				### Apply and Reset buttons ###
 				vbox = {
 					name = "apply_box"
-					margin_top = -100
 					
 					hbox = {
 						spacing = 22
