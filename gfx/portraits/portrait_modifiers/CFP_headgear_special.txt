@@ -273,11 +273,11 @@
 				OR = {
 					AND = {
 						portrait_has_trait_trigger = { TRAIT = scholar }
-						learning >= 20
+						learning >= 24
 					}
 					AND = {
 						portrait_has_trait_trigger = { TRAIT = august }
-						diplomacy >= 15
+						diplomacy >= 19
 					}
 				}
 				AND = {
