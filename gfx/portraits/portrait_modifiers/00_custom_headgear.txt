@@ -1136,5 +1136,15 @@
 			base = 0
 		}
 	}
-
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = cfp_fantasy_witches
+		is_valid_custom = {
+			OR = {
+				has_game_rule = barbershop_cfp_fantasy
+				has_game_rule = ai_cfp_fantasy
+			}
+		}
+	}
 }
