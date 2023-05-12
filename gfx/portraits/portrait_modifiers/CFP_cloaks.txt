@@ -20,7 +20,7 @@ cfp_cloaks = {
 			}
 		}
 	}
-
+	
 	cfp_western_kings_ermine = {
 		dna_modifiers = {
 			accessory = {
@@ -566,6 +566,28 @@ cfp_cloaks = {
 				}
 			}
 	    }
+	}
+
+	cfp_devoted_no_cloak = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				AND = {
+					is_ruler = yes
+					NOT = { government_has_flag = government_is_theocracy }
+				}
+			}
+		}
 	}
 
 }
