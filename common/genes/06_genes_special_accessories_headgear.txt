@@ -285,7 +285,7 @@ special_genes = {
 					8 = male_headgear_secular_western_cfp_high_nobility_01
 					8 = male_headgear_secular_western_high_nobility_04
 					8 = male_headgear_secular_slavic_high_nobility_01
-					1 = male_headgear_secular_western_pillbox_low_01
+					0 = male_headgear_secular_western_pillbox_low_01
 				}
 				female = {
 					10 = female_headgear_secular_western_high_nobility_01
