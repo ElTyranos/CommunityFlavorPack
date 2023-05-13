@@ -315,10 +315,8 @@ portrait_cfp_jewish_western_clothing_trigger = {
 	is_male = yes
 	is_landed = no
 	portrait_wear_armor_trigger = no
-	OR = {
-		religion = religion:judaism_religion
-		culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
-	}
+	portrait_religious_jewish_trigger = yes
+	
 	OR = {
 		trigger_if = {
 			limit = { exists = host.capital_province }
@@ -338,10 +336,8 @@ portrait_cfp_jewish_mena_clothing_trigger = {
 	is_male = yes
 	is_landed = no
 	portrait_wear_armor_trigger = no
-	OR = {
-		religion = religion:judaism_religion
-		culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
-	}
+	portrait_religious_jewish_trigger = yes
+	
 	OR = {
 		trigger_if = {
 			limit = { exists = host.capital_province }
@@ -361,27 +357,13 @@ portrait_cfp_jewish_andalusian_clothing_trigger = {
 	is_male = yes
 	is_landed = no
 	portrait_wear_armor_trigger = no
-	OR = {
-		religion = religion:judaism_religion
-		culture = { portrait_cfp_jewish_clothing_contents_trigger = yes }
-	}
-	OR = {
-		trigger_if = {
-			limit = { exists = host.capital_province }
-			host.capital_province = { geographical_region = world_europe_west_iberia }
-		}
-		trigger_if = {
-			limit = { exists = liege.capital_province }
-			liege.capital_province = { geographical_region = world_europe_west_iberia  }
-		}
-		trigger_if = {
-			limit = { exists = location.province_owner.capital_province }
-			location.province_owner.capital_province = { geographical_region = world_europe_west_iberia }
+	portrait_religious_jewish_trigger = yes
+	
+	host.capital_county = {
+		title:e_spain = {
+			is_de_jure_liege_or_above_target = prev
 		}
 	}
-}
-portrait_cfp_jewish_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_israelite
 }
 
 ## ERA OR INNOVATION TRIGGERS
