@@ -1078,6 +1078,7 @@ window = {
 								spacing = 0
 
 								hbox = {
+									minimumsize = {433 -1}
 									layoutpolicy_horizontal = expanding
 
 									text_label_left = {
@@ -1085,11 +1086,9 @@ window = {
 									}
 
 									expand = {}
-								}
-
-								hbox = {
-									spacing = 5
+									
 									button_search = {
+										parentanchor=left
 										size = { 25 25 }
 										onclick = "[BarbershopWindow.ShowSearchFilter( PdxGuiWidget.GetIndexInDataModel )]"
 
@@ -1132,7 +1131,12 @@ window = {
 											onmousehierarchyleave = "[BarbershopWindow.RestorePreviousPortraitModifierIndex]"
 										}
 									}
+									
 								}
+
+								# hbox = {
+									# spacing = 5
+								# }
 
 								editbox_standard = {
 									visible = "[BarbershopAccessoryCategory.IsTextSearchVisible]"
@@ -1194,13 +1198,13 @@ window = {
 								}
 								button_standard_clean = {
 									name = "color_button"
-									size = { 64 64 }
+									size = { 32	32 }
 									onclick = "[BarbershopAccessoryCategory.SelectColorPicker]"
 									down = "[BarbershopAccessoryCategory.IsActiveColorPicker]"
 
 									icon = {
 										parentanchor = center
-										size = { 48 48 }
+										size = { 32 32 }
 
 										texture = "gfx/interface/colors/white.dds"
 										tintcolor = "[BarbershopAccessoryCategory.GetCurrentColor]"
