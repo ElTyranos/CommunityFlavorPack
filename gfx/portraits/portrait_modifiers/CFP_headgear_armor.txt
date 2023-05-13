@@ -19,6 +19,7 @@
 			modifier = {
 				add = 100
 				is_male = yes # because there's no women versions
+				is_landed = yes
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = western 
 				}
