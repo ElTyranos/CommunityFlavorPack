@@ -389,17 +389,20 @@
 				mode = add
 				gene = headgear
 				template = cfp_andalusian_war
-				range = { 0 1 }
+				range = { 0 0.66 }
 			}
 		}
 		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 80
 				portrait_war_nobles_helmet_trigger = {
-					CULTURE_INPUT = cfp_iberian_muslim
+					CULTURE_INPUT = cfp_iberian_muslim 
 				}
+                portrait_commoner_armor_trigger = { 
+                    CULTURE_INPUT = cfp_iberian_muslim
+                }
 			}
 		}
 	}
