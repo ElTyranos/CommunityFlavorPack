@@ -43,10 +43,13 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 80
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = western 
 				}
+                portrait_low_nobles_armor_trigger = { 
+                    CULTURE_INPUT = western
+                }
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
 				portrait_era3_armor_trigger = yes
 			}
@@ -268,7 +271,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 101 # higher than western
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_hungarian
 				}
@@ -291,7 +294,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 101 # higher than western
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_slavic
 				}
