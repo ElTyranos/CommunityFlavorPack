@@ -581,10 +581,20 @@ cfp_cloaks = {
 			base = 0
 			modifier = {
 				add = 1000
-				portrait_has_trait_trigger = { TRAIT = devoted }
-				AND = {
-					is_ruler = yes
-					NOT = { government_has_flag = government_is_theocracy }
+				OR = {
+					AND = {
+						portrait_has_trait_trigger = { TRAIT = devoted }
+						is_ruler = yes
+						NOT = { government_has_flag = government_is_theocracy }
+					}
+					AND = {
+						OR = {
+							portrait_era3_armor_trigger = yes
+							portrait_era4_armor_trigger = yes
+						}
+						portrait_wear_armor_trigger = yes
+						portrait_ep2_western_travel_cloak_trigger = yes
+					}
 				}
 			}
 		}
