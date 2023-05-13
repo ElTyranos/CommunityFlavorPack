@@ -149,6 +149,7 @@
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_latin
 				}
+				NOT = { portrait_era4_armor_trigger = yes }
 			}
 		}
 	}
@@ -275,6 +276,7 @@
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_hungarian
 				}
+				NOT = { portrait_era4_armor_trigger = yes }
 			}
 		}
 	}
@@ -298,6 +300,7 @@
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_slavic
 				}
+				NOT = { portrait_era4_armor_trigger = yes }
 			}
 		}
 	}
@@ -373,6 +376,7 @@
                 portrait_high_nobles_armor_trigger = {
                     CULTURE_INPUT = mena
                 }
+				portrait_era4_armor_trigger = yes
             }
         }
 	}
@@ -413,14 +417,14 @@
         weight = {
             base = 0
             modifier = {
-                add = 50
-				portrait_era4_armor_trigger = yes
+                add = 80
                 portrait_war_nobles_helmet_trigger = {
                     CULTURE_INPUT = cfp_iberian_muslim
                 }
                 portrait_high_nobles_armor_trigger = {
                     CULTURE_INPUT = cfp_iberian_muslim
                 }
+				portrait_era4_armor_trigger = yes
             }
         }
 	}
