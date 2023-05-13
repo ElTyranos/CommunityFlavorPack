@@ -265,6 +265,7 @@
 			modifier = {
 				add = 60
 				exists = this
+				has_personality_extroverted_trigger = yes
 				NOR = {
 					portrait_wear_no_headgear_trigger = yes
 					portrait_wear_helmet_trigger = yes
