@@ -41,64 +41,13 @@ portrait_cfp_norman_clothing_contents_trigger = {
 }
 
 portrait_cfp_norman_sicily_clothing_trigger = {
-	culture = { portrait_cfp_norman_sicily_clothing_contents_trigger = yes }
-	trigger_if = {
-		limit = { exists = capital_province }
-		capital_province = { geographical_region = world_europe_south_italy }
-	}
-	trigger_if = {
-		limit = {
-			exists = host.capital_province
-			NOT = { exists = capital_province }
+	host.capital_county = {
+		title:k_sicily = {
+			is_de_jure_liege_or_above_target = prev
 		}
-		host.capital_province = { geographical_region = world_europe_south_italy }
 	}
-	trigger_if = {
-		limit = {
-			exists = liege.capital_province
-			NOT = { exists = capital_province }
-		}
-		liege.capital_province = { geographical_region = world_europe_south_italy  }
-	}
-	trigger_if = {
-		limit = {
-			exists = location.province_owner.capital_province
-			NOT = { exists = capital_province }
-		}
-		location.province_owner.capital_province = { geographical_region = world_europe_south_italy }
-	}
-}
-portrait_cfp_norman_sicily_clothing_spouse_trigger = {
-	culture = { portrait_cfp_norman_sicily_clothing_contents_trigger = yes }
-	trigger_if = {
-		limit = { exists = capital_province }
-		capital_province = { geographical_region = world_europe_south_italy }
-	}
-	trigger_if = {
-		limit = {
-			exists = host.capital_province
-			NOT = { exists = capital_province }
-		}
-		host.capital_province = { geographical_region = world_europe_south_italy }
-	}
-	trigger_if = {
-		limit = {
-			exists = liege.capital_province
-			NOT = { exists = capital_province }
-		}
-		liege.capital_province = { geographical_region = world_europe_south_italy  }
-	}
-	trigger_if = {
-		limit = {
-			exists = location.province_owner.capital_province
-			NOT = { exists = capital_province }
-		}
-		location.province_owner.capital_province = { geographical_region = world_europe_south_italy }
-	}
-}
-portrait_cfp_norman_sicily_clothing_contents_trigger = {
 	OR = {
-		this = culture:norman
+		culture = culture:norman
 		any_parent_culture_or_above = { this = culture:norman }
 	}
 }
