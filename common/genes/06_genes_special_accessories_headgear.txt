@@ -2114,9 +2114,9 @@ special_genes = {
 					4 = female_headgear_secular_western_war_topf_01
 					1 = female_headgear_secular_western_war_sugarloaf_01
 					# era4
-					5 = male_headgear_secular_western_war_kettle_hat_01
-					5 = male_headgear_secular_western_war_kettle_hat_02
-					5 = male_headgear_secular_western_war_kettle_hat_03
+					5 = female_headgear_secular_western_war_kettle_hat_01
+					5 = female_headgear_secular_western_war_kettle_hat_02
+					5 = female_headgear_secular_western_war_kettle_hat_03
 				}
 				boy = male
 				girl = female
