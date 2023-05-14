@@ -1,8 +1,42 @@
-﻿
-cfp_cloaks = {
+﻿cfp_cloaks = {
 
 	usage = game
 
+	cfp_no_cloak = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					AND = {
+						portrait_has_trait_trigger = { TRAIT = devoted }
+						is_ruler = yes
+						NOT = { government_has_flag = government_is_theocracy }
+					}
+					AND = {
+						OR = {
+							portrait_era3_armor_trigger = yes
+							portrait_era4_armor_trigger = yes
+						}
+						portrait_wear_armor_trigger = yes
+						OR = {
+							portrait_ep2_western_travel_cloak_trigger = yes
+							portrait_ep2_mena_travel_cloak_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	
 	cfp_k_venice = {
 		dna_modifiers = {
 			accessory = {
@@ -566,38 +600,6 @@ cfp_cloaks = {
 				}
 			}
 	    }
-	}
-
-	cfp_devoted_no_cloak = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = cloaks
-				template = no_cloak
-				range = { 0 1 }
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 1000
-				OR = {
-					AND = {
-						portrait_has_trait_trigger = { TRAIT = devoted }
-						is_ruler = yes
-						NOT = { government_has_flag = government_is_theocracy }
-					}
-					AND = {
-						OR = {
-							portrait_era3_armor_trigger = yes
-							portrait_era4_armor_trigger = yes
-						}
-						portrait_wear_armor_trigger = yes
-						portrait_ep2_western_travel_cloak_trigger = yes
-					}
-				}
-			}
-		}
 	}
 
 }
