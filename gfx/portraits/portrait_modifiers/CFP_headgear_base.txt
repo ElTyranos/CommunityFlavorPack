@@ -318,12 +318,14 @@ cfp_headgear_base = {
 			base = 0
 			modifier = {
 				add = 80
+				NOT = { portrait_byzantine_clothing_trigger = yes }
                 portrait_commoner_headgear_fallback_trigger = {
                     CULTURE_INPUT = cfp_slavic
                 }
 			}
 			modifier = {
 				add = 20
+				NOT = { portrait_byzantine_clothing_trigger = yes }	
                 portrait_commoner_clothing_trigger = {
                     CULTURE_INPUT = cfp_slavic
                 }
