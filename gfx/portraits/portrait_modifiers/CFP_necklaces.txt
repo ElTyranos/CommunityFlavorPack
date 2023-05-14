@@ -49,10 +49,7 @@
 				OR = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
-					AND = { 
-						government_has_flag = government_is_republic
-						NOT = { has_primary_title = title:k_venice }
-					}
+					government_has_flag = government_is_theocracy
 					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
