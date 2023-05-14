@@ -18,6 +18,7 @@
 				age >= 40
 				is_alive = yes
 				current_date >= 1286.1.1
+				portrait_western_clothing_trigger = yes
 				NOT = { has_game_rule = never_cfp_trait_accessories }
 				OR = {
 					AND = {
@@ -32,11 +33,6 @@
 				NOR = {
 					portrait_has_trait_trigger = { TRAIT = disfigured }
 					portrait_has_trait_trigger = { TRAIT = blind }
-					portrait_indian_clothing_trigger = yes
-					portrait_african_clothing_trigger = yes
-					portrait_steppe_clothing_trigger = yes
-					portrait_cfp_norse_clothing_trigger = yes
-					portrait_cfp_turkic_clothing_trigger = yes
 				}
 			}
 		}
