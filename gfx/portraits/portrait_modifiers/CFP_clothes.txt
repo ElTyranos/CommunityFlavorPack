@@ -93,6 +93,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 } 
                 has_ep2_dlc_trigger = yes
                 portrait_era4_trigger = yes
+				NOT = { portrait_religious_high_trigger = yes }
             }
         }
 	}
