@@ -22,11 +22,11 @@
 				NOT = { has_game_rule = never_cfp_trait_accessories }
 				OR = {
 					AND = {
-						learning >= 12
+						learning >= 25
 						portrait_has_trait_trigger = { TRAIT = whole_of_body }
 					}
 					AND = {
-						stewardship >= 12
+						stewardship >= 25
 						portrait_has_trait_trigger = { TRAIT = administrator }
 					}
 				}
