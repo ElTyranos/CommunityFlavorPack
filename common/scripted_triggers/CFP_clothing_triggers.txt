@@ -467,3 +467,39 @@ portrait_wear_armor_trigger = {
 		activity_tournament_armor_trigger = yes
 	}
 }
+
+# Fixing commoners wearing helmets and no armor
+portrait_commoner_trigger = {
+	scope:highest_held_title_tier < tier_county
+	trigger_if = {
+		limit = { exists = this } # To check if this is an actual character
+		NOR = {
+			AND = {
+				exists = primary_spouse
+				primary_spouse = {
+					highest_held_title_tier > tier_county
+				}
+			}
+			AND = {
+				government_has_flag = government_is_republic
+				primary_title.tier > tier_barony
+			}
+			AND = { 
+				is_ruler = yes 
+				government_has_flag = government_is_theocracy 
+			}
+		}
+	}
+	trigger_if = {
+		limit = {
+			exists = this
+			exists = court_owner
+			court_owner = { has_royal_court = yes }
+			portrait_wear_no_armor_trigger = yes
+		}
+		court_owner = {
+			amenity_level = { type = court_fashion value < 4 }
+		}
+	}
+	portrait_$CULTURE_INPUT$_clothing_trigger = yes
+}
