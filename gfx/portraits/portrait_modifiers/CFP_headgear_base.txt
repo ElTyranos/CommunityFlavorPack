@@ -851,10 +851,10 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 101
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_oghuz
-                }   
+                }
 			}
 		}
 	}
