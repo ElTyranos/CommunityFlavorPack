@@ -36,45 +36,33 @@
 			base = 0
 			modifier = {
 				add = 101
-				exists = this
 				cfp_innovation_ermine_cloaks_trigger = yes
 				OR = {
 					portrait_western_clothing_trigger = yes
-					AND = {
-						portrait_northern_clothing_trigger = yes
-						OR = {
-							portrait_fp1_norse_clothing_trigger = no
-							portrait_cfp_norse_clothing_trigger = no
-							AND = {
-								portrait_fp1_norse_clothing_trigger = yes
-								NOR = {
-									government_has_flag = government_is_tribal
-									religion = religion:germanic_religion
-								}
-							}
-							AND = {
-								portrait_cfp_norse_clothing_trigger = yes
-								NOR = {
-									government_has_flag = government_is_tribal
-									religion = religion:germanic_religion
-								}
-							}
-						}
-					}
+					portrait_northern_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
 				}
 			}
 			modifier = {
 				factor = 0
+				exists = this
 				OR = {
 					is_adult = no
 					highest_held_title_tier < tier_kingdom
-					government_has_flag = government_is_theocracy
-					AND = {
+					AND = { 
 						government_has_flag = government_is_republic
-						NOT = { primary_title = title:k_venice }
+						NOT = { has_primary_title = title:k_venice }
 					}
+					has_character_modifier = vow_of_poverty_modifier
 					# Deliberately not the "fully naked" one since dropping your cloak's intended even if nudity is disabled
 					should_be_naked_trigger = yes
+					portrait_wear_armor_trigger = yes
+					is_travelling = yes
+					involved_activity ?= { has_activity_type = activity_hunt }
+					AND = { 
+						government_has_flag = government_is_republic
+						NOT = { has_primary_title = title:k_venice }
+					}
 				}
 			}
 		}
