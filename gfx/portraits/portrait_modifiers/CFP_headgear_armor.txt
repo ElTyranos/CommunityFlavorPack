@@ -351,6 +351,9 @@
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = mena 
 				}
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = mena
+                }
 				OR = {
 					portrait_era3_armor_trigger = yes
 					portrait_era4_armor_trigger = yes
