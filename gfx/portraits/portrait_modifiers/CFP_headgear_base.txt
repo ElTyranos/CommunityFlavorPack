@@ -587,9 +587,19 @@ cfp_headgear_base = {
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_bedouin } 
 			modifier = {
 				add = 60
-                portrait_low_nobles_clothing_trigger = {  
+                portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_bedouin 
                 }
+			}
+			modifier = {
+				add = 60
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_berber 
+                }
+			}
+			modifier = {
+				add = -100
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
 			}
 		}
 	}
@@ -609,7 +619,13 @@ cfp_headgear_base = {
 				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_bedouin
-                }   
+                }
+			}
+			modifier = {
+				add = 60
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_berber
+                }
 			}
 			modifier = {
 				add = -100
