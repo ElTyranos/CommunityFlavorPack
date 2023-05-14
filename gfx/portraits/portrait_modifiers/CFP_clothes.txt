@@ -179,13 +179,12 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 add = 110
                 portrait_western_crusades_trigger = yes
             }
-			# Broken
-            # modifier = {
-                # add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-                # portrait_armored_priest_trigger = {
-                    # RELIGION = christianity_religion
-                # }
-            # }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_armored_priest_trigger = {
+                    RELIGION = christianity_religion
+                }
+            }
         }
     }
 	
@@ -206,13 +205,12 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 add = 110
                 portrait_western_crusades_trigger = yes
             }
-			# Broken
-            # modifier = {
-                # add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-                # portrait_armored_priest_trigger = {
-                    # RELIGION = christianity_religion
-                # }
-            # }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_armored_priest_trigger = {
+                    RELIGION = christianity_religion
+                }
+            }
         }
     }
 	
