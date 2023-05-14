@@ -187,21 +187,27 @@ portrait_cfp_iranian_clothing_contents_trigger = {
 
 portrait_cfp_berber_clothing_trigger = {
 	culture = { portrait_cfp_berber_clothing_contents_trigger = yes }
-	NAND = {
-		is_landed = yes
-		religion = religion:islam_religion
-		capital_province = {
-			geographical_region = world_europe_west_iberia
+	trigger_if = {
+		limit = { exists = this	}
+		NAND = {
+			is_landed = yes
+			religion = religion:islam_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
 		}
 	}
 }
 portrait_cfp_berber_clothing_spouse_trigger = {
 	culture = { portrait_cfp_berber_clothing_contents_trigger = yes }
-	NAND = {
-		is_landed = yes
-		religion = religion:islam_religion
-		capital_province = {
-			geographical_region = world_europe_west_iberia
+	trigger_if = {
+		limit = { exists = this	}
+		NAND = {
+			is_landed = yes
+			religion = religion:islam_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
 		}
 	}
 }
