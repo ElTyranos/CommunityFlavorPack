@@ -78,6 +78,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
             base = 0
 		    modifier = {
 		        add = 50
+				is_male = yes
 		        court_fashion_level_5_trigger = {
 		            CULTURE_INPUT = western
 		        }
@@ -86,6 +87,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 		    }
             modifier = {
                 add = 50
+				is_male = yes
                 portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = western
                 } 
