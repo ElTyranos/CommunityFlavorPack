@@ -218,9 +218,15 @@ portrait_cfp_bedouin_clothing_spouse_trigger = {
 portrait_cfp_bedouin_clothing_contents_trigger = {
 	OR = {
 		this = culture:bedouin
-		any_parent_culture_or_above = { this = culture:bedouin }
+		AND = {
+			any_parent_culture_or_above = { this = culture:bedouin }
+			NOT = { this = culture:levantine }
+		}
 	}
-	NOT = { any_parent_culture_or_above = { this = culture:visigothic } }
+	NOR = {
+		any_parent_culture_or_above = { this = culture:visigothic }
+		any_parent_culture_or_above = { this = culture:levantine }
+	}
 }
 
 portrait_cfp_egyptian_clothing_trigger = {
