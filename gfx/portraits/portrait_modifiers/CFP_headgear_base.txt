@@ -558,12 +558,14 @@ cfp_headgear_base = {
                 portrait_commoner_headgear_fallback_trigger = {
                     CULTURE_INPUT = cfp_egyptian
                 }
+				portrait_era4_trigger = yes
 			}
 			modifier = {
 				add = 20
                 portrait_commoner_clothing_trigger = {
                     CULTURE_INPUT = cfp_egyptian
                 }
+				portrait_era4_trigger = yes
 			}
 		}
 	}
