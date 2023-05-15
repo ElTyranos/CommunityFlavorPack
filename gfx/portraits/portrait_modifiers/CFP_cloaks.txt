@@ -292,6 +292,7 @@
 				exists = this
 				OR = {
 					is_adult = no
+					portrait_era4_armor_trigger = yes
 				}
 			}
 		}
@@ -319,6 +320,7 @@
 				exists = this
 				OR = {
 					is_adult = no
+					portrait_era4_armor_trigger = yes
 				}
 			}			
 		}
