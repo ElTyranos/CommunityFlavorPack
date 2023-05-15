@@ -386,6 +386,48 @@ cfp_innovation_ermine_cloaks_trigger = {
 	culture = { has_innovation = innovation_ermine_cloaks }
 }
 
+## CORE
+cfp_clothes_core_trigger = {
+	## Check if character is not supposed to wear situational clothes
+	NOT = {
+		should_be_naked_trigger = yes
+		should_be_topless_portrait_trigger = yes
+		portrait_poverty_robes_trigger = yes 
+		portrait_beggar_trigger = yes
+		portrait_prisoner_trigger = yes
+		portrait_sickness_trigger = yes
+		portrait_religious_high_trigger = yes
+		portrait_stealth_trigger = yes
+		portrait_religious_devoted_trigger = yes
+		# EP1
+		AND = { 
+			has_court_position = court_jester_court_position
+			NOR = {
+				is_adult = no
+				should_be_naked_trigger = yes
+			}
+		}
+		# EP2
+		portrait_ep2_hajj_clothes_trigger = yes # hajj
+		portrait_ep2_ihram_clothes_trigger = yes # ihram
+		has_character_flag = pope_larper_flag # Pope/Cardinal Larper event
+		has_character_flag = cardinal_larper_flag # Pope/Cardinal Larper event
+	}
+}
+cfp_clothing_no_override_armor_trigger = {
+	cfp_clothes_core_trigger = yes
+	portrait_religious_high_trigger = yes # bishop
+}
+cfp_clothing_no_override_trigger = {
+	cfp_clothes_core_trigger = yes
+	portrait_wear_no_armor_trigger = yes
+	NOT = { portrait_religious_high_trigger = yes } # bishop
+}
+cfp_clothing_no_override_bishop_trigger = {
+	cfp_clothes_core_trigger= yes
+	portrait_wear_no_armor_trigger = yes
+}
+
 ## OVERWRITTING DEFAULT CLASSES
 portrait_mena_clothing_contents_trigger = {
 	has_clothing_gfx = mena_clothing_gfx

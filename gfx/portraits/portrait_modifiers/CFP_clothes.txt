@@ -84,6 +84,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 		        }
 		        has_ep2_dlc_trigger = yes
                 portrait_era4_trigger = yes
+				cfp_clothing_no_override_trigger = yes
 		    }
             modifier = {
                 add = 50
@@ -93,7 +94,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 } 
                 has_ep2_dlc_trigger = yes
                 portrait_era4_trigger = yes
-				NOT = { portrait_religious_high_trigger = yes }
+				cfp_clothing_no_override_trigger = yes
             }
         }
 	}
@@ -132,7 +133,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                     }
                 }
 				portrait_era4_armor_trigger = yes
-                cfp_innovation_plate_armor_trigger = yes 
+                cfp_innovation_plate_armor_trigger = yes
             }
             modifier = {
                 add = 21
@@ -145,7 +146,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                     }
                 }
 				portrait_era4_armor_trigger = yes
-                cfp_innovation_plate_armor_trigger = yes  
+                cfp_innovation_plate_armor_trigger = yes
             }
             modifier = {
                 add = 60
@@ -153,7 +154,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                     CULTURE_INPUT = western
                 }
 				portrait_era4_armor_trigger = yes
-                cfp_innovation_plate_armor_trigger = yes 
+                cfp_innovation_plate_armor_trigger = yes
             }
             modifier = {
                 add = 21
@@ -161,7 +162,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                     CULTURE_INPUT = western
                 }
 				portrait_era4_armor_trigger = yes
-                cfp_innovation_plate_armor_trigger = yes  
+                cfp_innovation_plate_armor_trigger = yes
             }
         }
     }
@@ -231,9 +232,10 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 			base = 0
 			modifier = {
 				add = 101
-				exists = this				
-				NOT = { is_female = yes }
+				exists = this
 				has_primary_title = title:k_venice
+				NOT = { is_female = yes	}
+				cfp_clothing_no_override_trigger = yes				
 			}
 		}
 	}
@@ -717,6 +719,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				}
                 portrait_religious_high_trigger = yes
                 portrait_religious_christian_trigger = yes
+				cfp_clothing_no_override_bishop_trigger = yes
             }
         }
     }
@@ -795,6 +798,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				}
                 portrait_religious_high_trigger = yes
                 portrait_religious_muslim_trigger = yes
+				cfp_clothing_no_override_bishop_trigger = yes
             }
 	    }
 	}
