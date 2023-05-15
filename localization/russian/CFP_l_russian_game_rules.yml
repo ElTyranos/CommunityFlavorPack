@@ -2,11 +2,11 @@
  
  game_rule_category_cfp: "@cfp_icon! $cfp_name$"
 
- rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : Полный латный шлем"
- setting_default_cfp_fullplate_helmets:0 "Скрывать лица"
- setting_default_cfp_fullplate_helmets_desc:0 "Персонажам на войне разрешено использовать полные латные шлемы, закрывающие их лица."
- setting_never_cfp_fullplate_helmets:1 "#high Не скрывать лица#!"
- setting_never_cfp_fullplate_helmets_desc:0 "Персонажи никогда не будут использовать полный латный шлем и их лицо всегда будет видно."
+ rule_cfp_fullplate_helmets:0 "@cfp_icon! Community Flavor Pack : Полный латный доспех"
+ setting_default_cfp_fullplate_helmets:0 "Скрывать лицо"
+ setting_default_cfp_fullplate_helmets_desc:0 "Персонажам, на войне, разрешено использовать полный латный доспех, закрывающий их лица."
+ setting_never_cfp_fullplate_helmets:1 "#high Не скрывать лицо#!"
+ setting_never_cfp_fullplate_helmets_desc:0 "Персонажи никогда не будут использовать полный латный доспех и их лица всегда будет видно."
 
  rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Лысые персонажи"
  setting_default_cfp_baldtrait:0 "Допустимо облысение"
@@ -18,7 +18,7 @@
  setting_default_cfp_trait_accessories:0 "Индивидуально"
  setting_default_cfp_trait_accessories_desc:0 "Персонажи будут использовать новые виды головных уборов в зависимости от их особенностей (очки, украшения, татуировки, боевые раскраски)"
  setting_never_cfp_trait_accessories:1 "#high Только стандартные#!"
- setting_never_cfp_trait_accessories_desc:0 "Персонажи будут придерживаться только базовых аксессуаров (повязка для слепых, маска при обезображивании, повязка на голову, повязка на глаз)"
+ setting_never_cfp_trait_accessories_desc:0 "Персонажи будут придерживаться только базовых аксессуаров (повязки для слепых, маски при обезображивании, повязки на голову, повязка на глаз)"
  
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Улучшенная парикмахерская"
  setting_default_cfp_barbershop_unlocks:0 "Разблокировать"
@@ -29,14 +29,14 @@
  rule_cfp_fantasy:0 "@cfp_icon! Community Flavor Pack : Fantasy"
  setting_default_cfp_fantasy:0 "По умолчанию"
  setting_default_cfp_fantasy_desc:0 "Community Flavor Pack остаётся исторически аутентичным."
- setting_barbershop_cfp_fantasy:1 "#high Только парикмахерская#!"
- setting_barbershop_cfp_fantasy_desc:0 "Фантазийные аксессуары можно одеть в парикмахерской (в конце списка). ИИ не будет использовать фэнтезийные предметы."
- setting_ai_cfp_fantasy:1 "#high Парикмахерская и ИИ#!"
- setting_ai_cfp_fantasy_desc:0 "ИИ будет использовать фэнтезийную одежду и аксессуары, и они будут доступны в парикмахерской."
+ setting_barbershop_cfp_fantasy:1 "#high Только для игрока#!"
+ setting_barbershop_cfp_fantasy_desc:0 "Магические аксессуары доступны в парикмахерской (в конце списка). ИИ не будет использовать магические предметы."
+ setting_ai_cfp_fantasy:1 "#high Для игрока и ИИ#!"
+ setting_ai_cfp_fantasy_desc:0 "ИИ будет использовать магические аксессуары, и они будут доступны в парикмахерской для игрока."
  
  rule_cfp_artifacts:0 "@cfp_icon! Community Flavor Pack : Артефакты"
  setting_default_cfp_artifacts:0 "По умолчанию"
- setting_default_cfp_artifacts_desc:0 "Добавлены в игру новые артефакты. Это может изменить игровой процесс, но игровой баланс будет максимально сохранен."
+ setting_default_cfp_artifacts_desc:0 "Доступны новые артефакты. Это может изменить игровой процесс, но игровой баланс будет максимально сохранён."
  setting_never_cfp_artifacts:1 "#high Отключены#!"
- setting_never_cfp_artifacts_desc:0 "Новые артефакты отключены и не будут доступны в игре."
+ setting_never_cfp_artifacts_desc:0 "Пользовательские артефакты отключены и не будут доступны в игре."
  
