@@ -4,6 +4,31 @@
 	selection_behavior = weighted_random
 	priority = 6
 
+## Duplicate from vanilla to avoid priority issues
+
+	no_hat = {
+		usage = game
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				value = 0
+			}
+		}
+		outfit_tags = { no_clothes nightgown }
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				OR = {
+					portrait_wear_no_headgear_trigger = yes
+					activity_tournament_shirtless_trigger = yes
+				}
+			}
+		}
+	}
+	
 ## Crowns for specific titles
 
 	cfp_hungarian_royalty = {
