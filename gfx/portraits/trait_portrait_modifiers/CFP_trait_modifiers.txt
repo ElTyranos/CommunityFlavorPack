@@ -31,6 +31,7 @@
 					}
 				}
 				NOR = {
+					portrait_wear_helmet_trigger = yes
 					portrait_has_trait_trigger = { TRAIT = disfigured }
 					portrait_has_trait_trigger = { TRAIT = blind }
 				}
