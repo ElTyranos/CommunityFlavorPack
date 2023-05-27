@@ -1,20 +1,6 @@
 ﻿namespace = cfp_compatibility
 
-cfp_compatibility.1 = { # Fullscreen Barbershop compatibility
-	hidden = yes
-	orphan = yes 
-	immediate = {
-		set_global_variable = {
-			name = FSB_is_loaded
-			value = yes
-		}
-		if = {
-			limit = { exists = global_var:cfp_poses_list }	# Mutes the new poses log error
-		}
-	}
-}
-
-cfp_compatibility.2 = { # The Catholic Trinity compatibility
+cfp_compatibility.1 = { # The Catholic Trinity compatibility
     hidden = yes
 	orphan = yes 
 	immediate = {
