@@ -41,9 +41,12 @@ portrait_cfp_norman_clothing_contents_trigger = {
 }
 
 portrait_cfp_norman_sicily_clothing_trigger = {
-	host.capital_county = {
-		title:k_sicily = {
-			is_de_jure_liege_or_above_target = prev
+	AND = {
+		exists = host
+		host.capital_county = {
+			title:k_sicily = {
+				is_de_jure_liege_or_above_target = prev
+			}
 		}
 	}
 	OR = {
