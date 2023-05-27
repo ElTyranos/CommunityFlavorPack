@@ -2101,18 +2101,18 @@ special_genes = {
 			cfp_western_era3_war_nobility = {
 				index = 122
 				male = {
-					4 = male_headgear_secular_western_war_flat_top_01
-					4 = male_headgear_secular_western_war_topf_01
-					1 = male_headgear_secular_western_war_sugarloaf_01
+					5 = male_headgear_secular_western_war_flat_top_01
+					5 = male_headgear_secular_western_war_topf_01
+					5 = male_headgear_secular_western_war_sugarloaf_01
 					# era4
 					5 = male_headgear_secular_western_war_kettle_hat_01
 					5 = male_headgear_secular_western_war_kettle_hat_02
 					5 = male_headgear_secular_western_war_kettle_hat_03
 				}
 				female = {
-					4 = female_headgear_secular_western_war_flat_top_01
-					4 = female_headgear_secular_western_war_topf_01
-					1 = female_headgear_secular_western_war_sugarloaf_01
+					5 = female_headgear_secular_western_war_flat_top_01
+					5 = female_headgear_secular_western_war_topf_01
+					5 = female_headgear_secular_western_war_sugarloaf_01
 					# era4
 					5 = female_headgear_secular_western_war_kettle_hat_01
 					5 = female_headgear_secular_western_war_kettle_hat_02

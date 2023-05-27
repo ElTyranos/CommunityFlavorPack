@@ -39,7 +39,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_western_era3_war_nobility
-				range = { 0 0.36 } # Fullplate helms
+				range = { 0 0.49 } # Fullplate helms
 			}
 		}
         outfit_tags = { military_outfit }
@@ -65,7 +65,7 @@
 				mode = add
 				gene = headgear
 				template = cfp_western_era3_war_nobility
-				range = { 0.37 1 } # Kettle hats
+				range = { 0.51 1 } # Kettle hats
 			}
 		}
         outfit_tags = { military_outfit }
