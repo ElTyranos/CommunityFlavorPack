@@ -291,34 +291,19 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				template = cfp_javanese_common
 				range = { 0 1 }
 			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 20
-				highest_held_title_tier < tier_county
-				trigger_if = {
-					limit = { exists = this }
-					NOR = {
-						AND = {
-							exists = primary_spouse
-							primary_spouse = {
-								highest_held_title_tier > tier_county
-							}
-						}
-						AND = {
-							government_has_flag = government_is_republic
-							primary_title.tier > 1
-						}
-						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-					}
-				}
-				portrait_cfp_burmese_clothing_trigger = yes
-			}
 		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = cfp_burmese
+                }
+            }
+        }
 	}
 
-	burmese_nobles = {
+	burmese_low_nobles = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -326,145 +311,39 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				template = cfp_javanese_nobility
 				range = { 0 1 }
 			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				exists = court_owner
-				court_owner = {
-					has_royal_court = yes
-					OR = {
-						amenity_level = { type = court_fashion value >= 4 }
-						amenity_level = { type = court_fashion value = 5 }
-					}
-				}
-				portrait_cfp_burmese_clothing_trigger = yes
-			}
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							OR = {
-								highest_held_title_tier = tier_county
-								highest_held_title_tier = tier_duchy # include high nobles
-							}
-							NOR = {
-								# has_dynasty = no
-								AND = {
-									government_has_flag = government_is_republic
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-							}
-							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
-							portrait_cfp_burmese_clothing_trigger = yes
-						}
-						# Countess
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								highest_held_title_tier = tier_county
-								NOR = {
-									# has_dynasty = no
-									AND = {
-										government_has_flag = government_is_republic
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-								}
-								portrait_cfp_burmese_clothing_spouse_trigger = yes
-							}
-						}
-						# Duchess
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								OR = {
-									highest_held_title_tier > tier_county
-									AND = {
-									government_has_flag = government_is_republic
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-								}
-								portrait_cfp_burmese_clothing_spouse_trigger = yes
-							}
-						}
-					}
-				}
-				trigger_else = {
-					scope:highest_held_title_tier > tier_county
-					portrait_cfp_burmese_clothing_trigger = yes
-				}
-			}
 		}
+        weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = cfp_burmese } 
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = cfp_burmese
+                } 
+            }
+        }
 	}
-
-	burmese_royalty = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = cfp_javanese_royalty
-				range = { 0 1 }
-			}
-		}		
-		weight = {
-			base = 0	
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							highest_held_title_tier >= tier_kingdom
-							NOR = {
-								AND = {
-									government_has_flag = government_is_republic
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-							}
-							portrait_cfp_burmese_clothing_trigger = yes
-						}
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								highest_held_title_tier >= tier_kingdom
-								NOR = {
-									AND = {
-									government_has_flag = government_is_republic
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-								}
-								portrait_cfp_burmese_clothing_spouse_trigger = yes
-							}
-						}
-					}
-				}
-				trigger_else = {
-					scope:highest_held_title_tier > tier_kingdom
-					portrait_cfp_burmese_clothing_trigger = yes
-				}
-			}
-		}
-	}
+	
+    burmese_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = cfp_javanese_royalty
+                range = { 0 1 }
+            }
+        }       
+        weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = cfp_burmese } 
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = cfp_burmese
+                } 
+            }
+        }
+    }
 
 ## Sub-Saharan Africans ##
 
