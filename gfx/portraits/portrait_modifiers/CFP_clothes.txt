@@ -199,7 +199,6 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 gene = clothes
                 template = western_crusades
 				range = { 0.83 1 }
-                # accessory = m_clothes_sec_dde_hre_war_nob_01_lo
             }
         }
         outfit_tags = { western_crusades_black }
@@ -475,7 +474,6 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 mode = add
                 gene = clothes
                 template = sub_saharan_war_nobility_clothes
-                # accessory = m_clothes_sec_mena_war_nob_01_lo
                 range = { 0 1 }
             }
         }
