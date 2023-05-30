@@ -469,35 +469,9 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 			base = 0
 			modifier = {
 				add = 101
-				exists = this
 				is_male = yes
-				OR = {
-					portrait_has_trait_trigger = { TRAIT = devoted }
-					AND = {
-						faith = {
-							has_doctrine_parameter = vows_of_poverty_active
-						}
-						OR = {
-							AND = {
-								has_council_position = councillor_court_chaplain
-								faith = {
-									has_doctrine = doctrine_theocracy_lay_clergy
-								}
-							}
-							is_theocratic_lessee = yes
-							AND = { is_ruler = yes has_government = theocracy_government }
-						}
-					}
-				}
-				OR = {
-					faith = faith:orthodox
-					faith = faith:armenian_apostolic
-					faith = faith:coptic
-					faith = faith:messalian
-					faith = faith:bogomilist
-					faith = faith:paulician
-					faith = faith:nestorian
-				}
+                portrait_religious_devoted_trigger = yes
+                portrait_religious_orthodox_trigger = yes
 			}
 		}
 	}
