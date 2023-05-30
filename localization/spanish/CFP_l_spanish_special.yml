@@ -1,10 +1,8 @@
 ﻿l_spanish:
 
- PORTRAIT_MODIFIER_custom_special_male_empty:1 "No accesorio personalizado"
- PORTRAIT_MODIFIER_custom_special_female_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
- PORTRAIT_MODIFIER_custom_special_boy_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
- PORTRAIT_MODIFIER_custom_special_girl_empty:1 "$PORTRAIT_MODIFIER_custom_special_male_empty$"
-
+ PORTRAIT_MODIFIER_custom_special_male_empty:1 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+ PORTRAIT_MODIFIER_custom_special_boy_empty:1 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+ 
  ## CFP
  PORTRAIT_MODIFIER_custom_special_no_blindfold:1 "@cfp_icon_remove! Quitar vendas"
  PORTRAIT_MODIFIER_custom_special_no_eye_patch:1 "@cfp_icon_remove! Quitar parche"
