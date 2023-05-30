@@ -487,7 +487,7 @@ variation = {
 		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_01" 		layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}			
 	pattern = { 
 		weight = 1
@@ -495,7 +495,7 @@ variation = {
 		r = { textures = "western_wool_plain_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "western_linen_trim_02" 		layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_02" 		layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 1
@@ -503,7 +503,7 @@ variation = {
 		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_03" 		layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}	
 	pattern = { 
 		weight = 1
@@ -511,7 +511,7 @@ variation = {
 		r = { textures = "western_linen_plain_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "western_linen_trim_01" 		layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_04" 		layout = "small_trim_layout" }
-		a = { textures = "western_wool_trim_big_01"		layout = "small_trim_layout" }
+		a = { textures = "western_wool_trim_big_01"		layout = "big_trim_layout_01" }
 	}			
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
