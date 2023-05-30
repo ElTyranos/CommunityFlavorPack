@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "female_headgear_secular_western_cfp_royalty_05_mesh"
 	file = "female_headgear_secular_western_cfp_royalty_05.mesh"
+	blend_shape = { id = "female_headgear_secular_western_cfp_royalty_05_bs_additive" type = "female_headgear_secular_western_cfp_royalty_05_bs_additive.mesh" }
 
 	meshsettings = {
 		name = "female_headgear_secular_western_cfp_royalty_05Shape"
@@ -16,4 +17,5 @@ pdxmesh = {
 entity = {
 	name = "female_headgear_secular_western_cfp_royalty_05_entity"
 	pdxmesh = "female_headgear_secular_western_cfp_royalty_05_mesh"
+	attribute = { name = "bs_additive" blend_shape = "female_headgear_secular_western_cfp_royalty_05_bs_additive" }
 }

@@ -189,7 +189,7 @@ male_headgear_secular_western_cfp_imperial_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_imperial_01_entity 	 }
 }
 female_headgear_secular_western_cfp_imperial_01 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_imperial_01_entity 	 }
 }
 
@@ -198,7 +198,7 @@ male_headgear_secular_western_cfp_royalty_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_01_entity 	 }
 }
 female_headgear_secular_western_cfp_royalty_01 = {
-	set_tags = "hat"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_01_entity 	 }
 }
 male_headgear_secular_western_cfp_royalty_02 = {
@@ -206,7 +206,7 @@ male_headgear_secular_western_cfp_royalty_02 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_02_entity 	 }
 }
 female_headgear_secular_western_cfp_royalty_02 = {
-	set_tags = "cap"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_02_entity 	 }
 }
 male_headgear_secular_western_cfp_royalty_03 = {
@@ -214,7 +214,7 @@ male_headgear_secular_western_cfp_royalty_03 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_03_entity 	 }
 }
 female_headgear_secular_western_cfp_royalty_03 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_03_entity 	 }
 }
 male_headgear_secular_western_cfp_royalty_04 = {
@@ -222,7 +222,7 @@ male_headgear_secular_western_cfp_royalty_04 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_04_entity 	 }
 }
 female_headgear_secular_western_cfp_royalty_04 = {
-	set_tags = "no_hair,snug_headgear"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_04_entity 	 }
 }
 male_headgear_secular_western_cfp_royalty_05 = {
@@ -230,7 +230,7 @@ male_headgear_secular_western_cfp_royalty_05 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_05_entity 	 }
 }
 female_headgear_secular_western_cfp_royalty_05 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_05_entity 	 }
 }
 male_headgear_secular_western_cfp_royalty_06 = {
@@ -238,7 +238,7 @@ male_headgear_secular_western_cfp_royalty_06 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_06_entity 	 }
 }
 female_headgear_secular_western_cfp_royalty_06 = {
-	set_tags = "cap"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_06_entity 	 }
 }
 male_headgear_secular_western_cfp_royalty_07 = {
@@ -246,7 +246,7 @@ male_headgear_secular_western_cfp_royalty_07 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_royalty_07_entity 	 }
 }
 female_headgear_secular_western_cfp_royalty_07 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_royalty_07_entity 	 }
 }
 
@@ -561,7 +561,7 @@ male_headgear_secular_iberian_cfp_castilian_royalty_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_iberian_cfp_castilian_royalty_01_entity 	 }
 }
 female_headgear_secular_iberian_cfp_castilian_royalty_01 = {
-	set_tags = "no_hair,snug_headgear"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_iberian_cfp_castilian_royalty_01_entity 	 }
 }
 
@@ -637,7 +637,7 @@ male_headgear_secular_slavic_royalty_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_royalty_01_entity 	 }
 }
 female_headgear_secular_slavic_royalty_01 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_royalty_01_entity 	 }
 }
 
@@ -696,7 +696,7 @@ male_headgear_secular_ruthenian_cfp_imperial_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_ruthenian_cfp_imperial_01_entity 	 }
 }
 female_headgear_secular_ruthenian_cfp_imperial_01 = {
-	set_tags = "no_hair,snug_headgear"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_ruthenian_cfp_imperial_01_entity 	 }
 }
 male_headgear_secular_ruthenian_cfp_royalty_01 = {

@@ -186,6 +186,12 @@
 				template = cfp_iberian_castilian_royalty
 				range = { 0 1 }
 			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = western_veils
+				range = { 0 1 }
+			}
 		}
 		weight = {
 			base = 0

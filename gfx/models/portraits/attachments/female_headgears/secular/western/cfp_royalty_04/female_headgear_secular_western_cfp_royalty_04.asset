@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "female_headgear_secular_western_cfp_royalty_04_mesh"
-	file = "female_headgear_secular_western_cfp_royalty_04.mesh"	# blend_shape = { id = "female_headgear_secular_western_cfp_royalty_04_bs_fat"		type = "female_headgear_secular_western_cfp_royalty_04_bs_fat.mesh" }
+	file = "female_headgear_secular_western_cfp_royalty_04.mesh"
+	blend_shape = { id = "female_headgear_secular_western_cfp_royalty_04_bs_additive" type = "female_headgear_secular_western_cfp_royalty_04_bs_additive.mesh" }
 	
 	meshsettings = {
 		name = "female_headgear_secular_western_cfp_royalty_04Shape"
@@ -11,27 +12,10 @@ pdxmesh = {
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
-	meshsettings = {
-		name = "female_headgear_secular_cfp_western_royalty_04_veilShape"
-		index = 0
-		texture_diffuse = "female_headgear_secular_western_nobility_01_diffuse.dds"
-		texture_normal = "female_headgear_secular_western_nobility_01_normal.dds"
-		texture_specular = "female_headgear_secular_western_nobility_01_properties.dds"
-		shader = "portrait_attachment_pattern"
-		shader_file = "gfx/FX/jomini/portrait.shader"
-	}
 }
 
 entity = {
 	name = "female_headgear_secular_western_cfp_royalty_04_entity"
-	pdxmesh = "female_headgear_secular_western_cfp_royalty_04_mesh" # attribute = { name = "bs_fat_1"								blend_shape = "female_headgear_secular_western_cfp_royalty_04_bs_fat" }
-
-	game_data = {
-        portrait_entity_user_data = {
-			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/female_headgear/secular/western/nobility_01/female_headgear_secular_western_nobility_01_masks.dds"
-				variation = "western_veil_01"
-			}
-		}
-	}
-	}
+	pdxmesh = "female_headgear_secular_western_cfp_royalty_04_mesh"
+	attribute = { name = "bs_additive" blend_shape = "female_headgear_secular_western_cfp_royalty_04_bs_additive" }
+}

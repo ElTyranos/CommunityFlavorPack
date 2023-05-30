@@ -384,6 +384,12 @@ cfp_headgear_base = {
 				template = cfp_slavic_royalty
 				range = { 0.51 1.0 }
 			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = western_veils
+				range = { 0 1 }
+			}
 		}
 		weight = {
 			base = 0
@@ -427,6 +433,12 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = cfp_slavic_imperial
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = western_veils
 				range = { 0 1 }
 			}
 		}
