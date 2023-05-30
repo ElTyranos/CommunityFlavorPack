@@ -411,6 +411,7 @@ cfp_clothes_core_trigger = {
 			}
 		}
 		# EP2
+		portrait_ep2_wedding_clothes_trigger = yes # wedding
 		portrait_ep2_hajj_clothes_trigger = yes # hajj
 		portrait_ep2_ihram_clothes_trigger = yes # ihram
 		has_character_flag = pope_larper_flag # Pope/Cardinal Larper event
