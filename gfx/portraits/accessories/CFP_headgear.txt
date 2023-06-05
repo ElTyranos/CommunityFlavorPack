@@ -131,7 +131,7 @@ male_headgear_secular_northern_cfp_high_nobility_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_cfp_high_nobility_01_entity 	 }
 }
 female_headgear_secular_northern_cfp_high_nobility_01 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_cfp_high_nobility_01_entity 	 }
 }
 
@@ -282,7 +282,7 @@ male_headgear_secular_western_cfp_high_nobility_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_cfp_high_nobility_01_entity 	 }
 }
 female_headgear_secular_western_cfp_high_nobility_01 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_cfp_high_nobility_01_entity 	 }
 }
 
@@ -291,7 +291,7 @@ male_headgear_secular_western_high_nobility_04 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_western_high_nobility_04_entity 	 }
 }
 female_headgear_secular_western_high_nobility_04 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_western_high_nobility_04_entity 	 }
 }
 
@@ -444,7 +444,7 @@ male_headgear_secular_latin_cfp_icol_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_latin_cfp_icol_01_entity 	 }
 }
 female_headgear_secular_latin_cfp_icol_01 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_latin_cfp_icol_01_entity 	 }
 }
 
@@ -662,7 +662,7 @@ male_headgear_secular_slavic_high_nobility_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_slavic_high_nobility_01_entity 	 }
 }
 female_headgear_secular_slavic_high_nobility_01 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_slavic_high_nobility_01_entity 	 }
 }
 male_headgears_secular_slavic_war_helmet_01 = {
@@ -930,7 +930,7 @@ male_headgear_secular_hungarian_high_nobility_01 = {
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_hungarian_high_nobility_01_entity 	 }
 }
 female_headgear_secular_hungarian_high_nobility_01 = {
-	set_tags = "crown"
+	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_hungarian_high_nobility_01_entity 	 }
 }
 male_headgear_secular_hungarian_royalty_01 = {
