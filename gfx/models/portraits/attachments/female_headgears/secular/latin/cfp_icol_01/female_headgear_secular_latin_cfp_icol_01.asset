@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "female_headgear_secular_latin_cfp_icol_01_mesh"
 	file = "female_headgear_secular_latin_cfp_icol_01.mesh"
+	blend_shape = { id = "female_headgear_secular_latin_cfp_icol_01_bs_additive" type = "female_headgear_secular_latin_cfp_icol_01_bs_additive.mesh" }
 	
 	meshsettings = {
 		name = "female_headgear_secular_latin_cfp_icol_01Shape"
@@ -16,4 +17,5 @@ pdxmesh = {
 entity = {
 	name = "female_headgear_secular_latin_cfp_icol_01_entity"
 	pdxmesh = "female_headgear_secular_latin_cfp_icol_01_mesh"
+	attribute = { name = "bs_additive" blend_shape = "female_headgear_secular_latin_cfp_icol_01_bs_additive" }
 }

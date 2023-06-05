@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "female_headgear_secular_western_high_nobility_04_mesh"
 	file = "female_headgear_secular_western_high_nobility_04.mesh"
+	blend_shape = { id = "female_headgear_secular_western_high_nobility_04_bs_additive" type = "female_headgear_secular_western_high_nobility_04_bs_additive.mesh" }
 	
 	meshsettings = {
 		name = "female_headgear_secular_western_high_nobility_04Shape"
@@ -16,4 +17,5 @@ pdxmesh = {
 entity = {
 	name = "female_headgear_secular_western_high_nobility_04_entity"
 	pdxmesh = "female_headgear_secular_western_high_nobility_04_mesh"
+	attribute = { name = "bs_additive" blend_shape = "female_headgear_secular_western_high_nobility_04_bs_additive" }
 }
