@@ -29,6 +29,32 @@
 		}
 	}
 	
+## Junky fix for veils being assigned everywhere
+    no_veil = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = additive_headgear
+                template = cfp_no_veil
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				exists = this
+				OR = {
+					NOT = { is_adult = yes }
+					AND = {
+						is_landed = yes 
+						government_has_flag = government_is_theocracy 
+					}
+				}
+            }
+        }
+    }
+
 ## Crowns for specific titles
 
 	cfp_hungarian_royalty = {

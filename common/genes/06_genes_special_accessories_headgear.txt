@@ -3397,6 +3397,15 @@ special_genes = {
 					10 = female_headgear_secular_dde_hre_common_02
 				}
 				girl = female				
+			}
+
+			cfp_no_veil = {
+				index = 4
+				male = {}
+				female = {
+					1 = empty
+				}
+				girl = female				
 			}			
 		}
 	}
