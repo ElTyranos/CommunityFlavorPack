@@ -374,9 +374,12 @@ portrait_cfp_jewish_andalusian_clothing_trigger = {
 	portrait_wear_armor_trigger = no
 	portrait_religious_jewish_trigger = yes
 	
-	host.capital_county = {
-		title:e_spain = {
-			is_de_jure_liege_or_above_target = prev
+	AND = {
+		exists = host
+		host.capital_county = {
+			title:e_spain = {
+				is_de_jure_liege_or_above_target = prev
+			}
 		}
 	}
 }
