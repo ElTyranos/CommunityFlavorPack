@@ -1856,7 +1856,7 @@ special_genes = {
 
 				male = {
 					1 = m_clothes_sec_ep2_western_era3_nob_01_lo
-					1 = m_clothes_sec_ep2_western_era3_nob_01_lo
+					1 = m_clothes_sec_ep2_western_era3_nob_02_lo
 				}
 
 				female = {
