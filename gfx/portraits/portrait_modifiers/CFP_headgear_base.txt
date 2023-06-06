@@ -1034,7 +1034,7 @@ cfp_headgear_base = {
 		}
 		weight = {
 			base = 0
-			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = mena } 
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_central_africa } 
 			modifier = {
 				add = 60
                 portrait_low_nobles_clothing_trigger = {
