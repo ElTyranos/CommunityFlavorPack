@@ -551,6 +551,10 @@
                     CULTURE_INPUT = cfp_norse
                 }
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP1 is active since they are included in FP1 genes
+                has_fp1_dlc_trigger = yes
+            }
 		}
 	}
 
@@ -573,6 +577,10 @@
                     CULTURE_INPUT = cfp_norse
                 }
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP1 is active since they are included in FP1 genes
+                has_fp1_dlc_trigger = yes
+            }
 		}
 	}
 
