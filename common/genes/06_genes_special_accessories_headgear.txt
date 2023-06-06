@@ -1420,7 +1420,7 @@ special_genes = {
 					10 = female_headgear_secular_fp1_war_nobility_02
 					10 = female_headgear_secular_northern_war_viking_02
 					10 = female_headgear_secular_northern_war_viking_04
-							
+					
 				}
 				boy = male
 				girl = female
@@ -1444,7 +1444,7 @@ special_genes = {
 					7 = female_headgear_secular_northern_war_nasal_02
 					5 = female_headgear_secular_western_war_mail_coif_01
 					5 = female_headgear_secular_western_war_padded_hood_01
-							
+
 				}
 				boy = male
 				girl = female
@@ -2277,7 +2277,7 @@ special_genes = {
 					1 = female_headgear_secular_northern_war_viking_01
 					1 = female_headgear_secular_northern_war_viking_02
 					1 = female_headgear_secular_northern_war_viking_03
-					1 = female_headgear_secular_northern_war_viking_04	
+					1 = female_headgear_secular_northern_war_viking_04
 				}
 				boy = male
 				girl = female
