@@ -275,7 +275,7 @@ cfp_headgear_base = {
 				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_iberian_christian
-                }   
+                }
 			}
 		}
 	}
