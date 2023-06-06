@@ -236,6 +236,10 @@ cfp_headgear_base = {
                     CULTURE_INPUT = cfp_iberian_christian
                 }
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP2 is active since they are included in FP2 genes
+                has_fp2_dlc_trigger = yes
+            }
 		}
 	}
 
@@ -257,6 +261,10 @@ cfp_headgear_base = {
                     CULTURE_INPUT = cfp_iberian_christian 
                 }
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP2 is active since they are included in FP2 genes
+                has_fp2_dlc_trigger = yes
+            }
 		}
 	}
 
@@ -277,6 +285,10 @@ cfp_headgear_base = {
                     CULTURE_INPUT = cfp_iberian_christian
                 }
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP2 is active since they are included in FP2 genes
+                has_fp2_dlc_trigger = yes
+            }
 		}
 	}
 
