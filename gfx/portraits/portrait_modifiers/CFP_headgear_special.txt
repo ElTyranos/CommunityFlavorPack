@@ -45,6 +45,11 @@
                 add = 100
 				exists = this
 				OR = {
+					OR = { 
+						portrait_wear_armor_trigger = yes
+						portrait_wear_armor_currently_in_army_trigger = yes
+					}
+					portrait_wear_no_headgear_trigger = yes
 					NOT = { is_adult = yes }
 					AND = {
 						is_landed = yes 
