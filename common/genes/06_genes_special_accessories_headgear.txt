@@ -2201,10 +2201,9 @@ special_genes = {
 			cfp_western_war_high_nobility = {
 				index = 126
 				male = {
-					4 = male_headgear_secular_western_war_high_nobility_01
-					# HRE lock was not required anymore as DLC content in the models was replaced by CFP
+					1 = male_headgear_secular_western_war_high_nobility_01
 					1 = male_headgear_secular_dde_hre_war_high_nobility_01
-					2 = male_headgear_secular_dde_hre_war_high_nobility_02
+					1 = male_headgear_secular_dde_hre_war_high_nobility_02
 				}
 				female = {}
 				boy = male
