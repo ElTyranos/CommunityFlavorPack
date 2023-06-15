@@ -4,13 +4,15 @@
 	selection_behavior = weighted_random
 	priority = 4
 	
+	# High nobles war headgear
+	
 	cfp_western_war_high_nobles = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = cfp_western_war_high_nobility
-				range = { 0 1 }
+				accessory = male_headgear_secular_western_war_high_nobility_01
 			}
 		}
         outfit_tags = { military_outfit }
@@ -26,9 +28,60 @@
                 portrait_high_nobles_armor_trigger = {
                     CULTURE_INPUT = western
                 }
-				NOT = {
-					portrait_era1_armor_trigger = yes
+			}
+		}
+	}
+		
+	cfp_western_war_high_nobles_era2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_western_war_high_nobility
+				accessory = male_headgear_secular_dde_hre_war_high_nobility_02
+			}
+		}
+        outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_male = yes # because there's no women versions
+				is_landed = yes
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = western 
 				}
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = western
+                }
+				portrait_era2_armor_trigger = yes
+			}
+		}
+	}
+	
+	cfp_western_war_high_nobles_era3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_western_war_high_nobility
+				accessory = male_headgear_secular_dde_hre_war_high_nobility_01
+			}
+		}
+        outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_male = yes # because there's no women versions
+				is_landed = yes
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = western 
+				}
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = western
+                }
+				portrait_era3_armor_trigger = yes
 			}
 		}
 	}
