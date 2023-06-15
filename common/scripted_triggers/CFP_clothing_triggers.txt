@@ -409,7 +409,6 @@ cfp_clothes_core_trigger = {
 		portrait_beggar_trigger = yes
 		portrait_prisoner_trigger = yes
 		portrait_sickness_trigger = yes
-		portrait_religious_high_trigger = yes
 		portrait_stealth_trigger = yes
 		portrait_religious_devoted_trigger = yes
 		# EP1
