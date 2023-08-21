@@ -35,7 +35,7 @@
             accessory = {
                 mode = add
                 gene = additive_headgear
-                template = cfp_no_veil
+                template = no_additive
                 range = { 0 1 } # For the randomness to work correctly
             }
         }

@@ -5,10 +5,18 @@
 
 # NORTH
 portrait_cfp_norse_clothing_trigger = {
-	culture = { portrait_cfp_norse_clothing_contents_trigger = yes }
+	OR = {
+		style_changing_reformer_fp1_norse = yes
+		scope:culture = { portrait_cfp_norse_clothing_contents_trigger = yes }
+	}
 }
 portrait_cfp_norse_clothing_spouse_trigger = {
-	culture = { portrait_cfp_norse_clothing_contents_trigger = yes }
+	OR = {
+		style_changing_reformer_fp1_norse = yes
+		culture = {
+			portrait_cfp_norse_clothing_contents_trigger = yes
+		}
+	}
 }
 portrait_cfp_norse_clothing_contents_trigger = {
 	has_clothing_gfx = fp1_norse_clothing_gfx
@@ -126,6 +134,7 @@ portrait_cfp_latin_clothing_contents_trigger = {
 ## IBERIA
 portrait_cfp_iberian_christian_clothing_trigger = {
 	OR = {
+		style_changing_reformer_iberian_christian = yes
 		culture = { portrait_fp2_iberian_christian_clothing_contents_trigger = yes }
 		trigger_if = {
 			limit = { exists = this	}
@@ -141,6 +150,7 @@ portrait_cfp_iberian_christian_clothing_trigger = {
 }
 portrait_cfp_iberian_christian_clothing_spouse_trigger = {
 	OR = {
+		style_changing_reformer_iberian_christian = yes
 		culture = {
 			portrait_fp2_iberian_christian_clothing_contents_trigger = yes
 		}
@@ -156,6 +166,7 @@ portrait_cfp_iberian_christian_clothing_spouse_trigger = {
 
 portrait_cfp_iberian_muslim_clothing_trigger = {
 	OR = {
+		style_changing_reformer_iberian_muslim = yes
 		culture = { portrait_fp2_iberian_muslim_clothing_contents_trigger = yes }
 		trigger_if = {
 			limit = { exists = this	}
@@ -171,6 +182,7 @@ portrait_cfp_iberian_muslim_clothing_trigger = {
 }
 portrait_cfp_iberian_muslim_clothing_spouse_trigger = {
 	OR = {
+		style_changing_reformer_iberian_muslim = yes
 		culture = {
 			portrait_fp2_iberian_muslim_clothing_contents_trigger = yes
 		}
