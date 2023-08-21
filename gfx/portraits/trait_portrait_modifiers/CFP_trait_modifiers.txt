@@ -1,46 +1,4 @@
-﻿cfp_eyeglasses = {
-	cfp_eyeglasses = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = special_headgear_spectacles
-				template = spectacles
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}
-		traits = {
-			whole_of_body
-			administrator
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				age >= 40
-				is_alive = yes
-				current_date >= 1286.1.1
-				portrait_western_clothing_trigger = yes
-				NOT = { has_game_rule = never_cfp_trait_accessories }
-				OR = {
-					AND = {
-						learning >= 25
-						portrait_has_trait_trigger = { TRAIT = whole_of_body }
-					}
-					AND = {
-						stewardship >= 25
-						portrait_has_trait_trigger = { TRAIT = administrator }
-					}
-				}
-				NOR = {
-					portrait_wear_helmet_trigger = yes
-					portrait_has_trait_trigger = { TRAIT = disfigured }
-					portrait_has_trait_trigger = { TRAIT = blind }
-				}
-			}
-		}
-	}
-}
-
-cfp_blind = {
+﻿cfp_blind = {
 	cfp_blind = {
 		dna_modifiers = {
 			accessory = {

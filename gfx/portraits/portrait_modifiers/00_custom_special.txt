@@ -3,17 +3,6 @@
 	interface_position = 5
 
 	add_accessory_modifiers = {
-		gene = special_headgear_spectacles
-		template = no_eyeglasses
-		is_valid_custom = {
-			OR = {
-				has_trait = whole_of_body
-				has_trait = administrator
-			}
-			NOT = { has_game_rule = never_cfp_trait_accessories }
-		}
-	}
-	add_accessory_modifiers = {
 		gene = special_headgear_eye_patch
 		template = no_eye_patch
 		is_valid_custom = {
