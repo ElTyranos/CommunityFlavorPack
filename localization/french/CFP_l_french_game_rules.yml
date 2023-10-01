@@ -28,7 +28,7 @@
  
  rule_cfp_fantasy:0 "@cfp_icon! Community Flavor Pack : Fantasie"
  setting_default_cfp_fantasy:0 "Par défaut"
- setting_default_cfp_fantasy_desc:0 "Community Flavor Pack remains historically authentic."
+ setting_default_cfp_fantasy_desc:0 "Community Flavor Pack reste historiquement authentique."
  setting_barbershop_cfp_fantasy:1 "#high Barbier Seulement#!"
  setting_barbershop_cfp_fantasy_desc:0 "Les accessoires fantaisistes sont disponibles chez le Barbier (à la fin de la liste). L'IA ne les utilisera pas."
  setting_ai_cfp_fantasy:1 "#high Barbier et IA#!"
