@@ -42,7 +42,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01:1 "@cfp_icon! Couronne Impériale Ottonienne"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_imperial_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_imperial_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_01:1 "@cfp_icon! Couronne fleur de lis d'émeraude"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_01:1 "@cfp_icon! Couronne fleur de lis d’émeraude"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_cfp_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_cfp_royalty_02:1 "@cfp_icon! Couronne Romane"
@@ -165,10 +165,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_castilian_royalty_01:1 "@cfp_icon_ocher! Couronne Castillane"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_castilian_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_castilian_royalty_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01:1 "@cfp_icon_ocher! Couronne draconique d'Aragon"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01:1 "@cfp_icon_ocher! Couronne draconique d’Aragon"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_aragonese_royalty_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01:1 "@cfp_icon_ocher! Heaume draconique d'Aragon"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01:1 "@cfp_icon_ocher! Heaume draconique d’Aragon"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iberian_cfp_war_aragonese_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_war_aragonese_royalty_01$"
 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iberian_cfp_bonnet_common_01:1 "@cfp_icon_ocher! Bonnet de roturier Ibérique"
@@ -227,7 +227,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgears_secular_turkic_high_nobility_02:0 "@cfp_icon_red! Chapeau de haute noblesse turcique 2"
  
 ## Cuman
- PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! Chapeau d'osier Couman"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_01:1 "@cfp_icon_red! Chapeau d’osier Couman"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_01:1 "@cfp_icon_red! Chapeau de soie Couman"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_low_cuman_nobility_02:1 "@cfp_icon_red! Chapeau de cuir Couman"
  PORTRAIT_MODIFIER_custom_headgear_male_headgears_secular_turkic_high_cuman_nobility_02:1 "@cfp_icon_red! Chapeau brodé Couman"
@@ -256,7 +256,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_royalty_02:1 "@cfp_icon_red! Couronne royale de Croatie"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_royalty_02$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon_red! Couronne royale d'Albanie"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01:1 "@cfp_icon_red! Couronne royale d’Albanie"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_slavic_cfp_skanderbeg_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_cfp_skanderbeg_01$"
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_slavic_high_nobility_01:1 "@cfp_icon_red! Bandeau Slave"
@@ -385,7 +385,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_african_cfp_mask_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_cfp_mask_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_cfp_mask_03:1 "@cfp_icon_white! Masque du singe"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_african_cfp_mask_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_cfp_mask_03$"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_cfp_mask_04:1 "@cfp_icon_white! Masque de l'antilope"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_cfp_mask_04:1 "@cfp_icon_white! Masque de l’antilope"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_african_cfp_mask_04:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_cfp_mask_04$"
  
 ## West African
@@ -456,7 +456,7 @@
  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_cfp_head_01:1 "@cfp_icon_white! Tiare papale (XIème s.)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_cfp_cardinal_01:1 "@cfp_icon_white! Galero de cardinal"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_cfp_tribal_01:1 "@cfp_icon_white! Mitre d'évêque nordique"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_cfp_tribal_01:1 "@cfp_icon_white! Mitre d’évêque nordique"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_cfp_pilgrim_01:1 "@cfp_icon_white! Chapeau de pélerin (Saint Jacques)"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_cfp_pilgrim_02:1 "@cfp_icon_white! Chapeau de pélerin (plat)"
  
@@ -502,22 +502,22 @@
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01:1 "@cfp_icon! Cape commune"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_common_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_01:1 "@cfp_icon_white! Cape d'ordre religieux (Blanche)"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_01:1 "@cfp_icon_white! Cape d’ordre religieux (Blanche)"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_01:1 "@cfp_icon_white! Capuchon d'ordre religieux (Blanc)"
+ PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_01:1 "@cfp_icon_white! Capuchon d’ordre religieux (Blanc)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_01$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_02:1 "@cfp_icon_white! Cape d'ordre religieux (Noire)"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_02:1 "@cfp_icon_white! Cape d’ordre religieux (Noire)"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_02:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_02$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02:1 "@cfp_icon_white! Capuchon d'ordre religieux (Noir)"
+ PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02:1 "@cfp_icon_white! Capuchon d’ordre religieux (Noir)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_02$"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_03:1 "@cfp_icon_white! Cape d'ordre religieux (Commune)"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_03:1 "@cfp_icon_white! Cape d’ordre religieux (Commune)"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_cfp_crusades_03:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_03$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03:1 "@cfp_icon_white! Capuchon d'ordre religieux (Commun)"
+ PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03:1 "@cfp_icon_white! Capuchon d’ordre religieux (Commun)"
  PORTRAIT_MODIFIER_custom_headgear_female_cloaks_secular_western_cfp_crusades_hood_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_cloaks_secular_western_cfp_crusades_hood_03$"
  
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_crusades_06:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_cfp_common_01$ 2"
@@ -531,7 +531,7 @@
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_sub_saharan_cfp_apron_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_sub_saharan_cfp_apron_01$"
  
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_religious_catholic_cfp_head_01:1 "@cfp_icon_white! Chape papale"
- PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_religious_catholic_cfp_tribal_01:1 "@cfp_icon_white! Chasuble d'évêque nordique"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_religious_catholic_cfp_tribal_01:1 "@cfp_icon_white! Chasuble d’évêque nordique"
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_religious_orthodox_cfp_omophorion_01:1 "@cfp_icon_white! Omophorion orthodoxe"
  
 ## Clothes
@@ -575,7 +575,7 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_java_cfp_common_01:0 "@cfp_icon_orange! Robe de roturière Javanaise"
   
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_cfp_devoted_01:1 "@cfp_icon_white! Robe de moine Bénédictin"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_muslim_cfp_caliph_01:1 "@cfp_icon_white! Robe d'imam noire"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_muslim_cfp_caliph_01:1 "@cfp_icon_white! Robe d’imam noire"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_cfp_head_01:1 "@cfp_icon_white! Robe papale (XIème s.)"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_cfp_cardinal_01:1 "@cfp_icon_white! Robe de cardinal"
@@ -593,7 +593,7 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_cfp_nobility_02_high:1 "@cfp_icon_orange! Stanapatta Indien haute noblesse"
   
 ## Legwear
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Jambières d'armure de plates"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01:1 "@cfp_icon! Jambières d’armure de plates"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_cfp_war_plate_01:1 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_cfp_war_plate_01$"
   
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_sub_saharan_cfp_common_01:0 "@cfp_icon_yellow! Sandales et pagne Africains"
@@ -607,7 +607,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01:0 "@cfp_icon_fantasy! Chapeau pointu de sorcier"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_wizard_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01$"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01:0 "@cfp_icon_fantasy! Chapeau à corne d'enchanteur"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01:0 "@cfp_icon_fantasy! Chapeau à corne d’enchanteur"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_enchanter_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_enchanter_hat_01$"
 
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_celtic_circlet_01:0 "@cfp_icon_fantasy! Couronne druidique"
