@@ -317,7 +317,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
             court_fashion_level_5_modifier = { INPUT_PARAMETER = cfp_burmese } 
             modifier = {
                 add = 50
-                portrait_high_nobles_clothing_trigger = { 
+                portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = cfp_burmese
                 } 
             }
