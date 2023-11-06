@@ -1088,7 +1088,6 @@ window = {
 									expand = {}
 									
 									button_search = {
-										parentanchor=left
 										size = { 25 25 }
 										onclick = "[BarbershopWindow.ShowSearchFilter( PdxGuiWidget.GetIndexInDataModel )]"
 
