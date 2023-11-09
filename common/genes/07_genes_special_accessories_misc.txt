@@ -130,7 +130,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
 		ep2_western_war_legwear = {
 			index = 9
 			male = {
@@ -940,7 +939,7 @@ props_left = {
 	#									#
 	#####################################
 
-		props_right = {
+	props_right = {
 		no_props = {
 			index = 0
 			male = {
@@ -1554,13 +1553,24 @@ props_left = {
 			boy = male
 			girl = female
 		}
+		fp3_artifact_sword_equipped_01 = {
+			index = 67
+			male = {
+				1 = fp3_artifact_sword_equipped_01
+			}
+			female = {
+				1 = fp3_artifact_sword_equipped_01	
+			}
+			boy = male
+			girl = female
+		}
 		
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
 		
 		cfp_scepter = {
-			index = 67
+			index = 68
 			male = {
 				1 = cfp_scepter_01
 			}
@@ -1571,7 +1581,7 @@ props_left = {
 			girl = female
 		}
 		cfp_scepter_regalia = {
-			index = 68
+			index = 69
 			male = {
 				1 = cfp_scepter_02
 			}
@@ -1582,7 +1592,7 @@ props_left = {
 			girl = female
 		}
 		cfp_broom = {
-			index = 69
+			index = 70
 			male = {
 				1 = cfp_broom_01
 			}

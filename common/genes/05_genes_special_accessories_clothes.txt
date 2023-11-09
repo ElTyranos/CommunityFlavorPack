@@ -131,7 +131,13 @@ special_genes = {
 					1 = m_clothes_sec_fp2_iberian_muslim_war_nob_01_hi
 					1 =	m_clothes_sec_fp2_iberian_christian_war_nob_01_lo
 					1 =	m_clothes_sec_fp2_iberian_christian_war_nob_01_hi
-
+					1 = m_clothes_sec_fp3_iranian_nob_01_lo
+					1 = m_clothes_sec_fp3_iranian_nob_02_lo
+					1 = m_clothes_sec_fp3_iranian_nob_03_lo
+					1 = m_clothes_sec_fp3_iranian_nob_01_hi
+					1 = m_clothes_sec_fp3_iranian_nob_02_hi
+					1 = m_clothes_sec_fp3_iranian_nob_03_hi
+					1 = m_clothes_sec_fp3_iranian_war_nob_01
 				# EP2 #
 					1 = m_clothes_sec_ep2_western_era1_nob_01_lo
 					1 = m_clothes_sec_ep2_western_era1_nob_01_hi
@@ -255,6 +261,13 @@ special_genes = {
 					1 = f_clothes_sec_fp2_iberian_muslim_war_nob_01_hi
 					1 =	f_clothes_sec_fp2_iberian_christian_war_nob_01_lo
 					1 =	f_clothes_sec_fp2_iberian_christian_war_nob_01_hi
+					1 = f_clothes_sec_fp3_iranian_nob_01_lo
+					1 = f_clothes_sec_fp3_iranian_nob_02_lo
+					1 = f_clothes_sec_fp3_iranian_nob_03_lo
+					1 = f_clothes_sec_fp3_iranian_nob_01_hi
+					1 = f_clothes_sec_fp3_iranian_nob_02_hi
+					1 = f_clothes_sec_fp3_iranian_nob_03_hi
+					1 = f_clothes_sec_fp3_iranian_war_nob_01
 
 				# EP2 #
 					1 = f_clothes_sec_ep2_western_era1_nob_01
@@ -1531,7 +1544,7 @@ special_genes = {
 				girl = female
 			}
 
-	## FP1 - Fury of thee Northmen ##
+	## FP1 - Fury of the Northmen ##
 
 
 			fp1_commoner_clothes = {
@@ -1738,6 +1751,7 @@ special_genes = {
 				male = {
 					1 = m_clothes_sec_fp2_iberian_christian_war_nob_01_lo
 					1 = m_clothes_sec_fp2_iberian_christian_war_nob_01_hi
+
 				}
 
 				female = {
@@ -1873,6 +1887,7 @@ special_genes = {
 				male = {
 					1 = m_clothes_sec_ep2_western_era3_nob_01_hi
 					1 = m_clothes_sec_ep2_western_era3_nob_02_hi
+					# 1 = m_clothes_sec_ep2_western_era3_nob_02_hi
 				}
 
 				female = {
@@ -1907,7 +1922,6 @@ special_genes = {
 				girl = female
 
 			}
-
 
 			ep2_religious_muslim_hajj_clothes = {
 				index = 90
@@ -1988,7 +2002,6 @@ special_genes = {
 
 				boy = male
 				girl = female
-
 			}
 
 			ep2_steppe_war_nobility_clothes = {
@@ -2051,6 +2064,62 @@ special_genes = {
 
 			}
 
+			## FP3 - Sands of Time ##
+
+			fp3_iranian_low_nobility_clothes = {
+				index = 100
+
+				male = {
+					1 = m_clothes_sec_fp3_iranian_nob_01_lo
+					1 = m_clothes_sec_fp3_iranian_nob_02_lo
+					1 = m_clothes_sec_fp3_iranian_nob_03_lo
+				}
+
+				female = {
+					1 = f_clothes_sec_fp3_iranian_nob_01_lo
+					1 = f_clothes_sec_fp3_iranian_nob_02_lo
+					1 = f_clothes_sec_fp3_iranian_nob_03_lo
+				}
+
+				boy = male
+				girl = female
+
+			}	
+
+			fp3_iranian_high_nobility_clothes = {
+				index = 101
+
+				male = {
+					1 = m_clothes_sec_fp3_iranian_nob_01_hi
+					1 = m_clothes_sec_fp3_iranian_nob_02_hi
+					1 = m_clothes_sec_fp3_iranian_nob_03_hi
+				}
+
+				female = {
+					1 = f_clothes_sec_fp3_iranian_nob_01_hi
+					1 = f_clothes_sec_fp3_iranian_nob_02_hi
+					1 = f_clothes_sec_fp3_iranian_nob_03_hi
+				}
+
+				boy = male
+				girl = female
+			}
+
+			fp3_iranian_war_nobility_clothes = {
+				index = 102
+
+				male = {
+					1 = m_clothes_sec_fp3_iranian_war_nob_01
+				}
+
+				female = {
+					1 = f_clothes_sec_fp3_iranian_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+			
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
@@ -2058,7 +2127,7 @@ special_genes = {
 		## Western
 
 			cfp_bedchamber = {
-				index = 98
+				index = 105
 
 				male = {
 					1 = cfp_male_clothes_western_bedchamber_01_common
@@ -2073,7 +2142,7 @@ special_genes = {
 			}
 			
 			cfp_western_high_nobility_clothes_late = {
-				index = 99
+				index = 106
 				male = {
 					1 = male_clothes_secular_western_cfp_doublet_01
 					1 = male_clothes_secular_western_cfp_doublet_02
@@ -2084,7 +2153,7 @@ special_genes = {
 			}
 
 			cfp_western_war_plate_armor = {
-				index = 100
+				index = 107
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_05
@@ -2101,7 +2170,7 @@ special_genes = {
 		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
-				index = 101
+				index = 108
 
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
@@ -2116,7 +2185,7 @@ special_genes = {
 		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
-				index = 102
+				index = 109
 
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
@@ -2132,7 +2201,7 @@ special_genes = {
 		## Javanese ## 
 			
 			cfp_javanese_common = {
-				index = 103
+				index = 110
 
 				male = {	
 					1 = male_clothes_secular_western_nudity_01
@@ -2146,7 +2215,7 @@ special_genes = {
 			}
 			
 			cfp_javanese_nobility = {
-				index = 104
+				index = 111
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_high_nobility_01
@@ -2160,7 +2229,7 @@ special_genes = {
 			}
 			
 			cfp_javanese_royalty = {
-				index = 105
+				index = 112
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
@@ -2176,7 +2245,7 @@ special_genes = {
 		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
-				index = 106
+				index = 113
 				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -2188,7 +2257,7 @@ special_genes = {
 			}
 		
 			cfp_religious_catholic_cardinal_clothes = {
-				index = 107
+				index = 114
 				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -2200,7 +2269,7 @@ special_genes = {
 			}
 		
 			cfp_religious_orthodox_devoted_clothes = {
-				index = 108
+				index = 115
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -2212,7 +2281,7 @@ special_genes = {
 			}
 		
 			cfp_religious_muslim_high_turkic_clothes = {
-				index = 109
+				index = 116
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
