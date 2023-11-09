@@ -59,6 +59,7 @@ wall_shield = {
 		trigger = {
 			OR = {
 				artifact_should_use_gfx_type_trigger = { TYPE = mena_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = iranian_building }
 				artifact_should_use_gfx_type_trigger = { TYPE = steppe_building }
 			}
 		}
