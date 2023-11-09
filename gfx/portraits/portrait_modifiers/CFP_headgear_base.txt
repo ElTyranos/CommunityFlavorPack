@@ -692,26 +692,6 @@ cfp_headgear_base = {
 		}
 	}
 
-	cfp_iranian_mayors = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_iranian_low_nobility
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 60
-				portrait_mayor_headgear_trigger = {
-					CULTURE_INPUT = cfp_iranian
-				}
-			}
-		}
-	}
-
 	cfp_iranian_low_nobles = {
 		dna_modifiers = {
 			accessory = {
@@ -730,6 +710,16 @@ cfp_headgear_base = {
                     CULTURE_INPUT = cfp_iranian
                 }
 			}
+			modifier = {
+				add = 60
+				portrait_mayor_headgear_trigger = {
+					CULTURE_INPUT = cfp_iranian
+				}
+			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
+                has_fp3_dlc_trigger = yes
+            }
 		}
 	}
 
@@ -750,6 +740,10 @@ cfp_headgear_base = {
                     CULTURE_INPUT = cfp_iranian
                 }   
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
+                has_fp3_dlc_trigger = yes
+            }
 		}
 	}
 
@@ -810,6 +804,10 @@ cfp_headgear_base = {
                     CULTURE_INPUT = cfp_turkic
                 }
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
+                has_fp3_dlc_trigger = yes
+            }
 		}
 	}
 
@@ -830,6 +828,10 @@ cfp_headgear_base = {
                     CULTURE_INPUT = cfp_turkic
                 }   
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
+                has_fp3_dlc_trigger = yes
+            }
 		}
 	}
 

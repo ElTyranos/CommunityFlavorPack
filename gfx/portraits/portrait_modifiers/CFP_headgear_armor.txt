@@ -536,6 +536,14 @@
 					CULTURE_INPUT = cfp_iranian 
 				}
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
+                has_fp3_dlc_trigger = yes
+				OR = {
+					portrait_era3_armor_trigger = yes
+					portrait_era4_armor_trigger = yes
+				}
+            }
 		}
 	}
 	
@@ -561,6 +569,10 @@
 					portrait_era4_armor_trigger = yes
 				}
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
+                has_fp3_dlc_trigger = yes
+            }
 		}
 	}
 
