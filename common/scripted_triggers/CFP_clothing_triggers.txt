@@ -82,13 +82,20 @@ portrait_cfp_hungarian_clothing_contents_trigger = {
 }
 
 portrait_cfp_turkic_clothing_trigger = {
-	culture = { portrait_cfp_turkic_clothing_contents_trigger = yes }
+	OR = {
+		style_changing_reformer_turkic = yes
+		scope:culture = {
+			portrait_fp3_turkic_clothing_contents_trigger = yes
+		}
+	}
 }
 portrait_cfp_turkic_clothing_spouse_trigger = {
-	culture = { portrait_cfp_turkic_clothing_contents_trigger = yes }
-}
-portrait_cfp_turkic_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_turkic
+	OR = {
+		style_changing_reformer_turkic = yes
+		culture = {
+			portrait_fp3_turkic_clothing_contents_trigger = yes
+		}
+	}
 }
 
 portrait_cfp_oghuz_clothing_trigger = {
@@ -198,13 +205,21 @@ portrait_cfp_iberian_muslim_clothing_spouse_trigger = {
 
 ## MENA
 portrait_cfp_iranian_clothing_trigger = {
-	culture = { portrait_cfp_iranian_clothing_contents_trigger = yes }
+	OR = {
+		style_changing_reformer_iranian = yes
+		scope:culture = {
+			portrait_fp3_iranian_clothing_contents_trigger = yes
+		}
+	}
 }
+
 portrait_cfp_iranian_clothing_spouse_trigger = {
-	culture = { portrait_cfp_iranian_clothing_contents_trigger = yes }
-}
-portrait_cfp_iranian_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_iranian
+	OR = {
+		style_changing_reformer_iranian = yes
+		culture = {
+			portrait_fp3_iranian_clothing_contents_trigger = yes
+		}
+	}
 }
 
 portrait_cfp_berber_clothing_trigger = {
