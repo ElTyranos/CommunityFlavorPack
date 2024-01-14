@@ -33,7 +33,6 @@
 # CULTURE_INPUT = cfp_iberian_muslim
 # CULTURE_INPUT = cfp_iranian
 # CULTURE_INPUT = cfp_berber
-# CULTURE_INPUT = cfp_bedouin
 # CULTURE_INPUT = cfp_egyptian
 # CULTURE_INPUT = cfp_east_africa
 # CULTURE_INPUT = cfp_central_africa

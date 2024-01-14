@@ -35,7 +35,6 @@
 # CULTURE_INPUT = cfp_iberian_muslim
 # CULTURE_INPUT = cfp_iranian
 # CULTURE_INPUT = cfp_berber
-# CULTURE_INPUT = cfp_bedouin
 # CULTURE_INPUT = cfp_egyptian
 # CULTURE_INPUT = cfp_east_africa
 # CULTURE_INPUT = cfp_central_africa
@@ -595,45 +594,13 @@ cfp_headgear_base = {
 	}
 
 
-## Bedouins
-
-	cfp_bedouin_low_nobles = {
+## Berbers
+	cfp_berber_high_nobles = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_bedouin_low_nobility
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_bedouin } 
-			modifier = {
-				add = 60
-                portrait_low_nobles_clothing_trigger = {
-                    CULTURE_INPUT = cfp_bedouin 
-                }
-			}
-			modifier = {
-				add = 60
-                portrait_low_nobles_clothing_trigger = {
-                    CULTURE_INPUT = cfp_berber 
-                }
-			}
-			modifier = {
-				add = -100
-				portrait_fp2_iberian_muslim_clothing_trigger = yes
-			}
-		}
-	}
-
-	cfp_bedouin_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_bedouin_high_nobility
+				template = cfp_berber_high_nobility
 				range = { 0 1 }
 			}
 		}		
@@ -642,22 +609,16 @@ cfp_headgear_base = {
 			modifier = {
 				add = 60
                 portrait_high_nobles_headgear_trigger = {
-                    CULTURE_INPUT = cfp_bedouin
-                }
-			}
-			modifier = {
-				add = 60
-                portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_berber
                 }
 			}
-			modifier = {
-				add = -100
-				portrait_fp2_iberian_muslim_clothing_trigger = yes
-			}
+            modifier = {
+                factor = 0  # Should NOT show up if AFR is active since they are included in FP3 genes
+                has_afr_dlc_trigger = yes 
+            }
 		}
 	}
-
+	
 ##  Iranians ##
 
 	cfp_iranian_commoners = {

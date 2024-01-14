@@ -487,7 +487,8 @@ special_genes = {
 					10 = male_headgear_secular_mena_common_01
 					10 = male_headgear_secular_dde_abbasid_common_02
 					5 = male_headgear_secular_mena_cfp_bonnet_low_01
-				
+					5 = male_headgear_secular_mena_cfp_tagelmust_01
+					5 = male_headgear_secular_mena_cfp_tagelmust_02
 				}
 				female = {
 					10 = empty
@@ -2991,23 +2992,10 @@ special_genes = {
 				girl = female
 			}
 			
-			cfp_bedouin_low_nobility = {
-				index = 181
+			cfp_berber_high_nobility = {
+				index = 191
 				male = {
-					5 = male_headgear_secular_mena_cfp_tagelmust_01
-					5 = male_headgear_secular_mena_cfp_tagelmust_02
-				}
-				female = {
-					1 = empty
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_bedouin_high_nobility = {
-				index = 182
-				male = {
-					5 = male_headgear_secular_mena_cfp_tagelmust_high_01
+					1 = male_headgear_secular_mena_cfp_tagelmust_high_01
 				}
 				female = {
 					1 = empty

@@ -773,16 +773,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_bedouin_low_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_bedouin_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = mena_low_nobility
 	}
 
