@@ -331,7 +331,7 @@
 			accessory = {
 				mode = add
 				gene = cloaks
-				template = cfp_berber_high_nobility
+				template = afr_cloaks
 				range = { 0 1 }
 			}
 		}	
@@ -339,7 +339,8 @@
 			base = 0
 			modifier = {
 				add = 100
-				portrait_cfp_berber_clothing_trigger = yes
+				is_male = yes
+				portrait_afr_berber_clothing_trigger = yes
 				OR = {
 					is_independent_ruler = yes
 					highest_held_title_tier >= tier_duchy
@@ -354,6 +355,10 @@
 					should_be_naked_trigger = yes
 				}
 			}
+            modifier = {
+                factor = 0  # Should NOT show up if AFR is active since they are included in FP3 genes
+                has_afr_dlc_trigger = yes 
+            }
 		}
 	}
 

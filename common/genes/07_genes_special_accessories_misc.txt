@@ -490,17 +490,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		cfp_berber_high_nobility = {
-			index = 16
-			male = {
-				1 = male_cloaks_secular_mena_cfp_double_harness_01
-			}
-			female = {
-				1 = empty
-			}
-			boy = male
-			girl = female
-		}
 		cfp_norse_war = {
 			index = 17
 			male = {

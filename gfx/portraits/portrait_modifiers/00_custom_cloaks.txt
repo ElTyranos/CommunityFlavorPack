@@ -109,11 +109,6 @@
 	
 	add_accessory_modifiers = {
 		gene = cloaks
-		template = cfp_berber_high_nobility
-	}
-	
-	add_accessory_modifiers = {
-		gene = cloaks
 		template = cfp_religious_catholic_head
 	}
 	
