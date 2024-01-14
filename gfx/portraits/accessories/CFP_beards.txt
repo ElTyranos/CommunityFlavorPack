@@ -15,16 +15,19 @@ cfp_male_moustache_western_01 = {
 	entity = {  shared_pose_entity = head   entity = cfp_male_moustache_western_01_entity }
 }
 cfp_male_frenchfork_western_01 = {
+	set_tags = "long_beard"
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head   entity = cfp_male_frenchfork_western_01_entity }
 }
 
 ## Northern
 cfp_male_goatee_northern_01 = {
+	set_tags = "long_beard"
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head   entity = cfp_male_goatee_northern_01_entity }
 }
 cfp_male_goatee_northern_02 = {
+	set_tags = "long_beard"
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head   entity = cfp_male_goatee_northern_02_entity }
 }
@@ -52,6 +55,7 @@ cfp_male_moustache_hungarian_01 = { #Shaggy90
 ## FP1 - Fury of the Northmen ##
 
 cfp_male_beard_fp1_04 = {
+	set_tags = "long_beard"
 	entity = { required_tags = "no_beard"	shared_pose_entity = head }
 	entity = {  shared_pose_entity = head	entity = cfp_male_beard_fp1_04_entity }
 }
