@@ -42,6 +42,13 @@
 	}
 	add_accessory_modifiers = {
 		gene = legwear
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+		template = afr_common_legwear
+	}	
+	add_accessory_modifiers = {
+		gene = legwear
 		template = cfp_sub_saharan_common_legwear
 	}
 	add_accessory_modifiers = {
