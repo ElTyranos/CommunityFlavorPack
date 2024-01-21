@@ -2377,9 +2377,11 @@ special_genes = {
 				index = 144
 				male = {
 					1 = m_headgear_sec_afr_war_nob_01
+					1 = m_headgear_sec_afr_cfp_war_helmet_01
 				}
 				female = {
 					1 = f_headgear_sec_afr_war_nob_01
+					1 = f_headgear_sec_afr_cfp_war_helmet_01
 				}
 				boy = male
 				girl = female

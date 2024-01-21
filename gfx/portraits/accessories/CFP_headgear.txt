@@ -1098,6 +1098,19 @@ f_headgear_sec_afr_cfp_imperial_01 = {
 	set_tags = "hood,snug_headgear,mask_hat"
 	entity = { required_tags = ""				shared_pose_entity = head		entity = f_headgear_sec_afr_cfp_imperial_01_entity 	 }		
 }
+
+m_headgear_sec_afr_cfp_war_helmet_01 = {
+	set_tags = "no_hair,hood_beard,snug_headgear"
+	entity = { required_tags = "mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		entity = m_headgear_sec_afr_cfp_war_helmet_01_entity 	 }		
+}
+f_headgear_sec_afr_cfp_war_helmet_01 = {
+	set_tags = "no_hair,snug_headgear"
+	entity = { required_tags = "mask"			shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		entity = f_headgear_sec_afr_cfp_war_helmet_01_entity 	 }		
+}
+
+
 ## Iranian
 male_headgear_secular_iranian_cfp_panel_common_01 = {
 	set_tags = "cap"
