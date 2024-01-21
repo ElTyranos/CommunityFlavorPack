@@ -344,6 +344,12 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_andalusian_cfp_low_01:0 "@cfp_icon_ocher! Noble Venda Andalusí noble"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_andalusian_cfp_high_01:0 "@cfp_icon_ocher! Venda Andalusí bordada"
  
+## Berber
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_cfp_imperial_01:0 "@cfp_icon_green! $PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_imperial_01$ (Plateado)"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_cfp_war_helmet_01:0 "@cfp_icon_green! Casco Bereber"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_cfp_war_helmet_01:0 "$PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_cfp_war_helmet_01$"
+ 
 ## Iranian
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_mail_coif_01:1 "@cfp_icon_green! Mighfar Iraní"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_iranian_cfp_war_mail_coif_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_iranian_cfp_war_mail_coif_01$"
