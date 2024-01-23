@@ -558,7 +558,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 range = { 0 1 }
             }
         }
-        outfit_tags = { priest_outfit bishop_outfit }
+        outfit_tags = { bishop_outfit }
         weight = {
             base = 0
             modifier = {
@@ -637,7 +637,6 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 	            range = { 0 1 }
 	        }
 	    }
-	    outfit_tags = { priest_outfit }
 	    weight = {
 	        base = 0
             modifier = {
