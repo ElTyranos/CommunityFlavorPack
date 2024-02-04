@@ -361,7 +361,7 @@ accessory_genes = {
 		}
 
 		sp2_cloak_imperial = {
-				index = 10
+				index = 9
 				male = {
 					1 = m_cloaks_sec_sp2_western_imp_01
 				}
@@ -371,9 +371,9 @@ accessory_genes = {
 				boy = male
 				girl = female
 		}
-		
+
 		afr_cloaks = {
-			index = 11
+			index = 10
 			male = {
 				1 = empty
 				1 = empty
@@ -390,8 +390,21 @@ accessory_genes = {
 			girl = female
 		}
 
+		sp3_cloak = {
+			index = 11
+			male = {
+				1 = m_cloaks_sec_sp3_western_roy_01
+
+			}
+			female = {
+				1 = f_cloaks_sec_sp3_western_roy_01
+		    }
+		    boy = male
+			girl = female
+	    }	
+
 		all_cloaks = {
-			index = 9
+			index = 12
 			male = {
 				1 = male_cloaks_secular_western_royalty_01
 				1 = male_cloaks_secular_fp1_nobility_01
@@ -422,13 +435,13 @@ accessory_genes = {
 			boy = male 
 			girl = female
 		}
-			
+
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
-		
+
 		cfp_western_ermine = {
-			index = 12
+			index = 13
 			male = {
 				1 = male_cloaks_secular_western_cfp_ermine_01
 				1 = male_cloaks_secular_byzantine_cfp_ermine_01
@@ -441,7 +454,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_western_commoner = {
-			index = 13
+			index = 14
 			male = {
 				8 = empty
 				1 = male_cloaks_secular_western_cfp_common_01
@@ -455,7 +468,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_western_crusades_commoner = {
-			index = 14
+			index = 15
 			male = {
 				1 = male_cloaks_secular_western_cfp_crusades_03
 				# 1 = male_cloaks_secular_western_cfp_crusades_06
@@ -468,7 +481,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_western_crusades = {
-			index = 15
+			index = 16
 			male = {
 				1 = male_cloaks_secular_western_cfp_crusades_01
 				1 = male_cloaks_secular_western_cfp_crusades_02 # black
@@ -479,7 +492,7 @@ accessory_genes = {
 			}
 		}
 		cfp_religious_muslim = {
-			index = 16
+			index = 17
 			male = {
 				1 = male_cloaks_secular_mena_cfp_taylasan_01
 				1 = male_cloaks_secular_mena_cfp_taylasan_02
@@ -491,7 +504,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_norse_war = {
-			index = 17
+			index = 18
 			male = {
 				2 = empty
 				1 = male_cloaks_secular_northern_war_viking_shield_01
@@ -504,7 +517,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_norman_war = {
-			index = 18
+			index = 19
 			male = {
 				2 = empty
 				1 = male_cloaks_secular_western_war_norman_shield_01
@@ -517,7 +530,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_african_royalty = {
-			index = 19
+			index = 20
 			male = {
 				1 = male_cloaks_secular_sub_saharan_cfp_apron_01
 			}
@@ -526,7 +539,7 @@ accessory_genes = {
 			}
 		}
 		cfp_religious_catholic_head = {
-			index = 20
+			index = 21
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_head_01
 			}
@@ -537,7 +550,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_religious_catholic_high_northern = {
-			index = 21
+			index = 22
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_tribal_01
 			}
@@ -548,7 +561,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_religious_orthodox_high = {
-			index = 22
+			index = 23
 			male = {
 				1 = male_cloaks_religious_orthodox_cfp_omophorion_01
 			}
@@ -559,7 +572,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_fantasy_cloaks = {
-			index = 23
+			index = 24
 			male = {
 				1 = male_cloaks_secular_fantasy_cfp_wings_01
 			}
@@ -569,7 +582,7 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-	}		
+	}
 
 #####################################
 #									#

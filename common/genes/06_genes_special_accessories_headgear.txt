@@ -2306,6 +2306,7 @@ special_genes = {
 				girl = female
 			}
 
+
 			## AFR
 		
 			afr_common = {
@@ -2386,7 +2387,44 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			## SP3 -  ##
+
+			sp3_western_high_nobility = { 
+				index = 145
+				male = {
+					1 = m_headgear_sec_sp3_western_hi_nob_01 # Vair fur brimmed hat
+				}
+				female = {
+					# 1 = f_headgear_sec_sp3_western_hi_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			sp3_western_nobility = { 
+				index = 146
+				male = {
+					# 1 = m_headgear_sec_sp3_western_hi_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_sp3_western_hi_nob_01 # Torque and Barbette
+				}
+				boy = male
+				girl = female
+			}
 			
+			sp3_western_royalty = {
+				index = 147
+				male = {
+					1 = m_headgear_sec_sp3_western_roy_01
+				}
+				female = {
+					1 = f_headgear_sec_sp3_western_roy_01
+				}
+				boy = male
+				girl = female
+			}
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
@@ -3621,10 +3659,20 @@ special_genes = {
 					10 = female_headgear_secular_western_nobility_03
 					10 = female_headgear_secular_dde_hre_common_01
 					10 = female_headgear_secular_dde_hre_common_02
+					30 = f_headgear_sec_sp3_western_hi_nob_01
 				}
 				boy = male
 				girl = female				
-			}			
+			}
+
+			sp3_western_royalty_headdress = {	
+			    index = 5
+				male = {}
+				female = {
+					10 = empty
+					10 = f_headgear_sec_sp3_western_hi_nob_01
+				}
+			}
 		}
 	}
 

@@ -1282,6 +1282,22 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			sp3_hairstyles = {
+				index = 69
+				male = {
+					1 = m_hair_sp3_western_01
+
+
+				}
+				female = {
+				#	1 = f_hair_sp3_western_01
+				}
+
+				boy = male
+				girl = female
+			}
+
 
 			scripted_character_hairstyles_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new hairstyles are added for scripted characters they should be added in a new template.
 				index = 40
@@ -1289,6 +1305,7 @@ special_genes = {
 					#weight = <object in gfx/portrait/accessories/>
 					1 = male_hair_western_01
 					1 = male_hair_western_02
+					1 = male_hair_western_03
 					1 = male_hair_western_03
 					1 = male_hair_western_04
 					1 = male_hair_western_05
@@ -1508,6 +1525,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
 		}
 
 	}
