@@ -42,24 +42,14 @@ portrait_cfp_norman_clothing_spouse_trigger = {
 	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
 }
 portrait_cfp_norman_sicily_clothing_trigger = {
-	AND = {
-		exists = host
-		host.capital_county = {
-			title:k_sicily = {
-				is_de_jure_liege_or_above_target = prev
-			}
-		}
+	host.capital_county ?= {
+		title:k_sicily = { is_de_jure_liege_or_above_target = prev }
 	}
 	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
 }
 portrait_cfp_norman_clothing_spouse_trigger = {
-	AND = {
-		exists = host
-		host.capital_county = {
-			title:k_sicily = {
-				is_de_jure_liege_or_above_target = prev
-			}
-		}
+	host.capital_county ?= {
+		title:k_sicily = { is_de_jure_liege_or_above_target = prev }
 	}
 	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
 }
@@ -375,14 +365,8 @@ portrait_cfp_jewish_andalusian_clothing_trigger = {
 	is_landed = no
 	portrait_wear_armor_trigger = no
 	portrait_religious_jewish_trigger = yes
-	
-	AND = {
-		exists = host
-		host.capital_county = {
-			title:e_spain = {
-				is_de_jure_liege_or_above_target = prev
-			}
-		}
+	host.capital_county ?= {
+		title:e_spain = { is_de_jure_liege_or_above_target = prev }
 	}
 }
 
