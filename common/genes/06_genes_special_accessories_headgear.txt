@@ -781,27 +781,31 @@ special_genes = {
 			northern_war = {
 				index = 32
 				male = {
-					5 = m_headgear_sec_northern_war_nob_01_lo
-					5 = m_headgear_sec_northern_war_nob_01_hi
-					5 = male_headgear_secular_northern_war_nasal_01
-					5 = male_headgear_secular_northern_war_nasal_02
-					5 = male_headgear_secular_northern_war_nasal_03
-					10 = male_headgear_secular_western_war_mail_coif_01
-					10 = male_headgear_secular_western_war_mail_coif_02
-					10 = male_headgear_secular_western_war_padded_hood_01
-					10 = male_headgear_secular_northern_cfp_war_coppergate_01
+					# high
+					1 = m_headgear_sec_northern_war_nob_01_hi
+					1 = male_headgear_secular_northern_war_nasal_01
+					#low
+					1 = m_headgear_sec_northern_war_nob_01_lo
+					1 = male_headgear_secular_northern_war_nasal_02
+					1 = male_headgear_secular_northern_war_nasal_03
+					1 = male_headgear_secular_western_war_mail_coif_01
+					1 = male_headgear_secular_western_war_mail_coif_02
+					1 = male_headgear_secular_western_war_padded_hood_01
+					1 = male_headgear_secular_northern_cfp_war_coppergate_01
 				
 					}
 				female = {
-					5 = f_headgear_sec_northern_war_nob_01_lo
-					5 = f_headgear_sec_northern_war_nob_01_hi
-					5 = female_headgear_secular_northern_war_nasal_01
-					5 = female_headgear_secular_northern_war_nasal_02
-					5 = female_headgear_secular_northern_war_nasal_03
-					10 = female_headgear_secular_western_war_mail_coif_01
-					10 = female_headgear_secular_western_war_mail_coif_02
-					10 = female_headgear_secular_western_war_padded_hood_01
-					10 = female_headgear_secular_northern_cfp_war_coppergate_01
+					# high
+					1 = f_headgear_sec_northern_war_nob_01_hi
+					1 = female_headgear_secular_northern_war_nasal_01
+					# low
+					1 = f_headgear_sec_northern_war_nob_01_lo
+					1 = female_headgear_secular_northern_war_nasal_02
+					1 = female_headgear_secular_northern_war_nasal_03
+					1 = female_headgear_secular_western_war_mail_coif_01
+					1 = female_headgear_secular_western_war_mail_coif_02
+					1 = female_headgear_secular_western_war_padded_hood_01
+					1 = female_headgear_secular_northern_cfp_war_coppergate_01
 					
 				}
 				boy = male

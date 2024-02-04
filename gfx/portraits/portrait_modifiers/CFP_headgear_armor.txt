@@ -4,7 +4,7 @@
 	selection_behavior = weighted_random
 	priority = 4
 	
-	# High nobles war headgear
+## High nobles war headgear
 	
 	cfp_western_war_high_nobles = {
 		dna_modifiers = {
@@ -674,6 +674,93 @@
             }
 		}
 	}
+
+## Northern
+
+# We redefine vanilla to avoid forced m_headgear_sec_northern_war_nob_01_lo and m_headgear_sec_northern_war_nob_01_hi
+
+    northern_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = northern_war
+				range = { 0.23 0.86 }
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = northern
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = northern
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = northern
+                    }
+                }
+            }
+        }
+    }
+
+    northern_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = northern_war
+				range = { 0.0 0.23 }
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = northern
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = northern
+                }
+            }
+        }
+    }
+	
+    northern_war_coppergate = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = northern_war
+				range = { 0.86 1.0 }
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				portrait_era1_armor_trigger = yes
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = northern
+                }
+					OR = {
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = northern
+					}
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = northern
+					}
+				}
+            }
+        }
+    }
 
 ## Northern Pagans
 
