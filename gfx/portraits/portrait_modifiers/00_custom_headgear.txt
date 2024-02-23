@@ -7,6 +7,47 @@
 		template = no_headgear
 	}
 
+	## CE1 ##
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_common
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_era3_common
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_cloak_hoods
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = cloak_hoods
+		template = fp4_western_cloak_hoods
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_low_nobility
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_royalty
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+
 	## Couture of the Capets ##
 	
 	add_accessory_modifiers = {
@@ -151,6 +192,7 @@
 		}
 	}
 
+	## SP1 ##
 	add_accessory_modifiers = {
 		gene = headgear
 		template = reward_western_royalty
@@ -159,7 +201,7 @@
 		}
 	}
 
-	## Elegance of the Empire ##
+	## SP2 Elegance of the Empire ##
 	
 	add_accessory_modifiers = {
 		gene = headgear

@@ -26,7 +26,51 @@
 		}
 	}
 
-## EP2 ##
+	## CE1 ##
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_physician_01
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_bedchamber_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era3_low_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era3_high_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era2_low_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era2_high_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+
+	## EP2 ##
 
 	add_accessory_modifiers = {
 		gene = clothes
