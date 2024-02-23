@@ -120,9 +120,15 @@ portrait_cfp_slavic_clothing_contents_trigger = {
 ## WESTERN
 portrait_cfp_latin_clothing_trigger = {
 	culture = { portrait_cfp_latin_clothing_contents_trigger = yes }
+	scope:culture = {
+		NOT = { portrait_afr_berber_clothing_contents_trigger = yes }
+	}
 }
 portrait_cfp_latin_clothing_spouse_trigger = {
-	culture = { portrait_cfp_latin_clothing_contents_trigger = yes }
+	culture = {
+		portrait_cfp_latin_clothing_contents_trigger = yes
+		NOT = { portrait_afr_berber_clothing_contents_trigger = yes }
+	}
 }
 portrait_cfp_latin_clothing_contents_trigger = {
 	has_cultural_pillar = heritage_latin
