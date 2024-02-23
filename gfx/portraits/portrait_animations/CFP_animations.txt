@@ -541,7 +541,7 @@ cfp_scepter = {
 ## Fantasy
 cfp_cauldron = {
 	male = {
-		default = { head = "emotion_chessCertainWin1_entry" torso = "emotion_chessCertainWin1_entry" }
+		default = { head = "chessCertainWin1_entry" torso = "chessCertainWin1_entry" }
 		portrait_modifier = { animations_props = cfp_cauldron_prop }
 	}
 	boy = {

@@ -6,6 +6,10 @@ theocracy_government = {
 	royal_court = yes # CFP: unlocks royal court for the pope
 	required_county_holdings = { church_holding castle_holding city_holding }
 
+	ai = {
+		use_legends = no
+	}
+
 	can_get_government = {
 		NOT = {
 			faith = {
