@@ -7,6 +7,7 @@
 	# norman_opinion = 10
 	different_culture_opinion = 5
 	same_culture_opinion = 10
+	owned_legend_spread_mult = 0.1
 }
 
 cfp_krum_skull_cup_modifier = {
