@@ -8,12 +8,6 @@
  setting_never_cfp_fullplate_helmets:1 "#high Exposed faces#!"
  setting_never_cfp_fullplate_helmets_desc:0 "Characters will never use a full plate helmet and their face will always be visible."
 
- rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Bald Characters"
- setting_default_cfp_baldtrait:0 "Default"
- setting_default_cfp_baldtrait_desc:0 "Men who developed coping mechanisms in the face of stress will lose their hair as they age."
- setting_never_cfp_baldtrait:1 "#high Never#!"
- setting_never_cfp_baldtrait_desc:0 "Men who developed coping mechanisms will keep their hair."
- 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Trait Accessories"
  setting_default_cfp_trait_accessories:0 "Default"
  setting_default_cfp_trait_accessories_desc:0 "Characters will use new kinds of head accessories based on their traits (eyeglasses, jewelry, tatoos, warpaints)."

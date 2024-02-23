@@ -8,12 +8,6 @@
  setting_never_cfp_fullplate_helmets:1 "#high Freiliegende Gesichter#!"
  setting_never_cfp_fullplate_helmets_desc:0 "Charaktere werden nie einen Vollplattenhelm verwenden und ihr Gesicht wird immer sichtbar sein."
 
- rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Kahle Charaktere"
- setting_default_cfp_baldtrait:0 "Standardmäßig"
- setting_default_cfp_baldtrait_desc:0 "Charaktere, die angesichts von Stress Bewältigungsmechanismen entwickelt haben, werden mit zunehmendem Alter ihre Haare verlieren."
- setting_never_cfp_baldtrait:1 "#high Niemals#!"
- setting_never_cfp_baldtrait_desc:0 "Charaktere, die Bewältigungsmechanismen entwickelt haben, behalten ihre Haare."
-
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Accessoire Eigenschaften"
  setting_default_cfp_trait_accessories:0 "Standardmäßig"
  setting_default_cfp_trait_accessories_desc:0 "Charaktere werden neue Accessoires basierend auf ihren Eigenschaften benutzen (Brillen, Schmuck, Tattoos, Kriegsbemalungen)."

@@ -8,12 +8,6 @@
  setting_never_cfp_fullplate_helmets:1 "#high Visages exposés#!"
  setting_never_cfp_fullplate_helmets_desc:0 "Les personnages n’utiliseront jamais de heaume intégral et leur visage sera toujours visible."
 
- rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Personnages dégarnis"
- setting_default_cfp_baldtrait:0 "Par défaut"
- setting_default_cfp_baldtrait_desc:0 "Les hommes ayant développé des mécanismes de résistance au stress perdront leurs cheveux en vieillissant."
- setting_never_cfp_baldtrait:1 "#high Jamais#!"
- setting_never_cfp_baldtrait_desc:0 "Les hommes ayant développé des mécanismes de résistance au stress gardent leurs cheveux."
-
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Accessoires de traits"
  setting_default_cfp_trait_accessories:0 "Par défaut"
  setting_default_cfp_trait_accessories_desc:0 "Les personnages utilisent des accessoires selon leurs traits (lunettes de vue, bijoux, tatouages, peintures de guerre)."

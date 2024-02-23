@@ -4,12 +4,6 @@
 	default_cfp_fullplate_helmets = {}
 	never_cfp_fullplate_helmets = {}
 }
-cfp_baldtrait = {
-	categories = { cfp tweaks flavor }
-	default = default_cfp_baldtrait
-	default_cfp_baldtrait = {}
-	never_cfp_baldtrait = {}
-}
 # cfp_trait_accessories = {
 	# categories = { cfp tweaks flavor }
 	# default = default_cfp_trait_accessories

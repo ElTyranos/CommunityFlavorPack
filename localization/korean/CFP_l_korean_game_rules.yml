@@ -8,12 +8,6 @@
  setting_never_cfp_fullplate_helmets:1 "#high 노출된 얼굴#!"
  setting_never_cfp_fullplate_helmets_desc:0 "인물들은 풀 플레이트 헬멧을 착용하지 않으며, 항상 얼굴을 보일 것입니다."
 
- rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : 대머리 인물"
- setting_default_cfp_baldtrait:0 "기본"
- setting_default_cfp_baldtrait_desc:0 "인물들은 스트레스를 받았을 때 특정 대처 방식에 따라\n나이가 들수록 머리가 빠집니다."
- setting_never_cfp_baldtrait:1 "#high 없음#!"
- setting_never_cfp_baldtrait_desc:0 "인물들은 스트레스를 받았을 때 특정 대처 방식에 따라\n나이가 들수록 머리가 빠지지 않습니다."
- 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : 특성에 기반한 악세사리"
  setting_default_cfp_trait_accessories:0 "기본"
  setting_default_cfp_trait_accessories_desc:0 "인물들은 그들의 특성에 기반한 새로운 악세사리를 사용할 것 입니다(안경, 장신구, 타투, 전쟁문양)."

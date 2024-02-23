@@ -8,12 +8,6 @@
  setting_never_cfp_fullplate_helmets:1 "#high Не скрывать лицо#!"
  setting_never_cfp_fullplate_helmets_desc:0 "Персонажи никогда не будут использовать полный латный доспех и их лица всегда будет видно."
 
- rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Лысые персонажи"
- setting_default_cfp_baldtrait:0 "Допустимо облысение"
- setting_default_cfp_baldtrait_desc:0 "Мужчины, которые научились справляться со стрессом, с возрастом теряют волосы."
- setting_never_cfp_baldtrait:1 "#high Без облысения#!"
- setting_never_cfp_baldtrait_desc:0 "Мужчины, которые научились справляться со стрессом, с возрастом не теряют волосы."
- 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Дополнительные аксессуары"
  setting_default_cfp_trait_accessories:0 "Индивидуально"
  setting_default_cfp_trait_accessories_desc:0 "Персонажи будут использовать новые виды головных уборов в зависимости от их особенностей (очки, украшения, татуировки, боевые раскраски)"

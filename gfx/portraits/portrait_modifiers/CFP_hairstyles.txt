@@ -67,53 +67,6 @@ cfp_hairstyles = {
         }
     }
 	
-    western_aging = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = hairstyles
-                template = cfp_western_hairstyles_aging
-                range = { 0 1 } # For the randomness to work correctly
-            }
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 101
-				exists = this
-				is_male = yes
-				NOT = { has_game_rule = never_cfp_baldtrait }
-				NOR = {
-					portrait_african_clothing_trigger = yes
-					portrait_indian_clothing_trigger = yes
-					portrait_steppe_clothing_trigger = yes
-				}
-				OR = {
-					AND = {
-						age >= 35
-						has_two_stress_coping_traits_trigger = yes
-					}
-					AND = {
-						age >= 45
-						has_a_stress_coping_trait_trigger = yes
-					}
-					AND = {
-						age >= 35
-						 portrait_has_trait_trigger = { TRAIT = beauty_bad_3 }
-					}
-					AND = {
-						age >= 40
-						portrait_has_trait_trigger = { TRAIT = beauty_bad_2 }
-					}
-					AND = {
-						age >= 45
-						portrait_has_trait_trigger = { TRAIT = beauty_bad_1 }
-					}
-				}
-            }
-        }
-    }
-
     slavic_warrior = {
         dna_modifiers = {
             accessory = {

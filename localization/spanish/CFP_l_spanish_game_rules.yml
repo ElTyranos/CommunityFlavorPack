@@ -8,12 +8,6 @@
  setting_never_cfp_fullplate_helmets:1 "#high Exposed faces#!"
  setting_never_cfp_fullplate_helmets_desc:0 "Los personajes nunca usarán un casco de placa completa y su cara siempre será visible."
 
- rule_cfp_baldtrait:0 "@cfp_icon! Community Flavor Pack : Personajes calvos"
- setting_default_cfp_baldtrait:0 "Por defecto"
- setting_default_cfp_baldtrait_desc:0 "Personajes que se desarrollaron copiando mecanismos debido por el estrés perderán su pelo a medida que envejecen."
- setting_never_cfp_baldtrait:1 "#high Nunca#!"
- setting_never_cfp_baldtrait_desc:0 "Personajes que se desarrollaron copiando mecanismos mantendrán su estilo de peinado."
- 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Acesorios de rasgos"
  setting_default_cfp_trait_accessories:0 "Por defecto"
  setting_default_cfp_trait_accessories_desc:0 "Los personajes usarán nuevos tipos de accesorios faciales basados en sus rasgos(gafas, joyeria, tatuajes, pintura de guerra)."
