@@ -6,5 +6,5 @@ tags={
 }
 name="Community Flavor Pack"
 picture="thumbnail.png"
-supported_version="1.11.*"
+supported_version="1.12.*"
 remote_file_id="2220098919"
