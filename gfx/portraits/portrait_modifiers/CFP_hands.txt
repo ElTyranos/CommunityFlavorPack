@@ -65,6 +65,21 @@
 					}
 				}
 			}
+			modifier = {
+				factor = 0
+                has_dlc_feature = couture_of_the_capets
+                OR = {
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = western
+                    }      
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = western
+                    }           
+                }
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = french
+                } 
+			}
 		}
 	}
 }
