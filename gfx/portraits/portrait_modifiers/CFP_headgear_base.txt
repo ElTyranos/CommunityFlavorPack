@@ -196,6 +196,12 @@ cfp_headgear_base = {
 				template = cfp_latin_high_nobility
 				range = { 0 1 }
 			}
+            accessory = {
+                mode = add
+                gene = additive_headgear
+                template = no_additive
+                value = 0
+            }
 		}
 		weight = {
 			base = 0
