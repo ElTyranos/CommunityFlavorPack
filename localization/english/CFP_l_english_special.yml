@@ -47,9 +47,9 @@
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06_opened:1 "@cfp_icon! Copper Face Mask (Opened)"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_face_mask_06_opened:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_face_mask_06_opened$"
  
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_fake_nose_01:1 "@cfp_icon! Nose prosthesis"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_fake_nose_01:1 "@cfp_icon! Nose Prosthesis"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_fake_nose_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_fake_nose_01$"
   
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_fake_nose_02:1 "@cfp_icon! Bronze Nose prosthesis"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_fake_nose_02:1 "@cfp_icon! Bronze Nose Prosthesis"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_fake_nose_02:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_fake_nose_02$"
  

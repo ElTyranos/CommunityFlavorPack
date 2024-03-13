@@ -10,9 +10,9 @@
 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Trait Accessories"
  setting_default_cfp_trait_accessories:0 "Default"
- setting_default_cfp_trait_accessories_desc:0 "Characters will use new kinds of head accessories based on their traits (eyeglasses, jewelry, tatoos, warpaints)."
+ setting_default_cfp_trait_accessories_desc:0 "Characters will use new kinds of head accessories based on their traits (eyeglasses, jewelry, tattoos, warpaints)."
  setting_never_cfp_trait_accessories:1 "#high Never#!"
- setting_never_cfp_trait_accessories_desc:0 "Characters will stick to vanilla accessories only (blindfolds, defiguration mask, head bandage, eye patch)."
+ setting_never_cfp_trait_accessories_desc:0 "Characters will stick to vanilla accessories only (blindfolds, disfiguration mask, head bandage, eye patch)."
  
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Barbershop Expanded"
  setting_default_cfp_barbershop_unlocks:0 "Unlocked"
