@@ -35,16 +35,7 @@ has_graphical_norman_culture_group_trigger = {
 }
 
 has_graphical_goidelic_culture_group_trigger = {
-	OR = {
-		has_culture = culture:irish
-		culture = {
-			any_parent_culture_or_above = { this = culture:irish }
-		}
-		has_culture = culture:gaelic
-		culture = { 
-			any_parent_culture_or_above = { this = culture:gaelic }
-		}
-	}
+	culture = {	has_cultural_pillar = heritage_goidelic }
 }
 
 has_graphical_west_african_culture_group_trigger = {
