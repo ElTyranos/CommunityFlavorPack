@@ -585,14 +585,13 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 60
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_iranian 
 				}
 			}
             modifier = {
-                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
-                has_fp3_dlc_trigger = yes
+                factor = 0
 				OR = {
 					portrait_era3_armor_trigger = yes
 					portrait_era4_armor_trigger = yes
@@ -614,7 +613,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 60
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = cfp_iranian 
 				}
@@ -623,10 +622,6 @@
 					portrait_era4_armor_trigger = yes
 				}
 			}
-            modifier = {
-                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
-                has_fp3_dlc_trigger = yes
-            }
 		}
 	}
 
@@ -745,17 +740,17 @@
         weight = {
             base = 0
             modifier = {
-                add = 100
+                add = 50
 				portrait_era1_armor_trigger = yes
                 portrait_war_nobles_helmet_trigger = {
-                    CULTURE_INPUT = northern
+                    CULTURE_INPUT = anglo_saxon
                 }
-					OR = {
+				OR = {
 					portrait_low_nobles_armor_trigger = {
-						CULTURE_INPUT = northern
+						CULTURE_INPUT = anglo_saxon
 					}
 					portrait_high_nobles_armor_trigger = {
-						CULTURE_INPUT = northern
+						CULTURE_INPUT = anglo_saxon
 					}
 				}
             }
@@ -764,54 +759,91 @@
 
 ## Northern Pagans
 
+    fp1_norse_war = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = fp1_war
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100 # slightly higher than northern
+                portrait_war_nobles_fancy_helmet_trigger = yes
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = fp1_norse
+                }
+            }
+        }
+    }
+
+    fp1_norse_war_common = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = fp1_war_common
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = fp1_norse
+                }
+            }
+        }
+    }
+
+
+	cfp_norse_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_war
+				range = { 0.51 1 } # excludes FP1 assets
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100 # slightly higher than northern
+				has_fp1_dlc_trigger = no
+				portrait_war_nobles_fancy_helmet_trigger = yes
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = cfp_norse
+                }
+			}
+		}
+	}
+
 	cfp_norse_war_common = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = cfp_norse_war
-				range = { 0 0.74 }
+				range = { 0.22 1 } # excludes FP1 assets
 			}
 		}
 		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
-				add = 60 # slightly higher than northern
+				add = 100 # slightly higher than northern
+				has_fp1_dlc_trigger = no
                 portrait_war_nobles_helmet_trigger = {
                     CULTURE_INPUT = cfp_norse
                 }
 			}
-            modifier = {
-                factor = 0  # Should NOT show up if FP1 is active since they are included in FP1 genes
-                has_fp1_dlc_trigger = yes
-            }
-		}
-	}
-
-	cfp_norse_war_fancy = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_norse_war
-				range = { 0.76 1.0 }
-			}
-		}
-		outfit_tags = { military_outfit }
-		weight = {
-			base = 0
-			modifier = {
-				add = 60 # slightly higher than northern
-				portrait_war_nobles_fancy_helmet_trigger = yes
-                portrait_war_nobles_helmet_trigger = {
-                    CULTURE_INPUT = cfp_norse
-                }
-			}
-            modifier = {
-                factor = 0  # Should NOT show up if FP1 is active since they are included in FP1 genes
-                has_fp1_dlc_trigger = yes
-            }
 		}
 	}
 
