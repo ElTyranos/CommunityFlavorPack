@@ -11,22 +11,36 @@ hre = {
 	}
 }
 
-byzantine = {
+cfp_byzantine = {
 	trigger = {
+		NOT = { has_ep3_dlc_trigger = yes } # CFP court shows up only if you don't own EP3
 		has_graphical_byzantine_culture_group_trigger = yes
 		religion = religion:christianity_religion
 		NOT = { faith = faith:iconoclast }
 	}
 }
 
-byzantine_mena = {
+# redefine byzantine so it supports other religions/iconoclasm
+byzantine = {
+	trigger = {
+		has_ep3_dlc_trigger = yes
+		OR = {
+			capital_county ?= title:c_byzantion
+			primary_title ?= title:e_byzantium
+		}
+		religion = religion:christianity_religion
+		NOT = { faith = faith:iconoclast }
+	}
+}
+
+cfp_byzantine_mena = {
 	trigger = {
 		has_graphical_byzantine_culture_group_trigger = yes
 		religion = religion:islam_religion
 	}
 }
 
-byzantine_pagan = {
+cfp_byzantine_pagan = {
 	trigger = {
 		has_graphical_byzantine_culture_group_trigger = yes
 		OR = { 
