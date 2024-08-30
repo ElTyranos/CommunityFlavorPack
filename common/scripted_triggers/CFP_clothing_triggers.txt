@@ -1,326 +1,215 @@
-﻿cfp_allow_nudity_in_barbershop_trigger = {
+﻿## CORE
+cfp_clothes_core_trigger = {
+	## Check if character is not supposed to wear situational clothes
+	NOT = {
+		should_be_naked_trigger = yes
+		should_be_topless_portrait_trigger = yes
+		portrait_poverty_robes_trigger = yes 
+		portrait_beggar_trigger = yes
+		portrait_prisoner_trigger = yes
+		portrait_sickness_trigger = yes
+		portrait_stealth_trigger = yes
+		portrait_religious_devoted_trigger = yes
+		# EP1
+		AND = { 
+			has_court_position = court_jester_court_position
+			NOR = {
+				is_adult = no
+				should_be_naked_trigger = yes
+			}
+		}
+		# EP2
+		portrait_ep2_wedding_clothes_trigger = yes # wedding
+		portrait_ep2_hajj_clothes_trigger = yes # hajj
+		portrait_ep2_ihram_clothes_trigger = yes # ihram
+		has_character_flag = pope_larper_flag # Pope/Cardinal Larper event
+		has_character_flag = cardinal_larper_flag # Pope/Cardinal Larper event
+	}
+}
+cfp_clothing_no_override_armor_trigger = {
+	cfp_clothes_core_trigger = yes
+	portrait_religious_high_trigger = yes # bishop
+}
+cfp_clothing_no_override_trigger = {
+	cfp_clothes_core_trigger = yes
+	portrait_wear_no_armor_trigger = yes
+	NOT = { portrait_religious_high_trigger = yes } # bishop
+}
+cfp_clothing_no_override_bishop_trigger = {
+	cfp_clothes_core_trigger= yes
+	portrait_wear_no_armor_trigger = yes
+}
+cfp_allow_nudity_in_barbershop_trigger = {
 	should_show_nudity = yes
 	age >= 18
 }
 
-# NORTH
-portrait_cfp_norse_clothing_trigger = {
-	OR = {
-		style_changing_reformer_fp1_norse = yes
-		scope:culture = { portrait_cfp_norse_clothing_contents_trigger = yes }
-	}
+cfp_clothing_heritage_trigger = {
+	culture = { has_cultural_pillar = heritage_$HERITAGE_FLAG$ }
 }
-portrait_cfp_norse_clothing_spouse_trigger = {
-	OR = {
-		style_changing_reformer_fp1_norse = yes
-		culture = {
-			portrait_cfp_norse_clothing_contents_trigger = yes
+cfp_clothing_culture_trigger = {
+	culture = {
+		OR = {
+			this = culture:$CULTURE_FLAG$
+			any_parent_culture_or_above = { this = culture:$CULTURE_FLAG$ }
 		}
 	}
 }
-portrait_cfp_norse_clothing_contents_trigger = {
-	has_clothing_gfx = fp1_norse_clothing_gfx
-}
 
+# NORTH
 portrait_cfp_anglo_saxon_clothing_trigger = {
-	culture = { portrait_cfp_anglo_saxon_clothing_contents_trigger = yes }
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = anglo_saxon }
 }
 portrait_cfp_anglo_saxon_clothing_spouse_trigger = {
-	culture = { portrait_cfp_anglo_saxon_clothing_contents_trigger = yes }
-}
-portrait_cfp_anglo_saxon_clothing_contents_trigger = {
-	OR = {
-		this = culture:anglo_saxon
-		any_parent_culture_or_above = { this = culture:anglo_saxon }
-	}
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = anglo_saxon }
 }
 
 portrait_cfp_norman_clothing_trigger = {
-	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
 }
 portrait_cfp_norman_clothing_spouse_trigger = {
-	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
 }
+
 portrait_cfp_norman_sicily_clothing_trigger = {
 	host.capital_county ?= {
 		title:k_sicily = { is_de_jure_liege_or_above_target = prev }
 	}
-	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
 }
-portrait_cfp_norman_clothing_spouse_trigger = {
+portrait_cfp_norman_sicily_clothing_spouse_trigger = {
 	host.capital_county ?= {
 		title:k_sicily = { is_de_jure_liege_or_above_target = prev }
 	}
-	culture = { portrait_cfp_norman_clothing_contents_trigger = yes }
-}
-portrait_cfp_norman_clothing_contents_trigger = {
-	OR = {
-		this = culture:norman
-		any_parent_culture_or_above = { this = culture:norman }
-	}
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
 }
 
 ## EAST
 portrait_cfp_hungarian_clothing_trigger = {
-	culture = { portrait_cfp_hungarian_clothing_contents_trigger = yes }
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = magyar }
 }
 portrait_cfp_hungarian_clothing_spouse_trigger = {
-	culture = { portrait_cfp_hungarian_clothing_contents_trigger = yes }
-}
-portrait_cfp_hungarian_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_magyar
-}
-
-portrait_cfp_turkic_clothing_trigger = {
-	OR = {
-		style_changing_reformer_turkic = yes
-		scope:culture = {
-			portrait_fp3_turkic_clothing_contents_trigger = yes
-		}
-	}
-}
-portrait_cfp_turkic_clothing_spouse_trigger = {
-	OR = {
-		style_changing_reformer_turkic = yes
-		culture = {
-			portrait_fp3_turkic_clothing_contents_trigger = yes
-		}
-	}
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = magyar }
 }
 
 portrait_cfp_oghuz_clothing_trigger = {
-	culture = { portrait_cfp_oghuz_clothing_contents_trigger = yes }
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = turkish }
 }
 portrait_cfp_oghuz_clothing_spouse_trigger = {
-	culture = { portrait_cfp_oghuz_clothing_contents_trigger = yes }
-}
-portrait_cfp_oghuz_clothing_contents_trigger = {
-	OR = {
-		this = culture:turkish
-		any_parent_culture_or_above = { this = culture:turkish }
-	}
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = turkish }
 }
 
 portrait_cfp_slavic_clothing_trigger = {
-	culture = { portrait_cfp_slavic_clothing_contents_trigger = yes }
+	OR = {
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = south_slavic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = west_slavic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = east_slavic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = baltic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = vlach }
+	}
 }
 portrait_cfp_slavic_clothing_spouse_trigger = {
-	culture = { portrait_cfp_slavic_clothing_contents_trigger = yes }
-}
-portrait_cfp_slavic_clothing_contents_trigger = {
 	OR = {
-		has_cultural_pillar = heritage_south_slavic
-		has_cultural_pillar = heritage_west_slavic
-		has_cultural_pillar = heritage_east_slavic
-		has_cultural_pillar = heritage_baltic
-		has_cultural_pillar = heritage_vlach	
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = south_slavic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = west_slavic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = east_slavic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = baltic }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = vlach }
 	}
 }
 
 ## WESTERN
 portrait_cfp_latin_clothing_trigger = {
-	culture = { portrait_cfp_latin_clothing_contents_trigger = yes }
-	scope:culture = {
-		NOT = { portrait_afr_berber_clothing_contents_trigger = yes }
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = latin }
+	NOT = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = afr_berber
+		}
 	}
 }
 portrait_cfp_latin_clothing_spouse_trigger = {
-	culture = {
-		portrait_cfp_latin_clothing_contents_trigger = yes
-		NOT = { portrait_afr_berber_clothing_contents_trigger = yes }
-	}
-}
-portrait_cfp_latin_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_latin
-}
-
-## IBERIA
-portrait_cfp_iberian_christian_clothing_trigger = {
-	OR = {
-		style_changing_reformer_iberian_christian = yes
-		culture = { portrait_fp2_iberian_christian_clothing_contents_trigger = yes }
-		trigger_if = {
-			limit = { exists = this	}
-			AND = {
-				is_landed = yes
-				religion = religion:christianity_religion
-				capital_province = {
-					geographical_region = world_europe_west_iberia
-				}
-			}
-		}
-	}
-}
-portrait_cfp_iberian_christian_clothing_spouse_trigger = {
-	OR = {
-		style_changing_reformer_iberian_christian = yes
-		culture = {
-			portrait_fp2_iberian_christian_clothing_contents_trigger = yes
-		}
-		AND = {
-			is_landed = yes
-			religion = religion:christianity_religion
-			capital_province = {
-				geographical_region = world_europe_west_iberia
-			}
-		}
-	}
-}
-
-portrait_cfp_iberian_muslim_clothing_trigger = {
-	OR = {
-		style_changing_reformer_iberian_muslim = yes
-		culture = { portrait_fp2_iberian_muslim_clothing_contents_trigger = yes }
-		trigger_if = {
-			limit = { exists = this	}
-			AND = {
-				is_landed = yes
-				religion = religion:islam_religion
-				capital_province = {
-					geographical_region = world_europe_west_iberia
-				}
-			}
-		}
-	}
-}
-portrait_cfp_iberian_muslim_clothing_spouse_trigger = {
-	OR = {
-		style_changing_reformer_iberian_muslim = yes
-		culture = {
-			portrait_fp2_iberian_muslim_clothing_contents_trigger = yes
-		}
-		AND = {
-			is_landed = yes
-			religion = religion:islam_religion
-			capital_province = {
-				geographical_region = world_europe_west_iberia
-			}
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = latin }
+	NOT = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = afr_berber
 		}
 	}
 }
 
 ## MENA
-portrait_cfp_iranian_clothing_trigger = {
-	OR = {
-		style_changing_reformer_iranian = yes
-		scope:culture = {
-			portrait_fp3_iranian_clothing_contents_trigger = yes
-		}
-	}
-}
-
-portrait_cfp_iranian_clothing_spouse_trigger = {
-	OR = {
-		style_changing_reformer_iranian = yes
-		culture = {
-			portrait_fp3_iranian_clothing_contents_trigger = yes
-		}
-	}
-}
-
-portrait_cfp_berber_clothing_trigger = {
-	scope:culture = { portrait_afr_berber_clothing_contents_trigger = yes }
-	trigger_if = {
-		limit = { exists = this	}
-		NAND = {
-			is_landed = yes
-			capital_province = { geographical_region = world_europe_west_iberia	}
-		}
-	}
-}
-portrait_cfp_berber_clothing_spouse_trigger = {
-	culture = {	portrait_afr_berber_clothing_contents_trigger = yes }
-	NAND = {
-		is_landed = yes
-		capital_province = { geographical_region = world_europe_west_iberia }
-	}
-}
-
 portrait_cfp_egyptian_clothing_trigger = {
-	culture = { portrait_cfp_egyptian_clothing_contents_trigger = yes }
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = egyptian }
 }
 portrait_cfp_egyptian_clothing_spouse_trigger = {
-	culture = { portrait_cfp_egyptian_clothing_contents_trigger = yes }
-}
-portrait_cfp_egyptian_clothing_contents_trigger = {
-	OR = {
-		this = culture:egyptian
-		any_parent_culture_or_above = { this = culture:egyptian }
-	}
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = egyptian }
 }
 
 ## AFRICA
 portrait_cfp_east_africa_clothing_trigger = {
-	culture = { portrait_cfp_east_africa_clothing_contents_trigger = yes }
+	OR = {
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = east_african }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = somalian }
+	}
 }
 portrait_cfp_east_africa_clothing_spouse_trigger = {
-	culture = { portrait_cfp_east_africa_clothing_contents_trigger = yes }
-}
-portrait_cfp_east_africa_clothing_contents_trigger = {
 	OR = {
-		has_cultural_pillar = heritage_east_african
-		has_cultural_pillar = heritage_somalian
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = east_african }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = somalian }
 	}
 }
 
 portrait_cfp_central_africa_clothing_trigger = {
-	culture = { portrait_cfp_central_africa_clothing_contents_trigger = yes }
+	OR = {
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = central_african }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = yoruba }
+	}
 }
 portrait_cfp_central_africa_clothing_spouse_trigger = {
-	culture = { portrait_cfp_central_africa_clothing_contents_trigger = yes }
-}
-portrait_cfp_central_africa_clothing_contents_trigger = {
 	OR = {
-		has_cultural_pillar = heritage_central_african
-		has_cultural_pillar = heritage_yoruba
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = central_african }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = yoruba }
 	}
 }
 
 portrait_cfp_west_africa_clothing_trigger = {
-	culture = { portrait_cfp_west_africa_clothing_contents_trigger = yes }
+	OR = {
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = west_african }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = sahelian }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = akan }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = senegambian }
+	}
 }
 portrait_cfp_west_africa_clothing_spouse_trigger = {
-	culture = { portrait_cfp_west_africa_clothing_contents_trigger = yes }
-}
-portrait_cfp_west_africa_clothing_contents_trigger = {
 	OR = {
-		has_cultural_pillar = heritage_west_african
-		has_cultural_pillar = heritage_sahelian
-		has_cultural_pillar = heritage_akan
-		has_cultural_pillar = heritage_senegambian
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = west_african }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = sahelian }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = akan }
+		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = senegambian }
 	}
 }
 
 portrait_cfp_afar_clothing_trigger = {
-	culture = { portrait_cfp_afar_clothing_contents_trigger = yes }
-	# only for teeth so no spouse trigger is needed yet
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = afar }
 }
-portrait_cfp_afar_clothing_contents_trigger = {
-	OR = {
-		this = culture:afar
-		any_parent_culture_or_above = { this = culture:afar }
-	}
+portrait_cfp_afar_clothing_spouse_trigger = {
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = afar }
 }
 
 ## INDIA
 portrait_cfp_burmese_clothing_trigger = {
-	culture = { portrait_cfp_burmese_clothing_contents_trigger = yes }
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = burman }
 }
 portrait_cfp_burmese_clothing_spouse_trigger = {
-	culture = { portrait_cfp_burmese_clothing_contents_trigger = yes }
-}
-portrait_cfp_burmese_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_burman
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = burman }
 }
 
 portrait_cfp_tibetan_clothing_trigger = {
-	culture = { portrait_cfp_tibetan_clothing_contents_trigger = yes }
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = tibetan }
 }
 portrait_cfp_tibetan_clothing_spouse_trigger = {
-	culture = { portrait_cfp_tibetan_clothing_contents_trigger = yes }
-}
-portrait_cfp_tibetan_clothing_contents_trigger = {
-	has_cultural_pillar = heritage_tibetan
+	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = tibetan }
 }
 
 ## JEWISH
@@ -384,59 +273,178 @@ cfp_innovation_ermine_cloaks_trigger = {
 	culture = { has_innovation = innovation_ermine_cloaks }
 }
 
-## CORE
-cfp_clothes_core_trigger = {
-	## Check if character is not supposed to wear situational clothes
-	NOT = {
-		should_be_naked_trigger = yes
-		should_be_topless_portrait_trigger = yes
-		portrait_poverty_robes_trigger = yes 
-		portrait_beggar_trigger = yes
-		portrait_prisoner_trigger = yes
-		portrait_sickness_trigger = yes
-		portrait_stealth_trigger = yes
-		portrait_religious_devoted_trigger = yes
-		# EP1
-		AND = { 
-			has_court_position = court_jester_court_position
-			NOR = {
-				is_adult = no
-				should_be_naked_trigger = yes
-			}
-		}
-		# EP2
-		portrait_ep2_wedding_clothes_trigger = yes # wedding
-		portrait_ep2_hajj_clothes_trigger = yes # hajj
-		portrait_ep2_ihram_clothes_trigger = yes # ihram
-		has_character_flag = pope_larper_flag # Pope/Cardinal Larper event
-		has_character_flag = cardinal_larper_flag # Pope/Cardinal Larper event
+## USES VANILLA GFX
+portrait_cfp_norse_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = fp1_norse
 	}
 }
-cfp_clothing_no_override_armor_trigger = {
-	cfp_clothes_core_trigger = yes
-	portrait_religious_high_trigger = yes # bishop
-}
-cfp_clothing_no_override_trigger = {
-	cfp_clothes_core_trigger = yes
-	portrait_wear_no_armor_trigger = yes
-	NOT = { portrait_religious_high_trigger = yes } # bishop
-}
-cfp_clothing_no_override_bishop_trigger = {
-	cfp_clothes_core_trigger= yes
-	portrait_wear_no_armor_trigger = yes
+portrait_cfp_norse_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = fp1_norse
+	}
 }
 
-## OVERWRITTING DEFAULT CLASSES
-portrait_mena_clothing_contents_trigger = {
-	has_clothing_gfx = mena_clothing_gfx
+portrait_cfp_turkic_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = turkic
+	}
+}
+portrait_cfp_turkic_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = turkic
+	}
+}
+
+portrait_cfp_iranian_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = iranian
+	}
+}
+portrait_cfp_iranian_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = iranian
+	}
+}
+
+portrait_cfp_berber_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = afr_berber
+	}
+	trigger_if = {
+		limit = { exists = this	}
+		NAND = {
+			is_landed = yes
+			capital_province = { geographical_region = world_europe_west_iberia	}
+		}
+	}
+}
+portrait_cfp_berber_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = afr_berber
+	}
+	NAND = {
+		is_landed = yes
+		capital_province = { geographical_region = world_europe_west_iberia }
+	}
+}
+
+portrait_cfp_iberian_christian_clothing_trigger = {
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = iberian_christian
+		}
+		trigger_if = {
+			limit = { exists = this }
+			AND = {
+				is_playable_character = yes
+				religion = religion:christianity_religion
+				capital_province = {
+					geographical_region = world_europe_west_iberia
+				}
+			}
+		}
+	}
+}
+portrait_cfp_iberian_christian_clothing_spouse_trigger = {
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = iberian_christian
+		}
+		AND = {
+			is_playable_character = yes
+			religion = religion:christianity_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
+		}
+	}
+}
+
+portrait_cfp_iberian_muslim_clothing_trigger = {
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = iberian_muslim
+		}
+		trigger_if = {
+			limit = { exists = this	}
+			AND = {
+				is_playable_character = yes
+				religion = religion:islam_religion
+				capital_province = {
+					geographical_region = world_europe_west_iberia
+				}
+			}
+		}
+	}
+}
+portrait_cfp_iberian_muslim_clothing_spouse_trigger = {
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = iberian_muslim
+		}
+		AND = {
+			is_playable_character = yes
+			religion = religion:islam_religion
+			capital_province = {
+				geographical_region = world_europe_west_iberia
+			}
+		}
+	}
+}
+
+## OVERWRITTING VANILLA CLASSES
+portrait_mena_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = mena
+	}
 	NOR = {
 		has_cultural_pillar = heritage_east_african
 		has_cultural_pillar = heritage_somalian
 	}	
 }
-portrait_african_clothing_contents_trigger = {
+portrait_mena_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = mena
+	}
+	NOR = {
+		has_cultural_pillar = heritage_east_african
+		has_cultural_pillar = heritage_somalian
+	}	
+}
+
+portrait_african_clothing_trigger = {
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = african
+		}
+		AND = {
+			has_clothing_gfx = mena_clothing_gfx
+			has_cultural_pillar = heritage_east_african
+		}
+	}
+}
+portrait_african_clothing_spouse_trigger = {
 	OR = { 
-		has_clothing_gfx = african_clothing_gfx
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = african
+		}
 		AND = {
 			has_clothing_gfx = mena_clothing_gfx
 			has_cultural_pillar = heritage_east_african
