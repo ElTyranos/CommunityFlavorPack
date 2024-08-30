@@ -25,6 +25,7 @@ special_genes = {
 			all_headgear = {
 				index = 1
 				male = {
+					1 = m_headgear_sec_ep3_byzantine_era1_nob_01
 					1 = male_headgear_secular_western_common_01
 					1 = male_headgear_secular_western_common_02
 					1 = male_headgear_secular_dde_hre_common_02
@@ -40,8 +41,9 @@ special_genes = {
 					1 = male_headgear_secular_mena_high_nobility_01
 					1 = male_headgear_religious_dde_muslim_head_01
 					1 = male_headgear_secular_mena_imperial_01
-					1 = male_headgear_secular_mena_war_nobility_01
-					1 = male_headgear_secular_crusades_mena_war_nobility_01
+					1 = m_headgear_sec_mena_war_nob_01_lo
+					1 = m_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = m_headgear_sec_crusades_mena_war_nob_01_lo
 					1 = male_headgear_religious_catholic_high_01
 					1 = male_headgear_religious_dde_catholic_high_01
 					1 = male_headgear_religious_catholic_head_01
@@ -50,19 +52,23 @@ special_genes = {
 					1 = male_headgear_secular_dde_abbasid_common_01
 					1 = male_headgear_secular_dde_abbasid_common_02
 					1 = male_headgear_secular_dde_abbasid_imperial_01
-					1 = male_headgear_secular_dde_abbasid_war_nobility_01
+					1 = m_headgear_sec_dde_abbasid_war_nob_01_lo
+					1 = m_headgear_sec_dde_abbasid_war_nob_01_hi
 					1 = male_headgear_secular_dde_abbasid_royalty_01
-					1 = male_headgear_secular_northern_war_nobility_01
+					1 = m_headgear_sec_northern_war_nob_01_lo
+					1 = m_headgear_sec_northern_war_nob_01_hi
 					1 = male_headgear_secular_northern_common_01
 					1 = male_headgear_secular_byzantine_high_nobility_01
 					1 = male_headgear_secular_byzantine_nobility_01
 					1 = male_headgear_secular_byzantine_imperial_01
-					1 = male_headgear_secular_byzantine_war_nobility_01
+					1 = m_headgear_sec_byzantine_war_nob_01_lo
+					1 = m_headgear_sec_byzantine_war_nob_01_hi
 					1 = male_headgear_secular_byzantine_royalty_01
 					1 = male_headgear_secular_steppe_nobility_01
 					1 = male_headgear_secular_steppe_common_01
 					1 = male_headgear_secular_steppe_royalty_01
-					1 = male_headgear_secular_steppe_war_nobility_01
+					1 = m_headgear_sec_steppe_war_nob_01_lo
+					1 = m_headgear_sec_steppe_war_nob_01_hi
 					1 = male_headgear_secular_sub_saharan_high_nobility_01
 					1 = male_headgear_secular_sub_saharan_common_01
 					1 = male_headgear_secular_sub_saharan_royalty_01
@@ -70,9 +76,10 @@ special_genes = {
 					1 = male_headgear_secular_indian_high_nobility_01
 					1 = male_headgear_secular_indian_royalty_01
 					1 = male_headgear_secular_indian_imperial_01
-					1 = male_headgear_secular_indian_war_nobility_01
-					1 = male_headgear_secular_crusades_western_war_nobility_01
-					1 = male_headgear_secular_crusades_mena_war_nobility_01
+					1 = m_headgear_sec_indian_war_nob_01_lo
+					1 = m_headgear_sec_indian_war_nob_01_hi
+					1 = m_headgear_sec_crusades_western_war_nob_01_lo
+					1 = m_headgear_sec_crusades_western_war_nob_01_hi
 					# RELIGIOUS #
 					1 = male_headgear_religious_zorastrian_high_01
 					1 = male_headgear_religious_jewish_head_01
@@ -152,6 +159,17 @@ special_genes = {
 					1 = m_headgear_sec_afr_royalty_01
 					1 = m_headgear_sec_afr_imperial_01
 					1 = m_headgear_sec_afr_war_nob_01
+					# EP3 #
+					1 = m_headgear_sec_ep3_byzantine_era1_imp_01
+					1 = m_headgear_sec_ep3_byzantine_era1_roy_01
+					1 = m_headgear_sec_ep3_byzantine_era1_war_nob_01
+					1 = m_headgear_sec_ep3_byzantine_era2_war_nob_01
+					1 = m_headgear_sec_ep3_byzantine_era2_hi_nob_01
+					1 = m_headgear_sec_ep3_byzantine_era2_imp_01
+					1 = m_headgear_sec_ep3_byzantine_era2_roy_01
+					1 = m_headgear_sec_ep3_byzantine_era2_nob_01
+					1 = m_headgear_sec_ep3_byzantine_era2_nob_02
+					1 = m_headgear_sec_ep3_byzantine_era1_com_01
 				}
 
 				female = {
@@ -164,31 +182,38 @@ special_genes = {
 					1 = female_headgear_secular_western_high_nobility_01
 					1 = female_headgear_secular_western_royalty_01
 					1 = female_headgear_secular_western_royalty_02
-					1 = female_headgear_secular_western_war_nobility_01
+					1 = f_headgear_sec_ep2_western_war_nob_01_com
+					1 = f_headgear_sec_ep2_western_war_nob_01_lo
+					1 = f_headgear_sec_ep2_western_war_nob_01_hi
 					1 = female_headgear_secular_mena_royalty_01
 					1 = female_headgear_secular_mena_common_01
 					1 = female_headgear_secular_mena_common_02
 					1 = female_headgear_secular_mena_nobility_01
 					1 = female_headgear_secular_dde_abbasid_common_01
 					1 = female_headgear_secular_mena_royalty_01
-					1 = female_headgear_secular_mena_war_nobility_01
+					1 = f_headgear_sec_mena_war_nob_01_lo
+					1 = f_headgear_sec_mena_war_nob_01_hi
 					1 = female_headgear_religious_catholic_devoted_01
 					1 = female_headgear_secular_dde_hre_royalty_01
 					1 = female_headgear_secular_dde_abbasid_high_nobility_01
 					1 = female_headgear_secular_dde_abbasid_common_02
-					1 = female_headgear_secular_dde_abbasid_war_nobility_01
+					1 = f_headgear_sec_dde_abbasid_war_nob_01_lo
+					1 = f_headgear_sec_dde_abbasid_war_nob_01_hi
 					1 = female_headgear_secular_dde_abbasid_royalty_01
-					1 = female_headgear_secular_northern_war_nobility_01
+					1 = f_headgear_sec_northern_war_nob_01_lo
+					1 = f_headgear_sec_northern_war_nob_01_hi
 					1 = female_headgear_secular_northern_common_01
 					1 = female_headgear_secular_byzantine_high_nobility_01
 					1 = female_headgear_secular_byzantine_nobility_01
 					5 = female_headgear_secular_byzantine_common_01
 					1 = female_headgear_secular_byzantine_imperial_01
-					1 = female_headgear_secular_byzantine_war_nobility_01
+					1 = f_headgear_sec_byzantine_war_nob_01_lo
+					1 = f_headgear_sec_byzantine_war_nob_01_hi
 					1 = female_headgear_secular_byzantine_royalty_01
 					1 = female_headgear_secular_steppe_high_nobility_01
 					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_war_nobility_01
+					1 = f_headgear_sec_steppe_war_nob_01_lo
+					1 = f_headgear_sec_steppe_war_nob_01_hi
 					1 = female_headgear_secular_mena_nobility_01
 					1 = female_headgear_secular_sub_saharan_common_01
 					1 = female_headgear_secular_mena_royalty_01
@@ -196,9 +221,12 @@ special_genes = {
 					1 = female_headgear_secular_indian_common_01
 					1 = female_headgear_secular_indian_royalty_01
 					1 = female_headgear_secular_indian_royalty_01
-					1 = female_headgear_secular_indian_war_nobility_01
-					1 = female_headgear_secular_crusades_western_war_nobility_01
-					1 = female_headgear_secular_crusades_mena_war_nobility_01
+					1 = f_headgear_sec_indian_war_nob_01_lo
+					1 = f_headgear_sec_indian_war_nob_01_hi
+					1 = f_headgear_sec_crusades_western_war_nob_01_lo
+					1 = f_headgear_sec_crusades_western_war_nob_01_hi
+					1 = f_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = f_headgear_sec_crusades_mena_war_nob_01_hi
 					1 = female_headgear_religious_muslim_high_01
 					1 = female_headgear_religious_african_high_01
 					1 = female_headgear_religious_steppe_high_01
@@ -246,12 +274,12 @@ special_genes = {
 					3 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo
 					3 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi
 
-					# EP2 # 	
+					# EP2 #
 					1 = f_headgear_sec_ep2_western_era1_com_01
 					1 = f_headgear_sec_ep2_western_era1_com_02
 					1 = f_headgear_sec_ep2_western_era1_nob_01
 					1 = f_headgear_sec_ep2_western_era1_nob_02
-					1 = f_headgear_sec_ep2_western_era1_nob_01_hi
+					1 = f_headgear_sec_ep2_western_era1_hi_nob_01
 					1 = f_headgear_sec_ep2_western_era1_roy_01
 					1 = f_headgear_sec_ep2_western_era1_war_nob_01
 					1 = f_headgear_sec_ep2_western_era2_war_nob_01
@@ -277,6 +305,17 @@ special_genes = {
 					1 = f_headgear_sec_afr_royalty_01
 					1 = f_headgear_sec_afr_imperial_01
 					1 = f_headgear_sec_afr_war_nob_01
+					# EP3 #
+					1 = f_headgear_sec_ep3_byzantine_era1_imp_01
+					1 = f_headgear_sec_ep3_byzantine_era1_roy_01
+					1 = f_headgear_sec_ep3_byzantine_era1_war_nob_01
+					1 = f_headgear_sec_ep3_byzantine_era2_roy_01
+					1 = f_headgear_sec_ep3_byzantine_era2_imp_01
+					1 = f_headgear_sec_ep3_byzantine_era2_war_nob_01
+					1 = f_headgear_sec_ep3_byzantine_era2_nob_01
+					1 = f_headgear_sec_ep3_byzantine_era2_hi_nob_01
+					1 = f_headgear_sec_ep3_byzantine_era1_com_01
+
 				}
 
 				boy = male
@@ -1864,7 +1903,7 @@ special_genes = {
 			fp2_scripted_headgear_01 = {
 				index = 102
 				male = {
-					1 = no_headgear
+					1 = empty
 					1 = male_headgear_secular_fp2_iberian_muslim_common_01_low
 					1 = male_headgear_secular_fp2_iberian_muslim_high_nobility_01
 				}
@@ -2103,7 +2142,6 @@ special_genes = {
 				male = {
 					20 = m_headgear_sec_ep2_byzantine_war_nob_01
 				}
-
 				female = {
 					10 = f_headgear_sec_ep2_byzantine_war_nob_01
 				}
@@ -2130,7 +2168,6 @@ special_genes = {
 
 		## SP2 - Elegance of the Empire ##
 
-
 			sp2_western_imperial = {
 				index = 119
 				male = {
@@ -2142,7 +2179,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			sp2_western_high_nobility = {
 				index = 120
 				male = {
@@ -2206,7 +2243,7 @@ special_genes = {
 			}
 
 			## CE1 - Legends of the Dead ##
-			
+
 			fp4_western_common = {
 				index = 125
 				male = {
@@ -2233,7 +2270,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			fp4_western_royalty = {
 				index = 127
 				male = {
@@ -2278,9 +2315,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-		
+
 			## FP3 - Legacy of Persia ##
-			
+
 			fp3_iranian_royalty = {
 				index = 130
 				male = {
@@ -2386,8 +2423,8 @@ special_genes = {
 			}
 
 
-			## AFR
-		
+			## AFR ##
+
 			afr_common = {
 				index = 139
 				male = {
@@ -2467,9 +2504,10 @@ special_genes = {
 				girl = female
 			}
 
+
 			## SP3 -  ##
 
-			sp3_western_high_nobility = { 
+			sp3_western_high_nobility = {
 				index = 145
 				male = {
 					1 = m_headgear_sec_sp3_western_hi_nob_01 # Vair fur brimmed hat
@@ -2481,7 +2519,7 @@ special_genes = {
 				girl = female
 			}
 
-			sp3_western_nobility = { 
+			sp3_western_nobility = {
 				index = 146
 				male = {
 					# 1 = m_headgear_sec_sp3_western_hi_nob_01
@@ -2492,7 +2530,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			sp3_western_royalty = {
 				index = 147
 				male = {
@@ -2504,12 +2542,150 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			## EP3 - Byzantine ##
+
+			ep3_byzantine_era1_commoner = {
+				index = 148
+				male = {
+				    1 = m_headgear_sec_ep3_byzantine_era1_com_01
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era1_com_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_low_nobility = {
+				index = 149
+				male = {
+					1 = m_headgear_sec_ep3_byzantine_era1_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era1_lo_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_high_nobility = {
+				index = 150
+				male = {
+				    1 = m_headgear_sec_ep3_byzantine_era1_hi_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era1_hi_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_royalty = {
+				index = 151
+				male = {
+					20 = m_headgear_sec_ep3_byzantine_era1_roy_01
+				}
+				female = {
+					10 = f_headgear_sec_ep3_byzantine_era1_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_imperial = {
+				index = 152
+				male = {
+					20 = m_headgear_sec_ep3_byzantine_era1_imp_01
+				}
+				female = {
+					10 = f_headgear_sec_ep3_byzantine_era1_imp_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_war_nobility = {
+				index = 153
+				male = {
+				    1 = m_headgear_sec_ep3_byzantine_era1_war_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era1_war_nob_01
+				}
+				boy = male
+				girl = female
+				
+			}	
+
+			ep3_byzantine_era2_low_nobility = {
+				index = 154
+				male = {
+				    1 = m_headgear_sec_ep3_byzantine_era2_nob_01
+					1 = m_headgear_sec_ep3_byzantine_era2_nob_02
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era2_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_high_nobility = {
+				index = 155
+				male = {
+					20 = m_headgear_sec_ep3_byzantine_era2_hi_nob_01
+				}
+				female = {
+					10 = f_headgear_sec_ep3_byzantine_era2_hi_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_war_nobility = {
+				index = 156
+				male = {
+				    1 = m_headgear_sec_ep3_byzantine_era2_war_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era2_war_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_imperial = {
+				index = 157
+				male = {
+				    1 = m_headgear_sec_ep3_byzantine_era2_imp_01
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era2_imp_01
+				}
+				boy = male
+				girl = female
+			}	
+
+			ep3_byzantine_era2_royalty = {
+				index = 158
+				male = {
+				    1 = m_headgear_sec_ep3_byzantine_era2_roy_01
+				}
+				female = {
+					1 = f_headgear_sec_ep3_byzantine_era2_roy_01
+				}
+				boy = male
+				girl = female
+
+			}
+
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
 			
 			cfp_western_era3_war_nobility = {
-				index = 150
+				index = 160
 				male = {
 					5 = male_headgear_secular_western_war_flat_top_01
 					5 = male_headgear_secular_western_war_topf_01
@@ -2533,7 +2709,7 @@ special_genes = {
 			}
 			
 			cfp_western_war_high_nobility = {
-				index = 151
+				index = 161
 				male = {
 					1 = male_headgear_secular_western_war_high_nobility_01
 					1 = male_headgear_secular_dde_hre_war_high_nobility_01
@@ -2545,7 +2721,7 @@ special_genes = {
 			}
 			
 			cfp_western_war_plate_armor = {
-				index = 152
+				index = 162
 				male = {
 					1 = male_headgear_secular_western_cfp_war_great_bascinet_01 # fullplate
 					2 = male_headgear_secular_western_cfp_war_bascinet_01 # fullplate
@@ -2563,7 +2739,7 @@ special_genes = {
 			}
 			
 			cfp_crusades_western_commoner = {
-				index = 153
+				index = 163
 				male = {
 					1 = male_cloaks_secular_western_cfp_crusades_hood_03
 					
@@ -2577,7 +2753,7 @@ special_genes = {
 			}
 			
 			cfp_crusades_western = {
-				index = 154
+				index = 164
 				male = {
 					4 = male_cloaks_secular_western_cfp_crusades_hood_01
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_01
@@ -2617,7 +2793,7 @@ special_genes = {
 			}
 			
 			cfp_anglo_saxon_royalty = {
-				index = 156
+				index = 166
 				male = {
 					1 = male_headgear_secular_northern_royalty_suttonhoo_01
 				}
@@ -2629,7 +2805,7 @@ special_genes = {
 			}
 			
 			cfp_norman_sicily_war = {
-				index = 157
+				index = 167
 				male = {
 					1 = male_headgear_secular_latin_war_norman_01
 					1 = male_headgear_secular_latin_war_norman_02
@@ -2645,7 +2821,7 @@ special_genes = {
 			# Greek
 			
 			cfp_hungarian_high_nobility = {
-				index = 158
+				index = 168
 				male = {
 					1 = male_headgear_secular_hungarian_high_nobility_01
 				}
@@ -2657,7 +2833,7 @@ special_genes = {
 			}
 			
 			cfp_hungarian_royalty = {
-				index = 159
+				index = 169
 				male = {
 					1 = male_headgear_secular_hungarian_royalty_01
 				}
@@ -2669,7 +2845,7 @@ special_genes = {
 			}
 			
 			cfp_hungarian_war = {
-				index = 160
+				index = 170
 				male = {
 					4 = male_headgears_secular_hungarian_war_helmet_01
 					1 = male_headgears_secular_slavic_war_helmet_01
@@ -2689,11 +2865,10 @@ special_genes = {
 			# Steppe
 			
 			cfp_turkic_high_nobility = {
-				index = 161
+				index = 171
 				male = {
 					5 = male_headgears_secular_turkic_high_cuman_nobility_01
 					5 = male_headgears_secular_turkic_high_cuman_nobility_02
-					
 				}
 				female = {
 					5 = female_headgears_secular_turkic_high_cuman_nobility_01
@@ -2704,7 +2879,7 @@ special_genes = {
 			}
 			
 			cfp_turkic_nobility = {
-				index = 162
+				index = 172
 				male = {
 					3 = empty
 					5 = male_headgears_secular_turkic_low_cuman_nobility_01
@@ -2719,13 +2894,12 @@ special_genes = {
 			}
 			
 			cfp_turkic_common = {
-				index = 163
+				index = 173
 				male = {
 					5 = empty
 					5 = male_headgears_secular_turkic_low_cuman_nobility_02
 					3 = male_headgear_secular_northern_common_01
 					1 = male_headgear_secular_steppe_common_01
-					
 				}
 				female = {
 					5 = empty
@@ -2736,11 +2910,10 @@ special_genes = {
 			}
 			
 			cfp_turkic_royalty = {
-				index = 164
+				index = 174
 				male = {
 					5 = male_headgears_secular_turkic_royalty_01
 					5 = male_headgears_secular_turkic_royalty_02
-					
 				}
 				female = {
 					5 = female_headgear_secular_indian_royalty_01
@@ -2751,13 +2924,12 @@ special_genes = {
 			}
 			
 			cfp_turkic_war = {
-				index = 165
+				index = 175
 				male = {
 					1 = male_headgears_secular_turkic_war_cuman_01
 					1 = male_headgear_secular_turkic_cfp_war_kipchak_01
 					1 = male_headgears_secular_turkic_war_cuman_02
 					1 = male_headgear_secular_turkic_cfp_war_kipchak_02
-					
 				}
 				female = {
 					1 = female_headgears_secular_turkic_war_cuman_01
@@ -2773,7 +2945,7 @@ special_genes = {
 			# Slavic
 			
 			cfp_slavic_commoner = {
-				index = 166
+				index = 176
 				male = {
 					1 = male_headgear_secular_ruthenian_cfp_common_01
 				}
@@ -2785,7 +2957,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_low_nobility = {
-				index = 167
+				index = 177
 				male = {
 					1 = male_headgear_secular_ruthenian_cfp_low_01
 				}
@@ -2797,7 +2969,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_high_nobility = {
-				index = 168
+				index = 178
 				male = {
 					# 1 = male_headgear_secular_slavic_high_nobility_01
 					1 = male_headgear_secular_ruthenian_cfp_high_01
@@ -2811,7 +2983,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_royalty = {
-				index = 169
+				index = 179
 				male = {				
 					1 = male_headgear_secular_ruthenian_cfp_royalty_01
 					1 = male_headgear_secular_slavic_royalty_01
@@ -2825,7 +2997,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_imperial = {
-				index = 170
+				index = 180
 				male = {
 					5 = male_headgear_secular_slavic_cfp_monomakh_01
 					5 = male_headgear_secular_ruthenian_cfp_imperial_01
@@ -2839,7 +3011,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_war = {
-				index = 171
+				index = 181
 				male = {
 					4 = male_headgears_secular_slavic_war_helmet_01
 					4 = male_headgears_secular_slavic_war_helmet_02
@@ -2857,7 +3029,7 @@ special_genes = {
 			}
 			
 			cfp_albanian_royalty = {
-				index = 172
+				index = 182
 				male = {
 					1 = male_headgear_secular_slavic_cfp_skanderbeg_01
 				}
@@ -2869,7 +3041,7 @@ special_genes = {
 			}
 			
 			cfp_croatian_royalty = {
-				index = 173
+				index = 183
 				male = {
 					1 = male_headgear_secular_slavic_cfp_royalty_02
 				}
@@ -2883,7 +3055,7 @@ special_genes = {
 			# Latin
 			
 			cfp_latin_common = {
-				index = 174
+				index = 184
 				male = {
 					1 = male_headgear_secular_latin_cfp_phrygian_common_01
 					1 = male_headgear_secular_latin_cfp_wicker_common_01
@@ -2897,7 +3069,7 @@ special_genes = {
 			}
 			
 			cfp_latin_nobility = {
-				index = 175
+				index = 185
 				male = {
 					1 = male_headgear_secular_latin_cfp_nobility_01
 				}
@@ -2909,7 +3081,7 @@ special_genes = {
 			}
 			
 			cfp_latin_high_nobility = {
-				index = 176
+				index = 186
 				male = {
 					1 = male_headgear_secular_latin_cfp_high_nobility_01
 					1 = male_headgear_secular_latin_cfp_pannonian_high_01
@@ -2923,7 +3095,7 @@ special_genes = {
 			}
 			
 			cfp_latin_venetian_royalty = {
-				index = 177
+				index = 187
 				
 				male = {
 					1 = male_headgear_secular_latin_cfp_venetian_doge_01
@@ -2936,7 +3108,7 @@ special_genes = {
 			}
 			
 			cfp_latin_war = {
-				index = 178
+				index = 188
 				male = {
 					1 = male_headgear_secular_latin_war_flat_top_01
 					1 = male_headgear_secular_latin_war_flat_top_02
@@ -2956,7 +3128,7 @@ special_genes = {
 			## Iberian
 			
 			cfp_iberian_common = {
-				index = 179
+				index = 189
 				male = {
 					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
 				}
@@ -2968,7 +3140,7 @@ special_genes = {
 			}
 			
 			cfp_iberian_low_nobility = {
-				index = 180
+				index = 190
 				male = {
 					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
 				}
@@ -2980,7 +3152,7 @@ special_genes = {
 			}
 			
 			cfp_iberian_high_nobility = {
-				index = 181
+				index = 191
 				male = {
 					1 = male_headgear_secular_iberian_cfp_bonnet_high_01
 				}
@@ -2992,7 +3164,7 @@ special_genes = {
 			}
 			
 			cfp_iberian_aragonese_royalty = {
-				index = 182
+				index = 192
 				male = {
 					1 = male_headgear_secular_iberian_cfp_aragonese_royalty_01
 				}
@@ -3004,7 +3176,7 @@ special_genes = {
 			}
 			
 			cfp_iberian_castilian_royalty = {
-				index = 183
+				index = 193
 				male = {
 					1 = male_headgear_secular_iberian_cfp_castilian_royalty_01
 				}
@@ -3016,7 +3188,7 @@ special_genes = {
 			}
 			
 			cfp_iberian_war_aragonese_royalty = {
-				index = 184
+				index = 194
 				male = {
 					1 = male_headgear_secular_iberian_cfp_war_aragonese_royalty_01
 				}
@@ -3028,7 +3200,7 @@ special_genes = {
 			}
 			
 			cfp_iberian_war = {
-				index = 185
+				index = 195
 				male = {
 					1 = male_headgear_secular_iberian_cfp_war_cervelliere_01
 					1 = male_headgear_secular_iberian_cfp_war_nasal_01
@@ -3044,7 +3216,7 @@ special_genes = {
 			# MENA
 			
 			cfp_mena_war = {
-				index = 186
+				index = 196
 				male = {
 					1 = male_headgear_secular_mena_cfp_war_mail_coif_01
 					1 = male_headgear_secular_mena_cfp_war_mail_coif_02
@@ -3061,7 +3233,7 @@ special_genes = {
 			}
 			
 			cfp_mena_war_high_medieval = {
-				index = 187
+				index = 197
 				male = {
 					1 = male_headgear_secular_mena_cfp_war_turban_01
 				}
@@ -3073,7 +3245,7 @@ special_genes = {
 			}
 			
 			cfp_mena_war_high_nobility = {
-				index = 188
+				index = 198
 				male = {
 					1 = male_headgear_secular_mena_cfp_war_mamluk_01
 				}
@@ -3085,7 +3257,7 @@ special_genes = {
 			}
 			
 			cfp_andalusian_war = {
-				index = 189
+				index = 199
 				male = {
 					1 = male_headgear_secular_andalusian_cfp_war_turban_01
 					1 = male_headgear_secular_andalusian_cfp_war_nasal_01
@@ -3101,7 +3273,7 @@ special_genes = {
 			}
 			
 			cfp_egyptian_common = {
-				index = 190
+				index = 200
 				male = {
 					1 = male_headgear_secular_mena_cfp_zamt_01
 				}
@@ -3113,7 +3285,7 @@ special_genes = {
 			}
 			
 			cfp_berber_high_nobility = {
-				index = 191
+				index = 201
 				male = {
 					1 = male_headgear_secular_mena_cfp_tagelmust_high_01
 				}
@@ -3125,7 +3297,7 @@ special_genes = {
 			}
 
 			cfp_oghuz_high_nobility = {
-				index = 193
+				index = 203
 				male = {
 					5 = male_headgears_secular_turkic_high_nobility_01
 					5 = male_headgears_secular_turkic_high_nobility_02
@@ -3141,7 +3313,7 @@ special_genes = {
 			}
 			
 			cfp_oghuz_low_nobility = {
-				index = 194
+				index = 204
 				male = {
 					5 = empty
 					10 = male_headgears_secular_turkic_low_nobility_01
@@ -3156,7 +3328,7 @@ special_genes = {
 			}
 			
 			cfp_iranian_common = {
-				index = 195
+				index = 205
 				male = {
 					5 = empty
 					10 = male_headgear_secular_iranian_cfp_panel_common_01
@@ -3172,7 +3344,7 @@ special_genes = {
 			}
 			
 			cfp_iranian_low_nobility = {
-				index = 196
+				index = 206
 				male = {
 					5 = empty
 					10 = male_headgear_secular_iranian_cfp_panel_low_01
@@ -3188,17 +3360,17 @@ special_genes = {
 			}	
 			
 			cfp_iranian_high_nobility = {
-				index = 197
+				index = 207
 				male = {
 					10 = male_headgear_secular_iranian_cfp_qalansuwah_high_01
 				}
 				female = {}
 				boy = male
 				girl = female
-			}	
-			
+			}
+
 			cfp_iranian_war = {
-				index = 198
+				index = 208
 				male = {
 					1 = male_headgear_secular_iranian_cfp_war_mail_coif_01
 					1 = male_headgear_secular_iranian_cfp_war_quilted_01
@@ -3214,9 +3386,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_iranian_war_high_medieval = {
-				index = 199
+				index = 209
 				male = {
 					1 = male_headgear_secular_iranian_cfp_war_khud_01
 					1 = male_headgear_secular_iranian_cfp_war_khud_02
@@ -3234,7 +3406,7 @@ special_genes = {
 			# CFP African
 			
 			cfp_african_religious_masks = {
-				index = 200
+				index = 210
 				male = {
 					2 = male_headgear_religious_african_high_01
 					1 = male_headgear_religious_african_cfp_mask_01
@@ -3256,7 +3428,7 @@ special_genes = {
 			}
 			
 			cfp_west_african_low_nobility = {
-				index = 201
+				index = 211
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_01
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_02
@@ -3270,7 +3442,7 @@ special_genes = {
 			}
 			
 			cfp_west_african_high_nobility = {
-				index = 202
+				index = 212
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_high_nobility_01
 				}
@@ -3282,7 +3454,7 @@ special_genes = {
 			}
 			
 			cfp_west_african_war = {
-				index = 203
+				index = 213
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_helmet_01
 				}
@@ -3294,7 +3466,7 @@ special_genes = {
 			}
 			
 			cfp_central_african_low_nobility = {
-				index = 204
+				index = 214
 				male = {
 					1 = male_headgear_secular_africa_central_cfp_low_nobility_01
 					1 = male_headgear_secular_africa_central_cfp_low_nobility_02
@@ -3307,7 +3479,7 @@ special_genes = {
 			}
 			
 			cfp_central_african_high_nobility = {
-				index = 205
+				index = 215
 				male = {
 					1 = male_headgear_secular_africa_central_cfp_high_nobility_01
 				}
@@ -3319,7 +3491,7 @@ special_genes = {
 			}
 			
 			cfp_central_african_war = {
-				index = 206
+				index = 216
 				male = {
 					1 = male_headgears_secular_africa_central_cfp_war_padded_01
 					1 = male_headgears_secular_africa_central_cfp_war_padded_02
@@ -3333,7 +3505,7 @@ special_genes = {
 			}
 			
 			cfp_east_african_common = {
-				index = 207
+				index = 217
 				male = {
 					1 = empty # has is_female = yes
 				}
@@ -3345,7 +3517,7 @@ special_genes = {
 			}
 			
 			cfp_east_african_low_nobility = {
-				index = 208
+				index = 218
 				male = {
 					1 = empty # has is_female = yes
 				}
@@ -3357,7 +3529,7 @@ special_genes = {
 			}
 			
 			cfp_east_african_high_nobility = {
-				index = 209
+				index = 219
 				male = {
 					1 = male_headgear_secular_africa_east_cfp_high_nobility_01
 					1 = male_headgear_secular_africa_east_cfp_high_nobility_03
@@ -3370,7 +3542,7 @@ special_genes = {
 			}
 			
 			cfp_east_african_royalty = {
-				index = 210
+				index = 220
 				male = {
 					1 = male_headgear_secular_africa_east_cfp_royalty_01
 				}
@@ -3382,7 +3554,7 @@ special_genes = {
 			}
 			
 			cfp_east_african_imperial = {
-				index = 211
+				index = 221
 				male = {
 					1 = male_headgear_secular_africa_east_cfp_imperial_01
 				}
@@ -3394,7 +3566,7 @@ special_genes = {
 			}
 			
 			cfp_east_african_war = {
-				index = 212
+				index = 222
 				male = {
 					1 = male_headgear_secular_africa_east_cfp_helmet_01
 				}
@@ -3408,7 +3580,7 @@ special_genes = {
 			# India
 			
 			cfp_javanese_nobility = {
-				index = 213
+				index = 223
 				male = {
 					1 = empty
 					5 = male_headgear_secular_java_cfp_high_nobility_01
@@ -3422,7 +3594,7 @@ special_genes = {
 			}
 			
 			cfp_javanese_royalty = {
-				index = 214
+				index = 224
 				male = {
 					1 = male_headgear_secular_java_cfp_royalty_01
 				}
@@ -3434,7 +3606,7 @@ special_genes = {
 			}
 			
 			cfp_indian_high_nobility = {
-				index = 215
+				index = 225
 				male = {
 					1 = male_headgear_secular_indian_cfp_high_nobility_01 
 					1 = male_headgear_secular_indian_cfp_high_nobility_02
@@ -3447,7 +3619,7 @@ special_genes = {
 			}
 			
 			cfp_indian_war = {
-				index = 216
+				index = 226
 				male = {
 					5 = male_headgear_secular_indian_cfp_war_tibetan_01
 					5 = male_headgear_secular_indian_cfp_war_timurid_01
@@ -3463,7 +3635,7 @@ special_genes = {
 			# Religious
 			
 			cfp_religious_catholic_head_early = {
-				index = 217
+				index = 227
 				male = {
 					1 = male_headgear_religious_catholic_cfp_head_01
 				}
@@ -3475,7 +3647,7 @@ special_genes = {
 			}
 			
 			cfp_religious_catholic_cardinal = {
-				index = 218
+				index = 228
 				male = {
 					1 = male_headgear_religious_catholic_cfp_cardinal_01
 				}
@@ -3487,7 +3659,7 @@ special_genes = {
 			}
 			
 			cfp_religious_catholic_high_northern = {
-				index = 219
+				index = 229
 				male = {
 					1 = male_headgear_religious_catholic_cfp_tribal_01
 				}
@@ -3499,7 +3671,7 @@ special_genes = {
 			}
 			
 			cfp_religious_catholic_pilgrim = {
-				index = 220
+				index = 230
 				male = {
 					1 = male_headgear_religious_catholic_cfp_pilgrim_01
 					1 = male_headgear_religious_catholic_cfp_pilgrim_02
@@ -3512,7 +3684,7 @@ special_genes = {
 			}
 			
 			cfp_religious_orthodox_devoted = {
-				index = 221
+				index = 231
 				male = {
 					1 = male_headgear_religious_orthodox_cfp_koukoulion_01
 				}
@@ -3524,7 +3696,7 @@ special_genes = {
 			}
 			
 			cfp_religious_muslim_high_turkic = {
-				index = 222
+				index = 232
 				male = {
 					1 = male_headgear_religious_muslim_cfp_caliph_01
 				}
@@ -3536,7 +3708,7 @@ special_genes = {
 			}
 			
 			cfp_religious_jewish_common = {
-				index = 223
+				index = 233
 				male = {
 					1 = male_headgear_religious_jewish_cfp_judenhut_01 # western
 					1 = male_headgear_religious_jewish_cfp_sudra_01 # mena
@@ -3550,7 +3722,7 @@ special_genes = {
 			}
 			
 			cfp_religious_buddhist_tibetan_mask = {
-				index = 224
+				index = 234
 				male = {
 					5 = male_headgear_religious_hindu_cfp_mask_01
 				}
@@ -3564,7 +3736,7 @@ special_genes = {
 			# Misc
 			
 			cfp_fantasy_witches = {
-				index = 225
+				index = 235
 				male = {
 					1 = male_headgear_fantasy_cfp_wizard_hat_01
 					1 = male_headgear_fantasy_cfp_enchanter_hat_01
@@ -3579,7 +3751,7 @@ special_genes = {
 			}
 			
 			cfp_rre_imperial = {
-				index = 226
+				index = 236
 				male = {
 					1 = male_headgear_secular_rre_laurelwreath_02
 					1 = male_headgear_secular_rre_laurelwreath_03
@@ -3593,7 +3765,7 @@ special_genes = {
 			}
 			
 			cfp_trait_laurel = {
-				index = 227
+				index = 237
 				male = {
 					1 = male_headgear_secular_rre_laurelwreath_01
 				}
@@ -3608,10 +3780,9 @@ special_genes = {
 	
 	
 		#--------------------------------------------------------------------------------------------------------
-
 		secondary_headgears = {
 
-				no_headgear = {
+			no_headgear = {
 				index = 0
 				male = {
 					1 = empty
@@ -3636,7 +3807,7 @@ special_genes = {
 			mena_wedding = {
 				index = 2
 				male = {
-					1 = m_headgear_spec_ep2_mena_wedding
+					# 1 = m_headgear_spec_ep2_mena_wedding
 				}
 				female = {
 					1 = f_headgear_spec_ep2_mena_wedding
@@ -3667,8 +3838,10 @@ special_genes = {
 				}
 				boy = male
 				girl = female
+
 			}
 		}
+
 
 		# Additive headgear are used in combination with other headgear. Usually crowns worn over veils, or crowns on helmets
 
@@ -3711,7 +3884,7 @@ special_genes = {
 					10 = f_headgear_sec_ep2_western_era1_nob_02
 				}
 				boy = male
-				girl = female				
+				girl = female
 			}
 
 			ep2_western_era2_veils = {
@@ -3726,7 +3899,7 @@ special_genes = {
 					10 = female_headgear_secular_western_nobility_03
 				}
 				boy = male
-				girl = female				
+				girl = female
 			}
 
 			ep2_western_era3_veils = {
@@ -3744,12 +3917,13 @@ special_genes = {
 					30 = f_headgear_sec_sp3_western_hi_nob_01
 				}
 				boy = male
-				girl = female				
+				girl = female
 			}
 
-			sp3_western_royalty_headdress = {	
+			sp3_western_royalty_headdress = {
 			    index = 5
-				male = {}
+				male = {
+				}
 				female = {
 					10 = empty
 					10 = f_headgear_sec_sp3_western_hi_nob_01
@@ -3759,23 +3933,27 @@ special_genes = {
 			fp4_western_era2_veils = {
 				index = 6
 				male = {
-				
+
 				}
 				female = {
 					20 = empty
 					10 = f_headgear_sec_fp4_western_nob_01_com
 					10 = f_headgear_sec_fp4_western_nob_01_lo
 				}
-			
-				girl = female				
-			}	
-			
+
+				girl = female
+			}
+
 		}
-		
+
 		cloak_hoods = { # Special gene used for cloaks that need to be combined with a separate hood
 
-			fp4_western_cloak_hoods = {
+			no_cloak_hood = {
 				index = 0
+			}
+
+			fp4_western_cloak_hoods = {
+				index = 1
 				male = {
 					# 1 = m_headgear_sec_fp4_western_era3_nob_03 # Hood specifically made to fit with the CE1 western era3 cloak, this one is pulled up on the head
 					1 = m_headgear_sec_fp4_western_era3_nob_04 # Same but pulled back, not covering the head
@@ -3786,11 +3964,9 @@ special_genes = {
 				}
 				boy = male
 				girl = female
-			}	
+			}
 
 		}
-		
 	}
-
 }
 

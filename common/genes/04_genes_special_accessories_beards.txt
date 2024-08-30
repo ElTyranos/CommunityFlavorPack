@@ -37,10 +37,11 @@ special_genes = {
 					1 = male_beard_western_05
 					1 = male_beard_western_06
 					1 = male_beard_western_07
-						1 = cfp_male_sideburns_western_02
 					1 = male_beard_western_08
-						1 = cfp_male_moustache_western_01
 					1 = male_beard_western_09
+					1 = male_beard_western_10
+						1 = cfp_male_moustache_western_01
+						1 = cfp_male_sideburns_western_02
 						1 = cfp_male_sideburns_western_01
 						1 = cfp_male_frenchfork_western_01
 					1 = male_beard_mena_01
@@ -82,8 +83,12 @@ special_genes = {
 					1 = m_beard_ep2_western_01
 					1 = m_beard_ep2_western_02
 					1 = m_beard_ep2_western_03
-					1 = m_beard_sp2_western_01 # The Ultimate Moustache
+					1 = m_beard_sp2_western_01 # The Ultimate Moustache 
 					1 = m_beard_sp3_western_01
+					1 = m_beard_ep3_byzantine_01
+					1 = m_beard_ep3_byzantine_02
+					1 = m_beard_ep3_byzantine_03
+					1 = m_beard_ep3_byzantine_04
 
 				}
 				female = {
@@ -260,7 +265,7 @@ special_genes = {
 					1 = cfp_male_moustache_slavic_02 # Handlebar Moustache
 					1 = cfp_male_moustache_slavic_03 # Horse Shoe Moustache
 					1 = cfp_male_moustache_hungarian_01 # Hungarian Moustache
-								
+
 				}
 				female = {
 					1 = empty
@@ -537,14 +542,15 @@ special_genes = {
 					1 = male_beard_fp2_iberian_muslim_01 # Thick Groomed Beard
 					1 = male_beard_fp2_iberian_muslim_02 # Scholar's beard
 					1 = male_beard_fp2_iberian_muslim_03 # Forked beard
-					1 = no_beard
+					1 = empty
 
 				}
 				female = {
 					1 = empty
 				}
 			}
-		scripted_character_beards_03 = {
+
+			scripted_character_beards_03 = {
 				index = 24
 				male = {
 					1 = m_beard_ep2_western_01
@@ -632,8 +638,64 @@ special_genes = {
 				}
 			}
 
+			byzantine_beards_straight = { # Does not require Roads to Power - but will still be used even with the expansion active
+				index = 31
+
+				male = {
+					5 = male_beard_western_01
+					5 = male_beard_western_02
+					5 = male_beard_western_03
+					5 = male_beard_western_04
+					5 = male_beard_western_09
+					5 = male_beard_mena_04
+				}
+
+				female = {
+					1 = empty
+				}
+			}
+
+			byzantine_beards_curly = { # Does not require Roads to Power - but will still be used even with the expansion active
+				index = 32
+
+				male = {
+					5 = male_beard_mena_01
+					5 = male_beard_sub_saharan_03
+					
+				}
+
+				female = {
+					1 = empty
+				}
+			}
+
+			ep3_beards_straight = {
+				index = 33
+
+				male = {
+					5 = m_beard_ep3_byzantine_01
+					5 = m_beard_ep3_byzantine_02
+				}
+
+				female = {
+					1 = empty
+				}
+			}
+
+			ep3_beards_curly = {
+				index = 34
+
+				male = {
+					5 = m_beard_ep3_byzantine_01
+					5 = m_beard_ep3_byzantine_02
+					5 = m_beard_ep3_byzantine_03
+					5 = m_beard_ep3_byzantine_04
+				}
+
+				female = {
+					1 = empty
+				}
+			}
 		}
-
 	}
-
 }

@@ -1,6 +1,6 @@
 ﻿# texture and enviroment should be added in pairs. In code they will be stored in separate arrays, but their index will match up giving each texture correct lighting
 barbershop_background = {
-
+	
 	##########################################
 
 	texture = {
@@ -53,6 +53,24 @@ barbershop_background = {
 	}
 	environment = {
 		reference = "environment_event_farms"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "main_menu/ep3_frontend_byzantine.dds"
+	}
+	environment = {
+		reference = "environment_ep3_frontend_byzantine_main"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "main_menu/fp3_frontend_iranian.dds"
+	}
+	environment = {
+		reference = "environment_fp3_frontend_iranian_main"
 	}
 
 	##########################################
@@ -349,7 +367,7 @@ barbershop_background = {
 		reference = "event_scenes/bp1_desert.dds"
 	}
 	environment = {
-		reference = "environment_event_bp1_desert"
+		reference = "environment_travel_desert"
 	}
 
 	##########################################
@@ -485,6 +503,24 @@ barbershop_background = {
 	}
 	environment = {
 		reference = "environment_travel_farmlands"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/desert_settlement.dds"
+	}
+	environment = {
+		reference = "environment_travel_desert_settlement"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/desert_nomad.dds"
+	}
+	environment = {
+		reference = "environment_travel_desert_nomad"
 	}
 
 	##########################################
@@ -733,15 +769,6 @@ barbershop_background = {
 	##########################################
 
 	texture = {
-		reference = "event_scenes/ep2_wedding_ceremony_indian.dds"
-	}
-	environment = {
-		reference = "environment_indian_wedding"
-	}
-
-	##########################################
-
-	texture = {
 		reference = "event_scenes/fp1_steward_study.dds"
 	}
 	environment = {
@@ -976,6 +1003,15 @@ barbershop_background = {
 	##########################################
 
 	texture = {
+		reference = "event_scenes/ep2_hunt_forest_managed.dds"
+	}
+	environment = {
+		reference = "environment_ep2_forest_managed"
+	}
+
+	##########################################
+
+	texture = {
 		reference = "event_scenes/ep2_hunt_cave_entrance.dds"
 	}
 	environment = {
@@ -1046,6 +1082,417 @@ barbershop_background = {
 	}
 
 	##########################################
-	
 
+	texture = {
+		reference = "event_scenes/ep2_tournament_india.dds"
+	}
+	environment = {
+		reference = "environment_mecca"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep2_tournament_mena.dds"
+	}
+	environment = {
+		reference = "environment_event_bp1_desert"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep2_tournament_tribal.dds"
+	}
+	environment = {
+		reference = "environment_village_festival"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep2_tournament_western.dds"
+	}
+	environment = {
+		reference = "environment_village_festival"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "activity_backgrounds/contest_bg_melee.dds"
+	}
+	environment = {
+		reference = "environment_ep2_melee"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "activity_backgrounds/contest_bg_horseracing.dds"
+	}
+	environment = {
+		reference = "environment_ep2_horse_racing"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "activity_backgrounds/contest_bg_boardgames.dds"
+	}
+	environment = {
+		reference = "environment_ep2_boardgames"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "activity_backgrounds/contest_bg_archery.dds"
+	}
+	environment = {
+		reference = "environment_ep2_archery"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp2_courtyard.dds"
+	}
+	environment = {
+		reference = "environment_bp2_courtyard"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp2_study_indian.dds"
+	}
+	environment = {
+		reference = "environment_bp2_study_indian"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp2_indian_garden.dds"
+	}
+	environment = {
+		reference = "environment_bp2_garden_india_day"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp2_tavern_mena.dds"
+	}
+	environment = {
+		reference = "environment_bp2_tavern_mena"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp2_university.dds"
+	}
+	environment = {
+		reference = "environment_bp2_university"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp2_nursery.dds"
+	}
+	environment = {
+		reference = "environment_bp2_nursery"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp2_university_mena.dds"
+	}
+	environment = {
+		reference = "environment_bp2_university_mena"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_bathhouse.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_bathhouse"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_cave.dds"
+	}
+	environment = {
+		reference = "environment_event_sittingroom"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_temple.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_temple"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_docks.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_docks"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_courtyard_night.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_courtyard_night"
+	}
+
+	##########################################
+	
+	texture = {
+		reference = "event_scenes/fp4_catacombs.dds"
+	}
+	environment = {
+		reference = "environment_ce1_catacombs"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp4_condemned_village.dds"
+	}
+	environment = {
+		reference = "environment_ce1_condemned_village"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp4_funeral_pyre.dds"
+	}
+	environment = {
+		reference = "environment_ce1_funeral_pyre"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp4_legendary_battlefield.dds"
+	}
+	environment = {
+		reference = "environment_ce1_legendary_battlefield"
+	}
+
+	##########################################
+	texture = {
+		reference = "event_scenes/fp4_legendary_oasis.dds"
+	}
+	environment = {
+		reference = "environment_ce1_legendary_oasis"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp4_physician_tribal.dds"
+	}
+	environment = {
+		reference = "environment_ce1_physician_tribal"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp4_study_physician_indian.dds"
+	}
+	environment = {
+		reference = "environment_ce1_study_physician_indian"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp4_study_physician_mena.dds"
+	}
+	environment = {
+		reference = "environment_ce1_study_physician_mena"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp4_legendary_spring.dds"
+	}
+	environment = {
+		reference = "environment_legendary_spring"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_holysite_orthodox.dds"
+	}
+	environment = { 
+		reference = "environment_ep3_holysite_orthodox"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_constantinople.dds"
+	}
+	environment = { 
+		reference = "environment_ep3_constantinople"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_constantinople_riot.dds"
+	}
+	environment = { 
+		reference = "environment_ep3_constantinople_on_fire"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_hippodrome_chariot_race.dds"
+	}
+	environment = { 
+		reference = "environment_ep3_chariot_race"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_chariots_track.dds"
+	}
+	environment = { 
+		reference = "environment_ep3_chariot_track"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_hagia_sophia.dds"
+	}
+	environment = { 
+		reference = "environment_ep3_hagia_sophia"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_feast_byzantine.dds"
+	}
+	environment = { 
+		reference = "environment_ep3_byzantine_feast"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_city_gate.dds"
+	}
+	environment = {
+		reference = "environment_ep3_castle_gates"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_medi_estate.dds"
+	}
+	environment = {
+		reference = "environment_ep3_family_estate"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_relaxing_room.dds"
+	}
+	environment = {
+		reference = "environment_ep3_relaxing_room"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_relaxing_tent.dds"
+	}
+	environment = {
+		reference = "environment_ep3_living_tent_interior"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_medi_market.dds"
+	}
+	environment = {
+		reference = "environment_ep3_medi_market"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_camp_arid_terrain.dds"
+	}
+	environment = {
+		reference = "environment_ep3_arid_camp"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "main_menu/ep3_frontend_adventurer.dds"
+	}
+	environment = {
+		reference = "environment_ep3_army_camp"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_medi_study.dds"
+	}
+	environment = {
+		reference = "environment_ep3_byzantine_study"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_military_tent.dds"
+	}
+	environment = {
+		reference = "environment_ep3_military_tent_interior"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/ep3_campfire.dds"
+	}
+	environment = {
+		reference = "environment_ep3_camp_fire"
+	}
+	
+	##########################################
 }

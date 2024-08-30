@@ -1,5 +1,4 @@
-﻿
-special_genes = {
+﻿special_genes = {
 
 	accessory_genes = {
 
@@ -10,20 +9,21 @@ special_genes = {
 	#									#
 	#####################################
 
-		
+
 		clothes = {
 			most_clothes = {
 				index = 0
 				male = {
+				1 = m_clothes_sec_ep3_byzantine_era1_war_nob_01
 					1 = male_clothes_secular_western_nobility_01_high
 					1 = male_clothes_secular_western_nobility_01_low
-					1 = male_clothes_secular_western_nobility_01_common	
+					1 = male_clothes_secular_western_nobility_01_common
 					1 = male_clothes_secular_western_nobility_02_high
 					1 = male_clothes_secular_western_nobility_02_low
 					1 = male_clothes_secular_western_nobility_02_common
 					1 = male_clothes_secular_western_nobility_03_high
 					1 = male_clothes_secular_western_nobility_03_low
-					1 = male_clothes_secular_western_nobility_03_common 
+					1 = male_clothes_secular_western_nobility_03_common
 					1 = male_clothes_secular_dde_hre_nobility_01_common
 					1 = male_clothes_secular_dde_hre_nobility_01_low
 					1 = male_clothes_secular_dde_hre_nobility_01_high
@@ -38,12 +38,12 @@ special_genes = {
 					1 = m_clothes_sec_crusades_western_war_nob_01_common
 					1 = male_clothes_secular_indian_nobility_01_common
 					1 = male_clothes_secular_indian_nobility_02_common
-					1 = male_clothes_secular_indian_nobility_01_low	
-					1 = male_clothes_secular_indian_nobility_02_low	
-					1 = male_clothes_secular_indian_nobility_01_high	
+					1 = male_clothes_secular_indian_nobility_01_low
+					1 = male_clothes_secular_indian_nobility_02_low
+					1 = male_clothes_secular_indian_nobility_01_high
 					1 = male_clothes_secular_indian_nobility_02_high
 					1 = m_clothes_sec_indian_war_nob_01_lo
-					1 = m_clothes_sec_indian_war_nob_01_hi	
+					1 = m_clothes_sec_indian_war_nob_01_hi
 					1 = male_clothes_secular_byzantine_nobility_01_common
 					1 = male_clothes_secular_byzantine_nobility_02_common
 					1 = male_clothes_secular_byzantine_nobility_01_low
@@ -102,8 +102,9 @@ special_genes = {
 					1 = male_clothes_religious_orthodox_head_01_common
 					1 = male_clothes_religious_muslim_high_01
 					1 = male_clothes_religious_dde_muslim_head_01_common
-					1 = male_clothes_religious_catholic_devoted_01
-					1 = male_clothes_religious_catholic_devoted_02
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+					1 = male_clothes_religious_catholic_devoted_02_benedictine
 					1 = male_clothes_religious_catholic_high_01
 					1 = male_clothes_religious_dde_catholic_high_01_common
 					1 = male_clothes_religious_catholic_high_01
@@ -117,7 +118,7 @@ special_genes = {
 					1 = male_clothes_religious_steppe_high_01_common
 					1 = male_clothes_secular_fp1_common_01
 					1 = male_clothes_secular_fp1_common_02
-					1 = male_clothes_secular_fp1_nobility_01_low 
+					1 = male_clothes_secular_fp1_nobility_01_low
 					1 = male_clothes_secular_fp1_nobility_02_low
 					1 = male_clothes_secular_fp1_nobility_01_high
 					1 = male_clothes_secular_fp1_nobility_02_high
@@ -168,7 +169,7 @@ special_genes = {
 					1 = m_clothes_sec_ep2_western_era4_war_nob_01_hi
 					1 = m_clothes_sec_ep2_western_era4_war_nob_02_lo
 					1 = m_clothes_sec_ep2_western_era4_war_nob_02_hi
-					# Cultures #					
+					# Cultures #
 					1 = m_clothes_sec_ep2_mena_war_nob_01_lo
 					1 = m_clothes_sec_ep2_mena_war_nob_01_hi
 					1 = m_clothes_sec_ep2_steppe_war_nob_01_lo
@@ -177,20 +178,41 @@ special_genes = {
 					1 = m_clothes_sec_ep2_byzantine_war_nob_01_hi
 					1 = m_clothes_sec_ep2_indian_war_nob_01_lo
 					1 = m_clothes_sec_ep2_indian_war_nob_01_hi
+
+					# EP3 #---------------------------------------------------------------------------------------
+					# Era1 #
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_lo
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_hi
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_02_lo
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_02_hi
+					1 = m_clothes_sec_ep3_byzantine_era1_imp_01
+
+					# Era2 #
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_01_lo
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_01_hi
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_02_lo
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_02_hi
+					1 = m_clothes_sec_ep3_byzantine_era2_war_nob_01_lo
+					1 = m_clothes_sec_ep3_byzantine_era2_war_nob_01_hi
+					1 = m_clothes_sec_ep3_byzantine_era2_imp_01
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_lo
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_hi
+
 				}
-				
+
 				female = {
+				1 = f_clothes_sec_ep3_byzantine_era1_war_nob_01
 					1 = female_clothes_secular_western_nobility_01_high
 					1 = female_clothes_secular_western_nobility_01_low
-					1 = female_clothes_secular_western_nobility_01_common	
+					1 = female_clothes_secular_western_nobility_01_common
 					1 = female_clothes_secular_western_nobility_02_high
 					1 = female_clothes_secular_western_nobility_02_low
-					1 = female_clothes_secular_western_nobility_02_common	
+					1 = female_clothes_secular_western_nobility_02_common
 					1 = female_clothes_secular_western_nobility_03_high
 					1 = female_clothes_secular_western_nobility_03_low
 					1 = female_clothes_secular_western_nobility_03_common
 					1 = female_clothes_secular_dde_hre_nobility_01_common
-					1 = female_clothes_secular_dde_hre_nobility_01_low	
+					1 = female_clothes_secular_dde_hre_nobility_01_low
 					1 = female_clothes_secular_dde_hre_nobility_01_high
 					1 = f_clothes_sec_western_war_nob_01_lo
 					1 = f_clothes_sec_western_war_nob_01_hi
@@ -203,7 +225,7 @@ special_genes = {
 					1 = f_clothes_sec_crusades_western_war_nob_01_common
 					1 = female_clothes_secular_indian_nobility_01_common
 					1 = female_clothes_secular_indian_nobility_02_common
-					1 = female_clothes_secular_indian_nobility_01_low	
+					1 = female_clothes_secular_indian_nobility_01_low
 					1 = female_clothes_secular_indian_nobility_02_low
 					1 = female_clothes_secular_indian_nobility_01_high
 					1 = female_clothes_secular_indian_nobility_02_high
@@ -227,8 +249,8 @@ special_genes = {
 					1 = f_clothes_sec_steppe_war_nob_01_lo
 					1 = f_clothes_sec_steppe_war_nob_01_hi
 					1 = female_clothes_secular_mena_nobility_01_common
-					1 = female_clothes_secular_mena_nobility_02_common		
-					1 = female_clothes_secular_dde_abbasid_nobility_01_common	
+					1 = female_clothes_secular_mena_nobility_02_common
+					1 = female_clothes_secular_dde_abbasid_nobility_01_common
 					1 = female_clothes_secular_mena_nobility_01_low
 					1 = female_clothes_secular_mena_nobility_02_low
 					1 = female_clothes_secular_dde_abbasid_nobility_01_low
@@ -244,11 +266,11 @@ special_genes = {
 					1 = female_clothes_secular_northern_nobility_01_high
 					1 = female_clothes_secular_northern_nobility_02_high
 					1 = f_clothes_sec_northern_war_nob_01_lo
-					1 = f_clothes_sec_northern_war_nob_01_hi	
+					1 = f_clothes_sec_northern_war_nob_01_hi
 					1 = female_clothes_secular_sub_saharan_nobility_01_common
 					1 = female_clothes_secular_sub_saharan_nobility_02_common
 					1 = female_clothes_secular_sub_saharan_nobility_01_low
-					1 = female_clothes_secular_sub_saharan_nobility_02_low	
+					1 = female_clothes_secular_sub_saharan_nobility_02_low
 					1 = female_clothes_secular_sub_saharan_nobility_01_high
 					1 = female_clothes_secular_sub_saharan_nobility_02_high
 					1 = f_clothes_sec_mena_war_nob_01_lo
@@ -274,7 +296,7 @@ special_genes = {
 					1 = female_clothes_religious_steppe_high_01_common
 					1 = female_clothes_secular_fp1_common_01
 					1 = female_clothes_secular_fp1_common_02
-					1 = female_clothes_secular_fp1_nobility_01_low 
+					1 = female_clothes_secular_fp1_nobility_01_low
 					1 = female_clothes_secular_fp1_nobility_02_low
 					1 = female_clothes_secular_fp1_nobility_01_high
 					1 = female_clothes_secular_fp1_nobility_02_high
@@ -286,7 +308,7 @@ special_genes = {
 					1 = female_clothes_secular_fp2_iberian_muslim_nobility_01_high
 					1 = female_clothes_secular_fp2_iberian_muslim_nobility_02_low
 					1 = female_clothes_secular_fp2_iberian_muslim_nobility_02_high
-					1 = female_clothes_secular_fp2_iberian_christian_nobility_01_low	
+					1 = female_clothes_secular_fp2_iberian_christian_nobility_01_low
 					1 = female_clothes_secular_fp2_iberian_christian_nobility_01_high
 					1 = female_clothes_secular_fp2_iberian_christian_nobility_02_low
 					1 = female_clothes_secular_fp2_iberian_christian_nobility_02_high
@@ -322,7 +344,7 @@ special_genes = {
 					1 = f_clothes_sec_ep2_western_era4_war_nob_01_hi
 					1 = f_clothes_sec_ep2_western_era4_war_nob_02_lo
 					1 = f_clothes_sec_ep2_western_era4_war_nob_02_hi
-					
+
 					1 = f_clothes_sec_ep2_mena_war_nob_01_lo
 					1 = f_clothes_sec_ep2_mena_war_nob_01_hi
 					1 = f_clothes_sec_ep2_steppe_war_nob_01_lo
@@ -331,12 +353,30 @@ special_genes = {
 					1 = f_clothes_sec_ep2_byzantine_war_nob_01_hi
 					1 = f_clothes_sec_ep2_indian_war_nob_01_lo
 					1 = f_clothes_sec_ep2_indian_war_nob_01_hi
-				
+
 
 					# CE1 #
 					1 = f_clothes_sec_fp4_western_physician_01
+
+					# EP3 #---------------------------------------------------------------------------------------
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_lo
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_hi
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_02_lo
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_02_hi
+					# Era2 #
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_01_lo
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_01_hi
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_02_lo
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_02_hi
+					1 = f_clothes_sec_ep3_byzantine_era2_imp_01
+					1 = f_clothes_sec_ep3_byzantine_era1_com_01_lo
+					1 = f_clothes_sec_ep3_byzantine_era1_com_01_hi
+					1 = f_clothes_sec_ep3_byzantine_era2_war_nob_01_lo
+					1 = f_clothes_sec_ep3_byzantine_era2_war_nob_01_hi
+					1 = f_clothes_sec_ep3_byzantine_era1_imp_01
+
 				}
-				
+
 				boy = male
 				girl = female
 	 		}
@@ -521,7 +561,7 @@ special_genes = {
 				index = 10
 
 				male = {
-					1 = male_clothes_situational_western_stealth_cloak_01			
+					1 = male_clothes_situational_western_stealth_cloak_01
 				}
 
 				female = {
@@ -574,7 +614,7 @@ special_genes = {
 			}
 
 
-			## INDIAN ##
+			## INDIAN ##---------------------------------------------------------------------------------------
 
 
 
@@ -584,7 +624,7 @@ special_genes = {
 				male = {
 					1 = male_clothes_secular_indian_nobility_01_common
 					1 = male_clothes_secular_indian_nobility_02_common
-					
+
 				}
 
 				female = {
@@ -601,13 +641,13 @@ special_genes = {
 				index = 14
 
 				male = {
-					1 = male_clothes_secular_indian_nobility_01_low	
-					1 = male_clothes_secular_indian_nobility_02_low				
+					1 = male_clothes_secular_indian_nobility_01_low
+					1 = male_clothes_secular_indian_nobility_02_low
 				}
 
 				female = {
-					1 = female_clothes_secular_indian_nobility_01_low	
-					1 = female_clothes_secular_indian_nobility_02_low			
+					1 = female_clothes_secular_indian_nobility_01_low
+					1 = female_clothes_secular_indian_nobility_02_low
 					1 = female_clothes_secular_indian_cfp_nobility_01_low
 					1 = female_clothes_secular_indian_cfp_nobility_02_low	
 				}
@@ -619,8 +659,8 @@ special_genes = {
 				index = 15
 
 				male = {
-					1 = male_clothes_secular_indian_nobility_01_high	
-					1 = male_clothes_secular_indian_nobility_02_high			
+					1 = male_clothes_secular_indian_nobility_01_high
+					1 = male_clothes_secular_indian_nobility_02_high
 				}
 
 				female = {
@@ -640,24 +680,21 @@ special_genes = {
 					1 = m_clothes_sec_indian_war_nob_01_lo
 					1 = m_clothes_sec_indian_war_nob_01_hi
 					1 = m_clothes_sec_indian_war_nob_01_roy
-					
+
 				}
 
 				female = {
 					1 = f_clothes_sec_indian_war_nob_01_lo
 					1 = f_clothes_sec_indian_war_nob_01_hi
 					1 = f_clothes_sec_indian_war_nob_01_roy
-					
+
 				}
 				boy = male
 				girl = female
 			}
 
-		
 
-
-
-			## BYZANTINE ##
+			## BYZANTINE ##---------------------------------------------------------------------------------------
 
 
 
@@ -716,21 +753,20 @@ special_genes = {
 					1 = m_clothes_sec_byzantine_war_nob_01_lo
 					1 = m_clothes_sec_byzantine_war_nob_01_hi
 					1 = m_clothes_sec_byzantine_war_nob_01_roy
-					
+
 				}
 
 				female = {
 					1 = f_clothes_sec_byzantine_war_nob_01_lo
 					1 = f_clothes_sec_byzantine_war_nob_01_hi
-					
+
 				}
 				boy = male
 				girl = female
 			}
 
 
-
-			## STEPPE ##
+	## STEPPE ##---------------------------------------------------------------------------------------
 
 
 			steppe_commoner_clothes = {
@@ -756,13 +792,13 @@ special_genes = {
 				male = {
 					1 = male_clothes_secular_steppe_nobility_01_low
 					1 = male_clothes_secular_steppe_nobility_02_low
-					
+
 				}
 
 				female = {
 					1 = female_clothes_secular_steppe_nobility_01_low
 					1 = female_clothes_secular_steppe_nobility_02_low
-					
+
 				}
 				boy = male
 				girl = female
@@ -774,13 +810,13 @@ special_genes = {
 				male = {
 					1 = male_clothes_secular_steppe_nobility_01_high
 					1 = male_clothes_secular_steppe_nobility_02_high
-					
+
 				}
 
 				female = {
 					1 = female_clothes_secular_steppe_nobility_01_high
 					1 = female_clothes_secular_steppe_nobility_02_high
-					
+
 				}
 				boy = male
 				girl = female
@@ -793,20 +829,22 @@ special_genes = {
 					1 = m_clothes_sec_steppe_war_nob_01_lo
 					1 = m_clothes_sec_steppe_war_nob_01_hi
 
-					
+
 				}
 
 				female = {
 					1 = f_clothes_sec_steppe_war_nob_01_lo
 					1 = f_clothes_sec_steppe_war_nob_01_hi
-					
+
 				}
 				boy = male
 				girl = female
 			}
 
 
-			## MENA ##
+
+	## MENA ##---------------------------------------------------------------------------------------
+
 
 
 			mena_commoner_clothes = {
@@ -821,8 +859,8 @@ special_genes = {
 
 				female = {
 					1 = female_clothes_secular_mena_nobility_01_common
-					1 = female_clothes_secular_mena_nobility_02_common		
-					1 = female_clothes_secular_dde_abbasid_nobility_01_common	
+					1 = female_clothes_secular_mena_nobility_02_common
+					1 = female_clothes_secular_dde_abbasid_nobility_01_common
 				}
 
 				boy = male
@@ -968,7 +1006,7 @@ special_genes = {
 			}
 
 
-			## Northern Pagans ##
+	## Northern Pagans ##---------------------------------------------------------------------------------------
 
 
 			northern_commoner_clothes = {
@@ -998,7 +1036,7 @@ special_genes = {
 
 				female = {
 					1 = female_clothes_secular_northern_nobility_01_low
-					1 = female_clothes_secular_northern_nobility_02_low		
+					1 = female_clothes_secular_northern_nobility_02_low
 				}
 				boy = male
 				girl = female
@@ -1032,7 +1070,7 @@ special_genes = {
 
 				female = {
 					1 = f_clothes_sec_northern_war_nob_01_lo
-					1 = f_clothes_sec_northern_war_nob_01_hi	
+					1 = f_clothes_sec_northern_war_nob_01_hi
 					1 = female_clothes_secular_northern_war_gambeson_01 # CFP
 				}
 				boy = male
@@ -1040,7 +1078,7 @@ special_genes = {
 			}
 
 
-			## Sub-Saharan African ##
+	## Sub-Saharan African ##---------------------------------------------------------------------------------------
 
 
 			sub_saharan_commoner_clothes = {
@@ -1070,7 +1108,7 @@ special_genes = {
 
 				female = {
 					1 = female_clothes_secular_sub_saharan_nobility_01_low
-					1 = female_clothes_secular_sub_saharan_nobility_02_low				
+					1 = female_clothes_secular_sub_saharan_nobility_02_low
 				}
 				boy = male
 				girl = female
@@ -1113,7 +1151,7 @@ special_genes = {
 			}
 
 
-			## DDE HRE ##
+	## DDE HRE ##---------------------------------------------------------------------------------------
 
 			dde_hre_commoner_clothes = {
 				index = 42
@@ -1191,7 +1229,7 @@ special_genes = {
 
 
 
-			## DDE ADDASID ##
+	## DDE ADDASID ##---------------------------------------------------------------------------------------
 
 			dde_abbasid_commoner_clothes = {
 				index = 46
@@ -1268,7 +1306,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
 
 
 
@@ -1368,7 +1405,7 @@ special_genes = {
 					1 = male_clothes_religious_catholic_high_01
 					2 = male_clothes_religious_dde_catholic_high_01_common
 					1 = male_clothes_religious_catholic_high_01
-					
+
 				}
 
 				female = {
@@ -1402,7 +1439,7 @@ special_genes = {
 			#
 			#	male = {
 			#		1 = male_clothes_religious_dde_catholic_high_01_common
-			#		
+			#
 			#	}
 			#
 			#	female = {
@@ -1414,14 +1451,14 @@ special_genes = {
 			#}
 
 	# african pagans #
-		
+
 
 			religious_african_high_clothes = {
 				index = 58
 
 				male = {
 					1 = male_clothes_religious_african_high_01_common
-					
+
 				}
 
 				female = {
@@ -1432,14 +1469,14 @@ special_genes = {
 				girl = female
 			}
 
-	# northern pagans #		
+	# northern pagans #
 
 			 religious_northern_high_clothes = {
 				index = 59
 
 				male = {
 					1 = male_clothes_religious_northern_high_01
-					
+
 				}
 
 				female = {
@@ -1458,7 +1495,7 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_religious_hindu_devoted_01
-					
+
 				}
 
 				female = {
@@ -1477,7 +1514,7 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_religious_jain_devoted_01
-					
+
 				}
 
 				female = {
@@ -1489,14 +1526,14 @@ special_genes = {
 			}
 
 	 # buddhist #
-			
+
 
 			religious_buddhist_high_clothes = {
 				index = 62
 
 				male = {
 					1 = male_clothes_religious_buddhist_high_01
-					
+
 				}
 
 				female = {
@@ -1508,14 +1545,14 @@ special_genes = {
 			}
 
 	# zoroastrian #
-			
+
 
 			religious_zoroastrian_high_clothes = {
 				index = 63
 
 				male = {
 					1 = male_clothes_religious_zoroastrian_high_01
-					
+
 				}
 
 				female = {
@@ -1528,13 +1565,13 @@ special_genes = {
 
 
 	 # jewish #
-			
+
 			religious_jewish_head_clothes = {
 				index = 64
 
 				male = {
 					1 = male_clothes_religious_jewish_head_01
-					
+
 				}
 
 				female = {
@@ -1550,7 +1587,7 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_religious_jewish_high_01
-					
+
 				}
 
 				female = {
@@ -1563,13 +1600,13 @@ special_genes = {
 
 
 	 # steppe #
-			
+
 			religious_steppe_high_clothes = {
 				index = 66
 
 				male = {
 					1 = male_clothes_religious_steppe_high_01_common
-					
+
 				}
 
 				female = {
@@ -1610,7 +1647,7 @@ special_genes = {
 
 			# 	boy = male
 			# 	girl = female
-			# }	
+			# }
 
 	## FP1 - Fury of the Northmen ##-------------------------------------------------------------------------------
 
@@ -1636,13 +1673,13 @@ special_genes = {
 				index = 70
 
 				male = {
-					1 = male_clothes_secular_fp1_nobility_01_low 
+					1 = male_clothes_secular_fp1_nobility_01_low
 					1 = male_clothes_secular_fp1_nobility_02_low
 				}
 
 				female = {
-					1 = female_clothes_secular_fp1_nobility_01_low	
-					1 = female_clothes_secular_fp1_nobility_02_low	
+					1 = female_clothes_secular_fp1_nobility_01_low
+					1 = female_clothes_secular_fp1_nobility_02_low
 				}
 				boy = male
 				girl = female
@@ -1672,7 +1709,7 @@ special_genes = {
 				}
 
 				female = {
-					1 = female_clothes_secular_fp1_war_nobility_01	
+					1 = female_clothes_secular_fp1_war_nobility_01
 				}
 				boy = male
 				girl = female
@@ -1753,7 +1790,7 @@ special_genes = {
 				}
 
 				female = {
-					1 = female_clothes_secular_fp2_iberian_muslim_nobility_01_high	
+					1 = female_clothes_secular_fp2_iberian_muslim_nobility_01_high
 					1 = female_clothes_secular_fp2_iberian_muslim_nobility_02_high
 
 				}
@@ -1771,7 +1808,7 @@ special_genes = {
 				}
 
 				female = {
-					1 = female_clothes_secular_fp2_iberian_christian_nobility_01_low	
+					1 = female_clothes_secular_fp2_iberian_christian_nobility_01_low
 					1 = female_clothes_secular_fp2_iberian_christian_nobility_02_low
 
 				}
@@ -1787,8 +1824,8 @@ special_genes = {
 					1 = male_clothes_secular_fp2_iberian_christian_nobility_02_high
 				}
 
-				female = {	
-					1 = female_clothes_secular_fp2_iberian_christian_nobility_01_high	
+				female = {
+					1 = female_clothes_secular_fp2_iberian_christian_nobility_01_high
 					1 = female_clothes_secular_fp2_iberian_christian_nobility_02_high
 
 				}
@@ -1806,13 +1843,13 @@ special_genes = {
 
 				female = {
 					1 = f_clothes_sec_fp2_iberian_muslim_war_nob_01_lo
-					1 = f_clothes_sec_fp2_iberian_muslim_war_nob_01_hi	
+					1 = f_clothes_sec_fp2_iberian_muslim_war_nob_01_hi
 				}
 				boy = male
 				girl = female
-				
+
 			}
-			
+
 			fp2_christian_war_nobility_clothes = {
 				index = 81
 
@@ -1830,7 +1867,7 @@ special_genes = {
 				girl = female
 
 			}
-			
+
 			sp2_western_royalty_clothes = {
 				index = 82
 
@@ -1845,16 +1882,15 @@ special_genes = {
 				girl = female
 			}
 
-		
 			# THIS IS USED FOR AN EMPTY SPACE = {
 			# 	index = 83
 
 			# 	male = {
-			# 		1 = 
+			# 		1 =
 			# 	}
 
 			# 	female = {
-			# 	 	1 = 
+			# 	 	1 =
 			# 	}
 			# 	boy = male
 			# 	girl = female
@@ -1933,6 +1969,7 @@ special_genes = {
 				girl = female
 			}
 
+			# Era2 #-----------------------------------------------------------
 			ep2_western_era2_war_nobility_clothes = {
 				index = 88
 
@@ -1950,6 +1987,7 @@ special_genes = {
 				girl = female
 			}
 
+			# Era3 #-----------------------------------------------------------
 			ep2_western_era3_low_nobility_clothes = {
 				index = 89
 
@@ -1982,7 +2020,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			# Era4 #-------------------------------------------------------------
 			ep2_western_era4_war_nobility_clothes = {
 				index = 91
@@ -2032,7 +2070,7 @@ special_genes = {
 				}
 
 				female = {
-				 	1 = f_clothes_religious_ep2_muslim_hajj_01 
+				 	1 = f_clothes_religious_ep2_muslim_hajj_01
 				}
 
 				boy = male
@@ -2054,7 +2092,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			ep2_cardinal_larper_clothes = {
 				index = 95
 
@@ -2157,11 +2195,11 @@ special_genes = {
 			# 	index = 100
 
 			# 	male = {
-			# 		1 = 
+			# 		1 =
 			# 	}
 
 			# 	female = {
-			# 	 	1 = 
+			# 	 	1 =
 			# 	}
 			# 	boy = male
 			# 	girl = female
@@ -2186,7 +2224,7 @@ special_genes = {
 
 				boy = male
 				girl = female
-			}	
+			}
 
 			fp3_iranian_high_nobility_clothes = {
 				index = 102
@@ -2397,7 +2435,7 @@ special_genes = {
 
 				boy = male
 				girl = female
-			}	
+			}
 
 			fp4_western_physician_01 = {
 				index = 115
@@ -2414,6 +2452,236 @@ special_genes = {
 				girl = female
 			}
 
+			### EP3 byzantine ###-------------------------------------------------------------------------------
+
+			# Era1 #---------------------------------------------------------
+
+			ep3_byzantine_era1_commoner_clothes = {
+				index = 116
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_com_01
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_com_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_low_nobility_clothes = {
+				index = 117
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_lo
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_02_lo
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_03_lo
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_lo
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_02_lo
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_03_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_high_nobility_clothes = {
+				index = 118
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_hi
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_02_hi
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_03_hi
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_hi
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_02_hi
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_03_hi
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_imperial_clothes = {
+				index = 119
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_imp_01
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_imp_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_commoner_clothes = {
+				index = 120
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_com_01 # Replace
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_com_01_lo # Replace
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_low_nobility_clothes = {
+				index = 121
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_01_lo
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_02_lo
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_lo
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_01_lo
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_02_lo
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_03_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_high_nobility_clothes = {
+				index = 122
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_01_hi
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_02_hi
+					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_hi
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_01_hi
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_02_hi
+					1 = f_clothes_sec_ep3_byzantine_era2_nob_03_hi
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_war_nobility_clothes = {
+				index = 123
+
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era2_war_nob_01_lo
+					1 = m_clothes_sec_ep3_byzantine_era2_war_nob_01_hi
+
+
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era2_war_nob_01_lo
+					1 = f_clothes_sec_ep3_byzantine_era2_war_nob_01_hi
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_royalty_clothes = {
+				index = 124
+					male = {
+					1 = m_clothes_sec_ep3_byzantine_era2_roy_01
+				}
+				
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era2_roy_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era2_imperial_clothes = {
+				index = 125
+					male = {
+					1 = m_clothes_sec_ep3_byzantine_era2_imp_01
+				}
+				
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era2_imp_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_charioteer_clothes_blue = {
+				index = 126
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_charioteer_clothes_green = {
+				index = 127
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_charioteer_clothes_white = {
+				index = 128
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_charioteer_clothes_red = {
+				index = 129
+				male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_byzantine_era1_war_nobility_clothes = {
+				index = 130
+					male = {
+					1 = m_clothes_sec_ep3_byzantine_era1_war_nob_01
+				}
+				female = {
+					1 = f_clothes_sec_ep3_byzantine_era1_war_nob_01
+					
+				}
+				boy = male
+				girl = female
+			}
+		
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
@@ -2421,7 +2689,7 @@ special_genes = {
 		## Western
 
 			cfp_bedchamber = {
-				index = 116
+				index = 131
 
 				male = {
 					1 = cfp_male_clothes_western_bedchamber_01_common
@@ -2436,7 +2704,7 @@ special_genes = {
 			}
 			
 			cfp_western_high_nobility_clothes_late = {
-				index = 117
+				index = 132
 				male = {
 					1 = male_clothes_secular_western_cfp_doublet_01
 					1 = male_clothes_secular_western_cfp_doublet_02
@@ -2447,7 +2715,7 @@ special_genes = {
 			}
 
 			cfp_western_war_plate_armor = {
-				index = 118
+				index = 133
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_05
@@ -2464,7 +2732,7 @@ special_genes = {
 		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
-				index = 119
+				index = 134
 
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
@@ -2479,7 +2747,7 @@ special_genes = {
 		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
-				index = 120
+				index = 135
 
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
@@ -2495,7 +2763,7 @@ special_genes = {
 		## Javanese ## 
 			
 			cfp_javanese_common = {
-				index = 121
+				index = 136
 
 				male = {	
 					1 = male_clothes_secular_western_nudity_01
@@ -2509,7 +2777,7 @@ special_genes = {
 			}
 			
 			cfp_javanese_nobility = {
-				index = 122
+				index = 137
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_high_nobility_01
@@ -2523,7 +2791,7 @@ special_genes = {
 			}
 			
 			cfp_javanese_royalty = {
-				index = 123
+				index = 138
 
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
@@ -2539,7 +2807,7 @@ special_genes = {
 		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
-				index = 124
+				index = 139
 				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -2551,7 +2819,7 @@ special_genes = {
 			}
 		
 			cfp_religious_catholic_cardinal_clothes = {
-				index = 125
+				index = 140
 				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -2563,7 +2831,7 @@ special_genes = {
 			}
 		
 			cfp_religious_orthodox_devoted_clothes = {
-				index = 126
+				index = 141
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -2575,7 +2843,7 @@ special_genes = {
 			}
 		
 			cfp_religious_muslim_high_turkic_clothes = {
-				index = 127
+				index = 142
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
@@ -2585,7 +2853,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-		
 		}
 	}
 }

@@ -84,6 +84,11 @@
 	}
 
 	add_accessory_modifiers = {
+		gene =special_headgear_face_mask
+		template = ep3_golden_nose
+	}
+
+	add_accessory_modifiers = {
 		gene = special_headgear_head_bandage
 		template = head_bandage
 	}

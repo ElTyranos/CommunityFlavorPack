@@ -1168,6 +1168,7 @@ special_genes = {
 		}
 	}
 
+
 	accessory_genes = {
 	
 		special_headgear_head_bandage = {
@@ -1256,6 +1257,18 @@ special_genes = {
 					1 = female_headgear_special_cfp_face_mask_06_opened
 					1 = female_headgear_special_cfp_fake_nose_01
 					1 = female_headgear_special_cfp_fake_nose_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ep3_golden_nose = {
+				index = 1
+				male = {
+					1 = m_headgear_spec_ep3_golden_nose
+				}
+				female = {
+					1 = f_headgear_spec_ep3_golden_nose
 				}
 				boy = male
 				girl = female

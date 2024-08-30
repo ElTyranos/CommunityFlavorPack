@@ -1,9 +1,12 @@
 ﻿# Head of faith will always get this if possible
 theocracy_government = {
+	government_rules = {
+		religious = yes
+		royal_court = yes # CFP: unlocks royal court for the pope
+	}
+
 	primary_holding = church_holding
 	valid_holdings = { castle_holding }
-	religious = yes
-	royal_court = yes # CFP: unlocks royal court for the pope
 	required_county_holdings = { church_holding castle_holding city_holding }
 
 	ai = {
