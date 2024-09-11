@@ -1191,8 +1191,8 @@ special_genes = {
 
 			no_eye_patch = {
 				index = 0
-				male = { 1 = no_eye_patch }
-				female = { 1 = no_eye_patch }
+				male = {}
+				female = male
 				boy = male
 				girl = female
 			}
@@ -1296,8 +1296,8 @@ special_genes = {
 
 			no_blindfold = {
 				index = 0
-				male = { 1 = no_blindfold }
-				female = { 1 = no_blindfold }
+				male = {}
+				female = male
 				boy = male
 				girl = female
 			}
@@ -1334,8 +1334,8 @@ special_genes = {
 
 			no_eyeglasses = {
 				index = 0
-				male = { 1 = no_eyeglasses }
-				female = { 1 = no_eyeglasses }
+				male = {}
+				female = male
 				boy = male
 				girl = female
 			}
