@@ -641,7 +641,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_norse_war = {
-			index = 25
+			index = 26
 			male = {
 				2 = empty
 				1 = male_cloaks_secular_northern_war_viking_shield_01
@@ -654,7 +654,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_norman_war = {
-			index = 26
+			index = 27
 			male = {
 				2 = empty
 				1 = male_cloaks_secular_western_war_norman_shield_01
@@ -667,7 +667,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_african_royalty = {
-			index = 27
+			index = 28
 			male = {
 				1 = male_cloaks_secular_sub_saharan_cfp_apron_01
 			}
@@ -676,7 +676,7 @@ accessory_genes = {
 			}
 		}
 		cfp_religious_catholic_head = {
-			index = 28
+			index = 29
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_head_01
 			}
@@ -687,7 +687,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_religious_catholic_high_northern = {
-			index = 29
+			index = 30
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_tribal_01
 			}
@@ -698,7 +698,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_religious_orthodox_high = {
-			index = 30
+			index = 31
 			male = {
 				1 = male_cloaks_religious_orthodox_cfp_omophorion_01
 			}
@@ -709,7 +709,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_fantasy_cloaks = {
-			index = 31
+			index = 32
 			male = {
 				1 = male_cloaks_secular_fantasy_cfp_wings_01
 			}
