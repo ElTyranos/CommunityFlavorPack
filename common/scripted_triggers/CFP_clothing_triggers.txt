@@ -58,10 +58,10 @@ cfp_clothing_culture_trigger = {
 
 # NORTH
 portrait_cfp_anglo_saxon_clothing_trigger = {
-	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = anglo_saxon }
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = anglo_saxon }
 }
 portrait_cfp_anglo_saxon_clothing_spouse_trigger = {
-	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = anglo_saxon }
+	cfp_clothing_culture_trigger = { CULTURE_FLAG = anglo_saxon }
 }
 
 portrait_cfp_norman_clothing_trigger = {

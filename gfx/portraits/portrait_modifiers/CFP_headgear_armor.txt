@@ -743,14 +743,14 @@
                 add = 50
 				portrait_era1_armor_trigger = yes
                 portrait_war_nobles_helmet_trigger = {
-                    CULTURE_INPUT = anglo_saxon
+                    CULTURE_INPUT = cfp_anglo_saxon
                 }
 				OR = {
 					portrait_low_nobles_armor_trigger = {
-						CULTURE_INPUT = anglo_saxon
+						CULTURE_INPUT = cfp_anglo_saxon
 					}
 					portrait_high_nobles_armor_trigger = {
-						CULTURE_INPUT = anglo_saxon
+						CULTURE_INPUT = cfp_anglo_saxon
 					}
 				}
             }
