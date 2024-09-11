@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "female_headgear_secular_turkic_cfp_war_kipchak_01_mesh"
+	file = "female_headgear_secular_turkic_cfp_war_kipchak_01.mesh"
+	
+	meshsettings = {
+		name = "female_headgear_secular_turkic_cfp_war_kipchak_01Shape"
+		index = 0
+		texture_diffuse = "m_headgear_secular_turkic_cfp_war_kipchak_01_diffuse.dds"
+		texture_normal = "m_headgear_secular_turkic_cfp_war_kipchak_01_normal.dds"
+		texture_specular = "m_headgear_secular_turkic_cfp_war_kipchak_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "female_headgear_secular_turkic_cfp_war_kipchak_01_mailShape"
+		index = 0
+		texture_diffuse = "cuman_helmet_01_diffuse.dds"
+		texture_normal = "cuman_helmet_01_normal.dds"
+		texture_specular = "cuman_helmet_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_turkic_cfp_war_kipchak_01_entity"
+	pdxmesh = "female_headgear_secular_turkic_cfp_war_kipchak_01_mesh"
+}

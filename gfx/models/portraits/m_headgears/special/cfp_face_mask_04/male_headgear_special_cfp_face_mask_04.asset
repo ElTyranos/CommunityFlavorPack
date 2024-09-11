@@ -1,0 +1,39 @@
+pdxmesh = {
+	name = "male_headgear_special_cfp_face_mask_04_mesh"
+	file = "male_headgear_special_cfp_face_mask_04.mesh"
+
+	meshsettings = {
+		name = "male_headgear_special_cfp_face_mask_04Shape"
+		index = 0
+		texture_diffuse = "m_headgear_special_cfp_face_mask_04_diffuse.dds"
+		texture_normal = "m_headgear_special_cfp_face_mask_04_normal.dds"
+		texture_specular = "m_headgear_special_cfp_face_mask_04_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+pdxmesh = {
+	name = "male_headgear_special_cfp_face_mask_04_opened_mesh"
+	file = "male_headgear_special_cfp_face_mask_04_opened.mesh"
+
+	meshsettings = {
+		name = "male_headgear_special_cfp_face_mask_04_openedShape"
+		index = 0
+		texture_diffuse = "m_headgear_special_cfp_face_mask_04_diffuse.dds"
+		texture_normal = "m_headgear_special_cfp_face_mask_04_normal.dds"
+		texture_specular = "m_headgear_special_cfp_face_mask_04_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_special_cfp_face_mask_04_entity"
+	pdxmesh = "male_headgear_special_cfp_face_mask_04_mesh"
+}
+
+entity = {
+	name = "male_headgear_special_cfp_face_mask_04_opened_entity"
+	pdxmesh = "male_headgear_special_cfp_face_mask_04_opened_mesh"
+}

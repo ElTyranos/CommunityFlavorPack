@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "male_headgear_secular_africa_west_cfp_low_nobility_01_mesh"
+	file = "male_headgear_secular_africa_west_cfp_low_nobility_01.mesh"
+
+	meshsettings = {
+		name = "male_headgear_secular_africa_west_cfp_low_nobility_01Shape"
+		index = 0
+		texture_diffuse = "m_africa_west_cfp_low_nobility_01_diffuse.dds"
+		texture_normal = "m_africa_west_cfp_low_nobility_01_normal.dds"
+		texture_specular = "m_africa_west_cfp_low_nobility_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "male_headgear_secular_africa_west_cfp_low_nobility_01_turbanS" # too long
+		index = 0
+		texture_diffuse = "m_africa_west_cfp_low_nobility_01_diffuse.dds"
+		texture_normal = "m_africa_west_cfp_low_nobility_01_normal.dds"
+		texture_specular = "m_africa_west_cfp_low_nobility_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_africa_west_cfp_low_nobility_01_entity"
+	pdxmesh = "male_headgear_secular_africa_west_cfp_low_nobility_01_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_headgears/africa_west/cfp_fulani_low_nobility_01/m_africa_west_cfp_low_nobility_01_masks.dds"
+				variation = "western_nobility_low_01"
+			}
+		}
+	}
+}

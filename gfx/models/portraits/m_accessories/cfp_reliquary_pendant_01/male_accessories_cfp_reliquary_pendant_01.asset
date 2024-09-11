@@ -1,0 +1,39 @@
+pdxmesh = {
+	name = "male_accessories_cfp_reliquary_pendant_01_mesh"
+	file = "male_accessories_cfp_reliquary_pendant_01.mesh"
+
+	blend_shape = { id = "male_accessories_cfp_reliquary_pendant_01_bs_fat"				type = "male_accessories_cfp_reliquary_pendant_01_bs_fat.mesh" }
+	blend_shape = { id = "male_accessories_cfp_reliquary_pendant_01_bs_dwarf"			type = "male_accessories_cfp_reliquary_pendant_01_bs_dwarf.mesh" }
+	blend_shape = { id = "male_accessories_cfp_reliquary_pendant_01_bs_gaunt"			type = "male_accessories_cfp_reliquary_pendant_01_bs_gaunt.mesh" }
+	blend_shape = { id = "male_accessories_cfp_reliquary_pendant_01_bs_muscular"		type = "male_accessories_cfp_reliquary_pendant_01_bs_muscular.mesh" }
+	
+	meshsettings = {
+		name = "male_accessories_cfp_reliquary_pendant_01Shape"
+		index = 0
+		texture_diffuse = "m_accessories_cfp_reliquary_pendant_01_diffuse.dds"
+		texture_normal = "m_accessories_cfp_reliquary_pendant_01_normal.dds"
+		texture_specular = "m_accessories_cfp_reliquary_pendant_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "male_accessories_cfp_reliquary_pendant_01Shape"
+		index = 1
+		texture_diffuse = "m_accessories_cfp_reliquary_pendant_01_diffuse.dds"
+		texture_normal = "m_accessories_cfp_reliquary_pendant_01_normal.dds"
+		texture_specular = "m_accessories_cfp_reliquary_pendant_01_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_accessories_cfp_reliquary_pendant_01_entity"
+	pdxmesh = "male_accessories_cfp_reliquary_pendant_01_mesh"
+	
+	attribute = { name = "bs_body_fat_1"								blend_shape = "male_accessories_cfp_reliquary_pendant_01_bs_fat" }
+	attribute = { name = "bs_body_dwarf_1"								blend_shape = "male_accessories_cfp_reliquary_pendant_01_bs_dwarf" }
+	attribute = { name = "bs_body_gaunt_1"								blend_shape = "male_accessories_cfp_reliquary_pendant_01_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1"							blend_shape = "male_accessories_cfp_reliquary_pendant_01_bs_muscular" }
+}

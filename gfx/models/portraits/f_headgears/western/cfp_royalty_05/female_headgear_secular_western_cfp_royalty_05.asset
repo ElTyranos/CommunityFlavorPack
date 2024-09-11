@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "female_headgear_secular_western_cfp_royalty_05_mesh"
+	file = "female_headgear_secular_western_cfp_royalty_05.mesh"
+	blend_shape = { id = "female_headgear_secular_western_cfp_royalty_05_bs_additive" type = "female_headgear_secular_western_cfp_royalty_05_bs_additive.mesh" }
+
+	meshsettings = {
+		name = "female_headgear_secular_western_cfp_royalty_05Shape"
+		index = 0
+		texture_diffuse = "m_headgear_secular_western_cfp_royalty_05_diffuse.dds"
+		texture_normal = "m_headgear_secular_western_cfp_royalty_05_normal.dds"
+		texture_specular = "m_headgear_secular_western_cfp_royalty_05_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_western_cfp_royalty_05_entity"
+	pdxmesh = "female_headgear_secular_western_cfp_royalty_05_mesh"
+	attribute = { name = "bs_additive" blend_shape = "female_headgear_secular_western_cfp_royalty_05_bs_additive" }
+}

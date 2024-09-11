@@ -1,0 +1,33 @@
+pdxmesh = {
+	name = "female_headgear_special_cfp_fake_nose_02_mesh"
+	file = "female_headgear_special_cfp_fake_nose_02.mesh"
+
+	blend_shape = { id = "female_headgear_special_cfp_fake_nose_02_bs_nose_forward_max"		type = "female_headgear_special_cfp_fake_nose_02_bs_nose_forward_max.mesh" }
+	blend_shape = { id = "female_headgear_special_cfp_fake_nose_02_bs_nose_size_max"					type = "female_headgear_special_cfp_fake_nose_02_bs_nose_size_max.mesh" }
+	blend_shape = { id = "female_headgear_special_cfp_fake_nose_02_bs_nose_height_min"					type = "female_headgear_special_cfp_fake_nose_02_bs_nose_height_min.mesh" }
+	blend_shape = { id = "female_headgear_special_cfp_fake_nose_02_bs_nose_length_max"					type = "female_headgear_special_cfp_fake_nose_02_bs_nose_length_max.mesh" }
+	blend_shape = { id = "female_headgear_special_cfp_fake_nose_02_bs_nose_tip_angle_min"					type = "female_headgear_special_cfp_fake_nose_02_bs_nose_tip_angle_min.mesh" }
+	
+	meshsettings = {
+		name = "female_headgear_special_cfp_fake_nose_02Shape"
+		index = 0
+		texture_diffuse = "m_headgear_special_cfp_fake_nose_01_diffuse.dds"
+		texture_normal = "m_headgear_special_cfp_fake_nose_01_normal.dds"
+		texture_specular = "m_headgear_special_cfp_fake_nose_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+}
+
+entity = {
+	name = "female_headgear_special_cfp_fake_nose_02_entity"
+	pdxmesh = "female_headgear_special_cfp_fake_nose_02_mesh"
+	
+	attribute = { name = "bs_nose_forward_max"					blend_shape = "female_headgear_special_cfp_fake_nose_02_bs_nose_forward_max" }	
+	attribute = { name = "bs_nose_size_max"					blend_shape = "female_headgear_special_cfp_fake_nose_02_bs_nose_size_max" }
+	attribute = { name = "bs_nose_height_min"					blend_shape = "female_headgear_special_cfp_fake_nose_02_bs_nose_height_min" }
+	attribute = { name = "bs_nose_length_max"					blend_shape = "female_headgear_special_cfp_fake_nose_02_bs_nose_length_max" }
+	attribute = { name = "bs_nose_tip_angle_min"					blend_shape = "female_headgear_special_cfp_fake_nose_02_bs_nose_tip_angle_min" }
+	
+}
