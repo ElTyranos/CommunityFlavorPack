@@ -1256,7 +1256,7 @@ props_left = {
 	cfp_potion = {
 		index = 57
 		male = {
-			1 = cfp_potion_01spymaster_daggers
+			1 = cfp_potion_01
 		}
 		female = {
 			1 = cfp_potion_01
