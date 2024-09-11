@@ -8,9 +8,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "male_headgear_special_cfp_face_mask_02Shape"
 		index = 0
-		texture_diffuse = "male_headgear_special_face_mask_01_diffuse.dds"
-		texture_normal = "male_headgear_special_face_mask_01_normal.dds"
-		texture_specular = "male_headgear_special_face_mask_01_properties.dds"
+		texture_diffuse = "m_headgear_special_face_mask_01_diffuse.dds"
+		texture_normal = "m_headgear_special_face_mask_01_normal.dds"
+		texture_specular = "m_headgear_special_face_mask_01_properties.dds"
 		shader = "portrait_attachment_pattern"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -26,7 +26,7 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgears/special/face_mask_01/male_headgear_special_face_mask_01_masks.dds"
+				pattern_mask = "gfx/models/portraits/m_headgear/face_mask_01/m_headgear_special_face_mask_01_masks.dds"
 				variation = "western_face_mask_01"
 			}
         }

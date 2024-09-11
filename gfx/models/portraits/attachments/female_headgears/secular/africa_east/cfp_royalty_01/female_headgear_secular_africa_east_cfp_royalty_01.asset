@@ -15,9 +15,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "female_headgear_secular_africa_east_cfp_royalty_01_veilShape"
 		index = 0
-		texture_diffuse = "female_headgear_secular_mena_common_02_diffuse.dds"
-		texture_normal = "female_headgear_secular_mena_common_02_normal.dds"
-		texture_specular = "female_headgear_secular_mena_common_02_properties.dds"
+		texture_diffuse = "f_headgear_secular_mena_com_02_diffuse.dds"
+		texture_normal = "f_headgear_secular_mena_com_02_normal.dds"
+		texture_specular = "f_headgear_secular_mena_com_02_properties.dds"
 		shader = "portrait_attachment_pattern"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -30,7 +30,7 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/female_headgear/secular/mena/common_02/female_headgear_secular_mena_common_02_masks.dds"
+				pattern_mask = "gfx/models/portraits/f_headgear/mena/com_02/f_headgear_secular_mena_com_02_masks.dds"
 				variation = "sub_saharan_nobility_high_headgear01"
 			}
 		}

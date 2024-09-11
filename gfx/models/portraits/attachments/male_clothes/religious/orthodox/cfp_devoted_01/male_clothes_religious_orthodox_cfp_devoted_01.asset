@@ -12,9 +12,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "male_clothes_religious_orthodox_cfp_devoted_01Shape"
 		index = 0
-		texture_diffuse = "male_clothes_religious_orthodox_head_01_diffuse.dds"
-		texture_normal = "male_clothes_religious_orthodox_head_01_normal.dds"
-		texture_specular = "male_clothes_religious_orthodox_head_01_properties.dds"
+		texture_diffuse = "m_clothes_religious_orthodox_head_01_diffuse.dds"
+		texture_normal = "m_clothes_religious_orthodox_head_01_normal.dds"
+		texture_specular = "m_clothes_religious_orthodox_head_01_properties.dds"
 		shader = "portrait_attachment_pattern_alpha_to_coverage"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}

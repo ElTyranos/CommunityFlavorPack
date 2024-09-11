@@ -7,9 +7,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "female_accessories_cfp_indian_rings_01Shape"
 		index = 0
-		texture_diffuse = "female_clothes_secular_indian_nobility_02_diffuse.dds"
-		texture_normal = "female_clothes_secular_indian_nobility_02_normal.dds"
-		texture_specular = "female_clothes_secular_indian_nobility_02_properties.dds"
+		texture_diffuse = "f_clothes_secular_indian_nob_02_diffuse.dds"
+		texture_normal = "f_clothes_secular_indian_nob_02_normal.dds"
+		texture_specular = "f_clothes_secular_indian_nob_02_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
