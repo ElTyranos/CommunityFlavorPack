@@ -5,7 +5,7 @@ pdxmesh = {
 	blend_shape = { id = "male_clothes_religious_orthodox_cfp_devoted_01_bs_infant"				type = "male_clothes_religious_orthodox_cfp_devoted_01_bs_infant.mesh" }
 	blend_shape = { id = "male_clothes_religious_orthodox_cfp_devoted_01_bs_fat"				type = "male_clothes_religious_orthodox_cfp_devoted_01_bs_fat.mesh" }
 	blend_shape = { id = "male_clothes_religious_orthodox_cfp_devoted_01_bs_gaunt"				type = "male_clothes_religious_orthodox_cfp_devoted_01_bs_gaunt.mesh" }
-	blend_shape = { id = "male_clothes_religious_orthodox_cfp_devoted_01_bs_muscular"				type = "male_clothes_religious_orthodox_cfp_devoted_01_bs_muscular.mesh" }
+	blend_shape = { id = "male_clothes_religious_orthodox_cfp_devoted_01_bs_muscular"			type = "male_clothes_religious_orthodox_cfp_devoted_01_bs_muscular.mesh" }
 	blend_shape = { id = "male_clothes_religious_orthodox_cfp_devoted_01_bs_old"				type = "male_clothes_religious_orthodox_cfp_devoted_01_bs_old.mesh" }
 	blend_shape = { id = "male_clothes_religious_orthodox_cfp_devoted_01_bs_dwarf"				type = "male_clothes_religious_orthodox_cfp_devoted_01_bs_dwarf.mesh" }
 	

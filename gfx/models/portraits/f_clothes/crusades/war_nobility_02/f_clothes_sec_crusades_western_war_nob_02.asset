@@ -11,7 +11,6 @@ pdxmesh = {
 	blend_shape = { id = "f_clothes_sec_crusades_western_war_nob_01_bs_pregnant"					type = "f_clothes_sec_crusades_western_war_nob_01_bs_pregnant.mesh" }
 	blend_shape = { id = "f_clothes_sec_crusades_western_war_nob_01_bs_bust_min"					type = "f_clothes_sec_crusades_western_war_nob_01_bs_bust_min.mesh" }
 	blend_shape = { id = "f_clothes_sec_crusades_western_war_nob_01_bs_dwarf"						type = "f_clothes_sec_crusades_western_war_nob_01_bs_dwarf.mesh" }
-	#blend_shape = { id = "f_clothes_sec_crusades_western_war_nob_01_bs_seated"					type = "female_clothes_sec_crusades_western_war_nobility_01_bs_seated.mesh" }
 
 
 
@@ -39,7 +38,6 @@ entity = {
 	attribute = { name = "bs_body_pregnant_1"				blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_pregnant" }
 	attribute = { name = "bs_body_breast_size_min"			blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_bust_min" }
 	attribute = { name = "bs_body_breast_size_max"			blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_bust_max" }
-	#attribute = { name = "bs_body_seated"					blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_seated" }
 
 	game_data = {
         portrait_entity_user_data = {
@@ -64,7 +62,6 @@ entity = {
 	attribute = { name = "bs_body_pregnant_1"				blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_pregnant" }
 	attribute = { name = "bs_body_breast_size_min"			blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_bust_min" }
 	attribute = { name = "bs_body_breast_size_max"			blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_bust_max" }
-	#attribute = { name = "bs_body_seated"					blend_shape = "f_clothes_sec_crusades_western_war_nob_01_bs_seated" }
 
 	game_data = {
         portrait_entity_user_data = {
