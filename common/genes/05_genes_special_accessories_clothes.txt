@@ -915,14 +915,11 @@
 				male = {
 					1 = m_clothes_sec_mena_war_nob_01_lo
 					1 = m_clothes_sec_mena_war_nob_01_hi
-					1 = male_clothes_secular_northern_war_gambeson_02 #CFP
-					1 = male_clothes_secular_mena_cfp_war_common_01
 				}
 
 				female = {
 					1 = f_clothes_sec_mena_war_nob_01_lo
 					1 = f_clothes_sec_mena_war_nob_01_hi
-					1 = female_clothes_secular_northern_war_gambeson_02 #CFP
 				}
 
 				boy = male
@@ -994,7 +991,6 @@
 
 				male = {
 					1 = m_clothes_sec_mena_war_nob_01_lo
-					1 = male_clothes_secular_mena_cfp_war_common_01
 				}
 
 				female = {
@@ -1065,13 +1061,11 @@
 				male = {
 					1 = m_clothes_sec_northern_war_nob_01_lo
 					1 = m_clothes_sec_northern_war_nob_01_hi
-					1 = male_clothes_secular_northern_war_gambeson_01 # CFP
 				}
 
 				female = {
 					1 = f_clothes_sec_northern_war_nob_01_lo
 					1 = f_clothes_sec_northern_war_nob_01_hi
-					1 = female_clothes_secular_northern_war_gambeson_01 # CFP
 				}
 				boy = male
 				girl = female

@@ -540,9 +540,6 @@
  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_religious_orthodox_cfp_omophorion_01:1 "@cfp_icon_white! Orthodox Omophorion"
  
 ## Clothes
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01:1 "@cfp_icon! Northern Armor (Gambeson)"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_gambeson_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_01$"
-
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_latin_cfp_venetian_doge_01:1 "@cfp_icon! Venetian Doge Robe"
 
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_crusades_western_war_nob_01_teutonic:1 "@cfp_icon_white! Teutonic Order"
@@ -556,12 +553,7 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_02:1 "@cfp_icon! Brigandine Plate Armour"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_03:1 "@cfp_icon! French Plate Armour"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_05:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_cfp_war_plate_01$ 2"
- 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_cfp_war_common_01:0 "@cfp_icon_green! Arabic Chainmail"
- 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_02:0 "@cfp_icon_green! Arabic Gambeson"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_gambeson_02:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_gambeson_02$"
- 
+  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_01:0 "@cfp_icon_yellow! African Padded Armor"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_africa_central_cfp_war_padded_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_africa_central_cfp_war_padded_01$"
 
