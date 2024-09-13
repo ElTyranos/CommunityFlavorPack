@@ -13,8 +13,11 @@ hre = {
 
 cfp_byzantine = {
 	trigger = {
-		NOT = { has_ep3_dlc_trigger = yes } # CFP court shows up only if you don't own EP3
-		has_graphical_byzantine_culture_group_trigger = yes
+		NAND = {
+			has_ep3_dlc_trigger = yes
+			has_graphical_byzantine_culture_group_trigger = yes
+		}
+		has_graphical_cfp_byzantine_culture_group_trigger = yes
 		religion = religion:christianity_religion
 		NOT = { faith = faith:iconoclast }
 	}
@@ -24,10 +27,7 @@ cfp_byzantine = {
 byzantine = {
 	trigger = {
 		has_ep3_dlc_trigger = yes
-		OR = {
-			capital_county ?= title:c_byzantion
-			primary_title ?= title:e_byzantium
-		}
+		has_graphical_byzantine_culture_group_trigger = yes
 		religion = religion:christianity_religion
 		NOT = { faith = faith:iconoclast }
 	}
@@ -35,14 +35,20 @@ byzantine = {
 
 cfp_byzantine_mena = {
 	trigger = {
-		has_graphical_byzantine_culture_group_trigger = yes
+		OR = {
+			has_graphical_byzantine_culture_group_trigger = yes
+			has_graphical_cfp_byzantine_culture_group_trigger = yes
+		}
 		religion = religion:islam_religion
 	}
 }
 
 cfp_byzantine_pagan = {
 	trigger = {
-		has_graphical_byzantine_culture_group_trigger = yes
+		OR = {
+			has_graphical_byzantine_culture_group_trigger = yes
+			has_graphical_cfp_byzantine_culture_group_trigger = yes
+		}
 		OR = { 
 			NOR = {
 				AND = {
@@ -154,9 +160,18 @@ mediterranean = {
 				}
 			}
 		}
-		NOR = {
-			has_graphical_papal_culture_group_trigger = yes
-			has_graphical_byzantine_culture_group_trigger = yes
+		trigger_if = {
+			limit = {
+				has_ep3_dlc_trigger = yes
+			}
+			NOT = { has_graphical_byzantine_culture_group_trigger = yes }
+		}
+		trigger_if = {
+			limit = {}
+			NOR = {
+				has_graphical_papal_culture_group_trigger = yes
+				has_graphical_cfp_byzantine_culture_group_trigger = yes
+			}
 		}
 	}
 }
