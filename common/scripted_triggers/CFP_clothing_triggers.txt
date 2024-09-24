@@ -411,20 +411,24 @@ portrait_mena_clothing_trigger = {
 		CULTURE_SCOPE = scope:culture
 		CULTURE_FLAG = mena
 	}
-	NOR = {
-		has_cultural_pillar = heritage_east_african
-		has_cultural_pillar = heritage_somalian
-	}	
+	culture = {
+		NOR = {
+			has_cultural_pillar = heritage_east_african
+			has_cultural_pillar = heritage_somalian
+		}
+	}
 }
 portrait_mena_clothing_spouse_trigger = {
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
 		CULTURE_FLAG = mena
 	}
-	NOR = {
-		has_cultural_pillar = heritage_east_african
-		has_cultural_pillar = heritage_somalian
-	}	
+	culture = {
+		NOR = {
+			has_cultural_pillar = heritage_east_african
+			has_cultural_pillar = heritage_somalian
+		}
+	}
 }
 
 portrait_african_clothing_trigger = {
@@ -433,9 +437,11 @@ portrait_african_clothing_trigger = {
 			CULTURE_SCOPE = scope:culture
 			CULTURE_FLAG = african
 		}
-		AND = {
-			has_clothing_gfx = mena_clothing_gfx
-			has_cultural_pillar = heritage_east_african
+		culture = {
+			AND = {
+				has_clothing_gfx = mena_clothing_gfx
+				has_cultural_pillar = heritage_east_african
+			}
 		}
 	}
 }
@@ -445,9 +451,11 @@ portrait_african_clothing_spouse_trigger = {
 			CULTURE_SCOPE = culture
 			CULTURE_FLAG = african
 		}
-		AND = {
-			has_clothing_gfx = mena_clothing_gfx
-			has_cultural_pillar = heritage_east_african
+		culture = {
+			AND = {
+				has_clothing_gfx = mena_clothing_gfx
+				has_cultural_pillar = heritage_east_african
+			}
 		}
 	}
 }
