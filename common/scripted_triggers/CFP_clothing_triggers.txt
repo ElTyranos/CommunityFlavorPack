@@ -460,6 +460,58 @@ portrait_african_clothing_spouse_trigger = {
 	}
 }
 
+portrait_war_nobles_helmet_trigger = { # added primary_spouse handler
+	exists = this
+	OR = {
+		has_character_flag = need_military_outfit
+		portrait_wear_helmet_trigger = yes
+	}
+	OR = {
+		portrait_$CULTURE_INPUT$_clothing_trigger = yes
+		primary_spouse = {
+			portrait_$CULTURE_INPUT$_clothing_spouse_trigger = yes
+		}
+	}
+	NOR = {
+		AND = {
+			religion = religion:christianity_religion
+			government_has_flag = government_is_holy_order
+		}
+		AND = {
+			religion = religion:christianity_religion
+			is_playable_character = no
+			portrait_wear_armor_trigger = yes
+			exists = liege
+			liege = {
+				government_has_flag = government_is_holy_order
+			}
+		}
+		AND = {
+			religion = religion:christianity_religion
+			portrait_wear_armor_trigger = yes
+			OR = {
+				any_character_war = {
+					OR = {
+						using_cb = undirected_great_holy_war
+						using_cb = directed_great_holy_war
+					}
+					is_attacker = prev
+				}
+				any_liege_or_above = {
+					faith = prev.faith
+					any_character_war = {
+						OR = {
+							using_cb = undirected_great_holy_war
+							using_cb = directed_great_holy_war
+						}
+						is_attacker = prev
+					}
+				}
+			}
+		}
+	}
+}
+
 # I was unhappy with dates
 portrait_era2_armor_trigger = {
 	current_year >= 1000
