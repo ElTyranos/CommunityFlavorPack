@@ -413,34 +413,34 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				template = cfp_east_african_war_nobility_clothes
 				range = { 0 1 }
 			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0 # better for CFP armor
-				template = bust_clothes
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 1.0 # better for CFP armor
-				template = body_shape_average_clothed
-			}
 		}
         outfit_tags = { military_outfit }
         weight = {
             base = 0
             modifier = {
-                add = 101
+                add = 70
+				# portrait_cfp_east_africa_clothing_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = { 
                         CULTURE_INPUT = cfp_east_africa
                     }
-                    portrait_low_nobles_armor_trigger = { 
+                    portrait_low_nobles_armor_trigger = {
                         CULTURE_INPUT = cfp_east_africa
 					}
 					portrait_high_nobles_armor_trigger = {
 						CULTURE_INPUT = cfp_east_africa
 					}
+                }
+			}
+            modifier = {
+                add = 31        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = {
+                        CULTURE_INPUT = cfp_east_africa
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = {
+                        CULTURE_INPUT = cfp_east_africa
+                    }
                 }
             }
         }
