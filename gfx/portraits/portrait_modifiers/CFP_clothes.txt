@@ -355,7 +355,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 range = { 0 1 }
             }
         }
-        outfit_tags = { military_outfit }
+        # outfit_tags = { military_outfit }
         weight = {
             base = 0
             modifier = {
@@ -414,12 +414,11 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				range = { 0 1 }
 			}
 		}
-        outfit_tags = { military_outfit }
+        # outfit_tags = { military_outfit }
         weight = {
             base = 0
             modifier = {
                 add = 70
-				# portrait_cfp_east_africa_clothing_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = { 
                         CULTURE_INPUT = cfp_east_africa
