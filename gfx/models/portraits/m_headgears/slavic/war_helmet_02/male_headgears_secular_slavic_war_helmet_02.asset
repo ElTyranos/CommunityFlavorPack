@@ -1,10 +1,7 @@
 pdxmesh = {
 	name = "male_headgears_secular_slavic_war_helmet_02_mesh"
 	file = "male_headgears_secular_slavic_war_helmet_02.mesh"
-	blend_shape = {
-		id = "male_headgears_secular_slavic_war_helmet_02_bs_fat"
-		type = "male_headgears_secular_slavic_war_helmet_02_bs_fat.mesh"
-	}
+
 	meshsettings = {
 		name = "male_headgears_secular_slavic_war_helmet_02Shape"
 		index = 0
@@ -19,8 +16,4 @@ pdxmesh = {
 entity = {
 	name = "male_headgears_secular_slavic_war_helmet_02_entity"
 	pdxmesh = "male_headgears_secular_slavic_war_helmet_02_mesh"
-	attribute = {
-		name = "bs_fat_1"
-		blend_shape = "male_headgears_secular_slavic_war_helmet_02_bs_fat"
-	}
 }
