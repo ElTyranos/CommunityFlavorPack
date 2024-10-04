@@ -17,7 +17,7 @@
  cfp_potion_name:0 "Potion"
  cfp_cauldron_name:0 "Cauldron"
  
- ## Vanillla barbershop compatibility
+ ## Vanilla barbershop compatibility
  cfp_gaillard_bg:0 "@cfp_icon! $cfp_gaillard$"
  cfp_gaillard_mini_bg:0 "@cfp_icon! $cfp_gaillard$"
  cfp_gaillard_zoomed_bg:0 "@cfp_icon! $cfp_gaillard_zoomed$"
