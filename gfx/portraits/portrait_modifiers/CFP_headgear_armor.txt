@@ -46,6 +46,12 @@
 				template = cfp_western_war_high_nobility
 				accessory = male_headgear_secular_dde_hre_war_high_nobility_02
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
         outfit_tags = { military_outfit }
 		weight = {
@@ -138,6 +144,12 @@
 				template = cfp_western_era3_war_nobility
 				range = { 0.51 1 } # Kettle hats
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
         outfit_tags = { military_outfit }
 		weight = {
@@ -163,6 +175,12 @@
 				template = cfp_western_war_plate_armor
 				range = { 0.27 1.0 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
         outfit_tags = { military_outfit }
 		weight = {
@@ -187,6 +205,12 @@
 				template = cfp_western_war_plate_armor
 				range = { 0 0.26 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
         outfit_tags = { military_outfit }
 		weight = {
@@ -214,6 +238,12 @@
 				template = cfp_latin_war
 				range = { 0.51 1.0 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -239,6 +269,12 @@
 				template = cfp_latin_war
 				range = { 0.0 0.49 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -263,6 +299,12 @@
 				template = cfp_iberian_war_aragonese_royalty
 				range = { 0 1 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		weight = {
 			base = 0
@@ -296,6 +338,12 @@
 				template = cfp_iberian_war
 				range = { 0 1 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -333,6 +381,12 @@
                 template = byzantine_war
 				range = { 0.61 1 } # roman helmets and mail coifs
             }
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
         }
         outfit_tags = { military_outfit }
         weight = {
@@ -366,6 +420,12 @@
 				template = cfp_hungarian_war
 				range = { 0 1 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -390,6 +450,12 @@
 				template = cfp_slavic_war
 				range = { 0 1 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -547,6 +613,12 @@
 				template = cfp_andalusian_war
 				range = { 0 0.66 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -571,6 +643,12 @@
 				template = cfp_andalusian_war
 				accessory = male_headgear_secular_andalusian_cfp_war_sallet_01
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
         outfit_tags = { military_outfit }
         weight = {
@@ -700,6 +778,12 @@
                 template = northern_war
 				range = { 0.23 0.86 }
             }
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
         }
         outfit_tags = { military_outfit }
         weight = {
@@ -729,6 +813,12 @@
                 template = northern_war
 				range = { 0.0 0.23 }
             }
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
         }
         outfit_tags = { military_outfit }
         weight = {
@@ -752,6 +842,12 @@
                 gene = headgear
                 template = northern_war
 				range = { 0.86 1.0 }
+            }
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
             }
         }
         outfit_tags = { military_outfit }
@@ -785,6 +881,12 @@
                 template = fp1_war
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
         }
         outfit_tags = { military_outfit }
         weight = {
@@ -807,6 +909,12 @@
                 template = fp1_war_common
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
         }
         weight = {
             base = 0
@@ -827,6 +935,12 @@
 				template = fp1_war
 				range = { 0.51 1 } # excludes FP1 assets
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -850,6 +964,12 @@
 				template = fp1_war_common
 				range = { 0.22 1 } # excludes FP1 assets
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}
 		outfit_tags = { military_outfit }
 		weight = {
@@ -874,6 +994,12 @@
 				template = northern_war
 				range = { 0 0.84 } # let's avoid coppergate helmet
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
 		}	
 		weight = {
 			base = 0
@@ -896,6 +1022,12 @@
 				template = cfp_norman_sicily_war
 				range = { 0 1 }
 			}
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                range = { 0 1 }
+            }
             morph = {
                 mode = add
                 gene = gene_bs_nose_forward
