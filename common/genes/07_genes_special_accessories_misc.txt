@@ -1225,6 +1225,16 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	bp3_walking_stick_01 = {
+		index = 53
+		male = {
+			1 = bp3_walking_stick_01_a
+			1 = bp3_walking_stick_01_b
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 	
 	########################################
 	## Community Flavor Pack - new groups ##
