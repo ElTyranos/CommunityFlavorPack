@@ -198,6 +198,15 @@
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_lo
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_hi
 
+					# POl
+					1 = m_clothes_sec_pol_common_01
+					1 = m_clothes_sec_pol_common_02
+					1 = m_clothes_sec_pol_low_nob_01
+					1 = m_clothes_sec_pol_low_nob_02
+					1 = m_clothes_sec_pol_high_nob_01
+					1 = m_clothes_sec_pol_high_nob_02
+					1 = m_clothes_sec_pol_imperial_01
+					1 = m_clothes_sec_pol_war_nob_01
 				}
 
 				female = {
@@ -375,6 +384,15 @@
 					1 = f_clothes_sec_ep3_byzantine_era2_war_nob_01_hi
 					1 = f_clothes_sec_ep3_byzantine_era1_imp_01
 
+					# POL
+					1 = f_clothes_sec_pol_common_01
+					1 = f_clothes_sec_pol_common_02
+					1 = f_clothes_sec_pol_low_nob_01
+					1 = f_clothes_sec_pol_low_nob_02
+					1 = f_clothes_sec_pol_high_nob_01
+					1 = f_clothes_sec_pol_high_nob_02
+					1 = f_clothes_sec_pol_imperial_01
+					1 = f_clothes_sec_pol_war_nob_01
 				}
 
 				boy = male
@@ -2676,6 +2694,74 @@
 				girl = female
 			}
 		
+			## POL ##
+
+			pol_commoner_clothes = {
+				index = 131
+				male = {
+					1 = m_clothes_sec_pol_common_01
+					1 = m_clothes_sec_pol_common_02
+				}
+				female = {
+					1 = f_clothes_sec_pol_common_01
+					1 = f_clothes_sec_pol_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_low_nobility_clothes = {
+				index = 132
+				male = {
+					1 = m_clothes_sec_pol_low_nob_01
+					1 = m_clothes_sec_pol_low_nob_02
+				}
+				female = {
+					1 = f_clothes_sec_pol_low_nob_01
+					1 = f_clothes_sec_pol_low_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_high_nobility_clothes = {
+				index = 133
+				male = {
+					1 = m_clothes_sec_pol_high_nob_01
+					1 = m_clothes_sec_pol_high_nob_02
+				}
+				female = {
+					1 = f_clothes_sec_pol_high_nob_01
+					1 = f_clothes_sec_pol_high_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_imperial_clothes = {
+				index = 134
+				male = {
+					1 = m_clothes_sec_pol_imperial_01
+				}
+				female = {
+					1 = f_clothes_sec_pol_imperial_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_war_nobility_clothes = {
+				index = 135
+				male = {
+					1 = m_clothes_sec_pol_war_nob_01
+				}
+				female = {
+					1 = f_clothes_sec_pol_war_nob_01
+				}
+				boy = male
+				girl = female
+			}
+		
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
@@ -2683,7 +2769,7 @@
 		## Western
 
 			cfp_bedchamber = {
-				index = 131
+				index = 136
 
 				male = {
 					1 = cfp_male_clothes_western_bedchamber_01_common
@@ -2698,7 +2784,7 @@
 			}
 			
 			cfp_western_high_nobility_clothes_late = {
-				index = 132
+				index = 137
 				male = {
 					1 = male_clothes_secular_western_cfp_doublet_01
 					1 = male_clothes_secular_western_cfp_doublet_02
@@ -2709,7 +2795,7 @@
 			}
 
 			cfp_western_war_plate_armor = {
-				index = 133
+				index = 138
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_05
@@ -2726,8 +2812,7 @@
 		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
-				index = 134
-
+				index = 139
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
 				}
@@ -2741,8 +2826,7 @@
 		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
-				index = 135
-
+				index = 140
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
 				}
@@ -2757,8 +2841,7 @@
 		## Javanese ## 
 			
 			cfp_javanese_common = {
-				index = 136
-
+				index = 141
 				male = {	
 					1 = male_clothes_secular_western_nudity_01
 				}
@@ -2771,8 +2854,7 @@
 			}
 			
 			cfp_javanese_nobility = {
-				index = 137
-
+				index = 142
 				male = {	
 					1 = male_clothes_secular_java_cfp_high_nobility_01
 				}
@@ -2785,8 +2867,7 @@
 			}
 			
 			cfp_javanese_royalty = {
-				index = 138
-
+				index = 143
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
 				}
@@ -2801,7 +2882,7 @@
 		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
-				index = 139
+				index = 144
 				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -2813,7 +2894,7 @@
 			}
 		
 			cfp_religious_catholic_cardinal_clothes = {
-				index = 140
+				index = 145
 				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -2825,7 +2906,7 @@
 			}
 		
 			cfp_religious_orthodox_devoted_clothes = {
-				index = 141
+				index = 146
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -2837,7 +2918,7 @@
 			}
 		
 			cfp_religious_muslim_high_turkic_clothes = {
-				index = 142
+				index = 147
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}

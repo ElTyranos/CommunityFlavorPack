@@ -22,6 +22,7 @@ accessory_genes = {
 				1 = m_legwear_sec_ep2_western_era4_war_nob_01
 				1 = m_legwear_sec_ep2_western_era4_war_nob_02
 				1 = m_legwear_sec_afr_common_01
+				1 = m_legwear_sec_pol_common_01
 			}
 			female = {
 				1 = female_legwear_secular_western_common_01
@@ -33,6 +34,7 @@ accessory_genes = {
 				1 = f_legwear_sec_ep2_western_era4_war_nob_01
 				1 = f_legwear_sec_ep2_western_era4_war_nob_02
 				1 = f_legwear_sec_afr_common_01
+				1 = f_legwear_sec_pol_common_01
 			}
 			boy = male
 			girl = female
@@ -197,12 +199,24 @@ accessory_genes = {
 			girl = female
 		}
 		
+		pol_common_legwear = {
+			index = 14
+			male = {
+				1 = m_legwear_sec_pol_common_01
+			}
+			female = {
+				1 = f_legwear_sec_pol_common_01
+			}
+			boy = male
+			girl = female
+		}
+		
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
 		
 		cfp_western_war_legwear_late = {
-			index = 14
+			index = 15
 			male = {
 				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
@@ -214,7 +228,7 @@ accessory_genes = {
 		}
 		
 		cfp_sub_saharan_common_legwear = {
-			index = 15
+			index = 16
 			male = {
 				1 = male_legwear_secular_sub_saharan_cfp_common_01
 			}
@@ -226,7 +240,7 @@ accessory_genes = {
 		}
 		
 		cfp_javanese_common_legwear = {
-			index = 16
+			index = 17
 			male = {
 				1 = male_legwear_secular_java_cfp_common_01
 			}
@@ -238,7 +252,7 @@ accessory_genes = {
 		}
 		
 		cfp_javanese_nobility_legwear = {
-			index = 17
+			index = 18
 			male = {
 				1 = male_legwear_secular_java_cfp_high_nobility_01
 			}
@@ -250,7 +264,7 @@ accessory_genes = {
 		}
 		
 		cfp_javanese_royalty_legwear = {
-			index = 18
+			index = 19
 			male = {
 				1 = male_legwear_secular_java_cfp_royalty_01
 			}
@@ -310,8 +324,6 @@ accessory_genes = {
 				1 = male_furs_secular_fp1_nobility_01
 				1 = male_furs_secular_fp1_nobility_02
 				1 = male_furs_secular_fp1_nobility_03
-				1 = male_furs_secular_fp1_nobility_03
-				1 = male_furs_secular_fp1_nobility_03
 				1 = male_cloaks_secular_ep1_adventurer_01
 				1 = m_cloaks_sec_ep2_western_era1_nob_01_lo
 				1 = m_cloaks_sec_ep2_western_era1_nob_01_hi
@@ -320,6 +332,11 @@ accessory_genes = {
 				1 = m_cloaks_sec_ep2_mena_travel_01
 				1 = m_cloaks_sec_fp4_western_era3_nob_01
 				1 = m_cloaks_sec_fp4_western_era3_nob_02
+				1 = m_cloaks_sec_ep3_byzantine_era2_imp_01_loros
+				1 = m_cloaks_sec_sp3_western_roy_01
+				1 = m_cloaks_ep3_byzantine_era1_nob_01
+				1 = m_cloaks_ep3_byzantine_era1_imp_01
+				1 = m_cloaks_ep3_byzantine_era2_nob_01
 				1 = m_cloaks_sec_ep3_byzantine_era2_imp_01_loros
 			}
 			female = {
@@ -337,6 +354,12 @@ accessory_genes = {
 				1 = f_cloaks_sec_ep2_mena_travel_01
 				1 = f_cloaks_sec_fp4_western_era3_nob_01
 				1 = f_cloaks_sec_fp4_western_era3_nob_02
+				1 = f_cloaks_sec_afr_common_01
+				1 = f_cloaks_sec_afr_low_nob_01
+				1 = f_cloaks_sec_afr_high_nob_01
+				1 = f_cloaks_sec_sp3_western_roy_01
+				1 = f_cloaks_ep3_byzantine_era1_nob_01
+				1 = f_cloaks_ep3_byzantine_era1_imp_01
 			}
 
 			boy = male
@@ -1211,6 +1234,16 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	bp3_walking_stick_01 = {
+		index = 53
+		male = {
+			1 = bp3_walking_stick_01_a
+			1 = bp3_walking_stick_01_b
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 	bow_random_idle = {
 		index = 54
 		male = {
@@ -1225,11 +1258,10 @@ props_left = {
 		boy = male
 		girl = female
 	}
-	bp3_walking_stick_01 = {
-		index = 53
+	pol_marshal_sword_left = {
+		index = 55
 		male = {
-			1 = bp3_walking_stick_01_a
-			1 = bp3_walking_stick_01_b
+			1 = pol_marshal_sword_01_left
 		}
 		female = male
 		boy = male
@@ -1241,7 +1273,7 @@ props_left = {
 	########################################
 	
 	cfp_javanese_dagger = {
-		index = 55
+		index = 56
 		male = {
 			1 = cfp_kris_dagger_equipped_01
 		}
@@ -1253,7 +1285,7 @@ props_left = {
 	}
 	
 	cfp_globus = {
-		index = 56
+		index = 57
 		male = {
 			1 = cfp_globus_01
 		}
@@ -1264,7 +1296,7 @@ props_left = {
 		girl = female
 	}
 	cfp_potion = {
-		index = 57
+		index = 58
 		male = {
 			1 = cfp_potion_01
 		}
@@ -1275,7 +1307,7 @@ props_left = {
 		girl = female
 	}
 	cfp_cauldron = {
-		index = 58
+		index = 59
 		male = {
 			1 = cfp_cauldron_01
 		}
@@ -1286,7 +1318,7 @@ props_left = {
 		girl = female
 	}
 	cfp_bonfire = {
-		index = 59
+		index = 60
 		male = {
 			1 = cfp_bonfire_01
 		}
@@ -1297,7 +1329,7 @@ props_left = {
 		girl = female
 	}
 	cfp_globus_regalia = {
-		index = 60
+		index = 61
 		male = {
 			1 = cfp_globus_02
 		}
@@ -2057,13 +2089,22 @@ props_left = {
 			boy = male
 			girl = female
 		}
-		
+		pol_marshal_sword = {
+			index = 80
+			male = {
+				1 = pol_marshal_sword_01
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
 		
 		cfp_scepter = {
-			index = 80
+			index = 81
 			male = {
 				1 = cfp_scepter_01
 			}
@@ -2074,7 +2115,7 @@ props_left = {
 			girl = female
 		}
 		cfp_scepter_regalia = {
-			index = 81
+			index = 82
 			male = {
 				1 = cfp_scepter_02
 			}
@@ -2085,7 +2126,7 @@ props_left = {
 			girl = female
 		}
 		cfp_broom = {
-			index = 82
+			index = 83
 			male = {
 				1 = cfp_broom_01
 			}

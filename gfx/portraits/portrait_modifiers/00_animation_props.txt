@@ -143,6 +143,17 @@
 		}
 	}
 
+	marshal_pol_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = pol_marshal_sword
+				value = 1.0
+			}
+		}
+	}
+
 	marshal_fp2_muslim_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -1850,6 +1861,17 @@
 				mode = add
 				gene = props_left
 				template = afr_marshal_sword_left
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_pol_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = pol_marshal_sword_left
 				value = 1.0
 			}
 		}
