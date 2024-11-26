@@ -107,6 +107,9 @@ portrait_cfp_slavic_clothing_trigger = {
 		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = baltic }
 		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = vlach }
 	}
+	NOT = {
+		portrait_west_slavic_clothing_trigger = yes
+	}
 }
 portrait_cfp_slavic_clothing_spouse_trigger = {
 	OR = {
@@ -115,6 +118,9 @@ portrait_cfp_slavic_clothing_spouse_trigger = {
 		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = east_slavic }
 		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = baltic }
 		cfp_clothing_heritage_trigger = { HERITAGE_FLAG = vlach }
+	}
+	NOT = {
+		portrait_west_slavic_clothing_spouse_trigger = yes
 	}
 }
 
