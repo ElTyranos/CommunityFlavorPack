@@ -1,11 +1,9 @@
 ﻿l_korean:
- 
  PORTRAIT_MODIFIER_custom_earrings:0 "귀고리"
  PORTRAIT_MODIFIER_custom_earrings_male_empty:1 "귀고리 없음"
  PORTRAIT_MODIFIER_custom_earrings_female_empty:0 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
  PORTRAIT_MODIFIER_custom_earrings_boy_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
  PORTRAIT_MODIFIER_custom_earrings_girl_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
- 
  PORTRAIT_MODIFIER_custom_earrings_male_accessories_cfp_slavic_earrings_01:1 "@cfp_icon_red! 슬라브 귀고리"
  PORTRAIT_MODIFIER_custom_earrings_male_accessories_cfp_african_earrings_01:1 "@cfp_icon_yellow! 아프리카 코 피어싱"
  PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_african_earrings_01:1 "@cfp_icon_yellow! 아프리카 청동 귀고리"
@@ -17,4 +15,3 @@
  PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_01:1 "@cfp_icon_red! 초원지대 단순한 귀고리"
  PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_02:1 "@cfp_icon_red! 초원지대 복잡한 귀고리"
  PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_byzantine_earrings_01:1 "@cfp_icon_purple! 비잔티움 진주 귀고리"
- 

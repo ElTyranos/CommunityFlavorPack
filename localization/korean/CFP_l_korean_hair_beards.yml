@@ -1,58 +1,41 @@
 ﻿l_korean:
-
-## Western
  PORTRAIT_MODIFIER_custom_beards_cfp_male_frenchfork_western_01:0 "@cfp_icon! 프랑스 수염"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "@cfp_icon! 머리빠지는 풀 백"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "@cfp_icon! 머리빠지는 흐트러진 머리"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "@cfp_icon! 머리빠진 흐트러진 머리"
- 
-## Norse
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_01:0 "@cfp_icon! 숱이 적은 풀 백"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_02:0 "@cfp_icon! 숱이 적은 헝클어진 머리"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_bald_western_03:0 "@cfp_icon! 헝클어진 머리 (탈모)"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_viking_01:0 "@cfp_icon! 노르드 사가 영웅"
- 
-## Turkic
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_turkic_01:0 "@cfp_icon_red! 바가투르 땋은 머리"
- 
-## Slavic
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "@cfp_icon_red! 러시아 전사 콧수염"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon_red! 귀걸이있는 러시아 전사 한 가닥 머리"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon_red! 러시아 전사 한 가닥 머리"
-
-## African
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_01:0 "@cfp_icon_red! 루스 전사 콧수염"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_01:0 "@cfp_icon_red! 루스 전사 헤어 스트랜드 (귀고리)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_02:0 "@cfp_icon_red! 루스 전사 헤어 스트랜드"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_01:0 "@cfp_icon_yellow! 하이페이드 아프로"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_02:0 "@cfp_icon_yellow! 아프로 퀴프"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_sub_saharan_03:0 "@cfp_icon_yellow! 아프로 크레센트"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_01:0 "@cfp_icon_yellow! 트위스트 콘로우"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_african_02:0 "@cfp_icon_yellow! 스트레이트라인 콘로우"
- 
-## Shaggy
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red!  팔자 수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_02:0 "@cfp_icon_red! 팔자 수염"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_slavic_03:0 "@cfp_icon_red! 말굽 수염"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_hungarian_01:0 "@cfp_icon_red! 헝가리 콧수염"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_hungarian_01:0 "@cfp_icon_red! 헝가리 땋은 머리 "
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_03:0 "@cfp_icon! 바가지 머리"
  PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_slavic_04:0 "@cfp_icon! 곱슬 바가지 머리"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_celtic_01:0 "@cfp_icon! 켈트 땋은 머리"
- 
-## Beards vanilla edit
  PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_01:0 "@cfp_icon! 구레나룻"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! 염소 수염있는 구레나룻"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "@cfp_icon! 제국 콧수염"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "@cfp_icon! 구레나룻없는 구슬 수염"
- PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "@cfp_icon! 한 갈래 구슬 수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_sideburns_western_02:0 "@cfp_icon! 염소 수염과 구레나룻"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_moustache_western_01:0 "@cfp_icon! 카이저 콧수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_01:0 "@cfp_icon! 세갈래 구슬 장식 염소 수염"
+ PORTRAIT_MODIFIER_custom_beards_cfp_male_goatee_northern_02:0 "@cfp_icon! 한갈래 구슬 장식 염소 수염"
  PORTRAIT_MODIFIER_custom_beards_cfp_male_beard_fp1_04:0 "@cfp_icon! 큰 콧수염"
- 
-## Hair vanilla edit
  PORTRAIT_MODIFIER_custom_hair_bald:0 "@cfp_icon! 완전한 대머리"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "@cfp_icon_red! 초원지대 심지"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon_red! 대머리 초원지대 기수"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "@cfp_icon_red! 구레나룻 없는 초원지대 기수"
- PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "@cfp_icon_red! 어린 초원지대 기수"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_01:0 "@cfp_icon_red! 초원 지대 심지"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_02:0 "@cfp_icon_red! 초원 지대 기수 (대머리)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_03:0 "@cfp_icon_red! 초원 지대 기수 (구레나룻 없음)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_male_hair_steppe_04:0 "@cfp_icon_red! 어린 초원 지대 기수"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_01:0 "@cfp_icon_green! 땋은 머리"
  PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_mena_02:0 "@cfp_icon_green! 보석없는 긴 곱슬머리"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "@cfp_icon_orange! 보석없는 번"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "@cfp_icon_orange! 보석없는 목 땋은 머리"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "@cfp_icon_orange! 보석없는 측면 웨이브"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "@cfp_icon_purple! 귀걸이없는 왕관 곱슬머리"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "@cfp_icon_red! 귀걸이없는 리본과 양갈래 땋은 머리"
- PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "@cfp_icon_red! 귀걸이없는 말아올린 양갈래 땋은 머리"
- 
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_01:0 "@cfp_icon_orange! 번 (보석 장식 없음)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_02:0 "@cfp_icon_orange! 목 땋은 머리 (보석 장식 없음)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_indian_03:0 "@cfp_icon_orange! 측면 웨이브 (보석 장식 없음)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_byzantine_02:0 "@cfp_icon_purple! 왕관 곱슬머리 (귀고리 없음)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_01:0 "@cfp_icon_red! 리본과 양갈래 땋은 머리 (귀고리 없음)"
+ PORTRAIT_MODIFIER_custom_hair_cfp_female_hair_steppe_02:0 "@cfp_icon_red! 말아올린 양갈래 땋은 머리 (귀고리 없음)"
