@@ -1495,4 +1495,67 @@ barbershop_background = {
 	}
 	
 	##########################################
+
+	texture = {
+		reference = "event_scenes/bp3_coast.dds"
+	}
+	environment = {
+		reference = "environment_bp3_coast"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp3_hills_winter.dds"
+	}
+	environment = {
+		reference = "environment_bp3_hills_winter"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp3_mountain_winter.dds"
+	}
+	environment = {
+		reference = "environment_bp3_mountain_winter"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp3_plains_winter.dds"
+	}
+	environment = {
+		reference = "environment_bp3_plains_winter"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp3_riverside.dds"
+	}
+	environment = {
+		reference = "environment_bp3_riverside"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp3_steppe_winter.dds"
+	}
+	environment = {
+		reference = "environment_bp3_steppe_winter"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/bp3_wetlands_winter.dds"
+	}
+	environment = {
+		reference = "environment_bp3_wetlands_winter"
+	}
+	
+	##########################################
 }
