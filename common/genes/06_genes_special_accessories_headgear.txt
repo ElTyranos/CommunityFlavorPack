@@ -4053,6 +4053,12 @@ special_genes = {
 
 			no_cloak_hood = {
 				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = female
 			}
 
 			fp4_western_cloak_hoods = {

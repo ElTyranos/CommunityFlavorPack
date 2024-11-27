@@ -10,6 +10,12 @@
 				template = no_cloak
 				range = { 0 1 }
 			}
+			accessory = {
+				mode = add
+				gene = cloak_hoods
+				template = no_cloak_hood
+				range = { 0 1 }
+			}
 		}	
 		weight = {
 			base = 0
