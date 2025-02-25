@@ -2761,7 +2761,152 @@
 				boy = male
 				girl = female
 			}
-		
+
+
+			### CCP4 Sami ###-------------------------------------------------------------------------------
+
+			ccp4_sami_commoner_clothes = {
+				index = 136
+				male = {
+					1 = m_clothes_sec_ccp4_sami_com_01
+					1 = m_clothes_sec_ccp4_sami_com_02
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_sami_com_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_sami_low_nobility_clothes = {
+				index = 137
+				male = {
+					1 = m_clothes_sec_ccp4_sami_lo_nob_01
+					1 = m_clothes_sec_ccp4_sami_lo_nob_02
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_sami_lo_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_sami_high_nobility_clothes = {
+				index = 138
+				male = {
+					1 = m_clothes_sec_ccp4_sami_hi_nob_01
+					1 = m_clothes_sec_ccp4_sami_hi_nob_02
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_sami_hi_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_sami_travel_clothes = {
+				index = 139
+				male = {
+					1 = m_clothes_sec_ccp4_sami_travel_01
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_sami_travel_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_sami_war_nobility_clothes = {
+				index = 140
+				male = {
+					1 = m_clothes_sec_northern_war_nob_01_lo
+					1 = m_clothes_sec_ccp4_sami_travel_01
+					1 = m_clothes_sec_ccp4_sami_travel_01
+					1 = m_clothes_sec_northern_war_nob_01_hi
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+					1 = f_clothes_sec_ccp4_sami_travel_01
+					1 = f_clothes_sec_ccp4_sami_travel_01
+					1 = f_clothes_sec_northern_war_nob_01_hi
+				}
+				boy = male
+				girl = female				
+			}
+
+			### CCP4 Khanty ###-------------------------------------------------------------------------------
+
+			ccp4_khanty_commoner_clothes = {
+				index = 141
+				male = {
+					2 = { m_clothes_sec_ccp4_khanty_com_01 m_clothes_sec_ccp4_khanty_com_01_hood }
+					1 = { m_clothes_sec_ccp4_khanty_com_02 m_clothes_sec_ccp4_khanty_com_01_hood }
+					1 = { m_clothes_sec_ccp4_khanty_com_03 m_clothes_sec_ccp4_khanty_com_01_hood }
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_khanty_com_01
+					1 = f_clothes_sec_ccp4_khanty_com_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_khanty_low_nobility_clothes = {
+				index = 142
+				male = {
+					1 = { m_clothes_sec_ccp4_khanty_lo_nob_01 m_clothes_sec_ccp4_khanty_lo_nob_01_hood }
+					1 = { m_clothes_sec_ccp4_khanty_lo_nob_02 m_clothes_sec_ccp4_khanty_lo_nob_01_hood }
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_khanty_lo_nob_01
+					1 = f_clothes_sec_ccp4_khanty_lo_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_khanty_high_nobility_clothes = {
+				index = 143
+				male = {
+					1 = { m_clothes_sec_ccp4_khanty_hi_nob_01 m_clothes_sec_ccp4_khanty_hi_nob_01_hood }
+					1 = { m_clothes_sec_ccp4_khanty_hi_nob_02 m_clothes_sec_ccp4_khanty_hi_nob_01_hood }
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_khanty_hi_nob_01
+					1 = f_clothes_sec_ccp4_khanty_hi_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_khanty_war_nobility_clothes = {
+				index = 144
+				male = {
+					1 = m_clothes_sec_ccp4_khanty_war_com_01
+					1 = m_clothes_sec_ccp4_khanty_war_lo_nob_01
+					1 = m_clothes_sec_ccp4_khanty_war_hi_nob_01
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_khanty_war_com_01
+					1 = f_clothes_sec_ccp4_khanty_war_lo_nob_01
+					1 = f_clothes_sec_ccp4_khanty_war_hi_nob_01
+				}
+				boy = male
+				girl = female				
+			}
+
+			ccp4_khanty_children_commoner_clothes = {
+				index = 145
+				male = {
+					1 = { m_clothes_sec_ccp4_khanty_lo_nob_02 m_clothes_sec_ccp4_khanty_lo_nob_01_hood }
+				}
+				female = {
+					1 = f_clothes_sec_ccp4_khanty_lo_nob_01
+				}
+				boy = male
+				girl = female				
+			}
+
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
@@ -2769,7 +2914,7 @@
 		## Western
 
 			cfp_bedchamber = {
-				index = 136
+				index = 146
 
 				male = {
 					1 = cfp_male_clothes_western_bedchamber_01_common
@@ -2784,7 +2929,7 @@
 			}
 			
 			cfp_western_high_nobility_clothes_late = {
-				index = 137
+				index = 147
 				male = {
 					1 = male_clothes_secular_western_cfp_doublet_01
 					1 = male_clothes_secular_western_cfp_doublet_02
@@ -2795,7 +2940,7 @@
 			}
 
 			cfp_western_war_plate_armor = {
-				index = 138
+				index = 148
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_05
@@ -2812,7 +2957,7 @@
 		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
-				index = 139
+				index = 149
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
 				}
@@ -2826,7 +2971,7 @@
 		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
-				index = 140
+				index = 150
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
 				}
@@ -2841,7 +2986,7 @@
 		## Javanese ## 
 			
 			cfp_javanese_common = {
-				index = 141
+				index = 151
 				male = {	
 					1 = male_clothes_secular_western_nudity_01
 				}
@@ -2854,7 +2999,7 @@
 			}
 			
 			cfp_javanese_nobility = {
-				index = 142
+				index = 152
 				male = {	
 					1 = male_clothes_secular_java_cfp_high_nobility_01
 				}
@@ -2867,7 +3012,7 @@
 			}
 			
 			cfp_javanese_royalty = {
-				index = 143
+				index = 153
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
 				}
@@ -2882,7 +3027,7 @@
 		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
-				index = 144
+				index = 154
 				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -2894,7 +3039,7 @@
 			}
 		
 			cfp_religious_catholic_cardinal_clothes = {
-				index = 145
+				index = 155
 				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -2906,7 +3051,7 @@
 			}
 		
 			cfp_religious_orthodox_devoted_clothes = {
-				index = 146
+				index = 156
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -2918,7 +3063,7 @@
 			}
 		
 			cfp_religious_muslim_high_turkic_clothes = {
-				index = 147
+				index = 157
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}

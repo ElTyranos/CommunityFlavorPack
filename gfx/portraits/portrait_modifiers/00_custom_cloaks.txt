@@ -7,6 +7,34 @@
 		template = no_cloak
 	}
 
+		## CCP4 Sami ##
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_com
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_lo_nob
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_hi_nob
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+		## EP3 ##
+
 	add_accessory_modifiers = {
 		gene = cloaks
 		template = ep3_byzantine_era1_nob

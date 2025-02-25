@@ -45,6 +45,24 @@
 		template = fp1_common_legwear
 	}
 
+	## CCP4 ##
+
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+		template = ccp4_sami_common_legwear
+	}
+
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+		template = ccp4_khanty_common_legwear
+	}
+
 	## EP1 ##
 	
 	add_accessory_modifiers = {
