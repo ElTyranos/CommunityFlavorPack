@@ -254,8 +254,7 @@ window = {
 
 				minimumsize = { 500 0 }
 
-				margin_bottom = 25
-				spacing = 5
+				margin_bottom = 35
 
 				using = Window_Background_Sidebar
 				using = Window_Margins_Sidebar
@@ -335,7 +334,7 @@ window = {
 
 										blockoverride "dropdown_list_maxsize"
 										{
-											maximumsize = { 291 490 }
+											maximumsize = { 291 800 }
 										}
 
 										blockoverride "dropdown_active_item_properties"
@@ -831,7 +830,7 @@ window = {
 				### Apply and Reset buttons ###
 				vbox = {
 					name = "apply_box"
-					margin_top = 26
+					margin_top = 16
 
 					hbox = {
 						spacing = 22
