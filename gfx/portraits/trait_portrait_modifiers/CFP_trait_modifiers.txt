@@ -4,7 +4,7 @@
 			human = {
 				accessory = {
 					mode = add
-					gene = special_headgear_blindfold
+					gene = special_headgear_spectacles
 					template = cfp_blindfold
 					range = { 0 1 } # For the randomness to work correctly
 				}
@@ -28,7 +28,7 @@ cfp_one_eyed = {
 			human = {
 				accessory = {
 					mode = add
-					gene = special_headgear_eye_patch
+					gene = special_headgear_spectacles
 					template = cfp_eye_patch
 					range = { 0 1 } # For the randomness to work correctly
 				}
