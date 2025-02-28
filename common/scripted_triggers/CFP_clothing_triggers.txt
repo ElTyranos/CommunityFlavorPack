@@ -228,15 +228,15 @@ portrait_cfp_jewish_western_clothing_trigger = {
 	OR = {
 		trigger_if = {
 			limit = { exists = host.capital_province }
-			host.capital_province = { geographical_region = world_europe_west }
+			host.capital_province ?= { geographical_region = world_europe_west }
 		}
 		trigger_if = {
 			limit = { exists = liege.capital_province }
-			liege.capital_province = { geographical_region = world_europe_west  }
+			liege.capital_province ?= { geographical_region = world_europe_west  }
 		}
 		trigger_if = {
 			limit = { exists = location.province_owner.capital_province }
-			location.province_owner.capital_province = { geographical_region = world_europe_west }
+			location.province_owner.capital_province ?= { geographical_region = world_europe_west }
 		}
 	}
 }
@@ -249,15 +249,15 @@ portrait_cfp_jewish_mena_clothing_trigger = {
 	OR = {
 		trigger_if = {
 			limit = { exists = host.capital_province }
-			host.capital_province = { geographical_region = world_middle_east }
+			host.capital_province ?= { geographical_region = world_middle_east }
 		}
 		trigger_if = {
 			limit = { exists = liege.capital_province }
-			liege.capital_province = { geographical_region = world_middle_east  }
+			liege.capital_province ?= { geographical_region = world_middle_east  }
 		}
 		trigger_if = {
 			limit = { exists = location.province_owner.capital_province }
-			location.province_owner.capital_province = { geographical_region = world_middle_east }
+			location.province_owner.capital_province ?= { geographical_region = world_middle_east }
 		}
 	}
 }
@@ -328,7 +328,7 @@ portrait_cfp_berber_clothing_trigger = {
 		limit = { exists = this	}
 		NAND = {
 			is_landed = yes
-			capital_province = { geographical_region = world_europe_west_iberia	}
+			capital_province ?= { geographical_region = world_europe_west_iberia	}
 		}
 	}
 }
@@ -339,7 +339,7 @@ portrait_cfp_berber_clothing_spouse_trigger = {
 	}
 	NAND = {
 		is_landed = yes
-		capital_province = { geographical_region = world_europe_west_iberia }
+		capital_province ?= { geographical_region = world_europe_west_iberia }
 	}
 }
 
@@ -354,7 +354,7 @@ portrait_cfp_iberian_christian_clothing_trigger = {
 			AND = {
 				is_playable_character = yes
 				religion = religion:christianity_religion
-				capital_province = {
+				capital_province ?= {
 					geographical_region = world_europe_west_iberia
 				}
 			}
@@ -370,7 +370,7 @@ portrait_cfp_iberian_christian_clothing_spouse_trigger = {
 		AND = {
 			is_playable_character = yes
 			religion = religion:christianity_religion
-			capital_province = {
+			capital_province ?= {
 				geographical_region = world_europe_west_iberia
 			}
 		}
@@ -388,7 +388,7 @@ portrait_cfp_iberian_muslim_clothing_trigger = {
 			AND = {
 				is_playable_character = yes
 				religion = religion:islam_religion
-				capital_province = {
+				capital_province ?= {
 					geographical_region = world_europe_west_iberia
 				}
 			}
@@ -404,7 +404,7 @@ portrait_cfp_iberian_muslim_clothing_spouse_trigger = {
 		AND = {
 			is_playable_character = yes
 			religion = religion:islam_religion
-			capital_province = {
+			capital_province ?= {
 				geographical_region = world_europe_west_iberia
 			}
 		}
