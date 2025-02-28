@@ -1,6 +1,8 @@
 ﻿cfp_cloaks = {
 
 	usage = game
+	selection_behavior = weighted_random
+	priority = 6
 
 	cfp_no_cloak = {
 		dna_modifiers = {
