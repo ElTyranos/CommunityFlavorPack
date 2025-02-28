@@ -68,8 +68,7 @@ cfp_byzantine_pagan = {
 norse = {
 	trigger = {
 		government_has_flag = government_is_tribal
-		exists = capital_province
-		capital_province = { geographical_region = world_europe_north }
+		capital_province ?= { geographical_region = world_europe_north }
 	}
 }
 
@@ -87,8 +86,7 @@ goidelic = {
 
 iberian = {
 	trigger = {
-		exists = capital_county
-		capital_county.culture = {
+		capital_county.culture ?= {
 			has_graphical_iberian_culture_group_trigger  = yes
 			OR = {
 				prev.religion = religion:christianity_religion
@@ -100,8 +98,7 @@ iberian = {
 
 andalusian = {
 	trigger = {
-		exists = capital_county
-		capital_county.culture = {
+		capital_county.culture ?= {
 			has_graphical_iberian_culture_group_trigger  = yes
 			prev.religion = religion:islam_religion
 		}
@@ -123,8 +120,7 @@ east_african = {
 ## Redefine western to exclude normans and goidelics from it
 western = {
 	trigger = {
-		exists = capital_county
-		capital_county.culture = {
+		capital_county.culture ?= {
 			OR = {
 				has_graphical_western_culture_group_trigger = yes
 				has_graphical_norse_culture_group_trigger = yes
@@ -136,8 +132,7 @@ western = {
 			has_graphical_goidelic_culture_group_trigger = yes
 			AND = {
 				government_has_flag = government_is_tribal
-				exists = capital_province
-				capital_province = { geographical_region = world_europe_north }
+				capital_province ?= { geographical_region = world_europe_north }
 			}
 		}
 	}
@@ -146,8 +141,7 @@ western = {
 ## Redefine mediterranean to exclude andalusians from it
 mediterranean = {
 	trigger = {
-		exists = capital_county
-		capital_county.culture = {
+		capital_county.culture ?= {
 			OR = {
 				has_graphical_mediterranean_culture_group_trigger = yes
 				AND = {
@@ -179,8 +173,7 @@ mediterranean = {
 ## Redefine MENA to exclude Africans from it
 mena = {
 	trigger = {
-		exists = capital_county
-		capital_county.culture = {
+		capital_county.culture ?= {
 			OR = {
 				has_graphical_mena_culture_group_trigger = yes
 				has_graphical_iranian_culture_group_trigger = yes
