@@ -1,6 +1,5 @@
 ﻿l_korean:
- PORTRAIT_MODIFIER_custom_special_male_empty:1 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
- PORTRAIT_MODIFIER_custom_special_boy_empty:1 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+
  PORTRAIT_MODIFIER_custom_special_no_blindfold:1 "@cfp_icon_remove! 안대 벗기"
  PORTRAIT_MODIFIER_custom_special_no_eye_patch:1 "@cfp_icon_remove! 애꾸눈 안대 벗기"
  PORTRAIT_MODIFIER_custom_special_no_eyeglasses:1 "@cfp_icon_remove! 안경 벗기"

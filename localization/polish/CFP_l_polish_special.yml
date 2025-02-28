@@ -1,9 +1,5 @@
 ﻿l_polish:
 
- PORTRAIT_MODIFIER_custom_special_male_empty:1 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
- PORTRAIT_MODIFIER_custom_special_boy_empty:1 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
- 
- ## CFP
  PORTRAIT_MODIFIER_custom_special_no_blindfold:1 "@cfp_icon_remove! Remove Blindfold"
  PORTRAIT_MODIFIER_custom_special_no_eye_patch:1 "@cfp_icon_remove! Remove Eye Patch"
  PORTRAIT_MODIFIER_custom_special_no_eyeglasses:1 "@cfp_icon_remove! Remove Spectacles"
