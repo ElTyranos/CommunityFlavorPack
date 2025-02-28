@@ -576,16 +576,8 @@
 	        base = 0
 	        modifier = {
 	            add = 120
-				faith = faith:catholic
-				exists = primary_title
-				primary_title = {
-					is_head_of_faith = yes
-				}
-				NOT = {
-					faith = {
-						has_doctrine_parameter = vows_of_poverty_active
-					}
-				}
+                portrait_religious_head_trigger = yes
+                portrait_religious_catholic_trigger = yes
 			}
 			modifier = {
 				factor = 0
