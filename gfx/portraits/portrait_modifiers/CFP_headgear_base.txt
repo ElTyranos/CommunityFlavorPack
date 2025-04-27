@@ -223,8 +223,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_iberian_common
-				range = { 0 1 }
+				template = cfp_iberian
+				accessory = male_headgear_secular_iberian_cfp_bonnet_common_01
 			}
 		}
 		weight = {
@@ -253,8 +253,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_iberian_low_nobility
-				range = { 0 1 }
+				template = cfp_iberian
+				accessory = male_headgear_secular_iberian_cfp_bonnet_low_01
 			}
 		}
 		weight = {
@@ -278,8 +278,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_iberian_high_nobility
-				range = { 0 1 }
+				template = cfp_iberian
+				accessory = male_headgear_secular_iberian_cfp_bonnet_high_01
 			}
 		}
 		weight = {
@@ -552,7 +552,6 @@ cfp_headgear_base = {
 
 ## Indians
 
-
 	cfp_indian_high_nobles = {
 		dna_modifiers = {
 			accessory = {
@@ -605,8 +604,8 @@ cfp_headgear_base = {
 		}
 	}
 
-
 ## Berbers
+
 	cfp_berber_high_nobles = {
 		dna_modifiers = {
 			accessory = {

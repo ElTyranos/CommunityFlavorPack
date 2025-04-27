@@ -3438,72 +3438,22 @@ special_genes = {
 
 			## Iberian
 
-			cfp_iberian_common = {
-				index = 208
-				male = {
-					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
-				}
-				female = {
-					1 = female_headgear_secular_iberian_cfp_bonnet_common_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_iberian_low_nobility = {
-				index = 209
-				male = {
-					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
-				}
-				female = {
-					1 = female_headgear_secular_iberian_cfp_bonnet_low_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_iberian_high_nobility = {
-				index = 210
-				male = {
-					1 = male_headgear_secular_iberian_cfp_bonnet_high_01
-				}
-				female = {
-					1 = female_headgear_secular_iberian_cfp_bonnet_high_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_iberian_aragonese_royalty = {
-				index = 211
-				male = {
-					1 = male_headgear_secular_iberian_cfp_aragonese_royalty_01
-				}
-				female = {
-					1 = female_headgear_secular_iberian_cfp_aragonese_royalty_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_iberian_castilian_royalty = {
-				index = 212
-				male = {
-					1 = male_headgear_secular_iberian_cfp_castilian_royalty_01
-				}
-				female = {
-					1 = female_headgear_secular_iberian_cfp_castilian_royalty_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_iberian_war_aragonese_royalty = {
+			cfp_iberian = {
 				index = 213
 				male = {
+					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
+					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
+					1 = male_headgear_secular_iberian_cfp_bonnet_high_01
+					1 = male_headgear_secular_iberian_cfp_aragonese_royalty_01
+					1 = male_headgear_secular_iberian_cfp_castilian_royalty_01
 					1 = male_headgear_secular_iberian_cfp_war_aragonese_royalty_01
 				}
 				female = {
+					1 = female_headgear_secular_iberian_cfp_bonnet_common_01
+					1 = female_headgear_secular_iberian_cfp_bonnet_low_01
+					1 = female_headgear_secular_iberian_cfp_bonnet_high_01
+					1 = female_headgear_secular_iberian_cfp_aragonese_royalty_01
+					1 = female_headgear_secular_iberian_cfp_castilian_royalty_01
 					1 = female_headgear_secular_iberian_cfp_war_aragonese_royalty_01
 				}
 				boy = male

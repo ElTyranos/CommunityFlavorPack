@@ -296,8 +296,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_iberian_war_aragonese_royalty
-				range = { 0 1 }
+				template = cfp_iberian
+				accessory = male_headgear_secular_iberian_cfp_war_aragonese_royalty_01
 			}
             accessory = {
                 mode = add
