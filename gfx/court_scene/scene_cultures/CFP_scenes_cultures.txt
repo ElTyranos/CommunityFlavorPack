@@ -26,6 +26,7 @@ cfp_byzantine = {
 # redefine byzantine so it supports other religions/iconoclasm
 byzantine = {
 	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
 		has_ep3_dlc_trigger = yes
 		has_graphical_byzantine_culture_group_trigger = yes
 		religion = religion:christianity_religion
@@ -35,6 +36,7 @@ byzantine = {
 
 cfp_byzantine_mena = {
 	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
 		OR = {
 			has_graphical_byzantine_culture_group_trigger = yes
 			has_graphical_cfp_byzantine_culture_group_trigger = yes
@@ -45,6 +47,7 @@ cfp_byzantine_mena = {
 
 cfp_byzantine_pagan = {
 	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
 		OR = {
 			has_graphical_byzantine_culture_group_trigger = yes
 			has_graphical_cfp_byzantine_culture_group_trigger = yes
@@ -141,6 +144,7 @@ western = {
 ## Redefine mediterranean to exclude andalusians from it
 mediterranean = {
 	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
 		capital_county.culture ?= {
 			OR = {
 				has_graphical_mediterranean_culture_group_trigger = yes
@@ -170,20 +174,56 @@ mediterranean = {
 	}
 }
 
-## Redefine MENA to exclude Africans from it
+## Redefine MENA to exclude Africa and Iberia from it
 mena = {
 	trigger = {
-		capital_county.culture ?= {
-			OR = {
-				has_graphical_mena_culture_group_trigger = yes
-				has_graphical_iranian_culture_group_trigger = yes
-				has_graphical_african_culture_group_trigger = yes
+		trigger_if = {
+			limit = {
+				has_mpo_dlc_trigger = no			
+			}
+			exists = capital_county
+			capital_county.culture = {
 				has_graphical_steppe_culture_group_trigger = yes
 			}
 		}
-		NOR = {
-			has_graphical_west_african_culture_group_trigger = yes
-			has_graphical_east_african_culture_group_trigger = yes
+		trigger_else = {
+			NOT = { government_has_flag = government_is_nomadic }
+			exists = capital_county
+			OR = {
+				capital_county = {
+					has_graphical_steppe_culture_group_trigger = yes
+					title_province ?= {
+						has_holding = yes
+						NOT = {
+							has_holding_type = tribal_holding
+						}
+					}
+				}
+				AND = {
+					capital_county.culture ?= {
+						has_graphical_steppe_culture_group_trigger = yes
+					}
+					capital_county = {
+						title_province ?= {
+							has_holding = yes
+							NOT = {
+								has_holding_type = tribal_holding
+							}
+						}
+					}
+				}
+				capital_county.culture ?= {
+					OR = {
+						has_graphical_mena_culture_group_trigger = yes
+						has_graphical_iranian_culture_group_trigger = yes
+						has_graphical_african_culture_group_trigger = yes
+					}
+				}
+			}
+			NOR = {
+				has_graphical_west_african_culture_group_trigger = yes
+				has_graphical_east_african_culture_group_trigger = yes
+			}
 		}
 	}
 }

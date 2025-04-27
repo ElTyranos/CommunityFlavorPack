@@ -1,4 +1,8 @@
-﻿# Head of faith will always get this if possible
+﻿### Brief: theocracy_government
+# Head of faith will always get this if possible
+#
+# This is referenced in code
+#
 theocracy_government = {
 	government_rules = {
 		religious = yes
@@ -6,7 +10,7 @@ theocracy_government = {
 	}
 
 	primary_holding = church_holding
-	valid_holdings = { castle_holding tribal_holding }
+	valid_holdings = { castle_holding tribal_holding nomad_holding herder_holding }
 	required_county_holdings = { church_holding castle_holding city_holding }
 
 	ai = {
@@ -21,7 +25,7 @@ theocracy_government = {
 		}
 	}
 
-	vassal_contract = { theocracy_government_obligations }
+	vassal_contract_group = theocracy_vassal
 
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
 	flag = government_is_theocracy

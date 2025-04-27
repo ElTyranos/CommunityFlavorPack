@@ -7,6 +7,48 @@
 		template = no_headgear
 	}
 
+	### MPO - Khans of the Steppe ###
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_commoner
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_nobility
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_royalty
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_imperial
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_war_nobility
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
 	## SP4 - Crowns of the World ##
 	
 	add_accessory_modifiers = {
@@ -579,7 +621,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_iberian_common
+		template = cfp_iberian
 	}
 
 	add_accessory_modifiers = {
@@ -592,11 +634,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_iberian_low_nobility 
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = fp2_christian_high_nobility
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
@@ -605,30 +642,10 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_iberian_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = fp2_christian_royalty
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iberian_castilian_royalty
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iberian_aragonese_royalty
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iberian_war_aragonese_royalty
 	}
 
 	add_accessory_modifiers = {

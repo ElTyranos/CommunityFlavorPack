@@ -97,6 +97,9 @@ special_genes = {
 					1 = m_hair_ep3_byzantine_04
 					1 = m_hair_sp4_western_01
 					1 = m_hair_sp4_mena_01
+					1 = m_hair_mpo_mongol_01
+					1 = m_hair_mpo_mongol_02
+					1 = m_hair_mpo_mongol_03
 				}
 
 				female = {
@@ -179,6 +182,9 @@ special_genes = {
 					1 = f_hair_ep3_byzantine_04_common
 					1 = f_hair_sp4_western_01
 					1 = f_hair_sp4_mena_01
+					1 = f_hair_mpo_mongol_01
+					1 = f_hair_mpo_mongol_02
+					1 = f_hair_mpo_mongol_03
 				}
 				boy = male
 				girl = female
@@ -1644,13 +1650,32 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			### MPO ###
+
+			mpo_mongol_hairstyles = {
+				index = 72
+				male = {
+					1 = m_hair_mpo_mongol_01
+					1 = m_hair_mpo_mongol_02
+					1 = m_hair_mpo_mongol_03
+
+				}
+				female = {
+					1 = f_hair_mpo_mongol_01
+					1 = f_hair_mpo_mongol_02
+					1 = f_hair_mpo_mongol_03
+				}
+				boy = male
+				girl = female
+			}
 	
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
 			
 			cfp_western_hairstyles_aging = {
-				index = 72
+				index = 73
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -1666,7 +1691,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_hairstyles_warrior = {
-				index = 73
+				index = 74
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1687,7 +1712,7 @@ special_genes = {
 			}
 			
 			cfp_hungarian_hairstyles_warrior = {
-				index = 74
+				index = 75
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07

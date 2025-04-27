@@ -207,6 +207,13 @@
 					1 = m_clothes_sec_pol_high_nob_02
 					1 = m_clothes_sec_pol_imperial_01
 					1 = m_clothes_sec_pol_war_nob_01
+
+					# ce2 #---------------------------------------------------------------------------------------
+					1 = m_clothes_sec_mpo_mongol_nob_01_lo
+					1 = m_clothes_sec_mpo_mongol_nob_01_hi
+					1 = m_clothes_sec_mpo_mongol_roy_01
+					1 = m_clothes_sec_mpo_mongol_imp_01
+					1 = m_clothes_sec_mpo_mongol_war_01
 				}
 
 				female = {
@@ -393,6 +400,13 @@
 					1 = f_clothes_sec_pol_high_nob_02
 					1 = f_clothes_sec_pol_imperial_01
 					1 = f_clothes_sec_pol_war_nob_01
+					
+					# ce2 #---------------------------------------------------------------------------------------
+					1 = f_clothes_sec_mpo_mongol_nob_01_lo
+					1 = f_clothes_sec_mpo_mongol_nob_01_hi
+					1 = f_clothes_sec_mpo_mongol_roy_01
+					1 = f_clothes_sec_mpo_mongol_imp_01
+					1 = f_clothes_sec_mpo_mongol_war_01
 				}
 
 				boy = male
@@ -2907,6 +2921,86 @@
 				girl = female				
 			}
 
+			### MPO - Khans of the Steppe ###
+				
+			mpo_mongol_commoner_clothes = {
+				index = 146
+
+				male = {
+					1 = m_clothes_sec_mpo_mongol_com_01
+
+				}
+				female = {
+					1 = f_clothes_sec_mpo_mongol_com_01
+				}
+				boy = male
+				girl = female				
+			}
+
+			mpo_mongol_low_nobility_clothes = {
+				index = 147
+				male = {
+					1 = m_clothes_sec_mpo_mongol_nob_01_lo
+
+				}
+				female = {
+					1 = f_clothes_sec_mpo_mongol_nob_01_lo
+				}
+				boy = male
+				girl = female				
+			}
+
+			mpo_mongol_high_nobility_clothes = {
+				index = 148
+
+				male = {
+					1 = m_clothes_sec_mpo_mongol_nob_01_hi
+				}
+				female = {
+					1 = f_clothes_sec_mpo_mongol_nob_01_hi
+				}
+				boy = male
+				girl = female
+			}
+
+			mpo_mongol_royalty_clothes = {
+				index = 149
+
+				male = {
+					1 = m_clothes_sec_mpo_mongol_roy_01
+				}
+				female = {
+					1 = f_clothes_sec_mpo_mongol_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mpo_mongol_imperial_clothes = {
+				index = 150
+				male = {
+					1 = m_clothes_sec_mpo_mongol_imp_01
+				}
+				female = {
+					1 = f_clothes_sec_mpo_mongol_imp_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mpo_mongol_war_nobility_clothes = {
+				index = 151
+
+				male = {
+					1 = m_clothes_sec_mpo_mongol_war_01
+				}
+				female = {
+					1 = f_clothes_sec_mpo_mongol_war_01
+				}
+				boy = male
+				girl = female
+			}
+
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
@@ -2914,7 +3008,7 @@
 		## Western
 
 			cfp_bedchamber = {
-				index = 146
+				index = 152
 
 				male = {
 					1 = cfp_male_clothes_western_bedchamber_01_common
@@ -2929,7 +3023,7 @@
 			}
 			
 			cfp_western_high_nobility_clothes_late = {
-				index = 147
+				index = 153
 				male = {
 					1 = male_clothes_secular_western_cfp_doublet_01
 					1 = male_clothes_secular_western_cfp_doublet_02
@@ -2940,7 +3034,7 @@
 			}
 
 			cfp_western_war_plate_armor = {
-				index = 148
+				index = 154
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_05
@@ -2957,7 +3051,7 @@
 		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
-				index = 149
+				index = 155
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
 				}
@@ -2971,7 +3065,7 @@
 		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
-				index = 150
+				index = 156
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
 				}
@@ -2986,7 +3080,7 @@
 		## Javanese ## 
 			
 			cfp_javanese_common = {
-				index = 151
+				index = 157
 				male = {	
 					1 = male_clothes_secular_western_nudity_01
 				}
@@ -2999,7 +3093,7 @@
 			}
 			
 			cfp_javanese_nobility = {
-				index = 152
+				index = 158
 				male = {	
 					1 = male_clothes_secular_java_cfp_high_nobility_01
 				}
@@ -3012,7 +3106,7 @@
 			}
 			
 			cfp_javanese_royalty = {
-				index = 153
+				index = 159
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
 				}
@@ -3027,7 +3121,7 @@
 		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
-				index = 154
+				index = 160
 				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -3039,7 +3133,7 @@
 			}
 		
 			cfp_religious_catholic_cardinal_clothes = {
-				index = 155
+				index = 161
 				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -3051,7 +3145,7 @@
 			}
 		
 			cfp_religious_orthodox_devoted_clothes = {
-				index = 156
+				index = 162
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -3063,7 +3157,7 @@
 			}
 		
 			cfp_religious_muslim_high_turkic_clothes = {
-				index = 157
+				index = 163
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
