@@ -84,6 +84,11 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 		        has_ep2_dlc_trigger = yes
                 portrait_era4_trigger = yes
 				cfp_clothing_no_override_trigger = yes
+				NOR = {
+					portrait_west_slavic_clothing_trigger = yes
+					portrait_sp2_western_clothing_trigger = yes
+					portrait_fp2_iberian_christian_clothing_trigger = yes
+				}
 		    }
             modifier = {
                 add = 50
@@ -94,6 +99,11 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 has_ep2_dlc_trigger = yes
                 portrait_era4_trigger = yes
 				cfp_clothing_no_override_trigger = yes
+				NOR = {
+					portrait_west_slavic_clothing_trigger = yes
+					portrait_sp2_western_clothing_trigger = yes
+					portrait_fp2_iberian_christian_clothing_trigger = yes
+				}
             }
         }
 	}
