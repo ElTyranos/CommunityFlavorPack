@@ -183,7 +183,20 @@ mena = {
 			}
 			exists = capital_county
 			capital_county.culture = {
-				has_graphical_steppe_culture_group_trigger = yes
+				OR = {
+					has_graphical_steppe_culture_group_trigger = yes
+					has_graphical_mena_culture_group_trigger = yes
+					has_graphical_iranian_culture_group_trigger = yes
+					has_graphical_african_culture_group_trigger = yes				
+					AND = {
+						has_graphical_iberian_culture_group_trigger  = yes
+						prev.religion = religion:islam_religion
+					}
+				}
+			}
+			NOR = {
+				has_graphical_east_african_culture_group_trigger = yes
+				has_graphical_west_african_culture_group_trigger = yes
 			}
 		}
 		trigger_else = {
@@ -191,7 +204,7 @@ mena = {
 			exists = capital_county
 			OR = {
 				capital_county = {
-					has_graphical_steppe_culture_group_trigger = yes
+					culture = { has_graphical_steppe_culture_group_trigger = yes }
 					title_province ?= {
 						has_holding = yes
 						NOT = {
