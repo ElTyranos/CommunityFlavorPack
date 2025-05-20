@@ -1,6 +1,6 @@
 ﻿# texture and enviroment should be added in pairs. In code they will be stored in separate arrays, but their index will match up giving each texture correct lighting
 barbershop_background = {
-	
+		
 	##########################################
 
 	texture = {
@@ -55,6 +55,15 @@ barbershop_background = {
 		reference = "environment_event_farms"
 	}
 
+	##########################################
+
+	texture = {
+		reference = "main_menu/mpo_frontend_nomad.dds"
+	}
+	environment = {
+		reference = "environment_fp3_frontend_iranian_main" #TODO_MPO
+	}
+	
 	##########################################
 
 	texture = {
@@ -511,7 +520,7 @@ barbershop_background = {
 		reference = "event_scenes/desert_settlement.dds"
 	}
 	environment = {
-		reference = "environment_travel_desert_settlement"
+		reference = "environment_travel_desert"
 	}
 
 	##########################################
@@ -520,7 +529,7 @@ barbershop_background = {
 		reference = "event_scenes/desert_nomad.dds"
 	}
 	environment = {
-		reference = "environment_travel_desert_nomad"
+		reference = "environment_travel_desert"
 	}
 
 	##########################################
@@ -1555,6 +1564,87 @@ barbershop_background = {
 	}
 	environment = {
 		reference = "environment_bp3_wetlands_winter"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_camp_steppe.dds"
+	}
+	environment = {
+		reference = "environment_mpo_camp_steppe"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_campfire_steppe.dds"
+	}
+	environment = {
+		reference = "environment_mpo_campfire_steppe"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_city_steppe.dds"
+	}
+	environment = {
+		reference = "environment_mpo_city_steppe"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_hunt_steppe.dds"
+	}
+	environment = {
+		reference = "environment_mpo_hunt_steppe"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_raid_burning_asian.dds"
+	}
+	environment = {
+		reference = "environment_mpo_raid_burning_asian"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_rural_village_asian.dds"
+	}
+	environment = {
+		reference = "environment_mpo_rural_village_asian"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_steppe_evening.dds"
+	}
+	environment = {
+		reference = "environment_mpo_steppe_evening"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_temple_steppe.dds"
+	}
+	environment = {
+		reference = "environment_mpo_temple_steppe"
+	}
+	
+	##########################################
+
+	texture = {
+		reference = "event_scenes/mpo_tent_interior_mongol.dds"
+	}
+	environment = {
+		reference = "environment_mpo_tent_interior_mongol"
 	}
 	
 	##########################################
