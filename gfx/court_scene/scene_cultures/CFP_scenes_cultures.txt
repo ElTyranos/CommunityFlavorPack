@@ -170,13 +170,17 @@ mediterranean = {
         exists = capital_county
 		capital_county = {
 			OR = {
-				culture = { has_graphical_mediterranean_culture_group_trigger = yes }
-				AND = {
-					has_graphical_iberian_culture_group_trigger  = yes
-					NOR = {
-						religion = religion:christianity_religion
-						religion = religion:islam_religion
-						religion = religion:basque_religion
+				culture = { 
+					OR = {
+						has_graphical_mediterranean_culture_group_trigger = yes
+						AND = {
+							has_graphical_iberian_culture_group_trigger  = yes
+							NOR = {
+								prev.religion = religion:christianity_religion
+								prev.religion = religion:islam_religion
+								prev.religion = religion:basque_religion
+							}
+						}
 					}
 				}
                 title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
