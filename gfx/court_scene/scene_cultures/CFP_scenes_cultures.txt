@@ -13,6 +13,7 @@ hre = {
 
 cfp_byzantine = {
 	trigger = {
+        NOT = { government_has_flag = government_is_nomadic }
 		NAND = {
 			has_ep3_dlc_trigger = yes
 			has_graphical_byzantine_culture_group_trigger = yes
@@ -89,11 +90,14 @@ goidelic = {
 
 iberian = {
 	trigger = {
-		capital_county.culture ?= {
-			has_graphical_iberian_culture_group_trigger  = yes
-			OR = {
-				prev.religion = religion:christianity_religion
-				prev.religion = religion:basque_religion
+		exists = capital_county
+		capital_county = {
+			culture = {
+				has_graphical_iberian_culture_group_trigger  = yes
+				OR = {
+					prev.religion = religion:christianity_religion
+					prev.religion = religion:basque_religion
+				}
 			}
 		}
 	}
@@ -101,34 +105,52 @@ iberian = {
 
 andalusian = {
 	trigger = {
-		capital_county.culture ?= {
-			has_graphical_iberian_culture_group_trigger  = yes
-			prev.religion = religion:islam_religion
+		exists = capital_county
+		capital_county = {
+			culture = {
+				has_graphical_iberian_culture_group_trigger  = yes
+				prev.religion = religion:islam_religion
+			}
 		}
 	}
 }
 
 west_african = {
 	trigger = {
+        exists = capital_county
+        capital_county.culture = {
+			has_graphical_african_culture_group_trigger = yes
+			NOT = { prev.religion = religion:islam_religion }
+		}
 		has_graphical_west_african_culture_group_trigger = yes
 	}
 }
 
 east_african = {
 	trigger = {
+        exists = capital_county
+        capital_county.culture = {
+			has_graphical_african_culture_group_trigger = yes
+			NOT = { prev.religion = religion:islam_religion }
+		}
 		has_graphical_east_african_culture_group_trigger = yes
 	}
 }
 
-## Redefine western to exclude normans and goidelics from it
+## OVERWRITTING VANILLA
+
 western = {
 	trigger = {
-		capital_county.culture ?= {
-			OR = {
-				has_graphical_western_culture_group_trigger = yes
-				has_graphical_norse_culture_group_trigger = yes
-			}
-		}
+        NOT = { government_has_flag = government_is_nomadic }
+        exists = capital_county
+		capital_county = {
+            OR = {
+                culture = { has_graphical_western_culture_group_trigger = yes }
+                # culture = { has_graphical_norse_culture_group_trigger = yes }
+                title_province = { steppe_building_gfx_use_western_trigger = yes }
+            }
+        }
+		# CFP: exclude normans and goidelics from it
 		NOR = {
 			has_graphical_hre_culture_group_trigger = yes
 			has_graphical_norman_culture_group_trigger = yes
@@ -144,18 +166,20 @@ western = {
 ## Redefine mediterranean to exclude andalusians from it
 mediterranean = {
 	trigger = {
-		NOT = { government_has_flag = government_is_nomadic }
-		capital_county.culture ?= {
+        NOT = { government_has_flag = government_is_nomadic }
+        exists = capital_county
+		capital_county = {
 			OR = {
-				has_graphical_mediterranean_culture_group_trigger = yes
+				culture = { has_graphical_mediterranean_culture_group_trigger = yes }
 				AND = {
 					has_graphical_iberian_culture_group_trigger  = yes
 					NOR = {
-						prev.religion = religion:christianity_religion
-						prev.religion = religion:islam_religion
-						prev.religion = religion:basque_religion
+						religion = religion:christianity_religion
+						religion = religion:islam_religion
+						religion = religion:basque_religion
 					}
 				}
+                title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
 			}
 		}
 		trigger_if = {
@@ -165,7 +189,6 @@ mediterranean = {
 			NOT = { has_graphical_byzantine_culture_group_trigger = yes }
 		}
 		trigger_if = {
-			limit = {}
 			NOR = {
 				has_graphical_papal_culture_group_trigger = yes
 				has_graphical_cfp_byzantine_culture_group_trigger = yes
@@ -174,69 +197,78 @@ mediterranean = {
 	}
 }
 
-## Redefine MENA to exclude Africa and Iberia from it
+## Redefine MENA to exclude Africa (if not muslim) and Iberia from it
 mena = {
-	trigger = {
-		trigger_if = {
-			limit = {
-				has_mpo_dlc_trigger = no			
-			}
-			exists = capital_county
-			capital_county.culture = {
-				OR = {
-					has_graphical_steppe_culture_group_trigger = yes
-					has_graphical_mena_culture_group_trigger = yes
-					has_graphical_iranian_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes				
-					AND = {
-						has_graphical_iberian_culture_group_trigger  = yes
-						prev.religion = religion:islam_religion
-					}
-				}
-			}
-			NOR = {
-				has_graphical_east_african_culture_group_trigger = yes
-				has_graphical_west_african_culture_group_trigger = yes
-			}
-		}
-		trigger_else = {
-			NOT = { government_has_flag = government_is_nomadic }
-			exists = capital_county
-			OR = {
-				capital_county = {
-					culture = { has_graphical_steppe_culture_group_trigger = yes }
-					title_province ?= {
-						has_holding = yes
-						NOT = {
-							has_holding_type = tribal_holding
-						}
-					}
-				}
-				AND = {
-					capital_county.culture ?= {
-						has_graphical_steppe_culture_group_trigger = yes
-					}
-					capital_county = {
-						title_province ?= {
-							has_holding = yes
-							NOT = {
-								has_holding_type = tribal_holding
+    trigger = {
+        trigger_if = {
+            limit = {
+                has_mpo_dlc_trigger = no            
+            }
+            exists = capital_county
+            capital_county = {
+                OR = {
+                    culture = {
+                        OR = {
+							NAND = {
+								has_graphical_african_culture_group_trigger = yes
+								NOT = { prev.religion = religion:islam_religion }
+							}
+                            has_graphical_iranian_culture_group_trigger = yes
+                            # AND = {
+                                # has_graphical_iberian_culture_group_trigger  = yes
+                                # prev.religion = religion:islam_religion
+                            # }
+                        }
+                    }
+                    AND = {
+                        culture = {
+                            has_graphical_steppe_culture_group_trigger = yes
+                        }
+                        title_province = {
+                            steppe_building_gfx_use_mediterranean_trigger = no
+                            steppe_building_gfx_use_indian_trigger = no
+                            steppe_building_gfx_use_western_trigger = no
+                        }
+                    }
+                }
+            }
+        }
+        trigger_else = {
+            NOT = { government_has_flag = government_is_nomadic }
+            NOT = { has_graphical_cfp_byzantine_culture_group_trigger = yes }
+            exists = capital_county
+            OR = {
+                capital_county = {
+                    culture = { has_graphical_steppe_culture_group_trigger = yes }
+                    title_province = {
+                        steppe_building_gfx_use_mediterranean_trigger = no
+                        steppe_building_gfx_use_indian_trigger = no
+                        steppe_building_gfx_use_western_trigger = no
+                    }
+                    title_province ?= {
+                        has_holding = yes
+                        NOT = {
+                            has_holding_type = tribal_holding
+                        }
+                    }
+                }
+                capital_county.culture = {
+                    OR = {
+						AND = {
+							has_graphical_mena_culture_group_trigger = yes
+							NAND = {
+								has_graphical_african_culture_group_trigger = yes
+								NOT = { prev.religion = religion:islam_religion }
 							}
 						}
-					}
-				}
-				capital_county.culture ?= {
-					OR = {
-						has_graphical_mena_culture_group_trigger = yes
-						has_graphical_iranian_culture_group_trigger = yes
-						has_graphical_african_culture_group_trigger = yes
-					}
-				}
-			}
-			NOR = {
-				has_graphical_west_african_culture_group_trigger = yes
-				has_graphical_east_african_culture_group_trigger = yes
-			}
-		}
-	}
+                        has_graphical_iranian_culture_group_trigger = yes        
+                        # AND = {
+                            # has_graphical_iberian_culture_group_trigger  = yes
+                            # prev.religion = religion:islam_religion
+                        # }
+                    }
+                }
+            }
+        }
+    }
 }
