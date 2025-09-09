@@ -59,7 +59,6 @@ has_graphical_west_african_culture_group_trigger = {
 }
 
 has_graphical_east_african_culture_group_trigger = {
-	NOT = { faith.religion = religion:islam_religion }
 	culture = {
 		OR = {
 			has_cultural_pillar = heritage_east_african
