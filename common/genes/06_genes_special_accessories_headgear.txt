@@ -184,6 +184,19 @@ special_genes = {
 
 					# MPO #
 					1 = m_headgear_sec_mpo_mongol_war_nob_01
+					
+					# TGP #
+					1 = m_headgear_sec_tgp_chinese_nob_01
+					1 = m_headgear_sec_tgp_chinese_war_nob_02
+					1 = m_headgear_sec_tgp_chinese_com_01
+					1 = m_headgear_sec_tgp_chinese_com_02
+					1 = m_headgear_sec_tgp_japanese_roy_01
+					1 = m_headgear_sec_tgp_japanese_imp_01
+					1 = m_headgear_sec_tgp_japanese_nob_01
+					1 = m_headgear_sec_tgp_japanese_war_nob_01
+					1 = m_headgear_rel_tgp_shinto_priest
+					1 = m_headgear_sec_tgp_southeast_nob_01
+					1 = m_headgear_sec_tgp_korean_imp_01
 
 				}
 
@@ -346,6 +359,14 @@ special_genes = {
 					1 = f_headgear_sec_mpo_mongol_nob_01
 					1 = f_headgear_sec_mpo_mongol_nob_02
 					1 = f_headgear_sec_mpo_mongol_war_nob_01
+
+					#TGP
+					1 = f_headgear_sec_tgp_chinese_hi_nob_01
+					1 = f_headgear_sec_tgp_chinese_hi_nob_02
+					1 = f_headgear_sec_tgp_chinese_roy_01
+					1 = f_headgear_sec_tgp_chinese_war_nob_02
+					1 = f_headgear_sec_tgp_chinese_imp_01
+					1 = f_headgear_sec_tgp_southeast_nob_01
 
 				}
 
@@ -514,7 +535,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
 
 			mena_low_nobility = {
 				index = 10
@@ -847,7 +867,6 @@ special_genes = {
 				girl = female
 			}
 
-
 			northern_war = {
 				index = 32
 				male = {
@@ -927,7 +946,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
 
 			byzantine_high_nobility = {
 				index = 36
@@ -3005,6 +3023,333 @@ special_genes = {
 					1 = f_headgear_steppe_roy_01
 
 				}
+				boy = male
+				girl = female
+			}
+			## TGP ##
+
+			tgp_chinese_imperial = {
+				index = 183
+				male = {
+				    1 = m_headgear_sec_tgp_chinese_imp_02
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_imp_01
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era2_imperial = { # Tongtianguan crown of Song era
+				index = 184
+				male = {
+					1 = m_headgear_sec_tgp_chinese_imp_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_imp_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			tgp_chinese_era1_war_nobility = {
+				index = 185
+				male = {
+				    1 = m_headgear_sec_tgp_chinese_war_nob_01_lo
+				    1 = m_headgear_sec_tgp_chinese_war_nob_01_hi
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_war_nob_01_lo
+				    1 = f_headgear_sec_tgp_chinese_war_nob_01_hi
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era2_war_nobility = {
+				index = 186
+				male = {
+				    2 = m_headgear_sec_tgp_chinese_war_nob_02
+				    1 = m_headgear_sec_tgp_chinese_war_nob_02_mask
+				}
+				female = {
+					2 = f_headgear_sec_tgp_chinese_war_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era1_nobility = { # Tang Dynasty
+				index = 187
+				male = {
+					1 = m_headgear_sec_tgp_chinese_hi_nob_01
+				}
+				female = {
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era2_nobility = { # Song Dynasty
+				index = 188
+				male = {
+					1 = m_headgear_sec_tgp_chinese_nob_01
+					1 = m_headgear_sec_tgp_chinese_nob_02
+				}
+				female = {
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_high_nobility = {
+				index = 189
+				male = {
+					1 = m_headgear_sec_tgp_chinese_nob_01
+					1 = m_headgear_sec_tgp_chinese_nob_02
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_hi_nob_01
+					1 = f_headgear_sec_tgp_chinese_hi_nob_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_commoner = {
+				index = 190
+				male = {
+					1 = m_headgear_sec_tgp_chinese_com_01
+					1 = m_headgear_sec_tgp_chinese_com_02
+				}
+				female = {
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_royalty = {
+				index = 191
+				male = {
+					1 = m_headgear_sec_tgp_chinese_roy_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_roy_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_royalty = {
+				index = 192
+				male = {
+					1 = m_headgear_sec_tgp_japanese_roy_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_chinese_roy_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_imperial = {
+				index = 193
+				male = {
+					#1 = m_headgear_sec_tgp_japanese_imp_01
+					1 = m_headgear_sec_tgp_japanese_imp_02
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_japanese_imp_01
+				}
+
+				boy = male
+				girl = female
+
+			}	
+
+			tgp_shinto_priest = {
+				index = 194
+				male = {
+					1 = m_headgear_rel_tgp_shinto_priest
+				}
+				female = {
+					1 = f_headgear_rel_tgp_shinto_priest
+				}
+
+				boy = male
+				girl = female
+			
+			}
+
+			tgp_japanese_war_nobility = {
+				index = 195
+				male = {
+					1 = m_headgear_sec_tgp_japanese_war_nob_01
+					1 = m_headgear_sec_tgp_japanese_war_nob_02_lo
+				}
+				female = {
+					1 = f_headgear_sec_tgp_japanese_war_nob_01
+					1 = f_headgear_sec_tgp_japanese_war_nob_02_lo
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_war_high_nobility = {
+				index = 196
+				male = {
+					1 = m_headgear_sec_tgp_japanese_war_nob_02_hi
+				}
+				female = {
+					1 = f_headgear_sec_tgp_japanese_war_nob_02_hi
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_high_nobility = {
+				index = 197
+				male = {
+					1 = m_headgear_sec_tgp_japanese_nob_01
+				}
+				female = {
+					#1 = f_headgear_sec_tgp_japanese_nob_01
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_nobility = {
+				index = 198
+				male = {
+					1 = m_headgear_sec_tgp_japanese_war_nob_01
+				}
+				female = {
+				#	1 = m_headgear_sec_tgp_japanese_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_commoner = {
+				index = 199
+				male = {
+					1 = m_headgear_sec_tgp_japanese_com_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_japanese_com_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_southeast_nobility = {
+				index = 200
+				male = {
+					1 = m_headgear_sec_tgp_southeast_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_korean_imperial = {
+				index = 201
+				male = {
+					1 = m_headgear_sec_tgp_korean_imp_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_shogun = {
+				index = 202
+				male = {
+					1 = m_headgear_sec_tgp_japanese_imp_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_japanese_imp_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_korean_nobility = {
+				index = 203
+				male = {
+					1 = m_headgear_sec_tgp_korean_nob_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_southeast_royal = {
+				index = 204
+				male = {
+					1 = male_headgear_secular_ep1_indian_royalty_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_southeast_imperial = {
+				index = 205
+				male = {
+					1 = male_headgear_secular_ep1_diamond_crown
+				}
+				female = {
+					1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_ainu_commoner = {
+				index = 206
+				male = {
+					2 = empty
+					1 = m_headgear_sec_tgp_chinese_com_01
+					1 = male_headgear_secular_fp1_common_02
+				}
+				female = {
+					1 = empty
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_northern_common_01
+				}
+
 				boy = male
 				girl = female
 			}

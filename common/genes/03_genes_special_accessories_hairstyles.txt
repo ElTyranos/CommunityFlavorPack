@@ -182,9 +182,21 @@ special_genes = {
 					1 = f_hair_ep3_byzantine_04_common
 					1 = f_hair_sp4_western_01
 					1 = f_hair_sp4_mena_01
-					1 = f_hair_mpo_mongol_01
-					1 = f_hair_mpo_mongol_02
-					1 = f_hair_mpo_mongol_03
+
+					# MPO
+					1 = m_hair_mpo_mongol_01
+					1 = m_hair_mpo_mongol_02
+					1 = m_hair_mpo_mongol_03
+
+					# TGP
+					1 = m_hair_tgp_chinese_01
+					1 = m_hair_tgp_chinese_02
+					1 = m_hair_tgp_chinese_03
+					1 = m_hair_tgp_chinese_04
+					1 = m_hair_tgp_chinese_04_bald
+					1 = m_hair_tgp_chinese_02_bald
+					1 = m_hair_tgp_japanese_01
+					1 = m_hair_tgp_japanese_02
 				}
 				boy = male
 				girl = female
@@ -254,6 +266,27 @@ special_genes = {
 					1 = female_hair_northern_03
 					1 = female_hair_steppe_01
 					1 = female_hair_steppe_02
+
+					# MPO
+					1 = f_hair_mpo_mongol_01
+					1 = f_hair_mpo_mongol_02
+					1 = f_hair_mpo_mongol_03
+
+					# TGP
+					1 = f_hair_tgp_chinese_01
+					1 = f_hair_tgp_chinese_01_common
+					1 = f_hair_tgp_chinese_02
+					1 = f_hair_tgp_chinese_02_common
+					1 = f_hair_tgp_chinese_03
+					1 = f_hair_tgp_chinese_03_common
+					1 = f_hair_tgp_chinese_04
+					1 = f_hair_tgp_chinese_04_common
+					1 = f_hair_tgp_chinese_05
+					1 = f_hair_tgp_chinese_05_common
+					1 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_02
+					1 = f_hair_tgp_japanese_03
+					1 = f_hair_tgp_japanese_04
 				}
 				boy = male
 				girl = female
@@ -1669,13 +1702,150 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			### TGP ###
+
+			tgp_chinese_hairstyles = {
+				index = 73
+				male = {
+					1 = m_hair_tgp_chinese_01
+					1 = m_hair_tgp_chinese_02
+					1 = m_hair_tgp_chinese_03
+					1 = m_hair_tgp_chinese_04
+
+				}
+				female = {
+					1 = f_hair_tgp_chinese_01
+					1 = f_hair_tgp_chinese_01_common
+					1 = f_hair_tgp_chinese_02
+					1 = f_hair_tgp_chinese_02_common
+					1 = f_hair_tgp_chinese_03
+					1 = f_hair_tgp_chinese_03_common
+					1 = f_hair_tgp_chinese_04
+					1 = f_hair_tgp_chinese_04_common
+					1 = f_hair_tgp_chinese_05
+					1 = f_hair_tgp_chinese_05_common	
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_hairstyles = {
+				index = 74
+				male = {
+					1 = m_hair_tgp_japanese_01
+					1 = m_hair_tgp_japanese_02
+				}
+				female = {
+					1 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_04
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_high_nobility_hairstyles = {
+				index = 75
+				male = {
+					1 = m_hair_tgp_japanese_01
+					1 = m_hair_tgp_japanese_02
+				}
+				female = {
+					3 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_02
+					1 = f_hair_tgp_japanese_03
+					2 = f_hair_tgp_japanese_04
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_royal_hairstyles = {
+				index = 76
+				male = {
+					1 = m_hair_tgp_japanese_01
+					1 = m_hair_tgp_japanese_02
+				}
+				female = {
+					1 = f_hair_tgp_japanese_02
+					1 = f_hair_tgp_japanese_03
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_children_hairstyles = {
+				index = 77
+				male = {
+					1 = male_hair_western_01
+					1 = male_hair_western_05
+					1 = male_hair_western_06
+					3 = male_hair_byzantine_02
+					1 = male_hair_indian_03
+					1 = male_hair_western_baby_01
+				}
+				female = {
+					1 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_04
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_southeast_hairstyles = {
+				index = 78
+				male = {
+					3 = male_hair_indian_01
+					3 = male_hair_indian_02
+					3 = male_hair_indian_03
+					2 = m_hair_tgp_chinese_04
+					1 = male_hair_fp2_iberian_muslim_03
+				}
+				female = {
+					1 = female_hair_indian_01
+					1 = female_hair_indian_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_ainu_hairstyles = {
+				index = 79
+				male = {
+					2 = male_hair_western_08
+					2 = male_hair_mena_04
+					2 = male_hair_indian_03
+					1 = male_hair_fp1_01
+					1 = male_hair_fp1_06
+					5 = male_hair_fp2_iberian_christian_02
+					2 = m_hair_fp3_iranian_03
+					2 = m_hair_ep3_byzantine_01
+				}
+				female = {
+					1 = female_hair_fp2_iberian_christian_01
+					1 = female_hair_fp2_iberian_christian_02
+					1 = female_hair_fp2_iberian_christian_03
+					1 = f_hair_fp3_iranian_03_common
+					1 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_04
+				}
+
+				boy = male
+				girl = female
+			}
 	
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
 			
 			cfp_western_hairstyles_aging = {
-				index = 73
+				index = 80
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -1691,7 +1861,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_hairstyles_warrior = {
-				index = 74
+				index = 81
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1712,7 +1882,7 @@ special_genes = {
 			}
 			
 			cfp_hungarian_hairstyles_warrior = {
-				index = 75
+				index = 82
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07

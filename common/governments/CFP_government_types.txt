@@ -7,8 +7,9 @@ theocracy_government = {
 	government_rules = {
 		religious = yes
 		inherit_from_dynastic_government = no
-		royal_court = yes # CFP: unlocks royal court for the pope
 	}
+
+	royal_court = top_liege # CFP: unlocks royal court for the pope
 
 	primary_holding = church_holding
 	valid_holdings = { castle_holding tribal_holding nomad_holding herder_holding temple_citadel_holding }
