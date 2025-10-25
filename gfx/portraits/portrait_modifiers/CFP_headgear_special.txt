@@ -162,7 +162,7 @@
 				template = cfp_anglo_saxon_royalty
 				range = { 0 1 }
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
@@ -182,7 +182,7 @@
 			}
 		}
 	}
-	
+
 	cfp_latin_venetian_royalty = {
 		dna_modifiers = {
 			accessory = {
@@ -209,7 +209,7 @@
 			}
 		}
 	}
-	
+
 	cfp_iberian_castilian_royalty = {
 		dna_modifiers = {
 			accessory = {
@@ -386,5 +386,5 @@
 			}
 		}
 	}
-	
+
 }

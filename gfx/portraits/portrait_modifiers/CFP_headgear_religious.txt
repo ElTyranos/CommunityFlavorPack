@@ -3,7 +3,7 @@
 	usage = game
 	selection_behavior = weighted_random
 	priority = 5
-	
+
 ## Africans ##
 
 	cfp_african_religious_masks = {
@@ -37,7 +37,7 @@
 			}
 	    }
 	}
-	
+
 ## Orthodox ##
 
 	cfp_religious_orthodox_devoted = {
@@ -122,7 +122,7 @@
 			}
 		}
 	}
-	
+
 	cfp_religious_catholic_high_northern = {
 		dna_modifiers = {
 			accessory = {
@@ -201,7 +201,7 @@
 			}
 	    }
 	}
-	
+
 	cfp_catholic_head = {
 		outfit_tags = { rank_headgear }
 		usage = game
@@ -283,7 +283,7 @@
 				template = cfp_religious_catholic_head_early
 				range = { 0 1 }
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
@@ -319,7 +319,7 @@
 			}
 	    }
 	}
-	
+
 	cfp_religious_jewish_common_mena = {
 	    dna_modifiers = {
 	        accessory = {
@@ -338,7 +338,7 @@
 			}
 	    }
 	}
-	
+
 	cfp_religious_jewish_common_andalusian = {
 	    dna_modifiers = {
 	        accessory = {
@@ -357,9 +357,9 @@
 			}
 	    }
 	}
-	
+
 ## Muslim ##
-	
+
 	cfp_religious_muslim_high_turkic_headgear = {
 	    dna_modifiers = {
 	        accessory = {

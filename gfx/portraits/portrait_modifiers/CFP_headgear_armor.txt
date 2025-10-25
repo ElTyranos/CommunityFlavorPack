@@ -495,7 +495,7 @@
             }
         }
     }
-	
+
 	cfp_mena_war_high_medieval = {
 		dna_modifiers = {
 			accessory = {
@@ -577,7 +577,7 @@
             }
         }
 	}
-	
+
 	cfp_afr_berber_war_low = {
 		dna_modifiers = {
 			accessory = {
@@ -634,7 +634,7 @@
 			}
 		}
 	}
-	
+
 	cfp_andalusian_war_high_nobles = {
 		dna_modifiers = {
 			accessory = {
@@ -695,7 +695,7 @@
             }
 		}
 	}
-	
+
 	cfp_iranian_war_high_medieval = {
 		dna_modifiers = {
 			accessory = {
