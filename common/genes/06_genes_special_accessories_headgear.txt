@@ -3357,9 +3357,9 @@ special_genes = {
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
-			
+
 			cfp_western_era3_war_nobility = {
-				index = 185
+				index = 207
 				male = {
 					5 = male_headgear_secular_western_war_flat_top_01
 					5 = male_headgear_secular_western_war_topf_01
@@ -3381,9 +3381,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_western_war_high_nobility = {
-				index = 186
+				index = 208
 				male = {
 					1 = male_headgear_secular_western_war_high_nobility_01
 					1 = male_headgear_secular_dde_hre_war_high_nobility_01
@@ -3393,9 +3393,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_western_war_plate_armor = {
-				index = 187
+				index = 209
 				male = {
 					1 = male_headgear_secular_western_cfp_war_great_bascinet_01 # fullplate
 					2 = male_headgear_secular_western_cfp_war_bascinet_01 # fullplate
@@ -3411,9 +3411,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_crusades_western_commoner = {
-				index = 188
+				index = 210
 				male = {
 					1 = male_cloaks_secular_western_cfp_crusades_hood_03
 					
@@ -3425,9 +3425,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_crusades_western = {
-				index = 189
+				index = 211
 				male = {
 					4 = male_cloaks_secular_western_cfp_crusades_hood_01
 					1 = male_headgear_secular_western_pillbox_cfp_crusades_01
@@ -3445,11 +3445,11 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			# North
 
 			cfp_anglo_saxon_royalty = {
-				index = 190
+				index = 212
 				male = {
 					1 = male_headgear_secular_northern_royalty_suttonhoo_01
 				}
@@ -3459,9 +3459,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_norman_sicily_war = {
-				index = 191
+				index = 213
 				male = {
 					1 = male_headgear_secular_latin_war_norman_01
 					1 = male_headgear_secular_latin_war_norman_02
@@ -3473,7 +3473,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			# Greek
 			
 			cfp_hungarian_high_nobility = {
@@ -3499,9 +3499,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_hungarian_war = {
-				index = 194
+				index = 215
 				male = {
 					4 = male_headgears_secular_hungarian_war_helmet_01
 					1 = male_headgears_secular_slavic_war_helmet_01
@@ -3667,7 +3667,7 @@ special_genes = {
 			}
 
 			cfp_slavic_war = {
-				index = 205
+				index = 219
 				male = {
 					4 = male_headgears_secular_slavic_war_helmet_01
 					4 = male_headgears_secular_slavic_war_helmet_02
@@ -3711,7 +3711,7 @@ special_genes = {
 			# Latin
 
 			cfp_latin_common = {
-				index = 208
+				index = 221
 				male = {
 					1 = male_headgear_secular_latin_cfp_phrygian_common_01
 					1 = male_headgear_secular_latin_cfp_wicker_common_01
@@ -3725,7 +3725,7 @@ special_genes = {
 			}
 
 			cfp_latin_nobility = {
-				index = 209
+				index = 222
 				male = {
 					1 = male_headgear_secular_latin_cfp_nobility_01
 				}
@@ -3737,7 +3737,7 @@ special_genes = {
 			}
 
 			cfp_latin_high_nobility = {
-				index = 210
+				index = 223
 				male = {
 					1 = male_headgear_secular_latin_cfp_high_nobility_01
 					1 = male_headgear_secular_latin_cfp_pannonian_high_01
@@ -3751,7 +3751,7 @@ special_genes = {
 			}
 
 			cfp_latin_venetian_royalty = {
-				index = 211
+				index = 224
 				
 				male = {
 					1 = male_headgear_secular_latin_cfp_venetian_doge_01
@@ -3764,7 +3764,7 @@ special_genes = {
 			}
 
 			cfp_latin_war = {
-				index = 212
+				index = 225
 				male = {
 					1 = male_headgear_secular_latin_war_flat_top_01
 					1 = male_headgear_secular_latin_war_flat_top_02
@@ -3784,7 +3784,7 @@ special_genes = {
 			## Iberian
 
 			cfp_iberian = {
-				index = 213
+				index = 226
 				male = {
 					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
 					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
@@ -3806,7 +3806,7 @@ special_genes = {
 			}
 
 			cfp_iberian_war = {
-				index = 214
+				index = 227
 				male = {
 					1 = male_headgear_secular_iberian_cfp_war_cervelliere_01
 					1 = male_headgear_secular_iberian_cfp_war_nasal_01
@@ -3822,7 +3822,7 @@ special_genes = {
 			# MENA
 
 			cfp_mena_war = {
-				index = 215
+				index = 228
 				male = {
 					1 = male_headgear_secular_mena_cfp_war_mail_coif_01
 					1 = male_headgear_secular_mena_cfp_war_mail_coif_02
@@ -3863,7 +3863,7 @@ special_genes = {
 			}
 
 			cfp_andalusian_war = {
-				index = 218
+				index = 230
 				male = {
 					1 = male_headgear_secular_andalusian_cfp_war_turban_01
 					1 = male_headgear_secular_andalusian_cfp_war_nasal_01
@@ -3879,7 +3879,7 @@ special_genes = {
 			}
 
 			cfp_egyptian_common = {
-				index = 219
+				index = 231
 				male = {
 					1 = male_headgear_secular_mena_cfp_zamt_01
 				}
@@ -3890,20 +3890,8 @@ special_genes = {
 				girl = female
 			}
 
-			cfp_berber_high_nobility = {
-				index = 220
-				male = {
-					1 = male_headgear_secular_mena_cfp_tagelmust_high_01
-				}
-				female = {
-					1 = empty
-				}
-				boy = male
-				girl = female
-			}
-
 			cfp_oghuz_high_nobility = {
-				index = 221
+				index = 232
 				male = {
 					5 = male_headgears_secular_turkic_high_nobility_01
 					5 = male_headgears_secular_turkic_high_nobility_02
@@ -3919,7 +3907,7 @@ special_genes = {
 			}
 
 			cfp_oghuz_low_nobility = {
-				index = 222
+				index = 233
 				male = {
 					5 = empty
 					10 = male_headgears_secular_turkic_low_nobility_01
@@ -3934,7 +3922,7 @@ special_genes = {
 			}
 
 			cfp_iranian_common = {
-				index = 223
+				index = 234
 				male = {
 					5 = empty
 					10 = male_headgear_secular_iranian_cfp_panel_common_01
@@ -3994,7 +3982,7 @@ special_genes = {
 			}
 
 			cfp_iranian_war_high_medieval = {
-				index = 227
+				index = 235
 				male = {
 					1 = male_headgear_secular_iranian_cfp_war_khud_01
 					1 = male_headgear_secular_iranian_cfp_war_khud_02
@@ -4034,7 +4022,7 @@ special_genes = {
 			}
 
 			cfp_west_african_low_nobility = {
-				index = 229
+				index = 236
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_01
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_02
@@ -4048,7 +4036,7 @@ special_genes = {
 			}
 
 			cfp_west_african_high_nobility = {
-				index = 230
+				index = 237
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_high_nobility_01
 				}
@@ -4072,7 +4060,7 @@ special_genes = {
 			}
 
 			cfp_central_african_low_nobility = {
-				index = 232
+				index = 238
 				male = {
 					1 = male_headgear_secular_africa_central_cfp_low_nobility_01
 					1 = male_headgear_secular_africa_central_cfp_low_nobility_02
@@ -4083,9 +4071,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			cfp_central_african_high_nobility = {
-				index = 233
+				index = 239
 				male = {
 					1 = male_headgear_secular_africa_central_cfp_high_nobility_01
 				}
@@ -4111,7 +4099,7 @@ special_genes = {
 			}
 
 			cfp_east_african_common = {
-				index = 235
+				index = 240
 				male = {
 					1 = empty # has is_female = yes
 				}
@@ -4123,7 +4111,7 @@ special_genes = {
 			}
 
 			cfp_east_african_low_nobility = {
-				index = 236
+				index = 241
 				male = {
 					1 = empty # has is_female = yes
 				}
@@ -4135,7 +4123,7 @@ special_genes = {
 			}
 
 			cfp_east_african_high_nobility = {
-				index = 237
+				index = 242
 				male = {
 					1 = male_headgear_secular_africa_east_cfp_high_nobility_01
 					1 = male_headgear_secular_africa_east_cfp_high_nobility_03
@@ -4290,7 +4278,7 @@ special_genes = {
 			}
 
 			cfp_religious_orthodox_devoted = {
-				index = 249
+				index = 250
 				male = {
 					1 = male_headgear_religious_orthodox_cfp_koukoulion_01
 				}
@@ -4302,7 +4290,7 @@ special_genes = {
 			}
 
 			cfp_religious_muslim_high_turkic = {
-				index = 250
+				index = 251
 				male = {
 					1 = male_headgear_religious_muslim_cfp_caliph_01
 				}
@@ -4314,7 +4302,7 @@ special_genes = {
 			}
 
 			cfp_religious_jewish_common = {
-				index = 251
+				index = 252
 				male = {
 					1 = male_headgear_religious_jewish_cfp_judenhut_01 # western
 					1 = male_headgear_religious_jewish_cfp_sudra_01 # mena
@@ -4328,7 +4316,7 @@ special_genes = {
 			}
 
 			cfp_religious_buddhist_tibetan_mask = {
-				index = 252
+				index = 253
 				male = {
 					5 = male_headgear_religious_hindu_cfp_mask_01
 				}
@@ -4342,7 +4330,7 @@ special_genes = {
 			# Misc
 
 			cfp_fantasy_witches = {
-				index = 253
+				index = 254
 				male = {
 					1 = male_headgear_fantasy_cfp_wizard_hat_01
 					1 = male_headgear_fantasy_cfp_enchanter_hat_01
