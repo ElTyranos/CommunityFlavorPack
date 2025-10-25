@@ -993,10 +993,6 @@ male_headgear_secular_mena_cfp_tagelmust_02 = {
 	set_tags = "no_hair,snug_headgear,no_beard,nose_guard"
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_tagelmust_02_entity 	 }
 }
-male_headgear_secular_mena_cfp_tagelmust_high_01 = {
-	set_tags = "no_hair,snug_headgear,no_beard,nose_guard"
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_mena_cfp_tagelmust_high_01_entity 	 }
-}
 
 male_headgear_secular_mena_cfp_war_mail_coif_01 = {
 	set_tags = "no_hair,snug_headgear,hood_beard"

@@ -604,32 +604,6 @@ cfp_headgear_base = {
 		}
 	}
 
-## Berbers
-
-	cfp_berber_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_berber_high_nobility
-				range = { 0 1 }
-			}
-		}		
-		weight = {
-			base = 0
-			modifier = {
-				add = 60
-                portrait_high_nobles_headgear_trigger = {
-                    CULTURE_INPUT = cfp_berber
-                }
-			}
-            modifier = {
-                factor = 0  # Should NOT show up if AFR is active since they are included in FP3 genes
-                has_afr_dlc_trigger = yes 
-            }
-		}
-	}
-	
 ##  Iranians ##
 
 	cfp_iranian_commoners = {
