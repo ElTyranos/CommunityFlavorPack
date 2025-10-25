@@ -304,8 +304,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_hungarian_high_nobility
-				range = { 0 1 }
+				template = cfp_hungarian
+				accessory = male_headgear_secular_hungarian_high_nobility_01
 			}
 		}
 		weight = {
@@ -327,8 +327,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_commoner
-				range = { 0 1 }
+				template = cfp_ruthenian
+				accessory = male_headgear_secular_ruthenian_cfp_common_01
 			}
 		}
 		weight = {
@@ -355,8 +355,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_low_nobility
-				range = { 0 1 }
+				template = cfp_ruthenian
+				accessory = male_headgear_secular_ruthenian_cfp_low_01
 			}
 		}
 		weight = {
@@ -377,8 +377,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_high_nobility
-				range = { 0 1 }
+				template = cfp_ruthenian
+				accessory = male_headgear_secular_ruthenian_cfp_high_01
 			}
             accessory = {
                 mode = add
@@ -404,8 +404,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_royalty
-				range = { 0.51 1.0 }
+				template = cfp_slavic_crowns
+				accessory = male_headgear_secular_slavic_cfp_monomakh_01
 			}
 			accessory = {
 				mode = add
@@ -434,8 +434,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_royalty
-				range = { 0 0.49 }
+				template = cfp_slavic_crowns
+				accessory = male_headgear_secular_slavic_royalty_01
 			}
 		}
 		weight = {
@@ -455,8 +455,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_imperial
-				range = { 0 1 }
+				template = cfp_ruthenian
+				accessory = male_headgear_secular_ruthenian_cfp_imperial_01
 			}
 			accessory = {
 				mode = add
@@ -509,8 +509,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_javanese_nobility
-				range = { 0 1 }
+				template = cfp_javanese
+				accessory = male_headgear_secular_java_cfp_high_nobility_01
 			}
 		}	
 		weight = {
@@ -547,8 +547,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_javanese_royalty
-				range = { 0 1 }
+				template = cfp_javanese
+				accessory = male_headgear_secular_java_cfp_royalty_01
 			}
 		}
 		weight = {
@@ -668,148 +668,7 @@ cfp_headgear_base = {
 		}
 	}
 
-	cfp_iranian_low_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_iranian_low_nobility
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_iranian } 
-			modifier = {
-				add = 60
-                portrait_low_nobles_clothing_trigger = {
-                    CULTURE_INPUT = cfp_iranian
-                }
-			}
-			modifier = {
-				add = 60
-				portrait_mayor_headgear_trigger = {
-					CULTURE_INPUT = cfp_iranian
-				}
-			}
-            modifier = {
-                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
-                has_fp3_dlc_trigger = yes
-            }
-		}
-	}
-
-	cfp_iranian_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_iranian_high_nobility
-				range = { 0 1 }
-			}
-		}		
-		weight = {
-			base = 0
-			modifier = {
-				add = 60
-                portrait_high_nobles_headgear_trigger = {
-                    CULTURE_INPUT = cfp_iranian
-                }   
-			}
-            modifier = {
-                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
-                has_fp3_dlc_trigger = yes
-            }
-		}
-	}
-
-## turkic ##
-
-	cfp_turkic_commoners = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_turkic_common
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 80
-                portrait_commoner_headgear_fallback_trigger = {
-                    CULTURE_INPUT = cfp_turkic
-                }
-			}
-			modifier = { # Non-european jesters should not use the jester hat
-				add = 1000
-                portrait_jester_trigger = {  
-                    CULTURE_INPUT = cfp_turkic 
-                }
-				NOR = {
-					portrait_western_clothing_trigger = yes
-					portrait_byzantine_clothing_trigger = yes
-					portrait_northern_clothing_trigger = yes
-				}
-			}
-			modifier = {
-				add = 20
-                portrait_commoner_clothing_trigger = {  
-                    CULTURE_INPUT = cfp_turkic 
-                }
-			}
-		}
-	}
-
-	cfp_turkic_low_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_turkic_nobility
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_turkic } 
-			modifier = {
-				add = 60
-                portrait_low_nobles_clothing_trigger = {
-                    CULTURE_INPUT = cfp_turkic
-                }
-			}
-            modifier = {
-                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
-                has_fp3_dlc_trigger = yes
-            }
-		}
-	}
-
-	cfp_turkic_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_turkic_high_nobility
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 60
-                portrait_high_nobles_headgear_trigger = {
-                    CULTURE_INPUT = cfp_turkic
-                }   
-			}
-            modifier = {
-                factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
-                has_fp3_dlc_trigger = yes
-            }
-		}
-	}
+## Turkic ##
 
 	cfp_turkic_royalty = {
 		dna_modifiers = {
@@ -993,13 +852,33 @@ cfp_headgear_base = {
 		}
 	}
 
+	cfp_east_african_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cfp_east_african_crowns
+				accessory = male_headgear_secular_africa_east_cfp_royalty_01
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = cfp_east_africa 
+                }
+			}
+		}
+	}
+
 	cfp_east_african_imperial = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_east_african_imperial
-				range = { 0 1 }
+				template = cfp_east_african_crowns
+				accessory = male_headgear_secular_africa_east_cfp_imperial_01
 			}
 		}	
 		weight = {

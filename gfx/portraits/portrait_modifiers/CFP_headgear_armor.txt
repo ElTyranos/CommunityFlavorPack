@@ -501,8 +501,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_mena_war_high_medieval
-				range = { 0 1 }
+				template = cfp_mena_war_high
+				accessory = male_headgear_secular_mena_cfp_war_turban_01
 			}
 		}
         outfit_tags = { military_outfit }
@@ -529,8 +529,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_mena_war_high_nobility
-				range = { 0 1 }
+				template = cfp_mena_war_high
+				accessory = male_headgear_secular_mena_cfp_war_mamluk_01
 			}
 		}
         outfit_tags = { military_outfit }
@@ -667,34 +667,6 @@
 	}
 
 ## Iranian
-
-	cfp_iranian_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_iranian_war
-				range = { 0 1 }
-			}
-		}
-        outfit_tags = { military_outfit }
-		weight = {
-			base = 0
-			modifier = {
-				add = 60
-				portrait_war_nobles_helmet_trigger = {
-					CULTURE_INPUT = cfp_iranian 
-				}
-			}
-            modifier = {
-                factor = 0
-				OR = {
-					portrait_era3_armor_trigger = yes
-					portrait_era4_armor_trigger = yes
-				}
-            }
-		}
-	}
 
 	cfp_iranian_war_high_medieval = {
 		dna_modifiers = {
@@ -1058,8 +1030,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_west_african_war
-				range = { 0 1 }
+				template = cfp_african_war
+				accessory = male_headgear_secular_africa_west_cfp_helmet_01
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -1079,8 +1051,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_east_african_war
-				range = { 0 1 }
+				template = cfp_african_war
+				accessory = male_headgear_secular_africa_east_cfp_helmet_01
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -1100,8 +1072,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_central_african_war
-				range = { 0 1 }
+				template = cfp_african_war
+				range = { 0.51 1 } # excludes east and west options
 			}
 		}
 		outfit_tags = { military_outfit }

@@ -1109,12 +1109,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_hungarian_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_hungarian_royalty
+		template = cfp_hungarian
 	}
 
 	add_accessory_modifiers = {
@@ -1124,37 +1119,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_slavic_commoner
+		template = cfp_ruthenian
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_slavic_low_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_slavic_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_slavic_royalty
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_slavic_imperial
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_albanian_royalty
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_croatian_royalty
+		template = cfp_slavic_crowns
 	}
 
 	add_accessory_modifiers = {
@@ -1194,12 +1164,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_rre_imperial
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_trait_laurel
+		template = cfp_laurel
 	}
 
 	add_accessory_modifiers = {
@@ -1244,32 +1209,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_mena_war_high_medieval
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_mena_war_high_nobility
+		template = cfp_mena_war_high
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = cfp_iranian_common
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iranian_low_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iranian_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iranian_war
 	}
 
 	add_accessory_modifiers = {
@@ -1300,21 +1245,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = steppe_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_turkic_common
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_turkic_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_turkic_high_nobility
 	}
 
 	add_accessory_modifiers = {
@@ -1374,22 +1304,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_west_african_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = cfp_central_african_low_nobility
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = cfp_central_african_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_central_african_war
 	}
 
 	add_accessory_modifiers = {
@@ -1409,17 +1329,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_east_african_royalty
+		template = cfp_east_african_crowns
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_east_african_imperial
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_east_african_war
+		template = cfp_african_war
 	}
 
 	add_accessory_modifiers = {
@@ -1464,12 +1379,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_javanese_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_javanese_royalty
+		template = cfp_javanese
 	}
 
 	add_accessory_modifiers = {
@@ -1585,22 +1495,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_religious_catholic_pilgrim
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = religious_catholic_devoted
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_religious_catholic_high_northern
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_religious_catholic_cardinal
 	}
 
 	add_accessory_modifiers = {
@@ -1610,7 +1505,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_religious_catholic_head_early
+		template = cfp_religious_catholic
 	}
 
 	add_accessory_modifiers = {
@@ -1680,7 +1575,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_african_religious_masks
+		template = cfp_religious_african_masks
 	}
 
 	add_accessory_modifiers = {

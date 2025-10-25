@@ -68,8 +68,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_hungarian_royalty
-				range = { 0 1 }
+				template = cfp_hungarian
+				accessory = male_headgear_secular_hungarian_royalty_01
 			}
 		}	
 		weight = {
@@ -102,8 +102,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_albanian_royalty
-				range = { 0 1 }
+				template = cfp_slavic_crowns
+				accessory = male_headgear_secular_slavic_cfp_skanderbeg_01
 			}
 		}	
 		weight = {
@@ -135,8 +135,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_croatian_royalty
-				range = { 0 1 }
+				template = cfp_slavic_crowns
+				accessory = male_headgear_secular_slavic_cfp_royalty_02
 			}
 		}
 		weight = {
