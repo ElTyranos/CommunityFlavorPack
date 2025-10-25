@@ -168,8 +168,9 @@
 	    weight = {
 	        base = 0
 	        modifier = {
-	            add = 140
+				add = 140
 				exists = this
+				exists = title:k_papal_state.holder
 				is_male = yes
 				is_adult = yes
 				current_date >= 1245.1.1
@@ -183,10 +184,7 @@
 						is_councillor_of = title:k_papal_state.holder
 						is_theocratic_lessee = yes
 					}
-					AND = {
-						exists = title:k_papal_state.holder
-						is_courtier_of = title:k_papal_state.holder
-					}
+					is_courtier_of = title:k_papal_state.holder
 				}
 				NOT = {
 					faith = { has_doctrine_parameter = vows_of_poverty_active }
@@ -195,9 +193,14 @@
 			}
 			modifier = { # The Catholic Trinity compatibility
 				add = 140
-				faith = faith:catholic
 				exists = global_var:Trinity_is_loaded
 				CatholicTrinityCardinalTrigger = yes
+				is_male = yes
+				is_adult = yes
+				faith = { religion_tag = christianity_religion }
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
 			}
 	    }
 	}

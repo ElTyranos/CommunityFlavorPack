@@ -610,10 +610,11 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 	        modifier = {
 				add = 140
 				exists = this
+				exists = title:k_papal_state.holder
 				is_male = yes
 				is_adult = yes
 				current_date >= 1245.1.1
-				faith = { religion_tag = christianity_religion }
+				portrait_religious_christian_trigger = yes
 				OR = {
 					AND = {
 						is_vassal_of = title:k_papal_state.holder
@@ -623,10 +624,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 						is_councillor_of = title:k_papal_state.holder
 						is_theocratic_lessee = yes
 					}
-					AND = {
-						exists = title:k_papal_state.holder
-						is_courtier_of = title:k_papal_state.holder
-					}
+					is_courtier_of = title:k_papal_state.holder
 				}
 				NOT = {
 					faith = { has_doctrine_parameter = vows_of_poverty_active }
