@@ -530,14 +530,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_berber_high_nobility
-		is_valid_custom = {
-			has_afr_dlc_trigger = no
-		}
-	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
 		template = afr_royalty
 		is_valid_custom = {
 			has_afr_dlc_trigger = yes
