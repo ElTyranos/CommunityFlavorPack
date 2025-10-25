@@ -1,0 +1,34 @@
+﻿l_japanese:
+
+ cfp_name:0 "Community Flavor Pack"
+ cfp_iberian_citadel:0 "Iberian Citadel"
+ cfp_iberian_castle:0 "Iberian Castle"
+ cfp_iberian_walls:0 "Iberian Walls"
+ cfp_gaillard:0 "Distant Château-Gaillard"
+ cfp_gaillard_zoomed:0 "Château-Gaillard"
+
+ ## Animations
+ cfp_poses_list_name:0 "$cfp_name$"
+ cfp_regalia_name:0 "Regalia"
+ cfp_globus_name:0 "Globus Cruciger"
+ cfp_scepter_name:0 "Hand of Justice"
+ cfp_bonfire_name:0 "Bonfire"
+ cfp_broom_name:0 "Broom"
+ cfp_potion_name:0 "Potion"
+ cfp_cauldron_name:0 "Cauldron"
+ 
+ ## Vanillla barbershop compatibility
+ cfp_gaillard_bg:0 "@cfp_icon! $cfp_gaillard$"
+ cfp_gaillard_mini_bg:0 "@cfp_icon! $cfp_gaillard$"
+ cfp_gaillard_zoomed_bg:0 "@cfp_icon! $cfp_gaillard_zoomed$"
+ cfp_iberian_castle_bg:0 "@cfp_icon! $cfp_iberian_castle$"
+ cfp_iberian_citadel_bg:0 "@cfp_icon! $cfp_iberian_citadel$"
+ cfp_iberian_walls_bg:0 "@cfp_icon! $cfp_iberian_walls$"
+ cfp_regalia:0 "@cfp_icon! $cfp_regalia_name$"
+ cfp_globus:0 "@cfp_icon! $cfp_globus_name$"
+ cfp_scepter:0 "@cfp_icon! $cfp_scepter_name$"
+ cfp_cauldron:0 "@cfp_icon! $cfp_cauldron_name$"
+ cfp_potion:0 "@cfp_icon! $cfp_potion_name$"
+ cfp_bonfire:0 "@cfp_icon! $cfp_bonfire_name$"
+ cfp_broom:0 "@cfp_icon! $cfp_broom_name$"
+ 
