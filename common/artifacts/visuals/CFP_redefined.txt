@@ -69,6 +69,24 @@ wall_shield = {
 		trigger = { artifact_should_use_gfx_type_trigger = { TYPE = indian_building } }
 		reference = ep1_indian_shield_01_a_entity
 	}
+	asset = {
+		trigger = {
+			artifact_should_use_gfx_type_trigger = { TYPE = chinese_building }
+		}
+		reference = tgp_chinese_shield_01_a_entity
+	}
+	asset = {
+		trigger = {
+			artifact_should_use_gfx_type_trigger = { TYPE = japanese_building }
+		}
+		reference = tgp_japanese_shield_01_a_entity
+	}
+	asset = {
+		trigger = {
+			artifact_should_use_gfx_type_trigger = { TYPE = southeast_asian_building }
+		}
+		reference = tgp_sea_shield_01_a_entity
+	}
 	# CFP
 	asset = {
 		trigger = {	artifact_should_use_gfx_type_trigger = { TYPE = norse_building } }
