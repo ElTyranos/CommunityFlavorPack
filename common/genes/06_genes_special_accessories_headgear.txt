@@ -4344,13 +4344,15 @@ special_genes = {
 				girl = female
 			}
 
-			cfp_rre_imperial = {
-				index = 254
+			cfp_laurel = {
+				index = 255
 				male = {
+					1 = male_headgear_secular_rre_laurelwreath_01
 					1 = male_headgear_secular_rre_laurelwreath_02
 					1 = male_headgear_secular_rre_laurelwreath_03
 				}
 				female = {
+					1 = female_headgear_secular_rre_laurelwreath_01
 					1 = female_headgear_secular_rre_laurelwreath_02
 					1 = female_headgear_secular_rre_laurelwreath_03
 				}
@@ -4358,21 +4360,9 @@ special_genes = {
 				girl = female
 			}
 
-			cfp_trait_laurel = {
-				index = 255
-				male = {
-					1 = male_headgear_secular_rre_laurelwreath_01
-				}
-				female = {
-					1 = female_headgear_secular_rre_laurelwreath_01
-				}
-				boy = male
-				girl = female
-			}
-
 		}
-	
-	
+
+
 		#--------------------------------------------------------------------------------------------------------
 		secondary_headgears = {
 

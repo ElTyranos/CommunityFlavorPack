@@ -292,8 +292,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_rre_imperial
-				range = { 0 1 }
+				template = cfp_laurel
+				range = { 0.34 1 }
 			}
 		}
 		weight = {
@@ -319,8 +319,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_trait_laurel
-				range = { 0 1 }
+				template = cfp_laurel
+				accessory = male_headgear_secular_rre_laurelwreath_01
 			}
 		}
 		weight = {
