@@ -525,7 +525,19 @@ cfp_headgear_base = {
 				add = 60
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = cfp_burmese
-                }   
+                }
+			}
+			modifier = {
+				factor = 0
+				is_female = yes
+				OR = {
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+				}
 			}
 		}
 	}
@@ -545,7 +557,25 @@ cfp_headgear_base = {
 				add = 60
                 portrait_royalty_trigger = {
                     CULTURE_INPUT = cfp_burmese
-                }   
+                }
+			}
+			modifier = {
+				add = 60
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = cfp_burmese
+                }
+			}
+			modifier = {
+				factor = 0
+				is_female = yes
+				OR = {
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+				}
 			}
 		}
 	}

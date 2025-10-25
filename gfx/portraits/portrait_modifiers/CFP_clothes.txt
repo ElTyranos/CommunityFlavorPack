@@ -304,7 +304,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 101
                 portrait_commoner_clothing_trigger = {
                     CULTURE_INPUT = cfp_burmese
                 }
@@ -325,7 +325,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
             base = 0
             court_fashion_level_5_modifier = { INPUT_PARAMETER = cfp_burmese } 
             modifier = {
-                add = 50
+                add = 101
                 portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = cfp_burmese
                 } 
@@ -346,11 +346,23 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
             base = 0
             court_fashion_level_5_modifier = { INPUT_PARAMETER = cfp_burmese } 
             modifier = {
-                add = 50
+                add = 101
                 portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = cfp_burmese
-                } 
+                }
             }
+			modifier = {
+				factor = 0
+				is_female = yes
+				OR = {
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+				}
+			}
         }
     }
 
