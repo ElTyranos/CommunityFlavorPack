@@ -1,8 +1,9 @@
 version="3.3.0"
 tags={
-	"Historical"
 	"Portraits"
+	"Historical"
 	"Graphics"
+	"1.18 'Crane'"
 }
 name="Community Flavor Pack"
 picture="thumbnail.png"
