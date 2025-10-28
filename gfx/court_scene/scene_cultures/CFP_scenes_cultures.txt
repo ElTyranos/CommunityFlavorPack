@@ -373,7 +373,13 @@ mena = {
 					NOT = { has_graphical_east_african_culture_group_trigger = yes }
 					NOT = { has_graphical_hre_culture_group_trigger = yes }
 					capital_county ?= {
-						NOT = { culture = { has_graphical_mediterranean_culture_group_trigger = yes } }
+						NOR = { 
+							culture = { has_graphical_mediterranean_culture_group_trigger = yes }
+							culture = { has_graphical_japanese_culture_group_trigger = yes } 
+							culture = { has_graphical_chinese_culture_group_trigger = yes }
+							culture = { has_building_gfx = southeast_asian_building_gfx }
+							title_province = { geographical_region = world_asia }
+						}
 					}
 					exists = capital_county
 					OR = {
@@ -411,7 +417,7 @@ mena = {
 			}
 			
 			# 3 - Prevent MENA in steppe when MPO is active (STEPPE TRIGGER MUST NOT BE TRUE)
-			NOT = {
+			NAND = {
 				has_mpo_dlc_trigger = yes
 				OR = {
 					government_has_flag = government_is_nomadic
@@ -458,19 +464,6 @@ mena = {
 				tgp_is_ceremonial_regent_trigger = no
 			}
 			NOT = { primary_title ?= title:h_china }
-		}
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-			}
-			capital_county ?= {
-				NOR = {
-					culture = { has_graphical_japanese_culture_group_trigger = yes } 
-					culture = { has_graphical_chinese_culture_group_trigger = yes }
-					culture = { has_building_gfx = southeast_asian_building_gfx }
-					title_province = { geographical_region = world_asia }
-				}
-			}
 		}
     }
 }
