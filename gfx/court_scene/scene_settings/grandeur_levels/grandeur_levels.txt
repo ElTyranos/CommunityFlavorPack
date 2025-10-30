@@ -126,7 +126,7 @@ cultures = {
          }
     }
 	{
-		culture="papal"
+		culture="cfp_papal"
 		max_visual_culture_level = 1
 		# levels={ 
             # {
@@ -140,7 +140,7 @@ cultures = {
          # }
 	}
 	{
-		culture="hre"
+		culture="cfp_hre"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -196,7 +196,7 @@ cultures = {
          }
 	}
 	{
-		culture="norse"
+		culture="cfp_norse"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -210,7 +210,7 @@ cultures = {
          }
 	}
 	{
-		culture="norman"
+		culture="cfp_norman"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -224,7 +224,7 @@ cultures = {
          }
 	}
 	{
-		culture="goidelic"
+		culture="cfp_goidelic"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -238,7 +238,7 @@ cultures = {
          }
 	}
 	{
-		culture="iberian"
+		culture="cfp_iberian"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -252,7 +252,7 @@ cultures = {
          }
 	}
 	{
-		culture="andalusian"
+		culture="cfp_andalusian"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -266,7 +266,7 @@ cultures = {
          }
 	}
 	{
-		culture="west_african"
+		culture="cfp_west_african"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -280,7 +280,7 @@ cultures = {
          }
 	}
 	{
-		culture="east_african"
+		culture="cfp_east_african"
 		max_visual_culture_level = 3
 		levels={ 
             {

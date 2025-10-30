@@ -1,5 +1,5 @@
 name="CFP_Andalusian_1_g1"
-culture="andalusian"
+culture="cfp_andalusian"
 visual_culture_level=1
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_indian.txt"

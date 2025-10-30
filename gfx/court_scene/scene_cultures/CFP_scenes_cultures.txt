@@ -1,26 +1,19 @@
-﻿## CFP
-papal = {
+﻿# CFP
+cfp_papal = {
 	trigger = {
-		has_graphical_papal_culture_group_trigger = yes
+		has_graphical_cfp_papal_culture_group_trigger = yes
 	}
 }
 
-hre = {
+cfp_hre = {
 	trigger = {
-		has_graphical_hre_culture_group_trigger = yes
+		has_graphical_cfp_hre_culture_group_trigger = yes
 	}
 }
 
-cfp_byzantine = {
+cfp_norse = {
 	trigger = {
-        NOT = { government_has_flag = government_is_nomadic }
-		NAND = {
-			has_ep3_dlc_trigger = yes
-			has_graphical_byzantine_culture_group_trigger = yes
-		}
-		has_graphical_cfp_byzantine_culture_group_trigger = yes
-		religion = religion:christianity_religion
-		NOT = { faith = faith:iconoclast }
+		has_graphical_cfp_norse_court_trigger = yes
 
 		trigger_if = {
 			limit = {
@@ -33,14 +26,131 @@ cfp_byzantine = {
 	}
 }
 
-# redefine byzantine so it supports other religions/iconoclasm
+cfp_norman = {
+	trigger = {
+		has_graphical_cfp_norman_culture_group_trigger = yes
+
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = { government_has_flag = government_is_nomadic	}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
+}
+
+cfp_goidelic = {
+	trigger = {
+		has_graphical_cfp_goidelic_culture_group_trigger = yes
+
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = { government_has_flag = government_is_nomadic	}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
+}
+
+cfp_iberian = {
+	trigger = {
+		has_graphical_cfp_iberian_court_trigger = yes
+
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = { government_has_flag = government_is_nomadic	}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
+}
+
+cfp_andalusian = {
+	trigger = {
+		has_graphical_cfp_andalusian_court_trigger = yes
+
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = { government_has_flag = government_is_nomadic	}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
+}
+
+cfp_west_african = {
+	trigger = {
+        has_graphical_cfp_west_african_court_trigger = yes
+
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = { government_has_flag = government_is_nomadic	}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
+}
+
+cfp_east_african = {
+	trigger = {
+		has_graphical_cfp_east_african_court_trigger = yes
+
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = { government_has_flag = government_is_nomadic	}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
+}
+
+## Byzantine handling (support for CFP court is user doesnt have EP3 (+ islamic court + iconoclast court)
 byzantine = {
 	trigger = {
-		NOT = { government_has_flag = government_is_nomadic }
-		has_ep3_dlc_trigger = yes
-		has_graphical_byzantine_culture_group_trigger = yes
+		AND = {
+			has_ep3_dlc_trigger = yes
+			has_graphical_cfp_byzantine_culture_group_trigger = yes
+		}
 		religion = religion:christianity_religion
-		NOT = { faith = faith:iconoclast }
+		NOR = { 
+			faith = faith:iconoclast
+			religion = religion:islam_religion 
+		}
+
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = { government_has_flag = government_is_nomadic	}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
+}
+
+cfp_byzantine = {
+	trigger = {
+		AND = {
+			NOT = { has_ep3_dlc_trigger = yes }
+			has_graphical_cfp_byzantine_culture_group_trigger = yes
+		}
+		religion = religion:christianity_religion
+		NOR = { 
+			faith = faith:iconoclast
+			religion = religion:islam_religion 
+		}
 
 		trigger_if = {
 			limit = {
@@ -55,11 +165,7 @@ byzantine = {
 
 cfp_byzantine_mena = {
 	trigger = {
-		NOT = { government_has_flag = government_is_nomadic }
-		OR = {
-			has_graphical_byzantine_culture_group_trigger = yes
-			has_graphical_cfp_byzantine_culture_group_trigger = yes
-		}
+		has_graphical_cfp_byzantine_culture_group_trigger = yes
 		religion = religion:islam_religion
 
 		trigger_if = {
@@ -75,11 +181,7 @@ cfp_byzantine_mena = {
 
 cfp_byzantine_pagan = {
 	trigger = {
-		NOT = { government_has_flag = government_is_nomadic }
-		OR = {
-			has_graphical_byzantine_culture_group_trigger = yes
-			has_graphical_cfp_byzantine_culture_group_trigger = yes
-		}
+		has_graphical_cfp_byzantine_culture_group_trigger = yes
 		OR = { 
 			NOR = {
 				AND = {
@@ -105,69 +207,46 @@ cfp_byzantine_pagan = {
 	}
 }
 
-norse = {
-	trigger = {
-		government_has_flag = government_is_tribal
-		capital_province ?= { geographical_region = world_europe_north }
+## VANILLA OVERWRITE WITH CFP SHUNT
 
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
-				tgp_is_ceremonial_regent_trigger = no
-			}
-			NOT = { primary_title ?= title:h_china }
+mediterranean = {
+	trigger = {
+		NOT = { has_graphical_cfp_court_active_trigger = yes }
+		NOT = {
+			government_has_flag = government_is_nomadic
 		}
-	}
-}
-
-norman = {
-	trigger = {
-		has_graphical_norman_culture_group_trigger = yes
-
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
-				tgp_is_ceremonial_regent_trigger = no
+		capital_county ?= {
+			OR = {
+				culture = { has_graphical_mediterranean_culture_group_trigger = yes }
+				AND = {
+					culture = { has_graphical_iberian_culture_group_trigger = yes }
+					NOT = { religion = religion:islam_religion }
+				}
+				title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
 			}
-			NOT = { primary_title ?= title:h_china }
 		}
-	}
-}
-
-goidelic = {
-	trigger = {
-		has_graphical_goidelic_culture_group_trigger = yes
-
-		trigger_if = {
+		trigger_if = { # Byzantine Trigger
 			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
-				tgp_is_ceremonial_regent_trigger = no
+				has_ep3_dlc_trigger = yes
 			}
-			NOT = { primary_title ?= title:h_china }
-		}
-	}
-}
-
-iberian = {
-	trigger = {
-		exists = capital_county
-		capital_county = {
-			culture = {
-				has_graphical_iberian_culture_group_trigger  = yes
-				OR = {
-					prev.religion = religion:christianity_religion
-					prev.religion = religion:basque_religion
+			NOR = {
+				capital_county ?= title:c_byzantion
+				primary_title ?= title:e_byzantium
+				primary_title ?= title:h_eastern_roman_empire
+				AND = {
+					primary_title ?= title:h_roman_empire
+					title:h_roman_empire = {
+						has_variable = rome_was_restored_by_byzantium
+					}
 				}
 			}
 		}
-
-		trigger_if = {
+		trigger_if = { # China trigger
 			limit = {
 				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
+				NOT = {
+					government_has_flag = government_is_nomadic
+				}
 				tgp_is_ceremonial_regent_trigger = no
 			}
 			NOT = { primary_title ?= title:h_china }
@@ -175,80 +254,46 @@ iberian = {
 	}
 }
 
-andalusian = {
+steppe = {
 	trigger = {
-		exists = capital_county
-		capital_county = {
-			culture = {
-				has_graphical_iberian_culture_group_trigger  = yes
-				prev.religion = religion:islam_religion
+		NOT = { has_graphical_cfp_court_active_trigger = yes }
+		has_mpo_dlc_trigger = yes
+		OR = {
+			government_has_flag = government_is_nomadic
+			capital_county ?= {
+				culture = {
+					has_graphical_steppe_culture_group_trigger = yes
+				}
+				title_province ?= {
+					has_holding = yes
+					OR = {
+						has_holding_type = nomad_holding
+						has_holding_type = tribal_holding
+					}
+				}
+			}
+			#For tribal northerns... this is better than a big feudal western castle, right?
+			capital_county ?= {
+				culture = {
+					OR = {
+						has_graphical_steppe_culture_group_trigger = yes
+						has_graphical_western_culture_group_trigger = yes
+					}
+					OR = {
+						has_cultural_pillar = heritage_ugro_permian
+						has_cultural_pillar = heritage_volga_finnic
+						has_cultural_pillar = heritage_balto_finnic
+					}
+				}
+				title_province ?= {
+					has_holding = yes
+					OR = {
+						has_holding_type = nomad_holding
+						has_holding_type = tribal_holding
+					}
+				}
 			}
 		}
-
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
-				tgp_is_ceremonial_regent_trigger = no
-			}
-			NOT = { primary_title ?= title:h_china }
-		}
-	}
-}
-
-west_african = {
-	trigger = {
-        exists = capital_county
-        capital_county.culture = {
-			has_graphical_african_culture_group_trigger = yes
-			NOT = { prev.religion = religion:islam_religion }
-		}
-		has_graphical_west_african_culture_group_trigger = yes
-
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
-				tgp_is_ceremonial_regent_trigger = no
-			}
-			NOT = { primary_title ?= title:h_china }
-		}
-	}
-}
-
-east_african = {
-	trigger = {
-        exists = capital_county
-        capital_county.culture = {
-			has_graphical_african_culture_group_trigger = yes
-			NOT = { prev.religion = religion:islam_religion }
-		}
-		has_graphical_east_african_culture_group_trigger = yes
-
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
-				tgp_is_ceremonial_regent_trigger = no
-			}
-			NOT = { primary_title ?= title:h_china }
-		}
-	}
-}
-
-## OVERWRITTING VANILLA
-
-western = {
-	trigger = {
-        NOT = { government_has_flag = government_is_nomadic }
-        exists = capital_county
-		capital_county = {
-            OR = {
-                culture = { has_graphical_western_culture_group_trigger = yes }
-                # culture = { has_graphical_norse_culture_group_trigger = yes }
-                title_province = { steppe_building_gfx_use_western_trigger = yes }
-            }
-        }
 		trigger_if = {
 			limit = {
 				has_tgp_dlc_trigger = yes
@@ -259,211 +304,118 @@ western = {
 			}
 			NOT = { primary_title ?= title:h_china }
 		}
-		# CFP: exclude normans and goidelics from it
-		NOR = {
-			has_graphical_hre_culture_group_trigger = yes
-			has_graphical_norman_culture_group_trigger = yes
-			has_graphical_goidelic_culture_group_trigger = yes
-			AND = {
-				government_has_flag = government_is_tribal
-				capital_province ?= { geographical_region = world_europe_north }
-			}
-		}
 	}
 }
 
-## Redefine mediterranean to exclude andalusians from it
-mediterranean = {
-	trigger = {
-        NOT = { government_has_flag = government_is_nomadic }
-        capital_county ?= {
-			OR = {
-				culture = { has_graphical_mediterranean_culture_group_trigger = yes }
-				AND = {
-					culture = { 
-						has_graphical_iberian_culture_group_trigger = yes
-						NOR = {
-							prev.religion = religion:christianity_religion
-							prev.religion = religion:islam_religion
-							prev.religion = religion:basque_religion
-						}
-					}
-					NOT = { religion = religion:islam_religion }
-				}
-				title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
-			}
-		}
-		trigger_if = {
-			limit = {
-				has_ep3_dlc_trigger = yes
-			}
-			NOT = { has_graphical_byzantine_culture_group_trigger = yes }
-		}
-		trigger_if = {
-			NOR = {
-				has_graphical_papal_culture_group_trigger = yes
-				has_graphical_cfp_byzantine_culture_group_trigger = yes
-			}
-		}
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
-				tgp_is_ceremonial_regent_trigger = no
-			}
-			NOT = { primary_title ?= title:h_china }
-		}
-	}
-}
-
-## Redefine MENA to exclude Africa (if not muslim) and Iberia from it
-## Also fixes weird court trigger setup leading to broken court when Khans of the Steppe DLC isnt active
 mena = {
-    trigger = {
-        trigger_if = {
-			
-			OR = {
-
-				# 1 - steppe replacement for non MPO-DLC owners
-				AND = {
-					has_mpo_dlc_trigger = no
-					OR = {
-						government_has_flag = government_is_nomadic
-						capital_county ?= {
-							culture = {
-								has_graphical_steppe_culture_group_trigger = yes
-							}
-							title_province ?= {
-								has_holding = yes
-								OR = {
-									has_holding_type = nomad_holding
-									has_holding_type = tribal_holding
-								}
-							}
-						}
-						#For tribal northerns... this is better than a big feudal western castle, right?
-						capital_county ?= {
-							culture = {
-								OR = {
-									has_graphical_steppe_culture_group_trigger = yes
-									has_graphical_western_culture_group_trigger = yes
-								}
-								OR = {
-									has_cultural_pillar = heritage_ugro_permian
-									has_cultural_pillar = heritage_volga_finnic
-									has_cultural_pillar = heritage_balto_finnic
-								}
-							}
-							title_province ?= {
-								has_holding = yes
-								OR = {
-									has_holding_type = nomad_holding
-									has_holding_type = tribal_holding
-								}
-							}
-						}
-					}
-				}
-				
-				# 2 - default MENA
-				AND = {
-					NOT = { government_has_flag = government_is_nomadic }
-					NOT = { has_graphical_cfp_byzantine_culture_group_trigger = yes }
-					NOT = { has_graphical_west_african_culture_group_trigger = yes }
-					NOT = { has_graphical_east_african_culture_group_trigger = yes }
-					NOT = { has_graphical_hre_culture_group_trigger = yes }
-					capital_county ?= {
-						NOR = { 
-							culture = { has_graphical_mediterranean_culture_group_trigger = yes }
-							culture = { has_graphical_japanese_culture_group_trigger = yes } 
-							culture = { has_graphical_chinese_culture_group_trigger = yes }
-							culture = { has_building_gfx = southeast_asian_building_gfx }
-							title_province = { geographical_region = world_asia }
-						}
-					}
-					exists = capital_county
-					OR = {
-						capital_county = {
-							culture = {
-								has_graphical_steppe_culture_group_trigger = yes
-							}
-							title_province = {
-									steppe_building_gfx_use_mediterranean_trigger = no
-									steppe_building_gfx_use_indian_trigger = no
-									steppe_building_gfx_use_western_trigger = no
-									steppe_building_gfx_use_east_asian_trigger = no
-									steppe_building_gfx_use_japanese_trigger = no
-									steppe_building_gfx_use_southeast_asian_trigger = no
-							}
-							title_province ?= {
-								has_holding = yes
-								NOT = {
-									has_holding_type = tribal_holding
-								}
-							}
-						}
-						capital_county.culture = {
-							OR = {
-								has_graphical_mena_culture_group_trigger = yes
-								has_graphical_iranian_culture_group_trigger = yes
-								NAND = {
-									has_graphical_african_culture_group_trigger = yes
-									NOT = { prev.religion = religion:islam_religion }
-								}
-							}
-						}
-					}
-				}
+	trigger = {
+		NOT = { has_graphical_cfp_court_active_trigger = yes }
+		trigger_if = {
+			limit = {
+				has_mpo_dlc_trigger = no            
 			}
-			
-			# 3 - Prevent MENA in steppe when MPO is active (STEPPE TRIGGER MUST NOT BE TRUE)
-			NAND = {
-				has_mpo_dlc_trigger = yes
+			exists = capital_county
+			capital_county = {
 				OR = {
-					government_has_flag = government_is_nomadic
-					capital_county ?= {
+					culture = {
+						OR = {
+							has_graphical_mena_culture_group_trigger = yes
+							has_graphical_iranian_culture_group_trigger = yes
+							has_graphical_african_culture_group_trigger = yes
+							AND = {
+								has_graphical_iberian_culture_group_trigger  = yes
+								prev.religion = religion:islam_religion
+							}
+						}
+					}
+					AND = {
 						culture = {
 							has_graphical_steppe_culture_group_trigger = yes
 						}
-						title_province ?= {
-							has_holding = yes
-							OR = {
-								has_holding_type = nomad_holding
-								has_holding_type = tribal_holding
-							}
-						}
-					}
-					#For tribal northerns... this is better than a big feudal western castle, right?
-					capital_county ?= {
-						culture = {
-							OR = {
-								has_graphical_steppe_culture_group_trigger = yes
-								has_graphical_western_culture_group_trigger = yes
-							}
-							OR = {
-								has_cultural_pillar = heritage_ugro_permian
-								has_cultural_pillar = heritage_volga_finnic
-								has_cultural_pillar = heritage_balto_finnic
-							}
-						}
-						title_province ?= {
-							has_holding = yes
-							OR = {
-								has_holding_type = nomad_holding
-								has_holding_type = tribal_holding
-							}
+						title_province = {
+							steppe_building_gfx_use_mediterranean_trigger = no
+							steppe_building_gfx_use_indian_trigger = no
+							steppe_building_gfx_use_western_trigger = no
+							steppe_building_gfx_use_east_asian_trigger = no
+							steppe_building_gfx_use_japanese_trigger = no
+							steppe_building_gfx_use_southeast_asian_trigger = no
 						}
 					}
 				}
 			}
-        }
+		}
+		trigger_else = {
+			NOT = {
+				government_has_flag = government_is_nomadic
+			}
+			exists = capital_county
+			OR = {
+				capital_county = {
+					culture = { has_graphical_steppe_culture_group_trigger = yes }
+					title_province = {
+						steppe_building_gfx_use_mediterranean_trigger = no
+						steppe_building_gfx_use_indian_trigger = no
+						steppe_building_gfx_use_western_trigger = no
+						steppe_building_gfx_use_east_asian_trigger = no
+						steppe_building_gfx_use_japanese_trigger = no
+						steppe_building_gfx_use_southeast_asian_trigger = no
+					}
+					title_province ?= {
+						has_holding = yes
+						NOT = {
+							has_holding_type = tribal_holding
+						}
+					}
+				}
+				capital_county.culture = {
+					OR = {
+						has_graphical_mena_culture_group_trigger = yes
+						has_graphical_iranian_culture_group_trigger = yes
+						has_graphical_african_culture_group_trigger = yes               
+						AND = {
+							has_graphical_iberian_culture_group_trigger  = yes
+							prev.religion = religion:islam_religion
+						}
+					}
+				}
+			}
+		}
 		trigger_if = {
 			limit = {
 				has_tgp_dlc_trigger = yes
-				NOT = { government_has_flag = government_is_nomadic	}
+				NOT = {
+					government_has_flag = government_is_nomadic
+				}
 				tgp_is_ceremonial_regent_trigger = no
 			}
 			NOT = { primary_title ?= title:h_china }
 		}
-    }
+	}
+}
+
+western = {
+	trigger = {
+		NOT = { has_graphical_cfp_court_active_trigger = yes }
+		NOT = {
+			government_has_flag = government_is_nomadic
+		}
+		exists = capital_county
+		capital_county = {
+			OR = {
+				culture = { has_graphical_western_culture_group_trigger = yes }
+				culture = { has_graphical_norse_culture_group_trigger = yes }
+				title_province = { steppe_building_gfx_use_western_trigger = yes }
+			}
+		}
+		trigger_if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				NOT = {
+					government_has_flag = government_is_nomadic
+				}
+				tgp_is_ceremonial_regent_trigger = no
+			}
+			NOT = { primary_title ?= title:h_china }
+		}
+	}
 }
