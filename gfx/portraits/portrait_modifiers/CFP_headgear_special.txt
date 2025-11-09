@@ -20,13 +20,17 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 1000
 				OR = {
 					portrait_wear_no_headgear_trigger = yes
 					activity_tournament_shirtless_trigger = yes
-					portrait_ep2_wedding_clothes_trigger = no
-					NOT = { has_character_flag = wear_makuta }
 				}
+			}
+			modifier = {
+				add = 10000
+				portrait_wear_no_headgear_trigger = yes
+				portrait_ep2_wedding_clothes_trigger = no
+				NOT = { has_character_flag = wear_makuta }
 			}
 			modifier = {
 				add = 1000
