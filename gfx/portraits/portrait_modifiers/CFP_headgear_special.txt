@@ -367,6 +367,40 @@
 		}
 	}
 
+## Character ##
+
+	cfp_223523_baudouin = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_western_03_disease
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask
+				template = face_mask
+				accessory = male_headgear_special_cfp_face_mask_04
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:223523
+				this = character:223523
+			}
+		}
+	}
+	
 ## CFP Fantasy ##
 
 	cfp_fantasy_witches = {
