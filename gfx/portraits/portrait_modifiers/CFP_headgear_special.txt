@@ -330,6 +330,7 @@
 				exists = this
 				has_personality_extroverted_trigger = yes
 				NOR = {
+					NOT = { has_game_rule = never_cfp_trait_accessories }
 					portrait_wear_no_headgear_trigger = yes
 					portrait_wear_helmet_trigger = yes
 					government_has_flag = government_is_theocracy

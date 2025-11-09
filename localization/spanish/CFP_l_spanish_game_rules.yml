@@ -10,9 +10,9 @@
 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Acesorios de rasgos"
  setting_default_cfp_trait_accessories:0 "Por defecto"
- setting_default_cfp_trait_accessories_desc:0 "Los personajes usarán nuevos tipos de accesorios faciales basados en sus rasgos(gafas, joyeria, tatuajes, pintura de guerra)."
+ setting_default_cfp_trait_accessories_desc:0 "Los personajes usarán nuevos tipos de accesorios faciales basados en sus rasgos (corona de laurel)."
  setting_never_cfp_trait_accessories:1 "#high Nunca#!"
- setting_never_cfp_trait_accessories_desc:0 "Los personajes utilizarán unicamente los accesorios incluidos en el juego (vendas, mascara de desfigurado, vendaje de cabeza, parches)."
+ setting_never_cfp_trait_accessories_desc:0 "Los personajes utilizarán unicamente los accesorios incluidos en el juego."
  
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Barbería ampliada"
  setting_default_cfp_barbershop_unlocks:0 "Lleno"

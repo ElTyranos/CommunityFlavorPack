@@ -1,20 +1,24 @@
 ﻿l_korean:
  game_rule_category_cfp: "@cfp_icon! $cfp_name$"
+ 
  rule_cfp_fullplate_helmets:0 "@cfp_icon! CFP : 풀 플레이트 헬멧"
  setting_default_cfp_fullplate_helmets:0 "기본"
  setting_default_cfp_fullplate_helmets_desc:0 "전쟁 중인 인물들은 그들의 얼굴을 가리는 풀 플레이트 헬멧을 착용할 것입니다."
  setting_never_cfp_fullplate_helmets:1 "#high 얼굴 노출#!"
  setting_never_cfp_fullplate_helmets_desc:0 "인물들은 풀 플레이트 헬멧을 착용하지 않으며, 항상 얼굴을 보일 것입니다."
+ 
  rule_cfp_trait_accessories:0 "@cfp_icon! CFP : 특성 기반 액세서리 착용"
  setting_default_cfp_trait_accessories:0 "기본"
- setting_default_cfp_trait_accessories_desc:0 "인물들은 그들의 특성에 기반한 새로운 액세서리를 사용할 것 입니다. (안경, 장신구, 타투, 전쟁문양 등)"
+ setting_default_cfp_trait_accessories_desc:0 "인물들은 그들의 특성에 기반한 새로운 액세서리를 사용할 것 입니다 (월계관)."
  setting_never_cfp_trait_accessories:1 "#high 없음#!"
  setting_never_cfp_trait_accessories_desc:0 "인물들은 바닐라 액세서리만 사용할 것입니다."
+ 
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! CFP : 이발소 확장"
  setting_default_cfp_barbershop_unlocks:0 "해금"
  setting_default_cfp_barbershop_unlocks_desc:0 "이발소가 완전히 해금될 것입니다. 플레이어는 망토, 바지 및 모든 액세서리를 사용할 수 있습니다. 이 설정은 AI의 의상 설정을 변경하지는 않습니다."
  setting_never_cfp_barbershop_unlocks:1 "#high 제한#!"
  setting_never_cfp_barbershop_unlocks_desc:0 "이발소는 바닐라와 같을 것입니다. 액세서리와 바지는 커스터마이징할 수 없고, 망토는 특정 작위 이상을 요구할 것입니다. 이 설정은 AI의 의상 설정을 변경하지는 않습니다."
+ 
  rule_cfp_fantasy:0 "@cfp_icon! CFP : 판타지 속 의상"
  setting_default_cfp_fantasy:0 "기본"
  setting_default_cfp_fantasy_desc:0 "CFP는 역사적인 요소만을 가질 것입니다."
@@ -22,6 +26,7 @@
  setting_barbershop_cfp_fantasy_desc:0 "판타지 의상은 이발소에서만 사용할 수 있습니다. AI는 판타지 의상을 착용하지 않습니다."
  setting_ai_cfp_fantasy:1 "#high 이발소와 AI만#!"
  setting_ai_cfp_fantasy_desc:0 "AI는 판타지 의상을 착용하지만, 플레이어는 이발소에서 사용할 수 있습니다."
+ 
  rule_cfp_artifacts:0 "@cfp_icon! CFP : 유물"
  setting_default_cfp_artifacts:0 "기본"
  setting_default_cfp_artifacts_desc:0 "CFP에서 추가된 유물이 등장합니다. 이는 실제 게임 플레이에 영향을 미칠 수 있지만, CFP는 항상 게임의 밸런스 유지를 위해 노력할 것입니다."
