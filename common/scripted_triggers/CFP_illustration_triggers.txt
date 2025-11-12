@@ -43,12 +43,12 @@ has_graphical_cfp_byzantine_culture_group_trigger = {
 
 has_graphical_cfp_norman_culture_group_trigger = {
 	OR = {
-		capital_county ?= title:k_england
-		capital_county ?= title:k_france
+		capital_county.kingdom = title:k_england
+		capital_county.kingdom = title:k_france
 	}
 	OR = {
 		has_culture = culture:norman
-		culture = { 
+		culture = {
 			any_parent_culture_or_above = { this = culture:norman }
 		}
 	}
