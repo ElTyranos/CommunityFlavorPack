@@ -321,12 +321,36 @@ accessory_genes = {
 			girl = female
 		}
 
+		tgp_chinese_high_nobility_legwear = {
+			index = 23
+			male = {
+				1 = m_legwear_sec_tgp_chinese_hi_nob_01
+			}
+			female = {
+			#	1 = f_legwear_sec_tgp_chinese_war_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
+		tgp_southeast_commoner_legwear = {
+			index = 24
+			male = {
+				1 = m_legwear_sec_tgp_southeast_com_01
+			}
+			female = {
+			#	1 = f_legwear_sec_tgp_chinese_war_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
 		
 		cfp_western_war_legwear_late = {
-			index = 23
+			index = 25
 			male = {
 				1 = male_legwear_secular_western_cfp_war_plate_01
 			}
@@ -338,7 +362,7 @@ accessory_genes = {
 		}
 		
 		cfp_sub_saharan_common_legwear = {
-			index = 24
+			index = 26
 			male = {
 				1 = male_legwear_secular_sub_saharan_cfp_common_01
 			}
@@ -350,7 +374,7 @@ accessory_genes = {
 		}
 		
 		cfp_javanese_common_legwear = {
-			index = 25
+			index = 27
 			male = {
 				1 = male_legwear_secular_java_cfp_common_01
 			}
@@ -362,7 +386,7 @@ accessory_genes = {
 		}
 		
 		cfp_javanese_nobility_legwear = {
-			index = 26
+			index = 28
 			male = {
 				1 = male_legwear_secular_java_cfp_high_nobility_01
 			}
@@ -374,7 +398,7 @@ accessory_genes = {
 		}
 		
 		cfp_javanese_royalty_legwear = {
-			index = 27
+			index = 29
 			male = {
 				1 = male_legwear_secular_java_cfp_royalty_01
 			}
@@ -1406,6 +1430,7 @@ props_left = {
 			1 = ep2_long_bow_01_a_left_hand
 			1 = ep2_short_bow_01_a_left_hand
 			1 = ep2_short_bow_01_b_left_hand
+			1 = tgp_japanese_bow_01_a_portrait
 		}
 		female = male
 		boy = male
@@ -1815,13 +1840,40 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	tgp_japanese_bow_01_a = {
+		index = 99
+		male = {
+			1 = tgp_japanese_bow_01_a_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_japanese_bow_01_a_drawn = {
+		index = 100
+		male = {
+			1 = tgp_japanese_bow_01_a_drawn_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	japanese_bow_01 = {
+		index = 101
+		male = {
+			1 = japanese_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 	
 	########################################
 	## Community Flavor Pack - new groups ##
 	########################################
 	
 	cfp_javanese_dagger = {
-		index = 100
+		index = 105
 		male = {
 			1 = cfp_kris_dagger_equipped_01
 		}
@@ -1831,7 +1883,7 @@ props_left = {
 	}
 	
 	cfp_globus = {
-		index = 101
+		index = 106
 		male = {
 			1 = cfp_globus_01
 		}
@@ -1840,7 +1892,7 @@ props_left = {
 		girl = female
 	}
 	cfp_potion = {
-		index = 102
+		index = 107
 		male = {
 			1 = cfp_potion_01
 		}
@@ -1849,7 +1901,7 @@ props_left = {
 		girl = female
 	}
 	cfp_cauldron = {
-		index = 103
+		index = 108
 		male = {
 			1 = cfp_cauldron_01
 		}
@@ -1858,7 +1910,7 @@ props_left = {
 		girl = female
 	}
 	cfp_bonfire = {
-		index = 104
+		index = 109
 		male = {
 			1 = cfp_bonfire_01
 		}
@@ -1867,7 +1919,7 @@ props_left = {
 		girl = female
 	}
 	cfp_globus_regalia = {
-		index = 105
+		index = 110
 		male = {
 			1 = cfp_globus_02
 		}
@@ -2793,10 +2845,10 @@ props_left = {
 			boy = male
 			girl = female
 		}
-		suzu_prop = {
+		tgp_suzu_01 = {
 			index = 98
 			male = {
-				1 = suzu_prop_01
+				1 = tgp_suzu_01_a
 			}
 			female = male
 			boy = male

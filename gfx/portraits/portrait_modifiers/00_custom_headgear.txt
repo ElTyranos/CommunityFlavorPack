@@ -163,6 +163,14 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
+		template = tgp_southeast_royal
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
 		template = tgp_korean_imperial
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
@@ -558,7 +566,10 @@
 		gene = headgear
 		template = fp3_iranian_imperial
 		is_valid_custom = {
-			has_fp3_dlc_trigger = yes
+			OR = {
+				has_fp3_dlc_trigger = yes
+				has_mpo_dlc_trigger = yes
+			}
 		}
 	}
 
@@ -566,7 +577,10 @@
 		gene = headgear
 		template = fp3_iranian_royalty
 		is_valid_custom = {
-			has_fp3_dlc_trigger = yes
+			OR = {
+				has_fp3_dlc_trigger = yes
+				has_mpo_dlc_trigger = yes
+			}
 		}
 	}
 
