@@ -121,6 +121,11 @@ custom_special_masks = {
 
 	add_accessory_modifiers = {
 		gene = special_headgear_face_mask
+		template = fp3_iranian_face_mask_open
+	}
+
+	add_accessory_modifiers = {
+		gene = special_headgear_face_mask
 		template = ep3_golden_nose
 	}
 
