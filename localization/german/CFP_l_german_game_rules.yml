@@ -10,9 +10,9 @@
 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Accessoire Eigenschaften"
  setting_default_cfp_trait_accessories:0 "Standardmäßig"
- setting_default_cfp_trait_accessories_desc:0 "Charaktere werden neue Accessoires basierend auf ihren Eigenschaften benutzen (Brillen, Schmuck, Tattoos, Kriegsbemalungen)."
+ setting_default_cfp_trait_accessories_desc:0 "Charaktere werden neue Accessoires basierend auf ihren Eigenschaften benutzen (Lorbeerkranz)."
  setting_never_cfp_trait_accessories:1 "#high Niemals#!"
- setting_never_cfp_trait_accessories_desc:0 "Charaktere werden nur vanilla Accessoires benutzen (Augenbinde, Entstellungsmaske, Kopfbinde, Augenklappe)."
+ setting_never_cfp_trait_accessories_desc:0 "Charaktere werden nur vanilla Accessoires benutzen."
 
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Expanded Barbershop"
  setting_default_cfp_barbershop_unlocks:0 "Freigegeben"

@@ -1,0 +1,28 @@
+pdxmesh = {
+	name = "male_headgear_secular_andalusian_cfp_war_nasal_02_mesh"
+	file = "male_headgear_secular_andalusian_cfp_war_nasal_02.mesh"
+
+	meshsettings = {
+		name = "male_headgear_secular_andalusian_cfp_war_nasal_02Shape"
+		index = 0
+		texture_diffuse = "m_headgear_secular_andalusian_cfp_war_nasal_02_diffuse.dds"
+		texture_normal = "m_headgear_secular_andalusian_cfp_war_nasal_02_normal.dds"
+		texture_specular = "m_headgear_secular_andalusian_cfp_war_nasal_02_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "male_headgear_secular_andalusian_cfp_war_nasal_02_mailShape"
+		index = 0
+		texture_diffuse = "mena_cfp_war_mail_coif_01_diffuse.dds"
+		texture_normal = "mena_cfp_war_mail_coif_01_normal.dds"
+		texture_specular = "mena_cfp_war_mail_coif_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_andalusian_cfp_war_nasal_02_entity"
+	pdxmesh = "male_headgear_secular_andalusian_cfp_war_nasal_02_mesh"
+}

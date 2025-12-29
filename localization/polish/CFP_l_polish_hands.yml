@@ -1,0 +1,23 @@
+﻿l_polish:
+ PORTRAIT_MODIFIER_custom_hands:0 "Hands"
+ 
+ PORTRAIT_MODIFIER_custom_hands_male_empty:1 "Bare Hands"
+ PORTRAIT_MODIFIER_custom_hands_female_empty:0 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
+ PORTRAIT_MODIFIER_custom_hands_boy_empty:1 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
+ PORTRAIT_MODIFIER_custom_hands_girl_empty:1 "$PORTRAIT_MODIFIER_custom_hands_male_empty$"
+ 
+## Vanilla
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_fp1_rings_01:1 "Northern Lords Rings"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_abbasid_rings_01:1 "Ruby Ring"
+ PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_indian_rings_01:1 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_abbasid_rings_01$"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_dde_hre_rings_01:1 "Jade Ring"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_norse_rings_01:1 "Runic Ring"
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_catholic_rings_01:1 "Signet Ring"
+ PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_african_rings_01:1 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_catholic_rings_01$"
+
+## CFP 
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_01:1 "@cfp_icon! High Nobility Gloves"
+ PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_noble_gloves_01:0 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_01$"
+
+ PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_02:1 "@cfp_icon! High Nobility Left Glove"
+ PORTRAIT_MODIFIER_custom_hands_female_accessories_cfp_noble_gloves_02:0 "$PORTRAIT_MODIFIER_custom_hands_male_accessories_cfp_noble_gloves_02$"

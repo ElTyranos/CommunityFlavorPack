@@ -1,4 +1,33 @@
-cultures={ {
+cultures = { 
+	{
+        culture="steppe"
+        max_visual_culture_level = 3
+        levels={ 
+            {
+                grandeur_level = 20
+                visual_culture_level = 1
+            }
+            {
+                grandeur_level = 50
+                visual_culture_level = 2
+            }
+        }
+    }
+	{
+        culture="byzantine"
+        max_visual_culture_level = 3
+        levels={ 
+            {
+                grandeur_level = 20
+                visual_culture_level = 1
+            }
+            {
+                grandeur_level = 50
+                visual_culture_level = 2
+            }
+        }
+    }
+    {
 		culture="mediterranean"
 		max_visual_culture_level = 3
 		levels={ 
@@ -12,7 +41,7 @@ cultures={ {
             }
         }
 	}
- {
+    {
 		culture="mena"
 		max_visual_culture_level = 3
 		levels={ 
@@ -26,7 +55,7 @@ cultures={ {
             }
         }
 	}
- {
+	{
 		culture="indian"
 		max_visual_culture_level = 3
 		levels={ 
@@ -40,7 +69,7 @@ cultures={ {
             }
          }
 	}
- {
+	{
 		culture="western"
 		max_visual_culture_level = 3
 		levels={ 
@@ -54,8 +83,50 @@ cultures={ {
             }
          }
 	}
- {
-		culture="papal"
+    {
+        culture="chinese"
+        max_visual_culture_level = 3
+        levels={ 
+            {
+                grandeur_level = 20
+                visual_culture_level = 1
+            }
+            {
+                grandeur_level = 50
+                visual_culture_level = 2
+            }
+         }
+    }
+    {
+        culture="japanese"
+        max_visual_culture_level = 3
+        levels={ 
+            {
+                grandeur_level = 20
+                visual_culture_level = 1
+            }
+            {
+                grandeur_level = 50
+                visual_culture_level = 2
+            }
+         }
+    }
+    {
+        culture="southeast_asia"
+        max_visual_culture_level = 3
+        levels={ 
+            {
+                grandeur_level = 20
+                visual_culture_level = 1
+            }
+            {
+                grandeur_level = 50
+                visual_culture_level = 2
+            }
+         }
+    }
+	{
+		culture="cfp_papal"
 		max_visual_culture_level = 1
 		# levels={ 
             # {
@@ -68,8 +139,8 @@ cultures={ {
             # }
          # }
 	}
- {
-		culture="hre"
+	{
+		culture="cfp_hre"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -82,8 +153,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="byzantine"
+	{
+		culture="cfp_byzantine"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -96,8 +167,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="byzantine_mena"
+	{
+		culture="cfp_byzantine_mena"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -110,8 +181,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="byzantine_pagan"
+	{
+		culture="cfp_byzantine_pagan"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -124,8 +195,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="norse"
+	{
+		culture="cfp_norse"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -138,8 +209,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="norman"
+	{
+		culture="cfp_norman"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -152,8 +223,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="goidelic"
+	{
+		culture="cfp_goidelic"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -166,8 +237,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="iberian"
+	{
+		culture="cfp_iberian"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -180,8 +251,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="andalusian"
+	{
+		culture="cfp_andalusian"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -194,8 +265,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="west_african"
+	{
+		culture="cfp_west_african"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -208,8 +279,8 @@ cultures={ {
             }
          }
 	}
- {
-		culture="east_african"
+	{
+		culture="cfp_east_african"
 		max_visual_culture_level = 3
 		levels={ 
             {
@@ -222,4 +293,4 @@ cultures={ {
             }
          }
 	}
- }
+}

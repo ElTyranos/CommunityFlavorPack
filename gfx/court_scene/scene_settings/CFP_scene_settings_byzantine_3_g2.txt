@@ -1,5 +1,5 @@
 name="CFP_Byzantine_3_g2"
-culture="byzantine_mena"
+culture="cfp_byzantine_mena"
 visual_culture_level=2
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_mediterranean.txt"

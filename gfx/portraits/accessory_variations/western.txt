@@ -208,7 +208,6 @@ pattern_textures = {
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/fp4/fp4_western_03_properties.dds"
 }
 
-
 ##################
 #	Layouts		#
 ##################
@@ -288,7 +287,7 @@ pattern_layout = {
 	name = "big_trim_layout_01"	
 	scale 		= { min = 0.17	max = 0.17 }
 	rotation 	= { min = 0	max = 0 }	
-	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.06	max = 0.06 } } 
+	offset 		= { x = { min = 0	max = 0.0 }    y = { min = 0.06	max = 0.06 } } 
 }
 pattern_layout = {
 	name = "edge_trim_layout"	
@@ -505,8 +504,8 @@ variation = {
 		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
 		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
 	}
-	
-	pattern = { 
+
+		pattern = { 
 		weight = 2
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
 		r = { textures = "velvet_01" 				layout = "plain_fabric_layout" }
@@ -540,8 +539,8 @@ variation = {
 		g = { textures = "western_linen_trim_02" 	layout = "edge_trim_layout" }
 		b = { textures = "western_silk_trim_04" 	layout = "small_trim_layout" }
 		a = { textures = "western_wool_belt_01"		layout = "small_trim_layout" }
-	}
-	
+	}					
+		
 	# Color palette textures are 16-wide and N-high.
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
@@ -614,7 +613,6 @@ variation = {
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_western_nobility_low_01.dds" }	
 }
-
 variation = {
 	name = "western_nobility_hre_low_01"
 	

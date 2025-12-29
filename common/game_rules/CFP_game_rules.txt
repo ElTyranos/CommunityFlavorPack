@@ -4,12 +4,12 @@
 	default_cfp_fullplate_helmets = {}
 	never_cfp_fullplate_helmets = {}
 }
-# cfp_trait_accessories = {
-	# categories = { cfp tweaks flavor }
-	# default = default_cfp_trait_accessories
-	# default_cfp_trait_accessories = {}
-	# never_cfp_trait_accessories = {}
-# }
+cfp_trait_accessories = {
+	categories = { cfp tweaks flavor }
+	default = default_cfp_trait_accessories
+	default_cfp_trait_accessories = {}
+	never_cfp_trait_accessories = {}
+}
 # cfp_barbershop_unlocks = {
 	# categories = { cfp tweaks flavor }
 	# default = default_cfp_barbershop_unlocks

@@ -1,80 +1,94 @@
 ﻿male_headgear_special_cfp_face_mask_01 = {
-	set_tags = "no_hair"
-	set_tags = "no_beard"
+	set_tags = "mask,no_hair,no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = "mask_hat"		shared_pose_entity = head       entity = male_headgear_special_face_mask_01_hat_entity	 }
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_01_entity }
 }
 male_headgear_special_cfp_face_mask_02 = {
-	set_tags = "no_hair"
-	set_tags = "no_beard"
+	set_tags = "mask,no_beard"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_02_entity }
 }
 male_headgear_special_cfp_face_mask_03 = {
-	set_tags = "no_hair"
-	set_tags = "no_beard"
+	set_tags = "mask,no_beard"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_03_entity }
 }
 male_headgear_special_cfp_face_mask_04 = {
-	set_tags = "no_beard"
+	set_tags = "mask,no_beard"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_04_entity }
 }
 male_headgear_special_cfp_face_mask_04_opened = {
-	set_tags = "beard_hood"
+	set_tags = "mask,beard_hood"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_04_opened_entity }
 }
 male_headgear_special_cfp_face_mask_05 = {
-	set_tags = "no_beard"
+	set_tags = "mask,no_beard"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_05_entity }
 }
 male_headgear_special_cfp_face_mask_05_opened = {
-	set_tags = "beard_hood"
+	set_tags = "mask,beard_hood"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_05_opened_entity }
 }
 male_headgear_special_cfp_face_mask_06 = {
-	set_tags = "no_beard"
+	set_tags = "mask,no_beard"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_06_entity }
 }
 male_headgear_special_cfp_face_mask_06_opened = {
-	set_tags = "beard_hood"
+	set_tags = "mask,beard_hood"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_face_mask_06_opened_entity }
 }
 
 female_headgear_special_cfp_face_mask_01 = {
+	set_tags = "mask,no_hair"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = "mask_hat"		shared_pose_entity = head	 entity = female_headgear_special_face_mask_01_hat_entity	}
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_01_entity }
 }
 female_headgear_special_cfp_face_mask_02 = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_02_entity }
 }
 female_headgear_special_cfp_face_mask_03 = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_03_entity }
 }
 female_headgear_special_cfp_face_mask_04 = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_04_entity }
 }
 female_headgear_special_cfp_face_mask_04_opened = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_04_opened_entity }
 }
 female_headgear_special_cfp_face_mask_05 = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_05_entity }
 }
 female_headgear_special_cfp_face_mask_05_opened = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_05_opened_entity }
 }
 female_headgear_special_cfp_face_mask_06 = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_06_entity }
 }
 female_headgear_special_cfp_face_mask_06_opened = {
+	set_tags = "mask"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_face_mask_06_opened_entity }
 }
 
 male_headgear_special_cfp_fake_nose_01 = {
+	set_tags = "nose_prosthetic"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_fake_nose_01_entity }
 }
 male_headgear_special_cfp_fake_nose_02 = {
+	set_tags = "nose_prosthetic"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = male_headgear_special_cfp_fake_nose_02_entity }
 }
 female_headgear_special_cfp_fake_nose_01 = {
+	set_tags = "nose_prosthetic"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_fake_nose_01_entity }
 }
 female_headgear_special_cfp_fake_nose_02 = {
+	set_tags = "nose_prosthetic"
 	entity = { required_tags = ""		shared_pose_entity = head		entity = female_headgear_special_cfp_fake_nose_02_entity }
 }

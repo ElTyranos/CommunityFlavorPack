@@ -1061,9 +1061,9 @@ special_genes = {
 				male = {
 					setting = { attribute = "body_no_left_arm"  value = { min = 1.0 max = 1.0 }	}
 				}
-				female = {}
+				female = male
 				boy = male
-				girl = {}
+				girl = male
 			}
 
 		}
@@ -1168,67 +1168,25 @@ special_genes = {
 		}
 	}
 
+
 	accessory_genes = {
-	
-		special_headgear_head_bandage = {
-
-			head_bandage = {
-				index = 0
-				male = {
-					100 = male_headgear_special_head_bandage_01
-				}
-				female = {
-					100 = female_headgear_special_head_bandage_01
-				}
-				boy = male
-				girl = female
-			}
-
-		}
-
-		special_headgear_eye_patch = {
-
-			no_eye_patch = {
-				index = 0
-				male = { 1 = no_eye_patch }
-				female = { 1 = no_eye_patch }
-				boy = male
-				girl = female
-			}
-			
-			eye_patch = {
-				index = 1
-				male = {
-					100 = male_headgear_special_eye_patch_01
-				}
-				female = {
-					100 = female_headgear_special_eye_patch_01
-				}
-				boy = male
-				girl = female
-			}
-			
-			cfp_eye_patch = {
-				index = 2
-				male = {
-					2 = empty
-					1 = male_headgear_special_eye_patch_01
-				}
-				female = {
-					2 = empty
-					1 = female_headgear_special_eye_patch_01
-				}
-				boy = male
-				girl = female
-			}
-
-		}
-
 
 		special_headgear_face_mask = {
 
-			face_mask = {
+			no_mask = {
 				index = 0
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			face_mask = {
+				index = 1
 				male = {
 					1 = male_headgear_special_face_mask_01
 					1 = male_headgear_special_cfp_face_mask_02
@@ -1261,12 +1219,20 @@ special_genes = {
 				girl = female
 			}
 
-		}
-		
-		headgear_fp3_iranian_face_mask = {
-
+			ep3_golden_nose = {
+				index = 2
+				male = {
+					1 = m_headgear_spec_ep3_golden_nose
+				}
+				female = {
+					1 = f_headgear_spec_ep3_golden_nose
+				}
+				boy = male
+				girl = female
+			}
+			
 			fp3_iranian_face_mask = {
-				index = 0
+				index = 3
 				male = {
 					100 = m_headgear_fp3_iranian_face_mask_01
 				}
@@ -1277,39 +1243,49 @@ special_genes = {
 				girl = female
 			}
 
-		}
-
-		special_headgear_blindfold = {
-
-			no_blindfold = {
-				index = 0
-				male = { 1 = no_blindfold }
-				female = { 1 = no_blindfold }
-				boy = male
-				girl = female
-			}
-			
-			blindfold = {
-				index = 1
+			fp3_iranian_face_mask_open = {
+				index = 4
 				male = {
-					100 = male_headgear_special_blindfold_01
+					1 = m_headgear_fp3_iranian_face_mask_closed_01
+					1 = m_headgear_fp3_iranian_face_mask_open_01
 				}
 				female = {
-					100 = female_headgear_special_blindfold_01
 				}
 				boy = male
 				girl = female
 			}
-			
-			cfp_blindfold = {
-				index = 2
+
+			head_bandage = {
+				index = 5
 				male = {
-					2 = empty
-					1 = male_headgear_special_blindfold_01
+					100 = male_headgear_special_head_bandage_01
 				}
 				female = {
-					2 = empty
-					1 = female_headgear_special_blindfold_01
+					100 = female_headgear_special_head_bandage_01
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_face_mask = {
+				index = 6
+				male = {
+					1 = m_headgear_sec_tgp_chinese_face_mask
+				}
+				female = {
+					100 = female_headgear_special_face_mask_01
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_face_mask = {
+				index = 7
+				male = {
+					1 = m_headgear_sec_tgp_japanese_face_mask
+				}
+				female = {
+					100 = female_headgear_special_face_mask_01
 				}
 				boy = male
 				girl = female
@@ -1319,14 +1295,16 @@ special_genes = {
 
 		special_headgear_spectacles = {
 
-			no_eyeglasses = {
+			no_spectacles = {
 				index = 0
-				male = { 1 = no_eyeglasses }
-				female = { 1 = no_eyeglasses }
+				male = {
+					1 = empty
+				}
+				female = male
 				boy = male
 				girl = female
 			}
-			
+
 			spectacles = {
 				index = 1
 				male = {
@@ -1342,6 +1320,58 @@ special_genes = {
 					1 = female_headgear_special_cfp_glasses_01b
 					30 = female_headgear_special_cfp_glasses_02
 					1 = female_headgear_special_cfp_glasses_02b
+				}
+				boy = male
+				girl = female
+			}
+
+			blindfold = {
+				index = 2
+				male = {
+					100 = male_headgear_special_blindfold_01
+				}
+				female = {
+					100 = female_headgear_special_blindfold_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			eye_patch = {
+				index = 3
+				male = {
+					100 = male_headgear_special_eye_patch_01
+				}
+				female = {
+					100 = female_headgear_special_eye_patch_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cfp_eye_patch = {
+				index = 4
+				male = {
+					2 = empty
+					1 = male_headgear_special_eye_patch_01
+				}
+				female = {
+					2 = empty
+					1 = female_headgear_special_eye_patch_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cfp_blindfold = {
+				index = 5
+				male = {
+					2 = empty
+					1 = male_headgear_special_blindfold_01
+				}
+				female = {
+					2 = empty
+					1 = female_headgear_special_blindfold_01
 				}
 				boy = male
 				girl = female

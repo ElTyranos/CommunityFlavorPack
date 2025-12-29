@@ -7,6 +7,74 @@
 		template = no_cloak
 	}
 
+		## CCP4 Sami ##
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_com
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_lo_nob
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_hi_nob
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+		## EP3 ##
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ep3_byzantine_era1_nob
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ep3_byzantine_era1_imperial
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ep3_byzantine_era2_nob
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ep3_byzantine_era2_roy_01_loros
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ep3_byzantine_era2_imp_01_loros
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes
+		}
+	}
+
 	add_accessory_modifiers = {
 		gene = cloaks
 		template = fp4_cloak_western
@@ -83,7 +151,7 @@
 		}
 		template = ep1_cloak_adventurer
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = cloaks
 		is_valid_custom = {

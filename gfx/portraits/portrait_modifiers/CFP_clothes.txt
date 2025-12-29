@@ -84,6 +84,11 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 		        has_ep2_dlc_trigger = yes
                 portrait_era4_trigger = yes
 				cfp_clothing_no_override_trigger = yes
+				NOR = {
+					portrait_west_slavic_clothing_trigger = yes
+					portrait_sp2_western_clothing_trigger = yes
+					portrait_fp2_iberian_christian_clothing_trigger = yes
+				}
 		    }
             modifier = {
                 add = 50
@@ -94,6 +99,11 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 has_ep2_dlc_trigger = yes
                 portrait_era4_trigger = yes
 				cfp_clothing_no_override_trigger = yes
+				NOR = {
+					portrait_west_slavic_clothing_trigger = yes
+					portrait_sp2_western_clothing_trigger = yes
+					portrait_fp2_iberian_christian_clothing_trigger = yes
+				}
             }
         }
 	}
@@ -294,7 +304,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 101
                 portrait_commoner_clothing_trigger = {
                     CULTURE_INPUT = cfp_burmese
                 }
@@ -315,7 +325,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
             base = 0
             court_fashion_level_5_modifier = { INPUT_PARAMETER = cfp_burmese } 
             modifier = {
-                add = 50
+                add = 101
                 portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = cfp_burmese
                 } 
@@ -336,11 +346,23 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
             base = 0
             court_fashion_level_5_modifier = { INPUT_PARAMETER = cfp_burmese } 
             modifier = {
-                add = 50
+                add = 101
                 portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = cfp_burmese
-                } 
+                }
             }
+			modifier = {
+				factor = 0
+				is_female = yes
+				OR = {
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = cfp_burmese
+					}
+				}
+			}
         }
     }
 
@@ -355,7 +377,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 range = { 0 1 }
             }
         }
-        outfit_tags = { military_outfit }
+        # outfit_tags = { military_outfit }
         weight = {
             base = 0
             modifier = {
@@ -413,34 +435,33 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 				template = cfp_east_african_war_nobility_clothes
 				range = { 0 1 }
 			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0 # better for CFP armor
-				template = bust_clothes
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 1.0 # better for CFP armor
-				template = body_shape_average_clothed
-			}
 		}
-        outfit_tags = { military_outfit }
+        # outfit_tags = { military_outfit }
         weight = {
             base = 0
             modifier = {
-                add = 101
+                add = 70
                 OR = {
                     portrait_commoner_armor_trigger = { 
                         CULTURE_INPUT = cfp_east_africa
                     }
-                    portrait_low_nobles_armor_trigger = { 
+                    portrait_low_nobles_armor_trigger = {
                         CULTURE_INPUT = cfp_east_africa
 					}
 					portrait_high_nobles_armor_trigger = {
 						CULTURE_INPUT = cfp_east_africa
 					}
+                }
+			}
+            modifier = {
+                add = 31        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = {
+                        CULTURE_INPUT = cfp_east_africa
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = {
+                        CULTURE_INPUT = cfp_east_africa
+                    }
                 }
             }
         }
@@ -589,10 +610,11 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 	        modifier = {
 				add = 140
 				exists = this
+				exists = title:k_papal_state.holder
 				is_male = yes
 				is_adult = yes
 				current_date >= 1245.1.1
-				faith = { religion_tag = christianity_religion }
+				portrait_religious_christian_trigger = yes
 				OR = {
 					AND = {
 						is_vassal_of = title:k_papal_state.holder
@@ -602,10 +624,7 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 						is_councillor_of = title:k_papal_state.holder
 						is_theocratic_lessee = yes
 					}
-					AND = {
-						exists = title:k_papal_state.holder
-						is_courtier_of = title:k_papal_state.holder
-					}
+					is_courtier_of = title:k_papal_state.holder
 				}
 				NOT = {
 					faith = { has_doctrine_parameter = vows_of_poverty_active }

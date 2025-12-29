@@ -1,0 +1,20 @@
+﻿l_polish:
+ 
+ PORTRAIT_MODIFIER_custom_earrings:0 "Earrings"
+ PORTRAIT_MODIFIER_custom_earrings_male_empty:1 "No earrings"
+ PORTRAIT_MODIFIER_custom_earrings_female_empty:0 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ PORTRAIT_MODIFIER_custom_earrings_boy_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ PORTRAIT_MODIFIER_custom_earrings_girl_empty:1 "$PORTRAIT_MODIFIER_custom_earrings_male_empty$"
+ 
+ PORTRAIT_MODIFIER_custom_earrings_male_accessories_cfp_slavic_earrings_01:1 "@cfp_icon_red! Slavic Earrings"
+ PORTRAIT_MODIFIER_custom_earrings_male_accessories_cfp_african_earrings_01:1 "@cfp_icon_yellow! African Nose Piercing"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_african_earrings_01:1 "@cfp_icon_yellow! African Bronze Earrings"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_african_earrings_02:1 "@cfp_icon_yellow! African Ebony Earrings"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_01:1 "@cfp_icon_orange! Indian Earrings 1"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_02:1 "@cfp_icon_orange! Indian Earrings 2"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_indian_earrings_03:1 "@cfp_icon_orange! Indian Earrings 3"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_mena_earrings_01:1 "@cfp_icon_green! Middle Eastern Earrings"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_01:1 "@cfp_icon_red! Steppe Simple Earrings"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_steppe_earrings_02:1 "@cfp_icon_red! Steppe Complex Earrings"
+ PORTRAIT_MODIFIER_custom_earrings_female_accessories_cfp_byzantine_earrings_01:1 "@cfp_icon_purple! Byzantine Pearls Earrings"
+ 

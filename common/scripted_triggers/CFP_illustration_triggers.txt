@@ -1,19 +1,39 @@
-﻿has_graphical_papal_culture_group_trigger = {
-	has_title = title:k_papal_state
-}
-
-has_graphical_hre_culture_group_trigger = {
+﻿# CFP Blocker for vanilla courts
+has_graphical_cfp_court_active_trigger = {
 	OR = {
-		has_title = title:e_hre
-		has_title = title:e_france
+		has_graphical_cfp_papal_culture_group_trigger = yes
+		has_graphical_cfp_hre_culture_group_trigger = yes
+		has_graphical_cfp_byzantine_culture_group_trigger = yes
+		has_graphical_cfp_norman_culture_group_trigger = yes
+		has_graphical_cfp_goidelic_culture_group_trigger = yes
+		has_graphical_cfp_norse_court_trigger = yes
+		has_graphical_cfp_andalusian_court_trigger = yes
+		has_graphical_cfp_iberian_court_trigger = yes
+		has_graphical_cfp_west_african_court_trigger = yes
+		has_graphical_cfp_east_african_court_trigger = yes
 	}
 }
 
-has_graphical_byzantine_culture_group_trigger = {
+# Cultural Triggers
+has_graphical_cfp_papal_culture_group_trigger = {
+	primary_title ?= title:k_papal_state
+}
+
+has_graphical_cfp_hre_culture_group_trigger = {
 	OR = {
-		has_title = title:e_byzantium
-		has_title = title:e_roman_empire
-		has_title = title:e_latin_empire
+		primary_title ?= title:e_hre
+		primary_title ?= title:e_france
+	}
+}
+
+has_graphical_cfp_byzantine_culture_group_trigger = {
+	NOT = { government_has_flag = government_is_nomadic }
+	OR = {
+		culture = {	has_cultural_pillar = heritage_byzantine }
+		capital_county ?= title:c_byzantion
+		primary_title ?= title:e_byzantium
+		primary_title ?= title:h_roman_empire
+		primary_title ?= title:e_latin_empire
 		AND = {
 			highest_held_title_tier = tier_empire
 			capital_county.kingdom = title:k_thessalonika
@@ -21,33 +41,57 @@ has_graphical_byzantine_culture_group_trigger = {
 	}
 }
 
-has_graphical_norman_culture_group_trigger = {
+has_graphical_cfp_norman_culture_group_trigger = {
 	OR = {
 		capital_county.kingdom = title:k_england
 		capital_county.kingdom = title:k_france
 	}
 	OR = {
 		has_culture = culture:norman
-		culture = { 
+		culture = {
 			any_parent_culture_or_above = { this = culture:norman }
 		}
 	}
 }
 
-has_graphical_goidelic_culture_group_trigger = {
-	OR = {
-		has_culture = culture:irish
+has_graphical_cfp_goidelic_culture_group_trigger = {
+	culture = {	has_cultural_pillar = heritage_goidelic }
+}
+
+has_graphical_cfp_norse_court_trigger = {
+	government_has_flag = government_is_tribal
+	capital_province ?= { geographical_region = world_europe_north }
+}
+
+has_graphical_cfp_andalusian_court_trigger = {
+	exists = capital_county
+	capital_county = {
 		culture = {
-			any_parent_culture_or_above = { this = culture:irish }
-		}
-		has_culture = culture:gaelic
-		culture = { 
-			any_parent_culture_or_above = { this = culture:gaelic }
+			has_graphical_iberian_culture_group_trigger  = yes
+			prev.religion = religion:islam_religion
 		}
 	}
 }
 
-has_graphical_west_african_culture_group_trigger = {
+has_graphical_cfp_iberian_court_trigger = {
+	exists = capital_county
+	capital_county = {
+		culture = {
+			has_graphical_iberian_culture_group_trigger  = yes
+			OR = {
+				prev.religion = religion:christianity_religion
+				prev.religion = religion:basque_religion
+			}
+		}
+	}
+}
+
+has_graphical_cfp_west_african_court_trigger = {
+	exists = capital_county
+	capital_county.culture = {
+		has_graphical_african_culture_group_trigger = yes
+		NOT = { prev.religion = religion:islam_religion }
+	}	
 	culture = {
 		OR = {
 			has_cultural_pillar = heritage_west_african
@@ -59,8 +103,12 @@ has_graphical_west_african_culture_group_trigger = {
 	}
 }
 
-has_graphical_east_african_culture_group_trigger = {
-	NOT = { faith.religion = religion:islam_religion }
+has_graphical_cfp_east_african_court_trigger = {
+	exists = capital_county
+	capital_county.culture = {
+		has_graphical_african_culture_group_trigger = yes
+		NOT = { prev.religion = religion:islam_religion }
+	}	
 	culture = {
 		OR = {
 			has_cultural_pillar = heritage_east_african

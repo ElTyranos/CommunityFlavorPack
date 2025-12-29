@@ -3,15 +3,15 @@
 	usage = game
 	selection_behavior = weighted_random
 	priority = 5
-	
+
 ## Africans ##
 
-	cfp_african_religious_masks = {
+	cfp_religious_african_masks = {
 	    dna_modifiers = {
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = cfp_african_religious_masks
+	            template = cfp_religious_african_masks
 	            range = { 0 1 }
 	        }
 	    }
@@ -37,7 +37,7 @@
 			}
 	    }
 	}
-	
+
 ## Orthodox ##
 
 	cfp_religious_orthodox_devoted = {
@@ -101,8 +101,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic_pilgrim
-				range = { 0 1 }
+				template = cfp_religious_catholic
+				range = { 0.61 1 }
 			}
 		}
 		weight = {
@@ -122,14 +122,14 @@
 			}
 		}
 	}
-	
+
 	cfp_religious_catholic_high_northern = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic_high_northern
-				range = { 0 1 }
+				template = cfp_religious_catholic
+				accessory = male_headgear_religious_catholic_cfp_tribal_01
 			}
 		}
 		outfit_tags = { bishop_outfit }
@@ -145,7 +145,6 @@
 				portrait_religious_christian_trigger = yes
 				portrait_religious_high_trigger = yes
 				cfp_clothing_no_override_bishop_trigger = yes
-				NOT = { } 
 	        }
 	    }
 	}
@@ -161,16 +160,17 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic_cardinal
-				range = { 0 1 }
+				template = cfp_religious_catholic
+				accessory = male_headgear_religious_catholic_cfp_cardinal_01
 			}
 		}
 		outfit_tags = { cardinal_outfit }
 	    weight = {
 	        base = 0
 	        modifier = {
-	            add = 140
+				add = 140
 				exists = this
+				exists = title:k_papal_state.holder
 				is_male = yes
 				is_adult = yes
 				current_date >= 1245.1.1
@@ -184,10 +184,7 @@
 						is_councillor_of = title:k_papal_state.holder
 						is_theocratic_lessee = yes
 					}
-					AND = {
-						exists = title:k_papal_state.holder
-						is_courtier_of = title:k_papal_state.holder
-					}
+					is_courtier_of = title:k_papal_state.holder
 				}
 				NOT = {
 					faith = { has_doctrine_parameter = vows_of_poverty_active }
@@ -196,13 +193,18 @@
 			}
 			modifier = { # The Catholic Trinity compatibility
 				add = 140
-				faith = faith:catholic
 				exists = global_var:Trinity_is_loaded
 				CatholicTrinityCardinalTrigger = yes
+				is_male = yes
+				is_adult = yes
+				faith = { religion_tag = christianity_religion }
+				NOT = {
+					faith = { has_doctrine_parameter = vows_of_poverty_active }
+				}
 			}
 	    }
 	}
-	
+
 	cfp_catholic_head = {
 		outfit_tags = { rank_headgear }
 		usage = game
@@ -222,43 +224,6 @@
 				portrait_religious_head_trigger = yes
 				portrait_religious_catholic_trigger = yes	
 			}
-		}
-	}
-	
-	cfp_catholic_head_early = {
-		outfit_tags = { rank_headgear }
-		usage = game
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = cfp_religious_catholic_head_early
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 160
-				portrait_religious_head_trigger = yes
-				portrait_religious_catholic_trigger = yes	
-			}
-		}
-	}
-	
-	cfp_popes = {
-		outfit_tags = { rank_headgear }
-		usage = game
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = catholic_head
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
 			modifier = {
 				add = 160
 				portrait_era4_trigger = yes
@@ -273,26 +238,31 @@
 			}
 		}
 	}
-	
-	cfp_popes_early = {
+
+	cfp_catholic_head_early = {
 		outfit_tags = { rank_headgear }
 		usage = game
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic_head_early
-				range = { 0 1 }
+				template = cfp_religious_catholic
+				accessory = male_headgear_religious_catholic_cfp_head_01
 			}
-		}	
+		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 140
+				add = 160
+				portrait_religious_head_trigger = yes
+				portrait_religious_catholic_trigger = yes	
+			}
+			modifier = {
+				add = 160
 				portrait_religious_head_popes_trigger = yes
 			}
 			modifier = { # The Catholic Trinity compatibility
-				add = 140
+				add = 160
 				faith = faith:catholic
 				exists = global_var:Trinity_is_loaded
 				CatholicTrinityCardinalOrAntiPopeTrigger = yes
@@ -320,7 +290,7 @@
 			}
 	    }
 	}
-	
+
 	cfp_religious_jewish_common_mena = {
 	    dna_modifiers = {
 	        accessory = {
@@ -339,7 +309,7 @@
 			}
 	    }
 	}
-	
+
 	cfp_religious_jewish_common_andalusian = {
 	    dna_modifiers = {
 	        accessory = {
@@ -358,9 +328,9 @@
 			}
 	    }
 	}
-	
+
 ## Muslim ##
-	
+
 	cfp_religious_muslim_high_turkic_headgear = {
 	    dna_modifiers = {
 	        accessory = {

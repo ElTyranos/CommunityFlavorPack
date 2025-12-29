@@ -10,9 +10,9 @@
 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Accessoires de traits"
  setting_default_cfp_trait_accessories:0 "Par défaut"
- setting_default_cfp_trait_accessories_desc:0 "Les personnages utilisent des accessoires selon leurs traits (lunettes de vue, bijoux, tatouages, peintures de guerre)."
+ setting_default_cfp_trait_accessories_desc:0 "Les personnages utilisent des accessoires selon leurs traits (couronne de laurier)."
  setting_never_cfp_trait_accessories:1 "#high Jamais#!"
- setting_never_cfp_trait_accessories_desc:0 "Les personnages n’utilisent que les accessoires par défaut (cache-oeil, bandage, masque de défiguration, bandeau d’aveugle)."
+ setting_never_cfp_trait_accessories_desc:0 "Les personnages n’utilisent que les accessoires par défaut."
  
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Barbier étendu"
  setting_default_cfp_barbershop_unlocks:0 "Complet"

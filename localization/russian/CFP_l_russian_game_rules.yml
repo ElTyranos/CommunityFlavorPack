@@ -10,9 +10,9 @@
 
  rule_cfp_trait_accessories:0 "@cfp_icon! Community Flavor Pack : Дополнительные аксессуары"
  setting_default_cfp_trait_accessories:0 "Индивидуально"
- setting_default_cfp_trait_accessories_desc:0 "Персонажи будут использовать новые виды головных уборов в зависимости от их особенностей (очки, украшения, татуировки, боевые раскраски)"
+ setting_default_cfp_trait_accessories_desc:0 "Персонажи будут использовать новые виды головных уборов в зависимости от их особенностей (лавровый венок)."
  setting_never_cfp_trait_accessories:1 "#high Только стандартные#!"
- setting_never_cfp_trait_accessories_desc:0 "Персонажи будут придерживаться только базовых аксессуаров (повязки для слепых, маски при обезображивании, повязки на голову, повязка на глаз)"
+ setting_never_cfp_trait_accessories_desc:0 "Персонажи будут придерживаться только базовых аксессуаров."
  
  rule_cfp_barbershop_unlocks:0 "@cfp_icon! Community Flavor Pack : Улучшенная парикмахерская"
  setting_default_cfp_barbershop_unlocks:0 "Разблокировать"

@@ -129,7 +129,7 @@
 				template = chancellor_scrolls
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	marshal_afr_prop = {
@@ -142,7 +142,18 @@
 			}
 		}
 	}
-	
+
+	marshal_pol_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = pol_marshal_sword
+				value = 1.0
+			}
+		}
+	}
+
 	marshal_fp2_muslim_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -184,7 +195,7 @@
 				template = marshal_swords
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	spymaster_afr_prop = {
@@ -195,7 +206,7 @@
 				template = afr_spymaster_dagger
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	spymaster_fp2_prop = {
@@ -217,7 +228,7 @@
 				template = fp1_spymasters_dagger
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	spymaster_prop = {
@@ -228,7 +239,7 @@
 				template = spymaster_daggers
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	rondel_dagger_prop = {
@@ -250,7 +261,7 @@
 				template = spymaster_daggers_mena
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	spymaster_indian_prop = {
@@ -261,7 +272,7 @@
 				template = spymaster_daggers_indian
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	steward_fp2_prop = {
@@ -283,7 +294,18 @@
 				template = steward_pouches
 				value = 1.0
 			}
-		}	
+		}
+	}
+
+	money_pouch_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = steward_pouches_right
+				value = 1.0
+			}
+		}
 	}
 
 	fp2_chess_piece_prop_left_hand = {
@@ -316,7 +338,7 @@
 				template = prison_shackles
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	dungeon_props = {
@@ -327,7 +349,7 @@
 				template = prison_shackles_02
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	newborn_prop = {
@@ -338,7 +360,7 @@
 				template = swaddled_baby
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	messenger_prop = {
@@ -349,7 +371,7 @@
 				template = messenger_scroll
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	# props with scripted appearances
@@ -361,7 +383,7 @@
 				template = ep1_artisan_spear_left_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_spear_prop_right_hand = {
@@ -372,9 +394,9 @@
 				template = ep1_artisan_spear_right_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
-	
+
 	artisan_mena_spear_prop_left_hand = {
 		dna_modifiers = {
 			accessory = {
@@ -383,7 +405,7 @@
 				template = ep1_mena_artisan_spear_left_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_mena_spear_prop_right_hand = {
@@ -394,9 +416,9 @@
 				template = ep1_mena_artisan_spear_right_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
-	
+
 	artisan_african_spear_prop_left_hand = {
 		dna_modifiers = {
 			accessory = {
@@ -405,7 +427,7 @@
 				template = ep1_african_artisan_spear_left_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_african_spear_prop_right_hand = {
@@ -416,9 +438,9 @@
 				template = ep1_african_artisan_spear_right_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
-	
+
 	artisan_indian_spear_prop_left_hand = {
 		dna_modifiers = {
 			accessory = {
@@ -427,7 +449,7 @@
 				template = ep1_indian_artisan_spear_left_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_indian_spear_prop_right_hand = {
@@ -438,7 +460,7 @@
 				template = ep1_indian_artisan_spear_right_hand
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 
@@ -450,7 +472,7 @@
 				template = ep1_artisan_sword_mena
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_sword_indian_prop = { # Indian
@@ -461,7 +483,7 @@
 				template = ep1_artisan_sword_indian
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_sword_byzantine_prop = { # Byzantine
@@ -472,7 +494,7 @@
 				template = ep1_artisan_sword_byzantine
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_sword_steppe_prop = { # Steppe
@@ -483,7 +505,7 @@
 				template = ep1_artisan_sword_steppe
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 
@@ -528,7 +550,7 @@
 				template = ep1_artisan_axe_mena
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_axe_african_prop = { # African
@@ -539,7 +561,7 @@
 				template = ep1_artisan_axe_african
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_axe_indian_prop = { # Indian
@@ -550,7 +572,7 @@
 				template = ep1_artisan_axe_indian
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_axe_prop = { # Western
@@ -572,7 +594,7 @@
 				template = ep1_artisan_mace_african
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 
@@ -628,7 +650,7 @@
 				template = ep1_artisan_mace_western
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	# props with overrides for equipped artifacts
@@ -640,7 +662,7 @@
 				template = ep1_artifact_axe_equipped
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artifact_mace_equipped_prop = {
@@ -651,7 +673,7 @@
 				template = ep1_artifact_mace_equipped
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	fp3_artifact_sword_equipped_prop = {
@@ -662,7 +684,7 @@
 				template = fp3_artifact_sword_equipped_01
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artifact_sword_equipped_prop = {
@@ -673,7 +695,7 @@
 				template = ep1_artifact_sword_equipped
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artifact_dagger_equipped_prop = {
@@ -684,7 +706,7 @@
 				template = ep1_artifact_dagger_equipped
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artifact_spear_equipped_prop = {
@@ -695,7 +717,7 @@
 				template = ep1_artifact_spear_equipped
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artifact_spear_equipped_prop_left = {
@@ -706,7 +728,7 @@
 				template = ep1_artifact_spear_equipped_left
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	ep1_tool_quill_attachment = {
@@ -717,37 +739,9 @@
 				template = ep1_tool_quill
 				value = 1.0
 			}
-		}	
+		}
 	}
 
-	ep1_mena_book_big_attachment = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = ep1_tool_quill
-				value = 1.0
-			}
-			accessory = {
-				mode = add
-				gene = props_right
-				template = ep1_mena_book_big
-				value = 1.0
-			}
-		}	
-	}
-	
-	ep1_western_book_big_attachment = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_right
-				template = ep1_western_book_big
-				value = 1.0
-			}
-		}	
-	}
-	
 	artifact_hammer_equipped_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -756,7 +750,7 @@
 				template = ep1_artifact_hammer_equipped
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	artisan_hammer_mena_prop = { # MENA
@@ -780,7 +774,7 @@
 			}
 		}
 	}
-	
+
 	lantern = {
 		dna_modifiers = {
 			accessory = {
@@ -789,7 +783,7 @@
 				template = bp1_lantern
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	tankard = {
@@ -800,7 +794,7 @@
 				template = bp1_tankard
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	goblet = {
@@ -811,7 +805,7 @@
 				template = bp1_goblet
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	ep2_crossbow_attachment = {
@@ -822,9 +816,9 @@
 				template = ep2_crossbow_right
 				value = 1.0
 			}
-		}	
+		}
 	}
-	
+
 	ep2_horn_attachment = {
 		dna_modifiers = {
 			accessory = {
@@ -833,7 +827,7 @@
 				template = ep2_horn_left
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	ep2_rabbit_carcass_attachment = {
@@ -844,9 +838,9 @@
 				template = ep2_rabbit_carcass_left
 				value = 1.0
 			}
-		}	
-	}	
-	
+		}
+	}
+
 	ep2_hunting_knife_right_attachment = {
 		dna_modifiers = {
 			accessory = {
@@ -855,7 +849,7 @@
 				template = ep2_hunting_knife_right
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	ep2_hunting_sword_right_attachment = {
@@ -866,7 +860,7 @@
 				template = ep2_hunting_sword_right
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	ep2_western_long_sword_right_attachment = {
@@ -877,7 +871,7 @@
 				template = ep2_western_longsword_01_right
 				value = 1.0
 			}
-		}	
+		}
 	}
 
 	ep2_boar_spear_left_attachment = {
@@ -901,7 +895,7 @@
 			}
 		}
 	}
-	
+
 	ep2_falcon_peregrine_01 = {
 		dna_modifiers = {
 			accessory = {
@@ -910,9 +904,9 @@
 				template = ep2_falcon_peregrine
 				value = 1.0
 			}
-		}	
+		}
 	}
-	
+
 	ep2_horse_01_idle = {
 		dna_modifiers = {
 			accessory = {
@@ -920,8 +914,8 @@
 				gene = animated_props
 				template = ep2_horse_idle
 				range = {0 1}
-			}		
-		}	
+			}
+		}
 	}
 
 	ep2_horse_01_walk = {
@@ -931,8 +925,8 @@
 				gene = animated_props
 				template = ep2_horse_walk
 				range = {0 1}
-			}		
-		}	
+			}
+		}
 	}
 
 	ep2_horse_01_cgallop = {
@@ -942,8 +936,8 @@
 				gene = animated_props
 				template = ep2_horse_cgallop
 				range = {0 1}
-			}		
-		}	
+			}
+		}
 	}
 
 	ep2_horse_01_cgallopl = {
@@ -959,7 +953,7 @@
 				gene = props_right
 				template = ep2_lance_01_right
 				range = {0 1}
-				
+
 			}
 			accessory = {
 				mode = add
@@ -967,9 +961,9 @@
 				template = ep2_western_jousting_shield_01
 				value = 1.0
 			}
-		}	
+		}
 	}
-	
+
 	ep2_horse_01_tiltedl = {
 		dna_modifiers = {
 			accessory = {
@@ -977,7 +971,7 @@
 				gene = animated_props
 				template = ep2_horse_tiltedl
 				range = {0 1}
-			}	
+			}
 			accessory = {
 				mode = add
 				gene = props_right
@@ -989,8 +983,8 @@
 				gene = props_left
 				template = ep2_western_jousting_shield_01
 				value = 1.0
-			}	
-		}	
+			}
+		}
 	}
 
 	ep2_horse_01_victory = {
@@ -1000,8 +994,8 @@
 				gene = animated_props
 				template = ep2_horse_victory
 				range = {0 1}
-			}		
-		}	
+			}
+		}
 	}
 
 	ep2_horse_01_loss = {
@@ -1011,8 +1005,8 @@
 				gene = animated_props
 				template = ep2_horse_loss
 				range = {0 1}
-			}		
-		}	
+			}
+		}
 	}
 	#bow resting Blunt arrows
 	ep2_steppe_bowBlunt_01_a_left_attachment = {
@@ -1029,8 +1023,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_mediterranean_bowBlunt_01_a_left_attachment = {
 		dna_modifiers = {
@@ -1046,9 +1040,9 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
-	
+		}
+	}
+
 	ep2_indian_bowBlunt_01_a_left_attachment = {
 		dna_modifiers = {
 			accessory = {
@@ -1063,8 +1057,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_long_bowBlunt_01_a_left_attachment = {
 		dna_modifiers = {
@@ -1080,8 +1074,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_short_bowBlunt_01_left_attachment = {
 		dna_modifiers = {
@@ -1090,7 +1084,7 @@
 				gene = props_left
 				template = ep2_short_bow_01_left
 				range = {0 1}
-			
+
 			}
 			accessory = {
 				mode = add
@@ -1098,8 +1092,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_african_bowBlunt_01_left_attachment = {
 		dna_modifiers = {
@@ -1115,8 +1109,25 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
+
+	tgp_japanese_bow_blunt_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrowBlunt_right
+				range = {0 1}
+			}
+		}
+	}
 
 #bow resting/closed normal arrows
 	ep2_steppe_bow_01_a_left_attachment = {
@@ -1133,8 +1144,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_mediterranean_bow_01_a_left_attachment = {
 		dna_modifiers = {
@@ -1150,8 +1161,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_indian_bow_01_a_left_attachment = {
 		dna_modifiers = {
@@ -1167,8 +1178,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_long_bow_01_a_left_attachment = {
 		dna_modifiers = {
@@ -1184,8 +1195,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_short_bow_01_left_attachment = {
 		dna_modifiers = {
@@ -1194,7 +1205,7 @@
 				gene = props_left
 				template = ep2_short_bow_01_left
 				range = {0 1}
-			
+
 			}
 			accessory = {
 				mode = add
@@ -1202,8 +1213,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_african_bow_01_left_attachment = {
 		dna_modifiers = {
@@ -1219,8 +1230,25 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
+
+	tgp_japanese_bow_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+		}
+	}
 
 	#bow aim Blunt arrows
 	ep2_steppe_bow_01_a_aimBlunt_left_attachment = {
@@ -1237,8 +1265,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}		
+		}
+	}
 
 	ep2_mediterranean_bow_01_a_aimBlunt_left_attachment = {
 		dna_modifiers = {
@@ -1254,8 +1282,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_indian_bow_01_a_aimBlunt_left_attachment = {
 		dna_modifiers = {
@@ -1271,8 +1299,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_long_bow_01_a_aimBlunt_left_attachment = {
 		dna_modifiers = {
@@ -1288,8 +1316,8 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_short_bow_01_aimBlunt_left_attachment = {
 		dna_modifiers = {
@@ -1305,7 +1333,7 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
+		}
 	}
 
 	ep2_african_bow_01_aimBlunt_left_attachment = {
@@ -1322,7 +1350,24 @@
 				template = ep2_arrowBlunt_right
 				range = {0 1}
 			}
-		}	
+		}
+	}
+
+	tgp_japanese_bow_01_blunt_drawn = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a_drawn
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrowBlunt_right
+				range = {0 1}
+			}
+		}
 	}
 
 	#bow aim normal arrows
@@ -1340,8 +1385,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}		
+		}
+	}
 
 	ep2_mediterranean_bow_01_a_drawn_left_attachment = {
 		dna_modifiers = {
@@ -1357,8 +1402,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_indian_bow_01_a_drawn_left_attachment = {
 		dna_modifiers = {
@@ -1374,8 +1419,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_long_bow_01_a_drawn_left_attachment = {
 		dna_modifiers = {
@@ -1391,8 +1436,8 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}	
+		}
+	}
 
 	ep2_short_bow_01_drawn_left_attachment = {
 		dna_modifiers = {
@@ -1408,7 +1453,7 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
+		}
 	}
 
 	ep2_african_bow_01_drawn_left_attachment = {
@@ -1425,30 +1470,24 @@
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
+		}
 	}
 
-#arrows  these aren't being used in game.  the arrows are being attached as an extra accessory in the bow props
-	ep2_arrow_a_right_hand_attachment = {
+	tgp_japanese_bow_01_drawn = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a_drawn
+				value = 1.0
+			}
 			accessory = {
 				mode = add
 				gene = props_right
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}
-
-	ep2_arrowBlunt_a_right_attachment = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_right
-				template = ep2_arrowBlunt_right
-				range = {0 1}
-			}
-		}	
+		}
 	}
 
 	ep2_marshal_hunting_prop = {
@@ -1527,24 +1566,6 @@
 			}
 		}
 	}
-	bp2_book_and_quill_prop = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_right
-				template = bp2_reading_book_right
-				value = 1.0
-			}
-		}
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = ep1_tool_quill
-				value = 1.0
-			}
-		}
-	}
 	bp2_wooden_sword_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -1555,17 +1576,7 @@
 			}
 		}
 	}
-	bp2_reading_book_prop = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = bp2_reading_book_left
-				value = 1
-			}
-		}
-	}
-	
+
 	#########################
 	#			CE1			#
 	#########################
@@ -1630,6 +1641,1252 @@
 			}
 		}
 	}
+	fp4_mortar_and_pestle_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = fp4_bronzepestle
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_left
+				template = fp4_bronzemortar
+				value = 1.0
+			}
+		}
+	}
+
+	#########################
+	#			EP3			#
+	#########################
+
+	ep3_byzantine_scepter_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep3_byzantine_scepter
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_prop_blue = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_blue
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_prop_green = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_green
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_prop_white = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_white
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_prop_red = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_red
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_prop_random = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_random
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_w_horses_prop_blue = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_w_horses_blue
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_w_horses_prop_green = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_w_horses_green
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_w_horses_prop_white = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_w_horses_white
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_w_horses_prop_red = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_w_horses_red
+				range = {0 1}
+			}
+		}
+	}
+	ep3_byzantine_chariot_w_horses_prop_random = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep3_byzantine_chariot_w_horses_random
+				range = {0 1}
+			}
+		}
+	}
+
+	#########Left handed swords ################################################
+	artisan_sword_mena_prop_left = { # MENA
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_artisan_sword_mena_left
+				value = 1.0
+			}
+		}
+	}
+
+	artisan_sword_indian_prop_left = { # Indian
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_artisan_sword_indian_left
+				value = 1.0
+			}
+		}
+	}
+
+	artisan_sword_byzantine_prop_left = { # Byzantine
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_artisan_sword_byzantine_left
+				value = 1.0
+			}
+		}
+	}
+
+	artisan_sword_steppe_prop_left = { # Steppe
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_artisan_sword_steppe_left
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_afr_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = afr_marshal_sword_left
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_pol_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = pol_marshal_sword_left
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_fp2_muslim_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = fp2_iberian_muslim_sword_left
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_fp2_christian_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = fp2_iberian_christian_sword_left
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_fp1_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = fp1_marshal_sword_left
+				value = 1.0
+			}
+		}
+	}
+
+	marshal_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = marshal_swords_left
+				value = 1.0
+			}
+		}
+	}
+
+	fp3_artifact_sword_equipped_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = fp3_artifact_sword_equipped_left
+				value = 1.0
+			}
+		}
+	}
+
+	artifact_sword_equipped_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_artifact_sword_equipped_left
+				value = 1.0
+			}
+		}
+	}
+
+	ep2_western_jousting_shield = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_western_jousting_shield_01
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_indian_shield = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_indian_shield_01
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mediterranean_shield = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_mediterranean_shield_01
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mena_shield = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_mena_shield_01
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_western_shield = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_western_shield_01
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_indian_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_indian_shield_01_right
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mediterranean_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mediterranean_shield_01_right
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mena_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mena_shield_01_right
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_western_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_western_shield_01_right
+				value = 1.0
+			}
+		}
+	}
+
+	random_idle_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = bow_random_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	bp3_walking_stick = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = bp3_walking_stick_01
+				range = {0 1}
+			}
+		}
+	}
+
+	steppe_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = steppe_bow_01
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	mediterranean_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = mediterranean_bow_01
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	indian_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = indian_bow_01
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	long_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = long_bow_01
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	short_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = short_bow_01
+				range = {0 1}
+
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	african_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = african_bow_01
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	japanese_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = japanese_bow_01
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	steppe_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_steppe_bow_01_a_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	mediterranean_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_mediterranean_bow_01_a_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	indian_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_indian_bow_01_a_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	long_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_long_bow_01_a_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	short_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_short_bow_01_left
+				range = {0 1}
+
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	african_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_african_bow_01_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	japanese_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
+	skull_goblet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = skull_goblet_right
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_indian_goblet_basic = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_indian_goblet_basic_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mediterranean_goblet_basic = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mediterranean_goblet_basic_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mena_goblet_basic = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mena_goblet_basic_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_western_goblet_basic = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_western_goblet_basic_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	mpo_sheep = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = mpo_sheep
+				range = {0 1}
+			}
+		}
+	}
+
+	mpo_sheep_and_staff = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = mpo_sheep
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = bp3_walking_stick_01_right
+				range = {0 1}
+			}
+		}
+	}
+
+	mpo_sheep_and_staff_character_view = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = mpo_sheep_character_view
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = bp3_walking_stick_01_right
+				range = {0 1}
+			}
+		}
+	}
+
+	tgp_suzu = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_suzu_01
+				value = 1
+			}
+		}
+	}
+
+	f_headgear_sp4_mena_roy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = f_headgear_sp4_mena_roy_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_western_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_western_imperial_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_byzantine_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_byzantine_imperial_01
+				value = 1
+			}
+		}
+	}
+
+	f_headgear_sp4_rus_roy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = f_headgear_sp4_rus_roy_01
+				value = 1
+			}
+		}
+	}
+
+	m_headgear_sp4_rus_roy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = m_headgear_sp4_rus_roy_01
+				value = 1
+			}
+		}
+	}
+
+	f_headgear_sp4_western_roy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = f_headgear_sp4_western_roy_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_mena_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_mena_royalty_01
+				value = 1
+			}
+		}
+	}
+
+	m_headgear_sec_ep2_western_era1_roy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = m_headgear_sec_ep2_western_era1_roy_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_indian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_indian_royalty_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_sub_saharan_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_sub_saharan_royalty_01
+				value = 1
+			}
+		}
+	}
+
+	m_headgear_sec_fp3_iranian_imp = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = m_headgear_sec_fp3_iranian_imp_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_steppe_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_steppe_royalty_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_dde_hre_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_dde_hre_imperial_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_fp1_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_fp1_royalty_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_ep1_crown_of_lombardy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_ep1_crown_of_lombardy
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_sub_saharan_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_sub_saharan_imperial_01
+				value = 1
+			}
+		}
+	}
+
+	f_headgear_sec_ep3_byzantine_era1_roy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = f_headgear_sec_ep3_byzantine_era1_roy_01
+				value = 1
+			}
+		}
+	}
+
+	m_headgear_sec_mpo_mongol_imp = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = m_headgear_sec_mpo_mongol_imp_01
+				value = 1
+			}
+		}
+	}
+
+	f_headgear_sec_sp2_western_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = f_headgear_sec_sp2_western_imperial_01
+				value = 1
+			}
+		}
+	}
+
+	m_headgear_sec_ep2_western_era1_imp = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = m_headgear_sec_ep2_western_era1_imp_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_western_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_western_royalty_02
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_indian_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_indian_imperial_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_fp2_iberian_christian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_fp2_iberian_christian_royalty_01
+				value = 1
+			}
+		}
+	}
+
+	male_headgear_secular_byzantine_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = male_headgear_secular_byzantine_royalty_01
+				value = 1
+			}
+		}
+	}
+
+	tgp_guqin_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_guqin_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_fan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_fan_01_a
+				range = {0 1}
+			}
+		}
+	}
+
+	tgp_gunbai_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_gunbai_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_hu_01_a = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_hu_01_a
+				accessory = "tgp_hu_01_a_portrait"
+			}
+		}
+	}
+
+	tgp_hu_01_b = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_hu_01_a
+				accessory = "tgp_hu_01_b_portrait"
+			}
+		}
+	}
+
+	tgp_gui_01_a = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_gui_01_a
+				accessory = "tgp_gui_01_a_portrait"
+			}
+		}
+	}
+
+	tgp_chinese_polearm_01_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_chinese_polearm_01_left
+				value = 1
+			}
+		}
+	}
+
+	tgp_chinese_polearm_01_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_polearm_01_right
+				value = 1
+			}
+		}
+	}
+
+	tgp_bottle = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_bottle
+				value = 1
+			}
+		}
+	}
+
+	tgp_scrolls_bundle = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_scrolls_bundle
+				value = 1
+			}
+		}
+	}
+
+	tgp_scroll = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_scroll
+				value = 1
+			}
+		}
+	}
+
+### Books
+
+# Closed
+	tgp_chinese_book = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_book
+				value = 1
+			}
+		}
+	}
+
+	ep1_western_book = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_western_book_big
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mena_book = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mena_book_big
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_indian_book = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_indian_book_big
+				value = 1.0
+			}
+		}
+	}
+
+	ep1_mediterranean_book = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mediterranean_book_big
+				value = 1.0
+			}
+		}
+	}
+
+# Open
+	bp2_reading_book_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = bp2_reading_book_left
+				value = 1
+			}
+		}
+	}
+
+	tgp_chinese_book_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_chinese_book_left
+				value = 1
+			}
+		}
+	}
+
+# Paged
 	fp4_paged_book_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -1640,7 +2897,140 @@
 			}
 		}
 	}
-	fp4_writing_book_prop = {
+
+	tgp_paged_chinese_book = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = tgp_paged_chinese_book
+				value = 1.0
+			}
+		}
+	}
+
+# Closed with writing tool
+	ep1_mena_book_writing = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_tool_quill
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mena_book_big
+				value = 1.0
+			}
+		}
+	}
+	ep1_indian_book_writing = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_tool_quill
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_indian_book_big
+				value = 1.0
+			}
+		}
+	}
+	ep1_western_book_writing = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_tool_quill
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_western_book_big
+				value = 1.0
+			}
+		}
+	}
+	ep1_mediterranean_book_writing = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_tool_quill
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_mediterranean_book_big
+				value = 1.0
+			}
+		}
+	}
+	tgp_chinese_book_writing = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_brush_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_book
+				value = 1.0
+			}
+		}
+	}
+
+# Open with writing tool right
+	open_book_right_writing = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_tool_quill
+				value = 1.0
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = bp2_reading_book_right
+				value = 1.0
+			}
+		}
+	}
+	open_book_right_writing_chinese = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_brush_left
+				value = 1.0
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_book_right
+				value = 1.0
+			}
+		}
+	}
+
+# Open with writing tool left
+	open_book_left_writing = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -1656,18 +3046,249 @@
 			}
 		}
 	}
-	fp4_mortar_and_pestle_prop = {
+	open_book_left_writing_chinese = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = props_right
-				template = fp4_bronzepestle
+				template = tgp_brush_right
 				value = 1.0
 			}
 			accessory = {
 				mode = add
 				gene = props_left
-				template = fp4_bronzemortar
+				template = tgp_chinese_book_left
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_tray = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_tray_01
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_shield_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_shield_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_sea_shield_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_sea_shield_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_chinese_shield_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_chinese_shield_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_ceremonial_sword_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_japanese_ceremonial_sword_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_dagger_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_japanese_dagger_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_sword_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_japanese_sword_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_sword_of_goujian_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_sword_of_goujian_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_chinese_axe_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_axe_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_chinese_dagger_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_dagger_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_chinese_goblet_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_goblet_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_gyerim_ro_dagger_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_gyerim_ro_dagger_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_shield_01_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_japanese_shield_01_a_right
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_sea_shield_01_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_sea_shield_01_a_right
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_chinese_shield_01_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_shield_01_a_right
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_ceremonial_sword_01_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_ceremonial_sword_01_a_left
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_sword_01_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_sword_01_a_left
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_chinese_sword_01_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_chinese_sword_01_a_left
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_chinese_sword_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_chinese_sword_01_a
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_sword_of_goujian_01_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_sword_of_goujian_01_a_left
+				value = 1.0
+			}
+		}
+	}
+
+	tgp_japanese_cup = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = tgp_japanese_cup_01
 				value = 1.0
 			}
 		}
