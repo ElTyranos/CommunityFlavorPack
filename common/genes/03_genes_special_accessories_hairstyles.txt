@@ -97,9 +97,21 @@ special_genes = {
 					1 = m_hair_ep3_byzantine_04
 					1 = m_hair_sp4_western_01
 					1 = m_hair_sp4_mena_01
+
+					# MPO
 					1 = m_hair_mpo_mongol_01
 					1 = m_hair_mpo_mongol_02
 					1 = m_hair_mpo_mongol_03
+
+					# TGP
+					1 = m_hair_tgp_chinese_01
+					1 = m_hair_tgp_chinese_02
+					1 = m_hair_tgp_chinese_03
+					1 = m_hair_tgp_chinese_04
+					1 = m_hair_tgp_chinese_04_bald
+					1 = m_hair_tgp_chinese_02_bald
+					1 = m_hair_tgp_japanese_01
+					1 = m_hair_tgp_japanese_02
 				}
 
 				female = {
@@ -184,19 +196,25 @@ special_genes = {
 					1 = f_hair_sp4_mena_01
 
 					# MPO
-					1 = m_hair_mpo_mongol_01
-					1 = m_hair_mpo_mongol_02
-					1 = m_hair_mpo_mongol_03
+					1 = f_hair_mpo_mongol_01
+					1 = f_hair_mpo_mongol_02
+					1 = f_hair_mpo_mongol_03
 
 					# TGP
-					1 = m_hair_tgp_chinese_01
-					1 = m_hair_tgp_chinese_02
-					1 = m_hair_tgp_chinese_03
-					1 = m_hair_tgp_chinese_04
-					1 = m_hair_tgp_chinese_04_bald
-					1 = m_hair_tgp_chinese_02_bald
-					1 = m_hair_tgp_japanese_01
-					1 = m_hair_tgp_japanese_02
+					1 = f_hair_tgp_chinese_01
+					1 = f_hair_tgp_chinese_01_common
+					1 = f_hair_tgp_chinese_02
+					1 = f_hair_tgp_chinese_02_common
+					1 = f_hair_tgp_chinese_03
+					1 = f_hair_tgp_chinese_03_common
+					1 = f_hair_tgp_chinese_04
+					1 = f_hair_tgp_chinese_04_common
+					1 = f_hair_tgp_chinese_05
+					1 = f_hair_tgp_chinese_05_common
+					1 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_02
+					1 = f_hair_tgp_japanese_03
+					1 = f_hair_tgp_japanese_04
 					1 = f_hair_tgp_sea_01
 					1 = f_hair_tgp_sea_01_common
 					1 = f_hair_tgp_sea_02
@@ -273,27 +291,6 @@ special_genes = {
 					1 = female_hair_northern_03
 					1 = female_hair_steppe_01
 					1 = female_hair_steppe_02
-
-					# MPO
-					1 = f_hair_mpo_mongol_01
-					1 = f_hair_mpo_mongol_02
-					1 = f_hair_mpo_mongol_03
-
-					# TGP
-					1 = f_hair_tgp_chinese_01
-					1 = f_hair_tgp_chinese_01_common
-					1 = f_hair_tgp_chinese_02
-					1 = f_hair_tgp_chinese_02_common
-					1 = f_hair_tgp_chinese_03
-					1 = f_hair_tgp_chinese_03_common
-					1 = f_hair_tgp_chinese_04
-					1 = f_hair_tgp_chinese_04_common
-					1 = f_hair_tgp_chinese_05
-					1 = f_hair_tgp_chinese_05_common
-					1 = f_hair_tgp_japanese_01
-					1 = f_hair_tgp_japanese_02
-					1 = f_hair_tgp_japanese_03
-					1 = f_hair_tgp_japanese_04
 				}
 				boy = male
 				girl = female

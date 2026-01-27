@@ -185,6 +185,14 @@
 		}
 	}
 
+	add_accessory_modifiers = {
+		gene = headgear
+		template = tgp_korean_commoner
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
 	### MPO - Khans of the Steppe ###
 
 	add_accessory_modifiers = {
@@ -226,7 +234,7 @@
 			has_mpo_dlc_trigger = yes
 		}
 	}
-
+	
 	## SP4 - Crowns of the World ##
 	
 	add_accessory_modifiers = {
@@ -396,6 +404,7 @@
 	}
 	
 	## POL ##
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = pol_common
@@ -559,7 +568,7 @@
 	}
 
 	## Couture of the Capets ##
-	
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sp3_western_royalty
@@ -710,7 +719,7 @@
 	}
 
 	## SP2 Elegance of the Empire ##
-	
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = sp2_western_imperial
@@ -726,7 +735,7 @@
 			has_dlc_feature = elegance_of_the_empire
 		}
 	}
-	
+
 
 
 	### EP2 ###
@@ -1157,11 +1166,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_latin_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = cfp_latin_venetian_royalty
 	}
 
@@ -1382,37 +1386,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_west_african_low_nobility
+		template = cfp_african_nobility
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_west_african_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_central_african_low_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_central_african_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_east_african_common
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_east_african_low_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_east_african_high_nobility
+		template = cfp_east_african_nobility
 	}
 
 	add_accessory_modifiers = {

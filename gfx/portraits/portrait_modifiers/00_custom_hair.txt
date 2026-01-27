@@ -107,10 +107,10 @@ custom_hair = {
 	#byzantine
 	add_accessory_modifiers = {
 		gene = hairstyles
+		template = ep3_byzantine_hairstyle
 		is_valid_custom = {
 			has_ep3_dlc_trigger = yes
 		}
-		template = ep3_byzantine_hairstyle
 	}
 
 	add_accessory_modifiers = {

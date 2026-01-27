@@ -186,7 +186,7 @@
 					1 = m_clothes_sec_ep3_byzantine_era1_nob_02_lo
 					1 = m_clothes_sec_ep3_byzantine_era1_nob_02_hi
 					1 = m_clothes_sec_ep3_byzantine_era1_imp_01
-					
+
 					# Era2 #
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_01_lo
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_01_hi
@@ -198,6 +198,13 @@
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_lo
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_hi
 
+					# ce2 #---------------------------------------------------------------------------------------
+					1 = m_clothes_sec_mpo_mongol_nob_01_lo
+					1 = m_clothes_sec_mpo_mongol_nob_01_hi
+					1 = m_clothes_sec_mpo_mongol_roy_01
+					1 = m_clothes_sec_mpo_mongol_imp_01
+					1 = m_clothes_sec_mpo_mongol_war_01
+					
 					# POl
 					1 = m_clothes_sec_pol_common_01
 					1 = m_clothes_sec_pol_common_02
@@ -207,13 +214,6 @@
 					1 = m_clothes_sec_pol_high_nob_02
 					1 = m_clothes_sec_pol_imperial_01
 					1 = m_clothes_sec_pol_war_nob_01
-
-					# ce2 #---------------------------------------------------------------------------------------
-					1 = m_clothes_sec_mpo_mongol_nob_01_lo
-					1 = m_clothes_sec_mpo_mongol_nob_01_hi
-					1 = m_clothes_sec_mpo_mongol_roy_01
-					1 = m_clothes_sec_mpo_mongol_imp_01
-					1 = m_clothes_sec_mpo_mongol_war_01
 
 					# EP4 #---------------------------------------------------------------------------------------
 
@@ -406,7 +406,7 @@
 					1 = f_clothes_sec_ep3_byzantine_era2_war_nob_01_lo
 					1 = f_clothes_sec_ep3_byzantine_era2_war_nob_01_hi
 					1 = f_clothes_sec_ep3_byzantine_era1_imp_01
-
+					
 					# POL
 					1 = f_clothes_sec_pol_common_01
 					1 = f_clothes_sec_pol_common_02
@@ -416,7 +416,7 @@
 					1 = f_clothes_sec_pol_high_nob_02
 					1 = f_clothes_sec_pol_imperial_01
 					1 = f_clothes_sec_pol_war_nob_01
-					
+
 					# ce2 #---------------------------------------------------------------------------------------
 					1 = f_clothes_sec_mpo_mongol_nob_01_lo
 					1 = f_clothes_sec_mpo_mongol_nob_01_hi
@@ -442,6 +442,8 @@
 					1 = f_clothes_sec_tgp_japanese_war_nob_01
 					1 = f_clothes_rel_tgp_buddhist_devoted_01
 					1 = f_clothes_rel_tgp_taoist_priest_01
+
+
 				}
 
 				boy = male
@@ -2742,7 +2744,7 @@
 				boy = male
 				girl = female
 			}
-		
+
 			## POL ##
 
 			pol_commoner_clothes = {
@@ -2758,7 +2760,7 @@
 				boy = male
 				girl = female
 			}
-
+			
 			pol_low_nobility_clothes = {
 				index = 132
 				male = {
@@ -2772,7 +2774,7 @@
 				boy = male
 				girl = female
 			}
-
+			
 			pol_high_nobility_clothes = {
 				index = 133
 				male = {
@@ -2810,7 +2812,6 @@
 				boy = male
 				girl = female
 			}
-
 
 			### CCP4 Sami ###-------------------------------------------------------------------------------
 
@@ -2900,6 +2901,7 @@
 				girl = female
 			}
 
+
 			ccp4_khanty_low_nobility_clothes = {
 				index = 142
 				male = {
@@ -2913,7 +2915,7 @@
 				boy = male
 				girl = female
 			}
-
+			
 			ccp4_khanty_high_nobility_clothes = {
 				index = 143
 				male = {
@@ -2928,6 +2930,7 @@
 				girl = female
 			}
 
+			
 			ccp4_khanty_war_nobility_clothes = {
 				index = 144
 				male = {
@@ -3025,7 +3028,6 @@
 
 			mpo_mongol_war_nobility_clothes = {
 				index = 151
-
 				male = {
 					1 = m_clothes_sec_mpo_mongol_war_01
 				}
@@ -3034,7 +3036,7 @@
 				}
 				boy = male
 				girl = female
-			}
+			}			
 
 			### TGP - Asia ###
 
@@ -3264,10 +3266,12 @@
 				male = {
 					1 = m_clothes_sec_tgp_chinese_com_01
 					1 = m_clothes_sec_tgp_chinese_com_02
+					1 = m_clothes_sec_tgp_korean_com_01
 				}
 				female = {
 					1 = f_clothes_sec_tgp_chinese_com_01
 					1 = f_clothes_sec_tgp_chinese_com_02
+					1 = f_clothes_sec_tgp_korean_com_01
 				}
 				boy = male
 				girl = female
@@ -3277,10 +3281,12 @@
 				index = 170
 				male = {
 					1 = m_clothes_sec_tgp_korean_nob_01_lo
+					1 = m_clothes_sec_tgp_korean_nob_03_lo
 				}
 				female = {
 					1 = f_clothes_sec_tgp_korean_nob_01_lo
 					1 = f_clothes_sec_tgp_korean_nob_02_lo
+					1 = f_clothes_sec_tgp_korean_nob_03_lo
 				}
 				boy = male
 				girl = female
@@ -3290,11 +3296,13 @@
 				index = 171
 				male = {
 					1 = m_clothes_sec_tgp_korean_nob_02_lo
+					1 = m_clothes_sec_tgp_korean_nob_03_lo
 
 				}
 				female = {
 					1 = f_clothes_sec_tgp_korean_nob_01_lo
 					1 = f_clothes_sec_tgp_korean_nob_02_lo
+					1 = f_clothes_sec_tgp_korean_nob_03_lo
 				}
 				boy = male
 				girl = female
@@ -3366,8 +3374,21 @@
 				girl = female
 			}
 
-			tgp_chinese_ministers = {
+			tgp_southeast_royalty_clothes = {
 				index = 177
+				male = {
+					1 = m_clothes_sec_tgp_southeast_nob_01
+					1 = m_clothes_sec_tgp_southeast_nob_02
+				}
+				female = {
+					1 = f_clothes_sec_tgp_southeast_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_ministers = {
+				index = 178
 				male = {
 					1 = m_clothes_sec_tgp_chinese_nob_01_m1
 					1 = m_clothes_sec_tgp_chinese_roy_01_m1
@@ -3403,7 +3424,7 @@
 			}
 
 			tgp_japanese_ministers = {
-				index = 178
+				index = 179
 				male = {
 					1 = m_clothes_sec_tgp_japanese_nob_01_m1
 					1 = m_clothes_sec_tgp_japanese_nob_01_m2
@@ -3420,7 +3441,7 @@
 			}
 
 			tgp_korean_ministers = {
-				index = 179
+				index = 180
 				male = {
 					1 = m_clothes_sec_tgp_korean_nob_01_m1
 					1 = m_clothes_sec_tgp_korean_nob_02_m1
@@ -3444,7 +3465,7 @@
 			}
 
 			tgp_ainu_commoner_clothes = {
-				index = 180
+				index = 181
 				male = {
 					1 = male_clothes_secular_steppe_nobility_01_common
 				}
@@ -3456,7 +3477,7 @@
 			}	
 
 			tgp_ainu_low_nobility_clothes = {
-				index = 181
+				index = 182
 				male = {
 					1 = male_clothes_secular_steppe_nobility_01_low
 					1 = m_clothes_sec_tgp_japanese_nob_01
@@ -3582,7 +3603,7 @@
 		## Western
 
 			cfp_bedchamber = {
-				index = 182
+				index = 189
 
 				male = {
 					1 = cfp_male_clothes_western_bedchamber_01_common
@@ -3597,7 +3618,7 @@
 			}
 			
 			cfp_western_high_nobility_clothes_late = {
-				index = 183
+				index = 190
 				male = {
 					1 = male_clothes_secular_western_cfp_doublet_01
 					1 = male_clothes_secular_western_cfp_doublet_02
@@ -3608,7 +3629,7 @@
 			}
 
 			cfp_western_war_plate_armor = {
-				index = 184
+				index = 191
 				male = {
 					1 = male_clothes_secular_western_cfp_war_plate_01
 					1 = male_clothes_secular_western_cfp_war_plate_05
@@ -3625,7 +3646,7 @@
 		## Latin ##
 
 			cfp_latin_venetian_royalty_clothes = {
-				index = 185
+				index = 192
 				male = {
 					1 = male_clothes_secular_latin_cfp_venetian_doge_01
 				}
@@ -3639,7 +3660,7 @@
 		## African ##
 			
 			cfp_east_african_war_nobility_clothes = {
-				index = 186
+				index = 193
 				male = {
 					1 = male_clothes_secular_africa_east_cfp_war_mail_01
 				}
@@ -3654,7 +3675,7 @@
 		## Javanese ## 
 			
 			cfp_javanese_common = {
-				index = 187
+				index = 194
 				male = {
 					1 = male_clothes_secular_western_nudity_01
 				}
@@ -3667,7 +3688,7 @@
 			}
 			
 			cfp_javanese_nobility = {
-				index = 188
+				index = 195
 				male = {
 					1 = male_clothes_secular_java_cfp_high_nobility_01
 				}
@@ -3680,7 +3701,7 @@
 			}
 			
 			cfp_javanese_royalty = {
-				index = 189
+				index = 196
 				male = {	
 					1 = male_clothes_secular_java_cfp_royalty_01
 				}
@@ -3695,7 +3716,7 @@
 		## Religious
 			
 			cfp_religious_catholic_head_early_clothes = {
-				index = 190
+				index = 197
 				male = {
 					1 = male_clothes_religious_catholic_cfp_head_01
 				}
@@ -3707,7 +3728,7 @@
 			}
 		
 			cfp_religious_catholic_cardinal_clothes = {
-				index = 191
+				index = 198
 				male = {
 					1 = male_clothes_religious_catholic_cfp_cardinal_01
 				}
@@ -3719,7 +3740,7 @@
 			}
 		
 			cfp_religious_orthodox_devoted_clothes = {
-				index = 192
+				index = 199
 				male = {
 					1 = male_clothes_religious_orthodox_cfp_devoted_01
 				}
@@ -3731,7 +3752,7 @@
 			}
 		
 			cfp_religious_muslim_high_turkic_clothes = {
-				index = 193
+				index = 200
 				male = {
 					1 = male_clothes_religious_muslim_cfp_caliph_01
 				}
