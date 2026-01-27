@@ -4099,89 +4099,39 @@ special_genes = {
 
 			# CFP African
 
-			cfp_west_african_low_nobility = {
-				index = 232
+			cfp_african_nobility = {
+				index = 241
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_01
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_02
+					1 = male_headgear_secular_africa_west_cfp_high_nobility_01
+					1 = male_headgear_secular_africa_central_cfp_low_nobility_01
+					1 = male_headgear_secular_africa_central_cfp_low_nobility_02
+					1 = male_headgear_secular_africa_central_cfp_high_nobility_01
 				}
 				female = {
 					1 = female_headgear_secular_africa_west_cfp_low_nobility_01
 					1 = female_headgear_secular_africa_west_cfp_low_nobility_02
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_west_african_high_nobility = {
-				index = 233
-				male = {
-					1 = male_headgear_secular_africa_west_cfp_high_nobility_01
-				}
-				female = {
 					1 = female_headgear_secular_africa_west_cfp_high_nobility_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_central_african_low_nobility = {
-				index = 234
-				male = {
-					1 = male_headgear_secular_africa_central_cfp_low_nobility_01
-					1 = male_headgear_secular_africa_central_cfp_low_nobility_02
-				}
-				female = {
+					1 = empty
 					1 = female_headgear_secular_africa_central_cfp_low_nobility_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_central_african_high_nobility = {
-				index = 235
-				male = {
-					1 = male_headgear_secular_africa_central_cfp_high_nobility_01
-				}
-				female = {
 					1 = female_headgear_secular_africa_central_cfp_high_nobility_01
 				}
 				boy = male
 				girl = female
 			}
 
-			cfp_east_african_common = {
-				index = 236
+			cfp_east_african_nobility = {
+				index = 242
 				male = {
-					1 = empty # has is_female = yes
+					2 = empty
+					1 = male_headgear_secular_africa_east_cfp_high_nobility_01 # high
+					1 = male_headgear_secular_africa_east_cfp_high_nobility_03 # high
 				}
 				female = {
 					1 = female_headgear_secular_africa_east_cfp_common_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_east_african_low_nobility = {
-				index = 237
-				male = {
-					1 = empty # has is_female = yes
-				}
-				female = {
-					1 = female_headgear_secular_africa_east_cfp_low_nobility_01
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_east_african_high_nobility = {
-				index = 238
-				male = {
-					1 = male_headgear_secular_africa_east_cfp_high_nobility_01
-					1 = male_headgear_secular_africa_east_cfp_high_nobility_03
-				}
-				female = {
-					1 = female_headgear_secular_africa_east_cfp_high_nobility_01
+					1 = female_headgear_secular_africa_east_cfp_low_nobility_01 # low
+					2 = female_headgear_secular_africa_east_cfp_high_nobility_01 # high
 				}
 				boy = male
 				girl = female
@@ -4238,7 +4188,7 @@ special_genes = {
 			cfp_indian_high_nobility = {
 				index = 246
 				male = {
-					1 = male_headgear_secular_indian_cfp_high_nobility_01 
+					1 = male_headgear_secular_indian_cfp_high_nobility_01
 					1 = male_headgear_secular_indian_cfp_high_nobility_02
 				}
 				female = {
@@ -4249,7 +4199,7 @@ special_genes = {
 			}
 
 			cfp_indian_war = {
-				index = 243
+				index = 247
 				male = {
 					5 = male_headgear_secular_indian_cfp_war_tibetan_01
 					5 = male_headgear_secular_indian_cfp_war_timurid_01
