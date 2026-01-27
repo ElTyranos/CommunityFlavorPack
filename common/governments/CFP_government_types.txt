@@ -21,9 +21,17 @@ theocracy_government = {
 
 	can_get_government = {
 		NOT = {
-			faith = {
-				has_doctrine = doctrine_theocracy_lay_clergy
+			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
+		}
+		#The LAAMP Construct Holding decision
+		trigger_if = {
+			limit = {
+				OR = {
+					has_variable = city_construction_is_temple_citadel
+					has_variable = city_construction_is_castle
+				}
 			}
+			always = no
 		}
 	}
 
