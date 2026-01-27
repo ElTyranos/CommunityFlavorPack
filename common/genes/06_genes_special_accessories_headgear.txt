@@ -3892,21 +3892,11 @@ special_genes = {
 				index = 228
 				male = {
 					1 = male_headgear_secular_latin_cfp_nobility_01
-				}
-				female = {
-					1 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			cfp_latin_high_nobility = {
-				index = 219
-				male = {
 					1 = male_headgear_secular_latin_cfp_high_nobility_01
 					1 = male_headgear_secular_latin_cfp_pannonian_high_01
 				}
 				female = {
+					1 = empty
 					1 = female_headgear_secular_latin_cfp_high_nobility_01
 					1 = female_headgear_secular_latin_cfp_hennin_high_01
 				}
