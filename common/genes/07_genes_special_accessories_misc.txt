@@ -28,6 +28,8 @@ accessory_genes = {
 				1 = m_legwear_sec_tgp_japanese_com_01
 				1 = m_legwear_sec_tgp_japanese_war_nob_01
 				1 = m_legwear_sec_tgp_japanese_imp_01
+
+
 			}
 			female = {
 				1 = female_legwear_secular_western_common_01
@@ -205,7 +207,7 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
+
 		pol_common_legwear = {
 			index = 14
 			male = {
@@ -240,7 +242,7 @@ accessory_genes = {
 			}
 			boy = male
 			girl = female
-		}	
+		}
 
 		tgp_chinese_war_legwear = {
 			index = 17
@@ -743,7 +745,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
 		ccp4_sami_cloaks_lo_nob = {
 			index = 21
 			male = {
@@ -758,7 +759,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
 		ccp4_sami_cloaks_hi_nob = {
 			index = 22
 			male = {
@@ -1862,6 +1862,17 @@ props_left = {
 		index = 101
 		male = {
 			1 = japanese_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	ccp5_french_marshal_sword_left = {
+		index = 102
+		male = {
+			3 = ccp5_french_marshal_sword_01_left
+			3 = ccp5_french_marshal_sword_02_left
+			2 = western_sword_02_left
 		}
 		female = male
 		boy = male
@@ -2980,13 +2991,24 @@ props_left = {
 			boy = male
 			girl = female
 		}
+		ccp5_french_marshal_sword = {
+			index = 113
+			male = {
+				3 = ccp5_french_marshal_sword_01
+				14 = ccp5_french_marshal_sword_02
+				2 = western_sword_02
+			}
+			female = male
+			boy = male
+			girl = female
+		}
 
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
 		
 		cfp_scepter = {
-			index = 113
+			index = 114
 			male = {
 				1 = cfp_scepter_01
 			}
@@ -2995,7 +3017,7 @@ props_left = {
 			girl = female
 		}
 		cfp_scepter_regalia = {
-			index = 114
+			index = 115
 			male = {
 				1 = cfp_scepter_02
 			}
@@ -3004,7 +3026,7 @@ props_left = {
 			girl = female
 		}
 		cfp_broom = {
-			index = 115
+			index = 116
 			male = {
 				1 = cfp_broom_01
 			}

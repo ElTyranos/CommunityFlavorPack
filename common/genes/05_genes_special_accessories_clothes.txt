@@ -3469,6 +3469,112 @@
 				girl = female
 			}
 
+			ccp5_german_era3_war_nobility_clothes = {
+				index = 183
+				male = {
+					10 = m_clothes_sec_ccp5_german_war_nob_01_low
+					8 = m_clothes_sec_ccp5_german_war_nob_01_hi
+					2 = m_clothes_sec_ccp5_german_war_nob_01_coa
+				}
+				female = {
+					10 = f_clothes_sec_ccp5_german_war_nob_01_low
+					8 = f_clothes_sec_ccp5_german_war_nob_01_hi
+					2 = f_clothes_sec_ccp5_german_war_nob_01_coa
+				}
+				boy = male
+				girl = female
+			}	
+
+			ccp5_french_era3_war_commoners_clothes = {
+				index = 184
+				male = {
+					1 = m_clothes_sec_ccp5_french_war_nob_01
+				}
+				female = {
+					1 = f_clothes_sec_ccp5_french_war_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_french_era3_war_nobility_clothes = {
+				index = 185
+				male = {
+					5 = m_clothes_sec_ccp5_english_war_nob_03_low
+					2 = m_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = m_clothes_sec_ccp5_english_war_nob_03_high
+					2 = m_clothes_sec_ccp5_english_war_nob_03_coa
+
+				}
+				female = {
+					5 = f_clothes_sec_ccp5_english_war_nob_03_low
+					2 = f_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = f_clothes_sec_ccp5_english_war_nob_03_high
+					2 = f_clothes_sec_ccp5_english_war_nob_03_coa
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_french_late_era3_war_nobility_clothes = {
+				index = 186
+				male = {
+					1 = m_clothes_sec_ccp5_english_war_nob_03_low
+					1 = m_clothes_sec_ccp5_english_war_nob_03_low_coa
+					2 = m_clothes_sec_ccp5_french_war_nob_02_low_coa
+					1 = m_clothes_sec_ccp5_english_war_nob_03_high
+					1 = m_clothes_sec_ccp5_english_war_nob_03_coa
+					2 = m_clothes_sec_ccp5_french_war_nob_02_coa
+
+				}
+				female = {
+					1 = f_clothes_sec_ccp5_english_war_nob_03_low
+					1 = f_clothes_sec_ccp5_english_war_nob_03_low_coa
+					2 = f_clothes_sec_ccp5_french_war_nob_02_low_coa
+					1 = f_clothes_sec_ccp5_english_war_nob_03_high
+					1 = f_clothes_sec_ccp5_english_war_nob_03_coa
+					2 = f_clothes_sec_ccp5_french_war_nob_02_coa
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_english_era3_war_nobility_clothes = {
+				index = 187
+				male = {
+					5 = m_clothes_sec_ccp5_english_war_nob_03_low
+					2 = m_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = m_clothes_sec_ccp5_english_war_nob_03_high
+					2 = m_clothes_sec_ccp5_english_war_nob_03_coa
+				}
+				female = {
+					5 = f_clothes_sec_ccp5_english_war_nob_03_low
+					2 = f_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = f_clothes_sec_ccp5_english_war_nob_03_high
+					2 = f_clothes_sec_ccp5_english_war_nob_03_coa
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_english_era4_war_nobility_clothes = {
+				index = 188
+				male = {
+					3 = m_clothes_sec_ccp5_english_war_nob_01_low
+					2 = m_clothes_sec_ccp5_english_war_nob_01_low_coa
+					3 = m_clothes_sec_ccp5_english_war_nob_01_high
+					2 = m_clothes_sec_ccp5_english_war_nob_01_coa
+				}
+				female = {
+					5 = f_clothes_sec_ccp5_english_war_nob_01_low
+					2 = f_clothes_sec_ccp5_english_war_nob_01_coa
+					3 = f_clothes_sec_ccp5_english_war_nob_01_high
+					2 = f_clothes_sec_ccp5_english_war_nob_01_coa
+				}
+				boy = male
+				girl = female
+			}
+
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
