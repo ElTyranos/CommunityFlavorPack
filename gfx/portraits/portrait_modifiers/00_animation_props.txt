@@ -154,6 +154,17 @@
 		}
 	}
 
+	marshal_ccp5_french_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ccp5_french_marshal_sword
+				range = {0 1}
+			}
+		}
+	}
+
 	marshal_fp2_muslim_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -1836,6 +1847,17 @@
 				gene = props_left
 				template = pol_marshal_sword_left
 				value = 1.0
+			}
+		}
+	}
+
+	marshal_ccp5_french_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ccp5_french_marshal_sword_left
+				range = {0 1}
 			}
 		}
 	}

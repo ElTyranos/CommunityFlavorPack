@@ -109,7 +109,6 @@ special_genes = {
 					1 = m_beard_tgp_chinese_04
 					1 = m_beard_tgp_chinese_05
 					1 = m_beard_tgp_chinese_06
-
 				}
 				female = {
 					1 = empty
