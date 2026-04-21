@@ -11,7 +11,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_war_high_nobility
+				template = cfp_western_war
 				accessory = male_headgear_secular_western_war_high_nobility_01
 			}
             accessory = {
@@ -43,7 +43,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_war_high_nobility
+				template = cfp_western_war
 				accessory = male_headgear_secular_dde_hre_war_high_nobility_02
 			}
             accessory = {
@@ -76,7 +76,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_war_high_nobility
+				template = cfp_western_war
 				accessory = male_headgear_secular_dde_hre_war_high_nobility_01
 			}
             accessory = {
@@ -109,8 +109,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_era3_war_nobility
-				range = { 0 0.49 } # Fullplate helms
+				template = cfp_western_war
+				range = { 0 0.13 } # Fullplate helms
 			}
             accessory = {
                 mode = add
@@ -141,8 +141,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_era3_war_nobility
-				range = { 0.51 1 } # Kettle hats
+				template = cfp_western_war
+				range = { 0.15 0.27 } # Kettle hats
 			}
             accessory = {
                 mode = add
@@ -172,8 +172,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_war_plate_armor
-				range = { 0.27 1.0 }
+				template = cfp_western_war
+				range = { 0.61 1.0 }
 			}
             accessory = {
                 mode = add
@@ -202,8 +202,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_western_war_plate_armor
-				range = { 0 0.26 }
+				template = cfp_western_war
+				range = { 0.45 1.0 }
 			}
             accessory = {
                 mode = add
@@ -216,7 +216,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				is_male = yes # because there's no women versions
 				portrait_war_nobles_helmet_trigger = {
 					CULTURE_INPUT = western 
@@ -235,8 +235,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_latin_war
-				range = { 0.51 1.0 }
+				template = cfp_latin
+				range = { 0.73 0.90 }
 			}
             accessory = {
                 mode = add
@@ -266,8 +266,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_latin_war
-				range = { 0.0 0.49 }
+				template = cfp_latin
+				range = { 0.55 0.72 }
 			}
             accessory = {
                 mode = add
@@ -335,8 +335,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_iberian_war
-				range = { 0 1 }
+				template = cfp_iberian
+				range = { 0.75 1 }
 			}
             accessory = {
                 mode = add
@@ -409,7 +409,6 @@
         }
     }
 
-
 ## Hungarian
 
 	cfp_hungarian_war = {
@@ -417,8 +416,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_hungarian_war
-				range = { 0 1 }
+				template = cfp_hungarian
+				range = { 0.26 1 }
 			}
             accessory = {
                 mode = add
@@ -447,8 +446,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_war
-				range = { 0 1 }
+				template = cfp_slavic
+				range = { 0.23 1 }
 			}
             accessory = {
                 mode = add
@@ -478,7 +477,7 @@
                 mode = add
                 gene = headgear
                 template = cfp_mena_war
-                range = { 0 1 }
+                range = { 0 0.59 }
             }
         }
         outfit_tags = { military_outfit }
@@ -501,7 +500,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_mena_war_high
+				template = cfp_mena_war
 				accessory = male_headgear_secular_mena_cfp_war_turban_01
 			}
 		}
@@ -529,7 +528,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_mena_war_high
+				template = cfp_mena_war
 				accessory = male_headgear_secular_mena_cfp_war_mamluk_01
 			}
 		}
@@ -673,8 +672,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_iranian_war_high_medieval
-				range = { 0 1 }
+				template = cfp_iranian
+				range = { 0.51 1 }
 			}
 		}
         outfit_tags = { military_outfit }
@@ -700,8 +699,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_turkic_war
-				range = { 0.51 1.0 }
+				template = cfp_turkic
+				range = { 0.86 1.0 }
 			}
 		}
 		outfit_tags = { military_outfit }
@@ -721,15 +720,15 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_turkic_war
-				range = { 0 0.49 }
+				template = cfp_turkic
+				range = { 0.72 1 }
 			}
 		}
 		outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
-                add = 101
+                add = 102
 				NOT = { has_game_rule = never_cfp_fullplate_helmets }
                 portrait_war_nobles_helmet_trigger = {
                     CULTURE_INPUT = cfp_turkic
@@ -991,8 +990,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_norman_sicily_war
-				range = { 0 1 }
+				template = cfp_northern
+				range = { 0 0.65 }
 			}
             accessory = {
                 mode = add
@@ -1095,8 +1094,8 @@
             accessory = {
                 mode = add
                 gene = headgear
-                template = cfp_indian_war
-				range = { 0 1 }
+                template = cfp_indian
+				range = { 0.34 0.65 }
             }
         }
         outfit_tags = { military_outfit }

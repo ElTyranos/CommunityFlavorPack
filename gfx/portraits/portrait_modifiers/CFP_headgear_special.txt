@@ -114,7 +114,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_crowns
+				template = cfp_slavic
 				accessory = male_headgear_secular_slavic_cfp_skanderbeg_01
 			}
 		}	
@@ -147,7 +147,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_slavic_crowns
+				template = cfp_slavic
 				accessory = male_headgear_secular_slavic_cfp_royalty_02
 			}
 		}
@@ -171,8 +171,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_anglo_saxon_royalty
-				range = { 0 1 }
+				template = cfp_northern
+				accessory = male_headgear_secular_northern_royalty_suttonhoo_01
 			}
 		}
 		weight = {
@@ -200,8 +200,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_latin_venetian_royalty
-				range = { 0 1 }
+				template = cfp_latin
+				accessory = male_headgear_secular_latin_cfp_venetian_doge_01
 			}
 		}
 		weight = {

@@ -11,8 +11,8 @@
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = cfp_religious_african_masks
-	            range = { 0 1 }
+	            template = cfp_religious
+	            range = { 0 0.35 }
 	        }
 	    }
 	    weight = {
@@ -45,8 +45,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_orthodox_devoted
-				range = { 0 1 }
+				template = cfp_religious
+				accessory = male_headgear_religious_orthodox_cfp_koukoulion_01
 			}
 			morph = {
 				mode = add
@@ -101,8 +101,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic
-				range = { 0.61 1 }
+				template = cfp_religious
+				range = { 0.55 0.64 }
 			}
 		}
 		weight = {
@@ -128,7 +128,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic
+				template = cfp_religious
 				accessory = male_headgear_religious_catholic_cfp_tribal_01
 			}
 		}
@@ -160,7 +160,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic
+				template = cfp_religious
 				accessory = male_headgear_religious_catholic_cfp_cardinal_01
 			}
 		}
@@ -246,7 +246,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_catholic
+				template = cfp_religious
 				accessory = male_headgear_religious_catholic_cfp_head_01
 			}
 		}
@@ -277,7 +277,7 @@
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = cfp_religious_jewish_common
+	            template = cfp_religious
 	            accessory = male_headgear_religious_jewish_cfp_judenhut_01
 	        }
 	    }
@@ -296,7 +296,7 @@
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = cfp_religious_jewish_common
+	            template = cfp_religious
 	            accessory = male_headgear_religious_jewish_cfp_sudra_01
 	        }
 	    }
@@ -315,7 +315,7 @@
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = cfp_religious_jewish_common
+	            template = cfp_religious
 	            accessory = male_headgear_religious_jewish_cfp_judenhut_02
 	        }
 	    }
@@ -336,8 +336,8 @@
 	        accessory = {
 	            mode = add
 	            gene = headgear
-	            template = cfp_religious_muslim_high_turkic
-	            range = { 0 1 }
+	            template = cfp_religious
+	            accessory = male_headgear_religious_muslim_cfp_caliph_01
 	        }
 	    }
 	    weight = {
@@ -361,8 +361,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = cfp_religious_buddhist_tibetan_mask
-				range = { 0 1 }
+				template = cfp_religious
+				accessory = male_headgear_religious_hindu_cfp_mask_01
 			}
 			accessory = {
 				mode = add
