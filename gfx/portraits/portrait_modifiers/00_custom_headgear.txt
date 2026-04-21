@@ -7,6 +7,99 @@
 		template = no_headgear
 	}
 
+
+	## SP5 - Symbols of Authority ##
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sp5_crowns
+		is_valid_custom = {
+			has_sp5_dlc_triggers = yes
+		}
+	}
+
+	## CCP9
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp9_commoner_headgear
+		is_valid_custom = {
+			has_cp9_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp9_low_nobility_headgear
+		is_valid_custom = {
+			has_cp9_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp9_high_nobility_headgear
+		is_valid_custom = {
+			has_cp9_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp9_royalty_headgear
+		is_valid_custom = {
+			has_cp9_dlc_trigger = yes
+		}
+	}
+
+	## CCP7 Emishi Ainu ##
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp7_emishi_com
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp7_emishi_lo_nob
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp7_emishi_hi_nob
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp7_ainu_sapanpe
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp7_emishi_war_nob
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+
+	## CCP7 Nivkh ##
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = ccp7_nivkh_com
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+
 	## TGP Chinese ##
 
 	add_accessory_modifiers = {
@@ -328,6 +421,8 @@
 			has_cp4_dlc_trigger = yes
 		}	
 	}
+
+
 
 		##CCP5
 
@@ -1115,11 +1210,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_western_war_high_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		# is_valid_custom = {
 		# 	highest_held_title_tier >= tier_kingdom
 		# }
@@ -1146,32 +1236,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_western_era3_war_nobility
+		template = cfp_western_war
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_western_war_plate_armor
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_latin_common
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_latin_nobility
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_latin_venetian_royalty
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_latin_war
+		template = cfp_latin
 	}
 
 	add_accessory_modifiers = {
@@ -1191,12 +1261,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_norman_sicily_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_anglo_saxon_royalty
+		template = cfp_northern
 	}
 
 	add_accessory_modifiers = {
@@ -1206,22 +1271,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_hungarian_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = cfp_ruthenian
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_slavic_crowns
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_slavic_war
+		template = cfp_slavic
 	}
 
 	add_accessory_modifiers = {
@@ -1301,17 +1356,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_mena_war_high
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iranian_common
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iranian_war_high_medieval
+		template = cfp_iranian
 	}
 
 	add_accessory_modifiers = {
@@ -1341,22 +1386,17 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_oghuz_low_nobility
+		template = cfp_oghuz
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_oghuz_high_nobility
+		template = cfp_oghuz
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_turkic_royalty
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_turkic_war
+		template = cfp_turkic
 	}
 
 	add_accessory_modifiers = {
@@ -1421,7 +1461,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_indian_high_nobility
+		template = cfp_indian
 	}
 
 	add_accessory_modifiers = {
@@ -1437,11 +1477,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = indian_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_indian_war
 	}
 
 	add_accessory_modifiers = {
@@ -1536,11 +1571,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_crusades_western_commoner
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = cfp_crusades_western
 	}
 
@@ -1572,17 +1602,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_religious_catholic
+		template = cfp_religious
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = catholic_head
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_religious_orthodox_devoted
 	}
 
 	add_accessory_modifiers = {
@@ -1602,16 +1627,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_religious_buddhist_tibetan_mask
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_religious_jewish_common
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = religious_jewish_high
 	}
 
@@ -1627,22 +1642,12 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_religious_muslim_high_turkic
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = religious_muslim_head
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_african_high
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_religious_african_masks
 	}
 
 	add_accessory_modifiers = {

@@ -7,6 +7,16 @@
 		template = no_cloak
 	}
 
+		## CCP7 ##
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp7_mino_com_01
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+
 		## CCP4 Sami ##
 
 	add_accessory_modifiers = {
@@ -165,7 +175,7 @@
 		gene = cloaks
 		template = cfp_western_ermine
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = cloaks
 		template = cfp_western_commoner

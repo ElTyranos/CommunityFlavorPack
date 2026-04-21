@@ -192,6 +192,30 @@
 		template = tgp_japanese_imperial_legwear
 	}
 
+	## CCP7 Emishi Ainu Nivkh ##
+
+	add_accessory_modifiers = {
+		gene = legwear
+		template = ccp7_emishi_com_legwear
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		template = ccp7_emishi_nob_legwear
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		template = ccp7_nivkh_com_legwear
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+
 	# CFP
 	add_accessory_modifiers = {
 		gene = legwear

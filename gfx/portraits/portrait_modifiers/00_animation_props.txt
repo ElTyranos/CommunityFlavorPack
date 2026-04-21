@@ -3315,4 +3315,16 @@
 			}
 		}
 	}
+
+	pdt_crutch_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = pdt_crutch_01_a
+				value = 1.0
+			}
+		}
+	}
+
 }

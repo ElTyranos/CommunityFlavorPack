@@ -14,8 +14,8 @@
 			}
 			accessory = {
 				mode = add
-				gene = cloak_hoods
-				template = no_cloak_hood
+				gene = clothes_hoods
+				template = no_clothes_hood
 				range = { 0 1 }
 			}
 		}	

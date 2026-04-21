@@ -837,6 +837,20 @@ barbershop_background = {
 	environment = {
 		reference = "environment_event_tavern"
 	}
+	
+	texture = {
+		reference = "event_scenes/bp1_crossroads_inn.dds"
+	}
+	environment = {
+		reference = "environment_event_bp1_crossroads_inn"
+	}
+	
+	texture = {
+		reference = "event_scenes/bp1_wine_cellar.dds"
+	}
+	environment = {
+		reference = "environment_event_bp1_wine_cellar"
+	}
 
 	###########################################
 	#

@@ -837,6 +837,68 @@ special_genes = {
 					1 = empty
 				}
 			}
+				cp7_emishi_ainu_beards_straight = {
+				index = 42
+				male = {
+					2 = male_beard_western_01
+					1 = male_beard_western_09
+					2 = male_beard_mena_04
+					5 = male_beard_northern_01
+					2 = male_beard_fp1_05
+					5 = male_beard_fp2_iberian_muslim_01
+					5 = male_beard_fp2_iberian_muslim_02
+					2 = male_beard_indian_03
+					1 = male_beard_rtt_01						
+				}
+				female = {
+					1 = empty
+				}
+			}
+
+			cp7_emishi_ainu_beards_wavy = {
+				index = 43
+				male = {
+					1 = male_beard_western_01
+					2 = male_beard_mena_02
+					5 = male_beard_western_06
+					2 = male_beard_mena_01
+					2 = male_beard_sub_saharan_01
+					2 = male_beard_sub_saharan_03
+					2 = male_beard_indian_03
+					5 = m_beard_ep3_byzantine_03
+					5 = m_beard_ep3_byzantine_04
+					1 = male_beard_rtt_01			
+				}
+				female = {
+					1 = empty
+				}
+			}
+
+			cp7_emishi_ainu_beards_curly = {
+				index = 44
+				male = {
+					2 = male_beard_mena_01
+					1 = male_beard_mena_01
+					2 = male_beard_sub_saharan_01
+					2 = male_beard_sub_saharan_03	
+					1 = m_beard_ep3_byzantine_04			
+				}
+				female = {
+					1 = empty
+				}
+			}
+
+			sp5_western_beards = {
+				index = 45
+				male = {
+					1 = m_beard_sp5_western_01
+			
+				}
+				female = {
+					1 = empty
+				}
+			}
+
 		}
 	}
 }

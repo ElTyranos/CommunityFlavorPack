@@ -112,6 +112,9 @@ special_genes = {
 					1 = m_hair_tgp_chinese_02_bald
 					1 = m_hair_tgp_japanese_01
 					1 = m_hair_tgp_japanese_02
+
+					# CCP9
+					1 = m_hair_ccp9_uyg_nob_01
 				}
 
 				female = {
@@ -1848,13 +1851,90 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-	
+
+			#CCP7 Emishi / Ainu 
+			cp7_emishi_ainu_hairstyles_straight_wavy = {
+				index = 80
+				male = {
+					1 = male_hair_western_05
+					3 = male_hair_western_08
+					1 = male_hair_byzantine_01
+					1 = male_hair_indian_03
+					2 = male_hair_mena_04
+					3 = male_hair_fp2_iberian_christian_02
+					1 = m_hair_ep2_western_02
+					1 = m_hair_fp3_iranian_03
+					1 = m_hair_ep3_byzantine_01
+				}
+				female = {
+					1 = female_hair_fp2_iberian_christian_01
+					1 = female_hair_fp2_iberian_christian_02
+					1 = female_hair_fp2_iberian_christian_03
+					1 = f_hair_fp3_iranian_03_common
+					1 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_04
+				}
+				boy = male
+				girl = female
+			}
+			cp7_emishi_ainu_hairstyles_curly_afro = {
+				index = 81
+				male = {
+					2 = male_hair_mena_03
+					2 = male_hair_sub_saharan_02
+					1 = m_hair_ep3_byzantine_01
+				}
+				female = {
+					1 = female_hair_western_05
+					2 = female_hair_sub_saharan_01
+				}
+				boy = male
+				girl = female
+			}
+
+			### CCP9 ###	
+			ccp9_uighur_hairstyles = {
+				index = 82
+				male = {
+					1 = m_hair_ccp9_uyg_nob_01
+					
+				}
+				female = {
+					1 = f_hair_tgp_chinese_01
+					1 = f_hair_tgp_chinese_01_common
+					1 = f_hair_tgp_chinese_02
+					1 = f_hair_tgp_chinese_02_common
+					1 = f_hair_tgp_chinese_03
+					1 = f_hair_tgp_chinese_03_common
+					1 = f_hair_tgp_chinese_04
+					1 = f_hair_tgp_chinese_04_common
+					1 = f_hair_tgp_chinese_05
+					1 = f_hair_tgp_chinese_05_common	
+				}
+
+				boy = male
+				girl = female
+			}
+			### SP5 ###	
+			sp5_hairstyles = {
+				index = 83
+				male = {
+					1 = m_hair_sp5_western_01
+					
+				}
+				female = {
+				}
+
+				boy = male
+				girl = female
+			}
+
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
 			
 			cfp_western_hairstyles_aging = {
-				index = 80
+				index = 84
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -1870,7 +1950,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_hairstyles_warrior = {
-				index = 81
+				index = 85
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1891,7 +1971,7 @@ special_genes = {
 			}
 			
 			cfp_hungarian_hairstyles_warrior = {
-				index = 82
+				index = 86
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
