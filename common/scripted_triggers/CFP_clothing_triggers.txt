@@ -65,23 +65,35 @@ portrait_cfp_anglo_saxon_clothing_spouse_trigger = {
 }
 
 portrait_cfp_norman_clothing_trigger = {
-	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = norman
+	}
 }
 portrait_cfp_norman_clothing_spouse_trigger = {
-	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = norman
+	}
 }
 
 portrait_cfp_norman_sicily_clothing_trigger = {
 	host.capital_county ?= {
 		title:k_sicily = { is_de_jure_liege_or_above_target = prev }
 	}
-	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = norman
+	}
 }
 portrait_cfp_norman_sicily_clothing_spouse_trigger = {
 	host.capital_county ?= {
 		title:k_sicily = { is_de_jure_liege_or_above_target = prev }
 	}
-	cfp_clothing_culture_trigger = { CULTURE_FLAG = norman }
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = norman
+	}
 }
 
 ## EAST
