@@ -525,6 +525,12 @@
 				portrait_religious_christian_trigger = yes
 				portrait_religious_high_trigger = yes
 				cfp_clothing_no_override_bishop_trigger = yes
+                NOR = {
+                    portrait_is_archbishop_trigger = yes
+                    portrait_is_prince_bishop_trigger = yes
+                    portrait_is_cardinal_trigger = yes
+                    portrait_cfp_is_cardinal_trigger = yes
+                }
 			}
 			modifier = {
 				factor = 0
@@ -548,11 +554,21 @@
 	    }
 	    weight = {
 	        base = 0
-	        modifier = {
-	            add = 120
-                portrait_religious_head_trigger = yes
-                portrait_religious_catholic_trigger = yes
-			}
+            modifier = {
+                add = 120
+                OR = {
+                    AND = {
+                        portrait_religious_head_no_poverty_trigger = yes
+                        portrait_religious_catholic_trigger = yes
+                    }
+                    has_title = title:k_papal_state
+                }
+                NOT = {
+                    faith = {
+                        has_doctrine_parameter = vows_of_poverty_active
+                    }
+                }
+            }
 			modifier = {
 				factor = 0
 				exists = this
@@ -560,6 +576,10 @@
 					is_adult = no
 					should_be_naked_trigger = yes
 				}
+			}
+			modifier = {
+				factor = 0
+				portrait_era4_trigger = yes
 			}
 	    }
 	}

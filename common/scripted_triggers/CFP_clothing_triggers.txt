@@ -283,6 +283,19 @@ portrait_cfp_jewish_andalusian_clothing_trigger = {
 	}
 }
 
+## Catholic
+portrait_cfp_is_cardinal_trigger = {
+	exists = this
+	NOT = { has_pam_dlc_trigger = yes }
+	exists = clerical_elector_title
+	portrait_religious_head_no_poverty_trigger = no
+	NOT = {
+		rite = {
+			rite_has_parameter = vows_of_poverty_active
+		}
+	}
+}
+
 ## ERA OR INNOVATION TRIGGERS
 cfp_innovation_plate_armor_trigger = {
 	culture = { has_innovation = innovation_plate_armor }

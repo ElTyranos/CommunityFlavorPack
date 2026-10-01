@@ -532,16 +532,19 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
             modifier = {
                 add = 120
 				portrait_era4_trigger = yes
-                portrait_religious_head_trigger = yes
-                portrait_religious_catholic_trigger = yes
+                OR = {
+                    AND = {
+                        portrait_religious_head_no_poverty_trigger = yes
+                        portrait_religious_catholic_trigger = yes
+                    }
+                    has_title = title:k_papal_state
+                }
+                NOT = {
+                    faith = {
+                        has_doctrine_parameter = vows_of_poverty_active
+                    }
+                }
             }
-			modifier = { # The Catholic Trinity compatibility
-				add = 150
-				portrait_era4_trigger = yes
-				faith = faith:catholic
-				exists = global_var:Trinity_is_loaded
-				CatholicTrinityCardinalOrAntiPopeTrigger = yes
-			}
         }
     }
 
@@ -558,15 +561,19 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 	        base = 0
 	        modifier = {
                 add = 120
-                portrait_religious_head_trigger = yes
-                portrait_religious_catholic_trigger = yes
+                OR = {
+                    AND = {
+                        portrait_religious_head_no_poverty_trigger = yes
+                        portrait_religious_catholic_trigger = yes
+                    }
+                    has_title = title:k_papal_state
+                }
+                NOT = {
+                    faith = {
+                        has_doctrine_parameter = vows_of_poverty_active
+                    }
+                }
 	        }
-			modifier = { # The Catholic Trinity compatibility
-				add = 120
-				faith = faith:catholic
-				exists = global_var:Trinity_is_loaded
-				CatholicTrinityCardinalOrAntiPopeTrigger = yes
-			}
 	    }
 	}
 
@@ -591,6 +598,12 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
                 portrait_religious_high_trigger = yes
                 portrait_religious_christian_trigger = yes
 				cfp_clothing_no_override_bishop_trigger = yes
+                NOR = {
+                    portrait_is_archbishop_trigger = yes
+                    portrait_is_prince_bishop_trigger = yes
+                    portrait_is_cardinal_trigger = yes
+                    portrait_cfp_is_cardinal_trigger = yes
+                }
             }
         }
     }
@@ -604,43 +617,12 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 	            range = { 0 1 }
 	        }
 	    }
-	    outfit_tags = { cardinal_outfit }
+		outfit_tags = { priest_outfit bishop_outfit }
 	    weight = {
 	        base = 0
 	        modifier = {
-				add = 140
-				exists = this
-				exists = title:k_papal_state.holder
-				is_male = yes
-				is_adult = yes
-				current_date >= 1245.1.1
-				portrait_religious_christian_trigger = yes
-				OR = {
-					AND = {
-						is_vassal_of = title:k_papal_state.holder
-						AND = { is_ruler = yes government_has_flag = government_is_theocracy }
-					}
-					AND = {
-						is_councillor_of = title:k_papal_state.holder
-						is_theocratic_lessee = yes
-					}
-					is_courtier_of = title:k_papal_state.holder
-				}
-				NOT = {
-					faith = { has_doctrine_parameter = vows_of_poverty_active }
-				}
-				NOT = { exists = global_var:Trinity_is_loaded } # The Catholic Trinity compatibility
-			}
-			modifier = { # The Catholic Trinity compatibility
-				add = 140
-				exists = global_var:Trinity_is_loaded
-				CatholicTrinityCardinalTrigger = yes
-				is_male = yes
-				is_adult = yes
-				faith = { religion_tag = christianity_religion }
-				NOT = {
-					faith = { has_doctrine_parameter = vows_of_poverty_active }
-				}
+				add = 118
+				portrait_cfp_is_cardinal_trigger = yes
 			}
 	    }
 	}
