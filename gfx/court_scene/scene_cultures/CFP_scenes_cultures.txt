@@ -2,6 +2,7 @@
 cfp_papal = {
 	trigger = {
 		has_graphical_cfp_papal_culture_group_trigger = yes
+		NOT = { has_pam_dlc_trigger = yes }
 	}
 }
 
