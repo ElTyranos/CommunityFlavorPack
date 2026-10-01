@@ -1,4 +1,10 @@
 ﻿cfp_blind = {
+	no_visuals_when_beautified = {
+		trigger = {
+			portrait_beautified_trigger = yes
+		}
+	}
+
 	cfp_blind = {
 		traits = {
 			blind

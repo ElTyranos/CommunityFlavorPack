@@ -349,7 +349,7 @@
 				}
 				OR = {
 					AND = {
-						portrait_has_trait_trigger = { TRAIT = scholar }
+						portrait_has_trait_trigger = { TRAIT = lifestyle_scholar }
 						learning >= 26
 					}
 					AND = {

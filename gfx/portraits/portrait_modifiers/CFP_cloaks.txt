@@ -454,7 +454,7 @@
 				OR = {
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
-					faith = faith:coptic
+					faith = faith:miaphysitism
 					faith = faith:messalian
 					faith = faith:bogomilist
 					faith = faith:paulician
@@ -467,9 +467,7 @@
 					}
 				}
 				NOT = {
-					faith = {
-						has_doctrine_parameter = vows_of_poverty_active
-					}
+					rite = { rite_has_parameter = vows_of_poverty_active }
 				}
 	        }
 			modifier = { # high
@@ -483,7 +481,7 @@
 				OR = {
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
-					faith = faith:coptic
+					faith = faith:miaphysitism
 					faith = faith:messalian
 					faith = faith:bogomilist
 					faith = faith:paulician
@@ -493,9 +491,7 @@
 					faith.religious_head = this
 				}
 				NOT = {
-					faith = {
-						has_doctrine_parameter = vows_of_poverty_active
-					}
+					rite = { rite_has_parameter = vows_of_poverty_active }
 				}
 			}
 			modifier = {

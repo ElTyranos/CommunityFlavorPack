@@ -7,6 +7,39 @@
 		template = no_headgear
 	}
 
+	## PAM ##
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = pam_nun_crown_01
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = catholic_cardinal_hat
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = catholic_bishop_mitre_early
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = catholic_bishop_mitre_late
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
 
 	## SP5 - Symbols of Authority ##
 
@@ -284,7 +317,7 @@
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
-	}
+		}
 
 	### MPO - Khans of the Steppe ###
 
@@ -639,13 +672,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = fp4_western_era3_common
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = fp4_western_cloak_hoods
-		is_valid_custom = {
-			has_ce1_dlc_trigger = yes
-		}
 	}
 	add_accessory_modifiers = {
 		gene = headgear

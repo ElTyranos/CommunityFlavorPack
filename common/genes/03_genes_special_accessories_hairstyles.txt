@@ -1929,12 +1929,78 @@ special_genes = {
 				girl = female
 			}
 
+			### PAM ###
+
+			pam_christian_hairstyles = {
+				index = 84
+				male = {
+					1 = m_hair_pam_christian_01
+					2 = m_hair_pam_christian_02
+					2 = m_hair_pam_christian_03
+				}
+				female = {
+				}
+				boy = male
+				girl = female
+			}
+
+			# Tonsures
+			pam_catholic_hairstyles = {
+				index = 85
+				male = {
+					1 = m_hair_pam_christian_02
+					1 = m_hair_pam_christian_03
+				}
+				female = {
+					1 = female_hair_western_03
+					1 = female_hair_western_06
+					1 = female_hair_western_09
+
+				}
+				boy = male
+				girl = female
+			}
+
+			# Here using a mix of fitting styles from earlier releases since Orthodox clergy generally did not wear Tonsure
+			pam_orthodox_hairstyles = {
+				index = 86
+				male = {
+					1 = m_hair_pam_christian_01
+					1 = m_hair_pam_christian_04
+					1 = m_hair_pam_christian_05
+					1 = m_hair_ep3_byzantine_01
+					1 = m_hair_ep3_byzantine_03
+					1 = m_hair_ep3_byzantine_04
+
+				}
+				female = {
+					1 = female_hair_western_03
+					1 = f_hair_ep3_byzantine_01_common
+					1 = f_hair_ep3_byzantine_02_common
+
+				}
+				boy = male
+				girl = female
+			}
+
+			# Thea vanity char special
+			female_hair_fp1_special = {
+				index = 87
+				male = {
+				}
+				female = {
+					1 = female_hair_fp1_01_special
+				}
+				boy = male
+				girl = female
+			}
+
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
 			
 			cfp_western_hairstyles_aging = {
-				index = 84
+				index = 88
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -1950,7 +2016,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_hairstyles_warrior = {
-				index = 85
+				index = 89
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -1971,7 +2037,7 @@ special_genes = {
 			}
 			
 			cfp_hungarian_hairstyles_warrior = {
-				index = 86
+				index = 90
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07

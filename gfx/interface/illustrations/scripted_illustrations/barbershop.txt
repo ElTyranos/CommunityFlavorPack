@@ -247,6 +247,60 @@ barbershop_background = {
 	##########################################
 
 	texture = {
+		reference = "event_scenes/pam_gothic_cathedral_interior.dds"
+	}
+	environment = {
+		reference = "environment_pam_gothic_cathedral_interior" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/pam_romanesque_church_interior.dds"
+	}
+	environment = {
+		reference = "environment_pam_romanesque_church_interior"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/pam_simple_church_western_interior.dds"
+	}
+	environment = {
+		reference = "environment_pam_simple_church_western_interior"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/pam_romanesque_church_exterior.dds"
+	}
+	environment = {
+		reference = "environment_pam_romanesque_church_exterior"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/pam_pre-romanesque_church_exterior.dds"
+	}
+	environment = {
+		reference = "environment_pam_preromanesque_church_exterior"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/pam_cathedral_construction.dds"
+	}
+	environment = {
+		reference = "environment_pam_cathedral_construction"
+	}
+
+	##########################################
+
+	texture = {
 		reference = "event_scenes/fp2_corridor_night.dds"
 	}
 	environment = {

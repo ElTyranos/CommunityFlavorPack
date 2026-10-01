@@ -835,12 +835,24 @@ accessory_genes = {
 			girl = female
 		}
 
+		pam_cloak_catholic_hi_01 = {
+				index = 24
+				male = {
+					1 = m_cloaks_rel_pam_catholic_hi_01
+				}
+				female = {
+#					1 = 
+				}
+				boy = male
+				girl = female
+		}
+	
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
 
 		cfp_western_ermine = {
-			index = 24
+			index = 25
 			male = {
 				1 = male_cloaks_secular_western_cfp_ermine_01
 				1 = male_cloaks_secular_byzantine_cfp_ermine_01
@@ -853,7 +865,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_western_commoner = {
-			index = 25
+			index = 26
 			male = {
 				8 = empty
 				1 = male_cloaks_secular_western_cfp_common_01
@@ -867,7 +879,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_western_crusades_commoner = {
-			index = 26
+			index = 27
 			male = {
 				1 = male_cloaks_secular_western_cfp_crusades_03
 				# 1 = male_cloaks_secular_western_cfp_crusades_06
@@ -880,7 +892,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_western_crusades = {
-			index = 27
+			index = 28
 			male = {
 				1 = male_cloaks_secular_western_cfp_crusades_01
 				1 = male_cloaks_secular_western_cfp_crusades_02 # black
@@ -891,7 +903,7 @@ accessory_genes = {
 			}
 		}
 		cfp_religious_muslim = {
-			index = 28
+			index = 29
 			male = {
 				1 = male_cloaks_secular_mena_cfp_taylasan_01
 				1 = male_cloaks_secular_mena_cfp_taylasan_02
@@ -903,7 +915,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_norse_war = {
-			index = 29
+			index = 30
 			male = {
 				2 = empty
 				1 = male_cloaks_secular_northern_war_viking_shield_01
@@ -916,7 +928,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_norman_war = {
-			index = 30
+			index = 31
 			male = {
 				2 = empty
 				1 = male_cloaks_secular_western_war_norman_shield_01
@@ -929,7 +941,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_african_royalty = {
-			index = 31
+			index = 32
 			male = {
 				1 = male_cloaks_secular_sub_saharan_cfp_apron_01
 			}
@@ -938,7 +950,7 @@ accessory_genes = {
 			}
 		}
 		cfp_religious_catholic_head = {
-			index = 32
+			index = 33
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_head_01
 			}
@@ -949,7 +961,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_religious_catholic_high_northern = {
-			index = 33
+			index = 34
 			male = {
 				1 = male_cloaks_religious_catholic_cfp_tribal_01
 			}
@@ -960,7 +972,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_religious_orthodox_high = {
-			index = 34
+			index = 35
 			male = {
 				1 = male_cloaks_religious_orthodox_cfp_omophorion_01
 			}
@@ -971,7 +983,7 @@ accessory_genes = {
 			girl = female
 		}
 		cfp_fantasy_cloaks = {
-			index = 35
+			index = 36
 			male = {
 				1 = male_cloaks_secular_fantasy_cfp_wings_01
 			}
@@ -1929,8 +1941,90 @@ props_left = {
 		boy = male
 		girl = female
 	}
-	ccp5_french_marshal_sword_left = {
+	pam_crozier_orthodox_basic_01 = {
 		index = 102
+		male = {
+			1 = pam_crozier_orthodox_basic_01_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	pam_crozier_orthodox_ornate_01 = {
+		index = 103
+		male = {
+			1 = pam_crozier_orthodox_ornate_01_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	pam_crozier_catholic_basic_01 = {
+		index = 104
+		male = {
+			1 = pam_crozier_catholic_basic_01_portrait
+			1 = pam_crozier_catholic_basic_02_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	pam_crozier_catholic_ornate_01 = {
+		index = 105
+		male = {
+			1 = pam_crozier_catholic_ornate_01_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	ep1_indian_book_big_left = {
+		index = 106
+		male = {
+			1 = ep1_indian_book_big_01_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	ep1_mediterranean_book_big_left = {
+		index = 107
+		male = {
+			1 = ep1_mediterranean_book_big_01_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	ep1_mena_book_big_left = {
+		index = 108
+		male = {
+			1 = ep1_mena_book_big_01_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	ep1_western_book_big_left = {
+		index = 109
+		male = {
+			1 = ep1_western_book_big_01_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_chinese_book_closed_left = {
+		index = 110
+		male = {
+			1 = tgp_chinese_book_01_closed_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	ccp5_french_marshal_sword_left = {
+		index = 111
 		male = {
 			3 = ccp5_french_marshal_sword_01_left
 			3 = ccp5_french_marshal_sword_02_left
@@ -1941,7 +2035,7 @@ props_left = {
 		girl = female
 	}
 	pdt_crutch_01_a = {
-		index = 103
+		index = 112
 		male = {
 			1 = pdt_crutch_01_a_portrait
 		}
@@ -1949,13 +2043,39 @@ props_left = {
 		boy = male
 		girl = female
 	}
-	
+	pam_situla_01_a = {
+		index = 113
+		male = {
+			1 = pam_situla_01_a_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	pam_bible_ornate_01_a_left = {
+		index = 114
+		male = {
+			1 = pam_bible_ornate_01_a_portrait_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	pam_bible_ornate_open_01_left = {
+		index = 115
+		male = {
+			1 = pam_bible_ornate_open_01_a_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 	########################################
 	## Community Flavor Pack - new groups ##
 	########################################
 	
 	cfp_javanese_dagger = {
-		index = 105
+		index = 116
 		male = {
 			1 = cfp_kris_dagger_equipped_01
 		}
@@ -1965,7 +2085,7 @@ props_left = {
 	}
 	
 	cfp_globus = {
-		index = 106
+		index = 117
 		male = {
 			1 = cfp_globus_01
 		}
@@ -1974,7 +2094,7 @@ props_left = {
 		girl = female
 	}
 	cfp_potion = {
-		index = 107
+		index = 118
 		male = {
 			1 = cfp_potion_01
 		}
@@ -1983,7 +2103,7 @@ props_left = {
 		girl = female
 	}
 	cfp_cauldron = {
-		index = 108
+		index = 119
 		male = {
 			1 = cfp_cauldron_01
 		}
@@ -1992,7 +2112,7 @@ props_left = {
 		girl = female
 	}
 	cfp_bonfire = {
-		index = 109
+		index = 120
 		male = {
 			1 = cfp_bonfire_01
 		}
@@ -2001,7 +2121,7 @@ props_left = {
 		girl = female
 	}
 	cfp_globus_regalia = {
-		index = 110
+		index = 121
 		male = {
 			1 = cfp_globus_02
 		}
@@ -3073,13 +3193,86 @@ props_left = {
 			boy = male
 			girl = female
 		}
+		pam_thurible_01_a = {
+			index = 114
+			male = {
+				1 = pam_thurible_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		pam_whip_01_a = {
+			index = 115
+			male = {
+				1 = pam_whip_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		pam_crozier_orthodox_basic_01_right = {
+			index = 116
+			male = {
+				1 = pam_crozier_orthodox_basic_01_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		pam_crozier_orthodox_ornate_01_right = {
+			index = 117
+			male = {
+				1 = pam_crozier_orthodox_ornate_01_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		pam_crozier_catholic_basic_01_right = {
+			index = 118
+			male = {
+				1 = pam_crozier_catholic_basic_01_portrait_right
+				1 = pam_crozier_catholic_basic_02_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		pam_crozier_catholic_ornate_01_right = {
+			index = 119
+			male = {
+				1 = pam_crozier_catholic_ornate_01_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		pam_bible_ornate_open_01_right = {
+			index = 120
+			male = {
+				1 = pam_bible_ornate_open_01_a_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		pam_bible_ornate_01_portrait = {
+			index = 121
+			male = {
+				1 = pam_bible_ornate_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
 
 		########################################
 		## Community Flavor Pack - new groups ##
 		########################################
 		
 		cfp_scepter = {
-			index = 114
+			index = 122
 			male = {
 				1 = cfp_scepter_01
 			}
@@ -3088,7 +3281,7 @@ props_left = {
 			girl = female
 		}
 		cfp_scepter_regalia = {
-			index = 115
+			index = 123
 			male = {
 				1 = cfp_scepter_02
 			}
@@ -3097,7 +3290,7 @@ props_left = {
 			girl = female
 		}
 		cfp_broom = {
-			index = 116
+			index = 124
 			male = {
 				1 = cfp_broom_01
 			}

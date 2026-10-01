@@ -89,10 +89,10 @@
 					portrait_has_trait_trigger = { TRAIT = devoted }
 				}
 				NOR = {
-					faith = { has_doctrine_parameter = vows_of_poverty_active }
+					rite = { rite_has_parameter = vows_of_poverty_active }
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
-					faith = faith:coptic
+					faith = faith:miaphysitism
 					faith = faith:messalian
 					faith = faith:bogomilist
 					faith = faith:paulician
@@ -235,10 +235,10 @@
 					religion = religion:christianity_religion
 				}
 				NOR = {
-					faith = { has_doctrine_parameter = vows_of_poverty_active }
+					rite = { rite_has_parameter = vows_of_poverty_active }
 					faith = faith:orthodox
 					faith = faith:armenian_apostolic
-					faith = faith:coptic
+					faith = faith:miaphysitism
 					faith = faith:messalian
 					faith = faith:bogomilist
 					faith = faith:paulician

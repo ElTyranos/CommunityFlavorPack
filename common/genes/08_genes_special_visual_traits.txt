@@ -1103,6 +1103,7 @@ special_genes = {
 				index = 0
 				male = {
 					setting = { attribute = "bs_body_no_left_leg"  value = { min = 1.0 max = 1.0 }	}
+					setting = { attribute = "body_no_left_leg"  value = { min = 1.0 max = 1.0 }	}
 				}
 				female = male
 				boy = male
@@ -1376,6 +1377,18 @@ special_genes = {
 				girl = female
 			}
 
+		}
+
+		character_halo = {
+			christianity_religion_halo = {
+				index = 0
+				male = {
+					1 = pam_christianity_religion_halo
+				}
+				female = male
+				boy = male
+				girl = female
+			}
 		}
 
 	}

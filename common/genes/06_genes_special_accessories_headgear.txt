@@ -693,7 +693,9 @@ special_genes = {
 					1 = male_headgear_religious_dde_catholic_high_01
 				}
 				female = {
-					1 = female_headgear_religious_catholic_devoted_01
+					2 = female_headgear_religious_catholic_high_01
+					1 = female_headgear_religious_dde_catholic_high_01
+					1 = female_headgear_religious_dde_catholic_high_01
 				}
 				boy = male
 				girl = female
@@ -705,7 +707,7 @@ special_genes = {
 					1 = male_headgear_religious_catholic_head_01
 				}
 				female = {
-					1 = female_headgear_religious_catholic_devoted_01
+					1 = female_headgear_religious_catholic_head_01
 				}
 				boy = male
 				girl = female
@@ -1349,7 +1351,7 @@ special_genes = {
 
 				}
 				female = {
-					1 = female_headgear_religious_catholic_devoted_01
+					1 = female_headgear_religious_orthodox_high_01
 
 				}
 				boy = male
@@ -1363,7 +1365,7 @@ special_genes = {
 
 				}
 				female = {
-					1 = female_headgear_religious_catholic_devoted_01
+					1 = female_headgear_religious_orthodox_head_01
 
 				}
 				boy = male
@@ -3874,12 +3876,210 @@ special_genes = {
 				girl = female
 			}
 
+  			## PAM ##
+
+			pam_nun_crown_01 = {
+				index = 230
+				male = {
+				#	1 = m_headgear_rel_pam_crown_01
+				}
+				female = {
+					1 = f_headgear_rel_pam_crown_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			catholic_archbishop_mitre = {
+				index = 231
+				male = {
+					1 = male_headgear_religious_dde_catholic_high_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre = {
+				index = 232
+				male = {
+					1 = male_headgear_religious_catholic_high_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			# This is a copy of the male one, and should only be used in one specific event as a "costume prop".
+			catholic_head_costume_prop_female = {
+				index = 233
+				male = {
+					1 = male_headgear_religious_catholic_head_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_head_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_cardinal_hat = {
+				index = 234
+				male = {
+					1 = m_headgear_rel_pam_cardinal
+				}
+				female = {
+					1 = f_headgear_rel_pam_cardinal
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_early = {
+				index = 235
+				male = {
+					1 = m_headgear_rel_pam_christian_priest_bishop_01
+				}
+				female = {
+					1 = f_headgear_rel_pam_christian_priest_bishop_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_late = {
+				index = 236
+				male = {
+					1 = m_headgear_rel_pam_christian_priest_bishop_02
+				}
+				female = {
+					1 = f_headgear_rel_pam_christian_priest_bishop_02
+				}
+				boy = male
+				girl = female
+			}
+
+			# Basegame mitre rides along so the basegame-versus-PAM roll happens here, not in the weights
+			# Female pools are basegame only - the PAM mitres have no female variant
+			catholic_archbishop_mitre_pam_early = {
+				index = 241
+				male = {
+					25 = male_headgear_religious_dde_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_archbishop_mitre_pam_late = {
+				index = 242
+				male = {
+					25 = male_headgear_religious_dde_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_02
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_pam_early = {
+				index = 243
+				male = {
+					25 = male_headgear_religious_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_pam_late = {
+				index = 244
+				male = {
+					25 = male_headgear_religious_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_02
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			# Veils from the additive_headgear era pools, minus empties
+			clergy_veils_western = {
+				index = 237
+				male = {
+				}
+				female = {
+					10 = female_headgear_secular_western_nobility_01
+					10 = female_headgear_secular_western_nobility_01_2
+					10 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_western_nobility_03
+				}
+				boy = male
+				girl = female
+			}
+
+			clergy_veils_ep2_western_era1 = {
+				index = 238
+				male = {
+				}
+				female = {
+					10 = f_headgear_sec_ep2_western_era1_com_01
+					10 = f_headgear_sec_ep2_western_era1_com_02
+					10 = f_headgear_sec_ep2_western_era1_nob_01
+					10 = f_headgear_sec_ep2_western_era1_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			clergy_veils_ep2_western_era3 = {
+				index = 239
+				male = {
+				}
+				female = {
+					10 = female_headgear_secular_western_nobility_01
+					10 = female_headgear_secular_western_nobility_01_2
+					10 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_western_nobility_03
+					10 = female_headgear_secular_dde_hre_common_01
+					10 = female_headgear_secular_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			clergy_veils_orthodox = {
+				index = 240
+				male = {
+				}
+				female = {
+					10 = female_headgear_secular_byzantine_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
 
 			cfp_western_war = {
-				index = 233
+				index = 245
 				male = {
 					# era3
 					1 = male_headgear_secular_western_war_flat_top_01
@@ -3921,7 +4121,7 @@ special_genes = {
 			}
 
 			cfp_crusades_western = {
-				index = 234
+				index = 246
 				male = {
 					# white
 					4 = male_cloaks_secular_western_cfp_crusades_hood_01
@@ -3947,7 +4147,7 @@ special_genes = {
 			}
 
 			cfp_northern = {
-				index = 235
+				index = 247
 				male = {
 					1 = male_headgear_secular_latin_war_norman_01
 					1 = male_headgear_secular_latin_war_norman_02
@@ -3963,7 +4163,7 @@ special_genes = {
 			}
 
 			cfp_hungarian = {
-				index = 236
+				index = 248
 				male = {
 					1 = male_headgear_secular_hungarian_high_nobility_01
 					1 = male_headgear_secular_hungarian_royalty_01					
@@ -3985,7 +4185,7 @@ special_genes = {
 			}
 
 			cfp_turkic = {
-				index = 237
+				index = 249
 				male = {
 					5 = male_headgears_secular_turkic_royalty_01
 					5 = male_headgears_secular_turkic_royalty_02
@@ -4009,7 +4209,7 @@ special_genes = {
 			}
 
 			cfp_ruthenian = {
-				index = 238
+				index = 250
 				male = {
 					1 = male_headgear_secular_ruthenian_cfp_common_01
 					1 = male_headgear_secular_ruthenian_cfp_low_01
@@ -4029,7 +4229,7 @@ special_genes = {
 			}
 
 			cfp_slavic = {
-				index = 239
+				index = 251
 				male = {
 					1 = male_headgear_secular_slavic_cfp_monomakh_01
 					1 = male_headgear_secular_slavic_cfp_skanderbeg_01
@@ -4057,7 +4257,7 @@ special_genes = {
 			}
 
 			cfp_latin = {
-				index = 240
+				index = 252
 				male = {
 					# commoner
 					1 = male_headgear_secular_latin_cfp_phrygian_common_01
@@ -4095,7 +4295,7 @@ special_genes = {
 			}
 
 			cfp_iberian = {
-				index = 241
+				index = 253
 				male = {
 					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
 					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
@@ -4125,7 +4325,7 @@ special_genes = {
 			# MENA
 
 			cfp_mena_war = {
-				index = 242
+				index = 254
 				male = {
 					1 = male_headgear_secular_mena_cfp_war_mail_coif_01
 					1 = male_headgear_secular_mena_cfp_war_mail_coif_02
@@ -4147,7 +4347,7 @@ special_genes = {
 			}
 
 			cfp_andalusian_war = {
-				index = 243
+				index = 255
 				male = {
 					1 = male_headgear_secular_andalusian_cfp_war_turban_01
 					1 = male_headgear_secular_andalusian_cfp_war_nasal_01
@@ -4163,7 +4363,7 @@ special_genes = {
 			}
 
 			cfp_egyptian_common = {
-				index = 244
+				index = 256
 				male = {
 					1 = male_headgear_secular_mena_cfp_zamt_01
 				}
@@ -4175,7 +4375,7 @@ special_genes = {
 			}
 
 			cfp_oghuz = {
-				index = 245
+				index = 257
 				male = {
 					# low
 					5 = empty
@@ -4200,7 +4400,7 @@ special_genes = {
 			}
 
 			cfp_iranian = {
-				index = 246
+				index = 258
 				male = {
 					1 = empty
 					2 = male_headgear_secular_iranian_cfp_panel_common_01
@@ -4225,7 +4425,7 @@ special_genes = {
 			# CFP African
 
 			cfp_african_nobility = {
-				index = 247
+				index = 259
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_01
 					1 = male_headgear_secular_africa_west_cfp_low_nobility_02
@@ -4247,7 +4447,7 @@ special_genes = {
 			}
 
 			cfp_east_african_nobility = {
-				index = 248
+				index = 260
 				male = {
 					2 = empty
 					1 = male_headgear_secular_africa_east_cfp_high_nobility_01 # high
@@ -4263,7 +4463,7 @@ special_genes = {
 			}
 
 			cfp_east_african_crowns = {
-				index = 249
+				index = 261
 				male = {
 					1 = male_headgear_secular_africa_east_cfp_royalty_01
 					1 = male_headgear_secular_africa_east_cfp_imperial_01
@@ -4277,7 +4477,7 @@ special_genes = {
 			}
 
 			cfp_african_war = {
-				index = 250
+				index = 262
 				male = {
 					1 = male_headgear_secular_africa_west_cfp_helmet_01
 					1 = male_headgear_secular_africa_east_cfp_helmet_01
@@ -4297,7 +4497,7 @@ special_genes = {
 			# India
 
 			cfp_javanese = {
-				index = 251
+				index = 263
 				male = {
 					1 = male_headgear_secular_java_cfp_high_nobility_01
 					1 = male_headgear_secular_java_cfp_royalty_01
@@ -4311,7 +4511,7 @@ special_genes = {
 			}
 
 			cfp_indian = {
-				index = 252
+				index = 264
 				male = {
 				# high
 					1 = male_headgear_secular_indian_cfp_high_nobility_01
@@ -4334,7 +4534,7 @@ special_genes = {
 			# Religious
 
 			cfp_religious = {
-				index = 253
+				index = 265
 				male = {
 					# african
 					2 = male_headgear_religious_african_high_01
@@ -4385,7 +4585,7 @@ special_genes = {
 			# Misc
 
 			cfp_fantasy_witches = {
-				index = 254
+				index = 266
 				male = {
 					1 = male_headgear_fantasy_cfp_wizard_hat_01
 					1 = male_headgear_fantasy_cfp_enchanter_hat_01
@@ -4400,7 +4600,7 @@ special_genes = {
 			}
 
 			cfp_laurel = {
-				index = 255
+				index = 267
 				male = {
 					1 = male_headgear_secular_rre_laurelwreath_01
 					1 = male_headgear_secular_rre_laurelwreath_02
