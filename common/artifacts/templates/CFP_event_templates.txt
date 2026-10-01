@@ -1,7 +1,15 @@
 ﻿cfp_catholic_effigy_template = {
 	can_benefit = {
-		has_religion = religion:christianity_religion
+		christian_artifact_access_trigger = yes
 	}
+
+	is_holy_relic = {
+		OR = {
+			religion = religion:christianity_religion
+			main_rite = { rite_has_parameter = christian_syncretic_actor }
+		}
+	}
+
 	fallback = {
 		monthly_prestige = 0.05
 	}
