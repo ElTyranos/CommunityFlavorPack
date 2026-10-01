@@ -6,8 +6,8 @@ pdxmesh = {
 		name = "cfp_court_papal_wallsShape"
 		index = 0
 		texture_diffuse = "cfp_materials_papal_wall_stucco_01_diffuse.dds"
-		texture_normal = "cfp_materials_papal_wall_stucco_01_normal.dds"
-		texture_specular = "cfp_materials_papal_wall_stucco_01_properties.dds"
+		texture_normal = "pam_papal_stucco_plain_normal.dds"
+		texture_specular = "pam_papal_stucco_plain_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}

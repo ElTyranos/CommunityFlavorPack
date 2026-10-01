@@ -214,9 +214,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "cfp_court_byzantine_me_walls_leftShape"
 		index = 0
-		texture_diffuse = "cfp_materials_norman_wall_stucco_02_diffuse.dds"
-		texture_normal = "cfp_materials_norman_wall_stucco_01_normal.dds"
-		texture_specular = "cfp_materials_norman_wall_stucco_01_properties.dds"
+		texture_diffuse = "pam_papal_stucco_plain_diffuse.dds"
+		texture_normal = "pam_papal_stucco_plain_normal.dds"
+		texture_specular = "pam_papal_stucco_plain_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
@@ -224,8 +224,8 @@ pdxmesh = {
 		name = "cfp_court_byzantine_me_walls_leftShape"
 		index = 1
 		texture_diffuse = "cfp_materials_mena_stucco_02_diffuse.dds"
-		texture_normal = "cfp_materials_norman_wall_stucco_01_normal.dds"
-		texture_specular = "cfp_materials_norman_wall_stucco_01_properties.dds"
+		texture_normal = "pam_papal_stucco_plain_normal.dds"
+		texture_specular = "pam_papal_stucco_plain_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
@@ -270,9 +270,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "cfp_court_byzantine_me_walls_rightShape"
 		index = 0
-		texture_diffuse = "cfp_materials_norman_wall_stucco_02_diffuse.dds"
-		texture_normal = "cfp_materials_norman_wall_stucco_01_normal.dds"
-		texture_specular = "cfp_materials_norman_wall_stucco_01_properties.dds"
+		texture_diffuse = "pam_papal_stucco_plain_diffuse.dds"
+		texture_normal = "pam_papal_stucco_plain_normal.dds"
+		texture_specular = "pam_papal_stucco_plain_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
@@ -280,8 +280,8 @@ pdxmesh = {
 		name = "cfp_court_byzantine_me_walls_rightShape"
 		index = 1
 		texture_diffuse = "cfp_materials_mena_stucco_02_diffuse.dds"
-		texture_normal = "cfp_materials_norman_wall_stucco_01_normal.dds"
-		texture_specular = "cfp_materials_norman_wall_stucco_01_properties.dds"
+		texture_normal = "pam_papal_stucco_plain_normal.dds"
+		texture_specular = "pam_papal_stucco_plain_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
 	}
