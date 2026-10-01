@@ -1,12 +1,12 @@
 ﻿namespace = cfp_compatibility
 
-cfp_compatibility.1 = { # The Catholic Trinity compatibility
-    hidden = yes
-	orphan = yes 
-	immediate = {
-		set_global_variable = {
-			name = Trinity_is_loaded
-			value = yes
-		}
-	}
-}
+# cfp_compatibility.1 = { # The Catholic Trinity compatibility
+    # hidden = yes
+	# orphan = yes 
+	# immediate = {
+		# set_global_variable = {
+			# name = Trinity_is_loaded
+			# value = yes
+		# }
+	# }
+# }
