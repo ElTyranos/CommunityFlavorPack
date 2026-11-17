@@ -241,9 +241,10 @@ cfp_clothes = { # Special group for the ruler designer only. The game expects th
 			modifier = {
 				add = 101
 				exists = this
+				NOT = { has_gdp_dlc_trigger = yes }
 				has_primary_title = title:k_venice
 				NOT = { is_female = yes	}
-				cfp_clothing_no_override_trigger = yes				
+				cfp_clothing_no_override_trigger = yes
 			}
 		}
 	}

@@ -58,6 +58,7 @@
 			base = 0
 			modifier = {
 				add = 1000
+				NOT = { has_gdp_dlc_trigger = yes }
 				has_primary_title = title:k_venice
 			}
 		}
