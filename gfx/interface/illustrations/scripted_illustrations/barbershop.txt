@@ -247,6 +247,150 @@ barbershop_background = {
 	##########################################
 
 	texture = {
+		reference = "event_scenes/gdp_artisans_street_india_crowd.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_india" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_artisans_street_mena_crowd.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_mena" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_artisans_street_asia_crowd.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_asia" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_carnival_background.dds"
+	}
+	environment = {
+		reference = "environment_gdp_carnival_background" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_italian_market_crowd.dds"
+	}
+	environment = {
+		reference = "environment_gdp_italian_market" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_artisans_street_western_crowd.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_western" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_tannery.dds"
+	}
+	environment = {
+		reference = "environment_gdp_tannery" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_smithy_workshop.dds"
+	}
+	environment = {
+		reference = "environment_gdp_smithy_workshop" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_merchant_domicile.dds"
+	}
+	environment = {
+		reference = "environment_gdp_merchant_domicile" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_mena_merchant_domicile.dds"
+	}
+	environment = {
+		reference = "environment_gdp_mena_merchant_domicile" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_italian_market.dds"
+	}
+	environment = {
+		reference = "environment_gdp_italian_market" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_carpentry_workshop.dds"
+	}
+	environment = {
+		reference = "environment_gdp_carpentry_workshop" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_artisans_street_western.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_western" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_artisans_street_mena.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_mena" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_artisans_street_india.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_india" 
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/gdp_artisans_street_asia.dds"
+	}
+	environment = {
+		reference = "environment_gdp_artisans_street_asia" 
+	}
+
+	##########################################
+
+	texture = {
 		reference = "event_scenes/pam_gothic_cathedral_interior.dds"
 	}
 	environment = {

@@ -225,6 +225,9 @@ special_genes = {
 					1 = f_hair_tgp_sea_03
 					1 = f_hair_tgp_sea_03_common
 					1 = f_hair_tgp_sea_04
+
+					#GDP
+					1 = f_hair_gdp_western_01
 				}
 				boy = male
 				girl = female
@@ -1983,9 +1986,22 @@ special_genes = {
 				girl = female
 			}
 
+			### GDP ###
+
+			gdp_western_hairstyles = {
+				index = 87
+				male = {
+				}
+				female = {
+					1 = f_hair_gdp_western_01
+				}
+				boy = male
+				girl = female
+			}
+
 			# Thea vanity char special
 			female_hair_fp1_special = {
-				index = 87
+				index = 88
 				male = {
 				}
 				female = {
@@ -2000,7 +2016,7 @@ special_genes = {
 			########################################
 			
 			cfp_western_hairstyles_aging = {
-				index = 88
+				index = 99 #100 is used by legacy hairstyles
 				male = {
 					1 = bald
 					1 = male_hair_western_10
@@ -2016,7 +2032,7 @@ special_genes = {
 			}
 			
 			cfp_slavic_hairstyles_warrior = {
-				index = 89
+				index = 101
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07
@@ -2037,7 +2053,7 @@ special_genes = {
 			}
 			
 			cfp_hungarian_hairstyles_warrior = {
-				index = 90
+				index = 102
 				male = {
 					5 = male_hair_western_04
 					5 = male_hair_western_07

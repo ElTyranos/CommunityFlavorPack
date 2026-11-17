@@ -1291,6 +1291,38 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			gdp_western_face_mask = {
+				index = 8
+				male = {
+					1 = m_headgear_sec_gdp_western_face_mask_01_a
+					1 = m_headgear_sec_gdp_western_face_mask_01_b
+					1 = m_headgear_sec_gdp_western_face_mask_01_c
+					1 = m_headgear_sec_gdp_western_face_mask_01_d
+					1 = m_headgear_sec_gdp_western_face_mask_01_e
+				}
+				female = {
+					1 = f_headgear_sec_gdp_western_face_mask_01_a
+					1 = f_headgear_sec_gdp_western_face_mask_01_b
+					1 = f_headgear_sec_gdp_western_face_mask_01_c
+					1 = f_headgear_sec_gdp_western_face_mask_01_d
+					1 = f_headgear_sec_gdp_western_face_mask_01_e
+				}
+				boy = male
+				girl = female
+			}
+			
+			gdp_western_face_mask_gold = {
+				index = 9
+				male = {
+					1 = m_headgear_sec_gdp_western_face_mask_01_f
+				}
+				female = {
+					1 = f_headgear_sec_gdp_western_face_mask_01_f
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 		special_headgear_spectacles = {
