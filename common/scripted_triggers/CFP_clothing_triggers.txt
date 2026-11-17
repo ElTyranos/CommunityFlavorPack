@@ -138,21 +138,15 @@ portrait_cfp_slavic_clothing_spouse_trigger = {
 
 ## WESTERN
 portrait_cfp_latin_clothing_trigger = {
-	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = latin }
-	NOT = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = afr_berber
-		}
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = italian
 	}
 }
 portrait_cfp_latin_clothing_spouse_trigger = {
-	cfp_clothing_heritage_trigger = { HERITAGE_FLAG = latin }
-	NOT = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = afr_berber
-		}
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = italian
 	}
 }
 
